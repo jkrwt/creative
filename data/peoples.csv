@@ -701,117 +701,6 @@ libya,Libya,polity,,no,maghreb,
 tunisia,Tunisia,polity,,no,maghreb,
 algeria,Algeria,polity,,no,maghreb,
 morocco,Morocco,polity,,no,maghreb,
-western-desert-languages,Western Desert languages,language,pama,no,australia,
-arandic-languages,Arandic languages,language,pama,no,australia,
-ngumpin-yapa-languages,Ngumpin-Yapa languages,language,pama,no,australia,
-yolngu-matha,Yolŋu Matha,language,pama,no,australia,
-pilbara-languages,Pilbara and Gascoyne languages,language,pama,no,australia,
-southwest-languages,Noongar and south-west languages,language,pama,no,australia,
-thura-yura-languages,Thura-Yura languages,language,pama,no,australia,
-southeast-languages,Languages of the south-east,language,pama,no,australia,
-karnic-languages,Karnic languages,language,pama,no,australia,
-queensland-languages,Queensland languages,language,pama,no,australia,
-paman-languages,Cape York languages,language,pama,no,australia,
-kala-lagaw-ya,Kala Lagaw Ya,language,pama,no,australia,
-meriam-mir,Meriam Mir,language,papother,no,australia,
-arnhem-languages,Arnhem Land languages,language,ausnp,no,australia,
-daly-languages,Daly and Darwin languages,language,ausnp,no,australia,
-tiwi-language,Tiwi,language,ausnp,no,australia,
-nyulnyulan-languages,Nyulnyulan languages,language,ausnp,no,australia,
-kimberley-languages,Kimberley languages,language,ausnp,no,australia,
-mirndi-gulf-languages,Barkly and Gulf languages,language,ausnp,no,australia,
-tasmanian-languages,Tasmanian languages,language,tasm,no,australia,
-english-australia,English,language,eng,no,australia,
-kriol,Kriol,language,eng,no,australia,
-tng-west-highlands,Western highlands languages,language,tng,no,papua,
-tng-east-highlands,Eastern highlands languages,language,tng,no,papua,
-tng-south-lowlands,"Asmat, Awyu and Ok languages",language,tng,no,papua,
-tng-papuan-peninsula,Papuan peninsula languages,language,tng,no,papua,
-sepik-ramu-languages,Sepik and Ramu languages,language,papother,no,papua,
-north-papuan-languages,North New Guinea languages,language,papother,no,papua,
-birds-head-languages,Bird's Head languages,language,papother,no,papua,
-south-papuan-languages,Southern New Guinea languages,language,papother,no,papua,
-cenderawasih-languages,Cenderawasih Bay languages,language,oceanic,no,papua,
-aru-kei-languages,"Aru, Kei and Tanimbar languages",language,malayic,no,papua,
-oceanic-bismarck,Oceanic languages of the Bismarcks,language,oceanic,no,papua,
-island-papuan-languages,Papuan languages of the islands,language,papother,no,papua,
-oceanic-papuan-tip,Oceanic languages of the south-east,language,oceanic,no,papua,
-oceanic-north-coast,Oceanic languages of the north coast,language,oceanic,no,papua,
-malay-newguinea,Malay and Indonesian,language,malayic,no,papua,
-tok-pisin,Tok Pisin,language,eng,no,papua,
-eora,Eora,people,pama,yes,australia,aus-southeast
-wiradjuri,Wiradjuri,people,pama,yes,australia,aus-southeast
-kamilaroi,Kamilaroi,people,pama,yes,australia,aus-southeast
-kulin,Kulin,people,pama,yes,australia,aus-southeast
-gunditjmara,Gunditjmara,people,pama,yes,australia,aus-southeast
-yorta-yorta,Yorta Yorta,people,pama,yes,australia,aus-southeast
-bundjalung,Bundjalung,people,pama,yes,australia,aus-southeast
-ngarrindjeri,Ngarrindjeri,people,pama,yes,australia,aus-southeast
-kaurna,Kaurna,people,pama,yes,australia,aus-southeast
-barkindji,Barkindji,people,pama,yes,australia,aus-southeast
-noongar,Noongar,people,pama,yes,australia,aus-west
-yamatji,Yamatji,people,pama,yes,australia,aus-west
-yindjibarndi,Yindjibarndi,people,pama,yes,australia,aus-west
-pitjantjatjara,Pitjantjatjara,people,pama,yes,australia,aus-desert
-martu,Martu,people,pama,yes,australia,aus-desert
-arrernte,Arrernte,people,pama,yes,australia,aus-desert
-warlpiri,Warlpiri,people,pama,yes,australia,aus-desert
-diyari,Diyari,people,pama,yes,australia,aus-desert
-yolngu,Yolŋu,people,pama,yes,australia,aus-north
-bininj,Bininj,people,ausnp,yes,australia,aus-north
-tiwi,Tiwi,people,ausnp,yes,australia,aus-north
-larrakia,Larrakia,people,ausnp,yes,australia,aus-north
-gurindji,Gurindji,people,pama,yes,australia,aus-north
-yawuru,Yawuru,people,ausnp,yes,australia,aus-north
-bunuba,Bunuba,people,ausnp,yes,australia,aus-north
-kuku-yalanji,Kuku Yalanji,people,pama,yes,australia,aus-queensland
-guugu-yimithirr,Guugu Yimithirr,people,pama,yes,australia,aus-queensland
-wik,Wik,people,pama,yes,australia,aus-queensland
-kalkadoon,Kalkadoon,people,pama,yes,australia,aus-queensland
-yuggera,Yuggera,people,pama,yes,australia,aus-queensland
-bidjara,Bidjara,people,pama,yes,australia,aus-queensland
-palawa,Palawa,people,tasm,no,australia,aus-tasmania
-cape-barren-islanders,Bass Strait Islanders,people,tasm,yes,australia,aus-tasmania
-maluilgal,Maluilgal,people,pama,yes,australia,torres-strait
-meriam,Meriam,people,papother,yes,australia,torres-strait
-enga,Enga,people,tng,yes,papua,ng-highlands
-huli,Huli,people,tng,yes,papua,ng-highlands
-melpa,Melpa,people,tng,yes,papua,ng-highlands
-chimbu,Chimbu,people,tng,yes,papua,ng-highlands
-dani,Dani,people,tng,yes,papua,ng-highlands
-mee,Mee,people,tng,yes,papua,ng-highlands
-iatmul,Iatmul,people,papother,yes,papua,ng-sepik-north
-abelam,Abelam,people,papother,yes,papua,ng-sepik-north
-biak,Biak,people,oceanic,yes,papua,ng-sepik-north
-arfak-peoples,Arfak peoples,people,papother,yes,papua,ng-sepik-north
-asmat,Asmat,people,tng,yes,papua,ng-papuan-coasts
-marind,Marind,people,papother,yes,papua,ng-papuan-coasts
-kiwai,Kiwai,people,papother,yes,papua,ng-papuan-coasts
-motu,Motu,people,oceanic,yes,papua,ng-papuan-coasts
-mekeo,Mekeo,people,oceanic,yes,papua,ng-papuan-coasts
-orokaiva,Orokaiva,people,tng,yes,papua,ng-papuan-coasts
-post-lapita-bismarcks,Post-Lapita societies,people,oceanic,yes,papua,ng-islands
-tolai,Tolai,people,oceanic,yes,papua,ng-islands
-trobriand-islanders,Trobriand Islanders,people,oceanic,yes,papua,ng-islands
-manus-islanders,Manus Islanders,people,oceanic,yes,papua,ng-islands
-nasioi,Nasioi,people,papother,yes,papua,ng-islands
-makassan-trepangers,Makassan trepangers,people,malayic,no,australia,
-tidore-papuan-coast,Tidore's Papuan coast,polity,,no,papua,
-new-south-wales-colony,New South Wales,polity,eng,no,australia,
-van-diemens-land,Van Diemen's Land,polity,eng,no,australia,
-western-australia-colony,Western Australia,polity,eng,no,australia,
-south-australia-colony,South Australia,polity,eng,no,australia,
-victoria-colony,Victoria,polity,eng,no,australia,
-queensland-colony,Queensland,polity,eng,no,australia,
-commonwealth-of-australia,Australia,polity,eng,no,australia,
-dutch-new-guinea,Dutch New Guinea,polity,wgerm,no,papua,
-german-new-guinea,German New Guinea,polity,wgerm,no,papua,
-british-new-guinea,British New Guinea,polity,eng,no,papua,
-territory-of-papua,Territory of Papua,polity,eng,no,papua,
-territory-of-new-guinea,Territory of New Guinea,polity,eng,no,papua,
-papua-and-new-guinea,Papua and New Guinea,polity,eng,no,papua,
-papua-new-guinea,Papua New Guinea,polity,eng,no,papua,
-indonesian-papua,Papua (Indonesia),polity,malayic,no,papua,
 sami-far-north,Sami,language,finnic,no,north+east,
 vistula-germanic,East Germanic of the Vistula,language,egerm,yes,central,
 early-slavic-vistula,Early Slavic (Vistula and Oder),language,slavw,no,central,
@@ -1917,3 +1806,113 @@ epi-jomon,Epi-Jomon culture,people,ainu,yes,japan,emishi-ainu
 emishi,Emishi,people,ainu,yes,japan,emishi-ainu
 okhotsk-culture,Okhotsk culture,people,paleosib,yes,japan+esiberia,emishi-ainu
 ainu,Ainu,people,ainu,no,japan+esiberia,emishi-ainu
+western-desert-languages,Western Desert languages,language,pama,no,australia,
+arandic-languages,Arandic languages,language,pama,no,australia,
+ngumpin-yapa-languages,Ngumpin-Yapa languages,language,pama,no,australia,
+yolngu-matha,Yolŋu Matha,language,pama,no,australia,
+pilbara-languages,Pilbara and Gascoyne languages,language,pama,no,australia,
+southwest-languages,Noongar and south-west languages,language,pama,no,australia,
+thura-yura-languages,Thura-Yura languages,language,pama,no,australia,
+southeast-languages,Languages of the south-east,language,pama,no,australia,
+karnic-languages,Karnic languages,language,pama,no,australia,
+queensland-languages,Queensland languages,language,pama,no,australia,
+paman-languages,Cape York languages,language,pama,no,australia,
+kala-lagaw-ya,Kala Lagaw Ya,language,pama,no,australia,
+meriam-mir,Meriam Mir,language,papother,no,australia,
+arnhem-languages,Arnhem Land languages,language,ausnp,no,australia,
+daly-languages,Daly and Darwin languages,language,ausnp,no,australia,
+tiwi-language,Tiwi,language,ausnp,no,australia,
+nyulnyulan-languages,Nyulnyulan languages,language,ausnp,no,australia,
+kimberley-languages,Kimberley languages,language,ausnp,no,australia,
+mirndi-gulf-languages,Barkly and Gulf languages,language,ausnp,no,australia,
+tasmanian-languages,Tasmanian languages,language,tasm,no,australia,
+english-australia,English,language,eng,no,australia,
+kriol,Kriol,language,eng,no,australia,
+tng-west-highlands,Western highlands languages,language,tng,no,papua,
+tng-east-highlands,Eastern highlands languages,language,tng,no,papua,
+tng-south-lowlands,"Asmat, Awyu and Ok languages",language,tng,no,papua,
+tng-papuan-peninsula,Papuan peninsula languages,language,tng,no,papua,
+sepik-ramu-languages,Sepik and Ramu languages,language,papother,no,papua,
+north-papuan-languages,North New Guinea languages,language,papother,no,papua,
+birds-head-languages,Bird's Head languages,language,papother,no,papua,
+south-papuan-languages,Southern New Guinea languages,language,papother,no,papua,
+cenderawasih-languages,Cenderawasih Bay languages,language,oceanic,no,papua,
+aru-kei-languages,"Aru, Kei and Tanimbar languages",language,malayic,no,papua,
+oceanic-bismarck,Oceanic languages of the Bismarcks,language,oceanic,no,papua,
+island-papuan-languages,Papuan languages of the islands,language,papother,no,papua,
+oceanic-papuan-tip,Oceanic languages of the south-east,language,oceanic,no,papua,
+oceanic-north-coast,Oceanic languages of the north coast,language,oceanic,no,papua,
+malay-newguinea,Malay and Indonesian,language,malayic,no,papua,
+tok-pisin,Tok Pisin,language,eng,no,papua,
+eora,Eora,people,pama,yes,australia,aus-southeast
+wiradjuri,Wiradjuri,people,pama,yes,australia,aus-southeast
+kamilaroi,Kamilaroi,people,pama,yes,australia,aus-southeast
+kulin,Kulin,people,pama,yes,australia,aus-southeast
+gunditjmara,Gunditjmara,people,pama,yes,australia,aus-southeast
+yorta-yorta,Yorta Yorta,people,pama,yes,australia,aus-southeast
+bundjalung,Bundjalung,people,pama,yes,australia,aus-southeast
+ngarrindjeri,Ngarrindjeri,people,pama,yes,australia,aus-southeast
+kaurna,Kaurna,people,pama,yes,australia,aus-southeast
+barkindji,Barkandji,people,pama,yes,australia,aus-southeast
+noongar,Noongar,people,pama,yes,australia,aus-west
+yamatji,Yamatji,people,pama,yes,australia,aus-west
+yindjibarndi,Yindjibarndi,people,pama,yes,australia,aus-west
+pitjantjatjara,Pitjantjatjara,people,pama,yes,australia,aus-desert
+martu,Martu,people,pama,yes,australia,aus-desert
+arrernte,Arrernte,people,pama,yes,australia,aus-desert
+warlpiri,Warlpiri,people,pama,yes,australia,aus-desert
+diyari,Diyari,people,pama,yes,australia,aus-desert
+yolngu,Yolŋu,people,pama,yes,australia,aus-north
+bininj,Bininj,people,ausnp,yes,australia,aus-north
+tiwi,Tiwi,people,ausnp,yes,australia,aus-north
+larrakia,Larrakia,people,ausnp,yes,australia,aus-north
+gurindji,Gurindji,people,pama,yes,australia,aus-north
+yawuru,Yawuru,people,ausnp,yes,australia,aus-north
+bunuba,Bunuba,people,ausnp,yes,australia,aus-north
+kuku-yalanji,Kuku Yalanji,people,pama,yes,australia,aus-queensland
+guugu-yimithirr,Guugu Yimithirr,people,pama,yes,australia,aus-queensland
+wik,Wik,people,pama,yes,australia,aus-queensland
+kalkadoon,Kalkadoon,people,pama,yes,australia,aus-queensland
+yuggera,Yuggera,people,pama,yes,australia,aus-queensland
+bidjara,Bidjara,people,pama,yes,australia,aus-queensland
+palawa,Palawa,people,tasm,no,australia,aus-southeast
+maluilgal,Maluligal,people,pama,yes,australia,torres-strait
+meriam,Meriam,people,papother,yes,australia,torres-strait
+enga,Enga,people,tng,yes,papua,ng-highlands
+huli,Huli,people,tng,yes,papua,ng-highlands
+melpa,Melpa,people,tng,yes,papua,ng-highlands
+chimbu,Chimbu,people,tng,yes,papua,ng-highlands
+dani,Dani,people,tng,yes,papua,ng-highlands
+mee,Mee,people,tng,yes,papua,ng-highlands
+iatmul,Iatmul,people,papother,yes,papua,ng-sepik-north
+abelam,Abelam,people,papother,yes,papua,ng-sepik-north
+biak,Biak,people,oceanic,yes,papua,ng-sepik-north
+arfak-peoples,Arfak peoples,people,papother,yes,papua,ng-sepik-north
+asmat,Asmat,people,tng,yes,papua,ng-papuan-coasts
+marind,Marind,people,papother,yes,papua,ng-papuan-coasts
+kiwai,Kiwai,people,papother,yes,papua,ng-papuan-coasts
+motu,Motu,people,oceanic,yes,papua,ng-papuan-coasts
+mekeo,Mekeo,people,oceanic,yes,papua,ng-papuan-coasts
+orokaiva,Orokaiva,people,tng,yes,papua,ng-papuan-coasts
+post-lapita-bismarcks,Post-Lapita societies,people,oceanic,yes,papua,ng-islands
+tolai,Tolai,people,oceanic,yes,papua,ng-islands
+trobriand-islanders,Trobriand Islanders,people,oceanic,yes,papua,ng-islands
+manus-islanders,Manus Islanders,people,oceanic,yes,papua,ng-islands
+nasioi,Nasioi,people,papother,yes,papua,ng-islands
+makassan-trepangers,Makassan trepangers,people,malayic,no,australia,
+tidore-papuan-coast,Tidore's Papuan coast,polity,,no,papua,
+new-south-wales-colony,New South Wales,polity,eng,no,australia,
+van-diemens-land,Van Diemen's Land,polity,eng,no,australia,
+western-australia-colony,Western Australia,polity,eng,no,australia,
+south-australia-colony,South Australia,polity,eng,no,australia,
+victoria-colony,Victoria,polity,eng,no,australia,
+queensland-colony,Queensland,polity,eng,no,australia,
+commonwealth-of-australia,Australia,polity,eng,no,australia,
+dutch-new-guinea,Dutch New Guinea,polity,wgerm,no,papua,
+german-new-guinea,German New Guinea,polity,wgerm,no,papua,
+british-new-guinea,British New Guinea,polity,eng,no,papua,
+territory-of-papua,Territory of Papua,polity,eng,no,papua,
+territory-of-new-guinea,Territory of New Guinea,polity,eng,no,papua,
+papua-and-new-guinea,Papua and New Guinea,polity,eng,no,papua,
+papua-new-guinea,Papua New Guinea,polity,eng,no,papua,
+indonesian-papua,Papua (Indonesia),polity,malayic,no,papua,

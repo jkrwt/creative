@@ -33,22 +33,6 @@ seljuks-of-rum,karamanids,continues,1308,arabic-histories-east,The beyliks divid
 saudi-emirates,saudi-arabia,continues,1902,acts-treaties,,seed
 alaouite-sultanate,morocco,continues,1956,acts-treaties,The same ruling house.,seed
 ayyubids,mamluks,continues,1250,arabic-histories-east,The Mamluks were the Ayyubid sultan's own slave regiment.,seed
-van-diemens-land,new-south-wales-colony,split-from,1825,acts-treaties,Van Diemen's Land became a separate colony.,seed
-victoria-colony,new-south-wales-colony,split-from,1851,acts-treaties,,seed
-queensland-colony,new-south-wales-colony,split-from,1859,acts-treaties,,seed
-new-south-wales-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
-victoria-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
-queensland-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
-south-australia-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
-western-australia-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
-van-diemens-land,commonwealth-of-australia,merged-into,1901,acts-treaties,"Federation, as Tasmania.",seed
-british-new-guinea,territory-of-papua,continues,1906,acts-treaties,Passed from Britain to Australia.,seed
-german-new-guinea,territory-of-new-guinea,continues,1914,acts-treaties,Occupied by Australia in 1914.,seed
-territory-of-papua,papua-and-new-guinea,merged-into,1949,acts-treaties,,seed
-territory-of-new-guinea,papua-and-new-guinea,merged-into,1949,acts-treaties,,seed
-papua-and-new-guinea,papua-new-guinea,continues,1975,acts-treaties,Independence.,seed
-dutch-new-guinea,indonesian-papua,absorbed-by,1963,acts-treaties,Transferred through a United Nations interim administration. The transfer is contested by an independence movement.,seed
-cape-barren-islanders,palawa,split-from,1810,mission-protectorate-records,The island community grew from Palawa women and sealers and is the main line of descent of Palawa today.,seed
 preclassic-maya,classic-maya,continues,250,maya-inscriptions,The same cities and dynasties.,seed
 classic-maya,yucatan-maya,continues,900,americas-archaeology,Power moved to the northern lowlands as the southern cities emptied.,seed
 mexica,nahua,continues,1521,florentine-codex,The Nahua towns lived on under Spanish rule.,seed
@@ -189,3 +173,18 @@ epi-jomon,ainu,continues,1200,eastasia-archaeology,Through the Satsumon culture 
 cao-wei,jin-dynasty,continues,266,sanguozhi,The Sima family took the throne of Wei.,seed
 northern-wei,northern-qi,split-from,534,weishu,,seed
 northern-wei,northern-zhou,split-from,535,weishu,,seed
+van-diemens-land,new-south-wales-colony,split-from,1825,acts-treaties,Van Diemen's Land became a separate colony.,seed
+victoria-colony,new-south-wales-colony,split-from,1851,acts-treaties,,seed
+queensland-colony,new-south-wales-colony,split-from,1859,acts-treaties,,seed
+new-south-wales-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+victoria-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+queensland-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+south-australia-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+western-australia-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+van-diemens-land,commonwealth-of-australia,merged-into,1901,acts-treaties,"Federation, as Tasmania.",seed
+british-new-guinea,territory-of-papua,continues,1906,acts-treaties,Passed from Britain to Australia.,seed
+german-new-guinea,territory-of-new-guinea,continues,1914,acts-treaties,Occupied by Australia in 1914.,seed
+territory-of-papua,papua-and-new-guinea,merged-into,1949,acts-treaties,,seed
+territory-of-new-guinea,papua-and-new-guinea,merged-into,1949,acts-treaties,,seed
+papua-and-new-guinea,papua-new-guinea,continues,1975,acts-treaties,Independence.,seed
+dutch-new-guinea,indonesian-papua,absorbed-by,1963,acts-treaties,Transferred through a United Nations interim administration. The transfer is contested by an independence movement.,seed

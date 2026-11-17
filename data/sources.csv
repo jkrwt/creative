@@ -62,22 +62,6 @@ sharafnama,"Sharaf Khan Bidlisi, Sharafnama",text,1597,no,,"A history of the Kur
 census-neareast,"Modern censuses and language surveys of the Near East, the Caucasus and North Africa",census,1880s onward,yes,,Bucket. A checked claim cites the census year and table.
 islendingabok,"Ari Thorgilsson, Book of the Icelanders (Islendingabok)",text,about 1125,no,,Dates the settlement of Iceland to about 870.
 canarian-chronicles,Le Canarien and the Castilian chronicles of the conquest of the Canary Islands,text,15th century,yes,,Bucket. Written by the conquerors.
-archaeology-sahul,Archaeology of Australia and New Guinea,modern-study,20th and 21st centuries,yes,,"Bucket. Excavated sites, dated remains and worked landscapes. It shows that people were present and how they lived, and it does not give the names of peoples or languages."
-aus-papuan-linguistics,Historical linguistics of Australian and Papuan languages,modern-study,20th and 21st centuries,yes,,Bucket. Language families reconstructed from languages recorded since about 1788. Early positions are projected back and are not observed.
-oral-tradition-songlines,"Oral tradition, songlines and community histories",text,recorded mainly since the 19th century,yes,,"Bucket. Spoken and sung knowledge held by the peoples themselves, tying each people to its country. It is evidence of belonging and of events within some generations, and it carries no calendar dates."
-dutch-voyagers,"Journals of Dutch voyagers: Jansz, Carstensz, Tasman and others",text,1606 to 1705,yes,,Bucket. Brief meetings on the coast. The peoples met are not named.
-dampier-voyage,"William Dampier, A New Voyage Round the World",text,1697,no,,Describes a stay on the Kimberley coast in 1688.
-flinders-voyage,"Matthew Flinders, A Voyage to Terra Australis",text,1814,no,,"The circumnavigation of 1801 to 1803, with the meeting with a Makassan fleet off Arnhem Land."
-tench,"Watkin Tench, narratives of Botany Bay and Port Jackson",text,1789 and 1793,no,,
-collins,"David Collins, An Account of the English Colony in New South Wales",text,1798,no,,
-dawes-notebooks,"William Dawes, notebooks on the language of Sydney",text,about 1790,no,,"The first written record of an Australian language, made with the help of Patyegarang."
-explorers-settlers-journals,"Journals of explorers, surveyors and settlers",text,1788 to about 1940,yes,,"Bucket. Outsiders' accounts, often the first writing to name a people, and often written during dispossession."
-mission-protectorate-records,"Mission, protectorate and colonial administration records",record,1820s to 1970s,yes,,"Bucket. Records of missions, protectors and colonial offices in Australia and New Guinea. They name peoples and places and reflect the views of those who controlled them."
-patrol-reports,Patrol reports of the Australian administration in Papua and New Guinea,record,1900s to 1975,yes,,"Bucket. Reports by patrol officers, in many districts the first written record."
-miklouho-maclay,"Nikolai Miklouho-Maclay, New Guinea diaries",text,1871 to 1883,no,,A Russian naturalist's stays on Astrolabe Bay.
-malinowski,"Bronisław Malinowski, Argonauts of the Western Pacific",text,1922,no,,Fieldwork in the Trobriand Islands from 1915 to 1918.
-native-title,Native title determinations and land rights claims,record,1976 onward,yes,,Bucket. A legal record of present-day recognition by Australian courts. It shows who is recognised today and is not a map of the past.
-australian-census,Census of Australia,census,1911 onward,no,,Aboriginal people were fully counted only from 1971.
 americas-archaeology,Archaeology of the Americas,modern-study,various,yes,,"Bucket. Excavation and survey, dated by radiocarbon. It shows cultures and settlements, not languages. A checked claim cites the study."
 americas-oral-tradition,Oral tradition of the peoples of the Americas,text,recorded from the 16th century onward,yes,,"Bucket. Histories kept by the peoples themselves and written down later. Evidence of memory and identity, with dates that are hard to fix."
 iberian-chroniclers,Spanish and Portuguese chroniclers and colonial reports of the Americas,text,1493 onward,yes,,Bucket. A checked claim cites the work and chapter.
@@ -139,7 +123,6 @@ tome-pires,"Tome Pires, Suma Oriental",text,1512 to 1515,no,,Written at Malacca 
 pigafetta,"Antonio Pigafetta, account of Magellan's voyage",text,about 1524,no,,"Eyewitness of the Marianas, the Visayas, Brunei and Tidore in 1521."
 spanish-philippine-chronicles,Spanish chroniclers and mission records of the Philippines and the Marianas,text,1565 to 19th century,yes,,Bucket. A checked claim cites the author and work.
 voc-records,Records of the Dutch East India Company and the Dutch colonial government,record,1602 to 1949,yes,,Bucket. A checked claim cites the document.
-cook-journals,Journals of James Cook's three voyages,text,1768 to 1779,no,,"The first long written accounts of Tahiti, New Zealand, Tonga, Hawaii and other islands."
 european-voyagers,Journals of European voyagers in the Pacific and Indian Oceans,text,1521 to 19th century,yes,,"Bucket. Mendaña, Quirós, Tasman, Roggeveen, Wallis, Bougainville and others. Most early visits were brief."
 missionary-records,"Missionary records, grammars and dictionaries",text,17th to 20th century,yes,,Bucket. Often the first written record of a language.
 polynesian-oral-tradition,Oral traditions and genealogies of Pacific and Malagasy peoples,text,recorded in writing from the 19th century,yes,,"Bucket. Spoken tradition written down long after the events. It gives names and sequences, and dates counted from generations are estimates."
@@ -221,3 +204,20 @@ joseon-sillok,Veritable Records of the Joseon Dynasty,record,1392 to 1910,no,,Ci
 ryukyu-records,Records of the Ryukyu Kingdom,record,15th to 19th century,yes,,"Bucket. Rekidai Hoan, Chuzan Seikan and Omoro Soshi. A checked claim cites the work."
 eastasia-censuses,"Modern censuses of China, Japan, Korea, Mongolia and Russia",census,1897 onward,yes,,Bucket. A checked claim cites the census year and table.
 eastasia-archaeology,Archaeological surveys of East Asia and eastern Siberia,modern-study,various,yes,,Bucket. A checked claim cites the study and site.
+archaeology-sahul,Archaeology of Australia and New Guinea,modern-study,20th and 21st centuries,yes,,"Bucket. Excavated sites, dated remains and worked landscapes. It shows that people were present and how they lived, and it does not give the names of peoples or languages."
+aus-papuan-linguistics,Historical linguistics of Australian and Papuan languages,modern-study,20th and 21st centuries,yes,,Bucket. Language families reconstructed from languages recorded since about 1788. Early positions are projected back and are not observed.
+oral-tradition-songlines,"Oral tradition, songlines and community histories",text,recorded mainly since the 19th century,yes,,"Bucket. Spoken and sung knowledge held by the peoples themselves, tying each people to its country. It is evidence of belonging and of events within some generations, and it carries no calendar dates."
+dutch-voyagers,"Journals of Dutch voyagers: Jansz, Carstensz, Tasman and others",text,1606 to 1705,yes,,Bucket. Brief meetings on the coast. The peoples met are not named.
+dampier-voyage,"William Dampier, A New Voyage Round the World",text,1697,no,,Describes a stay on the Kimberley coast in 1688.
+cook-journals,Journals of James Cook's three voyages,text,1768 to 1779,no,,"The first long written accounts of Tahiti, New Zealand, Tonga, Hawaii and other islands."
+flinders-voyage,"Matthew Flinders, A Voyage to Terra Australis",text,1814,no,,"The circumnavigation of 1801 to 1803, with the meeting with a Makassan fleet off Arnhem Land."
+tench,"Watkin Tench, narratives of Botany Bay and Port Jackson",text,1789 and 1793,no,,
+collins,"David Collins, An Account of the English Colony in New South Wales",text,1798,no,,
+dawes-notebooks,"William Dawes, notebooks on the language of Sydney",text,about 1790,no,,"The first written record of an Australian language, made with the help of Patyegarang."
+explorers-settlers-journals,"Journals of explorers, surveyors and settlers",text,1788 to about 1940,yes,,"Bucket. Outsiders' accounts, often the first writing to name a people, and often written during dispossession."
+mission-protectorate-records,"Mission, protectorate and colonial administration records",record,1820s to 1970s,yes,,"Bucket. Records of missions, protectors and colonial offices in Australia and New Guinea. They name peoples and places and reflect the views of those who controlled them."
+patrol-reports,Patrol reports of the Australian administration in Papua and New Guinea,record,1900s to 1975,yes,,"Bucket. Reports by patrol officers, in many districts the first written record."
+miklouho-maclay,"Nikolai Miklouho-Maclay, New Guinea diaries",text,1871 to 1883,no,,A Russian naturalist's stays on Astrolabe Bay.
+malinowski,"Bronisław Malinowski, Argonauts of the Western Pacific",text,1922,no,,Fieldwork in the Trobriand Islands from 1915 to 1918.
+native-title,Native title determinations and land rights claims,record,1976 onward,yes,,Bucket. A legal record of present-day recognition by Australian courts. It shows who is recognised today and is not a map of the past.
+australian-census,Census of Australia,census,1911 onward,no,,Aboriginal people were fully counted only from 1971.
