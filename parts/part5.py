@@ -444,17 +444,9 @@
    ("kachin-jingpho", "Kachin (Jingpho)", "people", "tbother", "no", "burma", "seasia-hill-peoples", [
      (97.3, 25.8, 220, 1750, 2026, 1, "a", "seasia-pacific-censuses", "Kachin is the outside name for the Jingpho and their neighbours, who spread south through these hills in recent centuries."),
    ]),
-   ("wa-people", "Wa", "people", "aaother", "no", "burma", "seasia-hill-peoples", [
-     (99.0, 22.6, 100, 1700, 2026, 1, "r", "linguistic-geography;seasia-pacific-censuses", "An Austroasiatic people of the hills east of the Salween, there before the Shan."),
-   ]),
    ("hmong-seasia", "Hmong", "people", "hmong", "no", "indochina", "seasia-hill-peoples", [
-     (103.3, 20.0, 220, 1810, 2026, 1, "a", "seasia-pacific-censuses", "Hmong families moved from southern China onto the high ridges of Vietnam and Laos from about 1800. Miao and Meo are outside names."),
-   ]),
-   ("iu-mien", "Iu Mien", "people", "hmong", "no", "indochina", "seasia-hill-peoples", [
-     (101.6, 20.1, 150, 1800, 2026, 1, "a", "seasia-pacific-censuses", "Called Yao by outsiders. They came south from China in the 18th and 19th centuries."),
-   ]),
-   ("khmu-people", "Khmu", "people", "aaother", "no", "indochina", "seasia-hill-peoples", [
-     (102.0, 20.3, 150, 1350, 2026, 1, "r", "thai-chronicles;linguistic-geography", "The older people of northern Laos, whom Lao tradition remembers as the first owners of the land."),
+     (103.3, 20.0, 220, 1810, 1860, 0, "r", "linguistic-geography;polynesian-oral-tradition", "Hmong families moved from southern China onto the high ridges of Vietnam and Laos between about 1790 and the 1860s. Their own tradition and later accounts are the evidence for the first decades."),
+     (103.3, 20.0, 220, 1860, 2026, 1, "a", "seasia-pacific-censuses", "Recorded by French officers and in colonial counts from the later 19th century. Miao and Meo are outside names."),
    ]),
    ("highlanders-jarai", "Jarai, Rade and Bahnar", "people", "cham", "no", "indochina", "seasia-hill-peoples", [
      (108.1, 13.5, 150, 1600, 2026, 1, "r", "linguistic-geography;seasia-pacific-censuses", "Peoples of the central highlands of Vietnam, whom French writers called Montagnards. Jarai and Rade speak Chamic languages and Bahnar an Austroasiatic one."),
@@ -465,9 +457,6 @@
    # ---------------------------------------------------------------- peoples: Tai
    ("tay-nung", "Tày and Nùng", "people", "tai", "no", "indochina", "tai-peoples", [
      (106.0, 22.4, 110, 1, 2026, 1, "r", "linguistic-geography;dai-viet-chronicle", "Tai speakers of the hills north of the Red River delta, kin of the Zhuang across the border. Named in Vietnamese annals from the 11th century."),
-   ]),
-   ("tai-dam", "Tai Dam", "people", "tai", "no", "indochina", "tai-peoples", [
-     (103.6, 21.5, 130, 1000, 1954, 0, "r", "thai-chronicles;linguistic-geography", "The Black Tai of the Black River valleys and their league of small domains, the Sip Song Chau Tai. Their own chronicles are late."),
    ]),
    ("shan-states", "Shan states", "people", "tai", "no", "burma", "tai-peoples", [
      (97.8, 21.5, 250, 1300, 1959, 0, "a", "burmese-chronicles", "Small Tai principalities under hereditary lords, tributary to Burma for most of their history until the lords gave up their powers in 1959. The Shan call themselves Tai Yai."),
@@ -591,15 +580,10 @@
    ("sulu", "Sulu", "people", "philip", "no", "philippines+borneo", "eastern-sultanates", [
      (121.0, 6.0, 250, 1450, 1915, 0, "a", "spanish-philippine-chronicles", "A Tausug sultanate at Jolo, founded about 1450, strong at sea in the 18th century. Its old claim to eastern Sabah is still disputed between the Philippines and Malaysia."),
    ]),
-   ("maguindanao", "Maguindanao", "people", "philip", "no", "philippines", "eastern-sultanates", [
-     (124.3, 7.2, 180, 1515, 1888, 0, "a", "spanish-philippine-chronicles", "A sultanate of the Pulangi river in Mindanao, strongest under Kudarat in the 17th century."),
-   ]),
    ("ternate", "Ternate", "people", "papother", "no", "eindonesia", "eastern-sultanates", [
-     (127.4, 0.8, 300, 1486, 1683, 0, "a", "tome-pires;voc-records", "A clove island whose sultans claimed islands from Sulawesi to the Papuan coast. Its language is Papuan, and tradition puts its first king in 1257."),
+     (127.4, 0.8, 300, 1486, 1512, 0, "r", "polynesian-oral-tradition", "Zainal Abidin, by tradition the first ruler to take the title of sultan, reigned from 1486. Tradition puts the first king in 1257, and nothing written at the time survives."),
+     (127.4, 0.8, 300, 1512, 1683, 0, "a", "tome-pires;voc-records", "A clove island whose sultans claimed islands from Sulawesi to the Papuan coast, described by the Portuguese from 1512. Its language is Papuan, and Tidore across the strait was its twin and rival."),
      (127.4, 0.8, 120, 1683, 1914, 0, "a", "voc-records", "A Dutch vassal from 1683."),
-   ]),
-   ("tidore", "Tidore", "people", "papother", "no", "eindonesia", "eastern-sultanates", [
-     (127.9, 0.2, 220, 1450, 1905, 0, "a", "pigafetta;voc-records", "Ternate's twin and rival, with claims over Halmahera and the Papuan islands. Magellan's ships loaded cloves here in 1521."),
    ]),
    ("gowa", "Gowa (Makassar)", "people", "malayic", "no", "eindonesia", "eastern-sultanates", [
      (119.45, -5.2, 250, 1530, 1669, 0, "a", "voc-records", "The twin kingdom of Gowa and Tallo. Muslim from 1605, it made Makassar the great free port of the east until the Dutch took it in 1669."),
@@ -638,9 +622,6 @@
      (120.1, -4.2, 150, 1300, 1600, 0, "r", "polynesian-oral-tradition;linguistic-geography", "The kingdoms of Luwu, Bone and Wajo, remembered in the La Galigo epic and in chronicles written later."),
      (120.1, -4.2, 150, 1600, 2026, 1, "a", "voc-records", "Bone led the Bugis after 1669. Bugis traders and settlers spread from the Malay peninsula to northern Australia."),
    ]),
-   ("toraja", "Toraja", "people", "malayic", "no", "eindonesia", "island-asia-peoples", [
-     (119.9, -3.0, 80, 1600, 2026, 1, "r", "linguistic-geography;missionary-records", "Highland people of the Sa'dan valley in Sulawesi. The name comes from a Bugis phrase for people of the uplands, and written records begin in the 19th century."),
-   ]),
    ("tetun-wehali", "Tetun (Wehali)", "people", "malayic", "yes", "eindonesia", "island-asia-peoples", [
      (125.0, -9.4, 120, 1500, 2026, 1, "r", "pigafetta;polynesian-oral-tradition", "The Tetun of central Timor and their ritual centre at Wehali, which many Timorese domains acknowledged. Pigafetta heard of Timor's kings in 1522."),
    ]),
@@ -651,9 +632,6 @@
    ]),
    ("palauans", "Palauans (Belau)", "people", "philip", "yes", "micronesia", "micronesians", [
      (134.55, 7.45, 80, 1, 2026, 1, "r", "settlement-archaeology;european-voyagers", "Settled about 1000 BCE or earlier and first described in writing in 1783. Great earth terraces were built in the first millennium."),
-   ]),
-   ("yapese", "Yap", "people", "oceanic", "no", "micronesia", "micronesians", [
-     (138.1, 9.5, 250, 1400, 2026, 1, "r", "polynesian-oral-tradition;settlement-archaeology", "Yap received tribute from the atolls to its east in the exchange called sawei, and quarried its stone money in Palau. Dates rest on tradition and archaeology."),
    ]),
    ("carolinians", "Caroline Islanders", "people", "oceanic", "no", "micronesia", "micronesians", [
      (150.0, 7.4, 400, 1, 2026, 1, "r", "settlement-archaeology;linguistic-geography", "The people of Chuuk and the atolls, settled about 2,000 years ago. Their navigators kept the art of star-path sailing alive into the present."),
@@ -683,9 +661,6 @@
    ("itaukei", "iTaukei (Fijians)", "people", "oceanic", "no", "melanesia", "melanesian-islanders", [
      (178.0, -17.8, 200, 1, 1800, 0, "r", "settlement-archaeology;polynesian-oral-tradition", "Fiji was settled about 1000 to 900 BCE and stayed in touch with Tonga and Samoa. Hill forts multiplied after about 1200."),
      (178.0, -17.8, 200, 1800, 2026, 1, "a", "missionary-records;seasia-pacific-censuses", "iTaukei, the owners of the land, is the official name for indigenous Fijians. The chiefdom of Bau led the islands before cession to Britain in 1874."),
-   ]),
-   ("tikopia", "Tikopia and the outliers", "people", "polynesian", "no", "melanesia", "melanesian-islanders", [
-     (168.8, -12.3, 80, 1200, 2026, 1, "r", "settlement-archaeology;polynesian-oral-tradition", "Small islands in Melanesia and Micronesia settled by Polynesians sailing back west from about 1200. Tikopia, Anuta, Rennell and Ontong Java are among them."),
    ]),
    # ---------------------------------------------------------------- Western Polynesians
    ("tongans", "Tongans", "people", "polynesian", "no", "polynesia", "west-polynesians", [
@@ -736,19 +711,14 @@
      (47.5, -18.9, 120, 1540, 2026, 1, "r", "tantara-andriana", "The people of the central highlands around Antananarivo, whose royal traditions were written down in the 19th century. Europeans called them Hova, properly the name of one rank."),
    ]),
    ("sakalava", "Sakalava", "people", "malagasy", "no", "madagascar", "malagasy-peoples", [
-     (44.9, -19.3, 250, 1650, 2026, 1, "a", "european-voyagers;polynesian-oral-tradition", "Cattle-keeping kingdoms of the west coast, Menabe and then Boina, the strongest power on the island in the 18th century."),
-   ]),
-   ("betsileo", "Betsileo", "people", "malagasy", "no", "madagascar", "malagasy-peoples", [
-     (47.0, -21.4, 100, 1650, 2026, 1, "r", "polynesian-oral-tradition", "Rice terrace farmers of the southern highlands, in several small kingdoms until the Merina conquest."),
+     (44.9, -19.3, 250, 1650, 1700, 0, "r", "polynesian-oral-tradition", "The kingdom of Menabe was founded on the west coast by Andriandahifotsy in the 17th century. Its early dates come from royal tradition and differ between accounts."),
+     (44.9, -19.3, 250, 1700, 2026, 1, "a", "european-voyagers;polynesian-oral-tradition", "Cattle-keeping kingdoms of the west coast, Menabe and from about 1690 Boina, the strongest power on the island in the 18th century."),
    ]),
    ("betsimisaraka", "Betsimisaraka", "people", "malagasy", "no", "madagascar", "malagasy-peoples", [
      (49.3, -17.8, 200, 1712, 2026, 1, "a", "european-voyagers", "The many inseparables, a league of east coast peoples joined by Ratsimilaho about 1712."),
    ]),
-   ("antandroy-mahafaly", "Antandroy and Mahafaly", "people", "malagasy", "no", "madagascar", "malagasy-peoples", [
-     (45.0, -24.6, 130, 1650, 2026, 1, "r", "flacourt;polynesian-oral-tradition", "Herders of the dry thorn country of the far south."),
-   ]),
    ("comorians", "Comorians", "people", "bantue", "no", "madagascar", "", [
-     (43.9, -12.1, 110, 900, 2026, 1, "r", "settlement-archaeology;european-voyagers", "Bantu-speaking islanders with Arab, Persian and Malagasy ties, living in small sultanates within the Swahili trading world."),
+     (43.9, -12.1, 110, 800, 2026, 1, "r", "settlement-archaeology;european-voyagers", "Bantu-speaking islanders with Arab, Persian and Malagasy ties, whose oldest known villages date from the 8th to 10th centuries. Sovereignty over Mayotte is disputed today between the Comoros and France."),
    ]),
 
    # ================================================================ polities
@@ -775,9 +745,6 @@
    ("british-borneo", "Sarawak and North Borneo", "polity", "eng", "no", "borneo", "", [
      (114.5, 3.5, 350, 1841, 1963, 0, "a", "seasia-pacific-censuses", "Sarawak under the Brooke rajahs from 1841 and North Borneo under a chartered company from 1881."),
    ]),
-   ("portuguese-timor", "Portuguese Timor", "polity", "ibrom", "no", "eindonesia", "", [
-     (125.8, -8.7, 100, 1702, 1975, 0, "a", "european-voyagers", "Portuguese traders and friars were on Timor from the 16th century, with a governor from 1702."),
-   ]),
    ("dutch-formosa", "Dutch Formosa", "polity", "wgerm", "no", "taiwan", "", [
      (120.3, 23.1, 70, 1624, 1662, 0, "a", "voc-records", "A Dutch company colony on the south-west coast, driven out by Zheng Chenggong in 1662."),
    ]),
@@ -792,9 +759,6 @@
    ]),
    ("kingdom-of-hawaii", "Kingdom of Hawaii", "polity", "polynesian", "no", "polynesia", "", [
      (-157.0, 20.6, 300, 1795, 1893, 0, "a", "missionary-records;european-voyagers", "Kamehameha I united the islands between 1795 and 1810. The monarchy was overthrown in 1893 and the United States annexed the islands in 1898."),
-   ]),
-   ("kingdom-of-tahiti", "Kingdom of Tahiti", "polity", "polynesian", "no", "polynesia", "", [
-     (-149.5, -17.6, 150, 1791, 1880, 0, "a", "missionary-records", "The Pōmare chiefs united Tahiti with missionary support. A French protectorate from 1842 and a colony from 1880."),
    ]),
    ("tonga-kingdom", "Tonga", "polity", "polynesian", "no", "polynesia", "", [
      (-175.1, -21.1, 250, 1845, 2026, 1, "a", "missionary-records;seasia-pacific-censuses", "A kingdom since 1845, with a constitution of 1875. A British protected state from 1900 to 1970, it was never colonised."),
@@ -825,12 +789,6 @@
    ("malaysia", "Malaysia", "polity", "malayic", "no", "malaya+borneo", "", [
      (102.0, 4.0, 300, 1957, 2026, 1, "a", "seasia-pacific-censuses", "Malaya became independent in 1957 and joined with Sarawak and Sabah as Malaysia in 1963."),
      (114.5, 3.5, 350, 1963, 2026, 1, "a", "seasia-pacific-censuses", "Sarawak and Sabah, the Borneo states of Malaysia."),
-   ]),
-   ("singapore", "Singapore", "polity", "", "no", "malaya", "", [
-     (103.85, 1.33, 30, 1965, 2026, 1, "a", "seasia-pacific-censuses", "A British port from 1819 and an independent republic since 1965, with English, Mandarin, Malay and Tamil as official languages."),
-   ]),
-   ("brunei-today", "Brunei", "polity", "malayic", "no", "borneo", "", [
-     (114.7, 4.6, 60, 1984, 2026, 1, "a", "seasia-pacific-censuses", "Independent from British protection in 1984."),
    ]),
    ("indonesia", "Indonesia", "polity", "malayic", "no", "indonesia", "", [
      (113.0, -3.5, 1300, 1945, 2026, 1, "a", "seasia-pacific-censuses", "Independence was declared in 1945 and recognised in 1949. Indonesian, a form of Malay, is the national language beside some seven hundred others."),
