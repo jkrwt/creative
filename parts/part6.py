@@ -1,6 +1,8 @@
 # Part 6: Africa south of the Sahara. A seed typed from memory. Every claim is to be checked.
 {
  "part": 6,
+ # Attested before the audit's date for their region. Swahili and Kilwa: Ibn Battuta visited Mombasa and Kilwa about 1331.
+ "attested_early": ["swahili", "kilwa"],
  "regions": ["sahelw", "guinea", "chad", "nile", "horn", "congo", "lakes", "zambezi", "southafrica"],
  "sources": [
    ("periplus-erythraean", "Periplus of the Erythraean Sea", "text", "mid 1st century", "no",
@@ -211,7 +213,7 @@
      (36.0, 19.0, 330, 1, 2026, 1, "r", "linguistic-geography;arab-geographers-africa", "Thinly peopled hills. The Beja are the Blemmyes of Roman writers and the Buja of Arab ones."),
    ]),
    ("sudanese-arabic", "Sudanese Arabic", "language", "arab", "no", "nile", "", [
-     (32.5, 17.8, 400, 1350, 2026, 1, "a", "linguistic-geography;arab-geographers-africa", "Arab nomads moved up the Nile as Makuria broke down in the 14th century. Ibn Khaldun describes it."),
+     (32.5, 17.8, 400, 1350, 2026, 1, "r", "linguistic-geography;arab-geographers-africa", "Arab nomads moved up the Nile as Makuria broke down in the 14th century. Ibn Khaldun describes it. How fast Arabic replaced Nubian is debated, and some scholars place the shift under the Funj."),
      (34.0, 14.5, 300, 1500, 2026, 1, "a", "linguistic-geography", "The Gezira and Butana under the Funj."),
      (29.5, 13.5, 330, 1500, 2026, 1, "r", "linguistic-geography", "Kordofan."),
      (25.5, 11.5, 250, 1600, 2026, 1, "r", "linguistic-geography", "Baggara cattle nomads south of Darfur."),
@@ -335,7 +337,8 @@
    ]),
    ("southern-cushitic-speakers", "Southern Cushitic", "language", "cush", "no", "lakes", "", [
      (36.0, -2.5, 380, 1, 1000, 0, "r", "archaeology-africa;linguistic-geography", "Herders of the Rift highlands, known from the Pastoral Neolithic sites and from words borrowed into later languages."),
-     (35.5, -4.0, 90, 1000, 2026, 1, "a", "linguistic-geography", "Iraqw and its relatives around Mbulu."),
+     (35.5, -4.0, 90, 1000, 1890, 0, "r", "linguistic-geography;oral-tradition-africa", "Iraqw and its relatives around Mbulu, before any written record of them."),
+     (35.5, -4.0, 90, 1890, 2026, 1, "a", "linguistic-geography;travellers-19c", "Iraqw and its relatives around Mbulu, recorded from the German period."),
    ]),
    ("afrikaans-speakers", "Afrikaans", "language", "wgerm", "no", "southafrica", "", [
      (19.3, -33.7, 120, 1652, 1750, 0, "a", "dutch-cape-records", "Dutch at the Cape from 1652, spoken by settlers, slaves and Khoekhoe, and becoming Afrikaans."),
@@ -364,14 +367,15 @@
      (36.2, 19.0, 300, 650, 2026, 1, "a", "arab-geographers-africa", "The Buja of Arab writers. Bedawiyet is their name for their language."),
    ]),
    ("nobatia", "Nobatia", "people", "nubian", "no", "nile", "nubia-nile", [
-     (31.2, 21.2, 130, 400, 700, 0, "a", "nubian-texts", "Northern Nubian kingdom with its capital at Faras. Christian from the 540s and joined to Makuria by about 700."),
+     (31.2, 21.2, 130, 400, 650, 0, "a", "nubian-texts", "Northern Nubian kingdom with its capital at Faras. Christian from the 540s and joined to Makuria in the 7th century, probably before 652."),
    ]),
    ("makuria", "Makuria", "people", "nubian", "no", "nile", "nubia-nile", [
      (31.0, 18.8, 280, 500, 1365, 0, "a", "nubian-texts;arab-geographers-africa", "Kingdom of Old Dongola. It held off the Arabs in 652 and kept a treaty with Egypt for six centuries."),
-     (31.3, 21.0, 120, 1365, 1500, 0, "r", "nubian-texts", "A remnant in the north after Dongola was given up."),
+     (31.4, 21.6, 120, 1365, 1500, 0, "r", "nubian-texts", "A remnant in Lower Nubia after Dongola was given up, with its court at Gebel Adda. Its last known king reigned in the 1480s."),
    ]),
    ("alwa", "Alwa", "people", "nubian", "no", "nile", "nubia-nile", [
-     (33.5, 15.2, 300, 500, 1504, 0, "a", "arab-geographers-africa;archaeology-africa", "Also Alodia. Southern Nubian kingdom with its capital at Soba. It fell about 1500."),
+     (33.5, 15.2, 300, 500, 1300, 0, "a", "arab-geographers-africa;archaeology-africa", "Also Alodia, the southern Nubian kingdom with its capital at Soba, first named in 569 and Christian from 580. Arab writers describe it in the 10th century."),
+     (33.5, 15.2, 250, 1300, 1504, 0, "r", "oral-tradition-africa;archaeology-africa", "Its last two centuries are barely recorded. Soba fell about 1500, and sources disagree on whether to Arabs or to the Funj."),
    ]),
    ("funj", "Funj Sultanate", "people", "arab", "yes", "nile", "nubia-nile", [
      (33.6, 14.2, 380, 1504, 1821, 0, "a", "travellers-19c;oral-tradition-africa", "Muslim kingdom of Sennar. Where the Funj came from is disputed. Arabic was the language of the court. Egypt conquered it in 1821."),
@@ -385,8 +389,7 @@
      (39.0, 13.5, 220, 650, 940, 0, "r", "arab-geographers-africa;archaeology-africa", "In decline after it lost the Red Sea trade. The kings moved south."),
    ]),
    ("agaw", "Agaw", "people", "cush", "no", "horn", "ethiopian-highlands", [
-     (38.5, 12.3, 260, 1, 1300, 0, "r", "cosmas;aksum-inscriptions;linguistic-geography", "The older people of the northern highlands. Aksumite kings record wars with them."),
-     (37.0, 11.2, 120, 1300, 2026, 1, "r", "ethiopian-chronicles;linguistic-geography", "Awi and other Agaw who kept their language."),
+     (38.5, 12.3, 260, 1, 1300, 0, "r", "cosmas;aksum-inscriptions;linguistic-geography", "The older people of the northern highlands, with whom Aksumite kings record wars. Awi and other Agaw keep the language today and are carried by the wash after 1300."),
    ]),
    ("zagwe", "Zagwe kingdom", "people", "cush", "yes", "horn", "ethiopian-highlands", [
      (39.0, 12.0, 220, 1137, 1270, 0, "r", "ethiopian-chronicles;archaeology-africa", "Christian dynasty of Agaw origin, builders of the rock churches of Lalibela. Its start date is uncertain."),
@@ -397,17 +400,16 @@
      (39.0, 9.5, 500, 1855, 1900, 0, "a", "ethiopian-chronicles;travellers-19c", "Reunited under Tewodros and doubled in size by Menelik, who beat Italy at Adwa in 1896."),
    ]),
    ("amhara", "Amhara", "people", "ethsem", "no", "horn", "ethiopian-highlands", [
-     (38.5, 11.5, 220, 1300, 2026, 1, "a", "ethiopian-chronicles;african-censuses", "Speakers of Amharic, the language of the court from 1270."),
+     (38.5, 11.5, 220, 1900, 2026, 1, "a", "african-censuses", "Speakers of Amharic, the language of the court from 1270. Before 1900 the entry Ethiopia stands for them."),
    ]),
    ("tigrayans", "Tigrayans", "people", "ethsem", "no", "horn", "ethiopian-highlands", [
-     (39.0, 14.3, 170, 940, 2026, 1, "a", "ethiopian-chronicles;african-censuses", "Tigrinya speakers of Tigray and highland Eritrea, on the ground of Aksum."),
-   ]),
-   ("kaffa", "Kaffa", "people", "omot", "no", "horn", "ethiopian-highlands", [
-     (36.2, 7.3, 130, 1400, 1897, 0, "r", "oral-tradition-africa;travellers-19c", "Omotic-speaking kingdom of the south-west forest, conquered by Menelik in 1897. The early date is from tradition."),
+     (39.0, 14.3, 170, 940, 1270, 0, "r", "linguistic-geography;archaeology-africa", "The people of the old Aksumite heartland in the poorly recorded centuries after Aksum."),
+     (39.0, 14.3, 170, 1270, 2026, 1, "a", "ethiopian-chronicles;african-censuses", "Tigrinya speakers of Tigray and highland Eritrea, on the ground of Aksum."),
    ]),
    ("somali-people", "Somali", "people", "cush", "no", "horn+lakes", "cushitic-peoples", [
      (47.0, 10.0, 330, 1, 900, 0, "i", "periplus-erythraean", "The Periplus lists market towns of the Barbaroi along this coast. That they spoke early Somali is an inference."),
-     (46.0, 7.0, 480, 900, 2026, 1, "a", "arab-geographers-africa;ibn-battuta", "Soomaali. Arab writers describe their towns from the 10th century and the name appears in the 15th."),
+     (46.0, 7.0, 480, 900, 1330, 0, "r", "arab-geographers-africa", "Arab writers describe the towns of this coast from the 10th century and call its people Berbers."),
+     (46.0, 7.0, 480, 1330, 2026, 1, "a", "ibn-battuta;ethiopian-chronicles", "Soomaali. Ibn Battuta visited Zeila and Mogadishu about 1331 and the name Somali appears in an Ethiopian hymn of the early 15th century."),
    ]),
    ("oromo-people", "Oromo", "people", "cush", "no", "horn+lakes", "cushitic-peoples", [
      (39.5, 5.5, 200, 1300, 1550, 0, "r", "oral-tradition-africa", "Herders of the southern highlands, organised by the gada age system."),
@@ -416,8 +418,8 @@
    ("afar-people", "Afar", "people", "cush", "no", "horn", "cushitic-peoples", [
      (41.0, 12.3, 220, 1250, 2026, 1, "r", "arab-geographers-africa", "Herders of the Danakil desert. Dankal in Arabic."),
    ]),
-   ("ifat", "Ifat", "people", "cush", "yes", "horn", "cushitic-peoples", [
-     (40.5, 10.0, 180, 1285, 1415, 0, "a", "ethiopian-chronicles;arab-geographers-africa", "Muslim sultanate on the eastern edge of the highlands. Its people spoke several languages and the key is a guess."),
+   ("ifat", "Ifat", "people", "ethsem", "yes", "horn", "cushitic-peoples", [
+     (40.5, 10.0, 180, 1285, 1415, 0, "a", "ethiopian-chronicles;arab-geographers-africa", "Muslim sultanate of the Walashma, whose people spoke Ethiopian Semitic and Cushitic languages and wrote Arabic, so the key is a guess. Its last sultan died at Zeila in 1403 or 1415, and sources disagree on which."),
    ]),
    ("adal", "Adal Sultanate", "people", "cush", "yes", "horn", "cushitic-peoples", [
      (42.5, 9.8, 280, 1415, 1577, 0, "a", "ethiopian-chronicles", "Successor of Ifat, based at Harar from 1520. Under Ahmad Gran it overran Ethiopia between 1529 and 1543. Somali, Afar and Harari served it."),
@@ -425,34 +427,19 @@
    ("ajuran", "Ajuran", "people", "cush", "no", "horn", "cushitic-peoples", [
      (44.5, 3.0, 300, 1300, 1700, 0, "r", "oral-tradition-africa;portuguese-africa", "Somali sultanate of the Shabelle valley, known mainly from tradition."),
    ]),
-   ("sidama", "Sidama and Hadiya", "people", "cush", "no", "horn", "cushitic-peoples", [
-     (38.2, 7.0, 150, 1280, 2026, 1, "r", "ethiopian-chronicles;linguistic-geography", "Hadiya was a Muslim kingdom tributary to Ethiopia in the 14th century. The Sidama live south of it."),
-   ]),
    ("southern-cushites", "Southern Cushites", "people", "cush", "yes", "lakes", "cushitic-peoples", [
      (36.0, -2.5, 300, 1, 1000, 0, "r", "archaeology-africa;linguistic-geography", "A modern name. Herders of the Rift known from archaeology and from loanwords. The Iraqw of Tanzania are their heirs."),
    ]),
    ("dinka", "Dinka", "people", "nilotic", "no", "nile", "nilotic-peoples", [
-     (29.8, 8.8, 300, 1000, 2026, 1, "r", "oral-tradition-africa;travellers-19c", "Jieng in their own language. Cattle keepers of the Sudd, first written of in the 19th century."),
-   ]),
-   ("nuer", "Nuer", "people", "nilotic", "no", "nile+horn", "nilotic-peoples", [
-     (32.3, 8.5, 190, 1700, 2026, 1, "r", "oral-tradition-africa;travellers-19c", "Naath in their own language. They spread east across the Nile in the 19th century."),
-   ]),
-   ("shilluk", "Shilluk kingdom", "people", "nilotic", "no", "nile", "nilotic-peoples", [
-     (32.0, 10.0, 130, 1550, 2026, 1, "r", "oral-tradition-africa;travellers-19c", "Chollo in their own language. A kingdom on the White Nile founded by Nyikang by tradition."),
+     (29.8, 8.8, 300, 1000, 2026, 1, "r", "oral-tradition-africa;travellers-19c", "Jieng in their own language, cattle keepers of the Sudd, first written of in the 19th century. The Ngok Dinka live in Abyei, whose sovereignty is disputed between Sudan and South Sudan."),
    ]),
    ("luo-people", "Luo", "people", "nilotic", "no", "lakes", "nilotic-peoples", [
      (32.7, 2.7, 200, 1450, 2026, 1, "r", "oral-tradition-africa", "Acholi, Lango and Alur, Luo speakers who moved south from the Sudd."),
      (34.4, -0.5, 110, 1550, 2026, 1, "r", "oral-tradition-africa", "Joluo of the Kenyan lake shore."),
    ]),
-   ("kalenjin", "Kalenjin", "people", "nilotic", "no", "lakes", "nilotic-peoples", [
-     (35.4, 0.5, 150, 1000, 2026, 1, "r", "linguistic-geography;oral-tradition-africa", "Nandi, Kipsigis and others. The shared name dates from the 1940s. Their Southern Nilotic forebears were here far earlier."),
-   ]),
    ("maasai", "Maasai", "people", "nilotic", "no", "lakes", "nilotic-peoples", [
      (36.5, -2.0, 280, 1650, 1850, 0, "r", "oral-tradition-africa", "Maa-speaking herders who took the Rift grasslands in the 17th and 18th centuries."),
      (36.5, -2.5, 250, 1850, 2026, 1, "a", "travellers-19c", "Described by missionaries and travellers from the 1840s."),
-   ]),
-   ("turkana", "Turkana", "people", "nilotic", "no", "lakes", "nilotic-peoples", [
-     (35.5, 3.5, 180, 1750, 2026, 1, "r", "oral-tradition-africa", "Herders west of the lake that carries their name."),
    ]),
 
    # ---------------------------------------------------------------- Sahel
@@ -461,73 +448,70 @@
    ]),
    ("ghana-wagadu", "Ghana (Wagadu)", "people", "mande", "no", "sahelw", "western-sudan", [
      (-8.0, 15.8, 200, 500, 790, 0, "i", "oral-tradition-africa;archaeology-africa", "Wagadu in Soninke tradition. When the kingdom began is not known."),
-     (-8.0, 15.5, 350, 790, 1076, 0, "a", "al-bakri;arab-geographers-africa", "The land of gold to Arab writers from the late 8th century. Al-Bakri describes its capital in 1068."),
-     (-8.0, 15.5, 200, 1076, 1240, 0, "r", "arab-geographers-africa", "Weakened after the Almoravids, and taken into Mali about 1240."),
+     (-8.0, 15.5, 300, 790, 850, 0, "r", "arab-geographers-africa", "The land of gold to Arab writers from about 800. They name it but do not yet describe it."),
+     (-8.0, 15.5, 350, 850, 1076, 0, "a", "al-bakri;arab-geographers-africa", "Al-Yaqubi describes the kingdom in the late 9th century and al-Bakri its capital in 1068."),
+     (-8.0, 15.5, 200, 1076, 1240, 0, "r", "arab-geographers-africa", "Whether the Almoravids conquered it in 1076 is disputed. The Sosso took it about 1203 and Mali by about 1240."),
    ]),
    ("takrur", "Takrur", "people", "atl", "yes", "sahelw", "western-sudan", [
-     (-14.0, 16.3, 180, 850, 1285, 0, "a", "al-bakri", "Kingdom on the lower Senegal whose king took up Islam in the 1030s."),
+     (-14.0, 16.3, 180, 850, 1035, 0, "r", "al-bakri;oral-tradition-africa", "Kingdom on the lower Senegal. Its history before the 11th century rests on tradition."),
+     (-14.0, 16.3, 180, 1035, 1285, 0, "a", "al-bakri;arab-geographers-africa", "Its king War Jabi took up Islam in the 1030s, as al-Bakri reports. Mali conquered it about 1285."),
    ]),
    ("gao-kingdom", "Gao (Kawkaw)", "people", "songhay", "no", "sahelw", "western-sudan", [
-     (0.0, 16.3, 220, 800, 1464, 0, "a", "arab-geographers-africa", "Named as Kawkaw from the 9th century. It was under Mali for part of the 14th."),
+     (0.0, 16.3, 220, 800, 850, 0, "r", "arab-geographers-africa;archaeology-africa", "The town grew from the 8th century. Al-Khwarizmi names it before 850."),
+     (0.0, 16.3, 220, 850, 1464, 0, "a", "arab-geographers-africa", "Kawkaw to Arab writers, the greatest realm of the Sudan to al-Yaqubi about 872. It was under Mali from about 1300 to the early 15th century."),
    ]),
    ("mali-empire", "Mali", "people", "mande", "no", "sahelw+guinea", "western-sudan", [
      (-8.5, 12.0, 220, 1235, 1300, 0, "r", "oral-tradition-africa;arab-geographers-africa", "Founded by Sunjata Keita by tradition. Ibn Khaldun gives a king list."),
      (-7.0, 14.0, 700, 1300, 1450, 0, "a", "ibn-battuta;arab-geographers-africa", "From the Atlantic to Gao. Mansa Musa went to Mecca in 1324 and Ibn Battuta visited in 1352."),
-     (-9.0, 12.0, 300, 1450, 1670, 0, "r", "portuguese-africa;timbuktu-chronicles", "Shrunk back to the Manding heartland."),
+     (-9.0, 12.0, 300, 1450, 1610, 0, "r", "portuguese-africa;timbuktu-chronicles", "Shrunk back to the Manding heartland. It failed to take Jenne in 1599 and broke up after its last mansa died about 1610."),
    ]),
    ("songhai-empire", "Songhai", "people", "songhay", "no", "sahelw+guinea", "western-sudan", [
      (-1.0, 15.5, 650, 1464, 1591, 0, "a", "timbuktu-chronicles;arab-geographers-africa", "Built by Sunni Ali and Askia Muhammad from Gao. A Moroccan army with guns broke it at Tondibi in 1591."),
    ]),
    ("mossi", "Mossi kingdoms", "people", "gur", "no", "sahelw+guinea", "western-sudan", [
-     (-1.5, 12.5, 220, 1400, 1600, 0, "r", "timbuktu-chronicles;oral-tradition-africa", "Mossi horsemen raided Timbuktu and Walata in the 15th century."),
-     (-1.5, 12.5, 220, 1600, 1896, 0, "a", "oral-tradition-africa;travellers-19c", "Ouagadougou, Yatenga and their sister kingdoms. Moose in their own language."),
+     (-1.5, 12.5, 220, 1400, 1888, 0, "r", "timbuktu-chronicles;oral-tradition-africa", "Ouagadougou, Yatenga and their sister kingdoms, Moose in their own language, whose horsemen raided Timbuktu and Walata in the 15th century. Founding dates from tradition range from the 11th to the 15th century."),
+     (-1.5, 12.5, 220, 1888, 1896, 0, "a", "travellers-19c", "European travellers reached Ouagadougou in the 1880s. France took it in 1896."),
    ]),
    ("jolof", "Jolof and the Wolof kingdoms", "people", "atl", "no", "sahelw", "western-sudan", [
-     (-15.3, 15.2, 230, 1350, 1549, 0, "a", "portuguese-africa;oral-tradition-africa", "The Jolof empire, met by Portuguese sailors in the 1440s."),
+     (-15.3, 15.2, 230, 1350, 1455, 0, "r", "oral-tradition-africa", "The Jolof empire, founded by Ndiadiane Ndiaye by tradition, about the middle of the 14th century."),
+     (-15.3, 15.2, 230, 1455, 1549, 0, "a", "portuguese-africa", "Described by Cadamosto, who sailed here in 1455. It broke up after the battle of Danki in 1549."),
      (-16.0, 15.0, 180, 1549, 1890, 0, "a", "portuguese-africa;travellers-19c", "Kayor, Waalo, Baol and Jolof after the empire broke up."),
    ]),
-   ("kaabu", "Kaabu", "people", "mande", "no", "sahelw", "western-sudan", [
-     (-14.8, 12.5, 180, 1250, 1867, 0, "r", "oral-tradition-africa;portuguese-africa", "Mandinka province of Mali and then a kingdom of its own, ended by Futa Jallon in 1867."),
-   ]),
    ("segu", "Bambara Segu", "people", "mande", "no", "sahelw", "western-sudan", [
-     (-6.3, 13.4, 250, 1712, 1861, 0, "a", "travellers-19c;oral-tradition-africa", "Bambara kingdom on the Niger, visited by Mungo Park in 1796."),
-   ]),
-   ("wassoulou", "Wassoulou (Samori)", "people", "mande", "no", "sahelw+guinea", "western-sudan", [
-     (-8.5, 10.0, 280, 1878, 1898, 0, "a", "travellers-19c;acts-treaties", "The state of Samori Ture, who fought the French for sixteen years."),
+     (-6.3, 13.4, 250, 1712, 1796, 0, "r", "oral-tradition-africa", "Bambara kingdom on the Niger, built by Biton Kulibali from about 1712."),
+     (-6.3, 13.4, 250, 1796, 1861, 0, "a", "travellers-19c", "Visited by Mungo Park in 1796. Umar Tal took it in 1861."),
    ]),
    ("sanhaja-south", "Sanhaja", "people", "berb", "no", "sahelw", "sahel-peoples", [
-     (-11.0, 19.5, 450, 800, 1500, 0, "a", "al-bakri;arab-geographers-africa", "Veiled Berber nomads, the Lamtuna, Guddala and Massufa. The Almoravid movement began among them in the 1040s."),
+     (-11.0, 19.5, 450, 800, 850, 0, "r", "arab-geographers-africa", "Veiled Berber nomads of the western desert before Arab writers describe them."),
+     (-11.0, 19.5, 450, 850, 1500, 0, "a", "al-bakri;arab-geographers-africa", "Veiled Berber (Amazigh) nomads, the Lamtuna, Guddala and Massufa, named by al-Yaqubi and described by al-Bakri. The Almoravid movement began among them in the 1040s."),
    ]),
    ("bidan", "Bidan (Moors)", "people", "arab", "no", "sahelw", "sahel-peoples", [
-     (-11.5, 19.0, 450, 1650, 2026, 1, "a", "travellers-19c;african-censuses", "Hassaniya-speaking nomads of Arab and Berber descent, under the emirates of Trarza, Brakna and Adrar until the French conquest."),
+     (-11.5, 19.0, 450, 1650, 2026, 1, "a", "travellers-19c;african-censuses", "Hassaniya-speaking nomads of Arab and Berber descent, under the emirates of Trarza, Brakna and Adrar until the French conquest. Their country runs north into Western Sahara, whose sovereignty is disputed."),
    ]),
    ("tuareg-sahel", "Tuareg", "people", "berb", "no", "sahelw", "sahel-peoples", [
-     (1.5, 19.0, 450, 1000, 2026, 1, "a", "arab-geographers-africa;ibn-battuta", "Kel Tamasheq in their own language. Ibn Battuta crossed their country in 1353."),
+     (1.5, 19.0, 450, 1000, 1068, 0, "r", "arab-geographers-africa", "Berber nomads around Tadmakka, a trading town of the Adrar des Ifoghas."),
+     (1.5, 19.0, 450, 1068, 2026, 1, "a", "al-bakri;ibn-battuta", "Kel Tamasheq, speakers of Tamasheq, in their own language, and Tuareg to outsiders. Al-Bakri describes Tadmakka in 1068 and Ibn Battuta crossed their country in 1353."),
      (8.5, 18.5, 300, 1100, 2026, 1, "r", "oral-tradition-africa;arab-geographers-africa", "Tuareg of Air, with a sultan at Agadez from the 15th century."),
    ]),
    ("fula-people", "Fula", "people", "atl", "no", "sahelw+guinea+chad", "sahel-peoples", [
      (-13.5, 16.0, 180, 1000, 2026, 1, "r", "al-bakri;linguistic-geography", "Fulbe in their own language, Fulani in Hausa, Peul in French. Cattle herders who began on the Senegal."),
      (-4.0, 14.5, 200, 1400, 2026, 1, "r", "timbuktu-chronicles", "Fula of Massina."),
-     (-12.0, 11.0, 170, 1600, 2026, 1, "a", "oral-tradition-africa;travellers-19c", "Fula of Futa Jallon."),
-     (9.0, 11.0, 450, 1750, 2026, 1, "i", "travellers-19c", "Fula herders and clerics spread across the central Sahel between about 1400 and 1800, a minority among Hausa and others."),
-   ]),
-   ("dogon", "Dogon", "people", "gur", "yes", "sahelw", "sahel-peoples", [
-     (-3.4, 14.4, 90, 1400, 2026, 1, "r", "oral-tradition-africa;archaeology-africa", "Farmers of the Bandiagara cliffs, where they followed the people called Tellem. The place of their languages in Niger-Congo is unsettled."),
+     (-12.0, 11.0, 170, 1600, 1725, 0, "r", "oral-tradition-africa", "Fula herders in the Futa Jallon highlands before the jihad."),
+     (-12.0, 11.0, 170, 1725, 2026, 1, "a", "oral-tradition-africa;travellers-19c", "Fula of Futa Jallon."),
+     (9.0, 11.0, 450, 1500, 2026, 1, "i", "kano-chronicle;travellers-19c", "Fula herders and clerics reached Hausaland by the 15th century and Bagirmi by the 16th, a minority among Hausa and others. Evidence for the move east is thin."),
    ]),
    ("sao-culture", "Sao culture", "people", "hausa", "yes", "chad+guinea", "central-sudan", [
      (14.7, 11.8, 150, 500, 1500, 0, "r", "archaeology-africa;oral-tradition-africa", "Walled towns and terracotta figures south of Lake Chad. Sao is the name later tradition gives their builders, taken to be Chadic speakers."),
    ]),
    ("kanem", "Kanem", "people", "saharan", "no", "chad+sahelw+guinea", "central-sudan", [
-     (15.5, 14.5, 280, 800, 1380, 0, "a", "arab-geographers-africa", "Named by al-Yaqubi in 872. Its Sayfawa kings took up Islam about 1085 and left for Bornu about 1380."),
+     (15.5, 14.5, 280, 800, 872, 0, "r", "oral-tradition-africa;arab-geographers-africa", "Founded about 700 by later reckoning, before any writer names it."),
+     (15.5, 14.5, 280, 872, 1380, 0, "a", "arab-geographers-africa", "Named by al-Yaqubi in 872. Its Sayfawa kings took up Islam in the 11th century and left for Bornu about 1380."),
    ]),
    ("bornu", "Bornu", "people", "saharan", "no", "guinea+chad+sahelw", "central-sudan", [
      (12.8, 12.5, 330, 1380, 1893, 0, "a", "arab-geographers-africa;travellers-19c", "The Sayfawa kingdom west of Lake Chad, strongest under Idris Alooma about 1600. Rabih conquered it in 1893."),
    ]),
    ("teda", "Teda", "people", "saharan", "no", "chad+sahelw", "central-sudan", [
      (17.5, 20.5, 330, 800, 2026, 1, "r", "arab-geographers-africa;travellers-19c", "People of Tibesti. Tubu, the name others use, means rock people."),
-   ]),
-   ("zaghawa", "Zaghawa", "people", "saharan", "no", "chad+nile", "central-sudan", [
-     (22.5, 15.5, 220, 850, 2026, 1, "a", "arab-geographers-africa", "Beri in their own language. Arab writers of the 9th century use the name for a wide desert people."),
    ]),
    ("hausa-states", "Hausa city states", "people", "hausa", "no", "guinea+sahelw", "central-sudan", [
      (8.0, 12.3, 300, 1000, 1450, 0, "r", "kano-chronicle;archaeology-africa", "Kano, Katsina, Zazzau, Gobir and others. Early reigns rest on the Kano Chronicle, which is late."),
@@ -536,24 +520,20 @@
    ("hausa-people", "Hausa", "people", "hausa", "no", "guinea+sahelw", "central-sudan", [
      (8.0, 12.3, 340, 1808, 2026, 1, "a", "travellers-19c;african-censuses", "Hausa is now the most widely spoken language of the Sahel."),
    ]),
-   ("bagirmi", "Bagirmi", "people", "nsother", "no", "chad", "central-sudan", [
-     (16.5, 11.2, 180, 1522, 1897, 0, "r", "oral-tradition-africa;travellers-19c", "Kingdom south-east of Lake Chad with its capital at Massenya."),
-   ]),
    ("wadai", "Wadai", "people", "nsother", "no", "chad", "central-sudan", [
-     (21.0, 13.7, 230, 1635, 1909, 0, "a", "travellers-19c;oral-tradition-africa", "Maba-speaking sultanate, described by al-Tunisi and Nachtigal. France took it in 1909."),
+     (21.0, 13.7, 230, 1635, 1810, 0, "r", "oral-tradition-africa", "Maba-speaking sultanate, founded by Abd al-Karim about 1635 by tradition."),
+     (21.0, 13.7, 230, 1810, 1909, 0, "a", "travellers-19c", "Described by al-Tunisi, who lived there about 1810, and by Nachtigal. France took its capital in 1909 and ended the sultanate in 1912."),
    ]),
    ("darfur-sultanate", "Darfur", "people", "nsother", "no", "nile", "central-sudan", [
-     (24.5, 13.5, 300, 1650, 1916, 0, "a", "travellers-19c;oral-tradition-africa", "The Keira sultans of the Fur. Annexed to the Sudan in 1916."),
-   ]),
-   ("futa-toro", "Futa Toro", "people", "atl", "no", "sahelw", "jihad-states", [
-     (-13.5, 16.0, 160, 1512, 1776, 0, "r", "oral-tradition-africa;portuguese-africa", "Under the Denianke kings, founded by Koli Tengella."),
-     (-13.5, 16.0, 160, 1776, 1891, 0, "a", "travellers-19c", "Ruled by elected clerics after the revolution of 1776."),
+     (24.5, 13.5, 300, 1650, 1793, 0, "r", "oral-tradition-africa", "The Keira sultans of the Fur, in power from about the middle of the 17th century."),
+     (24.5, 13.5, 300, 1793, 1874, 0, "a", "travellers-19c", "Described by Browne, who lived there from 1793, when its capital was newly at al-Fashir. Conquered for Egypt in 1874."),
+     (24.5, 13.5, 280, 1898, 1916, 0, "a", "travellers-19c;acts-treaties", "Restored by Ali Dinar in 1898 and annexed to the Sudan in 1916."),
    ]),
    ("futa-jallon", "Futa Jallon", "people", "atl", "no", "sahelw", "jihad-states", [
      (-12.2, 11.0, 160, 1725, 1896, 0, "a", "travellers-19c;oral-tradition-africa", "Fula clerics took power in the highlands from 1725, with a capital at Timbo."),
    ]),
    ("sokoto", "Sokoto Caliphate", "people", "atl", "no", "guinea+sahelw+chad", "jihad-states", [
-     (7.5, 11.3, 520, 1808, 1903, 0, "a", "travellers-19c", "Founded by Usman dan Fodio's jihad of 1804. Fula emirs ruled Hausa cities from Sokoto to Adamawa."),
+     (7.5, 11.3, 520, 1804, 1903, 0, "a", "travellers-19c", "Founded by Usman dan Fodio's jihad of 1804, which had taken the Hausa cities by 1808. Fula emirs ruled from Sokoto to Adamawa."),
    ]),
    ("massina", "Massina", "people", "atl", "no", "sahelw", "jihad-states", [
      (-4.0, 14.5, 220, 1818, 1862, 0, "a", "travellers-19c", "The state of Seku Amadu, with its capital at Hamdullahi."),
@@ -582,22 +562,14 @@
    ]),
    ("oyo", "Oyo", "people", "kwa", "no", "guinea", "lower-niger", [
      (4.0, 8.8, 150, 1400, 1608, 0, "r", "oral-tradition-africa", "Yoruba kingdom of the northern savanna. Early dates are from tradition."),
-     (3.5, 8.0, 300, 1608, 1836, 0, "a", "oral-tradition-africa;travellers-19c", "A cavalry empire that reached the coast and took tribute from Dahomey. It collapsed by 1836."),
+     (3.5, 8.0, 250, 1608, 1700, 0, "r", "oral-tradition-africa", "Tradition has the kings return to Oyo-Ile about 1610 after an exile forced by Nupe."),
+     (3.5, 8.0, 300, 1700, 1836, 0, "a", "travellers-19c", "A cavalry empire that reached the coast and took tribute from Dahomey, known to European traders there from about 1700. Its capital was destroyed about 1835."),
    ]),
    ("yoruba", "Yoruba", "people", "kwa", "no", "guinea", "lower-niger", [
      (4.5, 7.6, 220, 1836, 2026, 1, "a", "travellers-19c;african-censuses", "After Oyo, Ibadan and other cities fought for its place. The shared name Yoruba came into wide use in the 19th century."),
    ]),
-   ("nupe", "Nupe", "people", "kwa", "no", "guinea", "lower-niger", [
-     (5.8, 9.2, 150, 1500, 1835, 0, "r", "oral-tradition-africa", "Kingdom on the middle Niger, founded by Tsoede by tradition. Fula emirs ruled it from the 1830s."),
-   ]),
-   ("tiv", "Tiv", "people", "kwa", "no", "guinea", "lower-niger", [
-     (9.0, 7.3, 120, 1600, 2026, 1, "r", "oral-tradition-africa;african-censuses", "Farmers of the Benue valley without chiefs. Tiv is a close relative of the Bantu languages and is keyed here with its neighbours."),
-   ]),
    ("bono", "Bono", "people", "kwa", "no", "guinea", "akan-gbe", [
      (-1.9, 7.7, 100, 1300, 1723, 0, "r", "oral-tradition-africa;archaeology-africa", "The first Akan state by tradition, on the gold road north to Jenne."),
-   ]),
-   ("fante", "Fante", "people", "kwa", "no", "guinea", "akan-gbe", [
-     (-1.2, 5.3, 70, 1500, 1873, 0, "a", "portuguese-africa", "Akan states of the coast, trading with European forts from 1482."),
    ]),
    ("asante", "Asante", "people", "kwa", "no", "guinea", "akan-gbe", [
      (-1.6, 6.7, 150, 1701, 1750, 0, "a", "oral-tradition-africa;travellers-19c", "Osei Tutu united the Akan around Kumasi and beat Denkyira in 1701."),
@@ -607,19 +579,15 @@
      (-1.5, 6.5, 220, 1896, 2026, 1, "a", "african-censuses", "Asante, Fante and other speakers of Twi."),
    ]),
    ("dahomey", "Dahomey", "people", "kwa", "no", "guinea", "akan-gbe", [
-     (2.0, 7.2, 130, 1625, 1894, 0, "a", "travellers-19c;oral-tradition-africa", "Fon kingdom of Abomey. It took the coastal kingdoms of Allada and Whydah in the 1720s. France conquered it in 1894."),
-   ]),
-   ("ewe", "Ewe", "people", "kwa", "no", "guinea", "akan-gbe", [
-     (0.8, 6.6, 90, 1600, 2026, 1, "r", "oral-tradition-africa", "Tradition tells of a dispersal from the walled town of Notsie."),
+     (2.0, 7.2, 110, 1625, 1724, 0, "r", "oral-tradition-africa", "Fon kingdom of Abomey, founded in the early 17th century by tradition."),
+     (2.0, 7.2, 130, 1724, 1894, 0, "a", "travellers-19c", "It took the coastal kingdoms of Allada and Whydah in the 1720s, when European traders first describe it. France conquered it in 1894."),
    ]),
    ("temne", "Temne", "people", "atl", "no", "guinea", "upper-guinea", [
-     (-12.3, 8.8, 100, 1460, 2026, 1, "a", "portuguese-africa", "Named by Portuguese sailors, who called the coast peoples Sapes."),
+     (-12.3, 8.8, 100, 1460, 1505, 0, "r", "portuguese-africa", "Portuguese sailors reached this coast in the 1460s and called its peoples Sapes."),
+     (-12.3, 8.8, 100, 1505, 2026, 1, "a", "portuguese-africa", "Named by Portuguese writers from the first years of the 16th century."),
    ]),
    ("mende", "Mende", "people", "mande", "no", "guinea", "upper-guinea", [
      (-11.3, 7.8, 110, 1550, 2026, 1, "r", "portuguese-africa;oral-tradition-africa", "Often linked with the Mane invaders of the 1540s. The link is an inference."),
-   ]),
-   ("kru", "Kru", "people", "kwa", "no", "guinea", "upper-guinea", [
-     (-8.5, 4.9, 150, 1500, 2026, 1, "a", "portuguese-africa;travellers-19c", "Seafarers of the Grain Coast, who worked on European ships for four centuries."),
    ]),
 
    # ---------------------------------------------------------------- Bantu peoples
@@ -656,27 +624,17 @@
      (32.4, 0.4, 160, 1860, 1967, 0, "a", "travellers-19c", "The strongest lake kingdom when Speke arrived in 1862."),
    ]),
    ("rwanda-kingdom", "Rwanda", "people", "bantue", "no", "lakes", "great-lakes-kingdoms", [
-     (29.9, -2.0, 90, 1600, 1962, 0, "r", "oral-tradition-africa", "Kingdom of the Nyiginya dynasty. Scholars date its founding between the 15th and 17th centuries."),
-   ]),
-   ("burundi-kingdom", "Burundi", "people", "bantue", "no", "lakes", "great-lakes-kingdoms", [
-     (29.9, -3.4, 90, 1680, 1966, 0, "r", "oral-tradition-africa", "Founded by Ntare Rushatsi by tradition."),
+     (29.9, -2.0, 90, 1600, 1961, 0, "r", "oral-tradition-africa", "Kingdom of the Nyiginya dynasty, ended in 1961. Scholars date its founding between the 14th and 17th centuries."),
    ]),
    ("kongo", "Kongo", "people", "bantuw", "no", "congo", "kongo-neighbours", [
      (14.3, -6.2, 200, 1390, 1483, 0, "r", "oral-tradition-africa", "Founded about 1390 by tradition, with its capital at Mbanza Kongo."),
      (14.5, -6.5, 260, 1483, 1665, 0, "a", "portuguese-africa", "Portuguese ships arrived in 1483 and the king was baptised in 1491. Its kings wrote in Portuguese."),
      (14.3, -6.3, 150, 1665, 1914, 0, "a", "portuguese-africa", "Broken by defeat at Mbwila in 1665 and by civil war. The title lasted until 1914."),
-   ]),
-   ("loango", "Loango", "people", "bantuw", "no", "congo", "kongo-neighbours", [
-     (12.0, -4.5, 150, 1550, 1883, 0, "a", "portuguese-africa", "Vili kingdom of the coast north of the Congo mouth."),
+     (14.5, -5.5, 220, 1914, 2026, 1, "a", "african-censuses", "Bakongo, on both banks of the lower Congo in Angola, DR Congo and the Republic of the Congo."),
    ]),
    ("ndongo", "Ndongo and Matamba", "people", "bantuw", "no", "congo", "kongo-neighbours", [
-     (15.5, -9.3, 180, 1500, 1671, 0, "a", "portuguese-africa", "Mbundu kingdom whose ruler's title, ngola, named Angola. Queen Njinga fought Portugal from Matamba until 1663."),
-   ]),
-   ("tio", "Tio (Teke)", "people", "bantuw", "no", "congo", "kongo-neighbours", [
-     (15.5, -3.3, 150, 1500, 1880, 0, "a", "portuguese-africa", "Kingdom of the Makoko north of Malebo Pool, called Anziku in early reports."),
-   ]),
-   ("ovimbundu", "Ovimbundu kingdoms", "people", "bantuw", "no", "congo", "kongo-neighbours", [
-     (15.7, -12.5, 170, 1600, 1903, 0, "r", "portuguese-africa;oral-tradition-africa", "Bailundo, Viye and other kingdoms of the Angolan plateau, traders across the continent in the 19th century."),
+     (15.5, -9.3, 180, 1500, 1520, 0, "r", "oral-tradition-africa;portuguese-africa", "Mbundu kingdom whose ruler's title, ngola, named Angola."),
+     (15.5, -9.3, 180, 1520, 1671, 0, "a", "portuguese-africa", "A Portuguese mission reached its court in 1520. Queen Njinga fought Portugal from Matamba until 1663."),
    ]),
    ("kuba", "Kuba", "people", "bantuw", "no", "congo", "kongo-neighbours", [
      (21.5, -4.8, 110, 1625, 1900, 0, "r", "oral-tradition-africa", "Kingdom between the Kasai and Sankuru, founded by Shyaam by tradition."),
@@ -685,58 +643,50 @@
      (26.2, -8.7, 110, 700, 1300, 0, "r", "archaeology-africa", "Graves with copper and fine pottery in the Upemba basin, the Kisalian phase. On the ground of the later Luba."),
    ]),
    ("luba", "Luba", "people", "bantuw", "no", "congo", "savanna-kingdoms", [
-     (25.5, -8.0, 220, 1585, 1889, 0, "r", "oral-tradition-africa", "Kingdom of the upper Lualaba. Its ideas of kingship spread widely."),
+     (25.5, -8.0, 220, 1585, 1889, 0, "r", "oral-tradition-africa", "Kingdom of the upper Lualaba, whose ideas of kingship spread widely. Scholars date its founding anywhere from before 1500 to the 18th century."),
+     (23.5, -6.5, 300, 1889, 2026, 1, "a", "african-censuses", "Baluba of Katanga and Kasai, among the largest peoples of DR Congo."),
    ]),
    ("lunda", "Lunda", "people", "bantuw", "no", "congo+zambezi", "savanna-kingdoms", [
      (23.0, -8.5, 330, 1665, 1887, 0, "r", "oral-tradition-africa;portuguese-africa", "The realm of the Mwant Yav, with tributaries from the Kwango to the Luapula."),
    ]),
-   ("kazembe", "Kazembe", "people", "bantuw", "no", "zambezi+congo", "savanna-kingdoms", [
-     (28.8, -10.0, 140, 1740, 1890, 0, "a", "portuguese-africa", "Eastern Lunda kingdom on the Luapula, visited by Lacerda in 1798."),
-   ]),
-   ("lozi", "Lozi", "people", "bantuw", "no", "zambezi", "savanna-kingdoms", [
-     (23.0, -15.5, 170, 1700, 1900, 0, "r", "oral-tradition-africa;travellers-19c", "Kingdom of the upper Zambezi floodplain, also called Barotse. Kololo from the south ruled it from 1840 to 1864."),
-   ]),
    ("maravi", "Maravi", "people", "bantue", "no", "zambezi", "savanna-kingdoms", [
-     (34.3, -14.3, 180, 1480, 1600, 0, "r", "oral-tradition-africa", "Chewa-speaking kingdoms south of the lake, founded by the Phiri clan by tradition."),
-     (34.5, -14.8, 280, 1600, 1750, 0, "a", "portuguese-africa", "Known to the Portuguese of the Zambezi from about 1600. Malawi takes its name from it."),
-   ]),
-   ("bemba", "Bemba", "people", "bantue", "no", "zambezi", "savanna-kingdoms", [
-     (31.0, -10.5, 150, 1700, 1899, 0, "r", "oral-tradition-africa", "Kingdom of the Chitimukulu, of Luba origin by tradition."),
+     (34.3, -14.3, 180, 1480, 1616, 0, "r", "oral-tradition-africa", "Chewa-speaking kingdoms south of the lake, founded by the Phiri clan by tradition."),
+     (34.5, -14.8, 280, 1616, 1750, 0, "a", "portuguese-africa", "First described by Gaspar Bocarro, who crossed it in 1616. Malawi takes its name from it."),
    ]),
    ("azania", "Azania (Rhapta)", "people", "bantue", "yes", "lakes", "swahili-coast", [
      (39.3, -6.8, 190, 1, 400, 0, "i", "periplus-erythraean;ptolemy-geog", "The Periplus names the coast Azania and its last market Rhapta, which has not been found. What its people spoke is not known."),
    ]),
    ("swahili", "Swahili", "people", "bantue", "no", "lakes+zambezi", "swahili-coast", [
      (41.0, -2.2, 100, 750, 2026, 1, "r", "archaeology-africa", "The Lamu islands, with early mosques at Shanga. Pate and Lamu were later city states."),
-     (39.4, -5.5, 180, 900, 2026, 1, "a", "arab-geographers-africa;ibn-battuta", "Waswahili, people of the coast. Arab writers call them Zanj."),
+     (39.4, -5.5, 180, 900, 1331, 0, "r", "arab-geographers-africa;archaeology-africa", "The Zanj of Arab writers. Al-Masudi sailed to this coast in 916, but the towns of this time are placed by archaeology."),
+     (39.4, -5.5, 180, 1331, 2026, 1, "a", "ibn-battuta;portuguese-africa", "Waswahili, people of the coast. Ibn Battuta visited Mombasa and Kilwa about 1331 and calls the coast the Sawahil."),
    ]),
    ("kilwa", "Kilwa", "people", "bantue", "no", "lakes+zambezi", "swahili-coast", [
-     (39.5, -8.9, 180, 1050, 1505, 0, "a", "kilwa-chronicle;ibn-battuta", "Sultanate that held the gold trade of Sofala. Ibn Battuta visited about 1331 and Portugal sacked it in 1505."),
-   ]),
-   ("mombasa", "Mombasa", "people", "bantue", "no", "lakes", "swahili-coast", [
-     (39.7, -4.05, 70, 1300, 1837, 0, "a", "ibn-battuta;portuguese-africa", "City state, held by Portugal from Fort Jesus after 1593 and by the Mazrui governors from 1746."),
+     (39.5, -8.9, 150, 1050, 1331, 0, "r", "kilwa-chronicle;archaeology-africa", "The Kilwa Chronicle puts its founding in the 10th century and archaeology somewhat later."),
+     (39.5, -8.9, 180, 1331, 1505, 0, "a", "ibn-battuta;portuguese-africa", "Sultanate that held the gold trade of Sofala. Ibn Battuta visited about 1331 and Portugal sacked it in 1505."),
    ]),
    ("sofala", "Sofala", "people", "bantus", "yes", "zambezi", "swahili-coast", [
-     (34.8, -20.1, 80, 1000, 1505, 0, "a", "arab-geographers-africa;portuguese-africa", "The southern port of the gold trade, named by al-Masudi. Its people were Swahili traders and local Shona."),
+     (34.8, -20.1, 80, 1000, 1505, 0, "r", "arab-geographers-africa;portuguese-africa", "The southern port of the gold trade. Arab writers from al-Masudi on use the name for a whole coast, and the town is first placed by the Portuguese, who built a fort there in 1505."),
    ]),
    ("zanzibar", "Zanzibar (Omani)", "people", "arab", "no", "lakes", "swahili-coast", [
      (39.3, -6.1, 230, 1698, 1890, 0, "a", "travellers-19c;acts-treaties", "Oman took the coast from Portugal by 1698 and its sultan moved to Zanzibar about 1840. Britain made it a protectorate in 1890."),
    ]),
    ("mapungubwe", "Mapungubwe", "people", "bantus", "yes", "zambezi+southafrica", "zimbabwe-plateau", [
-     (29.4, -22.2, 130, 1075, 1300, 0, "r", "archaeology-africa", "A hilltop capital on the Limpopo, rich in gold. Known from excavation only. Its people are taken to be early Shona speakers."),
+     (29.4, -22.2, 130, 1075, 1300, 0, "r", "archaeology-africa", "A capital on the Limpopo, rich in gold, at the site called K2 and from about 1220 on Mapungubwe hill. Known from excavation only, and its people are taken to be early Shona speakers."),
    ]),
    ("great-zimbabwe", "Great Zimbabwe", "people", "bantus", "yes", "zambezi", "zimbabwe-plateau", [
      (30.9, -20.3, 220, 1250, 1450, 0, "r", "archaeology-africa", "The largest stone-built town south of the Sahara. No writing of its own time names it."),
    ]),
    ("mutapa", "Mutapa", "people", "bantus", "no", "zambezi", "zimbabwe-plateau", [
-     (31.0, -17.0, 250, 1450, 1629, 0, "a", "portuguese-africa", "Shona kingdom of the northern plateau. The Portuguese wrote Monomotapa."),
+     (31.0, -17.0, 250, 1450, 1506, 0, "r", "oral-tradition-africa", "Shona kingdom of the northern plateau, founded in the 15th century by tradition."),
+     (31.0, -17.0, 250, 1506, 1629, 0, "a", "portuguese-africa", "Portuguese letters name it from 1506 and write Monomotapa."),
      (32.0, -16.8, 150, 1629, 1760, 0, "a", "portuguese-africa", "A client of Portugal after 1629 and much reduced."),
    ]),
    ("butua", "Butua (Torwa)", "people", "bantus", "no", "zambezi", "zimbabwe-plateau", [
-     (28.4, -20.2, 150, 1450, 1684, 0, "r", "archaeology-africa;portuguese-africa", "Kingdom of the south-west plateau with its stone capital at Khami."),
+     (28.4, -20.2, 150, 1450, 1683, 0, "r", "archaeology-africa;portuguese-africa", "Kingdom of the south-west plateau with its stone capital at Khami."),
    ]),
    ("rozvi", "Rozvi", "people", "bantus", "no", "zambezi", "zimbabwe-plateau", [
-     (29.5, -19.5, 250, 1684, 1834, 0, "r", "portuguese-africa;oral-tradition-africa", "Changamire Dombo drove the Portuguese off the plateau in 1693. Nguni armies destroyed the state in the 1830s."),
+     (29.5, -19.5, 250, 1683, 1834, 0, "r", "portuguese-africa;oral-tradition-africa", "Changamire Dombo took Butua about 1683 and drove the Portuguese off the plateau in the 1690s. Nguni armies broke the state in the 1830s."),
    ]),
    ("shona", "Shona", "people", "bantus", "no", "zambezi", "zimbabwe-plateau", [
      (31.0, -18.5, 250, 1834, 2026, 1, "a", "travellers-19c;african-censuses", "The shared name is of the 19th century. Zezuru, Karanga, Manyika and others."),
@@ -752,18 +702,12 @@
      (31.3, -28.3, 180, 1816, 1879, 0, "a", "travellers-19c", "The kingdom Shaka built from 1816. Britain broke it in 1879."),
      (31.0, -28.8, 190, 1879, 2026, 1, "a", "african-censuses", "AmaZulu, the largest language community of South Africa."),
    ]),
-   ("swazi", "Swazi", "people", "bantus", "no", "southafrica", "nguni-sotho", [
-     (31.5, -26.5, 90, 1750, 2026, 1, "a", "oral-tradition-africa;travellers-19c", "EmaSwati. The Dlamini kingdom, now Eswatini."),
-   ]),
    ("sotho", "Sotho", "people", "bantus", "no", "southafrica", "nguni-sotho", [
      (28.0, -29.5, 130, 1822, 2026, 1, "a", "travellers-19c", "Basotho. Moshoeshoe gathered refugees on Thaba Bosiu in the 1820s. Lesotho is their state."),
    ]),
    ("tswana", "Tswana", "people", "bantus", "no", "southafrica", "nguni-sotho", [
      (25.8, -25.0, 250, 1500, 1800, 0, "r", "archaeology-africa;oral-tradition-africa", "Chiefdoms with large stone-walled towns."),
      (25.5, -24.5, 280, 1800, 2026, 1, "a", "travellers-19c", "Batswana. Travellers reached the town of Dithakong in 1801."),
-   ]),
-   ("pedi", "Pedi", "people", "bantus", "no", "southafrica", "nguni-sotho", [
-     (30.0, -24.5, 110, 1780, 1879, 0, "a", "travellers-19c;oral-tradition-africa", "Northern Sotho kingdom of Thulare and Sekhukhune."),
    ]),
    ("ndebele", "Ndebele", "people", "bantus", "no", "southafrica+zambezi", "nguni-sotho", [
      (27.0, -25.5, 150, 1826, 1838, 0, "a", "travellers-19c", "Mzilikazi left Shaka about 1822 and ruled the highveld until the Boers drove him north."),
@@ -779,29 +723,15 @@
      (16.0, -17.8, 150, 1600, 2026, 1, "r", "oral-tradition-africa;travellers-19c", "Aawambo. Farming kingdoms of the Cuvelai floodplain."),
    ]),
    ("herero", "Herero", "people", "bantuw", "no", "southafrica", "southwest-bantu", [
-     (17.0, -21.5, 200, 1750, 1850, 0, "r", "oral-tradition-africa", "Ovaherero, cattle herders who came south from the Kunene."),
+     (17.0, -21.5, 200, 1750, 1850, 0, "r", "oral-tradition-africa", "Ovaherero, cattle herders who came south from the Kunene. Accounts of when they arrived range from the 15th to the 18th century."),
      (17.2, -21.5, 200, 1850, 2026, 1, "a", "travellers-19c", "Most were killed or driven out by German forces between 1904 and 1908."),
-   ]),
-   ("himba", "Himba", "people", "bantuw", "no", "southafrica+congo", "southwest-bantu", [
-     (13.8, -18.2, 110, 1850, 2026, 1, "a", "travellers-19c", "Ovahimba, Herero-speaking herders of the Kaoko hills."),
    ]),
    ("kikuyu", "Kikuyu", "people", "bantue", "no", "lakes", "east-african-bantu", [
      (37.0, -0.8, 80, 1500, 2026, 1, "r", "oral-tradition-africa;travellers-19c", "Agikuyu. Farmers of the ridges south of Mount Kenya."),
    ]),
-   ("kamba", "Kamba", "people", "bantue", "no", "lakes", "east-african-bantu", [
-     (38.0, -1.8, 100, 1600, 2026, 1, "r", "oral-tradition-africa;travellers-19c", "Akamba, ivory traders between the highlands and the coast."),
-   ]),
-   ("nyamwezi", "Nyamwezi", "people", "bantue", "no", "lakes", "east-african-bantu", [
-     (32.8, -5.0, 170, 1700, 2026, 1, "r", "travellers-19c;oral-tradition-africa", "Caravan traders of the western plateau. Mirambo built a short-lived state in the 1870s."),
-   ]),
-   ("hehe", "Hehe", "people", "bantue", "no", "lakes", "east-african-bantu", [
-     (35.5, -8.0, 110, 1860, 2026, 1, "a", "travellers-19c", "A kingdom of the southern highlands that fought the Germans in the 1890s."),
-   ]),
-   ("yao-malawi", "Yao", "people", "bantue", "no", "zambezi+lakes", "east-african-bantu", [
-     (36.0, -13.0, 180, 1700, 2026, 1, "a", "portuguese-africa;travellers-19c", "Traders between Lake Malawi and Kilwa."),
-   ]),
    ("makua", "Makua", "people", "bantue", "no", "zambezi", "east-african-bantu", [
-     (38.5, -14.5, 220, 1500, 2026, 1, "a", "portuguese-africa", "The largest people of northern Mozambique, named by the Portuguese from the 16th century."),
+     (38.5, -14.5, 220, 1500, 1600, 0, "r", "portuguese-africa;linguistic-geography", "The largest people of northern Mozambique, behind the Portuguese post on Mozambique Island."),
+     (38.5, -14.5, 220, 1600, 2026, 1, "a", "portuguese-africa", "Named by Portuguese writers from about 1600."),
    ]),
    ("mbuti", "Mbuti and Efe", "people", "bantuw", "yes", "congo", "forest-foragers", [
      (28.5, 1.5, 150, 1, 1870, 0, "i", "archaeology-africa", "Foragers of the Ituri forest. Their own language is lost."),
@@ -809,9 +739,6 @@
    ]),
    ("baka-aka", "Baka and Aka", "people", "bantuw", "yes", "congo+chad", "forest-foragers", [
      (15.5, 2.5, 250, 1, 2026, 1, "i", "archaeology-africa;linguistic-geography", "Foragers of the western forest. Aka speak a Bantu language and Baka an Ubangi one. Their older languages are lost."),
-   ]),
-   ("twa", "Twa", "people", "bantuw", "yes", "congo+lakes", "forest-foragers", [
-     (21.0, -2.0, 300, 1, 2026, 1, "i", "oral-tradition-africa;linguistic-geography", "Batwa or Cwa. Foragers and potters of the central basin and the Great Lakes, who speak their neighbours' languages."),
    ]),
 
    # ---------------------------------------------------------------- Khoe and San
@@ -824,12 +751,6 @@
      (17.5, -27.5, 280, 1, 1680, 0, "r", "archaeology-africa;linguistic-geography", "Khoekhoe herders along the Orange River."),
      (17.5, -26.5, 300, 1680, 2026, 1, "a", "dutch-cape-records;travellers-19c", "Dutch parties reached Namaqualand in the 1680s. Nama is the one Khoekhoe language still widely spoken."),
    ]),
-   ("korana", "Korana", "people", "khoe", "no", "southafrica", "khoekhoe-peoples", [
-     (24.0, -28.8, 180, 1700, 1900, 0, "a", "travellers-19c", "Khoekhoe of the middle Orange and Vaal. Also !Ora. Their language is nearly gone."),
-   ]),
-   ("griqua", "Griqua", "people", "wgerm", "no", "southafrica", "khoekhoe-peoples", [
-     (23.7, -29.0, 150, 1800, 1880, 0, "a", "travellers-19c;acts-treaties", "People of Khoekhoe and mixed descent who left the Cape and founded captaincies at Griquatown and Philippolis. They spoke Dutch and Khoekhoe."),
-   ]),
    ("damara", "Damara", "people", "khoe", "no", "southafrica", "khoekhoe-peoples", [
      (15.5, -21.0, 170, 1700, 2026, 1, "r", "travellers-19c;linguistic-geography", "Hunters and smiths of central Namibia who speak Khoekhoe. Their earlier history is unknown."),
    ]),
@@ -837,15 +758,13 @@
      (25.0, -26.0, 750, 1, 1000, 0, "r", "archaeology-africa", "Foragers of the whole south, known from stone tools and rock art. Older books say Bushmen."),
      (22.0, -24.5, 500, 1000, 1850, 0, "r", "archaeology-africa;dutch-cape-records", "Pressed into the drier west as farmers and then colonists took the rest."),
    ]),
-   ("xam", "/Xam", "people", "san", "no", "southafrica", "san-peoples", [
-     (21.5, -30.5, 250, 1600, 1880, 0, "a", "dutch-cape-records;travellers-19c", "San of the Karoo, hunted down by frontier commandos. Their stories were written down by Bleek and Lloyd in the 1870s."),
-   ]),
-   ("juhoansi", "Ju/'hoansi", "people", "san", "no", "southafrica", "san-peoples", [
+   ("juhoansi", "Juǀʼhoansi", "people", "san", "no", "southafrica", "san-peoples", [
      (20.8, -19.8, 180, 1, 1850, 0, "r", "archaeology-africa;linguistic-geography", "Foragers of the north-western Kalahari, there for thousands of years by the evidence of archaeology."),
-     (20.8, -19.8, 150, 1850, 2026, 1, "a", "travellers-19c", "The name means true people. Older books say !Kung."),
+     (20.8, -19.8, 150, 1850, 2026, 1, "a", "travellers-19c", "The name means true people and is also written Ju/'hoansi. Older books say !Kung."),
    ]),
-   ("gwi", "G/ui and G//ana", "people", "khoe", "no", "southafrica", "san-peoples", [
-     (23.5, -22.3, 150, 1800, 2026, 1, "a", "travellers-19c;linguistic-geography", "Foragers of the central Kalahari. Called San, though their languages are Khoe."),
+   ("gwi", "Gǀui and Gǁana", "people", "khoe", "no", "southafrica", "san-peoples", [
+     (23.5, -22.3, 150, 1800, 1900, 0, "r", "linguistic-geography", "Foragers of the central Kalahari before travellers wrote of them. Also written G/ui and G//ana."),
+     (23.5, -22.3, 150, 1900, 2026, 1, "a", "travellers-19c;linguistic-geography", "Foragers of the central Kalahari. Called San, though their languages are Khoe."),
    ]),
    ("hadza", "Hadza", "people", "san", "no", "lakes", "hadza-sandawe", [
      (35.0, -3.9, 130, 1, 1890, 0, "i", "archaeology-africa;linguistic-geography", "Foragers near Lake Eyasi. Their long presence is assumed, not recorded."),
@@ -921,12 +840,6 @@
    ("nigeria-state", "Nigeria", "polity", "", "no", "guinea", "", [
      (8.0, 9.5, 500, 1960, 2026, 1, "a", "acts-treaties", "Independent since 1960. The most populous state in Africa."),
    ]),
-   ("ghana-state", "Ghana", "polity", "", "no", "guinea", "", [
-     (-1.2, 7.9, 280, 1957, 2026, 1, "a", "acts-treaties", "The Gold Coast took the name of the old Sahel kingdom at independence in 1957, though it lies far from it."),
-   ]),
-   ("mauritania-state", "Mauritania", "polity", "arab", "no", "sahelw", "", [
-     (-10.5, 20.3, 550, 1960, 2026, 1, "a", "acts-treaties", "Independent since 1960."),
-   ]),
    ("mali-state", "Mali", "polity", "", "no", "sahelw", "", [
      (-2.5, 17.5, 650, 1960, 2026, 1, "a", "acts-treaties", "Named for the medieval empire. Control of the north has been contested by Tuareg and other armed movements since 2012."),
    ]),
@@ -957,21 +870,15 @@
    ("angola-state", "Angola", "polity", "", "no", "congo", "", [
      (17.5, -12.5, 550, 1975, 2026, 1, "a", "acts-treaties", "Independent since 1975, after a war that began in 1961."),
    ]),
-   ("zambia-state", "Zambia", "polity", "", "no", "zambezi", "", [
-     (27.5, -13.5, 400, 1964, 2026, 1, "a", "acts-treaties", "Northern Rhodesia until 1964."),
-   ]),
    ("mozambique-state", "Mozambique", "polity", "", "no", "zambezi", "", [
      (36.0, -18.0, 600, 1975, 2026, 1, "a", "acts-treaties", "Independent since 1975."),
-   ]),
-   ("namibia-state", "Namibia", "polity", "", "no", "southafrica", "", [
-     (17.5, -22.0, 450, 1990, 2026, 1, "a", "acts-treaties", "South West Africa until independence in 1990."),
    ]),
    ("south-africa-state", "South Africa", "polity", "", "no", "southafrica", "", [
      (25.0, -29.0, 600, 1961, 2026, 1, "a", "acts-treaties", "A republic since 1961. Minority rule ended with the election of 1994. It has eleven official spoken languages."),
    ]),
  ],
  "links": [
-   ("nobatia", "makuria", "merged-into", 700, "nubian-texts", "The two kingdoms were joined under the king at Dongola. The date is approximate."),
+   ("nobatia", "makuria", "merged-into", 650, "nubian-texts", "The two kingdoms were joined under the king at Dongola in the 7th century. The date is approximate."),
    ("meroe-kush", "alwa", "continues", 500, "archaeology-africa", "Alwa held the old heartland of Kush. Continuity of people is likely and of rule is not shown."),
    ("aksum-kingdom", "zagwe", "continues", 1137, "ethiopian-chronicles", "The Zagwe kept Aksum's church and its claims. The break between them is poorly recorded."),
    ("zagwe", "ethiopia-solomonic", "continues", 1270, "ethiopian-chronicles", "Yekuno Amlak overthrew the last Zagwe king."),
@@ -979,12 +886,12 @@
    ("ghana-wagadu", "mali-empire", "absorbed-by", 1240, "arab-geographers-africa", "Ibn Khaldun reports the conquest."),
    ("gao-kingdom", "songhai-empire", "continues", 1464, "timbuktu-chronicles", "Sunni Ali made the kingdom of Gao an empire."),
    ("kanem", "bornu", "continues", 1380, "arab-geographers-africa", "The same dynasty moved its seat west of Lake Chad."),
-   ("hausa-states", "sokoto", "absorbed-by", 1808, "travellers-19c", "The jihad replaced the Hausa kings with Fula emirs."),
+   ("hausa-states", "sokoto", "absorbed-by", 1808, "travellers-19c", "The jihad of 1804 to 1808 replaced the Hausa kings with Fula emirs."),
    ("segu", "tukulor", "absorbed-by", 1861, "travellers-19c", "Umar Tal took Segu in 1861."),
    ("massina", "tukulor", "absorbed-by", 1862, "travellers-19c", "Umar Tal took Hamdullahi in 1862."),
    ("kitara", "bunyoro", "continues", 1500, "oral-tradition-africa", "Bunyoro's kings claimed to be heirs of Kitara. This is court tradition."),
    ("great-zimbabwe", "mutapa", "continues", 1450, "oral-tradition-africa", "Tradition has a prince leave Great Zimbabwe for the north. The link is debated."),
-   ("butua", "rozvi", "absorbed-by", 1684, "portuguese-africa", "The Rozvi took Khami and the south-west."),
+   ("butua", "rozvi", "absorbed-by", 1683, "portuguese-africa", "The Rozvi took Khami and the south-west."),
    ("northern-nguni", "zulu", "continues", 1816, "travellers-19c", "Shaka took over the Mthethwa confederacy and beat the Ndwandwe."),
    ("ndebele", "zulu", "split-from", 1822, "travellers-19c", "Mzilikazi and his following broke away from Shaka."),
    ("kwale", "urewe", "split-from", 150, "archaeology-africa", "Kwale pottery is held to derive from Urewe. This is an archaeological inference."),

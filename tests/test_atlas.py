@@ -170,6 +170,39 @@ class World(unittest.TestCase):
         self.assertEqual(p["rs"], [model.REGION_LIST.index("britain")])
 
 
+class Parts(unittest.TestCase):
+    """The part files are the record of everything outside Europe's first seed."""
+
+    @classmethod
+    def setUpClass(cls):
+        import ast
+        cls.parts = {}
+        for path in sorted((model.ROOT / "parts").glob("part*.py")):
+            cls.parts[path.name] = ast.literal_eval(path.read_text(encoding="utf-8"))
+
+    def test_no_two_parts_use_the_same_id(self):
+        for key, what in (("entries", "entry"), ("groups", "group")):
+            seen = {}
+            for name, part in self.parts.items():
+                for row in part.get(key, []):
+                    self.assertNotIn(row[0], seen, "%s id %r is in %s and %s" % (what, row[0], seen.get(row[0]), name))
+                    seen[row[0]] = name
+
+    def test_a_source_named_by_two_parts_is_the_same_source(self):
+        seen = {}
+        for name, part in self.parts.items():
+            for row in part.get("sources", []):
+                if row[0] in seen:
+                    self.assertEqual(tuple(row), seen[row[0]][1], "source %r differs between %s and %s" % (row[0], seen[row[0]][0], name))
+                seen[row[0]] = (name, tuple(row))
+
+    def test_the_tables_hold_what_the_parts_say(self):
+        ids = {p["people_id"] for p in model.load()["peoples"]}
+        for name, part in self.parts.items():
+            for row in part.get("entries", []):
+                self.assertIn(row[0], ids, "%s: %s is not in data/peoples.csv; apply the part" % (name, row[0]))
+
+
 class Build(unittest.TestCase):
     def test_build_output(self):
         tables = model.load()

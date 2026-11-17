@@ -59,7 +59,7 @@ Not verified:
 ## What I am least sure of
 
 1. **The grain is too fine in places.** The brief asked for ten to thirty named peoples or states per keyframe per part. Every part came in over: the Americas has about 125 alive at 1800, Africa 92, South Asia 49. Folding hides this on the overview, but an opened group can be crowded.
-2. **Class.** 40 to 65 percent of claims in each part are classed attested. That is too high for Africa south of the Sahara, the Americas and Australia before 1500, and should be audited before any other check.
+2. **Class.** 40 to 65 percent of claims in each part are classed attested. That is too high for Africa south of the Sahara, the Americas and Australia before 1500, and should be audited before any other check. *Corrected by the seed check that followed: split by date, almost no early claim was classed attested. See `docs/jobs/2026-11-17-world-seed-check.md`.*
 3. **Washes before writing.** The Bantu arrival dates, the Amazon, the Great Basin, eastern Siberia before 1600, central Africa before farmers, Balochistan, the Kazakh steppe before 550. All are classed reconstructed or indicative and say so, and all are staging by round numbers.
 4. **Families forced by the fixed list.** Dayak and Sulawesi languages under Malay, Chamorro under Philippine, Kru and Tiv under Akan and Yoruba, Dogon under Gur, Meroitic under other Nilo-Saharan, Yue under Tai, Buyeo and Goguryeo under Korean. Unknown languages (Xiongnu, Dorset, Teotihuacan, Hopewell) sit under "Unclassified".
 5. **Ruling language for states and dynasties.** Sultanates and Mughal successors are filed as Persian, Mamluks as Kipchak, Ayyubids as Arabic. The map stripes these over the population's language, and across north India at 1500 the stripes are heavy.
