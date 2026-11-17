@@ -33,33 +33,6 @@ seljuks-of-rum,karamanids,continues,1308,arabic-histories-east,The beyliks divid
 saudi-emirates,saudi-arabia,continues,1902,acts-treaties,,seed
 alaouite-sultanate,morocco,continues,1956,acts-treaties,The same ruling house.,seed
 ayyubids,mamluks,continues,1250,arabic-histories-east,The Mamluks were the Ayyubid sultan's own slave regiment.,seed
-yuezhi-bactria,kushans,continues,50,chinese-histories-west,The Kushans were one of the five Yuezhi divisions.,seed
-aorsi,alani,absorbed-by,100,chinese-histories-west,The Alan name replaces the Aorsi in the sources.,seed
-parthian-empire,sasanian-empire,continues,224,sasanian-inscriptions,A change of dynasty over the same lands.,seed
-sogdians,tajiks,merged-into,1000,arab-geographers,Sogdians took up Persian under the Samanids.,seed
-bactrians,tajiks,merged-into,900,arab-geographers,Bactrian gave way to Persian.,seed
-oghuz-yabgu,turkmens,continues,1055,kashgari-diwan,Muslim Oghuz were called Turkmen.,seed
-kimeks,kipchaks-east,continues,1050,arab-geographers,The Kipchaks were the western division of the Kimeks and took their place.,seed
-chagatai-khanate,moghulistan,continues,1347,persian-histories,The eastern half of the divided khanate.,seed
-ulus-of-orda,uzbek-ulus,continues,1428,persian-histories,,seed
-kazakh-khanate,uzbek-ulus,split-from,1465,persian-histories,Janibek and Kerei left Abulkhayr Khan.,seed
-uzbek-ulus,khanate-of-bukhara,continues,1500,persian-histories,"Shaybani Khan, grandson of Abulkhayr, led the Uzbeks into Transoxiana.",seed
-kazakh-khanate,kazakh-zhuzes,continues,1718,russian-siberian-records,After Tauke Khan the three zhuzes had separate khans.,seed
-kazakh-zhuzes,kazakhs,continues,1822,russian-siberian-records,,seed
-volga-bulgars,volga-tatars,merged-into,1438,linguistic-geography,How much the Tatars and how much the Chuvash descend from the Bulgars is argued.,seed
-kazan-khanate,volga-tatars,continues,1552,russian-siberian-records,,seed
-sibir-khanate,siberian-tatars,continues,1598,russian-siberian-records,,seed
-kyrgyz-yenisei,khakas,continues,1703,russian-siberian-records,Those who stayed on the Yenisei.,seed
-gorodets-culture,mordvins,continues,550,steppe-archaeology,An inference from archaeology.,seed
-kama-cultures,udmurts,continues,1100,steppe-archaeology,An inference from archaeology.,seed
-daylamites,gilaks-and-mazandaranis,continues,1100,persian-histories,,seed
-durrani-afghanistan,afghanistan,continues,1823,acts-treaties,The Barakzai emirs replaced the Durrani kings.,seed
-qajar-iran,iran,continues,1925,acts-treaties,,seed
-kazakh-ssr,kazakhstan,continues,1991,acts-treaties,,seed
-uzbek-ssr,uzbekistan,continues,1991,acts-treaties,,seed
-turkmen-ssr,turkmenistan,continues,1991,acts-treaties,,seed
-tajik-ssr,tajikistan,continues,1991,acts-treaties,,seed
-kirghiz-ssr,kyrgyzstan,continues,1991,acts-treaties,,seed
 van-diemens-land,new-south-wales-colony,split-from,1825,acts-treaties,Van Diemen's Land became a separate colony.,seed
 victoria-colony,new-south-wales-colony,split-from,1851,acts-treaties,,seed
 queensland-colony,new-south-wales-colony,split-from,1859,acts-treaties,,seed
@@ -189,3 +162,30 @@ singhasari,majapahit,continues,1293,nagarakretagama,Founded by Kertanagara's son
 mataram-sultanate,surakarta-yogyakarta,continues,1755,voc-records,Divided by the Treaty of Giyanti.,seed
 tui-tonga,tonga-kingdom,name-continues,1845,polynesian-oral-tradition,The modern kings descend from a junior chiefly line.,seed
 merina,merina-kingdom,continues,1787,tantara-andriana,The Merina united under one king.,seed
+yuezhi-bactria,kushans,continues,50,chinese-histories-west,The Kushans were one of the five Yuezhi divisions.,seed
+aorsi,alani,absorbed-by,100,chinese-histories-west,The Alan name replaces the Aorsi in the sources.,seed
+parthian-empire,sasanian-empire,continues,224,sasanian-inscriptions,A change of dynasty over the same lands.,seed
+sogdians,tajiks,merged-into,1000,arab-geographers,Sogdians took up Persian under the Samanids.,seed
+bactrians,tajiks,merged-into,900,arab-geographers,Bactrian gave way to Persian.,seed
+oghuz-yabgu,turkmens,continues,1055,kashgari-diwan,Muslim Oghuz were called Turkmen.,seed
+kimeks,kipchaks-east,continues,1050,arab-geographers,The Kipchaks were the western division of the Kimeks and took their place.,seed
+chagatai-khanate,moghulistan,continues,1347,persian-histories,The eastern half of the divided khanate.,seed
+ulus-of-orda,uzbek-ulus,continues,1428,persian-histories,,seed
+kazakh-khanate,uzbek-ulus,split-from,1465,persian-histories,Janibek and Kerei left Abulkhayr Khan.,seed
+uzbek-ulus,khanate-of-bukhara,continues,1500,persian-histories,"Shaybani Khan, grandson of Abulkhayr, led the Uzbeks into Transoxiana.",seed
+kazakh-khanate,kazakh-zhuzes,continues,1718,russian-siberian-records,After Tauke Khan the three zhuzes had separate khans.,seed
+kazakh-zhuzes,kazakhs,continues,1822,russian-siberian-records,,seed
+volga-bulgars,volga-tatars,merged-into,1438,linguistic-geography,How much the Tatars and how much the Chuvash descend from the Bulgars is argued.,seed
+kazan-khanate,volga-tatars,continues,1552,russian-siberian-records,,seed
+sibir-khanate,siberian-tatars,continues,1598,russian-siberian-records,,seed
+kyrgyz-yenisei,khakas,continues,1703,russian-siberian-records,Those who stayed on the Yenisei.,seed
+gorodets-culture,mordvins,continues,550,steppe-archaeology,An inference from archaeology.,seed
+kama-cultures,udmurts,continues,1100,steppe-archaeology,An inference from archaeology.,seed
+daylamites,gilaks-and-mazandaranis,continues,1100,persian-histories,,seed
+durrani-afghanistan,afghanistan,continues,1823,acts-treaties,The Barakzai emirs replaced the Durrani kings.,seed
+qajar-iran,iran,continues,1925,acts-treaties,,seed
+kazakh-ssr,kazakhstan,continues,1991,acts-treaties,,seed
+uzbek-ssr,uzbekistan,continues,1991,acts-treaties,,seed
+turkmen-ssr,turkmenistan,continues,1991,acts-treaties,,seed
+tajik-ssr,tajikistan,continues,1991,acts-treaties,,seed
+kirghiz-ssr,kyrgyzstan,continues,1991,acts-treaties,,seed

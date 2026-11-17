@@ -62,28 +62,6 @@ sharafnama,"Sharaf Khan Bidlisi, Sharafnama",text,1597,no,,"A history of the Kur
 census-neareast,"Modern censuses and language surveys of the Near East, the Caucasus and North Africa",census,1880s onward,yes,,Bucket. A checked claim cites the census year and table.
 islendingabok,"Ari Thorgilsson, Book of the Icelanders (Islendingabok)",text,about 1125,no,,Dates the settlement of Iceland to about 870.
 canarian-chronicles,Le Canarien and the Castilian chronicles of the conquest of the Canary Islands,text,15th century,yes,,Bucket. Written by the conquerors.
-isidore-charax,"Isidore of Charax, Parthian Stations",text,about 1,no,,An itinerary across the Parthian empire from the Euphrates to Arachosia.
-iranian-coins,"Coins of the Parthian, Persid, Kushan, Sasanian and Hunnic rulers",coin,3rd century BCE to 8th century,yes,,Bucket. A checked claim cites the issue.
-sasanian-inscriptions,"Sasanian royal inscriptions, among them Shapur I at Naqsh-e Rostam and Narseh at Paikuli",inscription,3rd century,yes,,Bucket. A checked claim cites the inscription.
-chinese-histories-west,"Chinese dynastic histories on the Western Regions (Shiji, Hanshu, Hou Hanshu, Weishu, Tangshu)",text,about 90 BCE to 1060,yes,,Bucket. A checked claim cites the history and chapter. Names are in Chinese transcription and many placements are modern.
-xuanzang-xiyuji,"Xuanzang, Records of the Western Regions, on Sogd, Tokharistan and Kapisa",text,646,no,,A pilgrim's account of the journey of 629 to 645.
-sogdian-documents,Sogdian Ancient Letters and the Mount Mugh documents,record,4th to 8th century,yes,,Bucket. A checked claim cites the document.
-bactrian-documents,Bactrian inscriptions and legal documents,record,2nd to 8th century,yes,,Bucket. Includes the Rabatak inscription of Kanishka. A checked claim cites the document.
-menander,"Menander Protector, History (fragments)",text,about 580,no,,Reports the Roman embassy of Zemarchus to the Western Turks in 569.
-old-turkic-inscriptions,Old Turkic runiform inscriptions of the Yenisei and the Talas,inscription,8th to 10th century,yes,,Bucket. A checked claim cites the inscription.
-tabari,"al-Tabari, History of the Prophets and Kings",text,about 915,no,,"The main narrative of the Arab conquest of Iran and Khurasan, written two centuries after it."
-ibn-fadlan,"Ibn Fadlan, account of the embassy to the Volga Bulgars",text,922,no,,"An eyewitness to the Oghuz, Bashkirs, Bulgars and Khazars."
-biruni,"al-Biruni, Chronology of Ancient Nations",text,about 1000,no,,Written by a native of Khwarezm.
-kashgari-diwan,"Mahmud al-Kashgari, Compendium of the Turkic Dialects",text,about 1075,no,,Describes the Turkic peoples and their speech from the Kara-Khanid side.
-juvayni,"Juvayni, History of the World Conqueror",text,about 1260,no,,Written by a Persian official of the Mongols.
-rashid-al-din,"Rashid al-Din, Compendium of Chronicles",text,about 1310,no,,Written for the Ilkhans at Tabriz.
-carpini-rubruck,"John of Plano Carpini and William of Rubruck, journeys to the Mongols",text,1247 and 1255,yes,,"Bucket of two friars' reports, with the earlier report of the friar Julian."
-persian-histories,"Persian court histories and memoirs, from Bayhaqi to the Qajar chroniclers",text,11th to 19th century,yes,,Bucket. A checked claim cites the work.
-census-1897,Russian imperial census of 1897,census,1897,no,,The first count of the empire by mother tongue.
-soviet-censuses,Soviet and later national censuses,census,1926 onward,yes,,Bucket. A checked claim cites the census year.
-modern-ethnography,"Modern language and ethnographic surveys of Iran, Afghanistan and Central Asia",modern-study,various,yes,,"Bucket. Iran and Afghanistan have never counted their people by language, so areas are estimates."
-steppe-archaeology,"Archaeology of the steppe, the Urals and Siberia",modern-study,various,yes,,"Bucket. Burial mounds, settlements and named cultures. A culture is not a people and its language is always inferred."
-arab-geographers,Arab historians and geographers on Sindh and the Indian coast,text,9th to 11th century,yes,,Bucket. A checked claim cites the author and passage.
 archaeology-sahul,Archaeology of Australia and New Guinea,modern-study,20th and 21st centuries,yes,,"Bucket. Excavated sites, dated remains and worked landscapes. It shows that people were present and how they lived, and it does not give the names of peoples or languages."
 aus-papuan-linguistics,Historical linguistics of Australian and Papuan languages,modern-study,20th and 21st centuries,yes,,Bucket. Language families reconstructed from languages recorded since about 1788. Early positions are projected back and are not observed.
 oral-tradition-songlines,"Oral tradition, songlines and community histories",text,recorded mainly since the 19th century,yes,,"Bucket. Spoken and sung knowledge held by the peoples themselves, tying each people to its country. It is evidence of belonging and of events within some generations, and it carries no calendar dates."
@@ -144,7 +122,6 @@ secret-history,Secret History of the Mongols,text,about 1240,no,,The date of com
 xuanzang,"Xuanzang, Records of the Western Regions",text,646,no,,A pilgrim's description of the Tarim oases and India.
 man-shu,"Fan Chuo, Man shu (Book of the Southern Barbarians)",text,about 863,no,,A Tang official's description of Nanzhao and the peoples of Yunnan.
 tarim-manuscripts,Manuscripts from the Tarim oases and Dunhuang,text,3rd to 10th century,yes,,"Bucket. Tocharian, Khotanese, Kharosthi, Old Uyghur, Tibetan and Chinese documents. A checked claim cites the manuscript."
-russian-siberian-records,Russian records of Siberia in the 17th century,record,17th century,yes,,Bucket. Fur tribute books and reports of the Siberian Office. A checked claim cites the document.
 qing-gazetteers,Qing gazetteers and court records,record,1644 to 1912,yes,,Bucket. A checked claim cites the gazetteer and chapter.
 joseon-sillok,Veritable Records of the Joseon Dynasty,record,1392 to 1910,no,,Cite by reign and date.
 ryukyu-records,Records of the Ryukyu Kingdom,record,15th to 19th century,yes,,"Bucket. Rekidai Hoan, Chuzan Seikan and Omoro Soshi. A checked claim cites the work."
@@ -221,3 +198,26 @@ settlement-archaeology,Archaeology and radiocarbon dating of first settlement,mo
 seasia-pacific-censuses,"Colonial and modern censuses of Southeast Asia, the Pacific and Madagascar",census,19th century onward,yes,,Bucket. A checked claim cites the census year and table.
 flacourt,"Etienne de Flacourt, Histoire de la Grande Isle Madagascar",text,1658,no,,Written from the French post at Fort-Dauphin in the south-east.
 tantara-andriana,"Tantara ny Andriana (History of the Kings), collected by François Callet",text,1870s,no,,Merina oral histories written down in the 19th century.
+isidore-charax,"Isidore of Charax, Parthian Stations",text,about 1,no,,An itinerary across the Parthian empire from the Euphrates to Arachosia.
+iranian-coins,"Coins of the Parthian, Persid, Kushan, Sasanian and Hunnic rulers",coin,3rd century BCE to 8th century,yes,,Bucket. A checked claim cites the issue.
+sasanian-inscriptions,"Sasanian royal inscriptions, among them Shapur I at Naqsh-e Rostam and Narseh at Paikuli",inscription,3rd century,yes,,Bucket. A checked claim cites the inscription.
+chinese-histories-west,"Chinese dynastic histories on the Western Regions (Shiji, Hanshu, Hou Hanshu, Weishu, Tangshu)",text,about 90 BCE to 1060,yes,,Bucket. A checked claim cites the history and chapter. Names are in Chinese transcription and many placements are modern.
+xuanzang-xiyuji,"Xuanzang, Records of the Western Regions, on Sogd, Tokharistan and Kapisa",text,646,no,,A pilgrim's account of the journey of 629 to 645.
+sogdian-documents,Sogdian Ancient Letters and the Mount Mugh documents,record,4th to 8th century,yes,,Bucket. A checked claim cites the document.
+bactrian-documents,Bactrian inscriptions and legal documents,record,2nd to 8th century,yes,,Bucket. Includes the Rabatak inscription of Kanishka. A checked claim cites the document.
+menander,"Menander Protector, History (fragments)",text,about 580,no,,Reports the Roman embassy of Zemarchus to the Western Turks in 569.
+old-turkic-inscriptions,Old Turkic runiform inscriptions of the Yenisei and the Talas,inscription,8th to 10th century,yes,,Bucket. A checked claim cites the inscription.
+tabari,"al-Tabari, History of the Prophets and Kings",text,about 915,no,,Compiled in Baghdad from earlier reports. Its account of Arabia before Islam is tradition.
+arab-geographers,"Arab and Persian geographers (Ibn Khordadbeh, al-Masudi, Ibn Hawqal, al-Muqaddasi, Hudud al-Alam)",text,9th to 10th century,yes,,Bucket. A checked claim cites the author and passage.
+ibn-fadlan,"Ibn Fadlan, account of the embassy to the Volga Bulgars",text,922,no,,"An eyewitness to the Oghuz, Bashkirs, Bulgars and Khazars."
+biruni,"al-Biruni, Chronology of Ancient Nations",text,about 1000,no,,Written by a native of Khwarezm.
+kashgari-diwan,"Mahmud al-Kashgari, Compendium of the Turkic Dialects",text,about 1075,no,,Describes the Turkic peoples and their speech from the Kara-Khanid side.
+juvayni,"Juvayni, History of the World Conqueror",text,about 1260,no,,Written by a Persian official of the Mongols.
+rashid-al-din,"Rashid al-Din, Compendium of Chronicles",text,about 1310,no,,Written for the Ilkhans at Tabriz.
+carpini-rubruck,"John of Plano Carpini and William of Rubruck, journeys to the Mongols",text,1247 and 1255,yes,,"Bucket of two friars' reports, with the earlier report of the friar Julian."
+persian-histories,"Persian court histories and memoirs, from Bayhaqi to the Qajar chroniclers",text,11th to 19th century,yes,,Bucket. A checked claim cites the work.
+russian-siberian-records,"Russian chronicles and Siberian records (Stroganov, Yesipov and Remezov chronicles, tribute books)",record,16th to 18th century,yes,,Bucket. A checked claim cites the record.
+census-1897,Russian imperial census of 1897,census,1897,no,,The first count of the empire by mother tongue.
+soviet-censuses,Soviet and later national censuses,census,1926 onward,yes,,Bucket. A checked claim cites the census year.
+modern-ethnography,"Modern language and ethnographic surveys of Iran, Afghanistan and Central Asia",modern-study,various,yes,,"Bucket. Iran and Afghanistan have never counted their people by language, so areas are estimates."
+steppe-archaeology,"Archaeology of the steppe, the Urals and Siberia",modern-study,various,yes,,"Bucket. Burial mounds, settlements and named cultures. A culture is not a people and its language is always inferred."

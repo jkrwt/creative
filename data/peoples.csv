@@ -701,175 +701,6 @@ libya,Libya,polity,,no,maghreb,
 tunisia,Tunisia,polity,,no,maghreb,
 algeria,Algeria,polity,,no,maghreb,
 morocco,Morocco,polity,,no,maghreb,
-parthian-speakers,Parthian,language,wiran,no,iran+afghanistan+turan,
-median-speakers,Median and Old Azari,language,wiran,no,iran,
-middle-persian-speakers,Middle Persian,language,pers,no,iran+afghanistan+turan,
-new-persian-speakers,Persian,language,pers,no,iran+afghanistan+turan,
-kurdish-speakers-iran,Kurdish,language,wiran,no,iran,
-luri-speakers,Luri and Bakhtiari,language,pers,no,iran,
-caspian-speakers,Gilaki and Mazandarani,language,wiran,no,iran,
-baloch-speakers-iran,Balochi,language,wiran,no,iran+afghanistan,
-azeri-speakers-iran,Azeri Turkic,language,oghuz,no,iran,
-arabic-speakers-iran,Arabic,language,arab,no,iran,
-turkmen-speakers,Turkmen,language,oghuz,no,turan+iran+afghanistan,
-qashqai-speakers,Qashqai and Khorasani Turkic,language,oghuz,no,iran,
-bactrian-speakers,Bactrian,language,eiran,no,afghanistan+turan,
-pashto-speakers,Pashto,language,eiran,no,afghanistan,
-gandhari-and-pashai-speakers,"Gandhari, Pashai and Nuristani",language,dard,no,afghanistan,
-pamir-speakers,Pamir languages,language,eiran,no,afghanistan+turan,
-sogdian-speakers,Sogdian,language,eiran,no,turan+steppe,
-khwarezmian-speakers,Khwarezmian,language,eiran,no,turan,
-saka-speakers,Saka,language,eiran,no,iran+afghanistan+turan+steppe+wsiberia,
-hunnic-speakers,Hunnic and unknown steppe languages,language,steppeunk,no,steppe+east+turan+wsiberia,
-western-turkic-speakers,Old Turkic,language,turk,no,steppe+turan+wsiberia+east,
-oghuz-speakers,Oghuz Turkic,language,oghuz,no,steppe+turan,
-kipchak-speakers,Kipchak Turkic,language,kipch,no,steppe+wsiberia+turan+east,
-kazakh-speakers,Kazakh,language,kipch,no,steppe,
-uzbek-speakers,Chagatai and Uzbek,language,karluk,no,turan+afghanistan+steppe,
-kyrgyz-speakers,Kyrgyz,language,kipch,no,turan,
-karakalpak-speakers,Karakalpak,language,kipch,no,turan,
-oirat-speakers-west,Oirat and Kalmyk,language,mong,no,steppe+east,
-russian-speakers-asia,Russian,language,slave,no,east+wsiberia+steppe,
-volga-finnic-speakers,Mordvin and Mari,language,volga,no,east,
-permic-speakers,Komi and Udmurt,language,volga,no,east,
-zavolochye-speakers,Zavolochye Finnic,language,finnic,no,east,
-early-hungarian-speakers,Early Hungarian,language,ugric,no,east+wsiberia,
-volga-bulgar-speakers,Volga Bulgar and Chuvash,language,turk,no,east,
-tatar-speakers,Tatar,language,kipch,no,east,
-nogai-speakers,Nogai,language,kipch,no,east+steppe,
-bashkir-speakers,Bashkir,language,kipch,no,east+wsiberia,
-ob-ugric-speakers,Khanty and Mansi,language,samoyed,no,east+wsiberia,
-samoyedic-speakers,Nenets and other Samoyedic,language,samoyed,no,east+wsiberia,
-yeniseian-speakers,Ket and Yeniseian,language,paleosib,no,wsiberia,
-evenki-speakers-yenisei,Evenki,language,tung,no,wsiberia,
-dolgan-speakers,Dolgan,language,sibturk,no,wsiberia,
-south-siberian-turkic-speakers,"Khakas, Altai and Tuvan",language,sibturk,no,wsiberia,
-buryat-speakers-west,Buryat,language,mong,no,wsiberia,
-siberian-tatar-speakers,Siberian Tatar,language,kipch,no,wsiberia,
-parthians,Parthians,people,wiran,no,iran+turan+afghanistan,persia-and-parthia
-persians,Persians,people,pers,no,iran,persia-and-parthia
-elymais,Elymais,people,aram,yes,iran,persia-and-parthia
-atropatene,Media Atropatene,people,wiran,yes,iran,persia-and-parthia
-hyrcanians,Hyrcanians,people,wiran,yes,iran,persia-and-parthia
-indo-parthians,Indo-Parthians,people,wiran,no,iran+afghanistan+indus,persia-and-parthia
-tabaristan-princes,Princes of Tabaristan,people,wiran,no,iran,iranian-dynasties
-tahirids,Tahirids,people,pers,no,iran+afghanistan+turan,iranian-dynasties
-saffarids,Saffarids,people,pers,no,iran+afghanistan,iranian-dynasties
-samanids,Samanids,people,pers,no,turan+afghanistan+iran,iranian-dynasties
-buyids,Buyids,people,wiran,no,iran+mesopotamia,iranian-dynasties
-ghaznavids-ghazna,Ghaznavids,people,turk,no,afghanistan+iran+turan+indus,iranian-dynasties
-ghurids-ghor,Ghurids,people,eiran,yes,afghanistan+iran+indus,iranian-dynasties
-aq-qoyunlu-iran,Aq Qoyunlu,people,oghuz,no,iran,iranian-dynasties
-afsharids,Afsharids,people,oghuz,no,iran+afghanistan,iranian-dynasties
-zands,Zands,people,wiran,no,iran,iranian-dynasties
-kurds-iran,Kurds,people,wiran,no,iran,iran-rim-peoples
-lurs,Lurs and Bakhtiari,people,pers,no,iran,iran-rim-peoples
-daylamites,Daylamites,people,wiran,no,iran,iran-rim-peoples
-gilaks-and-mazandaranis,Gilaks and Mazandaranis,people,wiran,no,iran,iran-rim-peoples
-baloch-iran,Baloch,people,wiran,no,iran+afghanistan,iran-rim-peoples
-pashtuns-afghanistan,Pashtuns,people,eiran,no,afghanistan,iran-rim-peoples
-hotaks,Hotak Ghilzai,people,eiran,no,afghanistan+iran,iran-rim-peoples
-hazaras,Hazaras,people,pers,no,afghanistan,iran-rim-peoples
-qashqai,Qashqai,people,oghuz,no,iran,iran-rim-peoples
-khuzestan-arabs,Arabs of Khuzestan,people,arab,no,iran,iran-rim-peoples
-azeris-iran,Azeris,people,oghuz,no,iran,iran-rim-peoples
-arabs-of-khurasan,Arabs of Khurasan,people,arab,no,iran+turan+afghanistan,
-sogdians,Sogdians,people,eiran,no,turan,sogd-and-khwarezm
-chach,Chach,people,eiran,yes,turan,sogd-and-khwarezm
-fergana,Fergana,people,eiran,yes,turan,sogd-and-khwarezm
-khwarezmians,Khwarezmians,people,eiran,no,turan,sogd-and-khwarezm
-sogdian-colonies,Sogdian colonies,people,eiran,no,turan+steppe,sogd-and-khwarezm
-yuezhi-bactria,Yuezhi,people,steppeunk,yes,afghanistan+turan,bactria-and-kabul
-kushans,Kushans,people,eiran,no,afghanistan+turan+indus+hindustan,bactria-and-kabul
-bactrians,Bactrians,people,eiran,no,afghanistan+turan,bactria-and-kabul
-turk-shahis,Turk Shahis,people,turk,yes,afghanistan+indus,bactria-and-kabul
-zunbils,Zunbils,people,eiran,yes,afghanistan,bactria-and-kabul
-tajiks,Tajiks,people,pers,no,turan+afghanistan,tajiks-and-pamiris
-pamiris,Pamiris,people,eiran,no,turan+afghanistan,tajiks-and-pamiris
-badakhshan,Badakhshan,people,pers,no,afghanistan+turan,tajiks-and-pamiris
-sakastan,Sakas of Sistan,people,eiran,no,iran+afghanistan,saka-peoples
-kangju,Kangju,people,eiran,yes,steppe+turan,saka-peoples
-wusun-semirechye,Wusun,people,steppeunk,yes,steppe+turan,saka-peoples
-dahae,Dahae,people,eiran,yes,turan,saka-peoples
-aorsi,Aorsi,people,iran,yes,steppe+east,saka-peoples
-saka-tian-shan,Saka of the Tian Shan,people,eiran,yes,steppe+turan,saka-peoples
-kidarites,Kidarites,people,steppeunk,yes,afghanistan+turan+indus,eastern-huns
-hephthalites,Hephthalites,people,steppeunk,yes,afghanistan+turan,eastern-huns
-nezaks,Nezak Huns,people,steppeunk,yes,afghanistan,eastern-huns
-sabirs,Sabirs,people,turk,yes,steppe+wsiberia,turkic-khaganates
-western-turks,Western Turks,people,turk,no,steppe+turan+afghanistan,turkic-khaganates
-karluks-west,Karluks,people,turk,no,steppe+turan,turkic-khaganates
-oghuz-yabgu,Oghuz,people,oghuz,no,steppe+turan,turkic-khaganates
-kimeks,Kimeks,people,kipch,no,steppe+wsiberia,turkic-khaganates
-kipchaks-east,Kipchaks,people,kipch,no,steppe+east,turkic-khaganates
-khazars-volga,Khazars,people,turk,no,east,turkic-khaganates
-kara-khanids-west,Kara-Khanids,people,karluk,no,turan+steppe,turkic-khaganates
-kara-khitai-west,Kara-Khitai,people,xianbei,no,turan+steppe,turkic-khaganates
-kyrgyz-yenisei,Yenisei Kyrgyz,people,sibturk,no,wsiberia,turkic-khaganates
-ilkhanate,Ilkhanate,people,mong,no,iran+afghanistan,mongol-successors
-chagatai-khanate,Chagatai Khanate,people,mong,no,turan+steppe+afghanistan,mongol-successors
-moghulistan,Moghulistan,people,karluk,no,steppe+turan,mongol-successors
-ulus-of-orda,Ulus of Orda,people,kipch,no,steppe+wsiberia,mongol-successors
-uzbek-ulus,Uzbek ulus,people,kipch,no,steppe+wsiberia,mongol-successors
-nogai-horde,Nogai Horde,people,kipch,no,east+steppe,mongol-successors
-kazan-khanate,Khanate of Kazan,people,kipch,no,east,mongol-successors
-sibir-khanate,Khanate of Sibir,people,kipch,no,wsiberia,mongol-successors
-kazakh-khanate,Kazakh Khanate,people,kipch,no,steppe,hordes-and-khanates
-kazakh-zhuzes,Kazakh zhuzes,people,kipch,no,steppe,hordes-and-khanates
-kazakhs,Kazakhs,people,kipch,no,steppe,hordes-and-khanates
-khanate-of-bukhara,Bukhara,people,karluk,no,turan+afghanistan,hordes-and-khanates
-khanate-of-khiva,Khiva,people,karluk,no,turan,hordes-and-khanates
-khanate-of-kokand,Kokand,people,karluk,no,turan+steppe,hordes-and-khanates
-uzbeks,Uzbeks,people,karluk,no,turan+afghanistan,hordes-and-khanates
-karakalpaks,Karakalpaks,people,kipch,no,turan+steppe,hordes-and-khanates
-kyrgyz-tian-shan,Kyrgyz,people,kipch,no,turan,hordes-and-khanates
-turkmens,Turkmens,people,oghuz,no,turan+iran+afghanistan,hordes-and-khanates
-dzungars-west,Dzungars,people,mong,no,steppe,hordes-and-khanates
-kalmyks,Kalmyks,people,mong,no,east+steppe,hordes-and-khanates
-gorodets-culture,Gorodets culture,people,volga,yes,east,volga-and-kama
-kama-cultures,Kama cultures,people,volga,yes,east,volga-and-kama
-mordvins,Mordvins,people,volga,no,east,volga-and-kama
-mari,Mari,people,volga,no,east,volga-and-kama
-udmurts,Udmurts,people,volga,no,east,volga-and-kama
-komi,Komi,people,volga,no,east,volga-and-kama
-magna-hungaria,Eastern Magyars,people,ugric,no,east,volga-and-kama
-volga-bulgars,Volga Bulgars,people,turk,no,east,volga-and-kama
-chuvash,Chuvash,people,turk,no,east,volga-and-kama
-bashkirs,Bashkirs,people,kipch,no,east+wsiberia,volga-and-kama
-volga-tatars,Volga Tatars,people,kipch,no,east,volga-and-kama
-sargat-culture,Sargat culture,people,ugric,yes,wsiberia+steppe,west-siberians
-kulay-culture,Kulay culture,people,samoyed,yes,wsiberia,west-siberians
-khanty,Khanty,people,samoyed,no,wsiberia,west-siberians
-mansi,Mansi,people,samoyed,no,east+wsiberia,west-siberians
-nenets,Nenets,people,samoyed,no,east+wsiberia,west-siberians
-selkups,Selkups,people,samoyed,no,wsiberia,west-siberians
-kets,Ket,people,paleosib,no,wsiberia,west-siberians
-siberian-tatars,Siberian Tatars,people,kipch,no,wsiberia,west-siberians
-altaians,Altaians,people,sibturk,no,wsiberia,west-siberians
-khakas,Khakas,people,sibturk,no,wsiberia,west-siberians
-tuvans,Tuvans,people,sibturk,no,wsiberia,west-siberians
-parthian-empire,Parthian Empire,polity,wiran,no,iran+mesopotamia+afghanistan+turan,
-sasanian-empire,Sasanian Empire,polity,pers,no,iran+mesopotamia+afghanistan+turan,
-great-seljuks,Great Seljuk Empire,polity,oghuz,no,iran+afghanistan+turan+mesopotamia,
-khwarazmian-empire,Khwarazmian Empire,polity,,no,turan+iran+afghanistan,
-timurid-empire,Timurid Empire,polity,karluk,no,turan+iran+afghanistan+mesopotamia,
-safavid-iran,Safavid Iran,polity,,no,iran+afghanistan+mesopotamia,
-qajar-iran,Qajar Iran,polity,,no,iran,
-iran,Iran,polity,,no,iran,
-durrani-afghanistan,Durrani Empire,polity,eiran,no,afghanistan+iran+indus,
-afghanistan,Afghanistan,polity,,no,afghanistan,
-russian-siberia,Siberia (Russia),polity,,no,wsiberia,
-russian-turkestan,Russian Turkestan,polity,,no,turan+steppe,
-kazakh-ssr,Kazakh SSR,polity,,no,steppe,
-uzbek-ssr,Uzbek SSR,polity,,no,turan,
-turkmen-ssr,Turkmen SSR,polity,,no,turan,
-tajik-ssr,Tajik SSR,polity,,no,turan,
-kirghiz-ssr,Kirghiz SSR,polity,,no,turan,
-kazakhstan,Kazakhstan,polity,,no,steppe,
-uzbekistan,Uzbekistan,polity,,no,turan,
-turkmenistan,Turkmenistan,polity,,no,turan,
-tajikistan,Tajikistan,polity,,no,turan,
-kyrgyzstan,Kyrgyzstan,polity,,no,turan,
 western-desert-languages,Western Desert languages,language,pama,no,australia,
 arandic-languages,Arandic languages,language,pama,no,australia,
 ngumpin-yapa-languages,Ngumpin-Yapa languages,language,pama,no,australia,
@@ -1921,3 +1752,169 @@ philippines-republic,Philippines,polity,philip,no,philippines,
 fiji,Fiji,polity,,no,melanesia,
 new-zealand,Aotearoa New Zealand,polity,eng,no,newzealand,
 madagascar-republic,Madagascar,polity,malagasy,no,madagascar,
+parthian-speakers,Parthian,language,wiran,no,iran+afghanistan+turan,
+median-speakers,Median and Old Azari,language,wiran,no,iran,
+middle-persian-speakers,Middle Persian,language,pers,no,iran+afghanistan+turan,
+new-persian-speakers,Persian,language,pers,no,iran+afghanistan+turan,
+kurdish-speakers-iran,Kurdish,language,wiran,no,iran,
+luri-speakers,Luri and Bakhtiari,language,pers,no,iran,
+caspian-speakers,Gilaki and Mazandarani,language,wiran,no,iran,
+baloch-speakers-iran,Balochi,language,wiran,no,iran+afghanistan,
+azeri-speakers-iran,Azeri Turkic,language,oghuz,no,iran,
+arabic-speakers-iran,Arabic,language,arab,no,iran,
+turkmen-speakers,Turkmen,language,oghuz,no,turan+iran+afghanistan,
+qashqai-speakers,Qashqai and Khorasani Turkic,language,oghuz,no,iran,
+bactrian-speakers,Bactrian,language,eiran,no,afghanistan+turan,
+pashto-speakers,Pashto,language,eiran,no,afghanistan,
+gandhari-and-pashai-speakers,"Gandhari, Pashai and Nuristani",language,dard,no,afghanistan,
+pamir-speakers,Pamir languages,language,eiran,no,afghanistan+turan,
+sogdian-speakers,Sogdian,language,eiran,no,turan+steppe,
+khwarezmian-speakers,Khwarezmian,language,eiran,no,turan,
+saka-speakers,Saka,language,eiran,no,iran+afghanistan+turan+steppe+wsiberia,
+hunnic-speakers,Hunnic and unknown steppe languages,language,steppeunk,no,steppe+east+turan+wsiberia,
+western-turkic-speakers,Old Turkic,language,turk,no,steppe+turan+wsiberia+east,
+oghuz-speakers,Oghuz Turkic,language,oghuz,no,steppe+turan,
+kipchak-speakers,Kipchak Turkic,language,kipch,no,steppe+wsiberia+turan+east,
+kazakh-speakers,Kazakh,language,kipch,no,steppe,
+uzbek-speakers,Chagatai and Uzbek,language,karluk,no,turan+afghanistan+steppe,
+kyrgyz-speakers,Kyrgyz,language,kipch,no,turan,
+karakalpak-speakers,Karakalpak,language,kipch,no,turan,
+oirat-speakers-west,Oirat and Kalmyk,language,mong,no,steppe+east,
+russian-speakers-asia,Russian,language,slave,no,east+wsiberia+steppe,
+volga-finnic-speakers,Mordvin and Mari,language,volga,no,east,
+permic-speakers,Komi and Udmurt,language,volga,no,east,
+zavolochye-speakers,Zavolochye Finnic,language,finnic,no,east,
+early-hungarian-speakers,Early Hungarian,language,ugric,no,east+wsiberia,
+volga-bulgar-speakers,Volga Bulgar and Chuvash,language,turk,no,east,
+tatar-speakers,Tatar,language,kipch,no,east,
+nogai-speakers,Nogai,language,kipch,no,east+steppe,
+bashkir-speakers,Bashkir,language,kipch,no,east+wsiberia,
+ob-ugric-speakers,Khanty and Mansi,language,samoyed,no,east+wsiberia,
+samoyedic-speakers,Nenets and other Samoyedic,language,samoyed,no,east+wsiberia,
+yeniseian-speakers,Ket and Yeniseian,language,paleosib,no,wsiberia,
+evenki-speakers-yenisei,Evenki,language,tung,no,wsiberia,
+dolgan-speakers,Dolgan,language,sibturk,no,wsiberia,
+south-siberian-turkic-speakers,"Khakas, Altai and Tuvan",language,sibturk,no,wsiberia,
+buryat-speakers-west,Buryat,language,mong,no,wsiberia,
+siberian-tatar-speakers,Siberian Tatar,language,kipch,no,wsiberia,
+parthians,Parthians,people,wiran,no,iran+turan+afghanistan,persia-and-parthia
+persians,Persians,people,pers,no,iran,persia-and-parthia
+elymais,Elymais,people,aram,yes,iran,persia-and-parthia
+atropatene,Media Atropatene,people,wiran,yes,iran,persia-and-parthia
+hyrcanians,Hyrcanians,people,wiran,yes,iran,persia-and-parthia
+indo-parthians,Indo-Parthians,people,wiran,no,iran+afghanistan+indus,persia-and-parthia
+tabaristan-princes,Princes of Tabaristan,people,wiran,no,iran,iranian-dynasties
+tahirids,Tahirids,people,pers,no,iran+afghanistan+turan,iranian-dynasties
+saffarids,Saffarids,people,pers,no,iran+afghanistan,iranian-dynasties
+samanids,Samanids,people,pers,no,turan+afghanistan+iran,iranian-dynasties
+buyids,Buyids,people,wiran,no,iran+mesopotamia,iranian-dynasties
+ghaznavids-ghazna,Ghaznavids,people,turk,no,afghanistan+iran+turan+indus,iranian-dynasties
+ghurids-ghor,Ghurids,people,eiran,yes,afghanistan+iran+indus,iranian-dynasties
+aq-qoyunlu-iran,Aq Qoyunlu,people,oghuz,no,iran,iranian-dynasties
+afsharids,Afsharids,people,oghuz,no,iran+afghanistan,iranian-dynasties
+zands,Zands,people,wiran,no,iran,iranian-dynasties
+kurds-iran,Kurds,people,wiran,no,iran,iran-rim-peoples
+lurs,Lurs and Bakhtiari,people,pers,no,iran,iran-rim-peoples
+daylamites,Daylamites,people,wiran,no,iran,iran-rim-peoples
+gilaks-and-mazandaranis,Gilaks and Mazandaranis,people,wiran,no,iran,iran-rim-peoples
+baloch-iran,Baloch,people,wiran,no,iran+afghanistan,iran-rim-peoples
+pashtuns-afghanistan,Pashtuns,people,eiran,no,afghanistan,iran-rim-peoples
+hotaks,Hotak Ghilzai,people,eiran,no,afghanistan+iran,iran-rim-peoples
+hazaras,Hazaras,people,pers,no,afghanistan,iran-rim-peoples
+qashqai,Qashqai,people,oghuz,no,iran,iran-rim-peoples
+khuzestan-arabs,Arabs of Khuzestan,people,arab,no,iran,iran-rim-peoples
+azeris-iran,Azeris,people,oghuz,no,iran,iran-rim-peoples
+arabs-of-khurasan,Arabs of Khurasan,people,arab,no,iran+turan+afghanistan,
+sogdians,Sogdians,people,eiran,no,turan,sogd-and-khwarezm
+chach,Chach,people,eiran,yes,turan,sogd-and-khwarezm
+fergana,Fergana,people,eiran,yes,turan,sogd-and-khwarezm
+khwarezmians,Khwarezmians,people,eiran,no,turan,sogd-and-khwarezm
+yuezhi-bactria,Yuezhi,people,steppeunk,yes,afghanistan+turan,bactria-and-kabul
+kushans,Kushans,people,eiran,no,afghanistan+turan+indus+hindustan,bactria-and-kabul
+bactrians,Bactrians,people,eiran,no,afghanistan+turan,bactria-and-kabul
+turk-shahis,Turk Shahis,people,turk,yes,afghanistan+indus,bactria-and-kabul
+zunbils,Zunbils,people,eiran,yes,afghanistan,bactria-and-kabul
+tajiks,Tajiks,people,pers,no,turan+afghanistan,tajiks-and-pamiris
+pamiris,Pamiris,people,eiran,no,turan+afghanistan,tajiks-and-pamiris
+badakhshan,Badakhshan,people,pers,no,afghanistan+turan,tajiks-and-pamiris
+sakastan,Sakas of Sistan,people,eiran,no,iran+afghanistan,saka-peoples
+kangju,Kangju,people,eiran,yes,steppe+turan,saka-peoples
+wusun-semirechye,Wusun,people,eiran,yes,steppe+turan,saka-peoples
+dahae,Dahae,people,eiran,yes,turan,saka-peoples
+aorsi,Aorsi,people,iran,yes,steppe+east,saka-peoples
+kidarites,Kidarites,people,steppeunk,yes,afghanistan+turan+indus,eastern-huns
+hephthalites,Hephthalites,people,steppeunk,yes,afghanistan+turan,eastern-huns
+nezaks,Nezak Huns,people,steppeunk,yes,afghanistan,eastern-huns
+western-turks,Western Turks,people,turk,no,steppe+turan+afghanistan,turkic-khaganates
+karluks-west,Karluks,people,turk,no,steppe+turan,turkic-khaganates
+oghuz-yabgu,Oghuz,people,oghuz,no,steppe+turan,turkic-khaganates
+kimeks,Kimeks,people,kipch,no,steppe+wsiberia,turkic-khaganates
+kipchaks-east,Kipchaks,people,kipch,no,steppe+east,turkic-khaganates
+khazars-volga,Khazars,people,turk,no,east,turkic-khaganates
+kara-khanids-west,Kara-Khanids,people,karluk,no,turan+steppe,turkic-khaganates
+kara-khitai-west,Kara-Khitai,people,xianbei,no,turan+steppe,turkic-khaganates
+kyrgyz-yenisei,Yenisei Kyrgyz,people,sibturk,no,wsiberia,west-siberians
+ilkhanate,Ilkhanate,people,mong,no,iran+afghanistan,mongol-successors
+chagatai-khanate,Chagatai Khanate,people,mong,no,turan+steppe+afghanistan,mongol-successors
+moghulistan,Moghulistan,people,karluk,no,steppe+turan,mongol-successors
+ulus-of-orda,Ulus of Orda,people,kipch,no,steppe+wsiberia,mongol-successors
+uzbek-ulus,Uzbek ulus,people,kipch,no,steppe+wsiberia,mongol-successors
+nogai-horde,Nogai Horde,people,kipch,no,east+steppe,mongol-successors
+kazan-khanate,Khanate of Kazan,people,kipch,no,east,mongol-successors
+sibir-khanate,Khanate of Sibir,people,kipch,no,wsiberia,mongol-successors
+kazakh-khanate,Kazakh Khanate,people,kipch,no,steppe,hordes-and-khanates
+kazakh-zhuzes,Kazakh zhuzes,people,kipch,no,steppe,hordes-and-khanates
+kazakhs,Kazakhs,people,kipch,no,steppe,hordes-and-khanates
+khanate-of-bukhara,Bukhara,people,karluk,no,turan+afghanistan,hordes-and-khanates
+khanate-of-khiva,Khiva,people,karluk,no,turan,hordes-and-khanates
+khanate-of-kokand,Kokand,people,karluk,no,turan+steppe,hordes-and-khanates
+uzbeks,Uzbeks,people,karluk,no,turan+afghanistan,hordes-and-khanates
+karakalpaks,Karakalpaks,people,kipch,no,turan+steppe,hordes-and-khanates
+kyrgyz-tian-shan,Kyrgyz,people,kipch,no,turan,hordes-and-khanates
+turkmens,Turkmens,people,oghuz,no,turan+iran+afghanistan,hordes-and-khanates
+dzungars-west,Dzungars,people,mong,no,steppe,hordes-and-khanates
+kalmyks,Kalmyks,people,mong,no,east+steppe,hordes-and-khanates
+gorodets-culture,Gorodets culture,people,volga,yes,east,volga-and-kama
+kama-cultures,Kama cultures,people,volga,yes,east,volga-and-kama
+mordvins,Mordvins,people,volga,no,east,volga-and-kama
+mari,Mari,people,volga,no,east,volga-and-kama
+udmurts,Udmurts,people,volga,no,east,volga-and-kama
+komi,Komi,people,volga,no,east,volga-and-kama
+magna-hungaria,Eastern Magyars,people,ugric,no,east,volga-and-kama
+volga-bulgars,Volga Bulgars,people,turk,no,east,volga-and-kama
+chuvash,Chuvash,people,turk,no,east,volga-and-kama
+bashkirs,Bashkirs,people,kipch,no,east+wsiberia,volga-and-kama
+volga-tatars,Volga Tatars,people,kipch,no,east,volga-and-kama
+sargat-culture,Sargat culture,people,ugric,yes,wsiberia+steppe,west-siberians
+kulay-culture,Kulay culture,people,samoyed,yes,wsiberia,west-siberians
+khanty,Khanty,people,samoyed,no,wsiberia,west-siberians
+mansi,Mansi,people,samoyed,no,east+wsiberia,west-siberians
+nenets,Nenets,people,samoyed,no,east+wsiberia,west-siberians
+selkups,Selkups,people,samoyed,no,wsiberia,west-siberians
+kets,Ket,people,paleosib,no,wsiberia,west-siberians
+siberian-tatars,Siberian Tatars,people,kipch,no,wsiberia,west-siberians
+altaians,Altaians,people,sibturk,no,wsiberia,west-siberians
+khakas,Khakas,people,sibturk,no,wsiberia,west-siberians
+tuvans,Tuvans,people,sibturk,no,wsiberia,west-siberians
+parthian-empire,Parthian Empire,polity,wiran,no,iran+mesopotamia+afghanistan+turan,
+sasanian-empire,Sasanian Empire,polity,pers,no,iran+mesopotamia+afghanistan+turan,
+great-seljuks,Great Seljuk Empire,polity,oghuz,no,iran+afghanistan+turan+mesopotamia,
+khwarazmian-empire,Khwarazmian Empire,polity,,no,turan+iran+afghanistan,
+timurid-empire,Timurid Empire,polity,karluk,no,turan+iran+afghanistan+mesopotamia,
+safavid-iran,Safavid Iran,polity,,no,iran+afghanistan+mesopotamia,
+qajar-iran,Qajar Iran,polity,,no,iran,
+iran,Iran,polity,,no,iran,
+durrani-afghanistan,Durrani Empire,polity,eiran,no,afghanistan+iran+indus,
+afghanistan,Afghanistan,polity,,no,afghanistan,
+russian-siberia,Siberia (Russia),polity,,no,wsiberia,
+russian-turkestan,Russian Turkestan,polity,,no,turan+steppe,
+kazakh-ssr,Kazakh SSR,polity,,no,steppe,
+uzbek-ssr,Uzbek SSR,polity,,no,turan,
+turkmen-ssr,Turkmen SSR,polity,,no,turan,
+tajik-ssr,Tajik SSR,polity,,no,turan,
+kirghiz-ssr,Kirghiz SSR,polity,,no,turan,
+kazakhstan,Kazakhstan,polity,,no,steppe,
+uzbekistan,Uzbekistan,polity,,no,turan,
+turkmenistan,Turkmenistan,polity,,no,turan,
+tajikistan,Tajikistan,polity,,no,turan,
+kyrgyzstan,Kyrgyzstan,polity,,no,turan,
