@@ -39,3 +39,26 @@ Run on 17 November 2026. The detail is in `docs/reports/seed-check-part7.md` and
 - **Gates.** 1 holds: 30 tests pass, the validator is clean, and the dark-land check reports only islands before settlement. 2 holds. 3: the Americas at six dates and southern Africa at 1800 were looked at on a desktop width; Africa's six-date sheet was captured and not opened, and no phone width was looked at. 4 holds.
 - **Tools changed.** `tools/audit.py` is new. `tools/add_part.py` now removes entries and empty groups a part has dropped. Three tests catch two parts using the same entry or group id, or wording a shared source differently.
 - **Open.** Part 5 (Southeast Asia and the Pacific) is over the grain ceiling from 1500 on: 62, 74 and 77 alive. Parts 1 to 4 have no `WRITTEN_FROM` years yet, so the class rule does not test them. Click letters in two San names (Ju|'hoansi, G|ui and G||ana) have not been seen drawn in the map font.
+
+### Second round: parts 1 to 5 and 8
+
+Run the same day at the owner's instruction, with the ceiling kept at 60. One report per part in `docs/reports/`.
+
+| Part | Entries before | after | Class changes | Entries looked up on the web |
+| --- | --- | --- | --- | --- |
+| 1 Near East and North Africa | 204 | 202 | 15 split | 102, plus 9 wash entries |
+| 2 Iran and Central Asia | 169 | 166 | 5 split, 4 demoted | 52 |
+| 3 South Asia | 186 | 185 | 13 split, 1 demoted | 97, of which 89 gave a usable result |
+| 4 East Asia | 187 | 187 | 11 split, 2 demoted | 50, plus 10 wash entries |
+| 5 Southeast Asia and the Pacific | 204 | 176 | 17 split | 83 |
+| 8 Australia and New Guinea | 111 | 110 | 7 split | 46 |
+
+- **Grain.** Only part 5 was over the ceiling. It now shows 56, 60 and 54 alive at 1500, 1800 and 2026. The audit passes for all eight parts.
+- **Faults the check found beyond class and grain.** The wash for outer Fiji, Yap, Kosrae, Santa Cruz and southern Vanuatu was dark in every year; the grid check has no sample point on small islands and had missed it. Greek washed the Turkish Aegean coast after 1923. Cyprus was wrong around 1974. All three are corrected.
+- **A colour clash found by looking.** Pama-Nyungan ochre and English orange were the same hue, so Australia in 2026 read as if English had never arrived. Pama-Nyungan is now red ochre and the other Australian families olive.
+- **Left for the owner.** The Tasmania group is gone: Bass Strait Islanders were folded into Palawa, which now sits in the south-east group. The checker called this the change most worth reversing. The Guanche wash still starts at 1 though settlement of the Canaries is put between the 1st and 4th centuries, because starting later leaves the islands dark. The checker of part 2 holds that `WRITTEN_FROM` is too late for the steppe (550) and the upper Yenisei (1580); the tool is unchanged.
+- **Not checked.** In East Asia, the pace of Chinese replacing other languages in the south and the frontier wash in the Ordos, Hexi and Liaodong. In each part some split years and dates stand from memory; each report lists them. Mer in the Torres Strait draws a label and no field because the coast file has no land there.
+- **How strong a lookup is.** As before: most pages could not be opened in full, so a lookup means a search excerpt or summary carried the fact.
+- **Not done by me.** I applied each part, ran the gates and looked at screenshots. I did not read the six part files or reports line by line.
+- **Screenshots looked at after the change**, desktop width, six dates each: Southeast Asia, the Near East, Iran and Central Asia, South Asia, East Asia, Australia. Captured and not opened: Oceania, the world, and one phone-width page.
+- **Totals now.** 1,915 entries, 3,536 claims, 213 groups. Everything is still a seed.

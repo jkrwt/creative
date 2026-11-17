@@ -100,7 +100,7 @@
    ]),
    ("galatian-speakers", "Galatian speakers", "language", "gaul", "no", "anatolia", "", [
      (32.6, 39.8, 110, 1, 400, 0, "r", "linguistic-geography",
-      "A Celtic language around Ancyra. Jerome wrote about 390 that it was close to the speech of Trier."),
+      "A Celtic language around Ancyra. Jerome wrote about 390 that it was close to the speech of Trier. A saint's life of the 6th century suggests it was still spoken then, so the end date is loose."),
    ]),
    ("armenian-speakers", "Armenian speakers", "language", "armn", "no", "anatolia+caucasus", "", [
      (42.5, 39.6, 280, 1, 1915, 0, "r", "armenian-chronicles;linguistic-geography",
@@ -123,7 +123,13 @@
       "Oghuz Turks settled the plateau after the battle of Manzikert in 1071. Greek and Armenian were spoken beside Turkish for centuries."),
      (32.5, 39.0, 470, 1300, 2026, 1, "r", "ottoman-registers;census-neareast", ""),
      (40.0, 39.8, 300, 1200, 2026, 1, "r", "ottoman-registers;census-neareast", "Eastern Anatolia, beside Armenian until 1915 and beside Kurdish today."),
-     (33.6, 35.3, 60, 1571, 2026, 1, "a", "ottoman-registers;census-neareast", "Turkish Cypriots, settled after the Ottoman conquest of 1571 and in the north of the island since 1974."),
+     (33.4, 35.1, 90, 1571, 1974, 0, "i", "ottoman-registers;census-neareast",
+      "Turkish Cypriots, settled after the Ottoman conquest of 1571 in towns and villages across the island, among a Greek-speaking majority."),
+     (33.15, 35.3, 45, 1974, 2026, 1, "a", "census-neareast",
+      "The north of Cyprus, where Turkish Cypriots gathered after the division of 1974. Only Turkey recognises the state declared there, and sovereignty is disputed."),
+     (33.9, 35.35, 60, 1974, 2026, 1, "a", "census-neareast", "Famagusta and the Karpas peninsula, in the north of Cyprus since 1974."),
+     (27.4, 39.0, 200, 1923, 2026, 1, "a", "census-neareast",
+      "The Aegean coast and the Troad, Turkish-speaking throughout since the exchange of populations in 1923."),
    ]),
    ("zan-speakers", "Laz and Mingrelian speakers", "language", "kart", "no", "anatolia+caucasus", "", [
      (41.9, 42.4, 130, 1, 2026, 1, "r", "procopius;linguistic-geography", "Colchis, with Svan in the mountains above it. Georgian has been the written language here since the 10th century."),
@@ -197,7 +203,7 @@
    ("phoenician-speakers", "Phoenician and Punic speakers", "language", "canaan", "no", "levant+maghreb", "", [
      (35.5, 33.8, 60, 1, 200, 0, "r", "linguistic-geography", "Phoenician on the coast of Tyre and Sidon, giving way to Aramaic and Greek."),
      (10.0, 35.6, 220, 1, 450, 0, "r", "african-inscriptions;augustine",
-      "Punic, the Phoenician of Carthage, in Tunisia and eastern Algeria. Augustine heard it in the countryside about 400."),
+      "Punic, the Phoenician of Carthage, in Tunisia and eastern Algeria. Augustine heard it in the countryside about 400. Some scholars think it lasted until the Arab conquest, so the end date is loose."),
      (13.6, 32.5, 120, 1, 400, 0, "r", "african-inscriptions", "Tripolitania, where Punic was written in Latin letters into the 4th century."),
    ]),
    ("arabic-arabia", "Arabic speakers (Arabia)", "language", "arab", "no", "arabia+levant+mesopotamia", "", [
@@ -234,7 +240,8 @@
      (31.0, 27.0, 420, 1, 950, 0, "a", "papyri", "Egyptian, written in Demotic and from the 3rd century in the Coptic alphabet."),
      (27.5, 26.0, 330, 1, 1000, 0, "i", "papyri;linguistic-geography", "The oases of the western desert. Empty of people between them."),
      (31.5, 27.0, 300, 950, 1300, 0, "r", "arabic-histories-east;linguistic-geography", "Arabic replaced Coptic between about 700 and 1300, first in the Delta and the towns."),
-     (32.0, 26.3, 200, 1300, 1450, 0, "i", "linguistic-geography", "Upper Egypt, where Coptic was spoken longest. Reports of later speakers are doubtful."),
+     (32.0, 26.3, 200, 1300, 1450, 0, "i", "linguistic-geography",
+      "Upper Egypt, where Coptic was spoken longest. Scholars disagree on the end: some put it in the 11th century, most by about 1400, and reports of speakers in the 15th and 17th centuries are doubted."),
    ]),
    ("greek-speakers-africa", "Greek speakers (Alexandria and Cyrene)", "language", "greek", "no", "egypt+maghreb", "", [
      (30.0, 31.1, 70, 1, 700, 0, "a", "strabo-geog;papyri", "Alexandria, the largest Greek-speaking city of its time."),
@@ -273,7 +280,7 @@
    ]),
    ("guanche-speakers", "Guanche speakers", "language", "berb", "yes", "maghreb", "", [
      (-16.8, 28.3, 120, 1, 1500, 0, "i", "canarian-chronicles;linguistic-geography",
-      "The languages of the Canary Islands, known from words and names and taken to be Berber. The date of first settlement is disputed."),
+      "The languages of the Canary Islands, known from words and names and taken to be Berber. Recent radiocarbon work puts the first lasting settlement between the 1st and 4th centuries, so the first two centuries of this claim are doubtful."),
      (-14.2, 28.6, 80, 1, 1500, 0, "i", "canarian-chronicles;linguistic-geography", "Fuerteventura and Lanzarote."),
    ]),
    ("spanish-canaries", "Spanish speakers (Canary Islands)", "language", "ibrom", "no", "maghreb", "", [
@@ -283,7 +290,8 @@
    ("latin-speakers-africa", "Latin speakers (Africa)", "language", "lat", "no", "maghreb", "", [
      (9.0, 36.0, 250, 1, 700, 0, "r", "african-inscriptions;augustine", "Latin in the towns and farms of Africa Proconsularis and Numidia."),
      (2.0, 36.2, 250, 40, 700, 0, "r", "african-inscriptions", "The coast of Mauretania."),
-     (9.3, 35.2, 150, 700, 1100, 0, "i", "linguistic-geography", "A Romance speech lasted in a few towns of Tunisia. Arab geographers still mention it in the 12th century."),
+     (9.3, 35.2, 150, 700, 1200, 0, "i", "linguistic-geography",
+      "A Romance speech lasted in a few towns of Tunisia. Al-Idrisi still heard it at Gafsa in the 12th century, and it may have lasted in places into the 14th or 15th."),
    ]),
    ("arabic-maghreb", "Arabic speakers (Maghreb)", "language", "arab", "no", "maghreb", "", [
      (10.0, 35.5, 200, 700, 1050, 0, "r", "linguistic-geography", "Kairouan, Tunis and the towns of Ifriqiya."),
@@ -316,10 +324,11 @@
      (32.6, 37.1, 110, 1, 500, 0, "a", "strabo-geog;ammianus", "Mountain people of the Taurus who raided the lowlands. One of them became the emperor Zeno in 474."),
    ]),
    ("pontus-kingdom", "Kingdom of Pontus", "people", "greek", "no", "anatolia", "anatolian-peoples", [
-     (37.5, 40.8, 150, 1, 64, 0, "a", "strabo-geog", "The remainder of the kingdom of Mithridates, ruled by the house of Polemon and annexed by Rome in 64."),
+     (37.5, 40.8, 150, 1, 62, 0, "a", "strabo-geog", "The remainder of the kingdom of Mithridates, ruled by the house of Polemon. Nero annexed it in 62 or 64."),
    ]),
    ("commagene", "Commagene", "people", "aram", "yes", "anatolia", "anatolian-peoples", [
-     (38.3, 37.7, 80, 1, 72, 0, "a", "josephus;strabo-geog", "A small kingdom on the Euphrates whose kings claimed Greek and Persian descent. Rome annexed it in 72."),
+     (38.3, 37.7, 80, 1, 17, 0, "a", "josephus;strabo-geog", "A small kingdom on the Euphrates whose kings claimed Greek and Persian descent. Rome made it a province in 17."),
+     (38.3, 37.7, 80, 38, 72, 0, "a", "josephus", "Restored under Antiochus IV in 38 and annexed for good in 72."),
    ]),
    ("empire-of-nicaea", "Empire of Nicaea", "people", "greek", "no", "anatolia", "", [
      (29.5, 39.6, 220, 1204, 1261, 0, "a", "acts-treaties", "The Byzantine state in exile after 1204. It retook Constantinople in 1261."),
@@ -330,11 +339,11 @@
 
    # ================================================================ Turks of Anatolia
    ("seljuks-of-rum", "Sultanate of Rum", "people", "oghuz", "no", "anatolia", "anatolian-turks", [
-     (32.5, 38.3, 280, 1077, 1243, 0, "a", "arabic-histories-east", "The Seljuk sultanate of Anatolia, with its capital at Konya. Rum means Rome."),
+     (32.5, 38.3, 280, 1077, 1243, 0, "a", "arabic-histories-east", "The Seljuk sultanate of Anatolia, with its capital at Nicaea until 1097 and then at Konya. Rum means Rome."),
      (33.0, 38.6, 300, 1243, 1308, 0, "a", "arabic-histories-east", "Tributary to the Mongols after the battle of Kose Dag in 1243."),
    ]),
    ("danishmends", "Danishmends", "people", "oghuz", "no", "anatolia", "anatolian-turks", [
-     (37.3, 39.7, 180, 1085, 1178, 0, "r", "arabic-histories-east", "Turkmen rulers of Sivas and Malatya, absorbed by the sultans of Rum."),
+     (37.3, 39.7, 180, 1071, 1178, 0, "r", "arabic-histories-east", "Turkmen rulers of Sivas and Malatya, absorbed by the sultans of Rum."),
    ]),
    ("karamanids", "Karamanids", "people", "oghuz", "no", "anatolia", "anatolian-turks", [
      (33.2, 37.3, 150, 1250, 1487, 0, "a", "ibn-battuta;ottoman-registers", "The strongest of the beyliks and the last to fall to the Ottomans."),
@@ -379,8 +388,8 @@
       "Contested between Rome and Parthia and ruled by a branch of the Parthian royal house from the 50s. It was Christian from the early 4th century, and the kingship ended in 428."),
    ]),
    ("persian-armenia", "Armenia under Persia", "people", "armn", "no", "anatolia+caucasus", "armenians", [
-     (44.3, 39.9, 220, 428, 654, 0, "a", "armenian-chronicles;procopius",
-      "Governed by Persian marzbans while the nobles kept their lands. The alphabet was made about 405 and the revolt of 451 fills the chronicles."),
+     (44.3, 39.9, 220, 428, 646, 0, "a", "armenian-chronicles;procopius",
+      "Governed by Persian marzbans while the nobles kept their lands. The alphabet was made about 405 and the revolt of 451 fills the chronicles. Arab armies took the country in the 640s."),
    ]),
    ("bagratid-armenia", "Bagratid Armenia", "people", "armn", "no", "anatolia+caucasus", "armenians", [
      (43.8, 40.4, 200, 885, 1045, 0, "a", "armenian-chronicles", "The restored kingdom, with its capital at Ani. Byzantium annexed it in 1045."),
@@ -403,10 +412,12 @@
      (44.8, 41.7, 130, 580, 1008, 0, "r", "georgian-chronicles", "Ruled by princes under Persian, Byzantine and then Arab overlords. Tbilisi was an Arab emirate from the 8th century."),
    ]),
    ("lazica", "Lazica", "people", "kart", "no", "caucasus+anatolia", "georgians", [
-     (42.0, 42.3, 130, 1, 700, 0, "a", "procopius;strabo-geog", "Ancient Colchis, a client of Rome. Rome and Persia fought for it from 541 to 562."),
+     (42.0, 42.3, 130, 1, 131, 0, "r", "strabo-geog", "Ancient Colchis, under the kings of Pontus and then Rome. Strabo describes the country, and the Lazi are named later in the century."),
+     (42.0, 42.3, 130, 131, 697, 0, "a", "procopius", "A kingdom of the Lazi, first recorded with its king by Arrian in 131 and a client of Rome. Rome and Persia fought for it from 541 to 562."),
    ]),
-   ("kingdom-of-abkhazia", "Kingdom of Abkhazia", "people", "kart", "no", "caucasus", "georgians", [
-     (41.9, 42.7, 150, 780, 1008, 0, "a", "georgian-chronicles", "Founded by Abkhaz princes, it covered western Georgia and used Georgian in church and court."),
+   ("kingdom-of-abkhazia", "Kingdom of Abkhazia", "people", "kart", "yes", "caucasus", "georgians", [
+     (41.9, 42.7, 150, 780, 1008, 0, "a", "georgian-chronicles;dai",
+      "Founded by Abkhaz princes in the 780s, it covered western Georgia. Georgian became the language of its church and court, and what the first kings spoke is not known."),
    ]),
    ("tao-klarjeti", "Tao-Klarjeti", "people", "kart", "no", "caucasus+anatolia", "georgians", [
      (41.8, 41.0, 110, 813, 1008, 0, "a", "georgian-chronicles;dai", "The Bagrationi principality in the south-west, from which the kings of united Georgia came."),
@@ -415,7 +426,7 @@
      (43.5, 42.0, 280, 1008, 1490, 0, "a", "georgian-chronicles", "United in 1008 and at its height under David IV and Tamar, about 1200. Mongols and Timur broke it and it divided by about 1490."),
    ]),
    ("kartli-kakheti", "Kartli and Kakheti", "people", "kart", "no", "caucasus", "georgians", [
-     (45.0, 41.7, 130, 1490, 1801, 0, "a", "georgian-chronicles;acts-treaties", "The eastern kingdoms, under Safavid Persia for most of the period. Russia annexed them in 1801."),
+     (45.0, 41.7, 130, 1490, 1801, 0, "a", "georgian-chronicles;acts-treaties", "The eastern kingdoms, under Safavid Persia for most of the period and united in 1762. Russia annexed them in 1801."),
    ]),
    ("imereti", "Imereti", "people", "kart", "no", "caucasus", "georgians", [
      (42.7, 42.2, 120, 1490, 1810, 0, "a", "georgian-chronicles;acts-treaties", "The western kingdom, under Ottoman influence. Russia annexed it in 1810."),
@@ -427,12 +438,14 @@
       "A kingdom between the Kura and the Caspian, unrelated to Albania in the Balkans. Strabo says its people spoke many languages."),
    ]),
    ("alans-caucasus", "Alans", "people", "iran", "no", "east+caucasus", "caucasus-peoples", [
-     (43.0, 44.0, 220, 100, 700, 0, "r", "ammianus;procopius", "Iranian-speaking horsemen north of the Caucasus passes."),
-     (43.0, 43.6, 200, 700, 1239, 0, "a", "dai;masudi", "The kingdom of Alania, Christian from the early 10th century. The Mongols destroyed it in 1238 and 1239."),
+     (43.0, 44.0, 220, 100, 900, 0, "r", "ammianus;procopius", "Iranian-speaking horsemen north of the Caucasus passes, under the Khazars from the 7th century."),
+     (43.0, 43.6, 200, 900, 1239, 0, "a", "dai;masudi", "The kingdom of Alania, free of the Khazars from the late 9th century and Christian from the early 10th. The Mongols took its capital in 1239 or 1240."),
    ]),
    ("ossetians", "Ossetians", "people", "iran", "no", "east+caucasus", "caucasus-peoples", [
-     (44.2, 42.9, 80, 1300, 2026, 1, "a", "georgian-chronicles;census-neareast",
-      "Descendants of the Alans in the central valleys. South Ossetia broke from Georgia in the 1990s and its status is disputed."),
+     (44.2, 42.9, 80, 1300, 1774, 0, "r", "georgian-chronicles",
+      "Descendants of the Alans, who withdrew into the central valleys after the Mongol and Timurid wars. Their placement in these centuries is by later scholarship."),
+     (44.2, 42.9, 80, 1774, 2026, 1, "a", "census-neareast",
+      "Under Russia from the 1770s. South Ossetia broke from Georgia in the 1990s and its status is disputed."),
    ]),
    ("circassians", "Circassians", "people", "nwcauc", "no", "east", "caucasus-peoples", [
      (39.6, 44.4, 180, 500, 1864, 0, "a", "procopius;dai", "They call themselves Adyghe, and Greek writers call them Zichoi. Russia conquered them in 1864 and most were driven out."),
@@ -440,18 +453,21 @@
    ]),
    ("abkhaz", "Abkhaz", "people", "nwcauc", "no", "caucasus", "caucasus-peoples", [
      (41.0, 43.1, 70, 100, 780, 0, "a", "procopius", "The Abasgoi, with princes of their own under Roman influence."),
-     (41.1, 43.1, 70, 1500, 2026, 1, "a", "census-neareast", "Abkhazia broke from Georgia in 1993 and its status is disputed."),
+     (41.1, 43.1, 70, 1500, 1810, 0, "r", "georgian-chronicles", "A principality under the Shervashidze family, between Georgian and Ottoman overlords."),
+     (41.1, 43.1, 70, 1810, 2026, 1, "a", "census-neareast", "Under Russian protection from 1810. Abkhazia broke from Georgia in 1993 and its status is disputed."),
    ]),
    ("avars-of-dagestan", "Avars of Dagestan", "people", "necauc", "no", "east", "caucasus-peoples", [
      (46.7, 42.5, 90, 700, 1100, 0, "r", "masudi", "The mountain kingdom Arab geographers call Sarir, the Throne."),
-     (46.8, 42.6, 90, 1200, 1864, 0, "a", "census-neareast", "The Avar khanate at Khunzakh. Unrelated to the Avars of the Danube."),
+     (46.8, 42.6, 90, 1200, 1803, 0, "r", "linguistic-geography", "The Avar khanate at Khunzakh, from the early 13th century. Unrelated to the Avars of the Danube."),
+     (46.8, 42.6, 90, 1803, 1864, 0, "a", "acts-treaties", "The khanate submitted to Russia about 1803 and was abolished in 1864."),
    ]),
    ("vainakh", "Chechens and Ingush", "people", "necauc", "no", "east", "caucasus-peoples", [
      (45.3, 42.9, 90, 1000, 1700, 0, "r", "georgian-chronicles", "Called Durdzuks in the Georgian chronicles."),
-     (45.6, 43.2, 100, 1700, 2026, 1, "a", "census-neareast", "Deported to Central Asia in 1944 and allowed back in 1957."),
+     (45.6, 43.2, 100, 1700, 1800, 0, "r", "linguistic-geography", "Moving down from the mountains to the plains of the Sunzha and the Terek."),
+     (45.6, 43.2, 100, 1800, 2026, 1, "a", "census-neareast", "Deported to Central Asia in 1944 and allowed back in 1957."),
    ]),
    ("caucasian-imamate", "Caucasian Imamate", "people", "necauc", "no", "east", "caucasus-peoples", [
-     (46.3, 42.8, 110, 1829, 1859, 0, "a", "acts-treaties", "The state of the imams of Dagestan and Chechnya. Shamil led its war against Russia until 1859."),
+     (46.3, 42.8, 110, 1828, 1859, 0, "a", "acts-treaties", "The state of the imams of Dagestan and Chechnya. Shamil led its war against Russia until 1859."),
    ]),
    ("shirvan", "Shirvan", "people", "pers", "no", "caucasus", "caucasus-peoples", [
      (48.6, 40.6, 130, 861, 1538, 0, "a", "masudi;arabic-histories-east", "The Shirvanshahs, an Arab house that became Persian in speech and ruled until the Safavids took their land in 1538."),
@@ -465,10 +481,11 @@
 
    # ================================================================ Aramaic peoples
    ("osroene", "Osroene", "people", "aram", "no", "anatolia+levant+mesopotamia", "aramaic-peoples", [
-     (38.8, 37.1, 90, 1, 242, 0, "a", "syriac-chronicles;pliny-nh", "The kingdom of the Abgars at Edessa, where Syriac became a written language. Rome ended it about 242."),
+     (38.8, 37.1, 90, 1, 242, 0, "a", "syriac-chronicles;pliny-nh", "The kingdom of the Abgars at Edessa, where Syriac became a written language. Rome made Edessa a colony about 214, and kings in name lasted until about 242."),
    ]),
    ("adiabene", "Adiabene", "people", "aram", "no", "mesopotamia", "aramaic-peoples", [
-     (44.0, 36.2, 110, 1, 250, 0, "a", "josephus;pliny-nh", "A kingdom around Arbela under Parthian overlords. Josephus tells how its royal house became Jewish about 30."),
+     (44.0, 36.2, 110, 1, 116, 0, "a", "josephus;pliny-nh", "A kingdom around Arbela under Parthian overlords. Josephus tells how its royal house became Jewish about 30. Trajan took it in 116."),
+     (44.0, 36.2, 110, 116, 379, 0, "r", "syriac-chronicles", "Kings under Parthian and then Sasanian overlords, thinly recorded. The last known king reigned about 379."),
    ]),
    ("hatra", "Hatra", "people", "aram", "no", "mesopotamia", "aramaic-peoples", [
      (42.7, 35.6, 90, 50, 241, 0, "a", "north-arabian-inscriptions;ammianus", "A desert city whose rulers wrote Aramaic and called themselves kings of the Arabs. The Sasanians destroyed it in 241."),
@@ -477,8 +494,8 @@
      (47.7, 30.6, 100, 1, 222, 0, "a", "pliny-nh;periplus", "A trading kingdom at the head of the Gulf, also called Mesene, under Parthian overlords."),
    ]),
    ("palmyra", "Palmyra", "people", "aram", "no", "levant+egypt+anatolia", "aramaic-peoples", [
-     (38.3, 34.6, 150, 1, 260, 0, "a", "north-arabian-inscriptions;pliny-nh", "A caravan city of Aramaic and Arab families inside the Roman province of Syria."),
-     (36.5, 33.5, 500, 260, 273, 0, "a", "north-arabian-inscriptions", "Under Odaenathus and Zenobia it held Syria, Egypt and part of Anatolia, until Aurelian took the city."),
+     (38.3, 34.6, 150, 1, 270, 0, "a", "north-arabian-inscriptions;pliny-nh", "A caravan city of Aramaic and Arab families inside the Roman province of Syria. From 260 its lord Odaenathus defended the Roman east against Persia."),
+     (36.5, 33.5, 500, 270, 273, 0, "a", "north-arabian-inscriptions", "Zenobia took Egypt in 270 and Anatolia as far as Ancyra in 271. Aurelian took Palmyra in 272 and sacked it in 273."),
    ]),
    ("assyrians", "Assyrians and Syriac Christians", "people", "aram", "no", "anatolia+mesopotamia+levant", "aramaic-peoples", [
      (41.8, 37.0, 170, 500, 1915, 0, "a", "syriac-chronicles;ottoman-registers", "The Church of the East and the Syriac Orthodox, in Tur Abdin, Hakkari and the Mosul plain."),
@@ -530,7 +547,8 @@
 
    # ================================================================ Mountain communities
    ("maronites", "Maronites", "people", "arab", "no", "levant", "mountain-communities", [
-     (35.9, 34.2, 50, 700, 2026, 1, "a", "william-tyre;census-neareast", "Christians of Mount Lebanon, in union with Rome since the Crusades. They spoke Aramaic at first and keep Syriac in church."),
+     (35.9, 34.2, 50, 700, 1099, 0, "r", "syriac-chronicles", "Christians who moved from the Orontes valley to Mount Lebanon in the 7th and 8th centuries. They spoke Aramaic at first, and these centuries are known mostly from later tradition."),
+     (35.9, 34.2, 50, 1099, 2026, 1, "a", "william-tyre;census-neareast", "Described on Mount Lebanon by William of Tyre and in union with Rome since the Crusades. They keep Syriac in church."),
    ]),
    ("druze", "Druze", "people", "arab", "no", "levant", "mountain-communities", [
      (35.7, 33.6, 50, 1020, 2026, 1, "a", "arabic-histories-east;census-neareast", "A community that grew from Fatimid Ismaili teaching about 1017, in the Shuf and on Mount Hermon."),
@@ -559,23 +577,21 @@
      (45.0, 15.0, 300, 525, 630, 0, "r", "procopius;tabari", "Under Aksumite viceroys, among them Abraha, and from the 570s under Persian governors."),
    ]),
    ("hadramawt", "Hadramawt", "people", "sarab", "no", "arabia", "arabian-kingdoms", [
-     (48.5, 15.6, 200, 1, 300, 0, "a", "south-arabian-inscriptions;periplus", "The frankincense kingdom, with its capital at Shabwa. Himyar conquered it about 300."),
+     (48.0, 15.6, 200, 1, 300, 0, "a", "south-arabian-inscriptions;periplus", "The frankincense kingdom, with its capital at Shabwa. Himyar conquered it about 300."),
    ]),
    ("kinda", "Kinda", "people", "arab", "no", "arabia", "arabian-kingdoms", [
      (45.2, 19.8, 120, 200, 350, 0, "r", "south-arabian-inscriptions", "At Qaryat al-Faw, on the road from Yemen to the Gulf."),
      (44.5, 24.5, 350, 450, 540, 0, "r", "tabari", "Kings of Kinda ruled the nomads of central Arabia on behalf of Himyar. The poet Imru al-Qays was of their house."),
    ]),
    ("lakhmids", "Lakhmids", "people", "arab", "no", "mesopotamia+arabia", "arabian-kingdoms", [
-     (44.4, 31.8, 160, 300, 602, 0, "a", "procopius;tabari", "Arab kings at al-Hira who guarded the desert frontier for the Sasanians. Khusraw II ended the dynasty in 602."),
+     (44.4, 31.8, 160, 300, 602, 0, "a", "sasanian-inscriptions;procopius;tabari", "Arab kings at al-Hira who guarded the desert frontier for the Sasanians. A Sasanian inscription of the 290s names their king. Khusraw II ended the dynasty in 602."),
    ]),
    ("ghassanids", "Ghassanids", "people", "arab", "no", "levant", "arabian-kingdoms", [
-     (36.4, 32.8, 170, 490, 638, 0, "a", "procopius;syriac-chronicles", "Christian Arab allies of Constantinople on the Syrian desert edge, from 529 under one chief."),
+     (36.4, 32.8, 170, 490, 529, 0, "r", "theophanes", "Arab allies of Constantinople on the Syrian desert edge. Their treaty of 502 is known from a later chronicle, and Arab tradition gives them a much earlier start."),
+     (36.4, 32.8, 170, 529, 638, 0, "a", "procopius;syriac-chronicles", "From 529 Justinian set one chief, al-Harith, over all the allied Arabs. The last of the house left Syria after the Muslim conquest."),
    ]),
    ("quraysh", "Quraysh", "people", "arab", "no", "arabia", "arabian-kingdoms", [
      (39.8, 21.4, 90, 500, 630, 0, "r", "tabari", "The people of Mecca and of Muhammad. Their early history was written down two centuries later."),
-   ]),
-   ("azd-oman", "Azd of Oman", "people", "arab", "no", "arabia", "arabian-kingdoms", [
-     (57.5, 23.0, 150, 200, 630, 0, "i", "arabic-histories-east", "Arab tradition brings the Azd from Yemen to Oman. The Sasanians held the coast."),
    ]),
 
    # ================================================================ Arab dynasties
@@ -583,7 +599,7 @@
      (32.0, 29.8, 350, 868, 905, 0, "a", "arabic-histories-east", "The first independent rulers of Muslim Egypt, founded by a Turkish governor of the Abbasids."),
    ]),
    ("hamdanids", "Hamdanids", "people", "arab", "no", "mesopotamia+levant+anatolia", "arab-dynasties", [
-     (40.0, 36.0, 220, 905, 1004, 0, "a", "arabic-histories-east;ibn-hawqal", "An Arab house at Mosul and Aleppo. Sayf al-Dawla fought Byzantium and kept the poet al-Mutanabbi."),
+     (40.0, 36.0, 220, 890, 1004, 0, "a", "arabic-histories-east;ibn-hawqal", "An Arab house of the Jazira from 890, at Mosul from 905 and Aleppo from 944. Sayf al-Dawla fought Byzantium and kept the poet al-Mutanabbi."),
    ]),
    ("qarmatians", "Qarmatians", "people", "arab", "no", "arabia", "arab-dynasties", [
      (49.8, 25.8, 250, 899, 1077, 0, "a", "ibn-hawqal;arabic-histories-east", "An Ismaili state in eastern Arabia that carried off the Black Stone from Mecca in 930."),
@@ -622,7 +638,7 @@
      (-6.0, 32.6, 380, 1666, 1912, 0, "a", "acts-treaties", "Sharifs from Tafilalt, the ruling house of Morocco to this day."),
    ]),
    ("saudi-emirates", "Saudi emirates", "people", "arab", "no", "arabia", "arab-dynasties", [
-     (46.5, 24.7, 450, 1744, 1818, 0, "a", "acts-treaties", "The alliance of the house of Saud with the reformer Ibn Abd al-Wahhab. An Egyptian army destroyed Diriyah in 1818."),
+     (46.5, 24.7, 450, 1744, 1818, 0, "a", "acts-treaties", "The alliance of 1744 between the house of Saud, emirs of Diriyah since 1727, and the reformer Ibn Abd al-Wahhab. An Egyptian army destroyed Diriyah in 1818."),
      (46.7, 24.6, 250, 1824, 1891, 0, "a", "acts-treaties", "The second state, at Riyadh, lost to the Al Rashid of Hail in 1891."),
    ]),
    ("emirate-of-hail", "Emirate of Hail", "people", "arab", "no", "arabia", "arab-dynasties", [
@@ -661,14 +677,12 @@
    ("musulamii", "Musulamii", "people", "berb", "yes", "maghreb", "libyans-moors", [
      (8.0, 35.5, 100, 1, 200, 0, "a", "tacitus", "Tacfarinas led them against Rome from 17 to 24."),
    ]),
-   ("gaetuli", "Gaetuli", "people", "berb", "yes", "maghreb", "libyans-moors", [
-     (2.0, 32.8, 400, 1, 300, 0, "r", "pliny-nh;strabo-geog", "A general Roman name for the herders of the steppe south of the provinces."),
-   ]),
    ("garamantes", "Garamantes", "people", "berb", "yes", "maghreb", "libyans-moors", [
      (13.5, 26.6, 250, 1, 600, 0, "a", "pliny-nh;ptolemy-geog", "Farmers and traders of the Fezzan, who watered their oases by underground channels. Their capital was Garama."),
    ]),
    ("nasamones", "Nasamones", "people", "berb", "yes", "maghreb", "libyans-moors", [
-     (18.5, 30.0, 200, 1, 300, 0, "a", "pliny-nh;ptolemy-geog", "Nomads of the Gulf of Sirte and the oasis of Augila."),
+     (18.5, 30.0, 200, 1, 150, 0, "a", "pliny-nh;ptolemy-geog", "Nomads of the Gulf of Sirte and the oasis of Augila. They rose against Rome about 85 and were beaten."),
+     (18.5, 30.0, 200, 150, 300, 0, "r", "linguistic-geography", "Not named by writers of their own time after Ptolemy."),
    ]),
    ("laguatan", "Laguatan", "people", "berb", "yes", "maghreb", "libyans-moors", [
      (15.0, 30.6, 300, 360, 700, 0, "a", "ammianus;corippus;procopius", "Nomads of Tripolitania. Ammianus names Austuriani here in the 360s, who may be the same people, and Corippus describes the Laguatan wars of the 540s."),
@@ -685,7 +699,8 @@
      (2.0, 34.6, 250, 777, 909, 0, "a", "bakri;ibn-khaldun", "Ibadi imams at Tahert, of Persian descent, chosen and followed by Berber peoples."),
    ]),
    ("barghawata", "Barghawata", "people", "berb", "no", "maghreb", "berber-dynasties", [
-     (-7.2, 33.2, 130, 744, 1058, 0, "a", "bakri", "A Berber state on the Atlantic plain with a prophet and a scripture of its own, destroyed by the Almoravids."),
+     (-7.2, 33.2, 130, 744, 950, 0, "r", "bakri", "A Berber state on the Atlantic plain with a prophet and a scripture of its own. Its first two centuries are known from what al-Bakri copied later."),
+     (-7.2, 33.2, 130, 950, 1058, 0, "a", "ibn-hawqal;bakri", "Described by Ibn Hawqal in the 10th century and by al-Bakri from a Barghawata envoy's report. The Almoravids destroyed it."),
    ]),
    ("midrarids", "Sijilmasa", "people", "berb", "no", "maghreb", "berber-dynasties", [
      (-4.3, 31.3, 120, 757, 976, 0, "a", "bakri;ibn-hawqal", "The Midrarid emirs of the caravan city at the head of the gold road to the Sudan."),
@@ -711,7 +726,8 @@
 
    # ================================================================ Amazigh peoples
    ("kutama", "Kutama", "people", "berb", "no", "maghreb", "amazigh-peoples", [
-     (5.6, 36.4, 110, 700, 1000, 0, "a", "ibn-hawqal;ibn-khaldun", "Mountain people of Lesser Kabylia, the army that brought the Fatimids to power."),
+     (5.6, 36.4, 110, 700, 893, 0, "r", "ibn-khaldun", "Mountain people of Lesser Kabylia. Their earlier history comes from later writers."),
+     (5.6, 36.4, 110, 893, 1000, 0, "a", "ibn-hawqal;arabic-histories-east", "A Fatimid missionary settled among them in 893, and they were the army that brought the Fatimids to power in 909."),
    ]),
    ("zenata", "Zenata", "people", "berb", "no", "maghreb", "amazigh-peoples", [
      (0.0, 34.0, 400, 700, 1300, 0, "r", "ibn-khaldun", "One of Ibn Khaldun's three great Berber groupings, herders of the high plains."),
@@ -726,20 +742,26 @@
      (6.0, 24.0, 500, 1000, 2026, 1, "r", "ibn-battuta;census-neareast", "They call themselves Kel Tamasheq. Ibn Battuta crossed the Ahaggar in 1353, and their confederations there and in the Ajjer held the Saharan roads."),
    ]),
    ("mozabites", "Mozabites", "people", "berb", "no", "maghreb", "amazigh-peoples", [
-     (3.7, 32.5, 60, 1050, 2026, 1, "a", "census-neareast", "Ibadi Berbers who founded the five towns of the Mzab in the 11th century."),
+     (3.7, 32.5, 60, 1012, 1882, 0, "r", "ibn-khaldun", "Ibadi Berbers who founded the five towns of the Mzab between the 11th and the 14th century, the first by tradition in 1012."),
+     (3.7, 32.5, 60, 1882, 2026, 1, "a", "census-neareast", "France annexed the Mzab in 1882."),
    ]),
    ("kabyles", "Kabyles", "people", "berb", "no", "maghreb", "amazigh-peoples", [
-     (4.5, 36.5, 90, 1500, 2026, 1, "a", "census-neareast", "The largest Berber-speaking people of Algeria, in the mountains east of Algiers."),
+     (4.5, 36.5, 90, 1500, 1830, 0, "r", "linguistic-geography", "The mountains east of Algiers, never fully under the Regency. Earlier writers call these people Zwawa."),
+     (4.5, 36.5, 90, 1830, 2026, 1, "a", "census-neareast", "The largest Berber-speaking people of Algeria. France conquered Kabylia in 1857."),
    ]),
    ("riffians", "Riffians", "people", "berb", "no", "maghreb", "amazigh-peoples", [
-     (-3.8, 35.0, 90, 1500, 2026, 1, "a", "census-neareast", "Berbers of the Rif mountains. Their republic fought Spain and France from 1921 to 1926."),
+     (-3.8, 35.0, 90, 1500, 1880, 0, "r", "linguistic-geography", "Berbers of the Rif mountains, placed here before the first surveys by later scholarship."),
+     (-3.8, 35.0, 90, 1880, 2026, 1, "a", "census-neareast", "Their republic fought Spain and France from 1921 to 1926."),
    ]),
    ("ishelhien", "Ishelhien", "people", "berb", "no", "maghreb", "amazigh-peoples", [
-     (-8.5, 30.6, 180, 1500, 2026, 1, "a", "census-neareast", "The Berbers of the High Atlas and the Sous, called Shilha or Chleuh by outsiders."),
+     (-8.5, 30.6, 180, 1500, 1880, 0, "r", "linguistic-geography", "The Berbers of the High Atlas and the Sous, called Shilha or Chleuh by outsiders, the heirs of the Masmuda."),
+     (-8.5, 30.6, 180, 1880, 2026, 1, "a", "census-neareast", "Recorded by travellers and surveys from the late 19th century."),
    ]),
    ("guanches", "Guanches", "people", "berb", "yes", "maghreb", "amazigh-peoples", [
-     (-16.6, 28.3, 110, 1, 1496, 0, "r", "pliny-nh;canarian-chronicles",
-      "The first people of the Canary Islands, known from archaeology and from their conquerors. Castile took the last island, Tenerife, in 1496."),
+     (-16.6, 28.3, 110, 150, 1341, 0, "r", "linguistic-geography",
+      "The first lasting people of the Canary Islands, Berbers who came by sea. Radiocarbon dates put their arrival between the 1st and the 4th century, and the start date here is a round middle."),
+     (-16.6, 28.3, 110, 1341, 1496, 0, "a", "canarian-chronicles",
+      "Seen by a Portuguese and Italian voyage in 1341 and described by their conquerors from 1402. Castile took the last island, Tenerife, in 1496. Guanche was first the name of the people of Tenerife."),
    ]),
 
    # ================================================================ Mamluks, ungrouped
@@ -767,13 +789,13 @@
      (35.1, 32.9, 60, 1191, 1291, 0, "a", "acts-treaties", "After Saladin took Jerusalem the kingdom was a strip of coast governed from Acre, which fell in 1291."),
    ]),
    ("county-of-edessa", "County of Edessa", "polity", "fr", "no", "anatolia+levant", "", [
-     (38.6, 37.1, 100, 1098, 1144, 0, "a", "william-tyre;syriac-chronicles", "The first Crusader state and the first to fall."),
+     (38.6, 37.1, 100, 1098, 1150, 0, "a", "william-tyre;syriac-chronicles", "The first Crusader state and the first to fall. Zengi took Edessa in 1144 and the last castles went by 1150."),
    ]),
    ("principality-of-antioch", "Principality of Antioch", "polity", "fr", "no", "anatolia+levant", "", [
      (36.2, 36.1, 90, 1098, 1268, 0, "a", "william-tyre", "A Norman principality, taken by the Mamluk sultan Baybars in 1268."),
    ]),
    ("county-of-tripoli", "County of Tripoli", "polity", "fr", "no", "levant", "", [
-     (35.9, 34.5, 60, 1109, 1289, 0, "a", "william-tyre", ""),
+     (35.9, 34.5, 60, 1109, 1289, 0, "a", "william-tyre", "Begun in 1102, with Tripoli itself taken in 1109. The Mamluks took the city in 1289."),
    ]),
    ("kingdom-of-cyprus", "Kingdom of Cyprus", "polity", "fr", "no", "anatolia", "", [
      (33.2, 35.0, 100, 1192, 1489, 0, "a", "acts-treaties", "The Lusignan kings ruled a Greek-speaking island. Venice held it from 1489 and the Ottomans took it in 1571."),
@@ -797,7 +819,7 @@
      (-6.5, 32.5, 300, 1912, 1956, 0, "a", "acts-treaties", "Spain held a zone in the north and another in the far south."),
    ]),
    ("spanish-sahara", "Spanish Sahara", "polity", "ibrom", "no", "maghreb", "", [
-     (-13.5, 24.5, 300, 1884, 1975, 0, "a", "acts-treaties", "Spain withdrew in 1975. Sovereignty over the territory has been disputed since."),
+     (-13.5, 24.5, 300, 1884, 1976, 0, "a", "acts-treaties", "Spain agreed to leave in 1975 and withdrew in 1976. Sovereignty over the territory has been disputed since."),
    ]),
    ("italian-libya", "Italian Libya", "polity", "itrom", "no", "maghreb", "", [
      (17.0, 29.0, 500, 1911, 1943, 0, "a", "acts-treaties", "Italy took the coast from the Ottomans in 1911 and the interior by 1931."),
@@ -845,7 +867,7 @@
      (43.7, 33.2, 330, 1921, 2026, 1, "a", "acts-treaties", "A kingdom under British mandate from 1921, independent in 1932 and a republic from 1958."),
    ]),
    ("syria", "Syria", "polity", "", "no", "levant", "", [
-     (38.5, 35.0, 250, 1946, 2026, 1, "a", "acts-treaties", ""),
+     (38.5, 35.0, 250, 1946, 2026, 1, "a", "acts-treaties", "Independent of France in 1946. Israel has held the Golan Heights since 1967, and sovereignty over them is disputed."),
    ]),
    ("lebanon", "Lebanon", "polity", "", "no", "levant", "", [
      (35.8, 33.9, 50, 1943, 2026, 1, "a", "acts-treaties", ""),
@@ -854,7 +876,7 @@
      (36.5, 31.0, 170, 1921, 2026, 1, "a", "acts-treaties", "The emirate of Transjordan from 1921 and a kingdom from 1946."),
    ]),
    ("israel", "Israel", "polity", "", "no", "levant", "", [
-     (34.9, 31.5, 120, 1948, 2026, 1, "a", "acts-treaties", "Founded in 1948. It has occupied the West Bank since 1967, and the status of the Palestinian territories is disputed."),
+     (34.9, 31.5, 120, 1948, 2026, 1, "a", "acts-treaties", "Founded in 1948. It has occupied the West Bank and the Golan Heights since 1967. The status of the Palestinian territories and sovereignty over the Golan are disputed."),
    ]),
    ("palestine", "Palestine", "polity", "", "no", "levant", "", [
      (35.25, 31.95, 40, 1994, 2026, 1, "a", "acts-treaties", "The Palestinian Authority has administered parts of the West Bank and Gaza since 1994. Statehood and borders are disputed."),
@@ -894,7 +916,9 @@
      (28.8, 39.3, 260, 1100, 1330, 0, "r", "linguistic-geography", "Western Anatolia under the last Byzantine emperors."),
      (27.3, 38.6, 130, 1330, 1923, 0, "r", "ottoman-registers;census-neareast", "Smyrna and the Aegean coast, until 1923."),
      (34.8, 38.5, 90, 1150, 1923, 0, "r", "linguistic-geography", "Cappadocian Greek villages."),
-     (33.2, 35.0, 110, 1, 2026, 1, "a", "strabo-geog;census-neareast", "Cyprus."),
+     (33.2, 35.0, 110, 1, 1974, 0, "a", "strabo-geog;census-neareast", "Cyprus. Turkish Cypriots lived among the Greek-speaking majority from 1571."),
+     (34.0, 35.4, 70, 1, 1974, 0, "r", "census-neareast", "The east of Cyprus and the Karpas peninsula."),
+     (33.0, 34.8, 75, 1974, 2026, 1, "a", "census-neareast", "The south of Cyprus. Greek Cypriots left the north when the island was divided in 1974, and sovereignty over the north is disputed."),
    ]),
    ("byzantine-empire", [
      (32.5, 39.0, 450, 395, 1071, 0, "a", "procopius;theophanes", "Anatolia, the heart of the empire until the Seljuks won at Manzikert in 1071."),
@@ -921,7 +945,7 @@
      (9.5, 35.8, 300, 429, 534, 0, "a", "procopius", "The Vandal kingdom of Africa. Carthage fell to them in 439 and to Belisarius in 533."),
    ]),
    ("almoravids", [
-     (-8.0, 30.5, 450, 1056, 1147, 0, "a", "bakri;ibn-khaldun", "A reform movement among the Sanhaja of the Sahara. They founded Marrakesh about 1062."),
+     (-8.0, 30.5, 450, 1056, 1147, 0, "a", "bakri;ibn-khaldun", "A reform movement among the Sanhaja of the Sahara. They took Sijilmasa in the 1050s and founded Marrakesh about 1070."),
    ]),
    ("almohads", [
      (-7.0, 31.8, 350, 1121, 1269, 0, "a", "ibn-khaldun", "A movement of the Masmuda of the High Atlas, begun by Ibn Tumart. Marrakesh fell to the Marinids in 1269."),

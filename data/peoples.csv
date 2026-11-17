@@ -497,1067 +497,6 @@ sarmatian-speakers,Sarmatian speakers,language,iran,no,east+central+balkans+step
 gothic-speakers,Gothic speakers,language,egerm,no,east+balkans,
 turkic-speakers,Turkic speakers,language,turk,no,east+balkans,
 celtic-speakers-of-the-alps-and-danube,Celtic speakers of the Alps and Danube,language,gaul,no,central+balkans,
-anatolian-speakers,Anatolian and Phrygian speakers,language,anat,no,anatolia,
-galatian-speakers,Galatian speakers,language,gaul,no,anatolia,
-armenian-speakers,Armenian speakers,language,armn,no,anatolia+caucasus,
-kurdish-speakers-west,Kurdish speakers,language,wiran,no,anatolia+mesopotamia+levant,
-turkish-speakers-anatolia,Turkish speakers,language,oghuz,no,anatolia,
-zan-speakers,Laz and Mingrelian speakers,language,kart,no,anatolia+caucasus,
-georgian-speakers,Georgian speakers,language,kart,no,caucasus,
-abkhaz-speakers,Abkhaz speakers,language,nwcauc,no,caucasus,
-caucasian-albanian-speakers,Caucasian Albanian and Lezgic speakers,language,necauc,no,caucasus,
-tat-speakers,Persian and Tat speakers,language,pers,no,caucasus,
-azeri-speakers-caucasus,Azeri speakers,language,oghuz,no,caucasus,
-circassian-speakers,Circassian speakers,language,nwcauc,no,east,
-alan-ossetian-speakers,Alan and Ossetian speakers,language,iran,no,east+caucasus,
-nakh-dagestanian-speakers,Chechen and Dagestanian speakers,language,necauc,no,east,
-north-caucasus-turkic,Turkic speakers of the North Caucasus,language,kipch,no,east,
-russian-speakers-caucasus,Russian speakers of the North Caucasus,language,slave,no,east,
-icelandic-speakers,Icelandic speakers,language,norse,no,north,
-aramaic-speakers,Aramaic and Syriac speakers,language,aram,no,levant+mesopotamia+anatolia,
-hebrew-speakers,Hebrew speakers,language,canaan,no,levant,
-phoenician-speakers,Phoenician and Punic speakers,language,canaan,no,levant+maghreb,
-arabic-arabia,Arabic speakers (Arabia),language,arab,no,arabia+levant+mesopotamia,
-arabic-levant,Arabic speakers (Levant and Iraq),language,arab,no,levant+mesopotamia,
-old-south-arabian-speakers,Old South Arabian speakers,language,sarab,no,arabia,
-modern-south-arabian-speakers,Mehri and Soqotri speakers,language,sarab,no,arabia,
-egyptian-speakers,Egyptian and Coptic speakers,language,egyp,no,egypt,
-greek-speakers-africa,Greek speakers (Alexandria and Cyrene),language,greek,no,egypt+maghreb,
-beja-speakers-egypt,Beja speakers,language,cush,yes,egypt,
-nubian-speakers-egypt,Nubian speakers (Egypt),language,nubian,yes,egypt,
-arabic-egypt,Arabic speakers (Egypt),language,arab,no,egypt,
-berber-speakers,Berber speakers,language,berb,no,maghreb+egypt,
-guanche-speakers,Guanche speakers,language,berb,yes,maghreb,
-spanish-canaries,Spanish speakers (Canary Islands),language,ibrom,no,maghreb,
-latin-speakers-africa,Latin speakers (Africa),language,lat,no,maghreb,
-arabic-maghreb,Arabic speakers (Maghreb),language,arab,no,maghreb,
-teda-libya,Teda speakers,language,saharan,no,maghreb,
-galatians,Galatians,people,gaul,no,anatolia,anatolian-peoples
-cappadocians,Cappadocians,people,anat,yes,anatolia,anatolian-peoples
-phrygians,Phrygians,people,anat,no,anatolia,anatolian-peoples
-isaurians,Isaurians,people,anat,yes,anatolia,anatolian-peoples
-pontus-kingdom,Kingdom of Pontus,people,greek,no,anatolia,anatolian-peoples
-commagene,Commagene,people,aram,yes,anatolia,anatolian-peoples
-empire-of-nicaea,Empire of Nicaea,people,greek,no,anatolia,
-empire-of-trebizond,Empire of Trebizond,people,greek,no,anatolia,
-seljuks-of-rum,Sultanate of Rum,people,oghuz,no,anatolia,anatolian-turks
-danishmends,Danishmends,people,oghuz,no,anatolia,anatolian-turks
-karamanids,Karamanids,people,oghuz,no,anatolia,anatolian-turks
-aegean-beyliks,Aegean beyliks,people,oghuz,no,anatolia,anatolian-turks
-white-sheep-turkmen,Aq Qoyunlu,people,oghuz,no,anatolia+mesopotamia+caucasus,anatolian-turks
-black-sheep-turkmen,Qara Qoyunlu,people,oghuz,no,anatolia+mesopotamia+caucasus,anatolian-turks
-anatolian-turks-people,Turks,people,oghuz,no,anatolia,anatolian-turks
-kurdistan-kurds,Kurds,people,wiran,no,anatolia+mesopotamia+levant,kurdish-peoples
-marwanids,Marwanids,people,wiran,no,anatolia+mesopotamia,kurdish-peoples
-shaddadids,Shaddadids,people,wiran,no,caucasus+anatolia,kurdish-peoples
-kurdish-emirates,Kurdish emirates,people,wiran,no,anatolia+mesopotamia,kurdish-peoples
-yazidis,Yazidis,people,wiran,no,mesopotamia,kurdish-peoples
-kingdom-of-armenia,Kingdom of Armenia,people,armn,no,anatolia+caucasus,armenians
-persian-armenia,Armenia under Persia,people,armn,no,anatolia+caucasus,armenians
-bagratid-armenia,Bagratid Armenia,people,armn,no,anatolia+caucasus,armenians
-vaspurakan,Vaspurakan,people,armn,no,anatolia,armenians
-cilician-armenia,Cilician Armenia,people,armn,no,anatolia,armenians
-armenians-later,Armenians,people,armn,no,anatolia+caucasus,armenians
-iberia-kartli,Iberia (Kartli),people,kart,no,caucasus,georgians
-lazica,Lazica,people,kart,no,caucasus+anatolia,georgians
-kingdom-of-abkhazia,Kingdom of Abkhazia,people,kart,no,caucasus,georgians
-tao-klarjeti,Tao-Klarjeti,people,kart,no,caucasus+anatolia,georgians
-kingdom-of-georgia,Kingdom of Georgia,people,kart,no,caucasus+anatolia,georgians
-kartli-kakheti,Kartli and Kakheti,people,kart,no,caucasus,georgians
-imereti,Imereti,people,kart,no,caucasus,georgians
-caucasian-albania,Caucasian Albania,people,necauc,no,caucasus,caucasus-peoples
-alans-caucasus,Alans,people,iran,no,east+caucasus,caucasus-peoples
-ossetians,Ossetians,people,iran,no,east+caucasus,caucasus-peoples
-circassians,Circassians,people,nwcauc,no,east,caucasus-peoples
-abkhaz,Abkhaz,people,nwcauc,no,caucasus,caucasus-peoples
-avars-of-dagestan,Avars of Dagestan,people,necauc,no,east,caucasus-peoples
-vainakh,Chechens and Ingush,people,necauc,no,east,caucasus-peoples
-caucasian-imamate,Caucasian Imamate,people,necauc,no,east,caucasus-peoples
-shirvan,Shirvan,people,pers,no,caucasus,caucasus-peoples
-caucasus-khanates,Khanates of the Caucasus,people,oghuz,no,caucasus,caucasus-peoples
-azerbaijanis-caucasus,Azerbaijanis,people,oghuz,no,caucasus,caucasus-peoples
-osroene,Osroene,people,aram,no,anatolia+levant+mesopotamia,aramaic-peoples
-adiabene,Adiabene,people,aram,no,mesopotamia,aramaic-peoples
-hatra,Hatra,people,aram,no,mesopotamia,aramaic-peoples
-characene,Characene,people,aram,no,mesopotamia,aramaic-peoples
-palmyra,Palmyra,people,aram,no,levant+egypt+anatolia,aramaic-peoples
-assyrians,Assyrians and Syriac Christians,people,aram,no,anatolia+mesopotamia+levant,aramaic-peoples
-mandaeans,Mandaeans,people,aram,no,mesopotamia,aramaic-peoples
-judaea,Judaea,people,canaan,no,levant,judaea-phoenicia
-galilee-jews,Jews of Galilee,people,aram,no,levant,judaea-phoenicia
-samaritans,Samaritans,people,aram,no,levant,judaea-phoenicia
-babylonian-jews,Jews of Babylonia,people,aram,no,mesopotamia,judaea-phoenicia
-tyre-and-sidon,Tyre and Sidon,people,canaan,no,levant,judaea-phoenicia
-israelis,Israelis,people,canaan,no,levant,judaea-phoenicia
-egyptians-roman,Egyptians,people,egyp,no,egypt,egyptians
-copts,Copts,people,egyp,no,egypt,egyptians
-alexandria,Alexandria,people,greek,no,egypt,egyptians
-blemmyes,Blemmyes,people,cush,yes,egypt,egyptians
-beja-egypt,Beja,people,cush,no,egypt,egyptians
-maronites,Maronites,people,arab,no,levant,mountain-communities
-druze,Druze,people,arab,no,levant,mountain-communities
-alawites,Alawites,people,arab,no,levant,mountain-communities
-nizaris-of-syria,Nizari Ismailis,people,arab,no,levant,mountain-communities
-nabataeans,Nabataeans,people,arab,no,levant+arabia+egypt,arabian-kingdoms
-thamud,Thamud,people,arab,no,arabia,arabian-kingdoms
-saba,Saba,people,sarab,no,arabia,arabian-kingdoms
-himyar,Himyar,people,sarab,no,arabia,arabian-kingdoms
-hadramawt,Hadramawt,people,sarab,no,arabia,arabian-kingdoms
-kinda,Kinda,people,arab,no,arabia,arabian-kingdoms
-lakhmids,Lakhmids,people,arab,no,mesopotamia+arabia,arabian-kingdoms
-ghassanids,Ghassanids,people,arab,no,levant,arabian-kingdoms
-quraysh,Quraysh,people,arab,no,arabia,arabian-kingdoms
-azd-oman,Azd of Oman,people,arab,no,arabia,arabian-kingdoms
-tulunids,Tulunids,people,arab,no,egypt+levant,arab-dynasties
-hamdanids,Hamdanids,people,arab,no,mesopotamia+levant+anatolia,arab-dynasties
-qarmatians,Qarmatians,people,arab,no,arabia,arab-dynasties
-aghlabids,Aghlabids,people,arab,no,maghreb,arab-dynasties
-idrisids,Idrisids,people,arab,no,maghreb,arab-dynasties
-fatimids,Fatimids,people,arab,no,maghreb+egypt+levant+arabia,arab-dynasties
-zaydi-imams,Zaydi imams of Yemen,people,arab,no,arabia,arab-dynasties
-rasulids,Rasulids,people,arab,no,arabia,arab-dynasties
-ayyubids,Ayyubids,people,arab,no,egypt+levant+mesopotamia+arabia,arab-dynasties
-sharifs-of-mecca,Sharifs of Mecca,people,arab,no,arabia,arab-dynasties
-oman-imamate,Imams of Oman,people,arab,no,arabia,arab-dynasties
-saadi-sultanate,Saadi sultanate,people,arab,no,maghreb,arab-dynasties
-alaouite-sultanate,Alaouite sultanate,people,arab,no,maghreb,arab-dynasties
-saudi-emirates,Saudi emirates,people,arab,no,arabia,arab-dynasties
-emirate-of-hail,Emirate of Hail,people,arab,no,arabia,arab-dynasties
-banu-hilal,Banu Hilal,people,arab,no,maghreb+egypt,bedouin
-banu-sulaym,Banu Sulaym,people,arab,no,maghreb,bedouin
-anaza,Anaza,people,arab,no,levant+mesopotamia+arabia,bedouin
-shammar,Shammar,people,arab,no,arabia+mesopotamia+levant,bedouin
-sahrawis,Sahrawis,people,arab,no,maghreb,bedouin
-palestinians,Palestinians,people,arab,no,levant,bedouin
-mauri,Mauri,people,berb,yes,maghreb,libyans-moors
-numidians,Numidians,people,berb,no,maghreb,libyans-moors
-musulamii,Musulamii,people,berb,yes,maghreb,libyans-moors
-gaetuli,Gaetuli,people,berb,yes,maghreb,libyans-moors
-garamantes,Garamantes,people,berb,yes,maghreb,libyans-moors
-nasamones,Nasamones,people,berb,yes,maghreb,libyans-moors
-laguatan,Laguatan,people,berb,yes,maghreb,libyans-moors
-moors-and-romans,Kingdom of Altava,people,berb,yes,maghreb,libyans-moors
-aures-kingdom,Kingdom of the Aures,people,berb,yes,maghreb,libyans-moors
-rustamids,Rustamids,people,berb,no,maghreb,berber-dynasties
-barghawata,Barghawata,people,berb,no,maghreb,berber-dynasties
-midrarids,Sijilmasa,people,berb,no,maghreb,berber-dynasties
-zirids,Zirids,people,berb,no,maghreb,berber-dynasties
-hammadids,Hammadids,people,berb,no,maghreb,berber-dynasties
-marinids,Marinids,people,berb,no,maghreb,berber-dynasties
-wattasids,Wattasids,people,berb,no,maghreb,berber-dynasties
-zayyanids,Zayyanids,people,berb,no,maghreb,berber-dynasties
-hafsids,Hafsids,people,berb,no,maghreb,berber-dynasties
-kutama,Kutama,people,berb,no,maghreb,amazigh-peoples
-zenata,Zenata,people,berb,no,maghreb,amazigh-peoples
-masmuda,Masmuda,people,berb,no,maghreb,amazigh-peoples
-sanhaja-north,Sanhaja,people,berb,no,maghreb,amazigh-peoples
-kel-ahaggar,Tuareg,people,berb,no,maghreb,amazigh-peoples
-mozabites,Mozabites,people,berb,no,maghreb,amazigh-peoples
-kabyles,Kabyles,people,berb,no,maghreb,amazigh-peoples
-riffians,Riffians,people,berb,no,maghreb,amazigh-peoples
-ishelhien,Ishelhien,people,berb,no,maghreb,amazigh-peoples
-guanches,Guanches,people,berb,yes,maghreb,amazigh-peoples
-mamluks,Mamluk Sultanate,people,kipch,no,egypt+levant+arabia,
-rashidun-caliphate,Rashidun Caliphate,polity,arab,no,neareast+maghreb,
-umayyad-caliphate,Umayyad Caliphate,polity,arab,no,neareast+maghreb,
-abbasid-caliphate,Abbasid Caliphate,polity,arab,no,neareast+maghreb,
-jalayirids,Jalayirids,polity,,no,mesopotamia,
-kingdom-of-jerusalem,Kingdom of Jerusalem,polity,fr,no,levant,
-county-of-edessa,County of Edessa,polity,fr,no,anatolia+levant,
-principality-of-antioch,Principality of Antioch,polity,fr,no,anatolia+levant,
-county-of-tripoli,County of Tripoli,polity,fr,no,levant,
-kingdom-of-cyprus,Kingdom of Cyprus,polity,fr,no,anatolia,
-regency-of-algiers,Regency of Algiers,polity,oghuz,no,maghreb,
-regency-of-tunis,Regency of Tunis,polity,oghuz,no,maghreb,
-regency-of-tripoli,Regency of Tripoli,polity,oghuz,no,maghreb,
-french-algeria,French Algeria,polity,fr,no,maghreb,
-french-tunisia,French protectorate of Tunisia,polity,fr,no,maghreb,
-french-morocco,French protectorate of Morocco,polity,fr,no,maghreb,
-spanish-sahara,Spanish Sahara,polity,ibrom,no,maghreb,
-italian-libya,Italian Libya,polity,itrom,no,maghreb,
-mandate-palestine,Mandate Palestine,polity,,no,levant,
-mandate-syria-lebanon,French mandate of Syria and Lebanon,polity,,no,levant,
-aden-protectorate,Aden and its protectorates,polity,,no,arabia,
-transcaucasia-russian,Russian and Soviet Transcaucasia,polity,,no,caucasus,
-egypt-state,Egypt,polity,,no,egypt,
-saudi-arabia,Saudi Arabia,polity,,no,arabia,
-yemen,Yemen,polity,,no,arabia,
-oman,Oman,polity,,no,arabia,
-united-arab-emirates,United Arab Emirates,polity,,no,arabia,
-qatar,Qatar,polity,,no,arabia,
-bahrain,Bahrain,polity,,no,arabia,
-kuwait,Kuwait,polity,,no,mesopotamia,
-iraq,Iraq,polity,,no,mesopotamia,
-syria,Syria,polity,,no,levant,
-lebanon,Lebanon,polity,,no,levant,
-jordan,Jordan,polity,,no,levant,
-israel,Israel,polity,,no,levant,
-palestine,Palestine,polity,,no,levant,
-cyprus,Cyprus,polity,,no,anatolia,
-georgia,Georgia,polity,,no,caucasus,
-armenia,Armenia,polity,,no,caucasus,
-azerbaijan,Azerbaijan,polity,,no,caucasus,
-libya,Libya,polity,,no,maghreb,
-tunisia,Tunisia,polity,,no,maghreb,
-algeria,Algeria,polity,,no,maghreb,
-morocco,Morocco,polity,,no,maghreb,
-parthian-speakers,Parthian,language,wiran,no,iran+afghanistan+turan,
-median-speakers,Median and Old Azari,language,wiran,no,iran,
-middle-persian-speakers,Middle Persian,language,pers,no,iran+afghanistan+turan,
-new-persian-speakers,Persian,language,pers,no,iran+afghanistan+turan,
-kurdish-speakers-iran,Kurdish,language,wiran,no,iran,
-luri-speakers,Luri and Bakhtiari,language,pers,no,iran,
-caspian-speakers,Gilaki and Mazandarani,language,wiran,no,iran,
-baloch-speakers-iran,Balochi,language,wiran,no,iran+afghanistan,
-azeri-speakers-iran,Azeri Turkic,language,oghuz,no,iran,
-arabic-speakers-iran,Arabic,language,arab,no,iran,
-turkmen-speakers,Turkmen,language,oghuz,no,turan+iran+afghanistan,
-qashqai-speakers,Qashqai and Khorasani Turkic,language,oghuz,no,iran,
-bactrian-speakers,Bactrian,language,eiran,no,afghanistan+turan,
-pashto-speakers,Pashto,language,eiran,no,afghanistan,
-gandhari-and-pashai-speakers,"Gandhari, Pashai and Nuristani",language,dard,no,afghanistan,
-pamir-speakers,Pamir languages,language,eiran,no,afghanistan+turan,
-sogdian-speakers,Sogdian,language,eiran,no,turan+steppe,
-khwarezmian-speakers,Khwarezmian,language,eiran,no,turan,
-saka-speakers,Saka,language,eiran,no,iran+afghanistan+turan+steppe+wsiberia,
-hunnic-speakers,Hunnic and unknown steppe languages,language,steppeunk,no,steppe+east+turan+wsiberia,
-western-turkic-speakers,Old Turkic,language,turk,no,steppe+turan+wsiberia+east,
-oghuz-speakers,Oghuz Turkic,language,oghuz,no,steppe+turan,
-kipchak-speakers,Kipchak Turkic,language,kipch,no,steppe+wsiberia+turan+east,
-kazakh-speakers,Kazakh,language,kipch,no,steppe,
-uzbek-speakers,Chagatai and Uzbek,language,karluk,no,turan+afghanistan+steppe,
-kyrgyz-speakers,Kyrgyz,language,kipch,no,turan,
-karakalpak-speakers,Karakalpak,language,kipch,no,turan,
-oirat-speakers-west,Oirat and Kalmyk,language,mong,no,steppe+east,
-russian-speakers-asia,Russian,language,slave,no,east+wsiberia+steppe,
-volga-finnic-speakers,Mordvin and Mari,language,volga,no,east,
-permic-speakers,Komi and Udmurt,language,volga,no,east,
-zavolochye-speakers,Zavolochye Finnic,language,finnic,no,east,
-early-hungarian-speakers,Early Hungarian,language,ugric,no,east+wsiberia,
-volga-bulgar-speakers,Volga Bulgar and Chuvash,language,turk,no,east,
-tatar-speakers,Tatar,language,kipch,no,east,
-nogai-speakers,Nogai,language,kipch,no,east+steppe,
-bashkir-speakers,Bashkir,language,kipch,no,east+wsiberia,
-ob-ugric-speakers,Khanty and Mansi,language,samoyed,no,east+wsiberia,
-samoyedic-speakers,Nenets and other Samoyedic,language,samoyed,no,east+wsiberia,
-yeniseian-speakers,Ket and Yeniseian,language,paleosib,no,wsiberia,
-evenki-speakers-yenisei,Evenki,language,tung,no,wsiberia,
-dolgan-speakers,Dolgan,language,sibturk,no,wsiberia,
-south-siberian-turkic-speakers,"Khakas, Altai and Tuvan",language,sibturk,no,wsiberia,
-buryat-speakers-west,Buryat,language,mong,no,wsiberia,
-siberian-tatar-speakers,Siberian Tatar,language,kipch,no,wsiberia,
-parthians,Parthians,people,wiran,no,iran+turan+afghanistan,persia-and-parthia
-persians,Persians,people,pers,no,iran,persia-and-parthia
-elymais,Elymais,people,aram,yes,iran,persia-and-parthia
-atropatene,Media Atropatene,people,wiran,yes,iran,persia-and-parthia
-hyrcanians,Hyrcanians,people,wiran,yes,iran,persia-and-parthia
-indo-parthians,Indo-Parthians,people,wiran,no,iran+afghanistan+indus,persia-and-parthia
-tabaristan-princes,Princes of Tabaristan,people,wiran,no,iran,iranian-dynasties
-tahirids,Tahirids,people,pers,no,iran+afghanistan+turan,iranian-dynasties
-saffarids,Saffarids,people,pers,no,iran+afghanistan,iranian-dynasties
-samanids,Samanids,people,pers,no,turan+afghanistan+iran,iranian-dynasties
-buyids,Buyids,people,wiran,no,iran+mesopotamia,iranian-dynasties
-ghaznavids-ghazna,Ghaznavids,people,turk,no,afghanistan+iran+turan+indus,iranian-dynasties
-ghurids-ghor,Ghurids,people,eiran,yes,afghanistan+iran+indus,iranian-dynasties
-aq-qoyunlu-iran,Aq Qoyunlu,people,oghuz,no,iran,iranian-dynasties
-afsharids,Afsharids,people,oghuz,no,iran+afghanistan,iranian-dynasties
-zands,Zands,people,wiran,no,iran,iranian-dynasties
-kurds-iran,Kurds,people,wiran,no,iran,iran-rim-peoples
-lurs,Lurs and Bakhtiari,people,pers,no,iran,iran-rim-peoples
-daylamites,Daylamites,people,wiran,no,iran,iran-rim-peoples
-gilaks-and-mazandaranis,Gilaks and Mazandaranis,people,wiran,no,iran,iran-rim-peoples
-baloch-iran,Baloch,people,wiran,no,iran+afghanistan,iran-rim-peoples
-pashtuns-afghanistan,Pashtuns,people,eiran,no,afghanistan,iran-rim-peoples
-hotaks,Hotak Ghilzai,people,eiran,no,afghanistan+iran,iran-rim-peoples
-hazaras,Hazaras,people,pers,no,afghanistan,iran-rim-peoples
-qashqai,Qashqai,people,oghuz,no,iran,iran-rim-peoples
-khuzestan-arabs,Arabs of Khuzestan,people,arab,no,iran,iran-rim-peoples
-azeris-iran,Azeris,people,oghuz,no,iran,iran-rim-peoples
-arabs-of-khurasan,Arabs of Khurasan,people,arab,no,iran+turan+afghanistan,
-sogdians,Sogdians,people,eiran,no,turan,sogd-and-khwarezm
-chach,Chach,people,eiran,yes,turan,sogd-and-khwarezm
-fergana,Fergana,people,eiran,yes,turan,sogd-and-khwarezm
-khwarezmians,Khwarezmians,people,eiran,no,turan,sogd-and-khwarezm
-sogdian-colonies,Sogdian colonies,people,eiran,no,turan+steppe,sogd-and-khwarezm
-yuezhi-bactria,Yuezhi,people,steppeunk,yes,afghanistan+turan,bactria-and-kabul
-kushans,Kushans,people,eiran,no,afghanistan+turan+indus+hindustan,bactria-and-kabul
-bactrians,Bactrians,people,eiran,no,afghanistan+turan,bactria-and-kabul
-turk-shahis,Turk Shahis,people,turk,yes,afghanistan+indus,bactria-and-kabul
-zunbils,Zunbils,people,eiran,yes,afghanistan,bactria-and-kabul
-tajiks,Tajiks,people,pers,no,turan+afghanistan,tajiks-and-pamiris
-pamiris,Pamiris,people,eiran,no,turan+afghanistan,tajiks-and-pamiris
-badakhshan,Badakhshan,people,pers,no,afghanistan+turan,tajiks-and-pamiris
-sakastan,Sakas of Sistan,people,eiran,no,iran+afghanistan,saka-peoples
-kangju,Kangju,people,eiran,yes,steppe+turan,saka-peoples
-wusun-semirechye,Wusun,people,steppeunk,yes,steppe+turan,saka-peoples
-dahae,Dahae,people,eiran,yes,turan,saka-peoples
-aorsi,Aorsi,people,iran,yes,steppe+east,saka-peoples
-saka-tian-shan,Saka of the Tian Shan,people,eiran,yes,steppe+turan,saka-peoples
-kidarites,Kidarites,people,steppeunk,yes,afghanistan+turan+indus,eastern-huns
-hephthalites,Hephthalites,people,steppeunk,yes,afghanistan+turan,eastern-huns
-nezaks,Nezak Huns,people,steppeunk,yes,afghanistan,eastern-huns
-sabirs,Sabirs,people,turk,yes,steppe+wsiberia,turkic-khaganates
-western-turks,Western Turks,people,turk,no,steppe+turan+afghanistan,turkic-khaganates
-karluks-west,Karluks,people,turk,no,steppe+turan,turkic-khaganates
-oghuz-yabgu,Oghuz,people,oghuz,no,steppe+turan,turkic-khaganates
-kimeks,Kimeks,people,kipch,no,steppe+wsiberia,turkic-khaganates
-kipchaks-east,Kipchaks,people,kipch,no,steppe+east,turkic-khaganates
-khazars-volga,Khazars,people,turk,no,east,turkic-khaganates
-kara-khanids-west,Kara-Khanids,people,karluk,no,turan+steppe,turkic-khaganates
-kara-khitai-west,Kara-Khitai,people,xianbei,no,turan+steppe,turkic-khaganates
-kyrgyz-yenisei,Yenisei Kyrgyz,people,sibturk,no,wsiberia,turkic-khaganates
-ilkhanate,Ilkhanate,people,mong,no,iran+afghanistan,mongol-successors
-chagatai-khanate,Chagatai Khanate,people,mong,no,turan+steppe+afghanistan,mongol-successors
-moghulistan,Moghulistan,people,karluk,no,steppe+turan,mongol-successors
-ulus-of-orda,Ulus of Orda,people,kipch,no,steppe+wsiberia,mongol-successors
-uzbek-ulus,Uzbek ulus,people,kipch,no,steppe+wsiberia,mongol-successors
-nogai-horde,Nogai Horde,people,kipch,no,east+steppe,mongol-successors
-kazan-khanate,Khanate of Kazan,people,kipch,no,east,mongol-successors
-sibir-khanate,Khanate of Sibir,people,kipch,no,wsiberia,mongol-successors
-kazakh-khanate,Kazakh Khanate,people,kipch,no,steppe,hordes-and-khanates
-kazakh-zhuzes,Kazakh zhuzes,people,kipch,no,steppe,hordes-and-khanates
-kazakhs,Kazakhs,people,kipch,no,steppe,hordes-and-khanates
-khanate-of-bukhara,Bukhara,people,karluk,no,turan+afghanistan,hordes-and-khanates
-khanate-of-khiva,Khiva,people,karluk,no,turan,hordes-and-khanates
-khanate-of-kokand,Kokand,people,karluk,no,turan+steppe,hordes-and-khanates
-uzbeks,Uzbeks,people,karluk,no,turan+afghanistan,hordes-and-khanates
-karakalpaks,Karakalpaks,people,kipch,no,turan+steppe,hordes-and-khanates
-kyrgyz-tian-shan,Kyrgyz,people,kipch,no,turan,hordes-and-khanates
-turkmens,Turkmens,people,oghuz,no,turan+iran+afghanistan,hordes-and-khanates
-dzungars-west,Dzungars,people,mong,no,steppe,hordes-and-khanates
-kalmyks,Kalmyks,people,mong,no,east+steppe,hordes-and-khanates
-gorodets-culture,Gorodets culture,people,volga,yes,east,volga-and-kama
-kama-cultures,Kama cultures,people,volga,yes,east,volga-and-kama
-mordvins,Mordvins,people,volga,no,east,volga-and-kama
-mari,Mari,people,volga,no,east,volga-and-kama
-udmurts,Udmurts,people,volga,no,east,volga-and-kama
-komi,Komi,people,volga,no,east,volga-and-kama
-magna-hungaria,Eastern Magyars,people,ugric,no,east,volga-and-kama
-volga-bulgars,Volga Bulgars,people,turk,no,east,volga-and-kama
-chuvash,Chuvash,people,turk,no,east,volga-and-kama
-bashkirs,Bashkirs,people,kipch,no,east+wsiberia,volga-and-kama
-volga-tatars,Volga Tatars,people,kipch,no,east,volga-and-kama
-sargat-culture,Sargat culture,people,ugric,yes,wsiberia+steppe,west-siberians
-kulay-culture,Kulay culture,people,samoyed,yes,wsiberia,west-siberians
-khanty,Khanty,people,samoyed,no,wsiberia,west-siberians
-mansi,Mansi,people,samoyed,no,east+wsiberia,west-siberians
-nenets,Nenets,people,samoyed,no,east+wsiberia,west-siberians
-selkups,Selkups,people,samoyed,no,wsiberia,west-siberians
-kets,Ket,people,paleosib,no,wsiberia,west-siberians
-siberian-tatars,Siberian Tatars,people,kipch,no,wsiberia,west-siberians
-altaians,Altaians,people,sibturk,no,wsiberia,west-siberians
-khakas,Khakas,people,sibturk,no,wsiberia,west-siberians
-tuvans,Tuvans,people,sibturk,no,wsiberia,west-siberians
-parthian-empire,Parthian Empire,polity,wiran,no,iran+mesopotamia+afghanistan+turan,
-sasanian-empire,Sasanian Empire,polity,pers,no,iran+mesopotamia+afghanistan+turan,
-great-seljuks,Great Seljuk Empire,polity,oghuz,no,iran+afghanistan+turan+mesopotamia,
-khwarazmian-empire,Khwarazmian Empire,polity,,no,turan+iran+afghanistan,
-timurid-empire,Timurid Empire,polity,karluk,no,turan+iran+afghanistan+mesopotamia,
-safavid-iran,Safavid Iran,polity,,no,iran+afghanistan+mesopotamia,
-qajar-iran,Qajar Iran,polity,,no,iran,
-iran,Iran,polity,,no,iran,
-durrani-afghanistan,Durrani Empire,polity,eiran,no,afghanistan+iran+indus,
-afghanistan,Afghanistan,polity,,no,afghanistan,
-russian-siberia,Siberia (Russia),polity,,no,wsiberia,
-russian-turkestan,Russian Turkestan,polity,,no,turan+steppe,
-kazakh-ssr,Kazakh SSR,polity,,no,steppe,
-uzbek-ssr,Uzbek SSR,polity,,no,turan,
-turkmen-ssr,Turkmen SSR,polity,,no,turan,
-tajik-ssr,Tajik SSR,polity,,no,turan,
-kirghiz-ssr,Kirghiz SSR,polity,,no,turan,
-kazakhstan,Kazakhstan,polity,,no,steppe,
-uzbekistan,Uzbekistan,polity,,no,turan,
-turkmenistan,Turkmenistan,polity,,no,turan,
-tajikistan,Tajikistan,polity,,no,turan,
-kyrgyzstan,Kyrgyzstan,polity,,no,turan,
-western-desert-languages,Western Desert languages,language,pama,no,australia,
-arandic-languages,Arandic languages,language,pama,no,australia,
-ngumpin-yapa-languages,Ngumpin-Yapa languages,language,pama,no,australia,
-yolngu-matha,Yolŋu Matha,language,pama,no,australia,
-pilbara-languages,Pilbara and Gascoyne languages,language,pama,no,australia,
-southwest-languages,Noongar and south-west languages,language,pama,no,australia,
-thura-yura-languages,Thura-Yura languages,language,pama,no,australia,
-southeast-languages,Languages of the south-east,language,pama,no,australia,
-karnic-languages,Karnic languages,language,pama,no,australia,
-queensland-languages,Queensland languages,language,pama,no,australia,
-paman-languages,Cape York languages,language,pama,no,australia,
-kala-lagaw-ya,Kala Lagaw Ya,language,pama,no,australia,
-meriam-mir,Meriam Mir,language,papother,no,australia,
-arnhem-languages,Arnhem Land languages,language,ausnp,no,australia,
-daly-languages,Daly and Darwin languages,language,ausnp,no,australia,
-tiwi-language,Tiwi,language,ausnp,no,australia,
-nyulnyulan-languages,Nyulnyulan languages,language,ausnp,no,australia,
-kimberley-languages,Kimberley languages,language,ausnp,no,australia,
-mirndi-gulf-languages,Barkly and Gulf languages,language,ausnp,no,australia,
-tasmanian-languages,Tasmanian languages,language,tasm,no,australia,
-english-australia,English,language,eng,no,australia,
-kriol,Kriol,language,eng,no,australia,
-tng-west-highlands,Western highlands languages,language,tng,no,papua,
-tng-east-highlands,Eastern highlands languages,language,tng,no,papua,
-tng-south-lowlands,"Asmat, Awyu and Ok languages",language,tng,no,papua,
-tng-papuan-peninsula,Papuan peninsula languages,language,tng,no,papua,
-sepik-ramu-languages,Sepik and Ramu languages,language,papother,no,papua,
-north-papuan-languages,North New Guinea languages,language,papother,no,papua,
-birds-head-languages,Bird's Head languages,language,papother,no,papua,
-south-papuan-languages,Southern New Guinea languages,language,papother,no,papua,
-cenderawasih-languages,Cenderawasih Bay languages,language,oceanic,no,papua,
-aru-kei-languages,"Aru, Kei and Tanimbar languages",language,malayic,no,papua,
-oceanic-bismarck,Oceanic languages of the Bismarcks,language,oceanic,no,papua,
-island-papuan-languages,Papuan languages of the islands,language,papother,no,papua,
-oceanic-papuan-tip,Oceanic languages of the south-east,language,oceanic,no,papua,
-oceanic-north-coast,Oceanic languages of the north coast,language,oceanic,no,papua,
-malay-newguinea,Malay and Indonesian,language,malayic,no,papua,
-tok-pisin,Tok Pisin,language,eng,no,papua,
-eora,Eora,people,pama,yes,australia,aus-southeast
-wiradjuri,Wiradjuri,people,pama,yes,australia,aus-southeast
-kamilaroi,Kamilaroi,people,pama,yes,australia,aus-southeast
-kulin,Kulin,people,pama,yes,australia,aus-southeast
-gunditjmara,Gunditjmara,people,pama,yes,australia,aus-southeast
-yorta-yorta,Yorta Yorta,people,pama,yes,australia,aus-southeast
-bundjalung,Bundjalung,people,pama,yes,australia,aus-southeast
-ngarrindjeri,Ngarrindjeri,people,pama,yes,australia,aus-southeast
-kaurna,Kaurna,people,pama,yes,australia,aus-southeast
-barkindji,Barkindji,people,pama,yes,australia,aus-southeast
-noongar,Noongar,people,pama,yes,australia,aus-west
-yamatji,Yamatji,people,pama,yes,australia,aus-west
-yindjibarndi,Yindjibarndi,people,pama,yes,australia,aus-west
-pitjantjatjara,Pitjantjatjara,people,pama,yes,australia,aus-desert
-martu,Martu,people,pama,yes,australia,aus-desert
-arrernte,Arrernte,people,pama,yes,australia,aus-desert
-warlpiri,Warlpiri,people,pama,yes,australia,aus-desert
-diyari,Diyari,people,pama,yes,australia,aus-desert
-yolngu,Yolŋu,people,pama,yes,australia,aus-north
-bininj,Bininj,people,ausnp,yes,australia,aus-north
-tiwi,Tiwi,people,ausnp,yes,australia,aus-north
-larrakia,Larrakia,people,ausnp,yes,australia,aus-north
-gurindji,Gurindji,people,pama,yes,australia,aus-north
-yawuru,Yawuru,people,ausnp,yes,australia,aus-north
-bunuba,Bunuba,people,ausnp,yes,australia,aus-north
-kuku-yalanji,Kuku Yalanji,people,pama,yes,australia,aus-queensland
-guugu-yimithirr,Guugu Yimithirr,people,pama,yes,australia,aus-queensland
-wik,Wik,people,pama,yes,australia,aus-queensland
-kalkadoon,Kalkadoon,people,pama,yes,australia,aus-queensland
-yuggera,Yuggera,people,pama,yes,australia,aus-queensland
-bidjara,Bidjara,people,pama,yes,australia,aus-queensland
-palawa,Palawa,people,tasm,no,australia,aus-tasmania
-cape-barren-islanders,Bass Strait Islanders,people,tasm,yes,australia,aus-tasmania
-maluilgal,Maluilgal,people,pama,yes,australia,torres-strait
-meriam,Meriam,people,papother,yes,australia,torres-strait
-enga,Enga,people,tng,yes,papua,ng-highlands
-huli,Huli,people,tng,yes,papua,ng-highlands
-melpa,Melpa,people,tng,yes,papua,ng-highlands
-chimbu,Chimbu,people,tng,yes,papua,ng-highlands
-dani,Dani,people,tng,yes,papua,ng-highlands
-mee,Mee,people,tng,yes,papua,ng-highlands
-iatmul,Iatmul,people,papother,yes,papua,ng-sepik-north
-abelam,Abelam,people,papother,yes,papua,ng-sepik-north
-biak,Biak,people,oceanic,yes,papua,ng-sepik-north
-arfak-peoples,Arfak peoples,people,papother,yes,papua,ng-sepik-north
-asmat,Asmat,people,tng,yes,papua,ng-papuan-coasts
-marind,Marind,people,papother,yes,papua,ng-papuan-coasts
-kiwai,Kiwai,people,papother,yes,papua,ng-papuan-coasts
-motu,Motu,people,oceanic,yes,papua,ng-papuan-coasts
-mekeo,Mekeo,people,oceanic,yes,papua,ng-papuan-coasts
-orokaiva,Orokaiva,people,tng,yes,papua,ng-papuan-coasts
-post-lapita-bismarcks,Post-Lapita societies,people,oceanic,yes,papua,ng-islands
-tolai,Tolai,people,oceanic,yes,papua,ng-islands
-trobriand-islanders,Trobriand Islanders,people,oceanic,yes,papua,ng-islands
-manus-islanders,Manus Islanders,people,oceanic,yes,papua,ng-islands
-nasioi,Nasioi,people,papother,yes,papua,ng-islands
-makassan-trepangers,Makassan trepangers,people,malayic,no,australia,
-tidore-papuan-coast,Tidore's Papuan coast,polity,,no,papua,
-new-south-wales-colony,New South Wales,polity,eng,no,australia,
-van-diemens-land,Van Diemen's Land,polity,eng,no,australia,
-western-australia-colony,Western Australia,polity,eng,no,australia,
-south-australia-colony,South Australia,polity,eng,no,australia,
-victoria-colony,Victoria,polity,eng,no,australia,
-queensland-colony,Queensland,polity,eng,no,australia,
-commonwealth-of-australia,Australia,polity,eng,no,australia,
-dutch-new-guinea,Dutch New Guinea,polity,wgerm,no,papua,
-german-new-guinea,German New Guinea,polity,wgerm,no,papua,
-british-new-guinea,British New Guinea,polity,eng,no,papua,
-territory-of-papua,Territory of Papua,polity,eng,no,papua,
-territory-of-new-guinea,Territory of New Guinea,polity,eng,no,papua,
-papua-and-new-guinea,Papua and New Guinea,polity,eng,no,papua,
-papua-new-guinea,Papua New Guinea,polity,eng,no,papua,
-indonesian-papua,Papua (Indonesia),polity,malayic,no,papua,
-gandhari-prakrit,Gandhari,language,dard,no,indus,
-kashmiri-dardic-speakers,Kashmiri and Dardic,language,dard,no,indus+hindustan,
-burushaski-speakers,Burushaski,language,isolate,no,indus,
-tibetic-speakers-himalaya,Ladakhi and Balti,language,tibetic,no,indus+hindustan,
-pashto-speakers-indus,Pashto,language,eiran,no,indus,
-brahui-speakers,Brahui,language,dravn,no,indus,
-balochi-speakers-indus,Balochi,language,wiran,no,indus,
-sindhi-speakers,Sindhi,language,indw,no,indus,
-urdu-speakers-karachi,Urdu,language,indn,no,indus,
-central-prakrits,Central Prakrits,language,indn,no,indus+hindustan,
-hindi-speakers,Hindi and its dialects,language,indn,no,hindustan,
-rajasthani-speakers,Rajasthani,language,indn,no,hindustan,
-punjabi-speakers,Punjabi,language,indn,no,indus+hindustan,
-pahari-speakers,Pahari languages,language,indn,no,hindustan,
-nepali-speakers,Nepali,language,indn,no,hindustan+bengal,
-himalayan-tb-speakers,Himalayan languages,language,tbother,no,hindustan+bengal,
-gujarati-speakers,Gujarati,language,indw,no,hindustan+deccan,
-bhili-speakers,Bhili,language,indw,no,hindustan+deccan,
-maharashtri-prakrit,Maharashtri Prakrit,language,indw,no,deccan+hindustan,
-marathi-speakers,Marathi and Konkani,language,indw,no,deccan+hindustan,
-chhattisgarhi-speakers,Chhattisgarhi,language,indn,no,hindustan+deccan,
-gondi-speakers,"Gondi, Kui and Kurukh",language,dravn,no,hindustan+deccan,
-munda-speakers,Munda languages,language,munda,no,hindustan+deccan,
-magadhi-prakrit,Eastern Prakrits,language,inde,no,hindustan+bengal+deccan,
-bihari-speakers,"Bhojpuri, Maithili, Magahi",language,inde,no,hindustan,
-bengali-speakers,Bengali,language,inde,no,hindustan+bengal,
-odia-speakers,Odia,language,inde,no,hindustan+deccan,
-assamese-speakers,Assamese,language,inde,no,bengal,
-bodo-garo-speakers,Bodo and Garo,language,tbother,no,bengal,
-tai-ahom-speakers,Tai Ahom,language,tai,no,bengal,
-khasi-speakers,Khasi,language,aaother,no,bengal,
-naga-kuki-speakers,"Naga, Meitei and Kuki-Chin",language,tbother,no,bengal,
-arunachal-speakers,Tani and Mishmi,language,tbother,no,bengal,
-kannada-speakers,Kannada,language,telkan,no,deccan,
-tulu-speakers,Tulu,language,telkan,no,deccan,
-telugu-speakers,Telugu,language,telkan,no,deccan,
-tamil-speakers,Tamil,language,tamil,no,deccan,
-malayalam-speakers,Malayalam,language,tamil,no,deccan,
-sinhala-speakers,Sinhala,language,sinh,no,lanka,
-tamil-speakers-lanka,Tamil of Sri Lanka,language,tamil,no,lanka,
-vedda-speakers,Vedda,language,isolate,no,lanka,
-dhivehi-speakers,Dhivehi,language,sinh,no,lanka,
-indo-scythians,Indo-Scythians,people,eiran,yes,indus+hindustan,indus-punjab
-yaudheyas,Yaudheyas,people,indn,no,indus+hindustan,indus-punjab
-sindh-rai-chach,Kingdom of Sindh,people,indw,yes,indus,indus-punjab
-arab-sindh,Arab Sindh,people,arab,no,indus,indus-punjab
-hindu-shahis,Hindu Shahis,people,indn,yes,indus,indus-punjab
-sindh-soomra-samma,Soomras and Sammas,people,indw,no,indus,indus-punjab
-sindh-kalhora-talpur,Kalhoras and Talpurs,people,indw,no,indus,indus-punjab
-jats,Jats,people,indn,no,indus+hindustan,indus-punjab
-baloch-east,Baloch,people,wiran,no,indus,indus-punjab
-brahuis,Brahui,people,dravn,no,indus,indus-punjab
-kalat-khanate,Khanate of Kalat,people,dravn,no,indus,indus-punjab
-sikhs,Sikhs,people,indn,no,indus+hindustan,indus-punjab
-sikh-empire,Sikh Empire,people,indn,no,indus+hindustan,indus-punjab
-punjabis,Punjabis,people,indn,no,indus+hindustan,indus-punjab
-western-kshatrapas,Western Kshatrapas,people,eiran,yes,hindustan+deccan,rajput-west
-malavas,Malavas,people,indn,no,hindustan,rajput-west
-aulikaras,Aulikaras,people,indn,no,hindustan,rajput-west
-maitrakas,Maitrakas,people,indw,yes,hindustan+deccan,rajput-west
-gurjara-pratiharas,Gurjara-Pratiharas,people,indn,no,hindustan+indus,rajput-west
-chahamanas,Chauhans,people,indn,no,hindustan,rajput-west
-paramaras,Paramaras,people,indn,no,hindustan,rajput-west
-chandelas,Chandelas,people,indn,no,hindustan,rajput-west
-kalachuris-tripuri,Kalachuris,people,indn,no,hindustan+deccan,rajput-west
-solankis,Solankis,people,indw,no,hindustan+deccan,rajput-west
-mewar,Mewar,people,indn,no,hindustan,rajput-west
-marwar,Marwar,people,indn,no,hindustan,rajput-west
-amber-jaipur,Amber and Jaipur,people,indn,no,hindustan,rajput-west
-gujaratis,Gujaratis,people,indw,no,hindustan+deccan,rajput-west
-panchala-kings,Panchala,people,indn,no,hindustan,ganges-kingdoms
-kaushambi-kings,Kaushambi,people,indn,no,hindustan,ganges-kingdoms
-nagas-padmavati,Nagas of Padmavati,people,indn,no,hindustan,ganges-kingdoms
-guptas,Gupta Empire,people,indn,no,india,ganges-kingdoms
-maukharis,Maukharis,people,indn,no,hindustan,ganges-kingdoms
-pushyabhutis,Harsha's empire,people,indn,no,hindustan+indus+bengal,ganges-kingdoms
-gahadavalas,Gahadavalas,people,indn,no,hindustan,ganges-kingdoms
-kalinga-kingdom,Kalinga,people,inde,yes,deccan+hindustan,eastern-kingdoms
-samatata,Samatata and Vanga,people,inde,yes,bengal,eastern-kingdoms
-gauda,Gauda,people,inde,no,bengal+hindustan,eastern-kingdoms
-kamarupa,Kamarupa,people,inde,yes,bengal,eastern-kingdoms
-palas,Palas,people,inde,no,bengal+hindustan,eastern-kingdoms
-senas,Senas,people,inde,no,bengal+hindustan,eastern-kingdoms
-somavamshis,Somavamshis,people,inde,no,deccan+hindustan,eastern-kingdoms
-eastern-gangas,Eastern Gangas,people,inde,no,deccan+hindustan,eastern-kingdoms
-gajapatis,Gajapatis,people,inde,no,deccan+hindustan,eastern-kingdoms
-ahoms,Ahom kingdom,people,tai,no,bengal,eastern-kingdoms
-koch-kingdom,Koch kingdom,people,tbother,yes,bengal,eastern-kingdoms
-bengal-nawabs,Nawabs of Bengal,people,pers,no,bengal+hindustan,mughal-successors
-bengalis,Bengalis,people,inde,no,bengal+hindustan,eastern-kingdoms
-odias,Odias,people,inde,no,deccan+hindustan,eastern-kingdoms
-assamese-people,Assamese,people,inde,no,bengal,eastern-kingdoms
-kunindas,Kunindas,people,indn,yes,hindustan,himalayan-kingdoms
-kiratas,Kiratas,people,tbother,yes,hindustan,himalayan-kingdoms
-licchavis-nepal,Licchavis of Nepal,people,indn,yes,hindustan,himalayan-kingdoms
-patola-shahis,Patola Shahis,people,isolate,yes,indus,himalayan-kingdoms
-kashmir-kingdom,Kashmir,people,dard,no,hindustan+indus,himalayan-kingdoms
-kumaon-garhwal,Kumaon and Garhwal,people,indn,no,hindustan,himalayan-kingdoms
-ladakh-kingdom,Ladakh,people,tibetic,no,hindustan+indus,himalayan-kingdoms
-khasa-kingdom,Khasa kingdom,people,indn,no,hindustan,himalayan-kingdoms
-mallas-nepal,Malla kingdoms,people,tbother,no,hindustan,himalayan-kingdoms
-gorkha,Gorkha,people,indn,no,hindustan,himalayan-kingdoms
-sikkim-kingdom,Sikkim,people,tibetic,no,bengal,himalayan-kingdoms
-kashmiris,Kashmiris,people,dard,no,hindustan+indus,himalayan-kingdoms
-bengal-sultanate,Bengal Sultanate,people,pers,no,bengal+hindustan,north-sultanates
-kashmir-sultanate,Kashmir Sultanate,people,pers,no,hindustan+indus,north-sultanates
-jaunpur-sultanate,Jaunpur Sultanate,people,pers,no,hindustan,north-sultanates
-malwa-sultanate,Malwa Sultanate,people,pers,no,hindustan,north-sultanates
-gujarat-sultanate,Gujarat Sultanate,people,pers,no,hindustan+deccan,north-sultanates
-awadh,Awadh,people,pers,no,hindustan,mughal-successors
-rohillas,Rohilkhand,people,eiran,no,hindustan,mughal-successors
-hyderabad-nizam,Hyderabad,people,pers,no,deccan+hindustan,mughal-successors
-carnatic-nawabs,Nawabs of the Carnatic,people,pers,no,deccan,mughal-successors
-satavahanas,Satavahanas,people,indw,no,deccan+hindustan,deccan-kingdoms
-ikshvakus,Andhra Ikshvakus,people,telkan,yes,deccan,deccan-kingdoms
-vakatakas,Vakatakas,people,indw,yes,deccan+hindustan,deccan-kingdoms
-kadambas,Kadambas,people,telkan,no,deccan,deccan-kingdoms
-western-gangas,Western Gangas,people,telkan,no,deccan,deccan-kingdoms
-vishnukundins,Vishnukundins,people,telkan,yes,deccan,deccan-kingdoms
-chalukyas-badami,Chalukyas of Badami,people,telkan,no,deccan+hindustan,deccan-kingdoms
-eastern-chalukyas,Chalukyas of Vengi,people,telkan,no,deccan,deccan-kingdoms
-rashtrakutas,Rashtrakutas,people,telkan,no,deccan+hindustan,deccan-kingdoms
-western-chalukyas,Chalukyas of Kalyani,people,telkan,no,deccan+hindustan,deccan-kingdoms
-hoysalas,Hoysalas,people,telkan,no,deccan,deccan-kingdoms
-kakatiyas,Kakatiyas,people,telkan,no,deccan,deccan-kingdoms
-yadavas,Yadavas of Devagiri,people,indw,no,deccan+hindustan,deccan-kingdoms
-vijayanagara,Vijayanagara,people,telkan,no,deccan,deccan-kingdoms
-mysore,Mysore,people,telkan,no,deccan,deccan-kingdoms
-marathas,Marathas,people,indw,no,india,deccan-kingdoms
-kannadigas,Kannadigas,people,telkan,no,deccan,deccan-kingdoms
-telugus,Telugus,people,telkan,no,deccan,deccan-kingdoms
-bahmanis,Bahmani Sultanate,people,pers,no,deccan+hindustan,deccan-sultanates
-ahmadnagar,Ahmadnagar,people,pers,no,deccan,deccan-sultanates
-bijapur,Bijapur,people,pers,no,deccan,deccan-sultanates
-golconda,Golconda,people,pers,no,deccan,deccan-sultanates
-madurai-sultanate,Madurai Sultanate,people,pers,no,deccan,deccan-sultanates
-cheras,Cheras,people,tamil,no,deccan,tamil-kingdoms
-cholas,Cholas,people,tamil,no,deccan+lanka,tamil-kingdoms
-pandyas,Pandyas,people,tamil,no,deccan,tamil-kingdoms
-ays,Ay kingdom,people,tamil,no,deccan,tamil-kingdoms
-kalabhras,Kalabhras,people,tamil,yes,deccan,tamil-kingdoms
-pallavas,Pallavas,people,tamil,no,deccan,tamil-kingdoms
-venad-travancore,Venad and Travancore,people,tamil,no,deccan,tamil-kingdoms
-zamorins,Calicut,people,tamil,no,deccan,tamil-kingdoms
-madurai-nayaks,Nayaks of Madurai,people,telkan,no,deccan,tamil-kingdoms
-tamils,Tamils,people,tamil,no,deccan,tamil-kingdoms
-malayalis,Malayalis,people,tamil,no,deccan,tamil-kingdoms
-anuradhapura,Anuradhapura,people,sinh,no,lanka,lanka-kingdoms
-ruhuna,Ruhuna,people,sinh,no,lanka,lanka-kingdoms
-polonnaruwa,Polonnaruwa,people,sinh,no,lanka,lanka-kingdoms
-dambadeniya-gampola,Dambadeniya and Gampola,people,sinh,no,lanka,lanka-kingdoms
-jaffna-kingdom,Jaffna kingdom,people,tamil,no,lanka,lanka-kingdoms
-kotte,Kotte,people,sinh,no,lanka,lanka-kingdoms
-kandy,Kandy,people,sinh,no,lanka,lanka-kingdoms
-veddas,Veddas,people,isolate,yes,lanka,lanka-kingdoms
-maldives-sultanate,Maldive Sultanate,people,sinh,no,lanka,lanka-kingdoms
-sinhalese,Sinhalese,people,sinh,no,lanka,lanka-kingdoms
-sri-lankan-tamils,Sri Lankan Tamils,people,tamil,no,lanka,lanka-kingdoms
-gonds,Gonds,people,dravn,no,hindustan+deccan,central-hill-peoples
-gond-kingdoms,Gond kingdoms,people,dravn,no,hindustan+deccan,central-hill-peoples
-bhils,Bhils,people,indw,yes,hindustan+deccan,central-hill-peoples
-mundas,Munda and Ho,people,munda,no,hindustan+deccan,central-hill-peoples
-santals,Santals,people,munda,no,hindustan+bengal,central-hill-peoples
-oraons,Kurukh,people,dravn,no,hindustan,central-hill-peoples
-kondhs,Kondh,people,dravn,no,deccan+hindustan,central-hill-peoples
-soras,Sora,people,munda,no,deccan,central-hill-peoples
-nagas,Nagas,people,tbother,no,bengal,northeast-hills
-khasis,Khasi and Jaintia,people,aaother,no,bengal,northeast-hills
-dimasa-kingdom,Dimasa kingdom,people,tbother,no,bengal,northeast-hills
-manipur,Manipur,people,tbother,no,bengal,northeast-hills
-tripura-kingdom,Tripura,people,tbother,no,bengal,northeast-hills
-mizos,Mizo and Kuki,people,tbother,no,bengal,northeast-hills
-tani-peoples,"Adi, Nyishi, Apatani",people,tbother,no,bengal,northeast-hills
-delhi-sultanate,Delhi Sultanate,polity,pers,no,india,
-mughal-empire,Mughal Empire,polity,pers,no,india,
-portuguese-india,Portuguese India,polity,ibrom,no,deccan+hindustan,
-colonial-ceylon,Ceylon,polity,,no,lanka,
-east-india-company,East India Company,polity,eng,no,india,
-british-raj,British India,polity,eng,no,india,
-jammu-and-kashmir,Jammu and Kashmir,polity,,no,hindustan+indus,
-nepal,Nepal,polity,indn,no,hindustan,
-india,India,polity,,no,india,
-pakistan,Pakistan,polity,,no,indus+bengal,
-bangladesh,Bangladesh,polity,inde,no,bengal,
-sri-lanka,Sri Lanka,polity,,no,lanka,
-maldives,Maldives,polity,sinh,no,lanka,
-chinese-speakers,Chinese,language,sinitic,no,chinan+chinas+mongolia+tarim,
-chinese-northeast,Chinese (north-east),language,sinitic,no,manchuria,
-yue-languages,Yue languages,language,tai,yes,chinas,
-zhuang-tai-speakers,Zhuang and Tai,language,tai,no,chinas,
-hmong-mien-speakers,Hmong-Mien,language,hmong,no,chinas,
-yi-bai-speakers,Yi and Bai,language,burm,no,chinas+tibet,
-wa-palaung-yunnan,Wa and Palaungic,language,aaother,no,chinas,
-tujia-speakers,Tujia,language,tbother,no,chinas,
-qiangic-speakers,Qiang and Qiangic,language,tbother,no,tibet+tarim+chinan+chinas,
-tangut-speakers,Tangut,language,tbother,no,chinan+mongolia+tarim,
-tibetan-speakers,Tibetan,language,tibetic,no,tibet+tarim+chinan+chinas,
-zhangzhung-speakers,Zhangzhung,language,tbother,no,tibet,
-tocharian-speakers,Tocharian,language,toch,no,tarim,
-saka-speakers-tarim,Saka (Khotanese),language,eiran,no,tarim+tibet,
-uyghur-speakers,Uyghur,language,karluk,no,tarim,
-wusun-language,Wusun (language unknown),language,iran,yes,tarim,
-xiongnu-language,Xiongnu (language unknown),language,steppeunk,no,mongolia+tarim+esiberia,
-xianbei-speakers,Xianbei and Khitan,language,xianbei,no,mongolia+tarim+esiberia+manchuria,
-rouran-language,Rouran (language unknown),language,steppeunk,no,mongolia+tarim+esiberia,
-old-turkic-east,Old Turkic,language,turk,no,mongolia+tarim+esiberia,
-mongolic-speakers,Mongolian,language,mong,no,mongolia+tarim+esiberia+manchuria,
-kazakh-speakers-china,Kazakh,language,kipch,no,tarim,
-tungusic-manchuria,Tungusic (Jurchen and Manchu),language,tung,no,manchuria+esiberia,
-puyo-languages,Buyeo and Goguryeo,language,kor,yes,manchuria+korea,
-korean-speakers,Korean,language,kor,no,korea,
-jurchen-korea,Jurchen (north-east Korea),language,tung,no,korea,
-peninsular-japonic,Peninsular Japonic,language,jap,yes,korea,
-japanese-speakers,Japanese,language,jap,no,japan,
-japanese-karafuto,Japanese (Karafuto),language,jap,no,esiberia,
-ainu-speakers,Ainu,language,ainu,no,japan+esiberia,
-ryukyu-early,Early Ryukyu languages (unknown),language,isolate,yes,japan,
-ryukyuan-speakers,Ryukyuan,language,jap,no,japan,
-evenki-even-speakers,Evenki and Even,language,tung,no,esiberia,
-yukaghir-speakers,Yukaghir,language,paleosib,no,esiberia,
-chukchi-koryak-speakers,"Chukchi, Koryak and Itelmen",language,paleosib,no,esiberia,
-yupik-chukotka,Siberian Yupik,language,inuit,no,esiberia,
-nivkh-speakers,Nivkh,language,paleosib,no,esiberia,
-yakut-speakers,Yakut (Sakha),language,sibturk,no,esiberia,
-buryat-speakers,Buryat,language,mong,no,esiberia,
-nganasan-east,Nganasan (Samoyedic),language,samoyed,no,esiberia,
-russian-far-east,Russian (Far East),language,slave,no,esiberia,
-zhongyuan-chinese,Central Plain Chinese,people,sinitic,no,chinan,han-chinese
-jiangnan-chinese,Jiangnan Chinese,people,sinitic,no,chinan+chinas,han-chinese
-shu-chinese,Sichuan Chinese,people,sinitic,no,chinas,han-chinese
-xiang-gan-chinese,Xiang and Gan Chinese,people,sinitic,no,chinas,han-chinese
-min-chinese,Min Chinese,people,sinitic,no,chinas,han-chinese
-cantonese,Cantonese,people,sinitic,no,chinas,han-chinese
-han-dynasty,Han Empire,polity,sinitic,no,china+tarim+korea+manchuria+mongolia,
-cao-wei,Wei,people,sinitic,no,chinan+chinas+manchuria,three-kingdoms
-shu-han,Shu Han,people,sinitic,no,chinas+chinan,three-kingdoms
-eastern-wu,Wu,people,sinitic,no,chinas+chinan,three-kingdoms
-jin-dynasty,Jin (Sima),polity,sinitic,no,china,
-han-zhao,Han Zhao,people,steppeunk,no,chinan,sixteen-kingdoms
-later-zhao,Later Zhao,people,steppeunk,yes,chinan,sixteen-kingdoms
-former-yan,Former Yan,people,xianbei,no,chinan+manchuria+mongolia,sixteen-kingdoms
-former-qin,Former Qin,people,tbother,yes,chinan+chinas,sixteen-kingdoms
-later-qin,Later Qin,people,tbother,no,chinan,sixteen-kingdoms
-northern-liang,Northern Liang,people,steppeunk,yes,chinan+tarim,sixteen-kingdoms
-northern-wei,Northern Wei,people,xianbei,no,chinan+mongolia+manchuria,north-south-dynasties
-northern-qi,Eastern Wei and Northern Qi,people,xianbei,no,chinan,north-south-dynasties
-northern-zhou,Western Wei and Northern Zhou,people,xianbei,no,chinan+chinas,north-south-dynasties
-liu-song,Liu Song,people,sinitic,no,chinas+chinan,north-south-dynasties
-southern-qi,Southern Qi,people,sinitic,no,chinas+chinan,north-south-dynasties
-liang-dynasty,Liang,people,sinitic,no,chinas+chinan,north-south-dynasties
-chen-dynasty,Chen,people,sinitic,no,chinas,north-south-dynasties
-sui-dynasty,Sui,polity,sinitic,no,china,
-tang-dynasty,Tang Empire,polity,sinitic,no,china+tarim+mongolia+manchuria,
-five-dynasties-north,Five Dynasties,people,sinitic,no,chinan,five-dynasties
-southern-tang,Wu and Southern Tang,people,sinitic,no,chinas+chinan,five-dynasties
-wuyue,Wuyue,people,sinitic,no,chinas,five-dynasties
-southern-han,Southern Han,people,sinitic,no,chinas,five-dynasties
-later-shu,Former and Later Shu,people,sinitic,no,chinas+chinan,five-dynasties
-song-dynasty,Song,polity,sinitic,no,china,
-yuan-dynasty,Yuan,polity,mong,no,china+mongolia+manchuria+tibet+korea,
-ming-dynasty,Ming,polity,sinitic,no,china+manchuria,
-qing-dynasty,Qing Empire,polity,tung,no,china+manchuria+mongolia+tarim+tibet,
-republic-of-china,Republic of China,polity,sinitic,no,china+manchuria+mongolia+tarim,
-china,China,polity,sinitic,no,china+manchuria+mongolia+tarim+tibet,
-minyue,Min Yue,people,tai,yes,chinas,hundred-yue
-nanyue,Nan Yue,people,tai,yes,chinas,hundred-yue
-luoyue,Luo Yue,people,tai,yes,chinas,hundred-yue
-shanyue,Shan Yue,people,tai,yes,chinas,hundred-yue
-li-lao,Li and Lao,people,tai,yes,chinas,hundred-yue
-dian,Dian,people,burm,yes,chinas,yunnan-kingdoms
-cuan,Cuan,people,burm,yes,chinas,yunnan-kingdoms
-nanzhao,Nanzhao,people,burm,no,chinas+tibet+burma+indochina,yunnan-kingdoms
-dali-kingdom,Dali,people,burm,no,chinas+tibet,yunnan-kingdoms
-wuling-man,Wuling Man,people,hmong,yes,chinas,southwest-peoples
-miao,Miao (Hmong),people,hmong,no,chinas,southwest-peoples
-yao,Yao (Mien),people,hmong,no,chinas,southwest-peoples
-zhuang,Zhuang,people,tai,no,chinas,southwest-peoples
-yi,Yi (Nuosu),people,burm,no,chinas,southwest-peoples
-bai,Bai,people,burm,no,chinas+tibet,southwest-peoples
-tujia,Tujia,people,tbother,no,chinas,southwest-peoples
-dai,Dai,people,tai,no,chinas,southwest-peoples
-li-hainan,Li (Hlai),people,tai,no,chinas,southwest-peoples
-qiang-min-river,Qiang (Min valley),people,tbother,no,chinas+chinan,southwest-peoples
-qiang,Qiang,people,tbother,no,tibet+tarim+chinan,tibetans-qiang
-zhangzhung,Zhangzhung,people,tbother,no,tibet,tibetans-qiang
-tibetans,Tibetans,people,tibetic,no,tibet+tarim+chinan+chinas,tibetans-qiang
-tuyuhun,Tuyuhun,people,xianbei,no,tarim+tibet+chinan,tibetans-qiang
-tanguts,Tanguts,people,tbother,no,chinan+chinas+mongolia+tarim+tibet,tibetans-qiang
-western-xia,Western Xia,polity,tbother,no,chinan+mongolia+tarim,
-guge,Guge,people,tibetic,no,tibet,tibetans-qiang
-tibetan-empire,Tibetan Empire,polity,tibetic,no,tibet+tarim+chinan+chinas,
-ganden-phodrang,Ganden Phodrang,polity,tibetic,no,tibet,
-bhutan,Bhutan,polity,tibetic,no,tibet,
-khotan,Khotan,people,eiran,no,tarim,tarim-oases
-shule,Shule (Kashgar),people,eiran,yes,tarim,tarim-oases
-kucha,Kucha,people,toch,no,tarim,tarim-oases
-yanqi,Karashahr (Yanqi),people,toch,no,tarim,tarim-oases
-shanshan,Shanshan (Loulan),people,toch,yes,tarim,tarim-oases
-gaochang,Gaochang,people,sinitic,no,tarim,tarim-oases
-qocho,Qocho Uyghurs,people,turk,no,tarim,tarim-oases
-ganzhou-uyghurs,Ganzhou Uyghurs,people,turk,no,chinan+tarim,tarim-oases
-yarkand-khanate,Yarkand Khanate,people,karluk,no,tarim,tarim-oases
-uyghurs,Uyghurs,people,karluk,no,tarim,tarim-oases
-xiongnu,Xiongnu,people,steppeunk,no,mongolia+tarim+esiberia+chinan,mongolia-steppe
-xianbei,Xianbei,people,xianbei,no,mongolia+manchuria+esiberia+tarim,mongolia-steppe
-rouran,Rouran,people,steppeunk,no,mongolia+tarim+esiberia,mongolia-steppe
-tiele,Tiele (Gaoche),people,turk,no,mongolia+tarim,mongolia-steppe
-gokturks,Göktürks,people,turk,no,mongolia+tarim+esiberia,mongolia-steppe
-uyghur-khaganate,Uyghur Khaganate,people,turk,no,mongolia+tarim+esiberia,mongolia-steppe
-yenisei-kirghiz,Yenisei Kirghiz,people,turk,no,mongolia+wsiberia+esiberia,mongolia-steppe
-tatars-mongolia,Tatars,people,mong,yes,mongolia,mongolia-steppe
-kereit,Kereit,people,mong,yes,mongolia,mongolia-steppe
-naimans,Naimans,people,turk,yes,mongolia+tarim,mongolia-steppe
-khamag-mongols,Mongols,people,mong,no,mongolia+esiberia,mongolia-steppe
-mongol-empire,Mongol Empire,polity,mong,no,mongolia+tarim+chinan+manchuria+esiberia+wsiberia+steppe+turan+tibet+korea,
-northern-yuan,Northern Yuan,people,mong,no,mongolia+esiberia,mongolia-steppe
-oirats,Oirats,people,mong,no,mongolia+tarim,mongolia-steppe
-dzungar-khanate,Dzungar Khanate,people,mong,no,tarim+mongolia,mongolia-steppe
-khalkha,Khalkha Mongols,people,mong,no,mongolia,mongolia-steppe
-inner-mongols,Inner Mongols,people,mong,no,mongolia+manchuria,mongolia-steppe
-mongolia,Mongolia,polity,mong,no,mongolia,
-wuhuan,Wuhuan,people,xianbei,yes,mongolia+manchuria+chinan,manchurian-peoples
-yilou,Yilou,people,tung,yes,manchuria+esiberia,manchurian-peoples
-mohe,Mohe,people,tung,yes,manchuria+esiberia,manchurian-peoples
-khitans,Khitans,people,xianbei,no,mongolia+manchuria,manchurian-peoples
-shiwei,Shiwei,people,mong,yes,manchuria+mongolia+esiberia,manchurian-peoples
-balhae,Balhae,people,tung,yes,manchuria+korea+esiberia,manchurian-peoples
-liao-dynasty,Liao,polity,xianbei,no,mongolia+manchuria+chinan,
-jurchens,Jurchens,people,tung,no,manchuria+esiberia+korea,manchurian-peoples
-jin-jurchen,Jin (Jurchen),polity,tung,no,manchuria+chinan+mongolia,
-manchus,Manchus,people,tung,no,manchuria,manchurian-peoples
-kurykan,Kurykan,people,turk,no,esiberia+wsiberia,east-siberians
-siberian-yupik,Siberian Yupik,people,inuit,no,esiberia,east-siberians
-evenki,Evenki,people,tung,no,esiberia+manchuria,east-siberians
-evens,Even,people,tung,no,esiberia,east-siberians
-yukaghir,Yukaghir,people,paleosib,no,esiberia,east-siberians
-chukchi,Chukchi,people,paleosib,no,esiberia,east-siberians
-koryak,Koryak,people,paleosib,no,esiberia,east-siberians
-nivkh,Nivkh,people,paleosib,no,esiberia,east-siberians
-sakha,Sakha (Yakuts),people,sibturk,no,esiberia,east-siberians
-buryats,Buryats,people,mong,no,esiberia+wsiberia+mongolia,east-siberians
-buyeo,Buyeo,people,kor,yes,manchuria,korean-kingdoms
-goguryeo,Goguryeo,people,kor,yes,manchuria+korea+chinan,korean-kingdoms
-lelang,Lelang commandery,people,sinitic,no,korea,korean-kingdoms
-okjeo-ye,Okjeo and Ye,people,kor,yes,korea,korean-kingdoms
-mahan,Mahan,people,kor,yes,korea,korean-kingdoms
-jinhan,Jinhan,people,kor,no,korea,korean-kingdoms
-byeonhan,Byeonhan,people,kor,yes,korea,korean-kingdoms
-baekje,Baekje,people,kor,no,korea,korean-kingdoms
-silla,Silla,people,kor,no,korea,korean-kingdoms
-gaya,Gaya,people,kor,yes,korea,korean-kingdoms
-tamna,Tamna,people,kor,yes,korea,korean-kingdoms
-koreans,Koreans,people,kor,no,korea,korean-kingdoms
-goryeo,Goryeo,polity,kor,no,korea,
-joseon,Joseon,polity,kor,no,korea,
-north-korea,North Korea,polity,kor,no,korea,
-south-korea,South Korea,polity,kor,no,korea,
-wa,Wa,people,jap,no,japan,wa-yamato
-yamato,Yamato,people,jap,no,japan,wa-yamato
-hayato,Hayato,people,jap,yes,japan,wa-yamato
-japanese,Japanese,people,jap,no,japan,wa-yamato
-ryukyuans,Ryukyuans,people,jap,no,japan,wa-yamato
-ryukyu-kingdom,Ryukyu Kingdom,people,jap,no,japan,wa-yamato
-nara-heian-japan,Japan (Nara and Heian),polity,jap,no,japan,
-kamakura-shogunate,Kamakura shogunate,polity,jap,no,japan,
-muromachi-shogunate,Muromachi shogunate,polity,jap,no,japan,
-tokugawa-shogunate,Tokugawa shogunate,polity,jap,no,japan,
-empire-of-japan,Empire of Japan,polity,jap,no,japan+korea+manchuria+esiberia,
-japan,Japan,polity,jap,no,japan,
-epi-jomon,Epi-Jomon culture,people,ainu,yes,japan,emishi-ainu
-emishi,Emishi,people,ainu,yes,japan,emishi-ainu
-okhotsk-culture,Okhotsk culture,people,paleosib,yes,japan+esiberia,emishi-ainu
-ainu,Ainu,people,ainu,no,japan+esiberia,emishi-ainu
-pyu-language,Pyu,language,tbother,no,burma,
-burmese-speakers,Burmese,language,burm,no,burma,
-burma-hill-languages,"Chin, Kachin and Naga languages",language,tbother,no,burma,
-karen-speakers,Karen,language,tbother,no,burma+indochina,
-shan-speakers,Shan (Tai Yai),language,tai,no,burma,
-mon-speakers,Mon,language,monkhmer,no,burma+indochina,
-khmer-speakers,Khmer,language,monkhmer,no,indochina,
-austroasiatic-uplands,"Khmu, Lawa, Katu and Bahnar languages",language,aaother,no,burma+indochina,
-tai-seasia,"Thai, Lao and other Tai",language,tai,no,indochina,
-vietnamese-speakers,Vietnamese,language,viet,no,indochina,
-chamic-speakers,Cham and Chamic,language,cham,no,indochina,
-hmong-indochina,Hmong and Iu Mien,language,hmong,no,indochina,
-aslian-speakers,"Aslian (Semai, Temiar, Jahai)",language,aaother,no,malaya+indochina,
-malay-speakers,Malay,language,malayic,no,malaya+sumatra+borneo+indochina+eindonesia,
-batak-speakers,"Batak, Gayo and Nias",language,malayic,no,sumatra,
-acehnese-speakers,Acehnese,language,cham,no,sumatra,
-sundanese-speakers,Sundanese,language,malayic,no,java,
-javanese-speakers,Javanese,language,malayic,no,java,
-madurese-speakers,Madurese,language,malayic,no,java,
-balinese-speakers,Balinese and Sasak,language,malayic,no,java+eindonesia,
-dayak-languages,Dayak languages,language,malayic,no,borneo+eindonesia,
-luzon-north-languages,Ilocano and Cordillera languages,language,philip,no,philippines,
-tagalog-speakers,"Tagalog, Kapampangan and Bikol",language,philip,no,philippines,
-visayan-speakers,Visayan languages,language,philip,no,philippines,
-mindanao-sulu-languages,"Mindanao, Sulu and Palawan languages",language,philip,no,philippines+eindonesia,
-formosan-languages,Formosan languages,language,formosan,no,taiwan,
-sinitic-taiwan,"Hokkien, Hakka and Mandarin",language,sinitic,no,taiwan,
-chinese-malaya,"Chinese (Hokkien, Cantonese, Mandarin)",language,sinitic,no,malaya,
-sulawesi-languages,"Bugis, Makassar and Sulawesi languages",language,malayic,no,eindonesia,
-nusa-tenggara-languages,"Sumbawa, Flores, Sumba and Timor languages",language,malayic,yes,eindonesia,
-maluku-languages,Maluku languages,language,malayic,yes,eindonesia,
-papuan-island-languages,Papuan languages of the islands,language,papother,no,eindonesia+melanesia,
-oceanic-melanesia,Solomon and Vanuatu languages,language,oceanic,no,melanesia,
-kanak-languages,Kanak languages,language,oceanic,no,melanesia,
-fijian-speakers,Fijian,language,oceanic,no,melanesia,
-fiji-hindi,Fiji Hindi,language,indn,no,melanesia,
-french-pacific,French,language,fr,no,melanesia+polynesia,
-chamorro-palauan,Chamorro and Palauan,language,philip,yes,micronesia,
-micronesian-languages,Micronesian languages,language,oceanic,no,micronesia,
-west-polynesian-languages,Tongan and Samoan,language,polynesian,no,polynesia,
-east-polynesian-languages,"Tahitian, Marquesan and Cook Islands Māori",language,polynesian,no,polynesia,
-hawaiian-language,Hawaiian,language,polynesian,no,polynesia,
-rapanui-language,Rapa Nui,language,polynesian,no,polynesia,
-maori-language,Te reo Māori,language,polynesian,no,newzealand,
-english-pacific,English,language,eng,no,newzealand+polynesia,
-malagasy-language,Malagasy,language,malagasy,no,madagascar,
-comorian-language,Comorian (Shikomori),language,bantue,no,madagascar,
-mascarene-creoles,Mauritian and Réunion Creole,language,fr,no,madagascar,
-funan,Funan,people,monkhmer,yes,indochina,mon-khmer-realms
-chenla,Chenla,people,monkhmer,no,indochina,mon-khmer-realms
-khmer-empire,Khmer Empire (Angkor),people,monkhmer,no,indochina,mon-khmer-realms
-cambodia-kingdom,Cambodia,people,monkhmer,no,indochina,mon-khmer-realms
-dvaravati,Dvaravati,people,monkhmer,no,indochina,mon-khmer-realms
-haripunjaya,Haripunjaya,people,monkhmer,no,indochina,mon-khmer-realms
-ramanya,Mon of Ramanya,people,monkhmer,no,burma,mon-khmer-realms
-hanthawaddy,Hanthawaddy (Pegu),people,monkhmer,no,burma,mon-khmer-realms
-mon-people,Mon,people,monkhmer,no,burma+indochina,mon-khmer-realms
-pyu-cities,Pyu city states,people,tbother,no,burma,burmese-realms
-pagan,Pagan (Bagan),people,burm,no,burma,burmese-realms
-ava,Ava,people,burm,no,burma,burmese-realms
-toungoo,Toungoo Burma,people,burm,no,burma+indochina,burmese-realms
-konbaung,Konbaung Burma,people,burm,no,burma,burmese-realms
-arakan,Arakan (Mrauk U),people,burm,no,burma,burmese-realms
-viet-giao-chi,Viet of Giao Chỉ,people,viet,yes,indochina,viet-cham
-dai-viet,Đại Việt,people,viet,no,indochina,viet-cham
-trinh-tonkin,Đàng Ngoài (Trịnh),people,viet,no,indochina,viet-cham
-nguyen-lords,Đàng Trong (Nguyễn),people,viet,no,indochina,viet-cham
-nguyen-vietnam,Nguyễn Vietnam,people,viet,no,indochina,viet-cham
-sa-huynh,Sa Huỳnh culture,people,cham,yes,indochina,viet-cham
-champa,Champa,people,cham,no,indochina,viet-cham
-cham-people,Cham,people,cham,no,indochina,viet-cham
-karen-people,Karen,people,tbother,no,burma+indochina,seasia-hill-peoples
-chin-zo,Chin (Zo),people,tbother,no,burma,seasia-hill-peoples
-kachin-jingpho,Kachin (Jingpho),people,tbother,no,burma,seasia-hill-peoples
-wa-people,Wa,people,aaother,no,burma,seasia-hill-peoples
-hmong-seasia,Hmong,people,hmong,no,indochina,seasia-hill-peoples
-iu-mien,Iu Mien,people,hmong,no,indochina,seasia-hill-peoples
-khmu-people,Khmu,people,aaother,no,indochina,seasia-hill-peoples
-highlanders-jarai,"Jarai, Rade and Bahnar",people,cham,no,indochina,seasia-hill-peoples
-orang-asli,Orang Asli,people,aaother,no,malaya,seasia-hill-peoples
-tay-nung,Tày and Nùng,people,tai,no,indochina,tai-peoples
-tai-dam,Tai Dam,people,tai,no,indochina,tai-peoples
-shan-states,Shan states,people,tai,no,burma,tai-peoples
-sukhothai,Sukhothai,people,tai,no,indochina,tai-peoples
-lan-na,Lan Na,people,tai,no,indochina,tai-peoples
-lan-xang,Lan Xang,people,tai,no,indochina,tai-peoples
-lao-kingdoms,Luang Prabang and Vientiane,people,tai,no,indochina,tai-peoples
-ayutthaya,Ayutthaya,people,tai,no,indochina,tai-peoples
-siam-rattanakosin,Siam (Rattanakosin),people,tai,no,indochina,tai-peoples
-kedah-kadaram,Kedah (Kadaram),people,malayic,yes,malaya,malay-realms
-srivijaya,Srivijaya,people,malayic,no,sumatra+malaya,malay-realms
-malayu,Malayu,people,malayic,no,sumatra,malay-realms
-tambralinga,Tambralinga,people,malayic,yes,indochina,malay-realms
-samudra-pasai,Samudra-Pasai,people,malayic,no,sumatra,malay-realms
-malacca,Malacca,people,malayic,no,malaya+sumatra,malay-realms
-johor,Johor,people,malayic,no,malaya+sumatra,malay-realms
-patani,Patani,people,malayic,no,indochina+malaya,malay-realms
-aceh,Aceh,people,cham,no,sumatra,malay-realms
-brunei,Brunei,people,malayic,no,borneo,malay-realms
-kutai,Kutai,people,malayic,yes,borneo+eindonesia,malay-realms
-banjar,Banjar,people,malayic,no,borneo,malay-realms
-buni-culture,Buni culture,people,malayic,yes,java,java-realms
-tarumanagara,Tarumanagara,people,malayic,yes,java,java-realms
-mataram-medang,Mataram and the Sailendras,people,malayic,no,java,java-realms
-kediri,Kediri,people,malayic,no,java,java-realms
-singhasari,Singhasari,people,malayic,no,java,java-realms
-majapahit,Majapahit,people,malayic,no,java,java-realms
-sunda-kingdom,Sunda (Pajajaran),people,malayic,no,java,java-realms
-demak,Demak,people,malayic,no,java,java-realms
-banten,Banten,people,malayic,no,java,java-realms
-mataram-sultanate,Mataram Sultanate,people,malayic,no,java,java-realms
-surakarta-yogyakarta,Surakarta and Yogyakarta,people,malayic,no,java,java-realms
-bali-kingdoms,Balinese kingdoms,people,malayic,no,java,java-realms
-tondo-maynila,Tondo and Maynila,people,philip,yes,philippines,eastern-sultanates
-butuan,Butuan,people,philip,yes,philippines,eastern-sultanates
-sugbu,Sugbu (Cebu),people,philip,no,philippines,eastern-sultanates
-sulu,Sulu,people,philip,no,philippines+borneo,eastern-sultanates
-maguindanao,Maguindanao,people,philip,no,philippines,eastern-sultanates
-ternate,Ternate,people,papother,no,eindonesia,eastern-sultanates
-tidore,Tidore,people,papother,no,eindonesia,eastern-sultanates
-gowa,Gowa (Makassar),people,malayic,no,eindonesia,eastern-sultanates
-formosan-peoples,Indigenous Taiwanese,people,formosan,no,taiwan,island-asia-peoples
-igorot,Igorot peoples,people,philip,no,philippines,island-asia-peoples
-tagalog,Tagalog,people,philip,no,philippines,island-asia-peoples
-visayans,Bisaya (Visayans),people,philip,no,philippines,island-asia-peoples
-moro-peoples,Moro peoples,people,philip,no,philippines,island-asia-peoples
-dayak,Dayak peoples,people,malayic,no,borneo+eindonesia,island-asia-peoples
-batak,Batak,people,malayic,no,sumatra,island-asia-peoples
-minangkabau,Minangkabau,people,malayic,no,sumatra,island-asia-peoples
-bugis,Bugis,people,malayic,no,eindonesia,island-asia-peoples
-toraja,Toraja,people,malayic,no,eindonesia,island-asia-peoples
-tetun-wehali,Tetun (Wehali),people,malayic,yes,eindonesia,island-asia-peoples
-chamorro,Chamorro (CHamoru),people,philip,yes,micronesia,micronesians
-palauans,Palauans (Belau),people,philip,yes,micronesia,micronesians
-yapese,Yap,people,oceanic,no,micronesia,micronesians
-carolinians,Caroline Islanders,people,oceanic,no,micronesia,micronesians
-pohnpei,Pohnpei (Saudeleur),people,oceanic,no,micronesia,micronesians
-marshallese,Marshallese (ri-Majel),people,oceanic,no,micronesia,micronesians
-i-kiribati,I-Kiribati,people,oceanic,no,micronesia,micronesians
-solomon-islanders,Solomon Islanders,people,oceanic,no,melanesia,melanesian-islanders
-ni-vanuatu,Ni-Vanuatu,people,oceanic,no,melanesia,melanesian-islanders
-kanak,Kanak,people,oceanic,no,melanesia,melanesian-islanders
-itaukei,iTaukei (Fijians),people,oceanic,no,melanesia,melanesian-islanders
-tikopia,Tikopia and the outliers,people,polynesian,no,melanesia,melanesian-islanders
-tongans,Tongans,people,polynesian,no,polynesia,west-polynesians
-samoans,Samoans (Tagata Sāmoa),people,polynesian,no,polynesia,west-polynesians
-tui-tonga,Tu'i Tonga chiefdom,people,polynesian,no,polynesia+melanesia,west-polynesians
-maohi,Mā'ohi (Tahitians),people,polynesian,no,polynesia,east-polynesians
-enata,Enata (Marquesans),people,polynesian,no,polynesia,east-polynesians
-cook-islanders,Cook Islands Māori,people,polynesian,no,polynesia,east-polynesians
-kanaka-maoli,Kānaka Maoli (Hawaiians),people,polynesian,no,polynesia,east-polynesians
-rapa-nui,Rapa Nui,people,polynesian,no,polynesia,east-polynesians
-maori,Māori,people,polynesian,no,newzealand,east-polynesians
-early-malagasy,First Malagasy,people,malagasy,yes,madagascar,malagasy-peoples
-antemoro,Antemoro,people,malagasy,no,madagascar,malagasy-peoples
-merina,Merina,people,malagasy,no,madagascar,malagasy-peoples
-sakalava,Sakalava,people,malagasy,no,madagascar,malagasy-peoples
-betsileo,Betsileo,people,malagasy,no,madagascar,malagasy-peoples
-betsimisaraka,Betsimisaraka,people,malagasy,no,madagascar,malagasy-peoples
-antandroy-mahafaly,Antandroy and Mahafaly,people,malagasy,no,madagascar,malagasy-peoples
-comorians,Comorians,people,bantue,no,madagascar,
-spanish-philippines,Spanish Philippines,polity,ibrom,no,philippines,
-us-philippines,Philippines (United States),polity,eng,no,philippines,
-dutch-east-indies,Dutch East Indies,polity,wgerm,no,indonesia,
-french-indochina,French Indochina,polity,fr,no,indochina,
-british-burma,British Burma,polity,eng,no,burma,
-british-malaya,British Malaya,polity,eng,no,malaya,
-british-borneo,Sarawak and North Borneo,polity,eng,no,borneo,
-portuguese-timor,Portuguese Timor,polity,ibrom,no,eindonesia,
-dutch-formosa,Dutch Formosa,polity,wgerm,no,taiwan,
-qing-taiwan,Qing Taiwan,polity,sinitic,no,taiwan,
-japanese-taiwan,Japanese Taiwan,polity,jap,no,taiwan,
-taiwan-today,Taiwan,polity,sinitic,no,taiwan,
-kingdom-of-hawaii,Kingdom of Hawaii,polity,polynesian,no,polynesia,
-kingdom-of-tahiti,Kingdom of Tahiti,polity,polynesian,no,polynesia,
-tonga-kingdom,Tonga,polity,polynesian,no,polynesia,
-merina-kingdom,Merina Kingdom,polity,malagasy,no,madagascar,
-french-madagascar,French Madagascar,polity,fr,no,madagascar,
-myanmar,Myanmar,polity,burm,no,burma,
-thailand,Thailand,polity,tai,no,indochina,
-laos,Laos,polity,tai,no,indochina,
-cambodia,Cambodia,polity,monkhmer,no,indochina,
-vietnam,Vietnam,polity,viet,no,indochina,
-malaysia,Malaysia,polity,malayic,no,malaya+borneo,
-singapore,Singapore,polity,,no,malaya,
-brunei-today,Brunei,polity,malayic,no,borneo,
-indonesia,Indonesia,polity,malayic,no,indonesia,
-timor-leste,Timor-Leste,polity,,no,eindonesia,
-philippines-republic,Philippines,polity,philip,no,philippines,
-fiji,Fiji,polity,,no,melanesia,
-solomon-islands,Solomon Islands,polity,,no,melanesia,
-vanuatu,Vanuatu,polity,,no,melanesia,
-new-caledonia,New Caledonia,polity,,no,melanesia,
-samoa,Samoa,polity,polynesian,no,polynesia,
-french-polynesia,French Polynesia,polity,,no,polynesia,
-cook-islands,Cook Islands,polity,polynesian,no,polynesia,
-micronesia-fsm,Micronesia,polity,,no,micronesia,
-palau,Palau,polity,,no,micronesia,
-marshall-islands,Marshall Islands,polity,,no,micronesia,
-kiribati,Kiribati,polity,,no,micronesia,
-new-zealand,Aotearoa New Zealand,polity,eng,no,newzealand,
-madagascar-republic,Madagascar,polity,malagasy,no,madagascar,
-comoros,Comoros,polity,,no,madagascar,
-mauritius,Mauritius,polity,,no,madagascar,
 sami-far-north,Sami,language,finnic,no,north+east,
 vistula-germanic,East Germanic of the Vistula,language,egerm,yes,central,
 early-slavic-vistula,Early Slavic (Vistula and Oder),language,slavw,no,central,
@@ -1949,3 +888,1029 @@ dr-congo-state,DR Congo,polity,,no,congo,
 angola-state,Angola,polity,,no,congo,
 mozambique-state,Mozambique,polity,,no,zambezi,
 south-africa-state,South Africa,polity,,no,southafrica,
+pyu-language,Pyu,language,tbother,no,burma,
+burmese-speakers,Burmese,language,burm,no,burma,
+burma-hill-languages,"Chin, Kachin and Naga languages",language,tbother,no,burma,
+karen-speakers,Karen,language,tbother,no,burma+indochina,
+shan-speakers,Shan (Tai Yai),language,tai,no,burma,
+mon-speakers,Mon,language,monkhmer,no,burma+indochina,
+khmer-speakers,Khmer,language,monkhmer,no,indochina,
+austroasiatic-uplands,"Khmu, Lawa, Katu and Bahnar languages",language,aaother,no,burma+indochina,
+tai-seasia,"Thai, Lao and other Tai",language,tai,no,indochina,
+vietnamese-speakers,Vietnamese,language,viet,no,indochina,
+chamic-speakers,Cham and Chamic,language,cham,no,indochina,
+hmong-indochina,Hmong and Iu Mien,language,hmong,no,indochina,
+aslian-speakers,"Aslian (Semai, Temiar, Jahai)",language,aaother,no,malaya+indochina,
+malay-speakers,Malay,language,malayic,no,malaya+sumatra+borneo+indochina+eindonesia,
+batak-speakers,"Batak, Gayo and Nias",language,malayic,no,sumatra,
+acehnese-speakers,Acehnese,language,cham,no,sumatra,
+sundanese-speakers,Sundanese,language,malayic,no,java,
+javanese-speakers,Javanese,language,malayic,no,java,
+madurese-speakers,Madurese,language,malayic,no,java,
+balinese-speakers,Balinese and Sasak,language,malayic,no,java+eindonesia,
+dayak-languages,Dayak languages,language,malayic,no,borneo+eindonesia,
+luzon-north-languages,Ilocano and Cordillera languages,language,philip,no,philippines,
+tagalog-speakers,"Tagalog, Kapampangan and Bikol",language,philip,no,philippines,
+visayan-speakers,Visayan languages,language,philip,no,philippines,
+mindanao-sulu-languages,"Mindanao, Sulu and Palawan languages",language,philip,no,philippines+eindonesia,
+formosan-languages,Formosan languages,language,formosan,no,taiwan,
+sinitic-taiwan,"Hokkien, Hakka and Mandarin",language,sinitic,no,taiwan,
+chinese-malaya,"Chinese (Hokkien, Cantonese, Mandarin)",language,sinitic,no,malaya,
+sulawesi-languages,"Bugis, Makassar and Sulawesi languages",language,malayic,no,eindonesia,
+nusa-tenggara-languages,"Sumbawa, Flores, Sumba and Timor languages",language,malayic,yes,eindonesia,
+maluku-languages,Maluku languages,language,malayic,yes,eindonesia,
+papuan-island-languages,Papuan languages of the islands,language,papother,no,eindonesia+melanesia,
+oceanic-melanesia,Solomon and Vanuatu languages,language,oceanic,no,melanesia,
+kanak-languages,Kanak languages,language,oceanic,no,melanesia,
+fijian-speakers,Fijian,language,oceanic,no,melanesia,
+fiji-hindi,Fiji Hindi,language,indn,no,melanesia,
+french-pacific,French,language,fr,no,melanesia+polynesia,
+chamorro-palauan,Chamorro and Palauan,language,philip,yes,micronesia,
+micronesian-languages,Micronesian languages,language,oceanic,no,micronesia,
+west-polynesian-languages,Tongan and Samoan,language,polynesian,no,polynesia,
+east-polynesian-languages,"Tahitian, Marquesan and Cook Islands Māori",language,polynesian,no,polynesia,
+hawaiian-language,Hawaiian,language,polynesian,no,polynesia,
+rapanui-language,Rapa Nui,language,polynesian,no,polynesia,
+maori-language,Te reo Māori,language,polynesian,no,newzealand,
+english-pacific,English,language,eng,no,newzealand+polynesia,
+malagasy-language,Malagasy,language,malagasy,no,madagascar,
+comorian-language,Comorian (Shikomori),language,bantue,no,madagascar,
+mascarene-creoles,Mauritian and Réunion Creole,language,fr,no,madagascar,
+funan,Funan,people,monkhmer,yes,indochina,mon-khmer-realms
+chenla,Chenla,people,monkhmer,no,indochina,mon-khmer-realms
+khmer-empire,Khmer Empire (Angkor),people,monkhmer,no,indochina,mon-khmer-realms
+cambodia-kingdom,Cambodia,people,monkhmer,no,indochina,mon-khmer-realms
+dvaravati,Dvaravati,people,monkhmer,no,indochina,mon-khmer-realms
+haripunjaya,Haripunjaya,people,monkhmer,no,indochina,mon-khmer-realms
+ramanya,Mon of Ramanya,people,monkhmer,no,burma,mon-khmer-realms
+hanthawaddy,Hanthawaddy (Pegu),people,monkhmer,no,burma,mon-khmer-realms
+mon-people,Mon,people,monkhmer,no,burma+indochina,mon-khmer-realms
+pyu-cities,Pyu city states,people,tbother,no,burma,burmese-realms
+pagan,Pagan (Bagan),people,burm,no,burma,burmese-realms
+ava,Ava,people,burm,no,burma,burmese-realms
+toungoo,Toungoo Burma,people,burm,no,burma+indochina,burmese-realms
+konbaung,Konbaung Burma,people,burm,no,burma,burmese-realms
+arakan,Arakan (Mrauk U),people,burm,no,burma,burmese-realms
+viet-giao-chi,Viet of Giao Chỉ,people,viet,yes,indochina,viet-cham
+dai-viet,Đại Việt,people,viet,no,indochina,viet-cham
+trinh-tonkin,Đàng Ngoài (Trịnh),people,viet,no,indochina,viet-cham
+nguyen-lords,Đàng Trong (Nguyễn),people,viet,no,indochina,viet-cham
+nguyen-vietnam,Nguyễn Vietnam,people,viet,no,indochina,viet-cham
+sa-huynh,Sa Huỳnh culture,people,cham,yes,indochina,viet-cham
+champa,Champa,people,cham,no,indochina,viet-cham
+cham-people,Cham,people,cham,no,indochina,viet-cham
+karen-people,Karen,people,tbother,no,burma+indochina,seasia-hill-peoples
+chin-zo,Chin (Zo),people,tbother,no,burma,seasia-hill-peoples
+kachin-jingpho,Kachin (Jingpho),people,tbother,no,burma,seasia-hill-peoples
+hmong-seasia,Hmong,people,hmong,no,indochina,seasia-hill-peoples
+highlanders-jarai,"Jarai, Rade and Bahnar",people,cham,no,indochina,seasia-hill-peoples
+orang-asli,Orang Asli,people,aaother,no,malaya,seasia-hill-peoples
+tay-nung,Tày and Nùng,people,tai,no,indochina,tai-peoples
+shan-states,Shan states,people,tai,no,burma,tai-peoples
+sukhothai,Sukhothai,people,tai,no,indochina,tai-peoples
+lan-na,Lan Na,people,tai,no,indochina,tai-peoples
+lan-xang,Lan Xang,people,tai,no,indochina,tai-peoples
+lao-kingdoms,Luang Prabang and Vientiane,people,tai,no,indochina,tai-peoples
+ayutthaya,Ayutthaya,people,tai,no,indochina,tai-peoples
+siam-rattanakosin,Siam (Rattanakosin),people,tai,no,indochina,tai-peoples
+kedah-kadaram,Kedah (Kadaram),people,malayic,yes,malaya,malay-realms
+srivijaya,Srivijaya,people,malayic,no,sumatra+malaya,malay-realms
+malayu,Malayu,people,malayic,no,sumatra,malay-realms
+tambralinga,Tambralinga,people,malayic,yes,indochina,malay-realms
+samudra-pasai,Samudra-Pasai,people,malayic,no,sumatra,malay-realms
+malacca,Malacca,people,malayic,no,malaya+sumatra,malay-realms
+johor,Johor,people,malayic,no,malaya+sumatra,malay-realms
+patani,Patani,people,malayic,no,indochina+malaya,malay-realms
+aceh,Aceh,people,cham,no,sumatra,malay-realms
+brunei,Brunei,people,malayic,no,borneo,malay-realms
+kutai,Kutai,people,malayic,yes,borneo+eindonesia,malay-realms
+banjar,Banjar,people,malayic,no,borneo,malay-realms
+buni-culture,Buni culture,people,malayic,yes,java,java-realms
+tarumanagara,Tarumanagara,people,malayic,yes,java,java-realms
+mataram-medang,Mataram and the Sailendras,people,malayic,no,java,java-realms
+kediri,Kediri,people,malayic,no,java,java-realms
+singhasari,Singhasari,people,malayic,no,java,java-realms
+majapahit,Majapahit,people,malayic,no,java,java-realms
+sunda-kingdom,Sunda (Pajajaran),people,malayic,no,java,java-realms
+demak,Demak,people,malayic,no,java,java-realms
+banten,Banten,people,malayic,no,java,java-realms
+mataram-sultanate,Mataram Sultanate,people,malayic,no,java,java-realms
+surakarta-yogyakarta,Surakarta and Yogyakarta,people,malayic,no,java,java-realms
+bali-kingdoms,Balinese kingdoms,people,malayic,no,java,java-realms
+tondo-maynila,Tondo and Maynila,people,philip,yes,philippines,eastern-sultanates
+butuan,Butuan,people,philip,yes,philippines,eastern-sultanates
+sugbu,Sugbu (Cebu),people,philip,no,philippines,eastern-sultanates
+sulu,Sulu,people,philip,no,philippines+borneo,eastern-sultanates
+ternate,Ternate,people,papother,no,eindonesia,eastern-sultanates
+gowa,Gowa (Makassar),people,malayic,no,eindonesia,eastern-sultanates
+formosan-peoples,Indigenous Taiwanese,people,formosan,no,taiwan,island-asia-peoples
+igorot,Igorot peoples,people,philip,no,philippines,island-asia-peoples
+tagalog,Tagalog,people,philip,no,philippines,island-asia-peoples
+visayans,Bisaya (Visayans),people,philip,no,philippines,island-asia-peoples
+moro-peoples,Moro peoples,people,philip,no,philippines,island-asia-peoples
+dayak,Dayak peoples,people,malayic,no,borneo+eindonesia,island-asia-peoples
+batak,Batak,people,malayic,no,sumatra,island-asia-peoples
+minangkabau,Minangkabau,people,malayic,no,sumatra,island-asia-peoples
+bugis,Bugis,people,malayic,no,eindonesia,island-asia-peoples
+tetun-wehali,Tetun (Wehali),people,malayic,yes,eindonesia,island-asia-peoples
+chamorro,Chamorro (CHamoru),people,philip,yes,micronesia,micronesians
+palauans,Palauans (Belau),people,philip,yes,micronesia,micronesians
+carolinians,Caroline Islanders,people,oceanic,no,micronesia,micronesians
+pohnpei,Pohnpei (Saudeleur),people,oceanic,no,micronesia,micronesians
+marshallese,Marshallese (ri-Majel),people,oceanic,no,micronesia,micronesians
+i-kiribati,I-Kiribati,people,oceanic,no,micronesia,micronesians
+solomon-islanders,Solomon Islanders,people,oceanic,no,melanesia,melanesian-islanders
+ni-vanuatu,Ni-Vanuatu,people,oceanic,no,melanesia,melanesian-islanders
+kanak,Kanak,people,oceanic,no,melanesia,melanesian-islanders
+itaukei,iTaukei (Fijians),people,oceanic,no,melanesia,melanesian-islanders
+tongans,Tongans,people,polynesian,no,polynesia,west-polynesians
+samoans,Samoans (Tagata Sāmoa),people,polynesian,no,polynesia,west-polynesians
+tui-tonga,Tu'i Tonga chiefdom,people,polynesian,no,polynesia+melanesia,west-polynesians
+maohi,Mā'ohi (Tahitians),people,polynesian,no,polynesia,east-polynesians
+enata,ʻEnata (Marquesans),people,polynesian,no,polynesia,east-polynesians
+cook-islanders,Cook Islands Māori,people,polynesian,no,polynesia,east-polynesians
+kanaka-maoli,Kānaka Maoli (Hawaiians),people,polynesian,no,polynesia,east-polynesians
+rapa-nui,Rapa Nui,people,polynesian,no,polynesia,east-polynesians
+maori,Māori,people,polynesian,no,newzealand,east-polynesians
+early-malagasy,First Malagasy,people,malagasy,yes,madagascar,malagasy-peoples
+antemoro,Antemoro,people,malagasy,no,madagascar,malagasy-peoples
+merina,Merina,people,malagasy,no,madagascar,malagasy-peoples
+sakalava,Sakalava,people,malagasy,no,madagascar,malagasy-peoples
+betsimisaraka,Betsimisaraka,people,malagasy,no,madagascar,malagasy-peoples
+comorians,Comorians,people,bantue,no,madagascar,
+spanish-philippines,Spanish Philippines,polity,ibrom,no,philippines,
+us-philippines,Philippines (United States),polity,eng,no,philippines,
+dutch-east-indies,Dutch East Indies,polity,wgerm,no,indonesia,
+french-indochina,French Indochina,polity,fr,no,indochina,
+british-burma,British Burma,polity,eng,no,burma,
+british-malaya,British Malaya,polity,eng,no,malaya,
+british-borneo,Sarawak and North Borneo,polity,eng,no,borneo,
+dutch-formosa,Dutch Formosa,polity,wgerm,no,taiwan,
+qing-taiwan,Qing Taiwan,polity,sinitic,no,taiwan,
+japanese-taiwan,Japanese Taiwan,polity,jap,no,taiwan,
+taiwan-today,Taiwan,polity,sinitic,no,taiwan,
+kingdom-of-hawaii,Kingdom of Hawaii,polity,polynesian,no,polynesia,
+tonga-kingdom,Tonga,polity,polynesian,no,polynesia,
+merina-kingdom,Merina Kingdom,polity,malagasy,no,madagascar,
+french-madagascar,French Madagascar,polity,fr,no,madagascar,
+myanmar,Myanmar,polity,burm,no,burma,
+thailand,Thailand,polity,tai,no,indochina,
+laos,Laos,polity,tai,no,indochina,
+cambodia,Cambodia,polity,monkhmer,no,indochina,
+vietnam,Vietnam,polity,viet,no,indochina,
+malaysia,Malaysia,polity,malayic,no,malaya+borneo,
+indonesia,Indonesia,polity,malayic,no,indonesia,
+philippines-republic,Philippines,polity,philip,no,philippines,
+fiji,Fiji,polity,,no,melanesia,
+new-zealand,Aotearoa New Zealand,polity,eng,no,newzealand,
+madagascar-republic,Madagascar,polity,malagasy,no,madagascar,
+parthian-speakers,Parthian,language,wiran,no,iran+afghanistan+turan,
+median-speakers,Median and Old Azari,language,wiran,no,iran,
+middle-persian-speakers,Middle Persian,language,pers,no,iran+afghanistan+turan,
+new-persian-speakers,Persian,language,pers,no,iran+afghanistan+turan,
+kurdish-speakers-iran,Kurdish,language,wiran,no,iran,
+luri-speakers,Luri and Bakhtiari,language,pers,no,iran,
+caspian-speakers,Gilaki and Mazandarani,language,wiran,no,iran,
+baloch-speakers-iran,Balochi,language,wiran,no,iran+afghanistan,
+azeri-speakers-iran,Azeri Turkic,language,oghuz,no,iran,
+arabic-speakers-iran,Arabic,language,arab,no,iran,
+turkmen-speakers,Turkmen,language,oghuz,no,turan+iran+afghanistan,
+qashqai-speakers,Qashqai and Khorasani Turkic,language,oghuz,no,iran,
+bactrian-speakers,Bactrian,language,eiran,no,afghanistan+turan,
+pashto-speakers,Pashto,language,eiran,no,afghanistan,
+gandhari-and-pashai-speakers,"Gandhari, Pashai and Nuristani",language,dard,no,afghanistan,
+pamir-speakers,Pamir languages,language,eiran,no,afghanistan+turan,
+sogdian-speakers,Sogdian,language,eiran,no,turan+steppe,
+khwarezmian-speakers,Khwarezmian,language,eiran,no,turan,
+saka-speakers,Saka,language,eiran,no,iran+afghanistan+turan+steppe+wsiberia,
+hunnic-speakers,Hunnic and unknown steppe languages,language,steppeunk,no,steppe+east+turan+wsiberia,
+western-turkic-speakers,Old Turkic,language,turk,no,steppe+turan+wsiberia+east,
+oghuz-speakers,Oghuz Turkic,language,oghuz,no,steppe+turan,
+kipchak-speakers,Kipchak Turkic,language,kipch,no,steppe+wsiberia+turan+east,
+kazakh-speakers,Kazakh,language,kipch,no,steppe,
+uzbek-speakers,Chagatai and Uzbek,language,karluk,no,turan+afghanistan+steppe,
+kyrgyz-speakers,Kyrgyz,language,kipch,no,turan,
+karakalpak-speakers,Karakalpak,language,kipch,no,turan,
+oirat-speakers-west,Oirat and Kalmyk,language,mong,no,steppe+east,
+russian-speakers-asia,Russian,language,slave,no,east+wsiberia+steppe,
+volga-finnic-speakers,Mordvin and Mari,language,volga,no,east,
+permic-speakers,Komi and Udmurt,language,volga,no,east,
+zavolochye-speakers,Zavolochye Finnic,language,finnic,no,east,
+early-hungarian-speakers,Early Hungarian,language,ugric,no,east+wsiberia,
+volga-bulgar-speakers,Volga Bulgar and Chuvash,language,turk,no,east,
+tatar-speakers,Tatar,language,kipch,no,east,
+nogai-speakers,Nogai,language,kipch,no,east+steppe,
+bashkir-speakers,Bashkir,language,kipch,no,east+wsiberia,
+ob-ugric-speakers,Khanty and Mansi,language,samoyed,no,east+wsiberia,
+samoyedic-speakers,Nenets and other Samoyedic,language,samoyed,no,east+wsiberia,
+yeniseian-speakers,Ket and Yeniseian,language,paleosib,no,wsiberia,
+evenki-speakers-yenisei,Evenki,language,tung,no,wsiberia,
+dolgan-speakers,Dolgan,language,sibturk,no,wsiberia,
+south-siberian-turkic-speakers,"Khakas, Altai and Tuvan",language,sibturk,no,wsiberia,
+buryat-speakers-west,Buryat,language,mong,no,wsiberia,
+siberian-tatar-speakers,Siberian Tatar,language,kipch,no,wsiberia,
+parthians,Parthians,people,wiran,no,iran+turan+afghanistan,persia-and-parthia
+persians,Persians,people,pers,no,iran,persia-and-parthia
+elymais,Elymais,people,aram,yes,iran,persia-and-parthia
+atropatene,Media Atropatene,people,wiran,yes,iran,persia-and-parthia
+hyrcanians,Hyrcanians,people,wiran,yes,iran,persia-and-parthia
+indo-parthians,Indo-Parthians,people,wiran,no,iran+afghanistan+indus,persia-and-parthia
+tabaristan-princes,Princes of Tabaristan,people,wiran,no,iran,iranian-dynasties
+tahirids,Tahirids,people,pers,no,iran+afghanistan+turan,iranian-dynasties
+saffarids,Saffarids,people,pers,no,iran+afghanistan,iranian-dynasties
+samanids,Samanids,people,pers,no,turan+afghanistan+iran,iranian-dynasties
+buyids,Buyids,people,wiran,no,iran+mesopotamia,iranian-dynasties
+ghaznavids-ghazna,Ghaznavids,people,turk,no,afghanistan+iran+turan+indus,iranian-dynasties
+ghurids-ghor,Ghurids,people,eiran,yes,afghanistan+iran+indus,iranian-dynasties
+aq-qoyunlu-iran,Aq Qoyunlu,people,oghuz,no,iran,iranian-dynasties
+afsharids,Afsharids,people,oghuz,no,iran+afghanistan,iranian-dynasties
+zands,Zands,people,wiran,no,iran,iranian-dynasties
+kurds-iran,Kurds,people,wiran,no,iran,iran-rim-peoples
+lurs,Lurs and Bakhtiari,people,pers,no,iran,iran-rim-peoples
+daylamites,Daylamites,people,wiran,no,iran,iran-rim-peoples
+gilaks-and-mazandaranis,Gilaks and Mazandaranis,people,wiran,no,iran,iran-rim-peoples
+baloch-iran,Baloch,people,wiran,no,iran+afghanistan,iran-rim-peoples
+pashtuns-afghanistan,Pashtuns,people,eiran,no,afghanistan,iran-rim-peoples
+hotaks,Hotak Ghilzai,people,eiran,no,afghanistan+iran,iran-rim-peoples
+hazaras,Hazaras,people,pers,no,afghanistan,iran-rim-peoples
+qashqai,Qashqai,people,oghuz,no,iran,iran-rim-peoples
+khuzestan-arabs,Arabs of Khuzestan,people,arab,no,iran,iran-rim-peoples
+azeris-iran,Azeris,people,oghuz,no,iran,iran-rim-peoples
+arabs-of-khurasan,Arabs of Khurasan,people,arab,no,iran+turan+afghanistan,
+sogdians,Sogdians,people,eiran,no,turan,sogd-and-khwarezm
+chach,Chach,people,eiran,yes,turan,sogd-and-khwarezm
+fergana,Fergana,people,eiran,yes,turan,sogd-and-khwarezm
+khwarezmians,Khwarezmians,people,eiran,no,turan,sogd-and-khwarezm
+yuezhi-bactria,Yuezhi,people,steppeunk,yes,afghanistan+turan,bactria-and-kabul
+kushans,Kushans,people,eiran,no,afghanistan+turan+indus+hindustan,bactria-and-kabul
+bactrians,Bactrians,people,eiran,no,afghanistan+turan,bactria-and-kabul
+turk-shahis,Turk Shahis,people,turk,yes,afghanistan+indus,bactria-and-kabul
+zunbils,Zunbils,people,eiran,yes,afghanistan,bactria-and-kabul
+tajiks,Tajiks,people,pers,no,turan+afghanistan,tajiks-and-pamiris
+pamiris,Pamiris,people,eiran,no,turan+afghanistan,tajiks-and-pamiris
+badakhshan,Badakhshan,people,pers,no,afghanistan+turan,tajiks-and-pamiris
+sakastan,Sakas of Sistan,people,eiran,no,iran+afghanistan,saka-peoples
+kangju,Kangju,people,eiran,yes,steppe+turan,saka-peoples
+wusun-semirechye,Wusun,people,eiran,yes,steppe+turan,saka-peoples
+dahae,Dahae,people,eiran,yes,turan,saka-peoples
+aorsi,Aorsi,people,iran,yes,steppe+east,saka-peoples
+kidarites,Kidarites,people,steppeunk,yes,afghanistan+turan+indus,eastern-huns
+hephthalites,Hephthalites,people,steppeunk,yes,afghanistan+turan,eastern-huns
+nezaks,Nezak Huns,people,steppeunk,yes,afghanistan,eastern-huns
+western-turks,Western Turks,people,turk,no,steppe+turan+afghanistan,turkic-khaganates
+karluks-west,Karluks,people,turk,no,steppe+turan,turkic-khaganates
+oghuz-yabgu,Oghuz,people,oghuz,no,steppe+turan,turkic-khaganates
+kimeks,Kimeks,people,kipch,no,steppe+wsiberia,turkic-khaganates
+kipchaks-east,Kipchaks,people,kipch,no,steppe+east,turkic-khaganates
+khazars-volga,Khazars,people,turk,no,east,turkic-khaganates
+kara-khanids-west,Kara-Khanids,people,karluk,no,turan+steppe,turkic-khaganates
+kara-khitai-west,Kara-Khitai,people,xianbei,no,turan+steppe,turkic-khaganates
+kyrgyz-yenisei,Yenisei Kyrgyz,people,sibturk,no,wsiberia,west-siberians
+ilkhanate,Ilkhanate,people,mong,no,iran+afghanistan,mongol-successors
+chagatai-khanate,Chagatai Khanate,people,mong,no,turan+steppe+afghanistan,mongol-successors
+moghulistan,Moghulistan,people,karluk,no,steppe+turan,mongol-successors
+ulus-of-orda,Ulus of Orda,people,kipch,no,steppe+wsiberia,mongol-successors
+uzbek-ulus,Uzbek ulus,people,kipch,no,steppe+wsiberia,mongol-successors
+nogai-horde,Nogai Horde,people,kipch,no,east+steppe,mongol-successors
+kazan-khanate,Khanate of Kazan,people,kipch,no,east,mongol-successors
+sibir-khanate,Khanate of Sibir,people,kipch,no,wsiberia,mongol-successors
+kazakh-khanate,Kazakh Khanate,people,kipch,no,steppe,hordes-and-khanates
+kazakh-zhuzes,Kazakh zhuzes,people,kipch,no,steppe,hordes-and-khanates
+kazakhs,Kazakhs,people,kipch,no,steppe,hordes-and-khanates
+khanate-of-bukhara,Bukhara,people,karluk,no,turan+afghanistan,hordes-and-khanates
+khanate-of-khiva,Khiva,people,karluk,no,turan,hordes-and-khanates
+khanate-of-kokand,Kokand,people,karluk,no,turan+steppe,hordes-and-khanates
+uzbeks,Uzbeks,people,karluk,no,turan+afghanistan,hordes-and-khanates
+karakalpaks,Karakalpaks,people,kipch,no,turan+steppe,hordes-and-khanates
+kyrgyz-tian-shan,Kyrgyz,people,kipch,no,turan,hordes-and-khanates
+turkmens,Turkmens,people,oghuz,no,turan+iran+afghanistan,hordes-and-khanates
+dzungars-west,Dzungars,people,mong,no,steppe,hordes-and-khanates
+kalmyks,Kalmyks,people,mong,no,east+steppe,hordes-and-khanates
+gorodets-culture,Gorodets culture,people,volga,yes,east,volga-and-kama
+kama-cultures,Kama cultures,people,volga,yes,east,volga-and-kama
+mordvins,Mordvins,people,volga,no,east,volga-and-kama
+mari,Mari,people,volga,no,east,volga-and-kama
+udmurts,Udmurts,people,volga,no,east,volga-and-kama
+komi,Komi,people,volga,no,east,volga-and-kama
+magna-hungaria,Eastern Magyars,people,ugric,no,east,volga-and-kama
+volga-bulgars,Volga Bulgars,people,turk,no,east,volga-and-kama
+chuvash,Chuvash,people,turk,no,east,volga-and-kama
+bashkirs,Bashkirs,people,kipch,no,east+wsiberia,volga-and-kama
+volga-tatars,Volga Tatars,people,kipch,no,east,volga-and-kama
+sargat-culture,Sargat culture,people,ugric,yes,wsiberia+steppe,west-siberians
+kulay-culture,Kulay culture,people,samoyed,yes,wsiberia,west-siberians
+khanty,Khanty,people,samoyed,no,wsiberia,west-siberians
+mansi,Mansi,people,samoyed,no,east+wsiberia,west-siberians
+nenets,Nenets,people,samoyed,no,east+wsiberia,west-siberians
+selkups,Selkups,people,samoyed,no,wsiberia,west-siberians
+kets,Ket,people,paleosib,no,wsiberia,west-siberians
+siberian-tatars,Siberian Tatars,people,kipch,no,wsiberia,west-siberians
+altaians,Altaians,people,sibturk,no,wsiberia,west-siberians
+khakas,Khakas,people,sibturk,no,wsiberia,west-siberians
+tuvans,Tuvans,people,sibturk,no,wsiberia,west-siberians
+parthian-empire,Parthian Empire,polity,wiran,no,iran+mesopotamia+afghanistan+turan,
+sasanian-empire,Sasanian Empire,polity,pers,no,iran+mesopotamia+afghanistan+turan,
+great-seljuks,Great Seljuk Empire,polity,oghuz,no,iran+afghanistan+turan+mesopotamia,
+khwarazmian-empire,Khwarazmian Empire,polity,,no,turan+iran+afghanistan,
+timurid-empire,Timurid Empire,polity,karluk,no,turan+iran+afghanistan+mesopotamia,
+safavid-iran,Safavid Iran,polity,,no,iran+afghanistan+mesopotamia,
+qajar-iran,Qajar Iran,polity,,no,iran,
+iran,Iran,polity,,no,iran,
+durrani-afghanistan,Durrani Empire,polity,eiran,no,afghanistan+iran+indus,
+afghanistan,Afghanistan,polity,,no,afghanistan,
+russian-siberia,Siberia (Russia),polity,,no,wsiberia,
+russian-turkestan,Russian Turkestan,polity,,no,turan+steppe,
+kazakh-ssr,Kazakh SSR,polity,,no,steppe,
+uzbek-ssr,Uzbek SSR,polity,,no,turan,
+turkmen-ssr,Turkmen SSR,polity,,no,turan,
+tajik-ssr,Tajik SSR,polity,,no,turan,
+kirghiz-ssr,Kirghiz SSR,polity,,no,turan,
+kazakhstan,Kazakhstan,polity,,no,steppe,
+uzbekistan,Uzbekistan,polity,,no,turan,
+turkmenistan,Turkmenistan,polity,,no,turan,
+tajikistan,Tajikistan,polity,,no,turan,
+kyrgyzstan,Kyrgyzstan,polity,,no,turan,
+gandhari-prakrit,Gandhari,language,dard,no,indus,
+kashmiri-dardic-speakers,Kashmiri and Dardic,language,dard,no,indus+hindustan,
+burushaski-speakers,Burushaski,language,isolate,no,indus,
+tibetic-speakers-himalaya,Ladakhi and Balti,language,tibetic,no,indus+hindustan,
+pashto-speakers-indus,Pashto,language,eiran,no,indus,
+brahui-speakers,Brahui,language,dravn,no,indus,
+balochi-speakers-indus,Balochi,language,wiran,no,indus,
+sindhi-speakers,Sindhi,language,indw,no,indus,
+urdu-speakers-karachi,Urdu,language,indn,no,indus,
+central-prakrits,Central Prakrits,language,indn,no,indus+hindustan,
+hindi-speakers,Hindi and its dialects,language,indn,no,hindustan,
+rajasthani-speakers,Rajasthani,language,indn,no,hindustan,
+punjabi-speakers,Punjabi,language,indn,no,indus+hindustan,
+pahari-speakers,Pahari languages,language,indn,no,hindustan,
+nepali-speakers,Nepali,language,indn,no,hindustan+bengal,
+himalayan-tb-speakers,Himalayan languages,language,tbother,no,hindustan+bengal,
+gujarati-speakers,Gujarati,language,indw,no,hindustan+deccan,
+bhili-speakers,Bhili,language,indw,no,hindustan+deccan,
+maharashtri-prakrit,Maharashtri Prakrit,language,indw,no,deccan+hindustan,
+marathi-speakers,Marathi and Konkani,language,indw,no,deccan+hindustan,
+chhattisgarhi-speakers,Chhattisgarhi,language,indn,no,hindustan+deccan,
+gondi-speakers,"Gondi, Kui and Kurukh",language,dravn,no,hindustan+deccan,
+munda-speakers,Munda languages,language,munda,no,hindustan+deccan,
+magadhi-prakrit,Eastern Prakrits,language,inde,no,hindustan+bengal+deccan,
+bihari-speakers,"Bhojpuri, Maithili, Magahi",language,inde,no,hindustan,
+bengali-speakers,Bengali,language,inde,no,hindustan+bengal,
+odia-speakers,Odia,language,inde,no,hindustan+deccan,
+assamese-speakers,Assamese,language,inde,no,bengal,
+bodo-garo-speakers,Bodo and Garo,language,tbother,no,bengal,
+tai-ahom-speakers,Tai Ahom,language,tai,no,bengal,
+khasi-speakers,Khasi,language,aaother,no,bengal,
+naga-kuki-speakers,"Naga, Meitei and Kuki-Chin",language,tbother,no,bengal,
+arunachal-speakers,Tani and Mishmi,language,tbother,no,bengal,
+kannada-speakers,Kannada,language,telkan,no,deccan,
+tulu-speakers,Tulu,language,telkan,no,deccan,
+telugu-speakers,Telugu,language,telkan,no,deccan,
+tamil-speakers,Tamil,language,tamil,no,deccan,
+malayalam-speakers,Malayalam,language,tamil,no,deccan,
+sinhala-speakers,Sinhala,language,sinh,no,lanka,
+tamil-speakers-lanka,Tamil of Sri Lanka,language,tamil,no,lanka,
+vedda-speakers,Vedda,language,isolate,no,lanka,
+dhivehi-speakers,Dhivehi,language,sinh,no,lanka,
+indo-scythians,Indo-Scythians,people,eiran,yes,indus+hindustan,indus-punjab
+yaudheyas,Yaudheyas,people,indn,no,indus+hindustan,indus-punjab
+sindh-rai-chach,Kingdom of Sindh,people,indw,yes,indus,indus-punjab
+arab-sindh,Arab Sindh,people,arab,no,indus,indus-punjab
+hindu-shahis,Hindu Shahis,people,indn,yes,indus,indus-punjab
+sindh-soomra-samma,Soomras and Sammas,people,indw,no,indus,indus-punjab
+sindh-kalhora-talpur,Kalhoras and Talpurs,people,indw,no,indus,indus-punjab
+jats,Jats,people,indn,no,indus+hindustan,indus-punjab
+baloch-east,Baloch,people,wiran,no,indus,indus-punjab
+brahuis,Brahui,people,dravn,no,indus,indus-punjab
+kalat-khanate,Khanate of Kalat,people,dravn,no,indus,indus-punjab
+sikhs,Sikhs,people,indn,no,indus+hindustan,indus-punjab
+sikh-empire,Sikh Empire,people,indn,no,indus+hindustan,indus-punjab
+punjabis,Punjabis,people,indn,no,indus+hindustan,indus-punjab
+western-kshatrapas,Western Kshatrapas,people,eiran,yes,hindustan+deccan,rajput-west
+malavas,Malavas,people,indn,no,hindustan,rajput-west
+aulikaras,Aulikaras,people,indn,no,hindustan,rajput-west
+maitrakas,Maitrakas,people,indw,yes,hindustan+deccan,rajput-west
+gurjara-pratiharas,Gurjara-Pratiharas,people,indn,no,hindustan+indus,rajput-west
+chahamanas,Chauhans,people,indn,no,hindustan,rajput-west
+paramaras,Paramaras,people,indn,no,hindustan,rajput-west
+chandelas,Chandelas,people,indn,no,hindustan,rajput-west
+kalachuris-tripuri,Kalachuris,people,indn,no,hindustan+deccan,rajput-west
+solankis,Solankis,people,indw,no,hindustan+deccan,rajput-west
+mewar,Mewar,people,indn,no,hindustan,rajput-west
+marwar,Marwar,people,indn,no,hindustan,rajput-west
+amber-jaipur,Amber and Jaipur,people,indn,no,hindustan,rajput-west
+gujaratis,Gujaratis,people,indw,no,hindustan+deccan,rajput-west
+panchala-kings,Panchala,people,indn,no,hindustan,ganges-kingdoms
+kaushambi-kings,Kaushambi,people,indn,no,hindustan,ganges-kingdoms
+nagas-padmavati,Nagas of Padmavati,people,indn,no,hindustan,ganges-kingdoms
+guptas,Gupta Empire,people,indn,no,india,ganges-kingdoms
+maukharis,Maukharis,people,indn,no,hindustan,ganges-kingdoms
+pushyabhutis,Harsha's empire,people,indn,no,hindustan+indus+bengal,ganges-kingdoms
+gahadavalas,Gahadavalas,people,indn,no,hindustan,ganges-kingdoms
+kalinga-kingdom,Kalinga,people,inde,yes,deccan+hindustan,eastern-kingdoms
+samatata,Samatata and Vanga,people,inde,yes,bengal,eastern-kingdoms
+gauda,Gauda,people,inde,no,bengal+hindustan,eastern-kingdoms
+kamarupa,Kamarupa,people,inde,yes,bengal,eastern-kingdoms
+palas,Palas,people,inde,no,bengal+hindustan,eastern-kingdoms
+senas,Senas,people,inde,no,bengal+hindustan,eastern-kingdoms
+somavamshis,Somavamshis,people,inde,no,deccan+hindustan,eastern-kingdoms
+eastern-gangas,Eastern Gangas,people,inde,no,deccan+hindustan,eastern-kingdoms
+gajapatis,Gajapatis,people,inde,no,deccan+hindustan,eastern-kingdoms
+ahoms,Ahom kingdom,people,tai,no,bengal,eastern-kingdoms
+koch-kingdom,Koch kingdom,people,tbother,yes,bengal,eastern-kingdoms
+bengal-nawabs,Nawabs of Bengal,people,pers,no,bengal+hindustan,mughal-successors
+bengalis,Bengalis,people,inde,no,bengal+hindustan,eastern-kingdoms
+odias,Odias,people,inde,no,deccan+hindustan,eastern-kingdoms
+assamese-people,Assamese,people,inde,no,bengal,eastern-kingdoms
+kunindas,Kunindas,people,indn,yes,hindustan,himalayan-kingdoms
+licchavis-nepal,Licchavis of Nepal,people,indn,yes,hindustan,himalayan-kingdoms
+patola-shahis,Patola Shahis,people,isolate,yes,indus,himalayan-kingdoms
+kashmir-kingdom,Kashmir,people,dard,no,hindustan+indus,himalayan-kingdoms
+kumaon-garhwal,Kumaon and Garhwal,people,indn,no,hindustan,himalayan-kingdoms
+ladakh-kingdom,Ladakh,people,tibetic,no,hindustan+indus,himalayan-kingdoms
+khasa-kingdom,Khasa kingdom,people,indn,no,hindustan,himalayan-kingdoms
+mallas-nepal,Malla kingdoms,people,tbother,no,hindustan,himalayan-kingdoms
+gorkha,Gorkha,people,indn,no,hindustan,himalayan-kingdoms
+sikkim-kingdom,Sikkim,people,tibetic,no,bengal,himalayan-kingdoms
+kashmiris,Kashmiris,people,dard,no,hindustan+indus,himalayan-kingdoms
+bengal-sultanate,Bengal Sultanate,people,pers,no,bengal+hindustan,north-sultanates
+kashmir-sultanate,Kashmir Sultanate,people,pers,no,hindustan+indus,north-sultanates
+jaunpur-sultanate,Jaunpur Sultanate,people,pers,no,hindustan,north-sultanates
+malwa-sultanate,Malwa Sultanate,people,pers,no,hindustan,north-sultanates
+gujarat-sultanate,Gujarat Sultanate,people,pers,no,hindustan+deccan,north-sultanates
+awadh,Awadh,people,pers,no,hindustan,mughal-successors
+rohillas,Rohilkhand,people,eiran,no,hindustan,mughal-successors
+hyderabad-nizam,Hyderabad,people,pers,no,deccan+hindustan,mughal-successors
+carnatic-nawabs,Nawabs of the Carnatic,people,pers,no,deccan,mughal-successors
+satavahanas,Satavahanas,people,indw,no,deccan+hindustan,deccan-kingdoms
+ikshvakus,Andhra Ikshvakus,people,telkan,yes,deccan,deccan-kingdoms
+vakatakas,Vakatakas,people,indw,yes,deccan+hindustan,deccan-kingdoms
+kadambas,Kadambas,people,telkan,no,deccan,deccan-kingdoms
+western-gangas,Western Gangas,people,telkan,no,deccan,deccan-kingdoms
+vishnukundins,Vishnukundins,people,telkan,yes,deccan,deccan-kingdoms
+chalukyas-badami,Chalukyas of Badami,people,telkan,no,deccan+hindustan,deccan-kingdoms
+eastern-chalukyas,Chalukyas of Vengi,people,telkan,no,deccan,deccan-kingdoms
+rashtrakutas,Rashtrakutas,people,telkan,no,deccan+hindustan,deccan-kingdoms
+western-chalukyas,Chalukyas of Kalyani,people,telkan,no,deccan+hindustan,deccan-kingdoms
+hoysalas,Hoysalas,people,telkan,no,deccan,deccan-kingdoms
+kakatiyas,Kakatiyas,people,telkan,no,deccan,deccan-kingdoms
+yadavas,Yadavas of Devagiri,people,indw,no,deccan+hindustan,deccan-kingdoms
+vijayanagara,Vijayanagara,people,telkan,no,deccan,deccan-kingdoms
+mysore,Mysore,people,telkan,no,deccan,deccan-kingdoms
+marathas,Marathas,people,indw,no,india,deccan-kingdoms
+kannadigas,Kannadigas,people,telkan,no,deccan,deccan-kingdoms
+telugus,Telugus,people,telkan,no,deccan,deccan-kingdoms
+bahmanis,Bahmani Sultanate,people,pers,no,deccan+hindustan,deccan-sultanates
+ahmadnagar,Ahmadnagar,people,pers,no,deccan,deccan-sultanates
+bijapur,Bijapur,people,pers,no,deccan,deccan-sultanates
+golconda,Golconda,people,pers,no,deccan,deccan-sultanates
+madurai-sultanate,Madurai Sultanate,people,pers,no,deccan,deccan-sultanates
+cheras,Cheras,people,tamil,no,deccan,tamil-kingdoms
+cholas,Cholas,people,tamil,no,deccan+lanka,tamil-kingdoms
+pandyas,Pandyas,people,tamil,no,deccan,tamil-kingdoms
+ays,Ay kingdom,people,tamil,no,deccan,tamil-kingdoms
+kalabhras,Kalabhras,people,tamil,yes,deccan,tamil-kingdoms
+pallavas,Pallavas,people,tamil,no,deccan,tamil-kingdoms
+venad-travancore,Venad and Travancore,people,tamil,no,deccan,tamil-kingdoms
+zamorins,Calicut,people,tamil,no,deccan,tamil-kingdoms
+madurai-nayaks,Nayaks of Madurai,people,telkan,no,deccan,tamil-kingdoms
+tamils,Tamils,people,tamil,no,deccan,tamil-kingdoms
+malayalis,Malayalis,people,tamil,no,deccan,tamil-kingdoms
+anuradhapura,Anuradhapura,people,sinh,no,lanka,lanka-kingdoms
+ruhuna,Ruhuna,people,sinh,no,lanka,lanka-kingdoms
+polonnaruwa,Polonnaruwa,people,sinh,no,lanka,lanka-kingdoms
+dambadeniya-gampola,Dambadeniya and Gampola,people,sinh,no,lanka,lanka-kingdoms
+jaffna-kingdom,Jaffna kingdom,people,tamil,no,lanka,lanka-kingdoms
+kotte,Kotte,people,sinh,no,lanka,lanka-kingdoms
+kandy,Kandy,people,sinh,no,lanka,lanka-kingdoms
+veddas,Veddas,people,isolate,yes,lanka,lanka-kingdoms
+maldives-sultanate,Maldive Sultanate,people,sinh,no,lanka,lanka-kingdoms
+sinhalese,Sinhalese,people,sinh,no,lanka,lanka-kingdoms
+sri-lankan-tamils,Sri Lankan Tamils,people,tamil,no,lanka,lanka-kingdoms
+gonds,Gonds,people,dravn,no,hindustan+deccan,central-hill-peoples
+gond-kingdoms,Gond kingdoms,people,dravn,no,hindustan+deccan,central-hill-peoples
+bhils,Bhils,people,indw,yes,hindustan+deccan,central-hill-peoples
+mundas,Munda and Ho,people,munda,no,hindustan+deccan,central-hill-peoples
+santals,Santals,people,munda,no,hindustan+bengal,central-hill-peoples
+oraons,Kurukh,people,dravn,no,hindustan,central-hill-peoples
+kondhs,Kondh,people,dravn,no,deccan+hindustan,central-hill-peoples
+soras,Sora,people,munda,no,deccan,central-hill-peoples
+nagas,Nagas,people,tbother,no,bengal,northeast-hills
+khasis,Khasi and Jaintia,people,aaother,no,bengal,northeast-hills
+dimasa-kingdom,Dimasa kingdom,people,tbother,no,bengal,northeast-hills
+manipur,Manipur,people,tbother,no,bengal,northeast-hills
+tripura-kingdom,Tripura,people,tbother,no,bengal,northeast-hills
+mizos,Mizo and Kuki,people,tbother,no,bengal,northeast-hills
+tani-peoples,"Adi, Nyishi, Apatani",people,tbother,no,bengal,northeast-hills
+delhi-sultanate,Delhi Sultanate,polity,pers,no,india,
+mughal-empire,Mughal Empire,polity,pers,no,india,
+portuguese-india,Portuguese India,polity,ibrom,no,deccan+hindustan,
+colonial-ceylon,Ceylon,polity,,no,lanka,
+east-india-company,East India Company,polity,eng,no,india,
+british-raj,British India,polity,eng,no,india,
+jammu-and-kashmir,Jammu and Kashmir,polity,,no,hindustan+indus,
+nepal,Nepal,polity,indn,no,hindustan,
+india,India,polity,,no,india,
+pakistan,Pakistan,polity,,no,indus+bengal,
+bangladesh,Bangladesh,polity,inde,no,bengal,
+sri-lanka,Sri Lanka,polity,,no,lanka,
+maldives,Maldives,polity,sinh,no,lanka,
+chinese-speakers,Chinese,language,sinitic,no,chinan+chinas+mongolia+tarim,
+chinese-northeast,Chinese (north-east),language,sinitic,no,manchuria,
+yue-languages,Yue languages,language,tai,yes,chinas,
+zhuang-tai-speakers,Zhuang and Tai,language,tai,no,chinas,
+hmong-mien-speakers,Hmong-Mien,language,hmong,no,chinas,
+yi-bai-speakers,Yi and Bai,language,burm,no,chinas+tibet,
+wa-palaung-yunnan,Wa and Palaungic,language,aaother,no,chinas,
+tujia-speakers,Tujia,language,tbother,no,chinas,
+qiangic-speakers,Qiang and Qiangic,language,tbother,no,tibet+tarim+chinan+chinas,
+tangut-speakers,Tangut,language,tbother,no,chinan+mongolia+tarim,
+tibetan-speakers,Tibetan,language,tibetic,no,tibet+tarim+chinan+chinas,
+zhangzhung-speakers,Zhangzhung,language,tbother,no,tibet,
+tocharian-speakers,Tocharian,language,toch,no,tarim,
+saka-speakers-tarim,Saka (Khotanese),language,eiran,no,tarim+tibet,
+uyghur-speakers,Uyghur,language,karluk,no,tarim,
+wusun-language,Wusun (language unknown),language,iran,yes,tarim,
+xiongnu-language,Xiongnu (language unknown),language,steppeunk,no,mongolia+tarim+esiberia,
+xianbei-speakers,Xianbei and Khitan,language,xianbei,no,mongolia+tarim+esiberia+manchuria,
+rouran-language,Rouran (language unknown),language,steppeunk,no,mongolia+tarim+esiberia,
+old-turkic-east,Old Turkic,language,turk,no,mongolia+tarim+esiberia,
+mongolic-speakers,Mongolian,language,mong,no,mongolia+tarim+esiberia+manchuria,
+kazakh-speakers-china,Kazakh,language,kipch,no,tarim,
+tungusic-manchuria,Tungusic (Jurchen and Manchu),language,tung,no,manchuria+esiberia,
+puyo-languages,Buyeo and Goguryeo,language,kor,yes,manchuria+korea,
+korean-speakers,Korean,language,kor,no,korea,
+jurchen-korea,Jurchen (north-east Korea),language,tung,no,korea,
+peninsular-japonic,Peninsular Japonic,language,jap,yes,korea,
+japanese-speakers,Japanese,language,jap,no,japan,
+japanese-karafuto,Japanese (Karafuto),language,jap,no,esiberia,
+ainu-speakers,Ainu,language,ainu,no,japan+esiberia,
+ryukyu-early,Early Ryukyu languages (unknown),language,isolate,yes,japan,
+ryukyuan-speakers,Ryukyuan,language,jap,no,japan,
+evenki-even-speakers,Evenki and Even,language,tung,no,esiberia,
+yukaghir-speakers,Yukaghir,language,paleosib,no,esiberia,
+chukchi-koryak-speakers,"Chukchi, Koryak and Itelmen",language,paleosib,no,esiberia,
+yupik-chukotka,Siberian Yupik,language,inuit,no,esiberia,
+nivkh-speakers,Nivkh,language,paleosib,no,esiberia,
+yakut-speakers,Yakut (Sakha),language,sibturk,no,esiberia,
+buryat-speakers,Buryat,language,mong,no,esiberia,
+nganasan-east,Nganasan (Samoyedic),language,samoyed,no,esiberia,
+russian-far-east,Russian (Far East),language,slave,no,esiberia,
+zhongyuan-chinese,Central Plain Chinese,people,sinitic,no,chinan,han-chinese
+jiangnan-chinese,Jiangnan Chinese,people,sinitic,no,chinan+chinas,han-chinese
+shu-chinese,Sichuan Chinese,people,sinitic,no,chinas,han-chinese
+xiang-gan-chinese,Xiang and Gan Chinese,people,sinitic,no,chinas,han-chinese
+min-chinese,Min Chinese,people,sinitic,no,chinas,han-chinese
+cantonese,Cantonese,people,sinitic,no,chinas,han-chinese
+han-dynasty,Han Empire,polity,sinitic,no,china+tarim+korea+manchuria+mongolia,
+cao-wei,Wei,people,sinitic,no,chinan+chinas+manchuria,three-kingdoms
+shu-han,Shu Han,people,sinitic,no,chinas+chinan,three-kingdoms
+eastern-wu,Wu,people,sinitic,no,chinas+chinan,three-kingdoms
+jin-dynasty,Jin (Sima),polity,sinitic,no,china,
+han-zhao,Han Zhao,people,steppeunk,no,chinan,sixteen-kingdoms
+later-zhao,Later Zhao,people,steppeunk,yes,chinan,sixteen-kingdoms
+former-yan,Former Yan,people,xianbei,no,chinan+manchuria+mongolia,sixteen-kingdoms
+former-qin,Former Qin,people,tbother,yes,chinan+chinas,sixteen-kingdoms
+later-qin,Later Qin,people,tbother,no,chinan,sixteen-kingdoms
+northern-liang,Northern Liang,people,steppeunk,yes,chinan+tarim,sixteen-kingdoms
+northern-wei,Northern Wei,people,xianbei,no,chinan+mongolia+manchuria,north-south-dynasties
+northern-qi,Eastern Wei and Northern Qi,people,xianbei,no,chinan,north-south-dynasties
+northern-zhou,Western Wei and Northern Zhou,people,xianbei,no,chinan+chinas,north-south-dynasties
+liu-song,Liu Song,people,sinitic,no,chinas+chinan,north-south-dynasties
+southern-qi,Southern Qi,people,sinitic,no,chinas+chinan,north-south-dynasties
+liang-dynasty,Liang,people,sinitic,no,chinas+chinan,north-south-dynasties
+chen-dynasty,Chen,people,sinitic,no,chinas,north-south-dynasties
+sui-dynasty,Sui,polity,sinitic,no,china,
+tang-dynasty,Tang Empire,polity,sinitic,no,china+tarim+mongolia+manchuria,
+five-dynasties-north,Five Dynasties,people,sinitic,no,chinan,five-dynasties
+southern-tang,Wu and Southern Tang,people,sinitic,no,chinas+chinan,five-dynasties
+wuyue,Wuyue,people,sinitic,no,chinas,five-dynasties
+southern-han,Southern Han,people,sinitic,no,chinas,five-dynasties
+later-shu,Former and Later Shu,people,sinitic,no,chinas+chinan,five-dynasties
+song-dynasty,Song,polity,sinitic,no,china,
+yuan-dynasty,Yuan,polity,mong,no,china+mongolia+manchuria+tibet+korea,
+ming-dynasty,Ming,polity,sinitic,no,china+manchuria,
+qing-dynasty,Qing Empire,polity,tung,no,china+manchuria+mongolia+tarim+tibet,
+republic-of-china,Republic of China,polity,sinitic,no,china+manchuria+mongolia+tarim,
+china,China,polity,sinitic,no,china+manchuria+mongolia+tarim+tibet,
+minyue,Min Yue,people,tai,yes,chinas,hundred-yue
+nanyue,Nan Yue,people,tai,yes,chinas,hundred-yue
+luoyue,Luo Yue,people,tai,yes,chinas,hundred-yue
+shanyue,Shan Yue,people,tai,yes,chinas,hundred-yue
+li-lao,Li and Lao,people,tai,yes,chinas,hundred-yue
+dian,Dian,people,burm,yes,chinas,yunnan-kingdoms
+cuan,Cuan,people,burm,yes,chinas,yunnan-kingdoms
+nanzhao,Nanzhao,people,burm,no,chinas+tibet+burma+indochina,yunnan-kingdoms
+dali-kingdom,Dali,people,burm,no,chinas+tibet,yunnan-kingdoms
+wuling-man,Wuling Man,people,hmong,yes,chinas,southwest-peoples
+miao,Miao (Hmong),people,hmong,no,chinas,southwest-peoples
+yao,Yao (Mien),people,hmong,no,chinas,southwest-peoples
+zhuang,Zhuang,people,tai,no,chinas,southwest-peoples
+yi,Yi (Nuosu),people,burm,no,chinas,southwest-peoples
+bai,Bai,people,burm,no,chinas+tibet,southwest-peoples
+tujia,Tujia,people,tbother,no,chinas,southwest-peoples
+dai,Dai,people,tai,no,chinas,southwest-peoples
+li-hainan,Li (Hlai),people,tai,no,chinas,southwest-peoples
+qiang-min-river,Qiang (Min valley),people,tbother,no,chinas+chinan,southwest-peoples
+qiang,Qiang,people,tbother,no,tibet+tarim+chinan,tibetans-qiang
+zhangzhung,Zhangzhung,people,tbother,no,tibet,tibetans-qiang
+tibetans,Tibetans,people,tibetic,no,tibet+tarim+chinan+chinas,tibetans-qiang
+tuyuhun,Tuyuhun,people,xianbei,no,tarim+tibet+chinan,tibetans-qiang
+tanguts,Tanguts,people,tbother,no,chinan+chinas+mongolia+tarim+tibet,tibetans-qiang
+western-xia,Western Xia,polity,tbother,no,chinan+mongolia+tarim,
+guge,Guge,people,tibetic,no,tibet,tibetans-qiang
+tibetan-empire,Tibetan Empire,polity,tibetic,no,tibet+tarim+chinan+chinas,
+ganden-phodrang,Ganden Phodrang,polity,tibetic,no,tibet,
+bhutan,Bhutan,polity,tibetic,no,tibet,
+khotan,Khotan,people,eiran,no,tarim,tarim-oases
+shule,Shule (Kashgar),people,eiran,yes,tarim,tarim-oases
+kucha,Kucha,people,toch,no,tarim,tarim-oases
+yanqi,Karashahr (Yanqi),people,toch,no,tarim,tarim-oases
+shanshan,Shanshan (Loulan),people,toch,yes,tarim,tarim-oases
+gaochang,Gaochang,people,sinitic,no,tarim,tarim-oases
+qocho,Qocho Uyghurs,people,turk,no,tarim,tarim-oases
+ganzhou-uyghurs,Ganzhou Uyghurs,people,turk,no,chinan+tarim,tarim-oases
+yarkand-khanate,Yarkand Khanate,polity,karluk,no,tarim,
+uyghurs,Uyghurs,people,karluk,no,tarim,tarim-oases
+xiongnu,Xiongnu,people,steppeunk,no,mongolia+tarim+esiberia+chinan,mongolia-steppe
+xianbei,Xianbei,people,xianbei,no,mongolia+manchuria+esiberia+tarim,mongolia-steppe
+rouran,Rouran,people,steppeunk,no,mongolia+tarim+esiberia,mongolia-steppe
+tiele,Tiele (Gaoche),people,turk,no,mongolia+tarim,mongolia-steppe
+gokturks,Göktürks,people,turk,no,mongolia+tarim+esiberia,mongolia-steppe
+uyghur-khaganate,Uyghur Khaganate,people,turk,no,mongolia+tarim+esiberia,mongolia-steppe
+yenisei-kirghiz,Yenisei Kirghiz,people,turk,no,mongolia+wsiberia+esiberia,mongolia-steppe
+tatars-mongolia,Tatars,people,mong,yes,mongolia,mongolia-steppe
+kereit,Kereit,people,mong,yes,mongolia,mongolia-steppe
+naimans,Naimans,people,turk,yes,mongolia+tarim,mongolia-steppe
+khamag-mongols,Mongols,people,mong,no,mongolia+esiberia,mongolia-steppe
+mongol-empire,Mongol Empire,polity,mong,no,mongolia+tarim+chinan+manchuria+esiberia+wsiberia+steppe+turan+tibet+korea,
+northern-yuan,Northern Yuan,people,mong,no,mongolia+esiberia,mongolia-steppe
+oirats,Oirats,people,mong,no,mongolia+tarim,mongolia-steppe
+dzungar-khanate,Dzungar Khanate,people,mong,no,tarim+mongolia,mongolia-steppe
+khalkha,Khalkha Mongols,people,mong,no,mongolia,mongolia-steppe
+inner-mongols,Inner Mongols,people,mong,no,mongolia+manchuria,mongolia-steppe
+mongolia,Mongolia,polity,mong,no,mongolia,
+wuhuan,Wuhuan,people,xianbei,yes,mongolia+manchuria+chinan,manchurian-peoples
+yilou,Yilou,people,tung,yes,manchuria+esiberia,manchurian-peoples
+mohe,Mohe,people,tung,yes,manchuria+esiberia,manchurian-peoples
+khitans,Khitans,people,xianbei,no,mongolia+manchuria,manchurian-peoples
+shiwei,Shiwei,people,mong,yes,manchuria+mongolia+esiberia,manchurian-peoples
+balhae,Balhae,people,tung,yes,manchuria+korea+esiberia,manchurian-peoples
+liao-dynasty,Liao,polity,xianbei,no,mongolia+manchuria+chinan,
+jurchens,Jurchens,people,tung,no,manchuria+esiberia+korea,manchurian-peoples
+jin-jurchen,Jin (Jurchen),polity,tung,no,manchuria+chinan+mongolia,
+manchus,Manchus,people,tung,no,manchuria,manchurian-peoples
+kurykan,Kurykan,people,turk,no,esiberia+wsiberia,east-siberians
+siberian-yupik,Siberian Yupik,people,inuit,no,esiberia,east-siberians
+evenki,Evenki,people,tung,no,esiberia+manchuria,east-siberians
+evens,Even,people,tung,no,esiberia,east-siberians
+yukaghir,Yukaghir,people,paleosib,no,esiberia,east-siberians
+chukchi,Chukchi,people,paleosib,no,esiberia,east-siberians
+koryak,Koryak,people,paleosib,no,esiberia,east-siberians
+nivkh,Nivkh,people,paleosib,no,esiberia,east-siberians
+sakha,Sakha (Yakuts),people,sibturk,no,esiberia,east-siberians
+buryats,Buryats,people,mong,no,esiberia+wsiberia+mongolia,east-siberians
+buyeo,Buyeo,people,kor,yes,manchuria,korean-kingdoms
+goguryeo,Goguryeo,people,kor,yes,manchuria+korea+chinan,korean-kingdoms
+lelang,Lelang commandery,people,sinitic,no,korea,korean-kingdoms
+okjeo-ye,Okjeo and Ye,people,kor,yes,korea,korean-kingdoms
+mahan,Mahan,people,kor,yes,korea,korean-kingdoms
+jinhan,Jinhan,people,kor,no,korea,korean-kingdoms
+byeonhan,Byeonhan,people,kor,yes,korea,korean-kingdoms
+baekje,Baekje,people,kor,no,korea,korean-kingdoms
+silla,Silla,people,kor,no,korea,korean-kingdoms
+gaya,Gaya,people,kor,yes,korea,korean-kingdoms
+tamna,Tamna,people,kor,yes,korea,korean-kingdoms
+koreans,Koreans,people,kor,no,korea,korean-kingdoms
+goryeo,Goryeo,polity,kor,no,korea,
+joseon,Joseon,polity,kor,no,korea,
+north-korea,North Korea,polity,kor,no,korea,
+south-korea,South Korea,polity,kor,no,korea,
+wa,Wa,people,jap,no,japan,wa-yamato
+yamato,Yamato,people,jap,no,japan,wa-yamato
+hayato,Hayato,people,jap,yes,japan,wa-yamato
+japanese,Japanese,people,jap,no,japan,wa-yamato
+ryukyuans,Ryukyuans,people,jap,no,japan,wa-yamato
+ryukyu-kingdom,Ryukyu Kingdom,polity,jap,no,japan,
+nara-heian-japan,Japan (Nara and Heian),polity,jap,no,japan,
+kamakura-shogunate,Kamakura shogunate,polity,jap,no,japan,
+muromachi-shogunate,Muromachi shogunate,polity,jap,no,japan,
+tokugawa-shogunate,Tokugawa shogunate,polity,jap,no,japan,
+empire-of-japan,Empire of Japan,polity,jap,no,japan+korea+manchuria+esiberia,
+japan,Japan,polity,jap,no,japan,
+epi-jomon,Epi-Jomon culture,people,ainu,yes,japan,emishi-ainu
+emishi,Emishi,people,ainu,yes,japan,emishi-ainu
+okhotsk-culture,Okhotsk culture,people,paleosib,yes,japan+esiberia,emishi-ainu
+ainu,Ainu,people,ainu,no,japan+esiberia,emishi-ainu
+western-desert-languages,Western Desert languages,language,pama,no,australia,
+arandic-languages,Arandic languages,language,pama,no,australia,
+ngumpin-yapa-languages,Ngumpin-Yapa languages,language,pama,no,australia,
+yolngu-matha,Yolŋu Matha,language,pama,no,australia,
+pilbara-languages,Pilbara and Gascoyne languages,language,pama,no,australia,
+southwest-languages,Noongar and south-west languages,language,pama,no,australia,
+thura-yura-languages,Thura-Yura languages,language,pama,no,australia,
+southeast-languages,Languages of the south-east,language,pama,no,australia,
+karnic-languages,Karnic languages,language,pama,no,australia,
+queensland-languages,Queensland languages,language,pama,no,australia,
+paman-languages,Cape York languages,language,pama,no,australia,
+kala-lagaw-ya,Kala Lagaw Ya,language,pama,no,australia,
+meriam-mir,Meriam Mir,language,papother,no,australia,
+arnhem-languages,Arnhem Land languages,language,ausnp,no,australia,
+daly-languages,Daly and Darwin languages,language,ausnp,no,australia,
+tiwi-language,Tiwi,language,ausnp,no,australia,
+nyulnyulan-languages,Nyulnyulan languages,language,ausnp,no,australia,
+kimberley-languages,Kimberley languages,language,ausnp,no,australia,
+mirndi-gulf-languages,Barkly and Gulf languages,language,ausnp,no,australia,
+tasmanian-languages,Tasmanian languages,language,tasm,no,australia,
+english-australia,English,language,eng,no,australia,
+kriol,Kriol,language,eng,no,australia,
+tng-west-highlands,Western highlands languages,language,tng,no,papua,
+tng-east-highlands,Eastern highlands languages,language,tng,no,papua,
+tng-south-lowlands,"Asmat, Awyu and Ok languages",language,tng,no,papua,
+tng-papuan-peninsula,Papuan peninsula languages,language,tng,no,papua,
+sepik-ramu-languages,Sepik and Ramu languages,language,papother,no,papua,
+north-papuan-languages,North New Guinea languages,language,papother,no,papua,
+birds-head-languages,Bird's Head languages,language,papother,no,papua,
+south-papuan-languages,Southern New Guinea languages,language,papother,no,papua,
+cenderawasih-languages,Cenderawasih Bay languages,language,oceanic,no,papua,
+aru-kei-languages,"Aru, Kei and Tanimbar languages",language,malayic,no,papua,
+oceanic-bismarck,Oceanic languages of the Bismarcks,language,oceanic,no,papua,
+island-papuan-languages,Papuan languages of the islands,language,papother,no,papua,
+oceanic-papuan-tip,Oceanic languages of the south-east,language,oceanic,no,papua,
+oceanic-north-coast,Oceanic languages of the north coast,language,oceanic,no,papua,
+malay-newguinea,Malay and Indonesian,language,malayic,no,papua,
+tok-pisin,Tok Pisin,language,eng,no,papua,
+eora,Eora,people,pama,yes,australia,aus-southeast
+wiradjuri,Wiradjuri,people,pama,yes,australia,aus-southeast
+kamilaroi,Kamilaroi,people,pama,yes,australia,aus-southeast
+kulin,Kulin,people,pama,yes,australia,aus-southeast
+gunditjmara,Gunditjmara,people,pama,yes,australia,aus-southeast
+yorta-yorta,Yorta Yorta,people,pama,yes,australia,aus-southeast
+bundjalung,Bundjalung,people,pama,yes,australia,aus-southeast
+ngarrindjeri,Ngarrindjeri,people,pama,yes,australia,aus-southeast
+kaurna,Kaurna,people,pama,yes,australia,aus-southeast
+barkindji,Barkandji,people,pama,yes,australia,aus-southeast
+noongar,Noongar,people,pama,yes,australia,aus-west
+yamatji,Yamatji,people,pama,yes,australia,aus-west
+yindjibarndi,Yindjibarndi,people,pama,yes,australia,aus-west
+pitjantjatjara,Pitjantjatjara,people,pama,yes,australia,aus-desert
+martu,Martu,people,pama,yes,australia,aus-desert
+arrernte,Arrernte,people,pama,yes,australia,aus-desert
+warlpiri,Warlpiri,people,pama,yes,australia,aus-desert
+diyari,Diyari,people,pama,yes,australia,aus-desert
+yolngu,Yolŋu,people,pama,yes,australia,aus-north
+bininj,Bininj,people,ausnp,yes,australia,aus-north
+tiwi,Tiwi,people,ausnp,yes,australia,aus-north
+larrakia,Larrakia,people,ausnp,yes,australia,aus-north
+gurindji,Gurindji,people,pama,yes,australia,aus-north
+yawuru,Yawuru,people,ausnp,yes,australia,aus-north
+bunuba,Bunuba,people,ausnp,yes,australia,aus-north
+kuku-yalanji,Kuku Yalanji,people,pama,yes,australia,aus-queensland
+guugu-yimithirr,Guugu Yimithirr,people,pama,yes,australia,aus-queensland
+wik,Wik,people,pama,yes,australia,aus-queensland
+kalkadoon,Kalkadoon,people,pama,yes,australia,aus-queensland
+yuggera,Yuggera,people,pama,yes,australia,aus-queensland
+bidjara,Bidjara,people,pama,yes,australia,aus-queensland
+palawa,Palawa,people,tasm,no,australia,aus-southeast
+maluilgal,Maluligal,people,pama,yes,australia,torres-strait
+meriam,Meriam,people,papother,yes,australia,torres-strait
+enga,Enga,people,tng,yes,papua,ng-highlands
+huli,Huli,people,tng,yes,papua,ng-highlands
+melpa,Melpa,people,tng,yes,papua,ng-highlands
+chimbu,Chimbu,people,tng,yes,papua,ng-highlands
+dani,Dani,people,tng,yes,papua,ng-highlands
+mee,Mee,people,tng,yes,papua,ng-highlands
+iatmul,Iatmul,people,papother,yes,papua,ng-sepik-north
+abelam,Abelam,people,papother,yes,papua,ng-sepik-north
+biak,Biak,people,oceanic,yes,papua,ng-sepik-north
+arfak-peoples,Arfak peoples,people,papother,yes,papua,ng-sepik-north
+asmat,Asmat,people,tng,yes,papua,ng-papuan-coasts
+marind,Marind,people,papother,yes,papua,ng-papuan-coasts
+kiwai,Kiwai,people,papother,yes,papua,ng-papuan-coasts
+motu,Motu,people,oceanic,yes,papua,ng-papuan-coasts
+mekeo,Mekeo,people,oceanic,yes,papua,ng-papuan-coasts
+orokaiva,Orokaiva,people,tng,yes,papua,ng-papuan-coasts
+post-lapita-bismarcks,Post-Lapita societies,people,oceanic,yes,papua,ng-islands
+tolai,Tolai,people,oceanic,yes,papua,ng-islands
+trobriand-islanders,Trobriand Islanders,people,oceanic,yes,papua,ng-islands
+manus-islanders,Manus Islanders,people,oceanic,yes,papua,ng-islands
+nasioi,Nasioi,people,papother,yes,papua,ng-islands
+makassan-trepangers,Makassan trepangers,people,malayic,no,australia,
+tidore-papuan-coast,Tidore's Papuan coast,polity,,no,papua,
+new-south-wales-colony,New South Wales,polity,eng,no,australia,
+van-diemens-land,Van Diemen's Land,polity,eng,no,australia,
+western-australia-colony,Western Australia,polity,eng,no,australia,
+south-australia-colony,South Australia,polity,eng,no,australia,
+victoria-colony,Victoria,polity,eng,no,australia,
+queensland-colony,Queensland,polity,eng,no,australia,
+commonwealth-of-australia,Australia,polity,eng,no,australia,
+dutch-new-guinea,Dutch New Guinea,polity,wgerm,no,papua,
+german-new-guinea,German New Guinea,polity,wgerm,no,papua,
+british-new-guinea,British New Guinea,polity,eng,no,papua,
+territory-of-papua,Territory of Papua,polity,eng,no,papua,
+territory-of-new-guinea,Territory of New Guinea,polity,eng,no,papua,
+papua-and-new-guinea,Papua and New Guinea,polity,eng,no,papua,
+papua-new-guinea,Papua New Guinea,polity,eng,no,papua,
+indonesian-papua,Papua (Indonesia),polity,malayic,no,papua,
+anatolian-speakers,Anatolian and Phrygian speakers,language,anat,no,anatolia,
+galatian-speakers,Galatian speakers,language,gaul,no,anatolia,
+armenian-speakers,Armenian speakers,language,armn,no,anatolia+caucasus,
+kurdish-speakers-west,Kurdish speakers,language,wiran,no,anatolia+mesopotamia+levant,
+turkish-speakers-anatolia,Turkish speakers,language,oghuz,no,anatolia,
+zan-speakers,Laz and Mingrelian speakers,language,kart,no,anatolia+caucasus,
+georgian-speakers,Georgian speakers,language,kart,no,caucasus,
+abkhaz-speakers,Abkhaz speakers,language,nwcauc,no,caucasus,
+caucasian-albanian-speakers,Caucasian Albanian and Lezgic speakers,language,necauc,no,caucasus,
+tat-speakers,Persian and Tat speakers,language,pers,no,caucasus,
+azeri-speakers-caucasus,Azeri speakers,language,oghuz,no,caucasus,
+circassian-speakers,Circassian speakers,language,nwcauc,no,east,
+alan-ossetian-speakers,Alan and Ossetian speakers,language,iran,no,east+caucasus,
+nakh-dagestanian-speakers,Chechen and Dagestanian speakers,language,necauc,no,east,
+north-caucasus-turkic,Turkic speakers of the North Caucasus,language,kipch,no,east,
+russian-speakers-caucasus,Russian speakers of the North Caucasus,language,slave,no,east,
+icelandic-speakers,Icelandic speakers,language,norse,no,north,
+aramaic-speakers,Aramaic and Syriac speakers,language,aram,no,levant+mesopotamia+anatolia,
+hebrew-speakers,Hebrew speakers,language,canaan,no,levant,
+phoenician-speakers,Phoenician and Punic speakers,language,canaan,no,levant+maghreb,
+arabic-arabia,Arabic speakers (Arabia),language,arab,no,arabia+levant+mesopotamia,
+arabic-levant,Arabic speakers (Levant and Iraq),language,arab,no,levant+mesopotamia,
+old-south-arabian-speakers,Old South Arabian speakers,language,sarab,no,arabia,
+modern-south-arabian-speakers,Mehri and Soqotri speakers,language,sarab,no,arabia,
+egyptian-speakers,Egyptian and Coptic speakers,language,egyp,no,egypt,
+greek-speakers-africa,Greek speakers (Alexandria and Cyrene),language,greek,no,egypt+maghreb,
+beja-speakers-egypt,Beja speakers,language,cush,yes,egypt,
+nubian-speakers-egypt,Nubian speakers (Egypt),language,nubian,yes,egypt,
+arabic-egypt,Arabic speakers (Egypt),language,arab,no,egypt,
+berber-speakers,Berber speakers,language,berb,no,maghreb+egypt,
+guanche-speakers,Guanche speakers,language,berb,yes,maghreb,
+spanish-canaries,Spanish speakers (Canary Islands),language,ibrom,no,maghreb,
+latin-speakers-africa,Latin speakers (Africa),language,lat,no,maghreb,
+arabic-maghreb,Arabic speakers (Maghreb),language,arab,no,maghreb,
+teda-libya,Teda speakers,language,saharan,no,maghreb,
+galatians,Galatians,people,gaul,no,anatolia,anatolian-peoples
+cappadocians,Cappadocians,people,anat,yes,anatolia,anatolian-peoples
+phrygians,Phrygians,people,anat,no,anatolia,anatolian-peoples
+isaurians,Isaurians,people,anat,yes,anatolia,anatolian-peoples
+pontus-kingdom,Kingdom of Pontus,people,greek,no,anatolia,anatolian-peoples
+commagene,Commagene,people,aram,yes,anatolia,anatolian-peoples
+empire-of-nicaea,Empire of Nicaea,people,greek,no,anatolia,
+empire-of-trebizond,Empire of Trebizond,people,greek,no,anatolia,
+seljuks-of-rum,Sultanate of Rum,people,oghuz,no,anatolia,anatolian-turks
+danishmends,Danishmends,people,oghuz,no,anatolia,anatolian-turks
+karamanids,Karamanids,people,oghuz,no,anatolia,anatolian-turks
+aegean-beyliks,Aegean beyliks,people,oghuz,no,anatolia,anatolian-turks
+white-sheep-turkmen,Aq Qoyunlu,people,oghuz,no,anatolia+mesopotamia+caucasus,anatolian-turks
+black-sheep-turkmen,Qara Qoyunlu,people,oghuz,no,anatolia+mesopotamia+caucasus,anatolian-turks
+anatolian-turks-people,Turks,people,oghuz,no,anatolia,anatolian-turks
+kurdistan-kurds,Kurds,people,wiran,no,anatolia+mesopotamia+levant,kurdish-peoples
+marwanids,Marwanids,people,wiran,no,anatolia+mesopotamia,kurdish-peoples
+shaddadids,Shaddadids,people,wiran,no,caucasus+anatolia,kurdish-peoples
+kurdish-emirates,Kurdish emirates,people,wiran,no,anatolia+mesopotamia,kurdish-peoples
+yazidis,Yazidis,people,wiran,no,mesopotamia,kurdish-peoples
+kingdom-of-armenia,Kingdom of Armenia,people,armn,no,anatolia+caucasus,armenians
+persian-armenia,Armenia under Persia,people,armn,no,anatolia+caucasus,armenians
+bagratid-armenia,Bagratid Armenia,people,armn,no,anatolia+caucasus,armenians
+vaspurakan,Vaspurakan,people,armn,no,anatolia,armenians
+cilician-armenia,Cilician Armenia,people,armn,no,anatolia,armenians
+armenians-later,Armenians,people,armn,no,anatolia+caucasus,armenians
+iberia-kartli,Iberia (Kartli),people,kart,no,caucasus,georgians
+lazica,Lazica,people,kart,no,caucasus+anatolia,georgians
+kingdom-of-abkhazia,Kingdom of Abkhazia,people,kart,yes,caucasus,georgians
+tao-klarjeti,Tao-Klarjeti,people,kart,no,caucasus+anatolia,georgians
+kingdom-of-georgia,Kingdom of Georgia,people,kart,no,caucasus+anatolia,georgians
+kartli-kakheti,Kartli and Kakheti,people,kart,no,caucasus,georgians
+imereti,Imereti,people,kart,no,caucasus,georgians
+caucasian-albania,Caucasian Albania,people,necauc,no,caucasus,caucasus-peoples
+alans-caucasus,Alans,people,iran,no,east+caucasus,caucasus-peoples
+ossetians,Ossetians,people,iran,no,east+caucasus,caucasus-peoples
+circassians,Circassians,people,nwcauc,no,east,caucasus-peoples
+abkhaz,Abkhaz,people,nwcauc,no,caucasus,caucasus-peoples
+avars-of-dagestan,Avars of Dagestan,people,necauc,no,east,caucasus-peoples
+vainakh,Chechens and Ingush,people,necauc,no,east,caucasus-peoples
+caucasian-imamate,Caucasian Imamate,people,necauc,no,east,caucasus-peoples
+shirvan,Shirvan,people,pers,no,caucasus,caucasus-peoples
+caucasus-khanates,Khanates of the Caucasus,people,oghuz,no,caucasus,caucasus-peoples
+azerbaijanis-caucasus,Azerbaijanis,people,oghuz,no,caucasus,caucasus-peoples
+osroene,Osroene,people,aram,no,anatolia+levant+mesopotamia,aramaic-peoples
+adiabene,Adiabene,people,aram,no,mesopotamia,aramaic-peoples
+hatra,Hatra,people,aram,no,mesopotamia,aramaic-peoples
+characene,Characene,people,aram,no,mesopotamia,aramaic-peoples
+palmyra,Palmyra,people,aram,no,levant+egypt+anatolia,aramaic-peoples
+assyrians,Assyrians and Syriac Christians,people,aram,no,anatolia+mesopotamia+levant,aramaic-peoples
+mandaeans,Mandaeans,people,aram,no,mesopotamia,aramaic-peoples
+judaea,Judaea,people,canaan,no,levant,judaea-phoenicia
+galilee-jews,Jews of Galilee,people,aram,no,levant,judaea-phoenicia
+samaritans,Samaritans,people,aram,no,levant,judaea-phoenicia
+babylonian-jews,Jews of Babylonia,people,aram,no,mesopotamia,judaea-phoenicia
+tyre-and-sidon,Tyre and Sidon,people,canaan,no,levant,judaea-phoenicia
+israelis,Israelis,people,canaan,no,levant,judaea-phoenicia
+egyptians-roman,Egyptians,people,egyp,no,egypt,egyptians
+copts,Copts,people,egyp,no,egypt,egyptians
+alexandria,Alexandria,people,greek,no,egypt,egyptians
+blemmyes,Blemmyes,people,cush,yes,egypt,egyptians
+beja-egypt,Beja,people,cush,no,egypt,egyptians
+maronites,Maronites,people,arab,no,levant,mountain-communities
+druze,Druze,people,arab,no,levant,mountain-communities
+alawites,Alawites,people,arab,no,levant,mountain-communities
+nizaris-of-syria,Nizari Ismailis,people,arab,no,levant,mountain-communities
+nabataeans,Nabataeans,people,arab,no,levant+arabia+egypt,arabian-kingdoms
+thamud,Thamud,people,arab,no,arabia,arabian-kingdoms
+saba,Saba,people,sarab,no,arabia,arabian-kingdoms
+himyar,Himyar,people,sarab,no,arabia,arabian-kingdoms
+hadramawt,Hadramawt,people,sarab,no,arabia,arabian-kingdoms
+kinda,Kinda,people,arab,no,arabia,arabian-kingdoms
+lakhmids,Lakhmids,people,arab,no,mesopotamia+arabia,arabian-kingdoms
+ghassanids,Ghassanids,people,arab,no,levant,arabian-kingdoms
+quraysh,Quraysh,people,arab,no,arabia,arabian-kingdoms
+tulunids,Tulunids,people,arab,no,egypt+levant,arab-dynasties
+hamdanids,Hamdanids,people,arab,no,mesopotamia+levant+anatolia,arab-dynasties
+qarmatians,Qarmatians,people,arab,no,arabia,arab-dynasties
+aghlabids,Aghlabids,people,arab,no,maghreb,arab-dynasties
+idrisids,Idrisids,people,arab,no,maghreb,arab-dynasties
+fatimids,Fatimids,people,arab,no,maghreb+egypt+levant+arabia,arab-dynasties
+zaydi-imams,Zaydi imams of Yemen,people,arab,no,arabia,arab-dynasties
+rasulids,Rasulids,people,arab,no,arabia,arab-dynasties
+ayyubids,Ayyubids,people,arab,no,egypt+levant+mesopotamia+arabia,arab-dynasties
+sharifs-of-mecca,Sharifs of Mecca,people,arab,no,arabia,arab-dynasties
+oman-imamate,Imams of Oman,people,arab,no,arabia,arab-dynasties
+saadi-sultanate,Saadi sultanate,people,arab,no,maghreb,arab-dynasties
+alaouite-sultanate,Alaouite sultanate,people,arab,no,maghreb,arab-dynasties
+saudi-emirates,Saudi emirates,people,arab,no,arabia,arab-dynasties
+emirate-of-hail,Emirate of Hail,people,arab,no,arabia,arab-dynasties
+banu-hilal,Banu Hilal,people,arab,no,maghreb+egypt,bedouin
+banu-sulaym,Banu Sulaym,people,arab,no,maghreb,bedouin
+anaza,Anaza,people,arab,no,levant+mesopotamia+arabia,bedouin
+shammar,Shammar,people,arab,no,arabia+mesopotamia+levant,bedouin
+sahrawis,Sahrawis,people,arab,no,maghreb,bedouin
+palestinians,Palestinians,people,arab,no,levant,bedouin
+mauri,Mauri,people,berb,yes,maghreb,libyans-moors
+numidians,Numidians,people,berb,no,maghreb,libyans-moors
+musulamii,Musulamii,people,berb,yes,maghreb,libyans-moors
+garamantes,Garamantes,people,berb,yes,maghreb,libyans-moors
+nasamones,Nasamones,people,berb,yes,maghreb,libyans-moors
+laguatan,Laguatan,people,berb,yes,maghreb,libyans-moors
+moors-and-romans,Kingdom of Altava,people,berb,yes,maghreb,libyans-moors
+aures-kingdom,Kingdom of the Aures,people,berb,yes,maghreb,libyans-moors
+rustamids,Rustamids,people,berb,no,maghreb,berber-dynasties
+barghawata,Barghawata,people,berb,no,maghreb,berber-dynasties
+midrarids,Sijilmasa,people,berb,no,maghreb,berber-dynasties
+zirids,Zirids,people,berb,no,maghreb,berber-dynasties
+hammadids,Hammadids,people,berb,no,maghreb,berber-dynasties
+marinids,Marinids,people,berb,no,maghreb,berber-dynasties
+wattasids,Wattasids,people,berb,no,maghreb,berber-dynasties
+zayyanids,Zayyanids,people,berb,no,maghreb,berber-dynasties
+hafsids,Hafsids,people,berb,no,maghreb,berber-dynasties
+kutama,Kutama,people,berb,no,maghreb,amazigh-peoples
+zenata,Zenata,people,berb,no,maghreb,amazigh-peoples
+masmuda,Masmuda,people,berb,no,maghreb,amazigh-peoples
+sanhaja-north,Sanhaja,people,berb,no,maghreb,amazigh-peoples
+kel-ahaggar,Tuareg,people,berb,no,maghreb,amazigh-peoples
+mozabites,Mozabites,people,berb,no,maghreb,amazigh-peoples
+kabyles,Kabyles,people,berb,no,maghreb,amazigh-peoples
+riffians,Riffians,people,berb,no,maghreb,amazigh-peoples
+ishelhien,Ishelhien,people,berb,no,maghreb,amazigh-peoples
+guanches,Guanches,people,berb,yes,maghreb,amazigh-peoples
+mamluks,Mamluk Sultanate,people,kipch,no,egypt+levant+arabia,
+rashidun-caliphate,Rashidun Caliphate,polity,arab,no,neareast+maghreb,
+umayyad-caliphate,Umayyad Caliphate,polity,arab,no,neareast+maghreb,
+abbasid-caliphate,Abbasid Caliphate,polity,arab,no,neareast+maghreb,
+jalayirids,Jalayirids,polity,,no,mesopotamia,
+kingdom-of-jerusalem,Kingdom of Jerusalem,polity,fr,no,levant,
+county-of-edessa,County of Edessa,polity,fr,no,anatolia+levant,
+principality-of-antioch,Principality of Antioch,polity,fr,no,anatolia+levant,
+county-of-tripoli,County of Tripoli,polity,fr,no,levant,
+kingdom-of-cyprus,Kingdom of Cyprus,polity,fr,no,anatolia,
+regency-of-algiers,Regency of Algiers,polity,oghuz,no,maghreb,
+regency-of-tunis,Regency of Tunis,polity,oghuz,no,maghreb,
+regency-of-tripoli,Regency of Tripoli,polity,oghuz,no,maghreb,
+french-algeria,French Algeria,polity,fr,no,maghreb,
+french-tunisia,French protectorate of Tunisia,polity,fr,no,maghreb,
+french-morocco,French protectorate of Morocco,polity,fr,no,maghreb,
+spanish-sahara,Spanish Sahara,polity,ibrom,no,maghreb,
+italian-libya,Italian Libya,polity,itrom,no,maghreb,
+mandate-palestine,Mandate Palestine,polity,,no,levant,
+mandate-syria-lebanon,French mandate of Syria and Lebanon,polity,,no,levant,
+aden-protectorate,Aden and its protectorates,polity,,no,arabia,
+transcaucasia-russian,Russian and Soviet Transcaucasia,polity,,no,caucasus,
+egypt-state,Egypt,polity,,no,egypt,
+saudi-arabia,Saudi Arabia,polity,,no,arabia,
+yemen,Yemen,polity,,no,arabia,
+oman,Oman,polity,,no,arabia,
+united-arab-emirates,United Arab Emirates,polity,,no,arabia,
+qatar,Qatar,polity,,no,arabia,
+bahrain,Bahrain,polity,,no,arabia,
+kuwait,Kuwait,polity,,no,mesopotamia,
+iraq,Iraq,polity,,no,mesopotamia,
+syria,Syria,polity,,no,levant,
+lebanon,Lebanon,polity,,no,levant,
+jordan,Jordan,polity,,no,levant,
+israel,Israel,polity,,no,levant,
+palestine,Palestine,polity,,no,levant,
+cyprus,Cyprus,polity,,no,anatolia,
+georgia,Georgia,polity,,no,caucasus,
+armenia,Armenia,polity,,no,caucasus,
+azerbaijan,Azerbaijan,polity,,no,caucasus,
+libya,Libya,polity,,no,maghreb,
+tunisia,Tunisia,polity,,no,maghreb,
+algeria,Algeria,polity,,no,maghreb,
+morocco,Morocco,polity,,no,maghreb,

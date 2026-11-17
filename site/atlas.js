@@ -73,7 +73,7 @@
     naother: [170, 186, 0.3, 0.56, 'ring'], pacificnw: [206, 220, 0.6, 0.56, 'tridown'], utoaztecan: [164, 178, 0.7, 0.5, 'plus'], mayan: [140, 156, 0.6, 0.47, 'clover'],
     otomanguean: [282, 296, 0.5, 0.62, 'square'], mesoam: [80, 96, 0.55, 0.5, 'dome'], chibchan: [196, 208, 0.6, 0.6, 'tridown'], arawakan: [100, 120, 0.55, 0.48, 'circle'],
     cariban: [262, 276, 0.5, 0.64, 'diamond'], tupian: [66, 82, 0.6, 0.5, 'bar'], je: [22, 34, 0.65, 0.5, 'square'], andean: [44, 56, 0.82, 0.56, 'plus'], amazonother: [150, 170, 0.25, 0.52, 'ring'], southcone: [216, 232, 0.55, 0.6, 'dome'],
-    pamanyungan: [30, 46, 0.68, 0.52, 'circle'], ausother: [12, 24, 0.6, 0.5, 'ring'], papuan: [280, 300, 0.45, 0.56, 'square']
+    pamanyungan: [2, 16, 0.6, 0.47, 'circle'], ausother: [60, 76, 0.5, 0.5, 'ring'], papuan: [280, 300, 0.45, 0.56, 'square']
   };
   var SHAPE = {
     celtic: 'clover', germanic: 'triangle', romance: 'heart', slavic: 'star', baltic: 'tridown', hellenic: 'circle',
