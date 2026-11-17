@@ -182,6 +182,15 @@ def validate(tables):
             err("E13", rid, "a period needs year_from < year_to and a jump_year between them")
         if not r["name"].strip() or not r["caption"].strip():
             err("E13", rid, "a period needs a name and a caption")
+    for r in tables.get("events", []):
+        rid = "%s %s" % (r["view_id"], r["year"])
+        y = _int(r["year"])
+        if r["view_id"] not in views:
+            err("E02", rid, "unknown view %r" % r["view_id"])
+        if y is None or not 1 <= y <= model.YEAR_MAX or not r["label"].strip():
+            err("E14", rid, "an event needs a year inside the survey and a label")
+        if r["status"] not in model.STATUSES:
+            err("E03", rid, "unknown status %r" % r["status"])
     for name in model.COVERED:
         if name not in model.REGION_LIST:
             err("E03", name, "COVERED names an unknown region")

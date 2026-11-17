@@ -1,6 +1,6 @@
 # Making the map better to use: an assessment
 
-Written 17 November 2026 at the owner's request, with God's Eye View (github.com/bilawalsidhu/gods-eye-view) as a reference. Nothing here is built yet. It is a ranked list of what to change and why.
+Written 17 November 2026 at the owner's request, with God's Eye View (github.com/bilawalsidhu/gods-eye-view) as a reference. Items 1 to 5 of the list below were built the same day: see `docs/jobs/2026-11-17-world-use-1-to-5.md`. The rest is not built. It is a ranked list of what to change and why.
 
 ## Where the map falls short today
 

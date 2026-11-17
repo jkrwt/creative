@@ -161,6 +161,19 @@ class World(unittest.TestCase):
         bad["periods"][0]["jump_year"] = "5000"
         self.assertIn("E13", codes(bad))
 
+    def test_events_mark_the_slider(self):
+        tables = model.load()
+        out = build.build(tables)
+        self.assertIn("world", out["events"])
+        years = [y for y, _ in out["events"]["world"]]
+        self.assertEqual(years, sorted(years))
+        bad = copy.deepcopy(tables)
+        bad["events"][0]["year"] = "0"
+        self.assertIn("E14", codes(bad))
+        bad = copy.deepcopy(tables)
+        bad["events"][0]["view_id"] = "no-such-view"
+        self.assertIn("E02", codes(bad))
+
     def test_build_carries_the_world(self):
         out = build.build(model.load())
         self.assertEqual(out["regions"], model.REGION_LIST)

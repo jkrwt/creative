@@ -297,34 +297,46 @@
     // Outlines. Every ring carries its bounding box so a regional view only traces what it can see.
     function boxed(rings) {
       return (rings || []).map(function (pts) {
-        var w = 1e9, s0 = 1e9, e = -1e9, n = -1e9;
-        for (var i = 0; i < pts.length; i++) { var q = pts[i]; if (q[0] < w) w = q[0]; if (q[0] > e) e = q[0]; if (q[1] < s0) s0 = q[1]; if (q[1] > n) n = q[1]; }
-        return { pts: pts, mid: (w + e) / 2, half: (e - w) / 2, s: s0, n: n };
+        // Longitudes are unwrapped along the ring, so a ring that crosses the date line (Fiji, or Eurasia
+        // with the tip of Chukotka) is one continuous shape with a true west and east end.
+        var u = new Float64Array(pts.length), lo = 1e9, hi = -1e9, s0 = 1e9, n = -1e9, x = 0;
+        for (var i = 0; i < pts.length; i++) {
+          var q = pts[i]; x = i ? x + norm(q[0] - pts[i - 1][0]) : q[0]; u[i] = x;
+          if (x < lo) lo = x; if (x > hi) hi = x; if (q[1] < s0) s0 = q[1]; if (q[1] > n) n = q[1];
+        }
+        return { pts: pts, u: u, lo: lo, hi: hi, s: s0, n: n };
       });
     }
     var fineLand = boxed(coast.polygons), coarseLand = coast.coarse ? boxed(coast.coarse) : fineLand, regionRings = {};
     Object.keys(coast.regions || {}).forEach(function (name) { regionRings[name] = boxed(coast.regions[name]); });
     var EDGE = coast.box || [-180, -90, 180, 90];
-    function seen(r) { return r.n >= LATMIN - 3 && r.s <= LATMAX + 3 && Math.abs(norm(r.mid - V.lamc)) - r.half <= HALFLON; }
+    // The whole turns by which a ring has to be shifted to fall inside the view. Usually one; none when the
+    // ring is out of sight; two when a ring as wide as Eurasia shows at both edges of a wide view.
+    function turnsFor(r) {
+      var out = [];
+      if (r.n < LATMIN - 3 || r.s > LATMAX + 3) return out;
+      for (var k = -2; k <= 2; k++) { var t = k * 360 - V.lamc; if (r.lo + t <= HALFLON && r.hi + t >= -HALFLON) out.push(t); }
+      return out;
+    }
     // Trace rings into a path at a scale. A ring is unwrapped as it goes, so one that crosses the edge of the
     // map does not streak across it. With `open`, the seams where Natural Earth cuts land at the date line
     // and where this atlas cuts it in the far north are left undrawn, so a coastline never follows a cut.
     function tracePath(rings, scale, open, ext) {
       var path = new Path2D();
       rings.forEach(function (r) {
-        if (!seen(r)) return;
-        var pts = r.pts, d = 0, plon = 0, pcut = false, pen = false;
-        for (var i = 0; i <= pts.length; i++) {
-          var q = pts[i % pts.length];
-          d = i ? d + norm(q[0] - plon) : norm(q[0] - V.lamc); plon = q[0];
-          var u = unit(V, d, q[1]), x = (u[0] - V.x0) * V.s * scale, y = (V.y1 - u[1]) * V.s * scale;
-          var isCut = open && (Math.abs(q[0]) > 179.99 || q[1] >= EDGE[3] - 0.01 || q[1] <= EDGE[1] + 0.01);
-          if (i === pts.length && !open) break;
-          if (!pen || (isCut && pcut)) path.moveTo(x, y); else path.lineTo(x, y);
-          pen = true; pcut = isCut;
-          if (ext) { if (x < ext[0]) ext[0] = x; if (y < ext[1]) ext[1] = y; if (x > ext[2]) ext[2] = x; if (y > ext[3]) ext[3] = y; }
-        }
-        if (!open) path.closePath();
+        turnsFor(r).forEach(function (turn) {
+          var pts = r.pts, pcut = false, pen = false;
+          for (var i = 0; i <= pts.length; i++) {
+            var j = i % pts.length, q = pts[j];
+            var u = unit(V, r.u[j] + turn, q[1]), x = (u[0] - V.x0) * V.s * scale, y = (V.y1 - u[1]) * V.s * scale;
+            var isCut = open && (Math.abs(q[0]) > 179.99 || q[1] >= EDGE[3] - 0.01 || q[1] <= EDGE[1] + 0.01);
+            if (i === pts.length && !open) break;
+            if (!pen || (isCut && pcut)) path.moveTo(x, y); else path.lineTo(x, y);
+            pen = true; pcut = isCut;
+            if (ext) { if (x < ext[0]) ext[0] = x; if (y < ext[1]) ext[1] = y; if (x > ext[2]) ext[2] = x; if (y > ext[3]) ext[3] = y; }
+          }
+          if (!open) path.closePath();
+        });
       });
       return path;
     }
@@ -450,7 +462,7 @@
     // both pictures are scaled about the place the closer view looks at and cross-faded, which works whether
     // or not the two views share a projection. The real drawing takes over at the end. With motion off the
     // change is a cut.
-    var glide = null;
+    var glide = null, labelHits = [];
     function snap() { var pic = layer(canvas.width, canvas.height); pic.getContext('2d').drawImage(canvas, 0, 0); return pic; }
     function feathered(pic) {      // a copy whose edges fade out, so the picture on top never shows a hard rectangle
       var copy = layer(pic.width, pic.height), c = copy.getContext('2d'), w = pic.width, h = pic.height, m = Math.min(w, h) * 0.1;
@@ -689,6 +701,7 @@
         return (L.b.pi === selected ? 1e6 : 0) + (openG >= 0 && p.inOpen ? 8e3 : 0) + (p.type === 'people' ? 2e3 : p.type === 'polity' ? 1e3 : 0) + L.a * L.b.r;
       }
       labels.sort(function (u, v) { return rank(v) - rank(u); });
+      labelHits = [];
       var boxes = [], lvl = viewLevel(curView), room = Math.max(4, Math.floor(W * H / (W < 600 ? 24000 : 11000))), caps = (openG < 0 ? CAPS[Math.min(lvl, CAPS.length - 1)] : [40, 40, 40]).concat([60]).map(function (c, i) { return Math.min(c, i ? Math.ceil(room / (W < 600 ? 3 : 2)) * (i === 3 ? 3 : 1) : room); }), used = [0, 0, 0, 0];
       ctx.lineJoin = 'round'; ctx.textBaseline = 'middle';
       labels.forEach(function (L) {
@@ -725,7 +738,7 @@
           if (!clash) { bx = tx; by = ty; }
         }
         if (clash && !sel) return;
-        boxes.push(box); used[kindOf]++;
+        boxes.push(box); used[kindOf]++; labelHits.push(isLead ? { box: box, g: L.g } : { box: box, pi: L.b.pi });
         var halo = 'rgba(4,7,12,' + (0.7 * vis) + ')';
         if (markCol) {
           var shape = SHAPE[branch] || 'circle', gr = size * 0.25;
@@ -753,7 +766,16 @@
       return b + data.families[p.family] + (p.family_inferred ? ' (inferred)' : '') + ' · ';
     }
 
-    var detailKey = '';
+    var detailKey = '', byId = {}, linksOf = {};
+    people.forEach(function (p, pi) { byId[p.id] = pi; });
+    // Succession, said from each end of the link.
+    var LINK_OUT = { 'continues': 'Continues as', 'name-continues': 'Name lives on in', 'merged-into': 'Merged into', 'absorbed-by': 'Absorbed by', 'split-from': 'Split from' };
+    var LINK_IN = { 'continues': 'Came from', 'name-continues': 'Takes its name from', 'merged-into': 'Took in', 'absorbed-by': 'Absorbed', 'split-from': 'Parent of' };
+    (data.links || []).forEach(function (l) {
+      var y = parseInt(l.year, 10); y = isNaN(y) ? null : y;
+      (linksOf[l.from_people] = linksOf[l.from_people] || []).push({ other: l.to_people, text: LINK_OUT[l.relation] || 'See', year: y == null ? null : Math.min(END, y + 20) });
+      (linksOf[l.to_people] = linksOf[l.to_people] || []).push({ other: l.from_people, text: LINK_IN[l.relation] || 'See', year: y == null ? null : Math.max(1, y - 20) });
+    });
     function showDetail(pi) {
       if (pi < 0) { detailEl.hidden = true; detailEl.textContent = ''; detailKey = ''; return; }
       var p = people[pi], cs = p.claims;
@@ -782,22 +804,58 @@
       var ul = el('ul');
       srcs.forEach(function (sid) { ul.appendChild(el('li', null, data.sources[sid])); });
       detailEl.appendChild(ul);
+      var acts = el('div', 'acts'), life = lifeOf(p);
+      function act(text, fn) { var b = el('button', null, text); b.type = 'button'; b.addEventListener('click', fn); acts.appendChild(b); }
+      act('First appears ' + fmt(life[0]), function () { stop(); year = Math.min(END, life[0] + (life[0] > 1 ? 20 : 0)); update(false); });
+      if (!open) act('Last appears ' + fmt(life[1]), function () { stop(); year = Math.max(1, life[1] - 20); update(false); });
+      (linksOf[p.id] || []).forEach(function (l) {
+        var other = byId[l.other]; if (other == null) return;
+        act(l.text + ' ' + people[other].name, function () { goTo({ pi: other }, l.year); });
+      });
+      detailEl.appendChild(acts);
       var at = px(show[0].lon, show[0].lat);
       detailEl.classList.toggle('top', at[1] > H * 0.55);   // keep the card off the place it describes
     }
 
     function select(pi) { selected = pi; showDetail(pi); lastKey = ''; lastField = -1e9; update(false); }
 
-    var eraIdx = -1, legendKey = '';
+    var eraIdx = -1, legendKey = '', MARKS = [], marksEl = $('marks'), spanEl = $('lifespan'), markName = $('markname');
+    function pct(y) { return (y - 1) / (END - 1) * 100; }
+    function eventsFor(v) {
+      while (v) { if (data.events && data.events[v.id]) return data.events[v.id]; v = viewById[v.parent]; }
+      return [];
+    }
+    function markNear(y, within) { var best = null, bd = within + 1; MARKS.forEach(function (m) { var d = Math.abs(m[0] - y); if (d < bd) { bd = d; best = m; } }); return best; }
     function buildEras() {
-      ERAS = periodsFor(curView); eraIdx = -1;
+      ERAS = periodsFor(curView); eraIdx = -1; MARKS = eventsFor(curView);
+      if (marksEl) {
+        marksEl.textContent = '';
+        MARKS.forEach(function (m) {
+          var b = el('button'); b.type = 'button'; b.style.left = pct(m[0]) + '%'; b.title = m[0] + ': ' + m[1];
+          b.setAttribute('aria-label', m[0] + ', ' + m[1]);
+          b.addEventListener('click', function () { stop(); year = m[0]; update(false); });
+          marksEl.appendChild(b);
+        });
+      }
       if (stripEl) {
         stripEl.textContent = '';
-        ERAS.forEach(function (e) { var seg = el('i'); seg.style.flexGrow = Math.max(1, Math.min(END, e[1]) - e[0]); seg.title = e[3]; stripEl.appendChild(seg); });
+        ERAS.forEach(function (e) {
+          var seg = el('button'); seg.type = 'button'; seg.style.flexGrow = Math.max(1, Math.min(END, e[1]) - e[0]); seg.title = e[3];
+          seg.setAttribute('aria-label', (e[3] || 'Period') + ', ' + e[0] + ' to ' + Math.min(END, e[1]));
+          seg.addEventListener('click', function () { stop(); year = Math.max(1, Math.min(END, e[4])); update(false); });
+          stripEl.appendChild(seg);
+        });
       }
     }
     function update(fromSlider) {
       yearLabel.textContent = fmt(year);
+      var here = markNear(Math.round(year), 0);
+      if (markName) { markName.textContent = here ? here[1] : ''; markName.hidden = !here; }
+      if (marksEl) Array.prototype.forEach.call(marksEl.children, function (b, i) { b.className = MARKS[i] === here ? 'on' : ''; });
+      if (spanEl) {
+        if (selected >= 0) { var sl = lifeOf(people[selected]); spanEl.hidden = false; spanEl.style.left = pct(sl[0]) + '%'; spanEl.style.width = Math.max(0.4, pct(sl[1]) - pct(sl[0])) + '%'; }
+        else spanEl.hidden = true;
+      }
       for (var gi = 0; gi < gLive.length; gi++) gLive[gi] = 0;
       var act = [];
       people.forEach(function (p, pi) {
@@ -875,6 +933,7 @@
       }
       if (selected >= 0) showDetail(selected);
       if (!fromSlider) slider.value = Math.round(year);
+      writeHash();
       lastField = -1e9;
       if (still) draw(performance.now());
     }
@@ -882,6 +941,24 @@
     function stop() { playing = false; playBtn.textContent = 'Play'; playBtn.setAttribute('aria-pressed', 'false'); }
 
     slider.addEventListener('input', function () { year = +slider.value; stop(); update(true); });
+    // Letting go near a dated event lands on it. The reach is what three pixels of the track is worth.
+    slider.addEventListener('change', function () {
+      var reach = Math.max(2, Math.round(3 * (END - 1) / Math.max(200, slider.clientWidth))), m = markNear(+slider.value, reach);
+      if (m && m[0] !== +slider.value) { year = m[0]; update(false); }
+    });
+    // Keys: left and right ten years, with Shift a hundred and with Alt one; Page Up and Down a period;
+    // [ and ] the previous and next dated event.
+    slider.addEventListener('keydown', function (ev) {
+      var k = ev.key, step = ev.altKey ? 1 : ev.shiftKey ? 100 : 10, y = Math.round(year), to = null;
+      if (k === 'ArrowRight' || k === 'ArrowUp') to = y + step;
+      else if (k === 'ArrowLeft' || k === 'ArrowDown') to = y - step;
+      else if (k === 'PageUp') { ev.preventDefault(); jump(1); return; }
+      else if (k === 'PageDown') { ev.preventDefault(); jump(-1); return; }
+      else if (k === ']') { var nx = MARKS.filter(function (m) { return m[0] > y; })[0]; if (nx) to = nx[0]; }
+      else if (k === '[') { var pv = MARKS.filter(function (m) { return m[0] < y; }).pop(); if (pv) to = pv[0]; }
+      if (to == null) return;
+      ev.preventDefault(); stop(); year = Math.max(1, Math.min(END, to)); update(false);
+    });
     Array.prototype.forEach.call(document.querySelectorAll('#presets button[data-y]'), function (b) {
       b.addEventListener('click', function () { stop(); year = Math.min(END, +b.getAttribute('data-y')); update(false); });
     });
@@ -890,20 +967,99 @@
       if (year >= END - 5) year = 1;
       playing = true; playBtn.textContent = 'Pause'; playBtn.setAttribute('aria-pressed', 'true');
     });
+    // What is under a point of the map, in css pixels: a lettered name first, then whichever entry owns that
+    // cell of the field, then the same within a finger's width. Returns { pi } or { g } or null.
+    function ownerAt(x, y) {
+      if (x < 0 || y < 0 || x >= W || y >= H) return null;
+      var i = Math.floor(y / CELL) * GW + Math.floor(x / CELL);
+      if (!landCell[i]) return null;
+      var pt = pb1[i], lt = lb1[i];
+      if (pt >= 0 && pw1[i] > 0.1) { var p = people[blobs[pt].pi]; return p.ft >= 0 ? { g: p.ft } : { pi: blobs[pt].pi }; }
+      if (lt >= 0 && lw1[i] > 0.05) return { pi: blobs[lt].pi };
+      return null;
+    }
+    function hitAt(x, y, reach) {
+      for (var k = 0; k < labelHits.length; k++) { var b = labelHits[k].box; if (x >= b[0] && x <= b[2] && y >= b[1] && y <= b[3]) return labelHits[k]; }
+      var hit = ownerAt(x, y);
+      for (var r = 5; !hit && r <= reach; r += 5) for (var a = 0; a < 8 && !hit; a++) hit = ownerAt(x + r * Math.cos(a * 0.7854), y + r * Math.sin(a * 0.7854));
+      return hit;
+    }
+    function nameOf(hit) {
+      if (!hit) return '';
+      if (hit.g != null) return groups[gkeys[hit.g]].name + ' · ' + gLive[hit.g] + ' · open';
+      var p = people[hit.pi]; return p.name + (p.type === 'language' ? ' · language' : p.type === 'polity' ? ' · state' : '');
+    }
     canvas.addEventListener('click', function (ev) {
       if (glide) return;
-      var r = canvas.getBoundingClientRect(), x = ev.clientX - r.left, y = ev.clientY - r.top, best = -1, bd = 1e9;
-      blobs.forEach(function (b) {
-        if (alphaAt(b.c, year) < 0.25) return;
-        var p = people[b.pi], c = px(b.c.lon, b.c.lat), fold = folded(p);
-        var d = Math.hypot(c[0] - x, c[1] - y);
-        if (d > (fold ? Math.max(40, b.r * S * 0.9) : 34)) return;
-        d += (p.type === 'polity' ? 14 : p.type === 'language' ? 10 : 0) - (fold ? 6 : 0);
-        if (d < bd) { bd = d; best = b.pi; }
-      });
-      if (best >= 0 && folded(people[best])) { openGroup(people[best].ft); return; }
-      select(best);
+      var r = canvas.getBoundingClientRect(), hit = hitAt(ev.clientX - r.left, ev.clientY - r.top, 15);
+      if (hit && hit.g != null) { openGroup(hit.g); return; }
+      select(hit ? hit.pi : -1);
     });
+    // A pointer that can hover gets the name of what it is over. Touch gets nothing here: a tap answers it.
+    var tipEl = el('div', 'tip'); tipEl.hidden = true; tipEl.setAttribute('aria-hidden', 'true');
+    if (canvas.parentNode) canvas.parentNode.appendChild(tipEl);
+    var tipAt = null, tipQueued = false;
+    function showTip() {
+      tipQueued = false;
+      var hit = tipAt && !glide ? hitAt(tipAt[0], tipAt[1], 0) : null, text = nameOf(hit);
+      canvas.style.cursor = hit ? 'pointer' : '';
+      if (!text) { tipEl.hidden = true; return; }
+      tipEl.textContent = text; tipEl.hidden = false;
+      var tw = tipEl.offsetWidth, left = Math.max(4, Math.min(W - tw - 4, tipAt[0] + 14));
+      tipEl.style.left = left + 'px'; tipEl.style.top = Math.max(4, tipAt[1] - 34) + 'px';
+    }
+    canvas.addEventListener('pointermove', function (ev) {
+      if (ev.pointerType && ev.pointerType !== 'mouse') return;
+      var r = canvas.getBoundingClientRect(); tipAt = [ev.clientX - r.left, ev.clientY - r.top];
+      if (!tipQueued) { tipQueued = true; requestAnimationFrame(showTip); }
+    });
+    canvas.addEventListener('pointerleave', function () { tipAt = null; tipEl.hidden = true; canvas.style.cursor = ''; });
+
+    // Going straight to an entry or a group: the year in the middle of its life, the closest view that
+    // holds it, its group open, and the entry selected. Search, the succession buttons and a shared
+    // address all arrive this way.
+    function lifeOf(p) {
+      var first = 1e9, last = -1e9;
+      p.claims.forEach(function (c) { if (c.from < first) first = c.from; var t = c.open ? END : c.to; if (t > last) last = t; });
+      return [Math.max(1, first), Math.min(END, last)];
+    }
+    function midYear(p) {
+      var life = lifeOf(p), mid = (life[0] + life[1]) / 2, best = p.claims[0], bd = 1e9;
+      p.claims.forEach(function (c) { var t = c.open ? END : c.to, d = mid < c.from ? c.from - mid : mid > t ? mid - t : 0; if (d < bd) { bd = d; best = c; } });
+      var t = best.open ? END : best.to;
+      return Math.round(Math.max(1, Math.min(END, Math.max(best.from, Math.min(t, mid)))));
+    }
+    function viewFor(lon, lat, rdeg) {
+      var best = (data.views || [])[0] || curView, area = 1e12;
+      (data.views || []).forEach(function (v) {
+        var b = v.box, mid = (b[0] + b[2]) / 2, half = (b[2] - b[0]) / 2, a = (b[2] - b[0]) * (b[3] - b[1]);
+        if (Math.abs(norm(lon - mid)) > half - 1 || lat < b[1] + 1 || lat > b[3] - 1) return;
+        if (Math.min(b[2] - b[0], b[3] - b[1]) < rdeg * 2.2) return;
+        if (a < area) { area = a; best = v; }
+      });
+      return best;
+    }
+    function claimAt(p, y) { var best = p.claims[0], top = -1; p.claims.forEach(function (c) { var a = alphaAt(c, y) * Math.max(c.r_km, 12); if (a > top) { top = a; best = c; } }); return best; }
+    function goTo(target, atYear) {
+      stop(); tipAt = null; tipEl.hidden = true;
+      var pi = target.pi != null ? target.pi : -1, g = target.g != null ? target.g : -1, p = pi >= 0 ? people[pi] : null;
+      if (!p && g >= 0) {                       // a group: stand in the middle year of its members
+        var mids = []; people.forEach(function (q) { if (q.chain.indexOf(g) >= 0) mids.push(midYear(q)); });
+        if (!mids.length) return;
+        mids.sort(function (a, b) { return a - b; });
+        if (atYear == null) atYear = mids[mids.length >> 1];
+        p = people.filter(function (q) { return q.chain.indexOf(g) >= 0 && q.claims.some(function (c) { return alphaAt(c, atYear) > 0.3; }); })[0] || null;
+      }
+      var y = atYear != null ? atYear : midYear(p), c = p ? claimAt(p, y) : null;
+      var v = target.view || (c ? viewFor(c.lon, c.lat, Math.max(c.r_km, 12) / 111) : curView);
+      glideTo(function () {
+        curView = v; baseDepth = viewLevel(v) ? 1 : 0; openG = -1; selected = -1; year = y;
+        setBox(v.box, v.proj); resize(); buildEras(); update(false);
+        var open = g >= 0 ? g : p && p.g >= 0 && gLive[p.g] > 1 ? p.g : -1;
+        if (open >= 0 && gLive[open] > 0) { openG = open; refold(); var box = groupBox(open); if (box) { setBox(box); resize(); } else openG = -1; }
+        selected = pi; detailKey = ''; showDetail(pi); lastKey = ''; update(false); showCrumb(); viewButtons();
+      });
+    }
 
     // View switch, in two steps: the world or a continent, then a region of that continent.
     var viewsEl = $('views'), subEl = $('subviews');
@@ -928,6 +1084,58 @@
     }
     viewButtons();
 
+    // Search. Names are matched without accents or case; a name that starts with what was typed comes first.
+    var searchEl = $('search'), foundEl = $('found');
+    function plain(t) { return String(t).normalize ? String(t).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase() : String(t).toLowerCase(); }
+    if (searchEl && foundEl) {
+      var index = [];
+      people.forEach(function (p, pi) { index.push({ key: plain(p.name), pi: pi }); });
+      gkeys.forEach(function (key, g) { index.push({ key: plain(groups[key].name), g: g }); });
+      var results = [], cursor = -1;
+      var kindText = { people: 'people or kingdom', polity: 'state', language: 'language' };
+      var pickResult = function (r) {
+        searchEl.value = ''; foundEl.hidden = true; foundEl.textContent = ''; results = []; searchEl.setAttribute('aria-expanded', 'false');
+        goTo(r); canvas.scrollIntoView && canvas.scrollIntoView({ block: 'nearest' });
+      };
+      var runSearch = function () {
+        var q = plain(searchEl.value.trim()); foundEl.textContent = ''; results = []; cursor = -1;
+        if (q.length < 2) { foundEl.hidden = true; searchEl.setAttribute('aria-expanded', 'false'); return; }
+        var scored = [];
+        index.forEach(function (it) {
+          var at = it.key.indexOf(q); if (at < 0) return;
+          scored.push([at === 0 ? 0 : it.key.charAt(at - 1) === ' ' ? 1 : 2, it.key.length, it]);
+        });
+        scored.sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; });
+        results = scored.slice(0, 8).map(function (s) { return s[2]; });
+        results.forEach(function (it, i) {
+          var b = el('button'); b.type = 'button'; b.setAttribute('role', 'option'); b.id = 'found-' + i;
+          if (it.g != null) {
+            b.appendChild(glyph(branches[gfam[it.g]], css(gmark[it.g], 1), 11));
+            b.appendChild(el('span', 'nm', groups[gkeys[it.g]].name)); b.appendChild(el('span', 'kd', 'group'));
+          } else {
+            var p = people[it.pi], life = lifeOf(p);
+            if (p.rgb) b.appendChild(glyph(p.branch, css(p.mark, 1), 11));
+            b.appendChild(el('span', 'nm', p.name));
+            b.appendChild(el('span', 'kd', kindText[p.type] + ' · ' + life[0] + ' to ' + (life[1] >= END ? 'now' : life[1])));
+          }
+          b.addEventListener('click', function () { pickResult(it); });
+          foundEl.appendChild(b);
+        });
+        if (!results.length) foundEl.appendChild(el('p', 'none', 'Nothing by that name. Names follow the sources, so try another spelling.'));
+        foundEl.hidden = false; searchEl.setAttribute('aria-expanded', 'true');
+      };
+      searchEl.addEventListener('input', runSearch);
+      searchEl.addEventListener('keydown', function (ev) {
+        if (ev.key === 'Escape') { searchEl.value = ''; runSearch(); return; }
+        if (!results.length) return;
+        if (ev.key === 'ArrowDown' || ev.key === 'ArrowUp') {
+          ev.preventDefault(); cursor = (cursor + (ev.key === 'ArrowDown' ? 1 : results.length - 1)) % results.length;
+          Array.prototype.forEach.call(foundEl.children, function (b, i) { b.className = i === cursor ? 'on' : ''; });
+          searchEl.setAttribute('aria-activedescendant', 'found-' + cursor);
+        } else if (ev.key === 'Enter') { ev.preventDefault(); pickResult(results[Math.max(0, cursor)]); }
+      });
+    }
+
     // Motion can be paused: the contours move on their own, so there has to be a way to stop them.
     if (motionBtn) {
       var syncMotion = function () { motionBtn.setAttribute('aria-pressed', still ? 'false' : 'true'); motionBtn.textContent = still ? 'Motion off' : 'Motion on'; };
@@ -938,7 +1146,7 @@
     if (prevBtn) prevBtn.addEventListener('click', function () { jump(-1); });
     if (nextBtn) nextBtn.addEventListener('click', function () { jump(1); });
     buildEras();
-    if (ticksEl) [1, 500, 1000, 1500, 2000].forEach(function (y) { var tk = el('span', null, String(y)); tk.style.left = (y / END * 100) + '%'; ticksEl.appendChild(tk); });
+    if (ticksEl) [1, 500, 1000, 1500, 2000].forEach(function (y) { var tk = el('span', null, String(y)); tk.style.left = pct(y) + '%'; ticksEl.appendChild(tk); });
 
     // Legend: one row per branch that is on the map in this view and year. The branch name is a switch that
     // dims everything else. When many branches are present the families are left to the list below.
@@ -981,8 +1189,40 @@
       if (!still || playing) draw(now);
       requestAnimationFrame(frame);
     }
+    // The address follows the view, so any moment can be shared: #y=1350&v=westafrica&g=group&s=entry.
+    // Where the page is not allowed to touch its address, as inside some frames, this does nothing.
+    var hashTimer = 0, lastHash = '';
+    function stateHash() {
+      var parts = ['y=' + Math.round(year), 'v=' + curView.id];
+      if (openG >= 0) parts.push('g=' + encodeURIComponent(gkeys[openG]));
+      if (selected >= 0) parts.push('s=' + encodeURIComponent(people[selected].id));
+      return '#' + parts.join('&');
+    }
+    function writeHash() {
+      if (playing) return;
+      clearTimeout(hashTimer);
+      hashTimer = setTimeout(function () {
+        var h = stateHash(); if (h === lastHash) return; lastHash = h;
+        try { history.replaceState(null, '', h); } catch (e) {}
+      }, 350);
+    }
+    function readHash() {
+      var h = ''; try { h = String(window.location.hash || ''); } catch (e) { return false; }
+      if (h.length < 3 || h === lastHash) return false;
+      var q = {}; h.slice(1).split('&').forEach(function (kv) { var i = kv.indexOf('='); if (i > 0) { try { q[kv.slice(0, i)] = decodeURIComponent(kv.slice(i + 1)); } catch (e) {} } });
+      var y = parseInt(q.y, 10), v = viewById[q.v], g = gpos[q.g], pi = byId[q.s];
+      if (isNaN(y) && !v && g == null && pi == null) return false;
+      y = isNaN(y) ? Math.round(year) : Math.max(1, Math.min(END, y));
+      lastHash = h;
+      var keep = still; still = true;          // arriving by address is a cut, not a glide
+      if (pi != null || g != null) goTo({ pi: pi, g: pi != null ? null : g, view: v }, y);
+      else { if (v) { curView = v; baseDepth = viewLevel(v) ? 1 : 0; openG = -1; setBox(v.box, v.proj); resize(); buildEras(); viewButtons(); } year = y; lastKey = ''; update(false); showCrumb(); }
+      still = keep;
+      return true;
+    }
+    window.addEventListener('hashchange', readHash);
     window.addEventListener('resize', resize);
-    showDetail(-1); resize(); update(false);
+    showDetail(-1); resize(); update(false); readHash();
     window.__atlas = { state: function () { return { view: curView.id, year: year, open: openG >= 0 ? gkeys[openG] : '', W: W, H: H, cell: CELL, cells: GW * GH }; },
       setView: function (id) { if (viewById[id]) { var keep = still; still = true; setView(viewById[id]); viewButtons(); still = keep; } },
       setYear: function (y) { year = y; update(false); }, openGroup: function (id) { var keep = still; still = true; openGroup(gpos[id]); still = keep; },

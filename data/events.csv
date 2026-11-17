@@ -1,0 +1,102 @@
+view_id,year,label,status
+world,220,Han dynasty falls,seed
+world,476,Last western Roman emperor deposed,seed
+world,622,Muhammad moves to Medina,seed
+world,751,Battle of Talas,seed
+world,800,Charlemagne crowned emperor,seed
+world,1206,Genghis Khan proclaimed,seed
+world,1258,Mongols take Baghdad,seed
+world,1453,Ottomans take Constantinople,seed
+world,1492,Columbus reaches the Caribbean,seed
+world,1521,Tenochtitlan falls,seed
+world,1644,Qing take Beijing,seed
+world,1788,First Fleet reaches Sydney,seed
+world,1804,Haiti independent,seed
+world,1884,Berlin conference opens,seed
+world,1947,India and Pakistan independent,seed
+world,1960,Seventeen African states independent,seed
+world,1991,Soviet Union dissolves,seed
+europe,9,Three legions lost in the Teutoburg forest,seed
+europe,43,Rome invades Britain,seed
+europe,117,Rome at its widest,seed
+europe,410,Goths sack Rome,seed
+europe,476,Last western Roman emperor deposed,seed
+europe,711,Muslim armies enter Hispania,seed
+europe,793,Raid on Lindisfarne,seed
+europe,843,Treaty of Verdun,seed
+europe,988,Rus baptised at Kiev,seed
+europe,1066,Normans conquer England,seed
+europe,1240,Mongols take Kiev,seed
+europe,1453,Ottomans take Constantinople,seed
+europe,1492,Granada falls,seed
+europe,1648,Peace of Westphalia,seed
+europe,1707,England and Scotland united,seed
+europe,1815,Congress of Vienna,seed
+europe,1871,Germany united,seed
+europe,1919,Treaty of Versailles,seed
+europe,1945,Second World War ends,seed
+europe,1991,Soviet Union dissolves,seed
+asia,220,Han dynasty falls,seed
+asia,589,Sui reunite China,seed
+asia,632,Death of Muhammad,seed
+asia,751,Battle of Talas,seed
+asia,907,Tang dynasty falls,seed
+asia,1025,Chola fleet raids Srivijaya,seed
+asia,1071,Battle of Manzikert,seed
+asia,1206,Genghis Khan proclaimed,seed
+asia,1258,Mongols take Baghdad,seed
+asia,1279,Mongols complete the conquest of Song China,seed
+asia,1368,Ming dynasty founded,seed
+asia,1398,Timur sacks Delhi,seed
+asia,1526,Mughal empire founded,seed
+asia,1644,Qing take Beijing,seed
+asia,1757,Battle of Plassey,seed
+asia,1868,Meiji restoration,seed
+asia,1911,Revolution ends Qing rule,seed
+asia,1947,India and Pakistan independent,seed
+asia,1949,People's Republic of China founded,seed
+africa,439,Vandals take Carthage,seed
+africa,641,Arab armies take Egypt,seed
+africa,698,Arab armies take Carthage,seed
+africa,969,Fatimids take Egypt,seed
+africa,1324,Mansa Musa's pilgrimage to Mecca,seed
+africa,1415,Portugal takes Ceuta,seed
+africa,1488,Dias rounds the Cape,seed
+africa,1591,Moroccan army defeats Songhai,seed
+africa,1652,Dutch post founded at the Cape,seed
+africa,1804,Sokoto jihad begins,seed
+africa,1869,Suez Canal opens,seed
+africa,1884,Berlin conference opens,seed
+africa,1896,Ethiopia defeats Italy at Adwa,seed
+africa,1957,Ghana independent,seed
+africa,1960,Seventeen states independent,seed
+africa,1994,South Africa's first election open to all,seed
+americas,292,Earliest Long Count date at Tikal,seed
+americas,378,Teotihuacan's arrival at Tikal,seed
+americas,1021,Norse at L'Anse aux Meadows,seed
+americas,1325,Tenochtitlan founded by tradition,seed
+americas,1492,Columbus reaches the Caribbean,seed
+americas,1521,Tenochtitlan falls,seed
+americas,1532,Pizarro seizes Atahualpa,seed
+americas,1607,Jamestown founded,seed
+americas,1680,Pueblo Revolt,seed
+americas,1776,United States declares independence,seed
+americas,1804,Haiti independent,seed
+americas,1821,Mexico independent,seed
+americas,1822,Brazil independent,seed
+americas,1867,Canadian confederation,seed
+americas,1888,Brazil abolishes slavery,seed
+americas,1890,Wounded Knee,seed
+americas,1999,Nunavut created,seed
+oceania,1521,Magellan crosses the Pacific,seed
+oceania,1606,Janszoon lands on Cape York,seed
+oceania,1642,Tasman reaches Tasmania and New Zealand,seed
+oceania,1769,Cook reaches Tahiti,seed
+oceania,1788,First Fleet reaches Sydney,seed
+oceania,1810,Kamehameha unites Hawaii,seed
+oceania,1840,Treaty of Waitangi,seed
+oceania,1893,Hawaiian kingdom overthrown,seed
+oceania,1901,Australian federation,seed
+oceania,1962,Samoa independent,seed
+oceania,1975,Papua New Guinea independent,seed
+oceania,1992,Mabo decision,seed
