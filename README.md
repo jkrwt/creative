@@ -2,7 +2,7 @@
 
 An interactive map of who lived where, and what they spoke, through time. It covers the whole world from 1 CE to the present.
 
-Every shape on the map is drawn from a dated claim that cites a source. The data is a hand-entered seed of 1,950 entries and 3,481 claims, typed from memory and all marked unreviewed.
+Every shape on the map is drawn from a dated claim that cites a source. The data is a hand-entered seed of 1,915 entries and 3,536 claims, typed from memory and all marked unreviewed.
 
 ## Run it
 
