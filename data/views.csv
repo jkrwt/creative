@@ -1,0 +1,33 @@
+view_id,name,parent,west,south,east,north,projection
+world,World,,-168.5,-56.5,191.5,78,equal-earth
+europe,Europe,world,-11.0,34.6,45.0,71.2,local
+west,The west,europe,-11.0,35.9,8.4,60.95,local
+isles,Ireland and Britain,europe,-11.0,49.75,2.3,60.95,local
+gaul,France,europe,-5.6,42.2,8.4,51.3,local
+iberia,Spain and Portugal,europe,-9.9,35.9,4.6,44.0,local
+italy,Italy,europe,6.4,36.4,19.0,47.2,local
+central,Central Europe,europe,2.5,45.6,24.6,55.4,local
+north,The north,europe,3.5,53.8,32.5,71.2,local
+balkans,Balkans and Greece,europe,13.0,34.7,30.2,48.6,local
+east,The east,europe,19.0,44.0,45.0,62.0,local
+asia,Asia,world,25,-11,150,76,equal-earth
+neareast,Near East,asia,24,11,64,44,local
+centralasia,Iran and Central Asia,asia,43,23,92,57,local
+southasia,South Asia,asia,59,4,99,39,local
+eastasia,East Asia,asia,72,17,148,56,equal-earth
+seasia,Southeast Asia,asia,90,-12,142,29,local
+siberia,Siberia,asia,58,47,191,78,equal-earth
+africa,Africa,world,-20,-36,53,39,equal-earth
+northafrica,North Africa,africa,-18,12,38,38,local
+westafrica,West Africa,africa,-19,2,17,26,local
+nilehorn,Nile and the Horn,africa,21,-3,53,33,local
+centralafrica,Central and East Africa,africa,7,-14,43,10,local
+southernafrica,Southern Africa,africa,9,-36,52,-8,local
+americas,The Americas,world,-170,-57,-33,74,equal-earth
+northamerica,North America,americas,-168,23,-51,73,equal-earth
+mesoamerica,Mexico and the Caribbean,americas,-119,6,-58,33,local
+andesamazon,Andes and Amazon,americas,-83,-24,-33,14,local
+southcone,Southern Cone,americas,-78,-57,-37,-16,local
+oceania,Oceania,world,110,-49,230,25,equal-earth
+australia,Australia and New Guinea,oceania,111,-45,156,1,local
+polynesia,Polynesia,oceania,163,-48,255,25,equal-earth

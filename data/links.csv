@@ -1,0 +1,194 @@
+from_people,to_people,relation,year,source_ids,note,status
+votadini,gododdin,continues,,early-welsh-poetry,The same name in its later Brittonic form.,seed
+demetae,dyfed,continues,,annales-cambriae,The same name in its later form.,seed
+cantiaci,cantware,name-continues,,bede-he,An English-speaking kingdom that kept the British name.,seed
+dumnonii,dumnonia,continues,,annales-cambriae,,seed
+alt-clut,strathclyde,continues,870,annals-ulster,After the fall of Dumbarton Rock.,seed
+bernicia,northumbria,merged-into,654,bede-he,,seed
+deira,northumbria,merged-into,654,bede-he,,seed
+northumbria,bamburgh,continues,867,asc,The part north of the Tees that stayed under English rulers.,seed
+picts,alba,continues,900,annals-ulster,,seed
+alba,kingdom-of-scotland,continues,,acts-treaties,,seed
+dyfed,deheubarth,merged-into,920,annales-cambriae,,seed
+west-saxons,kingdom-of-england,continues,927,asc,,seed
+dal-cais,thomond,continues,1118,annals-ulster,,seed
+kingdom-of-england,kingdom-of-great-britain,merged-into,1707,acts-treaties,,seed
+kingdom-of-scotland,kingdom-of-great-britain,merged-into,1707,acts-treaties,,seed
+kingdom-of-great-britain,united-kingdom,merged-into,1801,acts-treaties,,seed
+kingdom-of-ireland,united-kingdom,merged-into,1801,acts-treaties,,seed
+irish-free-state,ireland,continues,1937,acts-treaties,,seed
+saba,himyar,absorbed-by,275,south-arabian-inscriptions,Himyarite kings took the title king of Saba.,seed
+hadramawt,himyar,absorbed-by,300,south-arabian-inscriptions,,seed
+blemmyes,beja-egypt,continues,,linguistic-geography,The identification is usual but not proven.,seed
+alans-caucasus,ossetians,continues,1239,linguistic-geography,Ossetian descends from the language of the Alans.,seed
+kingdom-of-abkhazia,kingdom-of-georgia,merged-into,1008,georgian-chronicles,Bagrat III inherited both crowns.,seed
+tao-klarjeti,kingdom-of-georgia,merged-into,1008,georgian-chronicles,,seed
+iberia-kartli,kingdom-of-georgia,merged-into,1008,georgian-chronicles,,seed
+kingdom-of-georgia,kartli-kakheti,split-from,1490,georgian-chronicles,,seed
+kingdom-of-georgia,imereti,split-from,1490,georgian-chronicles,,seed
+kingdom-of-armenia,persian-armenia,continues,428,armenian-chronicles,,seed
+egyptians-roman,copts,continues,641,papyri,The same people. Copt is the Arabic form of the Greek word for Egyptian.,seed
+hammadids,zirids,split-from,1014,ibn-khaldun,,seed
+seljuks-of-rum,karamanids,continues,1308,arabic-histories-east,The beyliks divided the sultanate's lands.,seed
+saudi-emirates,saudi-arabia,continues,1902,acts-treaties,,seed
+alaouite-sultanate,morocco,continues,1956,acts-treaties,The same ruling house.,seed
+ayyubids,mamluks,continues,1250,arabic-histories-east,The Mamluks were the Ayyubid sultan's own slave regiment.,seed
+yuezhi-bactria,kushans,continues,50,chinese-histories-west,The Kushans were one of the five Yuezhi divisions.,seed
+aorsi,alani,absorbed-by,100,chinese-histories-west,The Alan name replaces the Aorsi in the sources.,seed
+parthian-empire,sasanian-empire,continues,224,sasanian-inscriptions,A change of dynasty over the same lands.,seed
+sogdians,tajiks,merged-into,1000,arab-geographers,Sogdians took up Persian under the Samanids.,seed
+bactrians,tajiks,merged-into,900,arab-geographers,Bactrian gave way to Persian.,seed
+oghuz-yabgu,turkmens,continues,1055,kashgari-diwan,Muslim Oghuz were called Turkmen.,seed
+kimeks,kipchaks-east,continues,1050,arab-geographers,The Kipchaks were the western division of the Kimeks and took their place.,seed
+chagatai-khanate,moghulistan,continues,1347,persian-histories,The eastern half of the divided khanate.,seed
+ulus-of-orda,uzbek-ulus,continues,1428,persian-histories,,seed
+kazakh-khanate,uzbek-ulus,split-from,1465,persian-histories,Janibek and Kerei left Abulkhayr Khan.,seed
+uzbek-ulus,khanate-of-bukhara,continues,1500,persian-histories,"Shaybani Khan, grandson of Abulkhayr, led the Uzbeks into Transoxiana.",seed
+kazakh-khanate,kazakh-zhuzes,continues,1718,russian-siberian-records,After Tauke Khan the three zhuzes had separate khans.,seed
+kazakh-zhuzes,kazakhs,continues,1822,russian-siberian-records,,seed
+volga-bulgars,volga-tatars,merged-into,1438,linguistic-geography,How much the Tatars and how much the Chuvash descend from the Bulgars is argued.,seed
+kazan-khanate,volga-tatars,continues,1552,russian-siberian-records,,seed
+sibir-khanate,siberian-tatars,continues,1598,russian-siberian-records,,seed
+kyrgyz-yenisei,khakas,continues,1703,russian-siberian-records,Those who stayed on the Yenisei.,seed
+gorodets-culture,mordvins,continues,550,steppe-archaeology,An inference from archaeology.,seed
+kama-cultures,udmurts,continues,1100,steppe-archaeology,An inference from archaeology.,seed
+daylamites,gilaks-and-mazandaranis,continues,1100,persian-histories,,seed
+durrani-afghanistan,afghanistan,continues,1823,acts-treaties,The Barakzai emirs replaced the Durrani kings.,seed
+qajar-iran,iran,continues,1925,acts-treaties,,seed
+kazakh-ssr,kazakhstan,continues,1991,acts-treaties,,seed
+uzbek-ssr,uzbekistan,continues,1991,acts-treaties,,seed
+turkmen-ssr,turkmenistan,continues,1991,acts-treaties,,seed
+tajik-ssr,tajikistan,continues,1991,acts-treaties,,seed
+kirghiz-ssr,kyrgyzstan,continues,1991,acts-treaties,,seed
+nobatia,makuria,merged-into,700,nubian-texts,The two kingdoms were joined under the king at Dongola. The date is approximate.,seed
+meroe-kush,alwa,continues,500,archaeology-africa,Alwa held the old heartland of Kush. Continuity of people is likely and of rule is not shown.,seed
+aksum-kingdom,zagwe,continues,1137,ethiopian-chronicles,The Zagwe kept Aksum's church and its claims. The break between them is poorly recorded.,seed
+zagwe,ethiopia-solomonic,continues,1270,ethiopian-chronicles,Yekuno Amlak overthrew the last Zagwe king.,seed
+ifat,adal,continues,1415,ethiopian-chronicles,The ruling house of Ifat came back from exile and ruled as sultans of Adal.,seed
+ghana-wagadu,mali-empire,absorbed-by,1240,arab-geographers-africa,Ibn Khaldun reports the conquest.,seed
+gao-kingdom,songhai-empire,continues,1464,timbuktu-chronicles,Sunni Ali made the kingdom of Gao an empire.,seed
+kanem,bornu,continues,1380,arab-geographers-africa,The same dynasty moved its seat west of Lake Chad.,seed
+hausa-states,sokoto,absorbed-by,1808,travellers-19c,The jihad replaced the Hausa kings with Fula emirs.,seed
+segu,tukulor,absorbed-by,1861,travellers-19c,Umar Tal took Segu in 1861.,seed
+massina,tukulor,absorbed-by,1862,travellers-19c,Umar Tal took Hamdullahi in 1862.,seed
+kitara,bunyoro,continues,1500,oral-tradition-africa,Bunyoro's kings claimed to be heirs of Kitara. This is court tradition.,seed
+great-zimbabwe,mutapa,continues,1450,oral-tradition-africa,Tradition has a prince leave Great Zimbabwe for the north. The link is debated.,seed
+butua,rozvi,absorbed-by,1684,portuguese-africa,The Rozvi took Khami and the south-west.,seed
+northern-nguni,zulu,continues,1816,travellers-19c,Shaka took over the Mthethwa confederacy and beat the Ndwandwe.,seed
+ndebele,zulu,split-from,1822,travellers-19c,Mzilikazi and his following broke away from Shaka.,seed
+kwale,urewe,split-from,150,archaeology-africa,Kwale pottery is held to derive from Urewe. This is an archaeological inference.,seed
+oyo,yoruba,continues,1836,travellers-19c,The successor cities of Oyo.,seed
+van-diemens-land,new-south-wales-colony,split-from,1825,acts-treaties,Van Diemen's Land became a separate colony.,seed
+victoria-colony,new-south-wales-colony,split-from,1851,acts-treaties,,seed
+queensland-colony,new-south-wales-colony,split-from,1859,acts-treaties,,seed
+new-south-wales-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+victoria-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+queensland-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+south-australia-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+western-australia-colony,commonwealth-of-australia,merged-into,1901,acts-treaties,Federation.,seed
+van-diemens-land,commonwealth-of-australia,merged-into,1901,acts-treaties,"Federation, as Tasmania.",seed
+british-new-guinea,territory-of-papua,continues,1906,acts-treaties,Passed from Britain to Australia.,seed
+german-new-guinea,territory-of-new-guinea,continues,1914,acts-treaties,Occupied by Australia in 1914.,seed
+territory-of-papua,papua-and-new-guinea,merged-into,1949,acts-treaties,,seed
+territory-of-new-guinea,papua-and-new-guinea,merged-into,1949,acts-treaties,,seed
+papua-and-new-guinea,papua-new-guinea,continues,1975,acts-treaties,Independence.,seed
+dutch-new-guinea,indonesian-papua,absorbed-by,1963,acts-treaties,Transferred through a United Nations interim administration. The transfer is contested by an independence movement.,seed
+cape-barren-islanders,palawa,split-from,1810,mission-protectorate-records,The island community grew from Palawa women and sealers and is the main line of descent of Palawa today.,seed
+central-prakrits,hindi-speakers,continues,1000,linguistic-geography,The Apabhramsha of the Ganges plain passed into the early forms of Hindi.,seed
+central-prakrits,punjabi-speakers,continues,1000,linguistic-geography,,seed
+central-prakrits,rajasthani-speakers,continues,1100,linguistic-geography,,seed
+magadhi-prakrit,bengali-speakers,continues,1000,linguistic-geography,,seed
+magadhi-prakrit,bihari-speakers,continues,1000,linguistic-geography,,seed
+magadhi-prakrit,odia-speakers,continues,1000,linguistic-geography,,seed
+magadhi-prakrit,assamese-speakers,continues,500,linguistic-geography,,seed
+maharashtri-prakrit,marathi-speakers,continues,950,linguistic-geography,,seed
+malayalam-speakers,tamil-speakers,split-from,1100,linguistic-geography,The west coast dialect of Tamil became Malayalam.,seed
+khasa-kingdom,nepali-speakers,name-continues,1400,indian-inscriptions,"Nepali was long called Khas Kura, the speech of the Khas.",seed
+gorkha,nepal,continues,1768,nepal-vamshavalis,The Gorkha king moved his capital to Kathmandu.,seed
+chalukyas-badami,rashtrakutas,absorbed-by,753,indian-inscriptions,"Dantidurga, a Chalukya feudatory, overthrew his overlord.",seed
+rashtrakutas,western-chalukyas,absorbed-by,973,indian-inscriptions,,seed
+eastern-chalukyas,cholas,merged-into,1070,indian-inscriptions,"Kulottunga, a Vengi prince, took the Chola throne.",seed
+bahmanis,bijapur,continues,1490,persian-chronicles,One of five successor sultanates.,seed
+bahmanis,golconda,continues,1518,persian-chronicles,,seed
+bahmanis,ahmadnagar,continues,1490,persian-chronicles,,seed
+anuradhapura,polonnaruwa,continues,1070,mahavamsa,After half a century of Chola rule the Sinhalese kingdom was restored at a new capital.,seed
+dambadeniya-gampola,kotte,continues,1412,mahavamsa,,seed
+sikhs,sikh-empire,continues,1799,persian-chronicles,Ranjit Singh united the misls.,seed
+east-india-company,british-raj,continues,1858,acts-treaties,,seed
+british-raj,india,continues,1947,acts-treaties,,seed
+british-raj,pakistan,split-from,1947,acts-treaties,Partition.,seed
+bangladesh,pakistan,split-from,1971,acts-treaties,,seed
+colonial-ceylon,sri-lanka,continues,1948,acts-treaties,,seed
+maldives-sultanate,maldives,continues,1965,acts-treaties,,seed
+venad-travancore,ays,name-continues,1124,indian-inscriptions,"Venad is the country of the Vels, on the ground of the old Ay chiefs.",seed
+yilou,mohe,continues,450,weishu,The Chinese histories treat the Mohe as successors of the Yilou.,seed
+mohe,jurchens,continues,930,jinshi,The Jinshi derives the Jurchens from the Heishui Mohe.,seed
+jurchens,manchus,name-continues,1635,qing-gazetteers,Renamed by Hong Taiji.,seed
+khitans,liao-dynasty,continues,916,liaoshi,Abaoji took the title of emperor in 916.,seed
+jurchens,jin-jurchen,continues,1115,jinshi,Aguda proclaimed the Jin in 1115.,seed
+tanguts,western-xia,continues,1038,songshi,Yuanhao took the title of emperor in 1038.,seed
+uyghur-khaganate,qocho,continues,866,tang-histories,Uyghurs moved to the Turfan region after 840.,seed
+uyghur-khaganate,ganzhou-uyghurs,continues,870,tang-histories,Another group settled in the Hexi corridor.,seed
+khamag-mongols,mongol-empire,continues,1206,secret-history,The assembly of 1206.,seed
+mongol-empire,yuan-dynasty,continues,1271,yuanshi,Khubilai took the dynastic name Yuan in 1271.,seed
+yuan-dynasty,northern-yuan,continues,1368,mingshi,The court withdrew to Mongolia.,seed
+oirats,dzungar-khanate,continues,1634,qing-gazetteers,The Dzungars were one of the four Oirat peoples.,seed
+nanzhao,dali-kingdom,continues,937,songshi,After three short-lived successor states.,seed
+zhangzhung,tibetans,absorbed-by,645,old-tibetan-annals,Conquered under Songtsen Gampo.,seed
+buyeo,goguryeo,absorbed-by,494,samguk-sagi,The last king of Buyeo submitted to Goguryeo.,seed
+byeonhan,gaya,continues,300,samguk-sagi,,seed
+gaya,silla,absorbed-by,562,samguk-sagi,,seed
+baekje,silla,absorbed-by,660,samguk-sagi,,seed
+silla,koreans,continues,935,samguk-sagi,Silla surrendered to Goryeo in 935.,seed
+goryeo,joseon,continues,1392,joseon-sillok,,seed
+wa,yamato,continues,300,nihon-shoki,,seed
+yamato,japanese,continues,710,shoku-nihongi,,seed
+epi-jomon,ainu,continues,1200,eastasia-archaeology,Through the Satsumon culture of the 8th to 12th centuries.,seed
+cao-wei,jin-dynasty,continues,266,sanguozhi,The Sima family took the throne of Wei.,seed
+northern-wei,northern-qi,split-from,534,weishu,,seed
+northern-wei,northern-zhou,split-from,535,weishu,,seed
+funan,chenla,absorbed-by,550,chinese-histories-nanhai,"Chinese histories say Chenla, once a vassal, conquered Funan.",seed
+chenla,khmer-empire,continues,802,sea-inscriptions,Jayavarman II reunited the Khmer lands.,seed
+khmer-empire,cambodia-kingdom,continues,1431,thai-chronicles,The court moved south from Angkor.,seed
+pyu-cities,pagan,absorbed-by,849,burmese-chronicles,The Pyu were absorbed by the Burmese of Pagan over several centuries.,seed
+ramanya,hanthawaddy,continues,1287,burmese-chronicles,A Mon kingdom re-formed when Pagan fell.,seed
+hanthawaddy,mon-people,continues,1757,burmese-chronicles,The Mon after the loss of their kingdom.,seed
+toungoo,konbaung,continues,1752,burmese-chronicles,Alaungpaya restored Burmese rule within months of Ava's fall.,seed
+viet-giao-chi,dai-viet,continues,939,dai-viet-chronicle,Independence from the Southern Han.,seed
+trinh-tonkin,dai-viet,split-from,1600,dai-viet-chronicle,The Lê realm divided between two families of lords.,seed
+nguyen-lords,dai-viet,split-from,1600,dai-viet-chronicle,The Nguyễn held the south from 1558 and broke openly with the north by 1627.,seed
+nguyen-lords,nguyen-vietnam,continues,1802,dai-viet-chronicle,A Nguyễn heir reunited the country after the Tây Sơn wars.,seed
+sa-huynh,champa,continues,192,settlement-archaeology,A continuity most archaeologists accept.,seed
+champa,cham-people,continues,1832,dai-viet-chronicle,The Cham after the end of Panduranga.,seed
+sukhothai,ayutthaya,absorbed-by,1438,thai-chronicles,Sukhothai passed to Ayutthaya by inheritance.,seed
+ayutthaya,siam-rattanakosin,continues,1782,thai-chronicles,Taksin at Thonburi and then the Chakri kings at Bangkok restored the kingdom.,seed
+lao-kingdoms,lan-xang,split-from,1707,thai-chronicles,Lan Xang divided among rival heirs.,seed
+srivijaya,malayu,continues,1275,chinese-histories-nanhai,The centre of the straits kingdom had moved to Jambi.,seed
+malacca,johor,continues,1528,malay-annals,The sultan's heirs founded Johor after the Portuguese took Malacca.,seed
+mataram-medang,kediri,continues,1019,sea-inscriptions,Airlangga rebuilt the kingdom after the disaster of 1016.,seed
+kediri,singhasari,absorbed-by,1222,nagarakretagama,Ken Angrok defeated Kediri.,seed
+singhasari,majapahit,continues,1293,nagarakretagama,Founded by Kertanagara's son-in-law.,seed
+mataram-sultanate,surakarta-yogyakarta,continues,1755,voc-records,Divided by the Treaty of Giyanti.,seed
+tui-tonga,tonga-kingdom,name-continues,1845,polynesian-oral-tradition,The modern kings descend from a junior chiefly line.,seed
+merina,merina-kingdom,continues,1787,tantara-andriana,The Merina united under one king.,seed
+preclassic-maya,classic-maya,continues,250,maya-inscriptions,The same cities and dynasties.,seed
+classic-maya,yucatan-maya,continues,900,americas-archaeology,Power moved to the northern lowlands as the southern cities emptied.,seed
+mexica,nahua,continues,1521,florentine-codex,The Nahua towns lived on under Spanish rule.,seed
+inca,quechua-people,continues,1532,guaman-poma,The empire fell and its common language stayed.,seed
+tairona,kogi,continues,1600,americas-oral-tradition,The Kogi hold themselves to be descendants of the Tairona.,seed
+ancestral-pueblo,pueblos,continues,1300,americas-oral-tradition,"Pueblo histories and archaeology both trace the move to the Rio Grande, Hopi and Zuni.",seed
+hohokam,oodham,continues,1450,americas-oral-tradition,Held by O'odham tradition. Archaeologists differ on how direct the link is.,seed
+mississippian,mvskoke,continues,1650,americas-archaeology,The Creek towns formed from the remains of the chiefdoms.,seed
+old-bering-sea,thule-culture,continues,1000,americas-archaeology,Thule grew out of Birnirk in north Alaska.,seed
+thule-culture,inuit-canada,continues,1600,americas-archaeology,The Inuit are the direct descendants of the Thule people.,seed
+thule-culture,kalaallit,continues,1600,americas-archaeology,The Inuit of Greenland are descended from the Thule people.,seed
+norton-tradition,yupik-alaska,continues,1000,americas-archaeology,An assumed descent.,seed
+taltheilei,denesuline,continues,1300,americas-archaeology,An assumed descent.,seed
+saladoid,taino,continues,800,americas-archaeology,Taíno society grew from the Saladoid and later Ostionoid settlers.,seed
+new-spain,mexico-state,continues,1821,acts-treaties,Independence.,seed
+thirteen-colonies,united-states,continues,1776,acts-treaties,Independence.,seed
+british-north-america,canada-state,continues,1867,acts-treaties,Confederation.,seed
+colonial-brazil,empire-of-brazil,continues,1822,acts-treaties,Independence.,seed
+empire-of-brazil,brazil-state,continues,1889,acts-treaties,The republic.,seed
+colombia-state,gran-colombia,split-from,1831,acts-treaties,Gran Colombia broke into three states.,seed
+venezuela-state,gran-colombia,split-from,1830,acts-treaties,Gran Colombia broke into three states.,seed

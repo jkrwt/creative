@@ -1,0 +1,134 @@
+/* The atlas panel. Dark by design: the fields are light on a dark sea.
+   Grouping: the map with its region switch and its detail card; one block for time; then legend, key and list.
+   Text is at least 4.5:1 on its ground, controls are at least 36px tall (44px on touch), focus is a white ring. */
+.atlas {
+  --panel: #0a0d13; --surface: #10151d; --raised: #1b2330; --fg: #eef2f6; --muted: #a3adba; --line: #2c3746; --focus: #ffffff;
+  --mono: ui-monospace, "IBM Plex Mono", Menlo, monospace;
+  --display: "Space Grotesk", Inter, system-ui, sans-serif;
+  background: var(--panel); color: var(--fg); border-radius: 12px; padding: 16px;
+  display: grid; grid-template-columns: minmax(0, 540px) minmax(0, 1fr); gap: 20px; align-items: start;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; line-height: 1.5;
+}
+.atlas [hidden] { display: none !important; }
+.atlas .mapcol, .atlas .sidecol { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.atlas h2 { margin: 0; font-family: var(--display); font-weight: 600; font-size: 14px; letter-spacing: .01em; color: var(--fg); }
+.atlas h3 { margin: 0; }
+.atlas p { margin: 0; max-width: none; }
+.atlas .fine { font-size: 12.5px; color: var(--muted); }
+
+/* controls */
+.atlas button { font-family: inherit; font-size: 13px; line-height: 1.2; color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 8px; min-height: 36px; padding: 6px 12px; cursor: pointer; }
+.atlas button:hover { border-color: var(--muted); }
+.atlas button:focus-visible, .atlas #year:focus-visible, .atlas #list:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.atlas button[aria-pressed="true"] { background: var(--raised); border-color: var(--fg); }
+.atlas .btns { display: flex; gap: 6px; flex-wrap: wrap; }
+@media (pointer: coarse) { .atlas button { min-height: 44px; } }
+
+/* region switch: one choice of several, so it is one joined control */
+.atlas .seg { display: flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 10px; padding: 3px; gap: 3px; }
+.atlas .seg button { flex: 1 1 auto; border-color: transparent; border-radius: 7px; padding: 6px 8px; }
+.atlas .seg button[aria-pressed="true"] { background: var(--fg); color: var(--panel); border-color: var(--fg); font-weight: 600; }
+
+/* two steps: the world or a continent, then a region of it. The second row is quieter than the first. */
+.atlas .switch { display: flex; flex-direction: column; gap: 6px; }
+.atlas .seg.sub { border-style: dashed; }
+.atlas .seg.sub button { font-size: 12.5px; min-height: 32px; padding: 4px 8px; }
+.atlas .seg.sub button[aria-pressed="true"] { background: var(--raised); color: var(--fg); border-color: var(--muted); }
+@media (pointer: coarse) { .atlas .seg.sub button { min-height: 44px; } }
+
+/* map and the card that answers a tap on it */
+.atlas .mapwrap { position: relative; }
+.atlas #map { width: 100%; display: block; border-radius: 8px; background: #05080e; cursor: crosshair; touch-action: pan-y; }
+.atlas .card { position: absolute; left: 8px; right: 8px; bottom: 8px; max-height: 48%; overflow-y: auto; background: rgba(13, 18, 26, .94); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px 12px 14px; box-shadow: 0 8px 28px rgba(0, 0, 0, .55); }
+.atlas .card.top { bottom: auto; top: 8px; }
+.atlas .dhead { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.atlas .card h3 { font-family: var(--display); font-weight: 600; font-size: 16px; letter-spacing: .02em; display: flex; align-items: center; gap: 8px; padding-top: 6px; }
+.atlas .card .close { min-width: 36px; padding: 0; font-size: 20px; line-height: 1; flex: none; }
+@media (pointer: coarse) { .atlas .card .close { min-width: 44px; } }
+.atlas .card .meta { font-family: var(--mono); font-size: 12px; color: var(--muted); margin: 2px 0 8px; }
+.atlas .card .cls, .atlas .card ul { color: var(--muted); font-size: 13px; }
+.atlas .card .cls { margin-top: 6px; }
+.atlas .card ul { margin: 4px 0 0; padding-left: 18px; }
+
+/* time: year, period, slider and the strip of periods read as one block */
+.atlas .time { display: flex; flex-direction: column; gap: 8px; background: var(--surface); border-radius: 10px; padding: 12px 14px 14px; }
+.atlas .yearrow { display: flex; align-items: center; justify-content: flex-end; gap: 10px; flex-wrap: wrap; }
+.atlas .when { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.atlas #yearlabel { font-family: var(--display); font-weight: 700; font-size: 32px; line-height: 1; font-variant-numeric: tabular-nums; }
+.atlas #eraname { font-family: var(--display); font-weight: 500; font-size: 15px; color: var(--muted); }
+.atlas #eraprev, .atlas #eranext { min-width: 36px; padding: 0; font-size: 20px; line-height: 1; }
+@media (pointer: coarse) { .atlas #eraprev, .atlas #eranext { min-width: 44px; } }
+.atlas #year { width: 100%; height: 28px; margin: 0; accent-color: var(--fg); }
+.atlas #erastrip { display: flex; gap: 2px; height: 8px; margin: 0 8px; }
+.atlas #erastrip i { flex: 1 1 0; background: var(--line); border-radius: 2px; }
+.atlas #erastrip i.on { background: var(--fg); }
+.atlas .ticks { position: relative; height: 16px; margin: 0 8px; font-family: var(--mono); font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.atlas .ticks span { position: absolute; top: 0; transform: translateX(-50%); }
+.atlas .ticks span:first-child { transform: none; }
+.atlas .chapter { display: flex; flex-direction: column; gap: 6px; }
+.atlas #era { font-size: 15px; line-height: 1.5; color: var(--fg); min-height: 4.6em; max-width: 60ch; }
+.atlas .crumb { display: flex; align-items: flex-start; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+.atlas .crumb .back { flex: none; white-space: nowrap; }
+.atlas .crumb h3 { font-family: var(--display); font-weight: 600; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+.atlas .crumb p { font-size: 13.5px; color: var(--muted); margin-top: 2px; }
+
+/* legend, key, list: three panels of the same build */
+.atlas .panel { display: flex; flex-direction: column; gap: 10px; background: var(--surface); border-radius: 10px; padding: 12px 14px 14px; }
+.atlas #legend { display: flex; flex-direction: column; gap: 8px; }
+.atlas .brow { display: grid; grid-template-columns: 148px minmax(0, 1fr); gap: 6px 12px; align-items: start; }
+.atlas button.branch { font-family: var(--display); font-weight: 600; display: inline-flex; align-items: center; gap: 8px; text-align: left; }
+.atlas .fams { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12.5px; color: var(--muted); padding-top: 8px; }
+.atlas .fams span, .atlas .grp h3 { display: inline-flex; align-items: center; gap: 6px; }
+.atlas .glyph { flex: none; display: block; }
+.atlas #legend.compact, .atlas.wide #legend.compact { display: flex; flex-direction: row; flex-wrap: wrap; gap: 6px; }
+.atlas #legend.compact .brow { display: block; }
+.atlas #legend.compact button.branch { font-family: inherit; font-weight: 500; padding: 4px 10px; min-height: 32px; }
+@media (pointer: coarse) { .atlas #legend.compact button.branch { min-height: 40px; } }
+.atlas .key { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 6px 16px; font-size: 12.5px; color: var(--muted); }
+.atlas .key li { display: flex; align-items: center; gap: 8px; }
+.atlas .sw { width: 28px; height: 16px; border-radius: 3px; flex: none; border: 1px solid var(--line); }
+.atlas .sw-wash { background: rgba(60, 160, 200, .42); }
+.atlas .sw-people { background: radial-gradient(circle at 50% 50%, #7fdcf6, #2a93c2); }
+.atlas .sw-stripe { background: repeating-linear-gradient(135deg, #f0a52c 0 4px, #dc7aa6 4px 8px); }
+.atlas .sw-loose { background-color: #15303c; background-image: radial-gradient(#6fd2ee 38%, transparent 40%); background-size: 4px 4px; }
+.atlas .sw-out { background: repeating-linear-gradient(135deg, #0b0e14 0 3px, #2a3442 3px 4px); }
+.atlas #list { display: flex; flex-direction: column; gap: 12px; max-height: 420px; overflow-y: auto; padding: 2px 4px 2px 2px; }
+.atlas .grp h3 { margin: 0 0 6px; font-family: var(--mono); font-weight: 500; font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); display: flex; }
+.atlas .names { display: flex; flex-wrap: wrap; gap: 6px; }
+.atlas .names button { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; min-height: 32px; }
+@media (pointer: coarse) { .atlas .names button { min-height: 40px; } }
+.atlas #status { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+
+@media (max-width: 760px) {
+  .atlas { grid-template-columns: minmax(0, 1fr); padding: 12px; }
+  .atlas #list { max-height: 300px; }
+  .atlas .brow { grid-template-columns: minmax(0, 1fr); }
+  .atlas .fams { padding-top: 0; }
+  .atlas .seg button { font-size: 12.5px; padding: 6px 4px; }
+  .atlas .seg.sub button { min-height: 44px; }
+  .atlas button { min-height: 44px; }
+  .atlas .names button { min-height: 40px; }
+}
+@media (prefers-reduced-motion: reduce) { .atlas * { scroll-behavior: auto; } }
+
+/* Wide layout: the map crosses the page; the story sits above it, time below it, then legend, key and names. */
+.atlas.wide { --gut: max(16px, env(safe-area-inset-left, 0px)); display: block; padding: 0; border-radius: 0; background: transparent; font-size: 15px; }
+.atlas.wide .mapcol { gap: 14px; }
+.atlas.wide .mapcol > :not(.mapwrap), .atlas.wide .sidecol { width: min(1180px, calc(100% - 2 * var(--gut))); margin-inline: auto; }
+.atlas.wide #map { border-radius: 0; }
+.atlas.wide .chapter { gap: 8px; }
+.atlas.wide #yearlabel { font-size: clamp(36px, 6vw, 52px); }
+.atlas.wide #eraname { font-size: clamp(16px, 2.2vw, 20px); }
+.atlas.wide #era { font-size: clamp(15px, 1.5vw, 17px); max-width: 68ch; min-height: 3.2em; }
+.atlas.wide .card { left: var(--gut); right: auto; bottom: 16px; width: min(440px, calc(100% - 2 * var(--gut))); }
+.atlas.wide .card.top { top: 16px; }
+.atlas.wide .sidecol { display: flex; flex-direction: column; gap: 16px; margin-top: 16px; }
+.atlas.wide #legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 10px 28px; }
+.atlas.wide .brow { grid-template-columns: 132px minmax(0, 1fr); }
+.atlas.wide .key { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.atlas.wide #list { max-height: 360px; }
+@media (max-width: 860px) {
+  .atlas.wide #legend { grid-template-columns: minmax(0, 1fr); }
+  .atlas.wide .brow { grid-template-columns: minmax(0, 1fr); }
+  .atlas.wide .fams { padding-top: 0; }
+}

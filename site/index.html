@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peoples Atlas</title>
+<link rel="stylesheet" href="atlas.css">
+<style>
+  html { color-scheme: dark; }
+  body { margin: 0; background: #070a0f; color: #eef2f6; font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { margin: 0 auto; padding: 24px 0 48px; display: flex; flex-direction: column; gap: 16px; }
+  main > h1, main > p { width: min(1180px, calc(100% - 32px)); margin-inline: auto; }
+  h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  p.lede { margin-block: 0; color: #a3adba; font-size: 14px; line-height: 1.5; max-width: 72ch; }
+  #error { color: #ffcf70; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Peoples Atlas</h1>
+  <p class="lede">The world, 1 CE to the present. Built from the claim tables by <code>atlas.build</code>. Serve this folder over HTTP; the page loads its data with fetch.</p>
+  <p class="lede" id="error" hidden></p>
+  <div class="atlas wide">
+    <div class="mapcol">
+      <div class="chapter">
+        <div class="when"><span id="yearlabel">150 CE</span><span id="eraname"></span></div>
+        <p id="era" aria-live="polite"></p>
+      </div>
+      <div class="switch">
+        <div class="seg" id="views" role="group" aria-label="Part of the world shown"></div>
+        <div class="seg sub" id="subviews" role="group" aria-label="Region shown" hidden></div>
+      </div>
+      <div id="crumb" class="crumb" role="region" aria-label="Open group" aria-live="polite" hidden></div>
+      <div class="mapwrap">
+        <canvas id="map" role="img" aria-label="Map of peoples, languages and states at the selected year. The list after the map names everything on it."></canvas>
+        <div id="detail" class="card" role="region" aria-label="Details of the selected entry" aria-live="polite" hidden></div>
+      </div>
+      <p class="fine">Tap a group to open it. Tap a people for its language, dates and sources.</p>
+      <div class="time" role="group" aria-label="Time">
+        <div class="yearrow">
+          <div class="btns">
+            <button type="button" id="eraprev" aria-label="Previous period">&#8249;</button>
+            <button type="button" id="eranext" aria-label="Next period">&#8250;</button>
+            <button type="button" id="play" aria-pressed="false">Play</button>
+            <button type="button" id="motion" aria-pressed="true">Motion on</button>
+          </div>
+        </div>
+        <input type="range" id="year" min="1" max="2026" step="1" value="150" aria-label="Year">
+        <div id="erastrip" aria-hidden="true"></div>
+        <div class="ticks" id="ticks" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div class="sidecol">
+      <section class="panel" aria-labelledby="key-h">
+        <h2 id="key-h">How to read the map</h2>
+        <ul class="key">
+          <li><i class="sw sw-wash"></i>Soft wash: the language most people spoke</li>
+          <li><i class="sw sw-people"></i>Bright field: a named people, or a group of them</li>
+          <li><i class="sw sw-stripe"></i>Stripes: two languages on the same ground</li>
+          <li><i class="sw sw-loose"></i>Stippled: placement is loose</li>
+          <li><i class="sw sw-out"></i>Hatched: outside the survey</li>
+        </ul>
+      </section>
+      <section class="panel" aria-labelledby="legend-h">
+        <h2 id="legend-h">Colour and shape show language</h2>
+        <div id="legend"></div>
+        <p class="fine">Only the branches on the map in this view and year are listed. Select one to highlight it. Each branch has a shape as well as a colour, so nothing depends on colour alone. A shape or a colour may be used again on another continent.</p>
+      </section>
+      <section class="panel" aria-labelledby="list-h">
+        <h2 id="list-h">On the map this year</h2>
+        <div id="list" tabindex="0" role="group" aria-labelledby="list-h"></div>
+        <div id="status"></div>
+      </section>
+    </div>
+  </div>
+</main>
+<script src="atlas.js"></script>
+<script>
+Promise.all([fetch('data/peoples.json'), fetch('data/coast.json')])
+  .then(function (rs) { return Promise.all(rs.map(function (r) { if (!r.ok) throw new Error(r.url + ' ' + r.status); return r.json(); })); })
+  .then(function (d) { PeoplesAtlas(d[0], d[1]); })
+  .catch(function (e) {
+    var el = document.getElementById('error'); el.hidden = false;
+    el.textContent = 'Could not load the map data (' + e.message + '). Run the build, then serve this folder over HTTP.';
+  });
+</script>
+</body>
+</html>

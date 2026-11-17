@@ -1,0 +1,223 @@
+source_id,citation,kind,date,bucket,read_at,note
+ptolemy-geog,"Ptolemy, Geography, Book II (II.2 Ireland, II.3 Britain)",text,about 150,no,,Chapter numbering differs between editions. Record the edition with each locator.
+caesar-bg,"Caesar, Gallic War",text,about 50 BCE,no,,
+tacitus,"Tacitus, Agricola and Annals",text,98 to about 117,yes,,Bucket. A checked claim cites the work and chapter.
+civitas-names,"Civitas capital names in the Antonine Itinerary, the Ravenna Cosmography and inscriptions",inscription,2nd to 4th century,yes,https://romaninscriptionsofbritain.org,Bucket. A checked claim cites the itinerary entry or the inscription number.
+panegyric-297,"Latin panegyric to Constantius, 297",text,297,no,,First surviving use of the name Picti.
+bede-he,"Bede, Ecclesiastical History of the English People",text,731,no,,
+adomnan-vc,"Adomnán, Life of Columba",text,about 700,no,,
+annals-ulster,Annals of Ulster,text,compiled later from contemporary records from the later 6th century,no,https://celt.ucc.ie,Cite by annal year.
+annals-four-masters,Annals of the Four Masters,text,compiled 1632 to 1636,no,https://celt.ucc.ie,Late compilation. Prefer an earlier annal where one has the entry.
+irish-genealogies,Early Irish genealogies and regnal lists,text,8th century onward,yes,,Bucket. A checked claim cites the tract and edition.
+ogham,Ogham inscriptions,inscription,5th to 7th century,yes,https://ogham.celt.dias.ie,Bucket. A checked claim cites the inscription ID.
+tribal-hidage,Tribal Hidage,text,7th to 9th century,no,,
+asc,Anglo-Saxon Chronicle,text,from the late 9th century,no,,Cite by manuscript and annal year.
+historia-brittonum,Historia Brittonum,text,829 or 830,no,,
+annales-cambriae,Annales Cambriae,text,10th century,no,,
+early-welsh-poetry,Early Welsh poetry attributed to Aneirin and Taliesin,text,date disputed,yes,,Bucket. Dates of composition are disputed; treat placements from it as indicative.
+orkneyinga-saga,Orkneyinga saga,text,about 1200,no,,Written three centuries after the events it opens with.
+domesday,Domesday Book,record,1086,no,,
+gerald-expugnatio,"Gerald of Wales, Expugnatio Hibernica",text,about 1189,no,,
+acts-treaties,"Acts, treaties and charters",record,various,yes,,Bucket. A checked claim cites the instrument by name and year.
+census,Census returns of Ireland and the United Kingdom,census,1841 onward,yes,,Bucket. A checked claim cites the census year and table.
+linguistic-geography,Modern studies of historical language areas,modern-study,various,yes,,Bucket. A checked claim cites the study and page.
+pliny-nh,"Pliny the Elder, Natural History, Books III and IV",text,about 77,no,,Lists the peoples of Hispania and Gaul by province.
+strabo-geog,"Strabo, Geography, Books III and IV",text,about 20,no,,
+notitia-galliarum,Notitia Galliarum,record,about 400,no,,Lists the cities of Gaul by province. Most are named for their people.
+gregory-tours,"Gregory of Tours, Histories",text,about 594,no,,
+hydatius,"Hydatius, Chronicle",text,about 469,no,,Written in Gallaecia. The main source for the Suebi.
+isidore-goths,"Isidore of Seville, History of the Goths, Vandals and Suebi",text,about 624,no,,
+royal-frankish-annals,Royal Frankish Annals,text,741 to 829,no,,Cite by annal year.
+asturian-chronicles,Chronicle of Alfonso III and the Chronicle of Albelda,text,late 9th century,no,,
+arabic-chronicles,Arabic chronicles of al-Andalus,text,10th century onward,yes,,Bucket. A checked claim cites the work and passage.
+tacitus-germania,"Tacitus, Germania",text,98,no,,The fullest ancient account of the peoples beyond the Rhine.
+jordanes,"Jordanes, Getica",text,551,no,,"A history of the Goths, written long after the events it opens with."
+procopius,"Procopius, Wars",text,about 550,no,,
+ammianus,"Ammianus Marcellinus, Res Gestae",text,about 390,no,,
+paul-deacon,"Paul the Deacon, History of the Lombards",text,about 790,no,,
+primary-chronicle,Primary Chronicle (Tale of Bygone Years),text,about 1113,no,,Compiled in Kiev. Its account of the 9th century is tradition.
+dai,"Constantine Porphyrogenitus, De Administrando Imperio",text,about 950,no,,
+adam-bremen,"Adam of Bremen, Deeds of the Bishops of Hamburg",text,about 1075,no,,
+bavarian-geographer,Bavarian Geographer,record,9th century,no,,"A list of peoples east of the Frankish empire, with a count of their strongholds."
+josephus,"Josephus, Jewish War and Jewish Antiquities",text,about 75 to 94,no,,
+syriac-chronicles,"Syriac chronicles, from the Chronicle of Edessa to Michael the Syrian and Bar Hebraeus",text,6th to 13th century,yes,,Bucket. A checked claim cites the chronicle and year.
+baladhuri,"al-Baladhuri, Conquests of the Lands (Futuh al-Buldan)",text,9th century,no,,Written two centuries after the conquests it describes.
+masudi,"al-Masudi, Meadows of Gold",text,about 947,no,,
+ibn-hawqal,"Ibn Hawqal, Configuration of the Earth",text,about 977,no,,
+bakri,"al-Bakri, Book of Roads and Kingdoms",text,1068,no,,Written in al-Andalus from earlier reports. The fullest early account of the Maghreb and the Sahara.
+ibn-khaldun,"Ibn Khaldun, Book of Lessons (Kitab al-Ibar) and its Muqaddimah",text,about 1377 to 1406,no,,The main history of the Berber and Arab peoples of the Maghreb.
+arabic-histories-east,"Arabic chronicles and geographies of Egypt, Syria, Iraq and Arabia",text,9th to 15th century,yes,,Bucket. A checked claim cites the work and passage.
+armenian-chronicles,"Armenian histories, from Agathangelos and Movses Khorenatsi to Matthew of Edessa",text,5th to 13th century,yes,,Bucket. The dates of the earliest works are disputed.
+georgian-chronicles,Kartlis Tskhovreba (the Georgian Chronicles),text,compiled from the 9th to the 14th century,yes,,Bucket. Its account of the centuries before 500 is tradition.
+south-arabian-inscriptions,Inscriptions of ancient South Arabia,inscription,8th century BCE to 6th century CE,yes,,Bucket. A checked claim cites the inscription.
+north-arabian-inscriptions,"Nabataean, Palmyrene, Safaitic and other inscriptions of Syria and north Arabia",inscription,1st century BCE to 4th century CE,yes,,Bucket. A checked claim cites the inscription.
+papyri,"Greek, Demotic and Coptic papyri from Egypt",record,to the 8th century and later,yes,,Bucket. A checked claim cites the papyrus.
+african-inscriptions,"Latin, Punic and Libyan inscriptions of Roman Africa",inscription,1st to 6th century,yes,,Bucket. A checked claim cites the inscription.
+augustine,"Augustine of Hippo, letters and sermons",text,about 390 to 430,yes,,Bucket. Augustine mentions Punic spoken in the countryside of his diocese.
+corippus,"Corippus, Iohannis",text,about 550,no,,"A Latin epic on the Byzantine wars against the Moors, with many Berber names."
+theophanes,"Theophanes the Confessor, Chronicle",text,about 815,no,,
+william-tyre,"William of Tyre, History of Deeds Done Beyond the Sea",text,about 1184,no,,
+ottoman-registers,Ottoman tax registers (tahrir defters),record,15th to 17th century,yes,,Bucket. A checked claim cites the register and district.
+sharafnama,"Sharaf Khan Bidlisi, Sharafnama",text,1597,no,,"A history of the Kurdish ruling houses, written in Persian."
+census-neareast,"Modern censuses and language surveys of the Near East, the Caucasus and North Africa",census,1880s onward,yes,,Bucket. A checked claim cites the census year and table.
+islendingabok,"Ari Thorgilsson, Book of the Icelanders (Islendingabok)",text,about 1125,no,,Dates the settlement of Iceland to about 870.
+canarian-chronicles,Le Canarien and the Castilian chronicles of the conquest of the Canary Islands,text,15th century,yes,,Bucket. Written by the conquerors.
+isidore-charax,"Isidore of Charax, Parthian Stations",text,about 1,no,,An itinerary across the Parthian empire from the Euphrates to Arachosia.
+iranian-coins,"Coins of the Parthian, Persid, Kushan, Sasanian and Hunnic rulers",coin,3rd century BCE to 8th century,yes,,Bucket. A checked claim cites the issue.
+sasanian-inscriptions,"Sasanian royal inscriptions, among them Shapur I at Naqsh-e Rostam and Narseh at Paikuli",inscription,3rd century,yes,,Bucket. A checked claim cites the inscription.
+chinese-histories-west,"Chinese dynastic histories on the Western Regions (Shiji, Hanshu, Hou Hanshu, Weishu, Tangshu)",text,about 90 BCE to 1060,yes,,Bucket. A checked claim cites the history and chapter. Names are in Chinese transcription and many placements are modern.
+xuanzang-xiyuji,"Xuanzang, Records of the Western Regions, on Sogd, Tokharistan and Kapisa",text,646,no,,A pilgrim's account of the journey of 629 to 645.
+sogdian-documents,Sogdian Ancient Letters and the Mount Mugh documents,record,4th to 8th century,yes,,Bucket. A checked claim cites the document.
+bactrian-documents,Bactrian inscriptions and legal documents,record,2nd to 8th century,yes,,Bucket. Includes the Rabatak inscription of Kanishka. A checked claim cites the document.
+menander,"Menander Protector, History (fragments)",text,about 580,no,,Reports the Roman embassy of Zemarchus to the Western Turks in 569.
+old-turkic-inscriptions,Old Turkic runiform inscriptions of the Yenisei and the Talas,inscription,8th to 10th century,yes,,Bucket. A checked claim cites the inscription.
+tabari,"al-Tabari, History of the Prophets and Kings",text,about 915,no,,"The main narrative of the Arab conquest of Iran and Khurasan, written two centuries after it."
+ibn-fadlan,"Ibn Fadlan, account of the embassy to the Volga Bulgars",text,922,no,,"An eyewitness to the Oghuz, Bashkirs, Bulgars and Khazars."
+biruni,"al-Biruni, Chronology of Ancient Nations",text,about 1000,no,,Written by a native of Khwarezm.
+kashgari-diwan,"Mahmud al-Kashgari, Compendium of the Turkic Dialects",text,about 1075,no,,Describes the Turkic peoples and their speech from the Kara-Khanid side.
+juvayni,"Juvayni, History of the World Conqueror",text,about 1260,no,,Written by a Persian official of the Mongols.
+rashid-al-din,"Rashid al-Din, Compendium of Chronicles",text,about 1310,no,,Written for the Ilkhans at Tabriz.
+carpini-rubruck,"John of Plano Carpini and William of Rubruck, journeys to the Mongols",text,1247 and 1255,yes,,"Bucket of two friars' reports, with the earlier report of the friar Julian."
+persian-histories,"Persian court histories and memoirs, from Bayhaqi to the Qajar chroniclers",text,11th to 19th century,yes,,Bucket. A checked claim cites the work.
+census-1897,Russian imperial census of 1897,census,1897,no,,The first count of the empire by mother tongue.
+soviet-censuses,Soviet and later national censuses,census,1926 onward,yes,,Bucket. A checked claim cites the census year.
+modern-ethnography,"Modern language and ethnographic surveys of Iran, Afghanistan and Central Asia",modern-study,various,yes,,"Bucket. Iran and Afghanistan have never counted their people by language, so areas are estimates."
+steppe-archaeology,"Archaeology of the steppe, the Urals and Siberia",modern-study,various,yes,,"Bucket. Burial mounds, settlements and named cultures. A culture is not a people and its language is always inferred."
+arab-geographers,Arab historians and geographers on Sindh and the Indian coast,text,9th to 11th century,yes,,Bucket. A checked claim cites the author and passage.
+aksum-inscriptions,Inscriptions and coins of the kings of Aksum,inscription,3rd to 7th century,yes,,"Bucket. Includes the inscriptions of Ezana in Ge'ez, Sabaean script and Greek. A checked claim cites the inscription."
+cosmas,"Cosmas Indicopleustes, Christian Topography",text,about 550,no,,An Alexandrian merchant who visited Adulis and describes Aksum's trade.
+nubian-texts,Meroitic and Old Nubian inscriptions and documents,inscription,2nd century BCE to 15th century,yes,,Bucket. Meroitic can be read aloud but is little understood. Old Nubian is well understood.
+arab-geographers-africa,Arab geographers and historians on Africa south of the Sahara,text,9th to 16th century,yes,,"Bucket. Al-Yaqubi, al-Masudi, al-Idrisi, Ibn Said, al-Umari, Ibn Khaldun and Leo Africanus among others. Most wrote from report and not from travel."
+al-bakri,"Al-Bakri, Book of Routes and Realms",text,1068,no,,"Written in Cordoba from travellers' reports. The fullest early account of Ghana, Takrur and the Sahara routes."
+timbuktu-chronicles,Tarikh al-Sudan and Tarikh al-Fattash,text,17th century,yes,,"Bucket. Arabic chronicles written in Timbuktu. Good for Songhai, weaker for earlier centuries. The authorship of the Tarikh al-Fattash is disputed."
+kano-chronicle,Kano Chronicle,text,written down in the 19th century,no,,"A king list with stories for each reign. Late and partly tradition, so early reigns place a claim loosely."
+ethiopian-chronicles,Ethiopian royal chronicles and related texts,text,14th century onward,yes,,"Bucket. Ge'ez chronicles from Amda Seyon onward, with Bahrey's account of the Oromo of 1593 and the Arabic Conquest of Abyssinia."
+kilwa-chronicle,Kilwa Chronicle,text,about 1520,no,,Survives in an Arabic version and in a Portuguese summary by Joao de Barros. Its early reigns are tradition.
+portuguese-africa,Portuguese chroniclers and records of the African coasts,text,15th to 18th century,yes,,"Bucket. Includes Zurara, Duarte Pacheco Pereira, Joao de Barros, Joao dos Santos and letters of the kings of Kongo."
+dutch-cape-records,Records of the Dutch East India Company at the Cape,record,1652 to 1795,yes,,"Bucket. Journals, such as Van Riebeeck's, and reports of journeys inland."
+travellers-19c,Travellers' and missionaries' accounts of the 19th century,text,about 1790 to 1900,yes,,"Bucket. Park, Clapperton, Barth, Nachtigal, Livingstone, Speke, Schweinfurth and many missionaries. Outsiders' reports, often the first written notice of a people."
+oral-tradition-africa,Oral tradition and king lists,text,recorded mostly from the 19th century,yes,,"Bucket. Histories kept by word of mouth and written down late. Good for names and order, weak for dates before about 1700."
+archaeology-africa,Archaeology of Africa south of the Sahara,modern-study,various,yes,,"Bucket. Sites, pottery traditions and radiocarbon dates. Pottery does not show what language its makers spoke."
+bantu-linguistics,Historical linguistics of the Bantu expansion,modern-study,various,yes,,Bucket. Reconstruction from the living languages. Routes and dates are debated.
+african-censuses,Colonial and national censuses and language surveys,census,about 1900 onward,yes,,Bucket. A checked claim cites the census year and table.
+archaeology-sahul,Archaeology of Australia and New Guinea,modern-study,20th and 21st centuries,yes,,"Bucket. Excavated sites, dated remains and worked landscapes. It shows that people were present and how they lived, and it does not give the names of peoples or languages."
+aus-papuan-linguistics,Historical linguistics of Australian and Papuan languages,modern-study,20th and 21st centuries,yes,,Bucket. Language families reconstructed from languages recorded since about 1788. Early positions are projected back and are not observed.
+oral-tradition-songlines,"Oral tradition, songlines and community histories",text,recorded mainly since the 19th century,yes,,"Bucket. Spoken and sung knowledge held by the peoples themselves, tying each people to its country. It is evidence of belonging and of events within some generations, and it carries no calendar dates."
+dutch-voyagers,"Journals of Dutch voyagers: Jansz, Carstensz, Tasman and others",text,1606 to 1705,yes,,Bucket. Brief meetings on the coast. The peoples met are not named.
+dampier-voyage,"William Dampier, A New Voyage Round the World",text,1697,no,,Describes a stay on the Kimberley coast in 1688.
+flinders-voyage,"Matthew Flinders, A Voyage to Terra Australis",text,1814,no,,"The circumnavigation of 1801 to 1803, with the meeting with a Makassan fleet off Arnhem Land."
+tench,"Watkin Tench, narratives of Botany Bay and Port Jackson",text,1789 and 1793,no,,
+collins,"David Collins, An Account of the English Colony in New South Wales",text,1798,no,,
+dawes-notebooks,"William Dawes, notebooks on the language of Sydney",text,about 1790,no,,"The first written record of an Australian language, made with the help of Patyegarang."
+explorers-settlers-journals,"Journals of explorers, surveyors and settlers",text,1788 to about 1940,yes,,"Bucket. Outsiders' accounts, often the first writing to name a people, and often written during dispossession."
+mission-protectorate-records,"Mission, protectorate and colonial administration records",record,1820s to 1970s,yes,,"Bucket. Records of missions, protectors and colonial offices in Australia and New Guinea. They name peoples and places and reflect the views of those who controlled them."
+patrol-reports,Patrol reports of the Australian administration in Papua and New Guinea,record,1900s to 1975,yes,,"Bucket. Reports by patrol officers, in many districts the first written record."
+miklouho-maclay,"Nikolai Miklouho-Maclay, New Guinea diaries",text,1871 to 1883,no,,A Russian naturalist's stays on Astrolabe Bay.
+malinowski,"Bronisław Malinowski, Argonauts of the Western Pacific",text,1922,no,,Fieldwork in the Trobriand Islands from 1915 to 1918.
+native-title,Native title determinations and land rights claims,record,1976 onward,yes,,Bucket. A legal record of present-day recognition by Australian courts. It shows who is recognised today and is not a map of the past.
+australian-census,Census of Australia,census,1911 onward,no,,Aboriginal people were fully counted only from 1971.
+periplus,Periplus of the Erythraean Sea,text,about 50,no,,A Greek merchant's guide to the ports of the Indian Ocean. It names rulers and ports of western and southern India.
+sangam-poetry,Sangam poetry (the early Tamil anthologies),text,"about 1st to 3rd century, dates disputed",yes,,Bucket. Dates of composition are disputed. A checked claim cites the anthology and poem.
+indian-inscriptions,Inscriptions of South Asia,inscription,3rd century BCE onward,yes,,Bucket. A checked claim cites the inscription.
+indian-coins,Coinages of South Asia,coin,2nd century BCE onward,yes,,Bucket. A checked claim cites the coin series and where it is found.
+puranas,Puranic king lists,text,compiled about 4th century and later,yes,,Bucket. Late and unreliable for dates and reign lengths. Used only beside coins and inscriptions.
+faxian,"Faxian, Record of Buddhist Kingdoms",text,about 414,no,,A Chinese pilgrim who travelled through north India and Sri Lanka between 399 and 412.
+harshacharita,"Bana, Harshacharita",text,about 640,no,,"A court biography of Harsha. Praise, not record."
+al-biruni,"al-Biruni, India",text,about 1030,no,,Written at the Ghaznavid court by a scholar who learned Sanskrit.
+arab-geographers-sindh,Arab historians and geographers on Sindh and the Indian coast,text,9th to 11th century,yes,,Bucket. A checked claim cites the author and passage.
+chachnama,Chachnama,text,Persian version of about 1216,no,,"A Persian version of a lost Arabic account of Sindh before and during the conquest of 712. Late, with legend mixed in."
+rajatarangini,"Kalhana, Rajatarangini",text,1148,no,,"A Sanskrit chronicle of the kings of Kashmir. Reliable for its last few centuries, legendary for the early ones."
+mahavamsa,Mahavamsa and its continuation the Culavamsa,text,"5th century, continued to the 18th",no,,"The Pali chronicle of Sri Lanka, written by monks. Its earliest centuries are tradition."
+persian-chronicles,Persian chronicles of the Sultanate and Mughal periods,text,13th to 18th century,yes,,Bucket. A checked claim cites the chronicle and passage.
+buranjis,Ahom and Assamese buranjis,text,"from the 13th century, surviving copies later",yes,,"Bucket. Court chronicles of the Ahom kingdom, first in Tai Ahom and later in Assamese."
+nepal-vamshavalis,Nepalese vamshavalis (chronicles),text,14th to 19th century,yes,,Bucket. Late chronicles. Their account of the centuries before the Licchavi inscriptions is tradition.
+portuguese-chroniclers,Portuguese chroniclers and travellers of the 16th century,text,16th century,yes,,"Bucket. Barros, Barbosa, Pires, Paes and others. A checked claim cites the work and passage."
+knox-ceylon,"Robert Knox, An Historical Relation of the Island Ceylon",text,1681,no,,Written by an Englishman held in the kingdom of Kandy for nineteen years.
+company-records,Records of the East India Company,record,1600 to 1858,yes,,Bucket. A checked claim cites the series and document.
+lsi-grierson,"Grierson, Linguistic Survey of India",modern-study,1903 to 1928,no,,The first survey of the languages of British India. It left out the Madras presidency and the princely south.
+census-india,Census of India and the censuses of its successor states,census,1881 onward,yes,,Bucket. A checked claim cites the census year and table.
+shiji,"Sima Qian, Shiji (Records of the Grand Historian)",text,about 90 BCE,no,,"Its chapters on the Xiongnu, the south-western peoples and the Yue are the base of later accounts."
+hanshu,"Ban Gu, Hanshu (Book of Han)",text,about 100,no,,"Covers the Western Han to 23 CE, with a treatise on the Western Regions."
+hou-hanshu,"Fan Ye, Hou Hanshu (Book of the Later Han)",text,about 445,no,,"Compiled two centuries after the dynasty it covers, from earlier records."
+sanguozhi,"Chen Shou, Sanguozhi (Records of the Three Kingdoms)",text,about 290,no,,"Its account of the eastern peoples is the first description of the Wa, the Samhan, Buyeo and Goguryeo."
+jinshu,Jinshu (Book of Jin),text,648,no,,Compiled under the Tang. The main source for the Sixteen Kingdoms.
+weishu,"Wei Shou, Weishu (Book of Wei)",text,554,no,,"The history of the Northern Wei, with accounts of the Rouran, Gaoche, Khitan and Tuyuhun."
+tang-histories,Jiu Tangshu and Xin Tangshu (Old and New Books of Tang),text,945 and 1060,no,,"Accounts of the Turks, Uyghurs, Tibet, Nanzhao, Balhae and Silla."
+songshi,Songshi (History of Song),text,1345,no,,Compiled under the Yuan.
+liaoshi,Liaoshi (History of Liao),text,1344,no,,"Compiled under the Yuan, long after the Khitan state fell."
+jinshi,Jinshi (History of Jin),text,1344,no,,The history of the Jurchen Jin dynasty.
+yuanshi,Yuanshi (History of Yuan),text,1370,no,,Compiled in haste under the early Ming.
+mingshi,Mingshi (History of Ming),text,1739,no,,Compiled under the Qing.
+chinese-histories,Other Chinese dynastic histories and court records,text,1st century onward,yes,,Bucket. A checked claim cites the history and chapter.
+samguk-sagi,"Kim Busik, Samguk Sagi (History of the Three Kingdoms)",text,1145,no,,Compiled in Goryeo. Its dates before the 4th century are tradition.
+gwanggaeto-stele,Stele of King Gwanggaeto at Ji'an,inscription,414,no,,The reading of its passage on the Wa is disputed.
+nihon-shoki,Kojiki and Nihon Shoki,text,712 and 720,no,,Court histories of Yamato. Their account of the centuries before about 500 is tradition.
+shoku-nihongi,Shoku Nihongi,text,797,no,,"The court history of the Nara period, with the wars against the Emishi and the Hayato."
+japanese-records,"Japanese court, shogunate and domain records",record,8th century onward,yes,,Bucket. A checked claim cites the document.
+orkhon-inscriptions,Orkhon inscriptions,inscription,about 720 to 735,no,,"Old Turkic memorial inscriptions in the Orkhon valley, the oldest dated texts in a Turkic language."
+old-tibetan-annals,Old Tibetan Annals and Old Tibetan Chronicle from Dunhuang,text,8th to 9th century,no,,Year by year from 650. The Chronicle's account of earlier kings is tradition.
+secret-history,Secret History of the Mongols,text,about 1240,no,,The date of composition is disputed.
+xuanzang,"Xuanzang, Records of the Western Regions",text,646,no,,A pilgrim's description of the Tarim oases and India.
+man-shu,"Fan Chuo, Man shu (Book of the Southern Barbarians)",text,about 863,no,,A Tang official's description of Nanzhao and the peoples of Yunnan.
+tarim-manuscripts,Manuscripts from the Tarim oases and Dunhuang,text,3rd to 10th century,yes,,"Bucket. Tocharian, Khotanese, Kharosthi, Old Uyghur, Tibetan and Chinese documents. A checked claim cites the manuscript."
+russian-siberian-records,Russian records of Siberia in the 17th century,record,17th century,yes,,Bucket. Fur tribute books and reports of the Siberian Office. A checked claim cites the document.
+qing-gazetteers,Qing gazetteers and court records,record,1644 to 1912,yes,,Bucket. A checked claim cites the gazetteer and chapter.
+joseon-sillok,Veritable Records of the Joseon Dynasty,record,1392 to 1910,no,,Cite by reign and date.
+ryukyu-records,Records of the Ryukyu Kingdom,record,15th to 19th century,yes,,"Bucket. Rekidai Hoan, Chuzan Seikan and Omoro Soshi. A checked claim cites the work."
+eastasia-censuses,"Modern censuses of China, Japan, Korea, Mongolia and Russia",census,1897 onward,yes,,Bucket. A checked claim cites the census year and table.
+eastasia-archaeology,Archaeological surveys of East Asia and eastern Siberia,modern-study,various,yes,,Bucket. A checked claim cites the study and site.
+periplus-erythraean,Periplus of the Erythraean Sea,text,mid 1st century,no,,"A Greek merchant's guide. It knows of Chryse, the land of gold beyond the Ganges, and of large ships sailing there."
+chinese-histories-nanhai,Chinese dynastic histories and their accounts of the southern seas,text,1st to 17th century,yes,,Bucket. A checked claim cites the history and chapter. Names are Chinese transcriptions and placements are often debated.
+yijing-record,"Yijing, Record of Buddhist Practices Sent Home from the Southern Sea",text,about 692,no,,A Chinese pilgrim who stayed in Srivijaya on his way to and from India.
+sea-inscriptions,"Inscriptions of Southeast Asia in Sanskrit, Old Khmer, Old Malay, Old Javanese, Cham, Mon, Pyu and Burmese",inscription,about 3rd century onward,yes,,Bucket. A checked claim cites the inscription by its usual name or number.
+nagarakretagama,"Mpu Prapanca, Nagarakretagama (Desawarnana)",text,1365,no,,An Old Javanese court poem. Its long list of Majapahit dependencies is a claim and not a record of rule.
+malay-annals,Sejarah Melayu (Malay Annals),text,compiled about 1612 from older material,no,,Court history of Malacca and Johor. Its early chapters are legend.
+burmese-chronicles,Burmese and Mon chronicles,text,15th to 19th century,yes,,Bucket. Includes the Glass Palace Chronicle. Accounts of the centuries before Pagan are tradition.
+thai-chronicles,"Thai, Lao and Cambodian royal chronicles",text,15th to 19th century,yes,,Bucket. Most survive in late recensions. A checked claim cites the chronicle and version.
+dai-viet-chronicle,Dai Viet su ky toan thu (Complete Annals of Dai Viet),text,"1479, printed 1697",no,,The court annals of Vietnam. Early chapters draw on Chinese histories and legend.
+zhou-daguan,"Zhou Daguan, Record of Cambodia, the Land and Its People",text,about 1297,no,,The only eyewitness description of Angkor at its height.
+marco-polo,"Marco Polo, Description of the World",text,about 1298,no,,He passed through Champa and northern Sumatra in 1292.
+ibn-battuta,"Ibn Battuta, Travels (Rihla)",text,about 1355,no,,He visited Samudra in Sumatra in 1345 and 1346.
+tome-pires,"Tome Pires, Suma Oriental",text,1512 to 1515,no,,Written at Malacca just after the Portuguese conquest. Surveys ports from the Red Sea to Maluku.
+pigafetta,"Antonio Pigafetta, account of Magellan's voyage",text,about 1524,no,,"Eyewitness of the Marianas, the Visayas, Brunei and Tidore in 1521."
+spanish-philippine-chronicles,Spanish chroniclers and mission records of the Philippines and the Marianas,text,1565 to 19th century,yes,,Bucket. A checked claim cites the author and work.
+voc-records,Records of the Dutch East India Company and the Dutch colonial government,record,1602 to 1949,yes,,Bucket. A checked claim cites the document.
+cook-journals,Journals of James Cook's three voyages,text,1768 to 1779,no,,"The first long written accounts of Tahiti, New Zealand, Tonga, Hawaii and other islands."
+european-voyagers,Journals of European voyagers in the Pacific and Indian Oceans,text,1521 to 19th century,yes,,"Bucket. Mendaña, Quirós, Tasman, Roggeveen, Wallis, Bougainville and others. Most early visits were brief."
+missionary-records,"Missionary records, grammars and dictionaries",text,17th to 20th century,yes,,Bucket. Often the first written record of a language.
+polynesian-oral-tradition,Oral traditions and genealogies of Pacific and Malagasy peoples,text,recorded in writing from the 19th century,yes,,"Bucket. Spoken tradition written down long after the events. It gives names and sequences, and dates counted from generations are estimates."
+settlement-archaeology,Archaeology and radiocarbon dating of first settlement,modern-study,various,yes,,Bucket. Settlement dates are revised as methods improve and several are debated. A checked claim cites the study.
+seasia-pacific-censuses,"Colonial and modern censuses of Southeast Asia, the Pacific and Madagascar",census,19th century onward,yes,,Bucket. A checked claim cites the census year and table.
+flacourt,"Etienne de Flacourt, Histoire de la Grande Isle Madagascar",text,1658,no,,Written from the French post at Fort-Dauphin in the south-east.
+tantara-andriana,"Tantara ny Andriana (History of the Kings), collected by François Callet",text,1870s,no,,Merina oral histories written down in the 19th century.
+americas-archaeology,Archaeology of the Americas,modern-study,various,yes,,"Bucket. Excavation and survey, dated by radiocarbon. It shows cultures and settlements, not languages. A checked claim cites the study."
+americas-oral-tradition,Oral tradition of the peoples of the Americas,text,recorded from the 16th century onward,yes,,"Bucket. Histories kept by the peoples themselves and written down later. Evidence of memory and identity, with dates that are hard to fix."
+iberian-chroniclers,Spanish and Portuguese chroniclers and colonial reports of the Americas,text,1493 onward,yes,,Bucket. A checked claim cites the work and chapter.
+americas-censuses,National censuses of the American states,census,about 1790 onward,yes,,Bucket. A checked claim cites the census year and table.
+english-colonial-accounts,English and French colonial accounts of eastern North America,text,1534 onward,yes,,"Bucket. Voyages, colonial reports and travellers such as Cartier, Champlain and John Smith. A checked claim cites the work."
+maya-inscriptions,Maya hieroglyphic inscriptions,inscription,before 1 CE to about 900,yes,,Bucket. Dated monuments of the lowland cities. A checked claim cites the monument.
+maya-codices,The Maya codices,text,about 1200 to 1500,yes,,"Bucket. Four surviving screenfold books, mostly almanacs and astronomy."
+popol-vuh,Popol Vuh,text,"written about 1550, copied about 1700",no,,K'iche' history and myth written in the colonial period from older tradition.
+annals-kaqchikels,Annals of the Kaqchikels,text,about 1600,no,,A colonial-era record of older tradition.
+chilam-balam,Books of Chilam Balam,text,17th and 18th century copies,yes,,Bucket. Yucatec Maya town books written in the colonial period from older tradition.
+mixtec-codices,Mixtec screenfold histories,text,about 1300 to 1550,yes,,Bucket. Painted dynastic histories reaching back to about the 10th century.
+florentine-codex,"Bernardino de Sahagun, General History of the Things of New Spain (Florentine Codex)",text,about 1577,no,,Compiled with Nahua elders and scribes after the conquest. For earlier centuries it records tradition.
+bernal-diaz,"Bernal Diaz del Castillo, True History of the Conquest of New Spain",text,about 1568,no,,
+cortes-letters,"Hernan Cortes, Letters from Mexico",text,1519 to 1526,no,,
+landa-relacion,"Diego de Landa, Account of the Things of Yucatan",text,about 1566,no,,
+relacion-michoacan,Relacion de Michoacan,text,about 1540,no,,Tarascan history taken down from Purepecha nobles after the conquest.
+cieza-de-leon,"Pedro de Cieza de Leon, Chronicle of Peru",text,about 1553,no,,
+betanzos,"Juan de Betanzos, Narrative of the Incas",text,about 1551,no,,Inca dynastic tradition as told by the author's Inca in-laws.
+garcilaso,"Garcilaso de la Vega, Royal Commentaries of the Incas",text,1609,no,,Written in Spain decades after the author left Cuzco.
+guaman-poma,"Felipe Guaman Poma de Ayala, First New Chronicle and Good Government",text,about 1615,no,,
+columbus-journal,"Journal of the first voyage of Columbus, in the abstract of Las Casas",text,1492 to 1493,no,,
+ramon-pane,"Ramon Pane, Account of the Antiquities of the Indians",text,about 1498,no,,"The first European account of Taino belief, from Hispaniola."
+carvajal,"Gaspar de Carvajal, account of Orellana's descent of the Amazon",text,1542,no,,
+staden,"Hans Staden, True History",text,1557,no,,A captive's account of the Tupinamba.
+ercilla,"Alonso de Ercilla, La Araucana",text,1569 to 1589,no,,An epic poem by a soldier of the Arauco war.
+de-soto-narratives,Narratives of the de Soto expedition,text,1540s to 1590s,yes,,Bucket. Four accounts of the march through the South-east in 1539 to 1543.
+jesuit-relations,The Jesuit Relations,text,1632 to 1673,yes,,Bucket. Annual reports from the missions of New France. A checked claim cites the year.
+lewis-clark,Journals of the Lewis and Clark expedition,text,1804 to 1806,no,,
+hbc-records,Hudson's Bay Company records,record,1670 onward,yes,,Bucket. Post journals and correspondence. A checked claim cites the post and year.
+rac-records,Russian-American Company records and Russian voyage accounts,record,1741 to 1867,yes,,Bucket. A checked claim cites the document.
+vinland-sagas,Saga of the Greenlanders and Saga of Erik the Red,text,13th century,no,,Written about two centuries after the settlement of Greenland that they describe.

@@ -1,0 +1,215 @@
+group_id,name,parent,story,status
+ireland-ptolemy,Irish peoples,celts,"Sixteen names from one list. Ptolemy, writing in Alexandria about 150, is the only ancient author to name the peoples of Ireland, and nothing confirms where he put them.",seed
+britons,Britons,celts,"The peoples Rome conquered and then governed as districts, each from its own town. Their Celtic language became Welsh, Cornish and Breton.",seed
+caledonia,Caledonians,celts,"The peoples beyond the Forth, never held by Rome. Ptolemy's map turns Scotland on its side, so every position here is a modern reading. By 300 Roman writers call them all Picts.",seed
+belgica,Belgic Gaul,celts,"Caesar called the Belgae the bravest of the Gauls. Reims, Amiens, Soissons and Arras still carry their names.",seed
+central-gaul,Central Gaul,celts,"The Gaul of the Seine and the Loire. Paris, Chartres, Sens, Tours and Le Mans are named for the peoples who lived there.",seed
+armorica,Armorica,celts,"The seafaring peoples of the north-west coast, beaten by Caesar's fleet in 56 BCE. Five centuries later Britons settled here and it became Brittany.",seed
+southern-gaul,Southern Gaul,celts,"From the Atlantic to the Massif Central. The Arverni under Vercingetorix led the last great rising against Caesar, in 52 BCE.",seed
+aquitani,Aquitani,old-iberia,Caesar noted that they differed from the Gauls in language and custom. Their names are early Basque.,seed
+narbonensis,Narbonese Gaul,latin-west,Roman for seventy years before Caesar came north. Pliny called it more like Italy than a province.,seed
+northwest-iberia,Gallaeci and Astures,old-iberia,"With the Cantabri, the peoples of the mountain north-west, the last of Hispania to fall to Rome, in 19 BCE. Their names live on in Galicia, Asturias and Cantabria.",seed
+celtiberia,Celtiberians,celts,"Celtic speakers of the high plateau, the Meseta. Numantia held out against Rome for twenty years.",seed
+vascones,Vascones,old-iberia,"The ancestors of the Basques, with neighbours whose language is disputed.",seed
+lusitania,Lusitani,old-iberia,Viriathus led the Lusitani against Rome for eight years. Their language is Indo-European and may or may not be Celtic.,seed
+turdetania,Turdetania,old-iberia,"Heirs of Tartessos in the Guadalquivir valley, and the first people of Hispania to take up Latin.",seed
+iberians,Iberians,old-iberia,"The peoples of the Mediterranean coast, who wrote a language with no known relatives in a script of their own.",seed
+irish-kingdoms,Irish kingdoms,celts,"Named by the annals from the 6th century. Several survive as province and county names: Ulster, Leinster, Connacht, Tyrone.",seed
+british-kingdoms,British kingdoms,celts,"The Britons after Rome, pressed west and north by the English. Welsh is their language.",seed
+english-kingdoms,English kingdoms,germanic-peoples,"Settlers from across the North Sea made a dozen kingdoms, which Wessex joined into one by 927.",seed
+picts-and-scots,Picts and Scots,celts,"Pictish kingdoms in the north-east and Gaelic Dál Riata in the west, joined as Alba about 900.",seed
+norse,Norse settlements,germanic-peoples,"Raiders from 793, settlers from the 840s. They founded Dublin, held York, and gave Normandy its name.",seed
+norman-lordships,Norman lordships,latin-west,"French-speaking lords, after 1066 in England and after 1169 in Ireland, where many took up Irish within a few generations.",seed
+germanic-kingdoms,Germanic kingdoms,germanic-peoples,"Armies that became governments. Goths, Franks, Burgundians and Suebi ruled Latin speakers, and within a few generations spoke their language.",seed
+french-principalities,French principalities,latin-west,After 843 the king ruled little beyond Paris. Dukes and counts held the rest until the crown took them back one by one.,seed
+al-andalus,al-Andalus,arabs,"Muslim Iberia, from the conquest of 711 to the fall of Granada in 1492.",seed
+christian-iberia,Christian kingdoms,latin-west,From a strip of mountain in 718 to the whole peninsula in 1492.,seed
+rhine-frontier,Rhine frontier,celts,"Gauls and Germans on the Roman side of the Rhine. Trier, Tongeren and Cologne began as their towns.",seed
+danubian-celts,Alpine and Danubian Celts,celts,"Celtic speakers from the Alps to Belgrade, the eastern end of the Celtic world.",seed
+illyrians,Illyrians,balkan-peoples,"The peoples of the eastern Adriatic. Rome needed two centuries to subdue them, and later drew many soldiers and several emperors from here.",seed
+thracians-dacians,Thracians and Dacians,balkan-peoples,From the Aegean to the Carpathians. Trajan's column in Rome shows the conquest of Dacia in 106.,seed
+scandinavians,Scandinavians,germanic-peoples,Known to Rome only by report. From the 8th century their ships reached from Newfoundland to Constantinople.,seed
+balts,Balts,balts-and-finns,"Speakers of the most conservative Indo-European languages in Europe, and the last Europeans to become Christian, in 1387.",seed
+sarmatians,Sarmatians,steppe-world,"Iranian-speaking horsemen of the steppe, from the Danube plain to the Don.",seed
+goths-lombards,Goths and Lombards,germanic-peoples,"East of the Franks. Ostrogoths ruled Italy from Ravenna, and Lombards took it after them.",seed
+german-peoples,German peoples,germanic-peoples,"The peoples east of the Rhine whom the Franks joined into one kingdom, and the duchies that kingdom was made of.",seed
+steppe-peoples,Steppe peoples,steppe-world,"One after another from the east along the grass road: Huns, Avars, Bulgars, Pechenegs, Cumans, Mongols.",seed
+west-slavs,West Slavs,slavs,Between the Elbe and the Bug. Poland and Bohemia grew from two of these peoples.,seed
+south-slavs,South Slavs,slavs,Slavic speakers crossed the Danube in the 6th century and settled as far as the Peloponnese.,seed
+east-slavs,East Slavs,slavs,"The peoples the Primary Chronicle names along the rivers from the Baltic to the Black Sea, joined under Kiev by 980.",seed
+rus-principalities,Rus principalities,slavs,Kievan Rus was divided among its princes after 1132. Moscow gathered most of it again by 1500.,seed
+finnic,Finns and Sami,balts-and-finns,"Speakers of Uralic languages, unrelated to their Indo-European neighbours.",seed
+italian-states,Italian states,latin-west,"No single state between the Lombards and 1861. Cities, the pope and foreign kings divided the peninsula.",seed
+low-countries,Low Countries,germanic-peoples,Trading counties at the mouths of the Rhine and the Scheldt.,seed
+romanian-principalities,Romanian principalities,latin-west,"Wallachia and Moldavia, tributary to the Ottomans, joined as Romania in 1859.",seed
+germania,Germanic peoples,germanic-peoples,"Tacitus and Ptolemy name some fifty peoples beyond the Rhine and the Danube. Franks, Saxons, Goths, Vandals and Lombards came from among them, and in 9 CE the Cherusci destroyed three legions and ended Rome's advance.",seed
+celts,Celts,,"Speakers of Celtic languages, from Ireland to the Danube in 1 CE. Rome and then the English and the Franks took most of their ground, and six Celtic languages are still spoken on the Atlantic edge.",seed
+old-iberia,Iberians and Basques,,The peoples of Hispania and Aquitania who spoke neither Celtic nor Latin when Rome arrived. Basque is the one language of theirs that survives.,seed
+germanic-peoples,Germanic peoples,,"From the peoples Tacitus lists beyond the Rhine to the kingdoms that replaced Rome in the west, the English, the Norse and the German duchies.",seed
+latin-west,Latin West,,"The lands where Latin stayed and became French, Spanish, Portuguese, Italian and Romanian, and the states their speakers made.",seed
+slavs,Slavs,,"Unrecorded before the 6th century, then named from the Elbe to the Volga and the Peloponnese within three hundred years.",seed
+balkan-peoples,Balkan peoples,,"Illyrians, Thracians and Dacians, the peoples of the Balkans before the Slavs. Albanian is the one language of theirs still spoken.",seed
+steppe-world,Steppe peoples,,"Horse-riding peoples of the grassland that runs from the Danube to Manchuria. A modern grouping: they spoke Iranian, Turkic, Mongolic and unknown languages, and are grouped here by way of life.",seed
+balts-and-finns,Balts and Finns,,The peoples of the eastern Baltic and the northern forest. A modern grouping of two unrelated language families that shared a coast.,seed
+arabs,Arabs,,"Arabic speakers, from the kingdoms and nomads of Arabia in 1 CE to the dynasties and peoples that followed the conquests of the 7th century.",seed
+arabian-kingdoms,Arabian kingdoms,arabs,"The kingdoms of Arabia and its desert edge before Islam. The south wrote its own Old South Arabian languages, and the north wrote Arabic names in Aramaic letters.",seed
+arab-dynasties,Arab dynasties,arabs,"Ruling houses of the Arabic-speaking world after the caliphate broke up. Several were founded by Kurds, Turks or Berbers who ruled in Arabic.",seed
+bedouin,Bedouin and Arab peoples,arabs,"Nomad confederations of the desert and steppe, who carried Arabic across North Africa, and the Arab peoples of the modern period.",seed
+berbers,Berbers,,"The Amazigh peoples of North Africa and the Sahara, from the Libyans and Moors of Roman writers to the empires of the Middle Ages and the mountain and desert peoples of today.",seed
+libyans-moors,Libyans and Moors,berbers,The names Greek and Roman writers gave to the peoples west of Egypt. Their language is known from short inscriptions and from the Berber spoken there since.,seed
+berber-dynasties,Berber dynasties,berbers,"States founded by Berber peoples between the 8th and the 16th century. The Almoravids and Almohads, listed under al-Andalus, belong with them.",seed
+amazigh-peoples,Amazigh peoples,berbers,"The great groupings named by Ibn Khaldun and the Berber-speaking peoples of the mountains, the oases and the Sahara.",seed
+anatolia-caucasus,"Anatolia, Caucasus",,"The peoples between the Aegean and the Caspian. A modern grouping by place: they speak Armenian, Kartvelian, Caucasian, Iranian, Turkic and once Anatolian and Celtic languages.",seed
+anatolian-peoples,Anatolian peoples,anatolia-caucasus,Peoples and small kingdoms of Roman Anatolia. Greek replaced their languages between about 100 and 500.,seed
+armenians,Armenians,anatolia-caucasus,"A kingdom between Rome and Persia, Christian from the early 4th century, with its own alphabet from about 405.",seed
+georgians,Georgians,anatolia-caucasus,"The Kartvelian kingdoms: Iberia in the east, Colchis or Lazica in the west, united as Georgia in 1008.",seed
+caucasus-peoples,Peoples of the Caucasus,anatolia-caucasus,"The mountain holds more language families than the rest of Europe together. Most of these peoples are named by Greek, Arab or Georgian writers long before they wrote themselves.",seed
+anatolian-turks,Turks of Anatolia,anatolia-caucasus,"Oghuz Turks entered Anatolia after 1071. Their sultanate of Rum broke into beyliks, and one of those became the Ottoman Empire.",seed
+kurdish-peoples,Kurds,anatolia-caucasus,"Speakers of Kurdish in the mountains where Anatolia, Mesopotamia and Iran meet, named by Arab writers from the 7th century.",seed
+fertile-crescent,Fertile Crescent,,"The older peoples of Syria, Palestine, Mesopotamia and Egypt, who spoke Aramaic, Hebrew, Phoenician and Egyptian before Arabic. A modern grouping.",seed
+aramaic-peoples,Aramaic peoples,fertile-crescent,Aramaic was the common speech from the Mediterranean to the Zagros. These are its small kingdoms under Rome and Parthia and the communities that still speak it.,seed
+judaea-phoenicia,Jews and Phoenicians,fertile-crescent,"Speakers of Hebrew and Phoenician and their heirs: Judaea, the Jewish communities of Galilee and Babylonia, the cities of Tyre and Sidon, and modern Israel.",seed
+egyptians,Egyptians,fertile-crescent,"The people of the Nile valley, who spoke Egyptian for four thousand years, in its last form Coptic, and their desert neighbours.",seed
+mountain-communities,Mountain communities,fertile-crescent,Religious communities that kept to the coastal mountains of Syria and Lebanon. All speak Arabic today.,seed
+iranian-peoples,Iranian peoples,,"Persians, Parthians, Kurds, Baloch, Pashtuns and the dynasties that ruled the Iranian plateau. They are grouped by the Iranian languages most of them spoke, though several ruling houses were Turkic or Arab by descent.",seed
+persia-and-parthia,Persia and Parthia,iranian-peoples,The peoples of the plateau under the Arsacid and Sasanian kings. Persian outlived the rest and is the language of Iran today.,seed
+iranian-dynasties,Dynasties of Iran,iranian-peoples,"After the Arab conquest the plateau was ruled by a run of local houses. Whatever their origin, Daylamite, Turkic or Afghan, their courts wrote Persian.",seed
+iran-rim-peoples,Mountain and border peoples,iranian-peoples,"Kurds, Lurs, Caspian peoples, Baloch, Pashtuns and others on the rim of the plateau, who kept their own languages and often their own rulers. A modern grouping by place.",seed
+oasis-peoples,Oasis peoples,,"The settled farmers and traders of the river oases between the Caspian and the Pamirs: Sogdians, Khwarezmians, Bactrians and their Tajik heirs. A modern grouping by way of life.",seed
+sogd-and-khwarezm,Sogd and Khwarezm,oasis-peoples,"City states on the Zarafshan, the Syr Darya and the lower Amu Darya. Sogdian merchants carried goods, scripts and religions between China and Iran.",seed
+bactria-and-kabul,Bactria and Kabul,oasis-peoples,"The lands either side of the Hindu Kush, where nomad conquerors from the north became kings: Yuezhi, Kushans and the rulers of Kabul.",seed
+tajiks-and-pamiris,Tajiks and Pamiris,oasis-peoples,"Persian speakers of the oases and valleys after the old languages faded, and the speakers of the Pamir languages above them.",seed
+saka-peoples,Saka and Kangju,steppe-world,"Iranian-speaking nomads east of the Sarmatians, called Saka by the Persians and Sai by the Chinese. Most positions come from Chinese and Greek report and from burial mounds.",seed
+eastern-huns,Huns of the east,steppe-world,"Peoples the Persians, Romans and Indians called Huns, who took Bactria and Sogd from about 350. Their languages and origins are not known.",seed
+turkic-khaganates,Turkic khaganates,steppe-world,"From 552 the steppe was ruled by Turkic speakers: the Western Turks, then Karluks, Oghuz, Kimeks, Kipchaks and Khazars.",seed
+mongol-successors,Mongol successors,steppe-world,The Mongol conquest of 1219 to 1258 left khanates ruled by the heirs of Chinggis Khan. Within a century their people spoke Turkic and most were Muslim.,seed
+hordes-and-khanates,Hordes and khanates,steppe-world,"Kazakhs, Uzbeks, Turkmens, Kyrgyz and Oirats from the 15th century to the Russian conquest, and the nations that carry their names.",seed
+ural-and-ob-peoples,Ural and Ob peoples,,"The peoples of the forest and tundra either side of the Urals, most of them speakers of Uralic languages, with their Turkic neighbours. A modern grouping by place.",seed
+volga-and-kama,Volga and Kama,ural-and-ob-peoples,"Mordvins, Mari, Udmurts and Komi of the forest, and the Bulgars, Bashkirs and Tatars who settled beside them.",seed
+west-siberians,Western Siberia,ural-and-ob-peoples,"Hunters, fishers and reindeer herders of the Ob and the Yenisei, and the Turkic peoples of the southern forest edge and the Sayan and Altai mountains. Russian records begin in the 16th century.",seed
+bantu-peoples,Bantu peoples,,"Speakers of some five hundred related languages. In 1 CE they held the western forest and the Great Lakes. By 1000 they farmed from Kenya to the Kei River. The evidence is pottery, iron and the languages themselves, and the dates are debated.",seed
+early-bantu-farmers,Early Bantu farmers,bantu-peoples,"Early Iron Age pottery traditions named by archaeologists after the sites where they were found. They are taken to mark the spread of Bantu-speaking farmers, which is an inference.",seed
+great-lakes-kingdoms,Great Lakes kingdoms,bantu-peoples,"Kingdoms between Lake Victoria and the western Rift. Their early history is court tradition, written down after 1860.",seed
+kongo-neighbours,Kongo and neighbours,bantu-peoples,Kingdoms near the Atlantic coast from Loango to the Angolan plateau. Kongo's kings wrote letters to Lisbon and Rome from the 1490s.,seed
+savanna-kingdoms,Luba and Lunda,bantu-peoples,"Kingdoms of the savanna south of the forest, from the Kasai to Lake Malawi. Known mostly from tradition and archaeology.",seed
+swahili-coast,Swahili coast,bantu-peoples,"Trading towns from the Lamu islands to Sofala, Muslim and Bantu-speaking, with an Indian Ocean trade that Greek and Arab writers describe.",seed
+zimbabwe-plateau,Zimbabwe plateau,bantu-peoples,"Shona-speaking states that built in stone and sold gold to the coast, from Mapungubwe to the Rozvi.",seed
+nguni-sotho,Nguni and Sotho-Tswana,bantu-peoples,"The peoples of the south-east. The wars of the 1820s, called the Mfecane, made the Zulu, Sotho, Swazi and Ndebele kingdoms and sent Nguni bands north as far as Tanzania.",seed
+southwest-bantu,Herero and Ovambo,bantu-peoples,"Cattle keepers and farmers of northern Namibia and southern Angola, the south-western edge of the Bantu-speaking world.",seed
+east-african-bantu,East African Bantu,bantu-peoples,"Peoples of the highlands and plateaus between the lakes and the coast, without large kingdoms before the 19th century. A grouping of convenience.",seed
+forest-foragers,Forest foragers,bantu-peoples,"Hunters of the Congo forest, there long before the farmers. Their own languages are lost and they now speak those of their Bantu and Central Sudanic neighbours, which is why they are filed here.",seed
+khoe-san,Khoe and San,,"Herders and foragers who held all of southern Africa in 1 CE. Bantu-speaking farmers took the wetter east after about 300 and European settlers the Cape after 1652. Their languages, known for their clicks, belong to at least three unrelated families.",seed
+khoekhoe-peoples,Khoekhoe,khoe-san,"Herders of sheep and cattle from the Cape to Namibia. Khoekhoe means people of people. Colonists called them Hottentots, a name now offensive.",seed
+san-peoples,San,khoe-san,"Foragers of the south. San is a Khoekhoe word for people without cattle, an outside name, but it is the usual one. Each group has its own name and there is none for all.",seed
+hadza-sandawe,Hadza and Sandawe,khoe-san,"Two small peoples of northern Tanzania whose click languages have no proven relatives. They are grouped with Khoe and San by old convention, not by proof.",seed
+sahel-kingdoms,Sahel kingdoms,,"States of the grassland south of the Sahara, from the Senegal to Darfur. They grew on the trade in gold, salt and slaves across the desert, and Arab writers describe them from the 8th century.",seed
+western-sudan,Western Sudan,sahel-kingdoms,"Ghana, Mali and Songhai followed one another on the upper Niger and Senegal, each larger than the last.",seed
+central-sudan,Central Sudan,sahel-kingdoms,"Around Lake Chad and east to Darfur. Kanem and Bornu were ruled by one dynasty, the Sayfawa, for about a thousand years.",seed
+jihad-states,Fula jihad states,sahel-kingdoms,Between 1725 and 1862 Fula Muslim reformers overthrew older rulers from Senegal to Cameroon and founded states under clerics.,seed
+sahel-peoples,Sahel peoples,sahel-kingdoms,Peoples of the desert edge who are named here apart from any one state.,seed
+guinea-coast,Guinea coast,,The forest and coast from Sierra Leone to the Niger delta. Towns and kingdoms here are known from archaeology and tradition before the Portuguese came in the 1470s.,seed
+lower-niger,Lower Niger,guinea-coast,"From the Nok culture to Ife, Benin and Oyo, with the Igbo east of the river. Famous for sculpture in terracotta and cast metal.",seed
+akan-gbe,Akan and Gbe,guinea-coast,"Gold-producing Akan states and their eastern neighbours, among them Asante and Dahomey.",seed
+upper-guinea,Upper Guinea coast,guinea-coast,"Peoples of the coast from Sierra Leone to Liberia, first named by Portuguese sailors.",seed
+nile-horn,Nile and Horn,,"The middle and upper Nile and the Horn of Africa. Kush, Aksum, Christian Nubia and Ethiopia left their own writings, which is rare south of the Sahara before 1500.",seed
+nubia-nile,Nubia and the Nile,nile-horn,"Kush, the three Christian kingdoms that followed it, and the Muslim Funj after them, with the Beja of the Red Sea hills.",seed
+ethiopian-highlands,Ethiopian highlands,nile-horn,"Aksum and the Christian kingdom that claimed descent from it, with the Agaw who lived there before Semitic speech spread.",seed
+cushitic-peoples,Cushitic peoples,nile-horn,"Somali, Oromo, Afar and their relatives, from the Red Sea to the Rift Valley of Kenya and Tanzania, and the Muslim sultanates of the eastern Horn.",seed
+nilotic-peoples,Nilotic peoples,nile-horn,"Cattle keepers of the upper Nile. Over the last thousand years some moved south into Uganda, Kenya and Tanzania.",seed
+first-australians,First Australians,,"Aboriginal and Torres Strait Islander peoples, in their countries for some fifty thousand years. Australia had about 250 languages and the map can name only a few of the largest and best known peoples, each placed as a soft field and never as a boundary.",seed
+aus-southeast,The south-east,first-australians,"Peoples of the Murray and Darling rivers and the coast from Adelaide to northern New South Wales, the first to meet British settlement after 1788. Koori is a shared self-name across much of this area and not a single people.",seed
+aus-west,The west,first-australians,"Peoples of the south-west, the Murchison and the Pilbara. Noongar and Yamatji are broad self-names that each cover several language groups.",seed
+aus-desert,The desert,first-australians,"Peoples of the Western Desert, Central Australia and the Lake Eyre basin. Some desert families first met outsiders in the 1960s, and their languages are still spoken by children.",seed
+aus-north,Top End and Kimberley,first-australians,"Peoples of Arnhem Land, the Top End and the Kimberley, where most of the continent's language families are packed into one corner. Makassan sailors were visiting this coast before the British came.",seed
+aus-queensland,Queensland,first-australians,Peoples from Cape York to Moreton Bay and the inland rivers. Murri is a shared self-name across Queensland and not a single people.,seed
+aus-tasmania,Tasmania,first-australians,"Tasmania was cut off by the sea about twelve thousand years ago. Its people survived the war and removals of the 1820s and 1830s, and the community today calls itself Palawa or Pakana.",seed
+torres-strait,Torres Strait,first-australians,"Seafaring gardeners and fishers of the islands between Cape York and New Guinea, distinct from Aboriginal peoples. The western islands speak a Pama-Nyungan language and the eastern islands a Papuan one.",seed
+new-guinea-peoples,New Guinea peoples,,"New Guinea and its islands have over 800 languages, more than any other land of its size. The map names only some of the best known peoples, and before the first outside records their positions are projected back.",seed
+ng-highlands,The highlands,new-guinea-peoples,"Farmers of the high valleys, where gardening goes back thousands of years. Outsiders did not know these valleys were peopled until the 1930s.",seed
+ng-sepik-north,Sepik and north coast,new-guinea-peoples,River peoples of the Sepik and the peoples of the north coast and the Bird's Head. The grouping is a convenience and joins many unrelated languages.,seed
+ng-papuan-coasts,Southern coasts,new-guinea-peoples,"Peoples of the southern swamps and rivers and of the Papuan peninsula, some speaking Papuan and some Austronesian languages.",seed
+ng-islands,The islands,new-guinea-peoples,"Peoples of the Bismarck Archipelago, Bougainville and the islands off the south-east. Most speak Oceanic languages that descend from the speech of the Lapita voyagers.",seed
+north-india,North India,,"The kingdoms and peoples of the Indus and Ganges plains, Bengal and the Himalaya. The line between north and south is a modern convenience: several empires ruled both.",seed
+south-india,South India,,"The Deccan plateau, the Tamil and Kerala coasts and Sri Lanka. Most people here have spoken Dravidian languages for as long as there are records.",seed
+hill-peoples,Hill peoples,,"Peoples of the forested hills of central India and the north-east, who kept their own languages while the plains around them changed. A modern grouping by way of life, not by descent.",seed
+indus-punjab,Indus and Punjab,north-india,"The north-west, the road by which Sakas, Kushans, Huns, Turks and Afghans came into India. Kushans, Ghaznavids and Durranis are drawn from the Afghan side.",seed
+rajput-west,Rajputs and the west,north-india,"Rajasthan, Gujarat and Malwa. Rajput clans appear in inscriptions from the 7th century, and several of their states lasted until 1947.",seed
+ganges-kingdoms,Ganges kingdoms,north-india,"The plain from Delhi to Patna, the seat of the Guptas and of Harsha. Whoever held Kannauj after them claimed the north.",seed
+eastern-kingdoms,"Bengal, Assam, Odisha",north-india,"The lower Ganges, the Brahmaputra valley and the coast of Kalinga. Indo-Aryan speech and Brahmin settlement spread here through the first millennium.",seed
+himalayan-kingdoms,Himalayan kingdoms,north-india,Valley kingdoms from Kashmir to Sikkim. Indo-Aryan speakers from the plains met Tibeto-Burman and Tibetan speakers here.,seed
+north-sultanates,Northern sultanates,north-india,"Provinces of the Delhi Sultanate that became kingdoms after 1340. Their courts wrote Persian and their people spoke Bengali, Gujarati, Hindi and Kashmiri.",seed
+mughal-successors,Mughal successors,north-india,"States that rose as Mughal power failed after 1707. Some were founded by Mughal governors and some by the Sikhs, Jats and Afghans who fought them.",seed
+deccan-kingdoms,Deccan kingdoms,south-india,"Dynasties of the plateau between the Narmada and the Kaveri, from the Satavahanas to Mysore. Their inscriptions are in Prakrit, then Sanskrit, Kannada, Telugu and Marathi.",seed
+tamil-kingdoms,Tamil and Kerala,south-india,"Cheras, Cholas and Pandyas are named in Ashoka's edicts, in Tamil poetry and by Greek writers. The same three names were still in use a thousand years later.",seed
+deccan-sultanates,Deccan sultanates,south-india,The Bahmani kingdom broke from Delhi in 1347 and split into five sultanates about 1500. The Mughals took the last of them in 1687.,seed
+lanka-kingdoms,Sri Lanka and Maldives,south-india,"Sinhalese kingdoms recorded by their own chronicle from before 1 CE, a Tamil kingdom in the north from the 13th century, and the island sultanate of the Maldives.",seed
+central-hill-peoples,Central Indian hills,hill-peoples,"Speakers of Munda and central Dravidian languages, and the Bhils. They held far more of central India in 1 CE than they do now, though early placements rest on language and not on record.",seed
+northeast-hills,North-east hills,hill-peoples,"Speakers of Tibeto-Burman languages and of Khasi, between the Brahmaputra and Burma. Written record begins with the Ahom chronicles in the 13th century.",seed
+chinese-states,Chinese states,,"The Chinese-speaking population and the states it lived in when the empire was divided. Single dynasties such as Han, Tang and Ming are lettered as states.",seed
+han-chinese,Han Chinese,chinese-states,"The regional populations of Chinese speakers. The division by speech is a modern convenience, and the southern groups formed as settlers moved south over two thousand years.",seed
+three-kingdoms,Three Kingdoms,chinese-states,"Wei, Shu and Wu divided the Han empire from 220 until Jin joined it again in 280.",seed
+sixteen-kingdoms,Sixteen Kingdoms,chinese-states,"Short-lived states in north China from 304 to 439, most founded by Xiongnu, Jie, Xianbei, Di and Qiang leaders ruling a Chinese-speaking population. The count of sixteen is a later convention.",seed
+north-south-dynasties,Northern and Southern,chinese-states,"From 420 to 589 Xianbei-led dynasties held the north and Chinese courts at Jiankang, now Nanjing, held the south.",seed
+five-dynasties,"Five Dynasties, Ten Kingdoms",chinese-states,"After Tang fell in 907, five brief dynasties followed one another in the north and about ten kingdoms divided the south, until Song joined them by 979.",seed
+southern-peoples,Southern peoples,,"The peoples south of the Yangzi who did not speak Chinese. A modern grouping of Tai, Hmong-Mien and Tibeto-Burman speakers, whose ground shrank as Chinese settlement moved south.",seed
+hundred-yue,Hundred Yue,southern-peoples,The Chinese name for the many peoples of the south-east coast and Lingnan. Their languages are unrecorded and are usually taken to be related to Tai.,seed
+yunnan-kingdoms,Yunnan kingdoms,southern-peoples,"Dian, Nanzhao and Dali, the states of the Yunnan plateau before the Mongol conquest of 1253.",seed
+southwest-peoples,"Miao, Zhuang and Yi",southern-peoples,"The named peoples of the southern hills and the south-west, most of them governed through their own chiefs until the 18th century.",seed
+korea-japan,Korea and Japan,,"The peoples of the Korean peninsula and the Japanese islands, first described by Chinese envoys in the 3rd century.",seed
+korean-kingdoms,Korean kingdoms,korea-japan,"The Samhan and their northern neighbours, then Goguryeo, Baekje and Silla, joined by Silla in 668.",seed
+wa-yamato,Japan and Ryukyu,korea-japan,"The Wa of the Chinese histories, the Yamato court that grew from them, and the island kingdom of Ryukyu.",seed
+emishi-ainu,Emishi and Ainu,korea-japan,The peoples of northern Honshu and Hokkaido who stood outside the Yamato state. How far the Emishi were ancestors of the Ainu is debated.,seed
+tibet-tarim,Tibet and the Tarim,,The peoples of the Tibetan plateau and of the oasis cities around the Taklamakan desert. A grouping by place.,seed
+tibetans-qiang,Tibetans and Qiang,tibet-tarim,"Tibetans, the Qiang of the plateau's eastern edge, and the Tanguts who grew from them.",seed
+tarim-oases,Tarim oases,tibet-tarim,City kingdoms on the Silk Road that spoke Tocharian and Saka until Uyghur Turkic replaced both between about 850 and 1100.,seed
+mongolia-steppe,Peoples of Mongolia,steppe-world,"The confederations that followed one another on the Mongolian steppe, from the Xiongnu to the Mongols.",seed
+northeast-asia,North-east Asia,,The forest and river peoples of Manchuria and eastern Siberia. A grouping by place across several language families.,seed
+manchurian-peoples,Manchurian peoples,northeast-asia,"Para-Mongolic herders in the west and Tungusic farmers and hunters in the east. Khitan, Jurchen and Manchu each went on to rule north China.",seed
+east-siberians,East Siberians,northeast-asia,"Thinly spread hunters, fishers and reindeer herders from Lake Baikal to the Bering Strait, first recorded by Russian fur collectors in the 17th century.",seed
+austronesians,Austronesians,,"Speakers of one language family who sailed from Taiwan through the islands of Southeast Asia and on to Madagascar, Hawaii, Rapa Nui and Aotearoa. The grouping is by language, and the evidence is archaeology, shared words and oral tradition.",seed
+island-asia-peoples,Peoples of island Asia,austronesians,"The first stage of the voyage: Taiwan, the Philippines, Borneo, Sumatra and Sulawesi, settled long before 1 CE. These are the named peoples who lived outside or beside the island kingdoms.",seed
+micronesians,Micronesians,austronesians,"The Marianas and Palau were reached from island Asia about 3,500 to 3,000 years ago, and the atolls to the east from Melanesia about 2,000 years ago. A modern grouping by geography.",seed
+melanesian-islanders,Melanesian islanders,austronesians,"Descendants of the Lapita voyagers, who carried decorated pottery from the Bismarck islands to Fiji between about 1300 and 800 BCE. In the Solomons they met older Papuan-speaking peoples.",seed
+west-polynesians,Western Polynesians,austronesians,Tonga and Samoa were settled by Lapita people about 900 to 800 BCE. Polynesian language and custom took shape here over the next thousand years.,seed
+east-polynesians,Eastern Polynesians,austronesians,"From about 1000 canoes went east and then to the corners of the ocean: Hawaii, Rapa Nui and Aotearoa. The Moriori of the Chatham Islands and the people of many small islands belong here too but are too small to draw.",seed
+malagasy-peoples,Malagasy,austronesians,"Madagascar was settled about 500 to 700 by Austronesian speakers from Borneo, joined by Bantu speakers from the African coast. The many Malagasy peoples share one language.",seed
+mainland-kingdoms,Mainland kingdoms,,"The rice-growing kingdoms of the Irrawaddy, Chao Phraya, Mekong and Red River, and the hill peoples around them. A modern grouping of Mon, Khmer, Burmese, Viet and Cham.",seed
+mon-khmer-realms,Mon and Khmer,mainland-kingdoms,"The oldest written languages of the mainland. Funan, Chenla and Angkor were Khmer, and Dvaravati, Haripunjaya and Pegu were Mon.",seed
+burmese-realms,Pyu and Burmese,mainland-kingdoms,"Pyu cities held the Irrawaddy valley until the 9th century. Burmese speakers followed them, and from Pagan onward built the largest kingdoms of the western mainland.",seed
+viet-cham,Viet and Cham,mainland-kingdoms,The Viet of the Red River and the Cham of the central coast were neighbours and rivals for a thousand years. By 1832 the Viet held the whole coast.,seed
+seasia-hill-peoples,Hill peoples,mainland-kingdoms,"Peoples of the uplands between the valley kingdoms. Most enter written records only in the 18th and 19th centuries, though many were there far earlier, and the grouping is a modern one by way of life.",seed
+tai-peoples,Tai peoples,,"Tai speakers moved south from the Guangxi and Yunnan borderlands between about 1000 and 1300 and founded kingdoms in the Chao Phraya and Mekong valleys. Thai, Lao and Shan are their languages.",seed
+island-kingdoms,Island kingdoms,,"The trading states of the straits and the rice kingdoms of Java, Hindu and Buddhist at first and mostly Muslim from the 15th century.",seed
+malay-realms,Malay world,island-kingdoms,"Port states of the Straits of Malacca and the Borneo coast, from Srivijaya to Malacca, Aceh and Brunei. Malay was their language of trade and court.",seed
+java-realms,Java and Bali,island-kingdoms,"Kingdoms fed by the rice of Java, from Mataram and Majapahit to the Mataram Sultanate. Bali kept its Hindu courts.",seed
+eastern-sultanates,Eastern sultanates,island-kingdoms,"Sultanates of the spice islands, Sulawesi and the southern Philippines, and the older ports of the Philippines that came before them.",seed
+mesoamerica,Mesoamerica,,The city-building peoples from central Mexico to the isthmus. Only the Maya left dated inscriptions. The rest is known from archaeology and from histories written down after 1521.,seed
+maya-peoples,Maya,mesoamerica,"Speakers of Mayan languages, from the city states of the inscriptions to the several million Maya of today.",seed
+oaxaca-peoples,Zapotec and Mixtec,mesoamerica,"The peoples of Oaxaca. Monte Alban was a Zapotec city for a thousand years, and Mixtec painted books record dynasties from about the 10th century.",seed
+central-mexico,Central Mexico,mesoamerica,"Teotihuacan, whose language is unknown, then Tula, then the Nahuatl-speaking cities of the lakes and their neighbours and rivals.",seed
+isthmus-peoples,Isthmus peoples,mesoamerica,From Honduras to Panama. Grouped with Mesoamerica for convenience. Most spoke Chibchan and Misumalpan languages and lived in chiefdoms.,seed
+andean-peoples,Andean peoples,,The peoples of the Andes and the Pacific desert coast. None wrote. They are known from archaeology and from what Inca nobles told Spanish writers after 1532.,seed
+andes-coast,Coastal cultures,andean-peoples,Irrigated valleys of the desert coast. The names are those archaeologists give to styles of pottery and building.,seed
+andes-highland,Highland peoples,andean-peoples,"From Tiwanaku and Wari to the Inca, and the Quechua and Aymara speakers who are still the majority in much of the highlands.",seed
+northern-andes,Northern Andes,andean-peoples,"Chiefdoms of Colombia and Ecuador, known for goldwork and stone statues. Their languages are mostly unrecorded.",seed
+woodlands-plains,Woodland and Plains,,Eastern North America and the grasslands. Before 1540 the evidence is archaeology and oral tradition. Many peoples were moved west by force in the 1830s.,seed
+mound-builders,Mound builders,woodlands-plains,"Archaeological cultures of the great river valleys, named in modern times. What languages they spoke is assumed from who lived there later.",seed
+northeast-peoples,North-east,woodlands-plains,Algonquian and Iroquoian speakers from the Atlantic to the Great Lakes and Hudson Bay.,seed
+southeast-peoples,South-east,woodlands-plains,Heirs of the Mississippian chiefdoms. Most were removed to what is now Oklahoma between 1830 and 1840.,seed
+plains-peoples,Plains,woodlands-plains,"Farmers of the river valleys and, once horses spread north after 1680, the mounted bison hunters.",seed
+west-peoples,West and Southwest,,From the pueblos and desert farmers to the Pacific coast. A grouping by region. The languages belong to many unrelated families.,seed
+pueblo-southwest,Pueblo and Southwest,west-peoples,"Farming peoples of the desert and their later neighbours, on both sides of the present border.",seed
+northwest-coast,Northwest Coast,west-peoples,"Fishing peoples of the rainforest coast, living in large plank-house towns with no farming.",seed
+california-plateau,California and Basin,west-peoples,"California, the Columbia Plateau and the Great Basin, home to more language families than the rest of the continent together.",seed
+arctic-peoples,Arctic peoples,,"Peoples of the tundra, the ice coast and the northern forest. Inuit ancestors spread from Alaska to Greenland in a few generations after about 1200.",seed
+arctic-early,Early Arctic,arctic-peoples,"Cultures known from archaeology, and the Norse farmers of Greenland. Inuit tradition remembers the Dorset people as the Tuniit.",seed
+inuit-yupik,"Inuit, Yupik, Unangan",arctic-peoples,The related peoples of the coast from the Aleutian Islands to Greenland.,seed
+dene-peoples,Dene,arctic-peoples,Athabaskan speakers of the northern forest. Their southern relatives became the Navajo and Apache.,seed
+amazon-caribbean,"Amazon, Caribbean",,The peoples of the tropical lowlands and islands. Arawakan and Tupian languages spread along rivers and coasts. Evidence before 1492 is archaeology and reconstruction.,seed
+caribbean-peoples,Caribbean and Guianas,amazon-caribbean,Island and coastal peoples. The islanders Columbus met were almost wholly destroyed within two generations.,seed
+amazon-peoples,Amazon,amazon-caribbean,River and forest peoples. Earthworks and dark soils show the Amazon was far more thickly peopled before 1500 than later travellers saw.,seed
+tupi-je-peoples,Tupi and Jê,amazon-caribbean,Tupi speakers of the Brazilian coast and the Jê-speaking peoples of the plateau behind it.,seed
+southern-cone,Southern Cone,,From the Chaco to Tierra del Fuego. Most of this land stayed in native hands until the 1870s and 1880s.,seed
+mapuche-neighbours,Mapuche and Andes,southern-cone,"The Mapuche, who held off both the Inca and Spain, and the farming peoples of the Andean valleys to the north.",seed
+guarani-chaco,Guaraní and Chaco,southern-cone,Guaraní farmers of the forest and the hunters and fishers of the Chaco plain.,seed
+patagonia-peoples,Pampas and Patagonia,southern-cone,"Hunters of the grassland and the far south, and the canoe peoples of the western channels.",seed
