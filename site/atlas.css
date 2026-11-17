@@ -72,9 +72,15 @@
 
 /* map and the card that answers a tap on it. On a narrow screen the map is wider than the page and scrolls sideways. */
 .atlas .mapwrap { position: relative; }
-.atlas .mapscroll { position: relative; overflow-x: auto; overflow-y: hidden; scrollbar-width: none; overscroll-behavior-x: contain; background: #04070c; }
+.atlas .mapscroll { position: relative; overflow: hidden; background: #04070c; }
 .atlas .mapscroll::-webkit-scrollbar { display: none; }
-.atlas #map { display: block; background: #04070c; cursor: crosshair; touch-action: pan-x pan-y; }
+.atlas #map { display: block; background: #04070c; cursor: grab; touch-action: pan-y; transform-origin: 0 0; will-change: transform; user-select: none; -webkit-user-select: none; }
+.atlas #map:active { cursor: grabbing; }
+/* zoom: three small buttons on the map, for those who do not pinch */
+.atlas .zoom { position: absolute; z-index: 2; right: 10px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 4px; }
+.atlas .zoom button { width: 36px; min-width: 36px; height: 36px; min-height: 36px; padding: 0; font-size: 18px; line-height: 1; background: rgba(11, 15, 21, .88); border-color: var(--line); }
+.atlas .zoom button:hover { border-color: var(--fg); }
+@media (pointer: coarse) { .atlas .zoom button { width: 44px; min-width: 44px; height: 44px; min-height: 44px; } }
 .atlas .card { position: absolute; left: 8px; right: 8px; bottom: 8px; max-height: 52%; overflow-y: auto; background: rgba(11, 15, 21, .95); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px 12px 14px; box-shadow: 0 12px 32px rgba(0, 0, 0, .6); }
 .atlas .card.top { bottom: auto; top: 8px; }
 .atlas .card .acts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
