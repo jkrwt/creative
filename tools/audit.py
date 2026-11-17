@@ -36,6 +36,14 @@ WRITTEN_FROM = {
     "caribbean": 1492, "andesn": 1499, "guianas": 1596, "andes": 1532, "amazon": 1542, "brazil": 1500,
     "cone": 1516,
     "australia": 1606, "papua": 1526,
+    # The Near East, Iran, South and East Asia had writing of their own, or literate neighbours who
+    # described them, from the start of the survey. The exceptions are the open steppe, Tibet before its
+    # empire, Japan before the Chinese account of the Wa, Bengal before the Guptas, and Siberia.
+    "anatolia": 1, "caucasus": 1, "levant": 1, "mesopotamia": 1, "arabia": 1, "egypt": 1, "maghreb": 1,
+    "iran": 1, "afghanistan": 1, "turan": 1, "steppe": 550, "wsiberia": 1580,
+    "indus": 1, "hindustan": 1, "bengal": 300, "deccan": 1, "lanka": 1,
+    "tibet": 630, "tarim": 1, "mongolia": 1, "manchuria": 1, "chinan": 1, "chinas": 1, "korea": 1,
+    "japan": 250, "esiberia": 1630,
     # Southeast Asia and the Pacific: Chinese accounts and local inscriptions on the mainland and in the
     # western islands from the dates below; the eastern islands and the Pacific from European contact.
     "burma": 500, "indochina": 250, "malaya": 700, "sumatra": 683, "java": 450, "borneo": 1000,
