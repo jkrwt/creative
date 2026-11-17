@@ -129,30 +129,6 @@ epi-jomon,ainu,continues,1200,eastasia-archaeology,Through the Satsumon culture 
 cao-wei,jin-dynasty,continues,266,sanguozhi,The Sima family took the throne of Wei.,seed
 northern-wei,northern-qi,split-from,534,weishu,,seed
 northern-wei,northern-zhou,split-from,535,weishu,,seed
-funan,chenla,absorbed-by,550,chinese-histories-nanhai,"Chinese histories say Chenla, once a vassal, conquered Funan.",seed
-chenla,khmer-empire,continues,802,sea-inscriptions,Jayavarman II reunited the Khmer lands.,seed
-khmer-empire,cambodia-kingdom,continues,1431,thai-chronicles,The court moved south from Angkor.,seed
-pyu-cities,pagan,absorbed-by,849,burmese-chronicles,The Pyu were absorbed by the Burmese of Pagan over several centuries.,seed
-ramanya,hanthawaddy,continues,1287,burmese-chronicles,A Mon kingdom re-formed when Pagan fell.,seed
-hanthawaddy,mon-people,continues,1757,burmese-chronicles,The Mon after the loss of their kingdom.,seed
-toungoo,konbaung,continues,1752,burmese-chronicles,Alaungpaya restored Burmese rule within months of Ava's fall.,seed
-viet-giao-chi,dai-viet,continues,939,dai-viet-chronicle,Independence from the Southern Han.,seed
-trinh-tonkin,dai-viet,split-from,1600,dai-viet-chronicle,The Lê realm divided between two families of lords.,seed
-nguyen-lords,dai-viet,split-from,1600,dai-viet-chronicle,The Nguyễn held the south from 1558 and broke openly with the north by 1627.,seed
-nguyen-lords,nguyen-vietnam,continues,1802,dai-viet-chronicle,A Nguyễn heir reunited the country after the Tây Sơn wars.,seed
-sa-huynh,champa,continues,192,settlement-archaeology,A continuity most archaeologists accept.,seed
-champa,cham-people,continues,1832,dai-viet-chronicle,The Cham after the end of Panduranga.,seed
-sukhothai,ayutthaya,absorbed-by,1438,thai-chronicles,Sukhothai passed to Ayutthaya by inheritance.,seed
-ayutthaya,siam-rattanakosin,continues,1782,thai-chronicles,Taksin at Thonburi and then the Chakri kings at Bangkok restored the kingdom.,seed
-lao-kingdoms,lan-xang,split-from,1707,thai-chronicles,Lan Xang divided among rival heirs.,seed
-srivijaya,malayu,continues,1275,chinese-histories-nanhai,The centre of the straits kingdom had moved to Jambi.,seed
-malacca,johor,continues,1528,malay-annals,The sultan's heirs founded Johor after the Portuguese took Malacca.,seed
-mataram-medang,kediri,continues,1019,sea-inscriptions,Airlangga rebuilt the kingdom after the disaster of 1016.,seed
-kediri,singhasari,absorbed-by,1222,nagarakretagama,Ken Angrok defeated Kediri.,seed
-singhasari,majapahit,continues,1293,nagarakretagama,Founded by Kertanagara's son-in-law.,seed
-mataram-sultanate,surakarta-yogyakarta,continues,1755,voc-records,Divided by the Treaty of Giyanti.,seed
-tui-tonga,tonga-kingdom,name-continues,1845,polynesian-oral-tradition,The modern kings descend from a junior chiefly line.,seed
-merina,merina-kingdom,continues,1787,tantara-andriana,The Merina united under one king.,seed
 preclassic-maya,classic-maya,continues,250,maya-inscriptions,The same cities and dynasties.,seed
 classic-maya,yucatan-maya,continues,900,americas-archaeology,Power moved to the northern lowlands as the southern cities emptied.,seed
 mexica,nahua,continues,1521,florentine-codex,The Nahua towns lived on under Spanish rule.,seed
@@ -189,3 +165,27 @@ northern-nguni,zulu,continues,1816,travellers-19c,Shaka took over the Mthethwa c
 ndebele,zulu,split-from,1822,travellers-19c,Mzilikazi and his following broke away from Shaka.,seed
 kwale,urewe,split-from,150,archaeology-africa,Kwale pottery is held to derive from Urewe. This is an archaeological inference.,seed
 oyo,yoruba,continues,1836,travellers-19c,The successor cities of Oyo.,seed
+funan,chenla,absorbed-by,550,chinese-histories-nanhai,"Chinese histories say Chenla, once a vassal, conquered Funan.",seed
+chenla,khmer-empire,continues,802,sea-inscriptions,Jayavarman II reunited the Khmer lands.,seed
+khmer-empire,cambodia-kingdom,continues,1431,thai-chronicles,The court moved south from Angkor.,seed
+pyu-cities,pagan,absorbed-by,849,burmese-chronicles,The Pyu were absorbed by the Burmese of Pagan over several centuries.,seed
+ramanya,hanthawaddy,continues,1287,burmese-chronicles,A Mon kingdom re-formed when Pagan fell.,seed
+hanthawaddy,mon-people,continues,1757,burmese-chronicles,The Mon after the loss of their kingdom.,seed
+toungoo,konbaung,continues,1752,burmese-chronicles,Alaungpaya restored Burmese rule within months of Ava's fall.,seed
+viet-giao-chi,dai-viet,continues,939,dai-viet-chronicle,Independence from the Southern Han.,seed
+trinh-tonkin,dai-viet,split-from,1600,dai-viet-chronicle,The Lê realm divided between two families of lords.,seed
+nguyen-lords,dai-viet,split-from,1600,dai-viet-chronicle,The Nguyễn held the south from 1558 and broke openly with the north by 1627.,seed
+nguyen-lords,nguyen-vietnam,continues,1802,dai-viet-chronicle,A Nguyễn heir reunited the country after the Tây Sơn wars.,seed
+sa-huynh,champa,continues,192,settlement-archaeology,A continuity most archaeologists accept.,seed
+champa,cham-people,continues,1832,dai-viet-chronicle,The Cham after the end of Panduranga.,seed
+sukhothai,ayutthaya,absorbed-by,1438,thai-chronicles,Sukhothai passed to Ayutthaya by inheritance.,seed
+ayutthaya,siam-rattanakosin,continues,1782,thai-chronicles,Taksin at Thonburi and then the Chakri kings at Bangkok restored the kingdom.,seed
+lao-kingdoms,lan-xang,split-from,1707,thai-chronicles,Lan Xang divided among rival heirs.,seed
+srivijaya,malayu,continues,1275,chinese-histories-nanhai,The centre of the straits kingdom had moved to Jambi.,seed
+malacca,johor,continues,1528,malay-annals,The sultan's heirs founded Johor after the Portuguese took Malacca.,seed
+mataram-medang,kediri,continues,1019,sea-inscriptions,Airlangga rebuilt the kingdom after the disaster of 1016.,seed
+kediri,singhasari,absorbed-by,1222,nagarakretagama,Ken Angrok defeated Kediri.,seed
+singhasari,majapahit,continues,1293,nagarakretagama,Founded by Kertanagara's son-in-law.,seed
+mataram-sultanate,surakarta-yogyakarta,continues,1755,voc-records,Divided by the Treaty of Giyanti.,seed
+tui-tonga,tonga-kingdom,name-continues,1845,polynesian-oral-tradition,The modern kings descend from a junior chiefly line.,seed
+merina,merina-kingdom,continues,1787,tantara-andriana,The Merina united under one king.,seed

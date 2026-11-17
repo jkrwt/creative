@@ -284,8 +284,8 @@
      (165.6, -21.3, 250, 1, 2026, 1, "r", "linguistic-geography;settlement-archaeology", "New Caledonia and the Loyalty Islands, settled by Lapita people about 1000 BCE. Some twenty-eight languages, among them Drehu, Nengone and Paicî."),
    ]),
    ("fijian-speakers", "Fijian", "language", "oceanic", "no", "melanesia", "", [
-     (178.2, -17.6, 280, 1, 1800, 0, "r", "linguistic-geography;settlement-archaeology", "Fiji was settled by Lapita people about 1000 to 900 BCE. Its languages are the nearest relatives of Polynesian."),
-     (178.2, -17.6, 280, 1800, 2026, 1, "a", "missionary-records;seasia-pacific-censuses", "Fijian, called Vosa Vakaviti by its speakers, written by missionaries from the 1830s in the dialect of Bau."),
+     (178.2, -17.6, 330, 1, 1800, 0, "r", "linguistic-geography;settlement-archaeology", "Fiji was settled by Lapita people about 1000 to 900 BCE. Its languages are the nearest relatives of Polynesian."),
+     (178.2, -17.6, 330, 1800, 2026, 1, "a", "missionary-records;seasia-pacific-censuses", "Fijian, called Vosa Vakaviti by its speakers, written by missionaries from the 1830s in the dialect of Bau."),
    ]),
    ("fiji-hindi", "Fiji Hindi", "language", "indn", "no", "melanesia", "", [
      (177.9, -17.7, 120, 1900, 2026, 1, "a", "seasia-pacific-censuses", "Spoken by descendants of labourers brought from India between 1879 and 1916, mostly in the cane districts of the two main islands."),
@@ -295,13 +295,16 @@
      (-149.5, -17.6, 100, 1970, 2026, 1, "a", "seasia-pacific-censuses", "Tahiti, where French is now the usual home language beside Tahitian."),
    ]),
    ("chamorro-palauan", "Chamorro and Palauan", "language", "philip", "yes", "micronesia", "", [
-     (145.3, 15.0, 300, 1, 2026, 1, "r", "settlement-archaeology;spanish-philippine-chronicles", "The Marianas were settled about 1500 BCE straight from island Asia. Chamorro, written from 1668, is not Oceanic and its nearest kin lie in the Philippines and Indonesia."),
+     (145.3, 15.0, 330, 1, 2026, 1, "r", "settlement-archaeology;spanish-philippine-chronicles", "The Marianas were settled about 1500 BCE straight from island Asia. Chamorro, written from 1668, is not Oceanic and its nearest kin lie in the Philippines and Indonesia."),
      (134.5, 7.5, 150, 1, 2026, 1, "r", "settlement-archaeology;linguistic-geography", "Palau, settled about 1000 BCE or earlier. Palauan also came directly from island Asia."),
    ]),
    ("micronesian-languages", "Micronesian languages", "language", "oceanic", "no", "micronesia", "", [
      (150.0, 7.5, 900, 1, 2026, 1, "r", "settlement-archaeology;linguistic-geography", "Yapese, Chuukese, Pohnpeian and Kosraean of the Caroline Islands. The high islands were settled about 2,000 years ago and the dates are debated."),
      (169.5, 8.5, 500, 1, 2026, 1, "r", "settlement-archaeology;linguistic-geography", "Marshallese. The atolls were settled about 2,000 years ago."),
      (172.5, 0.5, 450, 1, 2026, 1, "r", "settlement-archaeology;linguistic-geography", "Gilbertese of Kiribati, and Nauruan. The Line Islands far to the east had no settled people when Europeans arrived."),
+     (138.1, 9.5, 100, 1, 2026, 1, "r", "settlement-archaeology;linguistic-geography", "Yap, which the wide Caroline circle does not reach. Yapese stands apart from its neighbours within Oceanic."),
+     (163.0, 5.3, 70, 1, 2026, 1, "r", "settlement-archaeology;linguistic-geography", "Kosrae, settled about 2,000 to 1,800 years ago."),
+     (-158.3, 2.8, 220, 1900, 2026, 1, "a", "seasia-pacific-censuses", "Kiritimati, Tabuaeran and Teraina in the Line Islands, settled by Gilbertese workers and families under colonial rule."),
    ]),
    ("west-polynesian-languages", "Tongan and Samoan", "language", "polynesian", "no", "polynesia", "", [
      (-172.0, -13.8, 200, 1, 1770, 0, "r", "settlement-archaeology;linguistic-geography", "Samoa, settled about 800 BCE. In 1 CE the speech of Samoa and Tonga was still close to the common ancestor of all Polynesian languages."),

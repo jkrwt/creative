@@ -1354,210 +1354,6 @@ epi-jomon,Epi-Jomon culture,people,ainu,yes,japan,emishi-ainu
 emishi,Emishi,people,ainu,yes,japan,emishi-ainu
 okhotsk-culture,Okhotsk culture,people,paleosib,yes,japan+esiberia,emishi-ainu
 ainu,Ainu,people,ainu,no,japan+esiberia,emishi-ainu
-pyu-language,Pyu,language,tbother,no,burma,
-burmese-speakers,Burmese,language,burm,no,burma,
-burma-hill-languages,"Chin, Kachin and Naga languages",language,tbother,no,burma,
-karen-speakers,Karen,language,tbother,no,burma+indochina,
-shan-speakers,Shan (Tai Yai),language,tai,no,burma,
-mon-speakers,Mon,language,monkhmer,no,burma+indochina,
-khmer-speakers,Khmer,language,monkhmer,no,indochina,
-austroasiatic-uplands,"Khmu, Lawa, Katu and Bahnar languages",language,aaother,no,burma+indochina,
-tai-seasia,"Thai, Lao and other Tai",language,tai,no,indochina,
-vietnamese-speakers,Vietnamese,language,viet,no,indochina,
-chamic-speakers,Cham and Chamic,language,cham,no,indochina,
-hmong-indochina,Hmong and Iu Mien,language,hmong,no,indochina,
-aslian-speakers,"Aslian (Semai, Temiar, Jahai)",language,aaother,no,malaya+indochina,
-malay-speakers,Malay,language,malayic,no,malaya+sumatra+borneo+indochina+eindonesia,
-batak-speakers,"Batak, Gayo and Nias",language,malayic,no,sumatra,
-acehnese-speakers,Acehnese,language,cham,no,sumatra,
-sundanese-speakers,Sundanese,language,malayic,no,java,
-javanese-speakers,Javanese,language,malayic,no,java,
-madurese-speakers,Madurese,language,malayic,no,java,
-balinese-speakers,Balinese and Sasak,language,malayic,no,java+eindonesia,
-dayak-languages,Dayak languages,language,malayic,no,borneo+eindonesia,
-luzon-north-languages,Ilocano and Cordillera languages,language,philip,no,philippines,
-tagalog-speakers,"Tagalog, Kapampangan and Bikol",language,philip,no,philippines,
-visayan-speakers,Visayan languages,language,philip,no,philippines,
-mindanao-sulu-languages,"Mindanao, Sulu and Palawan languages",language,philip,no,philippines+eindonesia,
-formosan-languages,Formosan languages,language,formosan,no,taiwan,
-sinitic-taiwan,"Hokkien, Hakka and Mandarin",language,sinitic,no,taiwan,
-chinese-malaya,"Chinese (Hokkien, Cantonese, Mandarin)",language,sinitic,no,malaya,
-sulawesi-languages,"Bugis, Makassar and Sulawesi languages",language,malayic,no,eindonesia,
-nusa-tenggara-languages,"Sumbawa, Flores, Sumba and Timor languages",language,malayic,yes,eindonesia,
-maluku-languages,Maluku languages,language,malayic,yes,eindonesia,
-papuan-island-languages,Papuan languages of the islands,language,papother,no,eindonesia+melanesia,
-oceanic-melanesia,Solomon and Vanuatu languages,language,oceanic,no,melanesia,
-kanak-languages,Kanak languages,language,oceanic,no,melanesia,
-fijian-speakers,Fijian,language,oceanic,no,melanesia,
-fiji-hindi,Fiji Hindi,language,indn,no,melanesia,
-french-pacific,French,language,fr,no,melanesia+polynesia,
-chamorro-palauan,Chamorro and Palauan,language,philip,yes,micronesia,
-micronesian-languages,Micronesian languages,language,oceanic,no,micronesia,
-west-polynesian-languages,Tongan and Samoan,language,polynesian,no,polynesia,
-east-polynesian-languages,"Tahitian, Marquesan and Cook Islands Māori",language,polynesian,no,polynesia,
-hawaiian-language,Hawaiian,language,polynesian,no,polynesia,
-rapanui-language,Rapa Nui,language,polynesian,no,polynesia,
-maori-language,Te reo Māori,language,polynesian,no,newzealand,
-english-pacific,English,language,eng,no,newzealand+polynesia,
-malagasy-language,Malagasy,language,malagasy,no,madagascar,
-comorian-language,Comorian (Shikomori),language,bantue,no,madagascar,
-mascarene-creoles,Mauritian and Réunion Creole,language,fr,no,madagascar,
-funan,Funan,people,monkhmer,yes,indochina,mon-khmer-realms
-chenla,Chenla,people,monkhmer,no,indochina,mon-khmer-realms
-khmer-empire,Khmer Empire (Angkor),people,monkhmer,no,indochina,mon-khmer-realms
-cambodia-kingdom,Cambodia,people,monkhmer,no,indochina,mon-khmer-realms
-dvaravati,Dvaravati,people,monkhmer,no,indochina,mon-khmer-realms
-haripunjaya,Haripunjaya,people,monkhmer,no,indochina,mon-khmer-realms
-ramanya,Mon of Ramanya,people,monkhmer,no,burma,mon-khmer-realms
-hanthawaddy,Hanthawaddy (Pegu),people,monkhmer,no,burma,mon-khmer-realms
-mon-people,Mon,people,monkhmer,no,burma+indochina,mon-khmer-realms
-pyu-cities,Pyu city states,people,tbother,no,burma,burmese-realms
-pagan,Pagan (Bagan),people,burm,no,burma,burmese-realms
-ava,Ava,people,burm,no,burma,burmese-realms
-toungoo,Toungoo Burma,people,burm,no,burma+indochina,burmese-realms
-konbaung,Konbaung Burma,people,burm,no,burma,burmese-realms
-arakan,Arakan (Mrauk U),people,burm,no,burma,burmese-realms
-viet-giao-chi,Viet of Giao Chỉ,people,viet,yes,indochina,viet-cham
-dai-viet,Đại Việt,people,viet,no,indochina,viet-cham
-trinh-tonkin,Đàng Ngoài (Trịnh),people,viet,no,indochina,viet-cham
-nguyen-lords,Đàng Trong (Nguyễn),people,viet,no,indochina,viet-cham
-nguyen-vietnam,Nguyễn Vietnam,people,viet,no,indochina,viet-cham
-sa-huynh,Sa Huỳnh culture,people,cham,yes,indochina,viet-cham
-champa,Champa,people,cham,no,indochina,viet-cham
-cham-people,Cham,people,cham,no,indochina,viet-cham
-karen-people,Karen,people,tbother,no,burma+indochina,seasia-hill-peoples
-chin-zo,Chin (Zo),people,tbother,no,burma,seasia-hill-peoples
-kachin-jingpho,Kachin (Jingpho),people,tbother,no,burma,seasia-hill-peoples
-wa-people,Wa,people,aaother,no,burma,seasia-hill-peoples
-hmong-seasia,Hmong,people,hmong,no,indochina,seasia-hill-peoples
-iu-mien,Iu Mien,people,hmong,no,indochina,seasia-hill-peoples
-khmu-people,Khmu,people,aaother,no,indochina,seasia-hill-peoples
-highlanders-jarai,"Jarai, Rade and Bahnar",people,cham,no,indochina,seasia-hill-peoples
-orang-asli,Orang Asli,people,aaother,no,malaya,seasia-hill-peoples
-tay-nung,Tày and Nùng,people,tai,no,indochina,tai-peoples
-tai-dam,Tai Dam,people,tai,no,indochina,tai-peoples
-shan-states,Shan states,people,tai,no,burma,tai-peoples
-sukhothai,Sukhothai,people,tai,no,indochina,tai-peoples
-lan-na,Lan Na,people,tai,no,indochina,tai-peoples
-lan-xang,Lan Xang,people,tai,no,indochina,tai-peoples
-lao-kingdoms,Luang Prabang and Vientiane,people,tai,no,indochina,tai-peoples
-ayutthaya,Ayutthaya,people,tai,no,indochina,tai-peoples
-siam-rattanakosin,Siam (Rattanakosin),people,tai,no,indochina,tai-peoples
-kedah-kadaram,Kedah (Kadaram),people,malayic,yes,malaya,malay-realms
-srivijaya,Srivijaya,people,malayic,no,sumatra+malaya,malay-realms
-malayu,Malayu,people,malayic,no,sumatra,malay-realms
-tambralinga,Tambralinga,people,malayic,yes,indochina,malay-realms
-samudra-pasai,Samudra-Pasai,people,malayic,no,sumatra,malay-realms
-malacca,Malacca,people,malayic,no,malaya+sumatra,malay-realms
-johor,Johor,people,malayic,no,malaya+sumatra,malay-realms
-patani,Patani,people,malayic,no,indochina+malaya,malay-realms
-aceh,Aceh,people,cham,no,sumatra,malay-realms
-brunei,Brunei,people,malayic,no,borneo,malay-realms
-kutai,Kutai,people,malayic,yes,borneo+eindonesia,malay-realms
-banjar,Banjar,people,malayic,no,borneo,malay-realms
-buni-culture,Buni culture,people,malayic,yes,java,java-realms
-tarumanagara,Tarumanagara,people,malayic,yes,java,java-realms
-mataram-medang,Mataram and the Sailendras,people,malayic,no,java,java-realms
-kediri,Kediri,people,malayic,no,java,java-realms
-singhasari,Singhasari,people,malayic,no,java,java-realms
-majapahit,Majapahit,people,malayic,no,java,java-realms
-sunda-kingdom,Sunda (Pajajaran),people,malayic,no,java,java-realms
-demak,Demak,people,malayic,no,java,java-realms
-banten,Banten,people,malayic,no,java,java-realms
-mataram-sultanate,Mataram Sultanate,people,malayic,no,java,java-realms
-surakarta-yogyakarta,Surakarta and Yogyakarta,people,malayic,no,java,java-realms
-bali-kingdoms,Balinese kingdoms,people,malayic,no,java,java-realms
-tondo-maynila,Tondo and Maynila,people,philip,yes,philippines,eastern-sultanates
-butuan,Butuan,people,philip,yes,philippines,eastern-sultanates
-sugbu,Sugbu (Cebu),people,philip,no,philippines,eastern-sultanates
-sulu,Sulu,people,philip,no,philippines+borneo,eastern-sultanates
-maguindanao,Maguindanao,people,philip,no,philippines,eastern-sultanates
-ternate,Ternate,people,papother,no,eindonesia,eastern-sultanates
-tidore,Tidore,people,papother,no,eindonesia,eastern-sultanates
-gowa,Gowa (Makassar),people,malayic,no,eindonesia,eastern-sultanates
-formosan-peoples,Indigenous Taiwanese,people,formosan,no,taiwan,island-asia-peoples
-igorot,Igorot peoples,people,philip,no,philippines,island-asia-peoples
-tagalog,Tagalog,people,philip,no,philippines,island-asia-peoples
-visayans,Bisaya (Visayans),people,philip,no,philippines,island-asia-peoples
-moro-peoples,Moro peoples,people,philip,no,philippines,island-asia-peoples
-dayak,Dayak peoples,people,malayic,no,borneo+eindonesia,island-asia-peoples
-batak,Batak,people,malayic,no,sumatra,island-asia-peoples
-minangkabau,Minangkabau,people,malayic,no,sumatra,island-asia-peoples
-bugis,Bugis,people,malayic,no,eindonesia,island-asia-peoples
-toraja,Toraja,people,malayic,no,eindonesia,island-asia-peoples
-tetun-wehali,Tetun (Wehali),people,malayic,yes,eindonesia,island-asia-peoples
-chamorro,Chamorro (CHamoru),people,philip,yes,micronesia,micronesians
-palauans,Palauans (Belau),people,philip,yes,micronesia,micronesians
-yapese,Yap,people,oceanic,no,micronesia,micronesians
-carolinians,Caroline Islanders,people,oceanic,no,micronesia,micronesians
-pohnpei,Pohnpei (Saudeleur),people,oceanic,no,micronesia,micronesians
-marshallese,Marshallese (ri-Majel),people,oceanic,no,micronesia,micronesians
-i-kiribati,I-Kiribati,people,oceanic,no,micronesia,micronesians
-solomon-islanders,Solomon Islanders,people,oceanic,no,melanesia,melanesian-islanders
-ni-vanuatu,Ni-Vanuatu,people,oceanic,no,melanesia,melanesian-islanders
-kanak,Kanak,people,oceanic,no,melanesia,melanesian-islanders
-itaukei,iTaukei (Fijians),people,oceanic,no,melanesia,melanesian-islanders
-tikopia,Tikopia and the outliers,people,polynesian,no,melanesia,melanesian-islanders
-tongans,Tongans,people,polynesian,no,polynesia,west-polynesians
-samoans,Samoans (Tagata Sāmoa),people,polynesian,no,polynesia,west-polynesians
-tui-tonga,Tu'i Tonga chiefdom,people,polynesian,no,polynesia+melanesia,west-polynesians
-maohi,Mā'ohi (Tahitians),people,polynesian,no,polynesia,east-polynesians
-enata,Enata (Marquesans),people,polynesian,no,polynesia,east-polynesians
-cook-islanders,Cook Islands Māori,people,polynesian,no,polynesia,east-polynesians
-kanaka-maoli,Kānaka Maoli (Hawaiians),people,polynesian,no,polynesia,east-polynesians
-rapa-nui,Rapa Nui,people,polynesian,no,polynesia,east-polynesians
-maori,Māori,people,polynesian,no,newzealand,east-polynesians
-early-malagasy,First Malagasy,people,malagasy,yes,madagascar,malagasy-peoples
-antemoro,Antemoro,people,malagasy,no,madagascar,malagasy-peoples
-merina,Merina,people,malagasy,no,madagascar,malagasy-peoples
-sakalava,Sakalava,people,malagasy,no,madagascar,malagasy-peoples
-betsileo,Betsileo,people,malagasy,no,madagascar,malagasy-peoples
-betsimisaraka,Betsimisaraka,people,malagasy,no,madagascar,malagasy-peoples
-antandroy-mahafaly,Antandroy and Mahafaly,people,malagasy,no,madagascar,malagasy-peoples
-comorians,Comorians,people,bantue,no,madagascar,
-spanish-philippines,Spanish Philippines,polity,ibrom,no,philippines,
-us-philippines,Philippines (United States),polity,eng,no,philippines,
-dutch-east-indies,Dutch East Indies,polity,wgerm,no,indonesia,
-french-indochina,French Indochina,polity,fr,no,indochina,
-british-burma,British Burma,polity,eng,no,burma,
-british-malaya,British Malaya,polity,eng,no,malaya,
-british-borneo,Sarawak and North Borneo,polity,eng,no,borneo,
-portuguese-timor,Portuguese Timor,polity,ibrom,no,eindonesia,
-dutch-formosa,Dutch Formosa,polity,wgerm,no,taiwan,
-qing-taiwan,Qing Taiwan,polity,sinitic,no,taiwan,
-japanese-taiwan,Japanese Taiwan,polity,jap,no,taiwan,
-taiwan-today,Taiwan,polity,sinitic,no,taiwan,
-kingdom-of-hawaii,Kingdom of Hawaii,polity,polynesian,no,polynesia,
-kingdom-of-tahiti,Kingdom of Tahiti,polity,polynesian,no,polynesia,
-tonga-kingdom,Tonga,polity,polynesian,no,polynesia,
-merina-kingdom,Merina Kingdom,polity,malagasy,no,madagascar,
-french-madagascar,French Madagascar,polity,fr,no,madagascar,
-myanmar,Myanmar,polity,burm,no,burma,
-thailand,Thailand,polity,tai,no,indochina,
-laos,Laos,polity,tai,no,indochina,
-cambodia,Cambodia,polity,monkhmer,no,indochina,
-vietnam,Vietnam,polity,viet,no,indochina,
-malaysia,Malaysia,polity,malayic,no,malaya+borneo,
-singapore,Singapore,polity,,no,malaya,
-brunei-today,Brunei,polity,malayic,no,borneo,
-indonesia,Indonesia,polity,malayic,no,indonesia,
-timor-leste,Timor-Leste,polity,,no,eindonesia,
-philippines-republic,Philippines,polity,philip,no,philippines,
-fiji,Fiji,polity,,no,melanesia,
-solomon-islands,Solomon Islands,polity,,no,melanesia,
-vanuatu,Vanuatu,polity,,no,melanesia,
-new-caledonia,New Caledonia,polity,,no,melanesia,
-samoa,Samoa,polity,polynesian,no,polynesia,
-french-polynesia,French Polynesia,polity,,no,polynesia,
-cook-islands,Cook Islands,polity,polynesian,no,polynesia,
-micronesia-fsm,Micronesia,polity,,no,micronesia,
-palau,Palau,polity,,no,micronesia,
-marshall-islands,Marshall Islands,polity,,no,micronesia,
-kiribati,Kiribati,polity,,no,micronesia,
-new-zealand,Aotearoa New Zealand,polity,eng,no,newzealand,
-madagascar-republic,Madagascar,polity,malagasy,no,madagascar,
-comoros,Comoros,polity,,no,madagascar,
-mauritius,Mauritius,polity,,no,madagascar,
 sami-far-north,Sami,language,finnic,no,north+east,
 vistula-germanic,East Germanic of the Vistula,language,egerm,yes,central,
 early-slavic-vistula,Early Slavic (Vistula and Oder),language,slavw,no,central,
@@ -1949,3 +1745,179 @@ dr-congo-state,DR Congo,polity,,no,congo,
 angola-state,Angola,polity,,no,congo,
 mozambique-state,Mozambique,polity,,no,zambezi,
 south-africa-state,South Africa,polity,,no,southafrica,
+pyu-language,Pyu,language,tbother,no,burma,
+burmese-speakers,Burmese,language,burm,no,burma,
+burma-hill-languages,"Chin, Kachin and Naga languages",language,tbother,no,burma,
+karen-speakers,Karen,language,tbother,no,burma+indochina,
+shan-speakers,Shan (Tai Yai),language,tai,no,burma,
+mon-speakers,Mon,language,monkhmer,no,burma+indochina,
+khmer-speakers,Khmer,language,monkhmer,no,indochina,
+austroasiatic-uplands,"Khmu, Lawa, Katu and Bahnar languages",language,aaother,no,burma+indochina,
+tai-seasia,"Thai, Lao and other Tai",language,tai,no,indochina,
+vietnamese-speakers,Vietnamese,language,viet,no,indochina,
+chamic-speakers,Cham and Chamic,language,cham,no,indochina,
+hmong-indochina,Hmong and Iu Mien,language,hmong,no,indochina,
+aslian-speakers,"Aslian (Semai, Temiar, Jahai)",language,aaother,no,malaya+indochina,
+malay-speakers,Malay,language,malayic,no,malaya+sumatra+borneo+indochina+eindonesia,
+batak-speakers,"Batak, Gayo and Nias",language,malayic,no,sumatra,
+acehnese-speakers,Acehnese,language,cham,no,sumatra,
+sundanese-speakers,Sundanese,language,malayic,no,java,
+javanese-speakers,Javanese,language,malayic,no,java,
+madurese-speakers,Madurese,language,malayic,no,java,
+balinese-speakers,Balinese and Sasak,language,malayic,no,java+eindonesia,
+dayak-languages,Dayak languages,language,malayic,no,borneo+eindonesia,
+luzon-north-languages,Ilocano and Cordillera languages,language,philip,no,philippines,
+tagalog-speakers,"Tagalog, Kapampangan and Bikol",language,philip,no,philippines,
+visayan-speakers,Visayan languages,language,philip,no,philippines,
+mindanao-sulu-languages,"Mindanao, Sulu and Palawan languages",language,philip,no,philippines+eindonesia,
+formosan-languages,Formosan languages,language,formosan,no,taiwan,
+sinitic-taiwan,"Hokkien, Hakka and Mandarin",language,sinitic,no,taiwan,
+chinese-malaya,"Chinese (Hokkien, Cantonese, Mandarin)",language,sinitic,no,malaya,
+sulawesi-languages,"Bugis, Makassar and Sulawesi languages",language,malayic,no,eindonesia,
+nusa-tenggara-languages,"Sumbawa, Flores, Sumba and Timor languages",language,malayic,yes,eindonesia,
+maluku-languages,Maluku languages,language,malayic,yes,eindonesia,
+papuan-island-languages,Papuan languages of the islands,language,papother,no,eindonesia+melanesia,
+oceanic-melanesia,Solomon and Vanuatu languages,language,oceanic,no,melanesia,
+kanak-languages,Kanak languages,language,oceanic,no,melanesia,
+fijian-speakers,Fijian,language,oceanic,no,melanesia,
+fiji-hindi,Fiji Hindi,language,indn,no,melanesia,
+french-pacific,French,language,fr,no,melanesia+polynesia,
+chamorro-palauan,Chamorro and Palauan,language,philip,yes,micronesia,
+micronesian-languages,Micronesian languages,language,oceanic,no,micronesia,
+west-polynesian-languages,Tongan and Samoan,language,polynesian,no,polynesia,
+east-polynesian-languages,"Tahitian, Marquesan and Cook Islands Māori",language,polynesian,no,polynesia,
+hawaiian-language,Hawaiian,language,polynesian,no,polynesia,
+rapanui-language,Rapa Nui,language,polynesian,no,polynesia,
+maori-language,Te reo Māori,language,polynesian,no,newzealand,
+english-pacific,English,language,eng,no,newzealand+polynesia,
+malagasy-language,Malagasy,language,malagasy,no,madagascar,
+comorian-language,Comorian (Shikomori),language,bantue,no,madagascar,
+mascarene-creoles,Mauritian and Réunion Creole,language,fr,no,madagascar,
+funan,Funan,people,monkhmer,yes,indochina,mon-khmer-realms
+chenla,Chenla,people,monkhmer,no,indochina,mon-khmer-realms
+khmer-empire,Khmer Empire (Angkor),people,monkhmer,no,indochina,mon-khmer-realms
+cambodia-kingdom,Cambodia,people,monkhmer,no,indochina,mon-khmer-realms
+dvaravati,Dvaravati,people,monkhmer,no,indochina,mon-khmer-realms
+haripunjaya,Haripunjaya,people,monkhmer,no,indochina,mon-khmer-realms
+ramanya,Mon of Ramanya,people,monkhmer,no,burma,mon-khmer-realms
+hanthawaddy,Hanthawaddy (Pegu),people,monkhmer,no,burma,mon-khmer-realms
+mon-people,Mon,people,monkhmer,no,burma+indochina,mon-khmer-realms
+pyu-cities,Pyu city states,people,tbother,no,burma,burmese-realms
+pagan,Pagan (Bagan),people,burm,no,burma,burmese-realms
+ava,Ava,people,burm,no,burma,burmese-realms
+toungoo,Toungoo Burma,people,burm,no,burma+indochina,burmese-realms
+konbaung,Konbaung Burma,people,burm,no,burma,burmese-realms
+arakan,Arakan (Mrauk U),people,burm,no,burma,burmese-realms
+viet-giao-chi,Viet of Giao Chỉ,people,viet,yes,indochina,viet-cham
+dai-viet,Đại Việt,people,viet,no,indochina,viet-cham
+trinh-tonkin,Đàng Ngoài (Trịnh),people,viet,no,indochina,viet-cham
+nguyen-lords,Đàng Trong (Nguyễn),people,viet,no,indochina,viet-cham
+nguyen-vietnam,Nguyễn Vietnam,people,viet,no,indochina,viet-cham
+sa-huynh,Sa Huỳnh culture,people,cham,yes,indochina,viet-cham
+champa,Champa,people,cham,no,indochina,viet-cham
+cham-people,Cham,people,cham,no,indochina,viet-cham
+karen-people,Karen,people,tbother,no,burma+indochina,seasia-hill-peoples
+chin-zo,Chin (Zo),people,tbother,no,burma,seasia-hill-peoples
+kachin-jingpho,Kachin (Jingpho),people,tbother,no,burma,seasia-hill-peoples
+hmong-seasia,Hmong,people,hmong,no,indochina,seasia-hill-peoples
+highlanders-jarai,"Jarai, Rade and Bahnar",people,cham,no,indochina,seasia-hill-peoples
+orang-asli,Orang Asli,people,aaother,no,malaya,seasia-hill-peoples
+tay-nung,Tày and Nùng,people,tai,no,indochina,tai-peoples
+shan-states,Shan states,people,tai,no,burma,tai-peoples
+sukhothai,Sukhothai,people,tai,no,indochina,tai-peoples
+lan-na,Lan Na,people,tai,no,indochina,tai-peoples
+lan-xang,Lan Xang,people,tai,no,indochina,tai-peoples
+lao-kingdoms,Luang Prabang and Vientiane,people,tai,no,indochina,tai-peoples
+ayutthaya,Ayutthaya,people,tai,no,indochina,tai-peoples
+siam-rattanakosin,Siam (Rattanakosin),people,tai,no,indochina,tai-peoples
+kedah-kadaram,Kedah (Kadaram),people,malayic,yes,malaya,malay-realms
+srivijaya,Srivijaya,people,malayic,no,sumatra+malaya,malay-realms
+malayu,Malayu,people,malayic,no,sumatra,malay-realms
+tambralinga,Tambralinga,people,malayic,yes,indochina,malay-realms
+samudra-pasai,Samudra-Pasai,people,malayic,no,sumatra,malay-realms
+malacca,Malacca,people,malayic,no,malaya+sumatra,malay-realms
+johor,Johor,people,malayic,no,malaya+sumatra,malay-realms
+patani,Patani,people,malayic,no,indochina+malaya,malay-realms
+aceh,Aceh,people,cham,no,sumatra,malay-realms
+brunei,Brunei,people,malayic,no,borneo,malay-realms
+kutai,Kutai,people,malayic,yes,borneo+eindonesia,malay-realms
+banjar,Banjar,people,malayic,no,borneo,malay-realms
+buni-culture,Buni culture,people,malayic,yes,java,java-realms
+tarumanagara,Tarumanagara,people,malayic,yes,java,java-realms
+mataram-medang,Mataram and the Sailendras,people,malayic,no,java,java-realms
+kediri,Kediri,people,malayic,no,java,java-realms
+singhasari,Singhasari,people,malayic,no,java,java-realms
+majapahit,Majapahit,people,malayic,no,java,java-realms
+sunda-kingdom,Sunda (Pajajaran),people,malayic,no,java,java-realms
+demak,Demak,people,malayic,no,java,java-realms
+banten,Banten,people,malayic,no,java,java-realms
+mataram-sultanate,Mataram Sultanate,people,malayic,no,java,java-realms
+surakarta-yogyakarta,Surakarta and Yogyakarta,people,malayic,no,java,java-realms
+bali-kingdoms,Balinese kingdoms,people,malayic,no,java,java-realms
+tondo-maynila,Tondo and Maynila,people,philip,yes,philippines,eastern-sultanates
+butuan,Butuan,people,philip,yes,philippines,eastern-sultanates
+sugbu,Sugbu (Cebu),people,philip,no,philippines,eastern-sultanates
+sulu,Sulu,people,philip,no,philippines+borneo,eastern-sultanates
+ternate,Ternate,people,papother,no,eindonesia,eastern-sultanates
+gowa,Gowa (Makassar),people,malayic,no,eindonesia,eastern-sultanates
+formosan-peoples,Indigenous Taiwanese,people,formosan,no,taiwan,island-asia-peoples
+igorot,Igorot peoples,people,philip,no,philippines,island-asia-peoples
+tagalog,Tagalog,people,philip,no,philippines,island-asia-peoples
+visayans,Bisaya (Visayans),people,philip,no,philippines,island-asia-peoples
+moro-peoples,Moro peoples,people,philip,no,philippines,island-asia-peoples
+dayak,Dayak peoples,people,malayic,no,borneo+eindonesia,island-asia-peoples
+batak,Batak,people,malayic,no,sumatra,island-asia-peoples
+minangkabau,Minangkabau,people,malayic,no,sumatra,island-asia-peoples
+bugis,Bugis,people,malayic,no,eindonesia,island-asia-peoples
+tetun-wehali,Tetun (Wehali),people,malayic,yes,eindonesia,island-asia-peoples
+chamorro,Chamorro (CHamoru),people,philip,yes,micronesia,micronesians
+palauans,Palauans (Belau),people,philip,yes,micronesia,micronesians
+carolinians,Caroline Islanders,people,oceanic,no,micronesia,micronesians
+pohnpei,Pohnpei (Saudeleur),people,oceanic,no,micronesia,micronesians
+marshallese,Marshallese (ri-Majel),people,oceanic,no,micronesia,micronesians
+i-kiribati,I-Kiribati,people,oceanic,no,micronesia,micronesians
+solomon-islanders,Solomon Islanders,people,oceanic,no,melanesia,melanesian-islanders
+ni-vanuatu,Ni-Vanuatu,people,oceanic,no,melanesia,melanesian-islanders
+kanak,Kanak,people,oceanic,no,melanesia,melanesian-islanders
+itaukei,iTaukei (Fijians),people,oceanic,no,melanesia,melanesian-islanders
+tongans,Tongans,people,polynesian,no,polynesia,west-polynesians
+samoans,Samoans (Tagata Sāmoa),people,polynesian,no,polynesia,west-polynesians
+tui-tonga,Tu'i Tonga chiefdom,people,polynesian,no,polynesia+melanesia,west-polynesians
+maohi,Mā'ohi (Tahitians),people,polynesian,no,polynesia,east-polynesians
+enata,ʻEnata (Marquesans),people,polynesian,no,polynesia,east-polynesians
+cook-islanders,Cook Islands Māori,people,polynesian,no,polynesia,east-polynesians
+kanaka-maoli,Kānaka Maoli (Hawaiians),people,polynesian,no,polynesia,east-polynesians
+rapa-nui,Rapa Nui,people,polynesian,no,polynesia,east-polynesians
+maori,Māori,people,polynesian,no,newzealand,east-polynesians
+early-malagasy,First Malagasy,people,malagasy,yes,madagascar,malagasy-peoples
+antemoro,Antemoro,people,malagasy,no,madagascar,malagasy-peoples
+merina,Merina,people,malagasy,no,madagascar,malagasy-peoples
+sakalava,Sakalava,people,malagasy,no,madagascar,malagasy-peoples
+betsimisaraka,Betsimisaraka,people,malagasy,no,madagascar,malagasy-peoples
+comorians,Comorians,people,bantue,no,madagascar,
+spanish-philippines,Spanish Philippines,polity,ibrom,no,philippines,
+us-philippines,Philippines (United States),polity,eng,no,philippines,
+dutch-east-indies,Dutch East Indies,polity,wgerm,no,indonesia,
+french-indochina,French Indochina,polity,fr,no,indochina,
+british-burma,British Burma,polity,eng,no,burma,
+british-malaya,British Malaya,polity,eng,no,malaya,
+british-borneo,Sarawak and North Borneo,polity,eng,no,borneo,
+dutch-formosa,Dutch Formosa,polity,wgerm,no,taiwan,
+qing-taiwan,Qing Taiwan,polity,sinitic,no,taiwan,
+japanese-taiwan,Japanese Taiwan,polity,jap,no,taiwan,
+taiwan-today,Taiwan,polity,sinitic,no,taiwan,
+kingdom-of-hawaii,Kingdom of Hawaii,polity,polynesian,no,polynesia,
+tonga-kingdom,Tonga,polity,polynesian,no,polynesia,
+merina-kingdom,Merina Kingdom,polity,malagasy,no,madagascar,
+french-madagascar,French Madagascar,polity,fr,no,madagascar,
+myanmar,Myanmar,polity,burm,no,burma,
+thailand,Thailand,polity,tai,no,indochina,
+laos,Laos,polity,tai,no,indochina,
+cambodia,Cambodia,polity,monkhmer,no,indochina,
+vietnam,Vietnam,polity,viet,no,indochina,
+malaysia,Malaysia,polity,malayic,no,malaya+borneo,
+indonesia,Indonesia,polity,malayic,no,indonesia,
+philippines-republic,Philippines,polity,philip,no,philippines,
+fiji,Fiji,polity,,no,melanesia,
+new-zealand,Aotearoa New Zealand,polity,eng,no,newzealand,
+madagascar-republic,Madagascar,polity,malagasy,no,madagascar,

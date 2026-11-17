@@ -150,28 +150,6 @@ joseon-sillok,Veritable Records of the Joseon Dynasty,record,1392 to 1910,no,,Ci
 ryukyu-records,Records of the Ryukyu Kingdom,record,15th to 19th century,yes,,"Bucket. Rekidai Hoan, Chuzan Seikan and Omoro Soshi. A checked claim cites the work."
 eastasia-censuses,"Modern censuses of China, Japan, Korea, Mongolia and Russia",census,1897 onward,yes,,Bucket. A checked claim cites the census year and table.
 eastasia-archaeology,Archaeological surveys of East Asia and eastern Siberia,modern-study,various,yes,,Bucket. A checked claim cites the study and site.
-chinese-histories-nanhai,Chinese dynastic histories and their accounts of the southern seas,text,1st to 17th century,yes,,Bucket. A checked claim cites the history and chapter. Names are Chinese transcriptions and placements are often debated.
-yijing-record,"Yijing, Record of Buddhist Practices Sent Home from the Southern Sea",text,about 692,no,,A Chinese pilgrim who stayed in Srivijaya on his way to and from India.
-sea-inscriptions,"Inscriptions of Southeast Asia in Sanskrit, Old Khmer, Old Malay, Old Javanese, Cham, Mon, Pyu and Burmese",inscription,about 3rd century onward,yes,,Bucket. A checked claim cites the inscription by its usual name or number.
-nagarakretagama,"Mpu Prapanca, Nagarakretagama (Desawarnana)",text,1365,no,,An Old Javanese court poem. Its long list of Majapahit dependencies is a claim and not a record of rule.
-malay-annals,Sejarah Melayu (Malay Annals),text,compiled about 1612 from older material,no,,Court history of Malacca and Johor. Its early chapters are legend.
-burmese-chronicles,Burmese and Mon chronicles,text,15th to 19th century,yes,,Bucket. Includes the Glass Palace Chronicle. Accounts of the centuries before Pagan are tradition.
-thai-chronicles,"Thai, Lao and Cambodian royal chronicles",text,15th to 19th century,yes,,Bucket. Most survive in late recensions. A checked claim cites the chronicle and version.
-dai-viet-chronicle,Dai Viet su ky toan thu (Complete Annals of Dai Viet),text,"1479, printed 1697",no,,The court annals of Vietnam. Early chapters draw on Chinese histories and legend.
-zhou-daguan,"Zhou Daguan, Record of Cambodia, the Land and Its People",text,about 1297,no,,The only eyewitness description of Angkor at its height.
-marco-polo,"Marco Polo, Description of the World",text,about 1298,no,,He passed through Champa and northern Sumatra in 1292.
-tome-pires,"Tome Pires, Suma Oriental",text,1512 to 1515,no,,Written at Malacca just after the Portuguese conquest. Surveys ports from the Red Sea to Maluku.
-pigafetta,"Antonio Pigafetta, account of Magellan's voyage",text,about 1524,no,,"Eyewitness of the Marianas, the Visayas, Brunei and Tidore in 1521."
-spanish-philippine-chronicles,Spanish chroniclers and mission records of the Philippines and the Marianas,text,1565 to 19th century,yes,,Bucket. A checked claim cites the author and work.
-voc-records,Records of the Dutch East India Company and the Dutch colonial government,record,1602 to 1949,yes,,Bucket. A checked claim cites the document.
-cook-journals,Journals of James Cook's three voyages,text,1768 to 1779,no,,"The first long written accounts of Tahiti, New Zealand, Tonga, Hawaii and other islands."
-european-voyagers,Journals of European voyagers in the Pacific and Indian Oceans,text,1521 to 19th century,yes,,"Bucket. Mendaña, Quirós, Tasman, Roggeveen, Wallis, Bougainville and others. Most early visits were brief."
-missionary-records,"Missionary records, grammars and dictionaries",text,17th to 20th century,yes,,Bucket. Often the first written record of a language.
-polynesian-oral-tradition,Oral traditions and genealogies of Pacific and Malagasy peoples,text,recorded in writing from the 19th century,yes,,"Bucket. Spoken tradition written down long after the events. It gives names and sequences, and dates counted from generations are estimates."
-settlement-archaeology,Archaeology and radiocarbon dating of first settlement,modern-study,various,yes,,Bucket. Settlement dates are revised as methods improve and several are debated. A checked claim cites the study.
-seasia-pacific-censuses,"Colonial and modern censuses of Southeast Asia, the Pacific and Madagascar",census,19th century onward,yes,,Bucket. A checked claim cites the census year and table.
-flacourt,"Etienne de Flacourt, Histoire de la Grande Isle Madagascar",text,1658,no,,Written from the French post at Fort-Dauphin in the south-east.
-tantara-andriana,"Tantara ny Andriana (History of the Kings), collected by François Callet",text,1870s,no,,Merina oral histories written down in the 19th century.
 americas-archaeology,Archaeology of the Americas,modern-study,various,yes,,"Bucket. Excavation and survey, dated by radiocarbon. It shows cultures and settlements, not languages. A checked claim cites the study."
 americas-oral-tradition,Oral tradition of the peoples of the Americas,text,recorded from the 16th century onward,yes,,"Bucket. Histories kept by the peoples themselves and written down later. Evidence of memory and identity, with dates that are hard to fix."
 iberian-chroniclers,Spanish and Portuguese chroniclers and colonial reports of the Americas,text,1493 onward,yes,,Bucket. A checked claim cites the work and chapter.
@@ -203,13 +181,11 @@ lewis-clark,Journals of the Lewis and Clark expedition,text,1804 to 1806,no,,
 hbc-records,Hudson's Bay Company records,record,1670 onward,yes,,Bucket. Post journals and correspondence. A checked claim cites the post and year.
 rac-records,Russian-American Company records and Russian voyage accounts,record,1741 to 1867,yes,,Bucket. A checked claim cites the document.
 vinland-sagas,Saga of the Greenlanders and Saga of Erik the Red,text,13th century,no,,Written about two centuries after the settlement of Greenland that they describe.
-periplus-erythraean,Periplus of the Erythraean Sea,text,mid 1st century,no,,A Greek merchant's guide to the Red Sea and the East African coast as far as Rhapta.
 aksum-inscriptions,Inscriptions and coins of the kings of Aksum,inscription,3rd to 7th century,yes,,"Bucket. Includes the inscriptions of Ezana in Ge'ez, Sabaean script and Greek. A checked claim cites the inscription."
 cosmas,"Cosmas Indicopleustes, Christian Topography",text,about 550,no,,An Alexandrian merchant who visited Adulis and describes Aksum's trade.
 nubian-texts,Meroitic and Old Nubian inscriptions and documents,inscription,2nd century BCE to 15th century,yes,,Bucket. Meroitic can be read aloud but is little understood. Old Nubian is well understood.
 arab-geographers-africa,Arab geographers and historians on Africa south of the Sahara,text,9th to 16th century,yes,,"Bucket. Al-Yaqubi, al-Masudi, al-Idrisi, Ibn Said, al-Umari, Ibn Khaldun and Leo Africanus among others. Most wrote from report and not from travel."
 al-bakri,"Al-Bakri, Book of Routes and Realms",text,1068,no,,"Written in Cordoba from travellers' reports. The fullest early account of Ghana, Takrur and the Sahara routes."
-ibn-battuta,"Ibn Battuta, Travels",text,dictated about 1355,no,,"He visited Mogadishu, Mombasa and Kilwa about 1331 and Mali in 1352 and 1353."
 timbuktu-chronicles,Tarikh al-Sudan and Tarikh al-Fattash,text,17th century,yes,,"Bucket. Arabic chronicles written in Timbuktu. Good for Songhai, weaker for earlier centuries. The authorship of the Tarikh al-Fattash is disputed."
 kano-chronicle,Kano Chronicle,text,written down in the 19th century,no,,"A king list with stories for each reign. Late and partly tradition, so early reigns place a claim loosely."
 ethiopian-chronicles,Ethiopian royal chronicles and related texts,text,14th century onward,yes,,"Bucket. Ge'ez chronicles from Amda Seyon onward, with Bahrey's account of the Oromo of 1593 and the Arabic Conquest of Abyssinia."
@@ -221,3 +197,27 @@ oral-tradition-africa,Oral tradition and king lists,text,recorded mostly from th
 archaeology-africa,Archaeology of Africa south of the Sahara,modern-study,various,yes,,"Bucket. Sites, pottery traditions and radiocarbon dates. Pottery does not show what language its makers spoke."
 bantu-linguistics,Historical linguistics of the Bantu expansion,modern-study,various,yes,,Bucket. Reconstruction from the living languages. Routes and dates are debated.
 african-censuses,Colonial and national censuses and language surveys,census,about 1900 onward,yes,,Bucket. A checked claim cites the census year and table.
+periplus-erythraean,Periplus of the Erythraean Sea,text,mid 1st century,no,,A Greek merchant's guide to the Red Sea and the East African coast as far as Rhapta.
+chinese-histories-nanhai,Chinese dynastic histories and their accounts of the southern seas,text,1st to 17th century,yes,,Bucket. A checked claim cites the history and chapter. Names are Chinese transcriptions and placements are often debated.
+yijing-record,"Yijing, Record of Buddhist Practices Sent Home from the Southern Sea",text,about 692,no,,A Chinese pilgrim who stayed in Srivijaya on his way to and from India.
+sea-inscriptions,"Inscriptions of Southeast Asia in Sanskrit, Old Khmer, Old Malay, Old Javanese, Cham, Mon, Pyu and Burmese",inscription,about 3rd century onward,yes,,Bucket. A checked claim cites the inscription by its usual name or number.
+nagarakretagama,"Mpu Prapanca, Nagarakretagama (Desawarnana)",text,1365,no,,An Old Javanese court poem. Its long list of Majapahit dependencies is a claim and not a record of rule.
+malay-annals,Sejarah Melayu (Malay Annals),text,compiled about 1612 from older material,no,,Court history of Malacca and Johor. Its early chapters are legend.
+burmese-chronicles,Burmese and Mon chronicles,text,15th to 19th century,yes,,Bucket. Includes the Glass Palace Chronicle. Accounts of the centuries before Pagan are tradition.
+thai-chronicles,"Thai, Lao and Cambodian royal chronicles",text,15th to 19th century,yes,,Bucket. Most survive in late recensions. A checked claim cites the chronicle and version.
+dai-viet-chronicle,Dai Viet su ky toan thu (Complete Annals of Dai Viet),text,"1479, printed 1697",no,,The court annals of Vietnam. Early chapters draw on Chinese histories and legend.
+zhou-daguan,"Zhou Daguan, Record of Cambodia, the Land and Its People",text,about 1297,no,,The only eyewitness description of Angkor at its height.
+marco-polo,"Marco Polo, Description of the World",text,about 1298,no,,Its routes and some of its claims are disputed.
+ibn-battuta,"Ibn Battuta, Travels",text,dictated about 1355,no,,"He visited Mogadishu, Mombasa and Kilwa about 1331 and Mali in 1352 and 1353."
+tome-pires,"Tome Pires, Suma Oriental",text,1512 to 1515,no,,Written at Malacca just after the Portuguese conquest. Surveys ports from the Red Sea to Maluku.
+pigafetta,"Antonio Pigafetta, account of Magellan's voyage",text,about 1524,no,,"Eyewitness of the Marianas, the Visayas, Brunei and Tidore in 1521."
+spanish-philippine-chronicles,Spanish chroniclers and mission records of the Philippines and the Marianas,text,1565 to 19th century,yes,,Bucket. A checked claim cites the author and work.
+voc-records,Records of the Dutch East India Company and the Dutch colonial government,record,1602 to 1949,yes,,Bucket. A checked claim cites the document.
+cook-journals,Journals of James Cook's three voyages,text,1768 to 1779,no,,"The first long written accounts of Tahiti, New Zealand, Tonga, Hawaii and other islands."
+european-voyagers,Journals of European voyagers in the Pacific and Indian Oceans,text,1521 to 19th century,yes,,"Bucket. Mendaña, Quirós, Tasman, Roggeveen, Wallis, Bougainville and others. Most early visits were brief."
+missionary-records,"Missionary records, grammars and dictionaries",text,17th to 20th century,yes,,Bucket. Often the first written record of a language.
+polynesian-oral-tradition,Oral traditions and genealogies of Pacific and Malagasy peoples,text,recorded in writing from the 19th century,yes,,"Bucket. Spoken tradition written down long after the events. It gives names and sequences, and dates counted from generations are estimates."
+settlement-archaeology,Archaeology and radiocarbon dating of first settlement,modern-study,various,yes,,Bucket. Settlement dates are revised as methods improve and several are debated. A checked claim cites the study.
+seasia-pacific-censuses,"Colonial and modern censuses of Southeast Asia, the Pacific and Madagascar",census,19th century onward,yes,,Bucket. A checked claim cites the census year and table.
+flacourt,"Etienne de Flacourt, Histoire de la Grande Isle Madagascar",text,1658,no,,Written from the French post at Fort-Dauphin in the south-east.
+tantara-andriana,"Tantara ny Andriana (History of the Kings), collected by François Callet",text,1870s,no,,Merina oral histories written down in the 19th century.
