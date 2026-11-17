@@ -812,193 +812,6 @@ territory-of-new-guinea,Territory of New Guinea,polity,eng,no,papua,
 papua-and-new-guinea,Papua and New Guinea,polity,eng,no,papua,
 papua-new-guinea,Papua New Guinea,polity,eng,no,papua,
 indonesian-papua,Papua (Indonesia),polity,malayic,no,papua,
-chinese-speakers,Chinese,language,sinitic,no,chinan+chinas+mongolia+tarim,
-chinese-northeast,Chinese (north-east),language,sinitic,no,manchuria,
-yue-languages,Yue languages,language,tai,yes,chinas,
-zhuang-tai-speakers,Zhuang and Tai,language,tai,no,chinas,
-hmong-mien-speakers,Hmong-Mien,language,hmong,no,chinas,
-yi-bai-speakers,Yi and Bai,language,burm,no,chinas+tibet,
-wa-palaung-yunnan,Wa and Palaungic,language,aaother,no,chinas,
-tujia-speakers,Tujia,language,tbother,no,chinas,
-qiangic-speakers,Qiang and Qiangic,language,tbother,no,tibet+tarim+chinan+chinas,
-tangut-speakers,Tangut,language,tbother,no,chinan+mongolia+tarim,
-tibetan-speakers,Tibetan,language,tibetic,no,tibet+tarim+chinan+chinas,
-zhangzhung-speakers,Zhangzhung,language,tbother,no,tibet,
-tocharian-speakers,Tocharian,language,toch,no,tarim,
-saka-speakers-tarim,Saka (Khotanese),language,eiran,no,tarim+tibet,
-uyghur-speakers,Uyghur,language,karluk,no,tarim,
-wusun-language,Wusun (language unknown),language,iran,yes,tarim,
-xiongnu-language,Xiongnu (language unknown),language,steppeunk,no,mongolia+tarim+esiberia,
-xianbei-speakers,Xianbei and Khitan,language,xianbei,no,mongolia+tarim+esiberia+manchuria,
-rouran-language,Rouran (language unknown),language,steppeunk,no,mongolia+tarim+esiberia,
-old-turkic-east,Old Turkic,language,turk,no,mongolia+tarim+esiberia,
-mongolic-speakers,Mongolian,language,mong,no,mongolia+tarim+esiberia+manchuria,
-kazakh-speakers-china,Kazakh,language,kipch,no,tarim,
-tungusic-manchuria,Tungusic (Jurchen and Manchu),language,tung,no,manchuria+esiberia,
-puyo-languages,Buyeo and Goguryeo,language,kor,yes,manchuria+korea,
-korean-speakers,Korean,language,kor,no,korea,
-jurchen-korea,Jurchen (north-east Korea),language,tung,no,korea,
-peninsular-japonic,Peninsular Japonic,language,jap,yes,korea,
-japanese-speakers,Japanese,language,jap,no,japan,
-japanese-karafuto,Japanese (Karafuto),language,jap,no,esiberia,
-ainu-speakers,Ainu,language,ainu,no,japan+esiberia,
-ryukyu-early,Early Ryukyu languages (unknown),language,isolate,yes,japan,
-ryukyuan-speakers,Ryukyuan,language,jap,no,japan,
-evenki-even-speakers,Evenki and Even,language,tung,no,esiberia,
-yukaghir-speakers,Yukaghir,language,paleosib,no,esiberia,
-chukchi-koryak-speakers,"Chukchi, Koryak and Itelmen",language,paleosib,no,esiberia,
-yupik-chukotka,Siberian Yupik,language,inuit,no,esiberia,
-nivkh-speakers,Nivkh,language,paleosib,no,esiberia,
-yakut-speakers,Yakut (Sakha),language,sibturk,no,esiberia,
-buryat-speakers,Buryat,language,mong,no,esiberia,
-nganasan-east,Nganasan (Samoyedic),language,samoyed,no,esiberia,
-russian-far-east,Russian (Far East),language,slave,no,esiberia,
-zhongyuan-chinese,Central Plain Chinese,people,sinitic,no,chinan,han-chinese
-jiangnan-chinese,Jiangnan Chinese,people,sinitic,no,chinan+chinas,han-chinese
-shu-chinese,Sichuan Chinese,people,sinitic,no,chinas,han-chinese
-xiang-gan-chinese,Xiang and Gan Chinese,people,sinitic,no,chinas,han-chinese
-min-chinese,Min Chinese,people,sinitic,no,chinas,han-chinese
-cantonese,Cantonese,people,sinitic,no,chinas,han-chinese
-han-dynasty,Han Empire,polity,sinitic,no,china+tarim+korea+manchuria+mongolia,
-cao-wei,Wei,people,sinitic,no,chinan+chinas+manchuria,three-kingdoms
-shu-han,Shu Han,people,sinitic,no,chinas+chinan,three-kingdoms
-eastern-wu,Wu,people,sinitic,no,chinas+chinan,three-kingdoms
-jin-dynasty,Jin (Sima),polity,sinitic,no,china,
-han-zhao,Han Zhao,people,steppeunk,no,chinan,sixteen-kingdoms
-later-zhao,Later Zhao,people,steppeunk,yes,chinan,sixteen-kingdoms
-former-yan,Former Yan,people,xianbei,no,chinan+manchuria+mongolia,sixteen-kingdoms
-former-qin,Former Qin,people,tbother,yes,chinan+chinas,sixteen-kingdoms
-later-qin,Later Qin,people,tbother,no,chinan,sixteen-kingdoms
-northern-liang,Northern Liang,people,steppeunk,yes,chinan+tarim,sixteen-kingdoms
-northern-wei,Northern Wei,people,xianbei,no,chinan+mongolia+manchuria,north-south-dynasties
-northern-qi,Eastern Wei and Northern Qi,people,xianbei,no,chinan,north-south-dynasties
-northern-zhou,Western Wei and Northern Zhou,people,xianbei,no,chinan+chinas,north-south-dynasties
-liu-song,Liu Song,people,sinitic,no,chinas+chinan,north-south-dynasties
-southern-qi,Southern Qi,people,sinitic,no,chinas+chinan,north-south-dynasties
-liang-dynasty,Liang,people,sinitic,no,chinas+chinan,north-south-dynasties
-chen-dynasty,Chen,people,sinitic,no,chinas,north-south-dynasties
-sui-dynasty,Sui,polity,sinitic,no,china,
-tang-dynasty,Tang Empire,polity,sinitic,no,china+tarim+mongolia+manchuria,
-five-dynasties-north,Five Dynasties,people,sinitic,no,chinan,five-dynasties
-southern-tang,Wu and Southern Tang,people,sinitic,no,chinas+chinan,five-dynasties
-wuyue,Wuyue,people,sinitic,no,chinas,five-dynasties
-southern-han,Southern Han,people,sinitic,no,chinas,five-dynasties
-later-shu,Former and Later Shu,people,sinitic,no,chinas+chinan,five-dynasties
-song-dynasty,Song,polity,sinitic,no,china,
-yuan-dynasty,Yuan,polity,mong,no,china+mongolia+manchuria+tibet+korea,
-ming-dynasty,Ming,polity,sinitic,no,china+manchuria,
-qing-dynasty,Qing Empire,polity,tung,no,china+manchuria+mongolia+tarim+tibet,
-republic-of-china,Republic of China,polity,sinitic,no,china+manchuria+mongolia+tarim,
-china,China,polity,sinitic,no,china+manchuria+mongolia+tarim+tibet,
-minyue,Min Yue,people,tai,yes,chinas,hundred-yue
-nanyue,Nan Yue,people,tai,yes,chinas,hundred-yue
-luoyue,Luo Yue,people,tai,yes,chinas,hundred-yue
-shanyue,Shan Yue,people,tai,yes,chinas,hundred-yue
-li-lao,Li and Lao,people,tai,yes,chinas,hundred-yue
-dian,Dian,people,burm,yes,chinas,yunnan-kingdoms
-cuan,Cuan,people,burm,yes,chinas,yunnan-kingdoms
-nanzhao,Nanzhao,people,burm,no,chinas+tibet+burma+indochina,yunnan-kingdoms
-dali-kingdom,Dali,people,burm,no,chinas+tibet,yunnan-kingdoms
-wuling-man,Wuling Man,people,hmong,yes,chinas,southwest-peoples
-miao,Miao (Hmong),people,hmong,no,chinas,southwest-peoples
-yao,Yao (Mien),people,hmong,no,chinas,southwest-peoples
-zhuang,Zhuang,people,tai,no,chinas,southwest-peoples
-yi,Yi (Nuosu),people,burm,no,chinas,southwest-peoples
-bai,Bai,people,burm,no,chinas+tibet,southwest-peoples
-tujia,Tujia,people,tbother,no,chinas,southwest-peoples
-dai,Dai,people,tai,no,chinas,southwest-peoples
-li-hainan,Li (Hlai),people,tai,no,chinas,southwest-peoples
-qiang-min-river,Qiang (Min valley),people,tbother,no,chinas+chinan,southwest-peoples
-qiang,Qiang,people,tbother,no,tibet+tarim+chinan,tibetans-qiang
-zhangzhung,Zhangzhung,people,tbother,no,tibet,tibetans-qiang
-tibetans,Tibetans,people,tibetic,no,tibet+tarim+chinan+chinas,tibetans-qiang
-tuyuhun,Tuyuhun,people,xianbei,no,tarim+tibet+chinan,tibetans-qiang
-tanguts,Tanguts,people,tbother,no,chinan+chinas+mongolia+tarim+tibet,tibetans-qiang
-western-xia,Western Xia,polity,tbother,no,chinan+mongolia+tarim,
-guge,Guge,people,tibetic,no,tibet,tibetans-qiang
-tibetan-empire,Tibetan Empire,polity,tibetic,no,tibet+tarim+chinan+chinas,
-ganden-phodrang,Ganden Phodrang,polity,tibetic,no,tibet,
-bhutan,Bhutan,polity,tibetic,no,tibet,
-khotan,Khotan,people,eiran,no,tarim,tarim-oases
-shule,Shule (Kashgar),people,eiran,yes,tarim,tarim-oases
-kucha,Kucha,people,toch,no,tarim,tarim-oases
-yanqi,Karashahr (Yanqi),people,toch,no,tarim,tarim-oases
-shanshan,Shanshan (Loulan),people,toch,yes,tarim,tarim-oases
-gaochang,Gaochang,people,sinitic,no,tarim,tarim-oases
-qocho,Qocho Uyghurs,people,turk,no,tarim,tarim-oases
-ganzhou-uyghurs,Ganzhou Uyghurs,people,turk,no,chinan+tarim,tarim-oases
-yarkand-khanate,Yarkand Khanate,people,karluk,no,tarim,tarim-oases
-uyghurs,Uyghurs,people,karluk,no,tarim,tarim-oases
-xiongnu,Xiongnu,people,steppeunk,no,mongolia+tarim+esiberia+chinan,mongolia-steppe
-xianbei,Xianbei,people,xianbei,no,mongolia+manchuria+esiberia+tarim,mongolia-steppe
-rouran,Rouran,people,steppeunk,no,mongolia+tarim+esiberia,mongolia-steppe
-tiele,Tiele (Gaoche),people,turk,no,mongolia+tarim,mongolia-steppe
-gokturks,Göktürks,people,turk,no,mongolia+tarim+esiberia,mongolia-steppe
-uyghur-khaganate,Uyghur Khaganate,people,turk,no,mongolia+tarim+esiberia,mongolia-steppe
-yenisei-kirghiz,Yenisei Kirghiz,people,turk,no,mongolia+wsiberia+esiberia,mongolia-steppe
-tatars-mongolia,Tatars,people,mong,yes,mongolia,mongolia-steppe
-kereit,Kereit,people,mong,yes,mongolia,mongolia-steppe
-naimans,Naimans,people,turk,yes,mongolia+tarim,mongolia-steppe
-khamag-mongols,Mongols,people,mong,no,mongolia+esiberia,mongolia-steppe
-mongol-empire,Mongol Empire,polity,mong,no,mongolia+tarim+chinan+manchuria+esiberia+wsiberia+steppe+turan+tibet+korea,
-northern-yuan,Northern Yuan,people,mong,no,mongolia+esiberia,mongolia-steppe
-oirats,Oirats,people,mong,no,mongolia+tarim,mongolia-steppe
-dzungar-khanate,Dzungar Khanate,people,mong,no,tarim+mongolia,mongolia-steppe
-khalkha,Khalkha Mongols,people,mong,no,mongolia,mongolia-steppe
-inner-mongols,Inner Mongols,people,mong,no,mongolia+manchuria,mongolia-steppe
-mongolia,Mongolia,polity,mong,no,mongolia,
-wuhuan,Wuhuan,people,xianbei,yes,mongolia+manchuria+chinan,manchurian-peoples
-yilou,Yilou,people,tung,yes,manchuria+esiberia,manchurian-peoples
-mohe,Mohe,people,tung,yes,manchuria+esiberia,manchurian-peoples
-khitans,Khitans,people,xianbei,no,mongolia+manchuria,manchurian-peoples
-shiwei,Shiwei,people,mong,yes,manchuria+mongolia+esiberia,manchurian-peoples
-balhae,Balhae,people,tung,yes,manchuria+korea+esiberia,manchurian-peoples
-liao-dynasty,Liao,polity,xianbei,no,mongolia+manchuria+chinan,
-jurchens,Jurchens,people,tung,no,manchuria+esiberia+korea,manchurian-peoples
-jin-jurchen,Jin (Jurchen),polity,tung,no,manchuria+chinan+mongolia,
-manchus,Manchus,people,tung,no,manchuria,manchurian-peoples
-kurykan,Kurykan,people,turk,no,esiberia+wsiberia,east-siberians
-siberian-yupik,Siberian Yupik,people,inuit,no,esiberia,east-siberians
-evenki,Evenki,people,tung,no,esiberia+manchuria,east-siberians
-evens,Even,people,tung,no,esiberia,east-siberians
-yukaghir,Yukaghir,people,paleosib,no,esiberia,east-siberians
-chukchi,Chukchi,people,paleosib,no,esiberia,east-siberians
-koryak,Koryak,people,paleosib,no,esiberia,east-siberians
-nivkh,Nivkh,people,paleosib,no,esiberia,east-siberians
-sakha,Sakha (Yakuts),people,sibturk,no,esiberia,east-siberians
-buryats,Buryats,people,mong,no,esiberia+wsiberia+mongolia,east-siberians
-buyeo,Buyeo,people,kor,yes,manchuria,korean-kingdoms
-goguryeo,Goguryeo,people,kor,yes,manchuria+korea+chinan,korean-kingdoms
-lelang,Lelang commandery,people,sinitic,no,korea,korean-kingdoms
-okjeo-ye,Okjeo and Ye,people,kor,yes,korea,korean-kingdoms
-mahan,Mahan,people,kor,yes,korea,korean-kingdoms
-jinhan,Jinhan,people,kor,no,korea,korean-kingdoms
-byeonhan,Byeonhan,people,kor,yes,korea,korean-kingdoms
-baekje,Baekje,people,kor,no,korea,korean-kingdoms
-silla,Silla,people,kor,no,korea,korean-kingdoms
-gaya,Gaya,people,kor,yes,korea,korean-kingdoms
-tamna,Tamna,people,kor,yes,korea,korean-kingdoms
-koreans,Koreans,people,kor,no,korea,korean-kingdoms
-goryeo,Goryeo,polity,kor,no,korea,
-joseon,Joseon,polity,kor,no,korea,
-north-korea,North Korea,polity,kor,no,korea,
-south-korea,South Korea,polity,kor,no,korea,
-wa,Wa,people,jap,no,japan,wa-yamato
-yamato,Yamato,people,jap,no,japan,wa-yamato
-hayato,Hayato,people,jap,yes,japan,wa-yamato
-japanese,Japanese,people,jap,no,japan,wa-yamato
-ryukyuans,Ryukyuans,people,jap,no,japan,wa-yamato
-ryukyu-kingdom,Ryukyu Kingdom,people,jap,no,japan,wa-yamato
-nara-heian-japan,Japan (Nara and Heian),polity,jap,no,japan,
-kamakura-shogunate,Kamakura shogunate,polity,jap,no,japan,
-muromachi-shogunate,Muromachi shogunate,polity,jap,no,japan,
-tokugawa-shogunate,Tokugawa shogunate,polity,jap,no,japan,
-empire-of-japan,Empire of Japan,polity,jap,no,japan+korea+manchuria+esiberia,
-japan,Japan,polity,jap,no,japan,
-epi-jomon,Epi-Jomon culture,people,ainu,yes,japan,emishi-ainu
-emishi,Emishi,people,ainu,yes,japan,emishi-ainu
-okhotsk-culture,Okhotsk culture,people,paleosib,yes,japan+esiberia,emishi-ainu
-ainu,Ainu,people,ainu,no,japan+esiberia,emishi-ainu
 sami-far-north,Sami,language,finnic,no,north+east,
 vistula-germanic,East Germanic of the Vistula,language,egerm,yes,central,
 early-slavic-vistula,Early Slavic (Vistula and Oder),language,slavw,no,central,
@@ -1917,3 +1730,190 @@ pakistan,Pakistan,polity,,no,indus+bengal,
 bangladesh,Bangladesh,polity,inde,no,bengal,
 sri-lanka,Sri Lanka,polity,,no,lanka,
 maldives,Maldives,polity,sinh,no,lanka,
+chinese-speakers,Chinese,language,sinitic,no,chinan+chinas+mongolia+tarim,
+chinese-northeast,Chinese (north-east),language,sinitic,no,manchuria,
+yue-languages,Yue languages,language,tai,yes,chinas,
+zhuang-tai-speakers,Zhuang and Tai,language,tai,no,chinas,
+hmong-mien-speakers,Hmong-Mien,language,hmong,no,chinas,
+yi-bai-speakers,Yi and Bai,language,burm,no,chinas+tibet,
+wa-palaung-yunnan,Wa and Palaungic,language,aaother,no,chinas,
+tujia-speakers,Tujia,language,tbother,no,chinas,
+qiangic-speakers,Qiang and Qiangic,language,tbother,no,tibet+tarim+chinan+chinas,
+tangut-speakers,Tangut,language,tbother,no,chinan+mongolia+tarim,
+tibetan-speakers,Tibetan,language,tibetic,no,tibet+tarim+chinan+chinas,
+zhangzhung-speakers,Zhangzhung,language,tbother,no,tibet,
+tocharian-speakers,Tocharian,language,toch,no,tarim,
+saka-speakers-tarim,Saka (Khotanese),language,eiran,no,tarim+tibet,
+uyghur-speakers,Uyghur,language,karluk,no,tarim,
+wusun-language,Wusun (language unknown),language,iran,yes,tarim,
+xiongnu-language,Xiongnu (language unknown),language,steppeunk,no,mongolia+tarim+esiberia,
+xianbei-speakers,Xianbei and Khitan,language,xianbei,no,mongolia+tarim+esiberia+manchuria,
+rouran-language,Rouran (language unknown),language,steppeunk,no,mongolia+tarim+esiberia,
+old-turkic-east,Old Turkic,language,turk,no,mongolia+tarim+esiberia,
+mongolic-speakers,Mongolian,language,mong,no,mongolia+tarim+esiberia+manchuria,
+kazakh-speakers-china,Kazakh,language,kipch,no,tarim,
+tungusic-manchuria,Tungusic (Jurchen and Manchu),language,tung,no,manchuria+esiberia,
+puyo-languages,Buyeo and Goguryeo,language,kor,yes,manchuria+korea,
+korean-speakers,Korean,language,kor,no,korea,
+jurchen-korea,Jurchen (north-east Korea),language,tung,no,korea,
+peninsular-japonic,Peninsular Japonic,language,jap,yes,korea,
+japanese-speakers,Japanese,language,jap,no,japan,
+japanese-karafuto,Japanese (Karafuto),language,jap,no,esiberia,
+ainu-speakers,Ainu,language,ainu,no,japan+esiberia,
+ryukyu-early,Early Ryukyu languages (unknown),language,isolate,yes,japan,
+ryukyuan-speakers,Ryukyuan,language,jap,no,japan,
+evenki-even-speakers,Evenki and Even,language,tung,no,esiberia,
+yukaghir-speakers,Yukaghir,language,paleosib,no,esiberia,
+chukchi-koryak-speakers,"Chukchi, Koryak and Itelmen",language,paleosib,no,esiberia,
+yupik-chukotka,Siberian Yupik,language,inuit,no,esiberia,
+nivkh-speakers,Nivkh,language,paleosib,no,esiberia,
+yakut-speakers,Yakut (Sakha),language,sibturk,no,esiberia,
+buryat-speakers,Buryat,language,mong,no,esiberia,
+nganasan-east,Nganasan (Samoyedic),language,samoyed,no,esiberia,
+russian-far-east,Russian (Far East),language,slave,no,esiberia,
+zhongyuan-chinese,Central Plain Chinese,people,sinitic,no,chinan,han-chinese
+jiangnan-chinese,Jiangnan Chinese,people,sinitic,no,chinan+chinas,han-chinese
+shu-chinese,Sichuan Chinese,people,sinitic,no,chinas,han-chinese
+xiang-gan-chinese,Xiang and Gan Chinese,people,sinitic,no,chinas,han-chinese
+min-chinese,Min Chinese,people,sinitic,no,chinas,han-chinese
+cantonese,Cantonese,people,sinitic,no,chinas,han-chinese
+han-dynasty,Han Empire,polity,sinitic,no,china+tarim+korea+manchuria+mongolia,
+cao-wei,Wei,people,sinitic,no,chinan+chinas+manchuria,three-kingdoms
+shu-han,Shu Han,people,sinitic,no,chinas+chinan,three-kingdoms
+eastern-wu,Wu,people,sinitic,no,chinas+chinan,three-kingdoms
+jin-dynasty,Jin (Sima),polity,sinitic,no,china,
+han-zhao,Han Zhao,people,steppeunk,no,chinan,sixteen-kingdoms
+later-zhao,Later Zhao,people,steppeunk,yes,chinan,sixteen-kingdoms
+former-yan,Former Yan,people,xianbei,no,chinan+manchuria+mongolia,sixteen-kingdoms
+former-qin,Former Qin,people,tbother,yes,chinan+chinas,sixteen-kingdoms
+later-qin,Later Qin,people,tbother,no,chinan,sixteen-kingdoms
+northern-liang,Northern Liang,people,steppeunk,yes,chinan+tarim,sixteen-kingdoms
+northern-wei,Northern Wei,people,xianbei,no,chinan+mongolia+manchuria,north-south-dynasties
+northern-qi,Eastern Wei and Northern Qi,people,xianbei,no,chinan,north-south-dynasties
+northern-zhou,Western Wei and Northern Zhou,people,xianbei,no,chinan+chinas,north-south-dynasties
+liu-song,Liu Song,people,sinitic,no,chinas+chinan,north-south-dynasties
+southern-qi,Southern Qi,people,sinitic,no,chinas+chinan,north-south-dynasties
+liang-dynasty,Liang,people,sinitic,no,chinas+chinan,north-south-dynasties
+chen-dynasty,Chen,people,sinitic,no,chinas,north-south-dynasties
+sui-dynasty,Sui,polity,sinitic,no,china,
+tang-dynasty,Tang Empire,polity,sinitic,no,china+tarim+mongolia+manchuria,
+five-dynasties-north,Five Dynasties,people,sinitic,no,chinan,five-dynasties
+southern-tang,Wu and Southern Tang,people,sinitic,no,chinas+chinan,five-dynasties
+wuyue,Wuyue,people,sinitic,no,chinas,five-dynasties
+southern-han,Southern Han,people,sinitic,no,chinas,five-dynasties
+later-shu,Former and Later Shu,people,sinitic,no,chinas+chinan,five-dynasties
+song-dynasty,Song,polity,sinitic,no,china,
+yuan-dynasty,Yuan,polity,mong,no,china+mongolia+manchuria+tibet+korea,
+ming-dynasty,Ming,polity,sinitic,no,china+manchuria,
+qing-dynasty,Qing Empire,polity,tung,no,china+manchuria+mongolia+tarim+tibet,
+republic-of-china,Republic of China,polity,sinitic,no,china+manchuria+mongolia+tarim,
+china,China,polity,sinitic,no,china+manchuria+mongolia+tarim+tibet,
+minyue,Min Yue,people,tai,yes,chinas,hundred-yue
+nanyue,Nan Yue,people,tai,yes,chinas,hundred-yue
+luoyue,Luo Yue,people,tai,yes,chinas,hundred-yue
+shanyue,Shan Yue,people,tai,yes,chinas,hundred-yue
+li-lao,Li and Lao,people,tai,yes,chinas,hundred-yue
+dian,Dian,people,burm,yes,chinas,yunnan-kingdoms
+cuan,Cuan,people,burm,yes,chinas,yunnan-kingdoms
+nanzhao,Nanzhao,people,burm,no,chinas+tibet+burma+indochina,yunnan-kingdoms
+dali-kingdom,Dali,people,burm,no,chinas+tibet,yunnan-kingdoms
+wuling-man,Wuling Man,people,hmong,yes,chinas,southwest-peoples
+miao,Miao (Hmong),people,hmong,no,chinas,southwest-peoples
+yao,Yao (Mien),people,hmong,no,chinas,southwest-peoples
+zhuang,Zhuang,people,tai,no,chinas,southwest-peoples
+yi,Yi (Nuosu),people,burm,no,chinas,southwest-peoples
+bai,Bai,people,burm,no,chinas+tibet,southwest-peoples
+tujia,Tujia,people,tbother,no,chinas,southwest-peoples
+dai,Dai,people,tai,no,chinas,southwest-peoples
+li-hainan,Li (Hlai),people,tai,no,chinas,southwest-peoples
+qiang-min-river,Qiang (Min valley),people,tbother,no,chinas+chinan,southwest-peoples
+qiang,Qiang,people,tbother,no,tibet+tarim+chinan,tibetans-qiang
+zhangzhung,Zhangzhung,people,tbother,no,tibet,tibetans-qiang
+tibetans,Tibetans,people,tibetic,no,tibet+tarim+chinan+chinas,tibetans-qiang
+tuyuhun,Tuyuhun,people,xianbei,no,tarim+tibet+chinan,tibetans-qiang
+tanguts,Tanguts,people,tbother,no,chinan+chinas+mongolia+tarim+tibet,tibetans-qiang
+western-xia,Western Xia,polity,tbother,no,chinan+mongolia+tarim,
+guge,Guge,people,tibetic,no,tibet,tibetans-qiang
+tibetan-empire,Tibetan Empire,polity,tibetic,no,tibet+tarim+chinan+chinas,
+ganden-phodrang,Ganden Phodrang,polity,tibetic,no,tibet,
+bhutan,Bhutan,polity,tibetic,no,tibet,
+khotan,Khotan,people,eiran,no,tarim,tarim-oases
+shule,Shule (Kashgar),people,eiran,yes,tarim,tarim-oases
+kucha,Kucha,people,toch,no,tarim,tarim-oases
+yanqi,Karashahr (Yanqi),people,toch,no,tarim,tarim-oases
+shanshan,Shanshan (Loulan),people,toch,yes,tarim,tarim-oases
+gaochang,Gaochang,people,sinitic,no,tarim,tarim-oases
+qocho,Qocho Uyghurs,people,turk,no,tarim,tarim-oases
+ganzhou-uyghurs,Ganzhou Uyghurs,people,turk,no,chinan+tarim,tarim-oases
+yarkand-khanate,Yarkand Khanate,polity,karluk,no,tarim,
+uyghurs,Uyghurs,people,karluk,no,tarim,tarim-oases
+xiongnu,Xiongnu,people,steppeunk,no,mongolia+tarim+esiberia+chinan,mongolia-steppe
+xianbei,Xianbei,people,xianbei,no,mongolia+manchuria+esiberia+tarim,mongolia-steppe
+rouran,Rouran,people,steppeunk,no,mongolia+tarim+esiberia,mongolia-steppe
+tiele,Tiele (Gaoche),people,turk,no,mongolia+tarim,mongolia-steppe
+gokturks,Göktürks,people,turk,no,mongolia+tarim+esiberia,mongolia-steppe
+uyghur-khaganate,Uyghur Khaganate,people,turk,no,mongolia+tarim+esiberia,mongolia-steppe
+yenisei-kirghiz,Yenisei Kirghiz,people,turk,no,mongolia+wsiberia+esiberia,mongolia-steppe
+tatars-mongolia,Tatars,people,mong,yes,mongolia,mongolia-steppe
+kereit,Kereit,people,mong,yes,mongolia,mongolia-steppe
+naimans,Naimans,people,turk,yes,mongolia+tarim,mongolia-steppe
+khamag-mongols,Mongols,people,mong,no,mongolia+esiberia,mongolia-steppe
+mongol-empire,Mongol Empire,polity,mong,no,mongolia+tarim+chinan+manchuria+esiberia+wsiberia+steppe+turan+tibet+korea,
+northern-yuan,Northern Yuan,people,mong,no,mongolia+esiberia,mongolia-steppe
+oirats,Oirats,people,mong,no,mongolia+tarim,mongolia-steppe
+dzungar-khanate,Dzungar Khanate,people,mong,no,tarim+mongolia,mongolia-steppe
+khalkha,Khalkha Mongols,people,mong,no,mongolia,mongolia-steppe
+inner-mongols,Inner Mongols,people,mong,no,mongolia+manchuria,mongolia-steppe
+mongolia,Mongolia,polity,mong,no,mongolia,
+wuhuan,Wuhuan,people,xianbei,yes,mongolia+manchuria+chinan,manchurian-peoples
+yilou,Yilou,people,tung,yes,manchuria+esiberia,manchurian-peoples
+mohe,Mohe,people,tung,yes,manchuria+esiberia,manchurian-peoples
+khitans,Khitans,people,xianbei,no,mongolia+manchuria,manchurian-peoples
+shiwei,Shiwei,people,mong,yes,manchuria+mongolia+esiberia,manchurian-peoples
+balhae,Balhae,people,tung,yes,manchuria+korea+esiberia,manchurian-peoples
+liao-dynasty,Liao,polity,xianbei,no,mongolia+manchuria+chinan,
+jurchens,Jurchens,people,tung,no,manchuria+esiberia+korea,manchurian-peoples
+jin-jurchen,Jin (Jurchen),polity,tung,no,manchuria+chinan+mongolia,
+manchus,Manchus,people,tung,no,manchuria,manchurian-peoples
+kurykan,Kurykan,people,turk,no,esiberia+wsiberia,east-siberians
+siberian-yupik,Siberian Yupik,people,inuit,no,esiberia,east-siberians
+evenki,Evenki,people,tung,no,esiberia+manchuria,east-siberians
+evens,Even,people,tung,no,esiberia,east-siberians
+yukaghir,Yukaghir,people,paleosib,no,esiberia,east-siberians
+chukchi,Chukchi,people,paleosib,no,esiberia,east-siberians
+koryak,Koryak,people,paleosib,no,esiberia,east-siberians
+nivkh,Nivkh,people,paleosib,no,esiberia,east-siberians
+sakha,Sakha (Yakuts),people,sibturk,no,esiberia,east-siberians
+buryats,Buryats,people,mong,no,esiberia+wsiberia+mongolia,east-siberians
+buyeo,Buyeo,people,kor,yes,manchuria,korean-kingdoms
+goguryeo,Goguryeo,people,kor,yes,manchuria+korea+chinan,korean-kingdoms
+lelang,Lelang commandery,people,sinitic,no,korea,korean-kingdoms
+okjeo-ye,Okjeo and Ye,people,kor,yes,korea,korean-kingdoms
+mahan,Mahan,people,kor,yes,korea,korean-kingdoms
+jinhan,Jinhan,people,kor,no,korea,korean-kingdoms
+byeonhan,Byeonhan,people,kor,yes,korea,korean-kingdoms
+baekje,Baekje,people,kor,no,korea,korean-kingdoms
+silla,Silla,people,kor,no,korea,korean-kingdoms
+gaya,Gaya,people,kor,yes,korea,korean-kingdoms
+tamna,Tamna,people,kor,yes,korea,korean-kingdoms
+koreans,Koreans,people,kor,no,korea,korean-kingdoms
+goryeo,Goryeo,polity,kor,no,korea,
+joseon,Joseon,polity,kor,no,korea,
+north-korea,North Korea,polity,kor,no,korea,
+south-korea,South Korea,polity,kor,no,korea,
+wa,Wa,people,jap,no,japan,wa-yamato
+yamato,Yamato,people,jap,no,japan,wa-yamato
+hayato,Hayato,people,jap,yes,japan,wa-yamato
+japanese,Japanese,people,jap,no,japan,wa-yamato
+ryukyuans,Ryukyuans,people,jap,no,japan,wa-yamato
+ryukyu-kingdom,Ryukyu Kingdom,polity,jap,no,japan,
+nara-heian-japan,Japan (Nara and Heian),polity,jap,no,japan,
+kamakura-shogunate,Kamakura shogunate,polity,jap,no,japan,
+muromachi-shogunate,Muromachi shogunate,polity,jap,no,japan,
+tokugawa-shogunate,Tokugawa shogunate,polity,jap,no,japan,
+empire-of-japan,Empire of Japan,polity,jap,no,japan+korea+manchuria+esiberia,
+japan,Japan,polity,jap,no,japan,
+epi-jomon,Epi-Jomon culture,people,ainu,yes,japan,emishi-ainu
+emishi,Emishi,people,ainu,yes,japan,emishi-ainu
+okhotsk-culture,Okhotsk culture,people,paleosib,yes,japan+esiberia,emishi-ainu
+ainu,Ainu,people,ainu,no,japan+esiberia,emishi-ainu
