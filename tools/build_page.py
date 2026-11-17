@@ -19,34 +19,36 @@ panel = re.search(r'<div class="atlas wide">.*?(?=</main>)', index, re.S).group(
 
 page = """<title>Peoples of the World</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500;1,600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: a night atlas. One dark ground, the story above the map, the map across the page, controls and tags beneath. */
+/* Layout: one near-black ground and one accent. A thin bar names the page; the year and the map do the talking. */
 :root {
   color-scheme: dark;
-  --bg: #070a0f; --fg: #eef2f6; --muted: #a3adba; --line: #2c3746; --surface: #10151d;
+  --bg: #06080c; --fg: #f2f5f8; --muted: #9aa5b4; --line: #232c38; --surface: #0d1117; --accent: #c8f542;
   --display: "Space Grotesk", "Inter", system-ui, sans-serif;
   --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
   --gut: max(16px, env(safe-area-inset-left, 0px));
 }
 * { box-sizing: border-box; }
 body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.55; }
 .col { width: min(1180px, calc(100% - 2 * var(--gut))); margin-inline: auto; }
-/* The year is the hero. The title is a quiet label above it. */
-.masthead { padding-block: 20px 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; border-bottom: 1px solid var(--line); margin-bottom: 18px; }
-.masthead h1 { margin: 0; font-family: var(--display); font-weight: 600; font-size: 19px; line-height: 1.2; letter-spacing: .01em; }
-.masthead p { margin: 0; color: var(--muted); font-size: 14.5px; }
-.about { padding-block: 40px 64px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px 40px; }
-.about h2 { grid-column: 1 / -1; margin: 0; font-family: var(--display); font-weight: 600; font-size: 20px; }
-.about h3 { margin: 0 0 6px; font-family: var(--display); font-weight: 600; font-size: 15px; }
-.about p { margin: 0; color: var(--muted); font-size: 15px; max-width: 46ch; }
+.masthead { padding-block: 14px 12px; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; margin-bottom: 4px; }
+.masthead h1 { margin: 0; font-family: var(--display); font-weight: 700; font-size: 15px; line-height: 1.2; letter-spacing: .08em; text-transform: uppercase; display: flex; align-items: center; gap: 10px; }
+.masthead h1::before { content: ""; width: 10px; height: 10px; background: var(--accent); border-radius: 2px; }
+.masthead p { margin: 0; color: var(--muted); font-family: var(--mono); font-size: 12px; letter-spacing: .04em; }
+@media (max-width: 560px) { .masthead p { display: none; } }
+.about { padding-block: 44px 64px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px 40px; }
+.about h2 { grid-column: 1 / -1; margin: 0; font-family: var(--display); font-weight: 700; font-size: 28px; letter-spacing: -.02em; }
+.about h3 { margin: 0 0 6px; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+.about p { margin: 0; color: #c2cad5; font-size: 15px; max-width: 46ch; }
 .about div { min-width: 0; }
 %(css)s
 </style>
 
 <header class="masthead col">
   <h1>Peoples of the World</h1>
-  <p>Who lived where, and what they spoke, from 1 CE to the present.</p>
+  <p>Who lived where, and what they spoke. 1 CE to now.</p>
 </header>
 
 %(panel)s

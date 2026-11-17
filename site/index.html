@@ -22,31 +22,32 @@
   <p class="lede" id="error" hidden></p>
   <div class="atlas wide">
     <div class="mapcol">
-      <div class="chapter">
-        <div class="when"><span id="yearlabel">150 CE</span><span id="eraname"></span><span id="markname" hidden></span></div>
-        <p id="era" aria-live="polite"></p>
-      </div>
       <div class="find">
         <label for="search">Find a people, state, language or group</label>
-        <input type="search" id="search" autocomplete="off" spellcheck="false" placeholder="Try Maya, Mali, Tang, Guaraní" role="combobox" aria-expanded="false" aria-controls="found" aria-autocomplete="list">
+        <input type="search" id="search" autocomplete="off" spellcheck="false" placeholder="Find Maya, Mali, Tang, Guaraní" role="combobox" aria-expanded="false" aria-controls="found" aria-autocomplete="list">
         <div id="found" role="listbox" aria-label="Matches" hidden></div>
       </div>
       <div class="switch">
         <div class="seg" id="views" role="group" aria-label="Part of the world shown"></div>
         <div class="seg sub" id="subviews" role="group" aria-label="Region shown" hidden></div>
       </div>
+      <div class="chapter">
+        <div class="when"><span id="yearlabel">150 CE</span><span class="tags"><span id="eraname"></span><span id="markname" hidden></span></span></div>
+        <p id="era" aria-live="polite"></p>
+      </div>
       <div id="crumb" class="crumb" role="region" aria-label="Open group" aria-live="polite" hidden></div>
       <div class="mapwrap">
-        <canvas id="map" role="img" aria-label="Map of peoples, languages and states at the selected year. The list after the map names everything on it."></canvas>
+        <div class="mapscroll" tabindex="-1">
+          <canvas id="map" role="img" aria-label="Map of peoples, languages and states at the selected year. The list after the map names everything on it."></canvas>
+        </div>
         <div id="detail" class="card" role="region" aria-label="Details of the selected entry" aria-live="polite" hidden></div>
       </div>
-      <p class="fine">Tap a group to open it. Tap a people for its language, dates, sources, and what it became.</p>
       <div class="time" role="group" aria-label="Time">
         <div class="yearrow">
           <div class="btns">
             <button type="button" id="eraprev" aria-label="Previous period">&#8249;</button>
             <button type="button" id="eranext" aria-label="Next period">&#8250;</button>
-            <button type="button" id="play" aria-pressed="false">Play</button>
+            <button type="button" id="play" aria-pressed="false">&#9654; Play</button>
             <button type="button" id="motion" aria-pressed="true">Motion on</button>
           </div>
         </div>
@@ -59,6 +60,7 @@
         <div class="ticks" id="ticks" aria-hidden="true"></div>
         <p class="fine" id="keys">Dots are dated events and bars are periods: tap either to go there. With the slider in focus, the arrow keys step ten years, with Shift a hundred and with Alt one; Page Up and Page Down step a period; [ and ] step an event.</p>
       </div>
+      <p class="fine hint">Tap a group to open it. Tap a people for its language, dates, sources, and what it became. On a narrow screen, drag the map sideways.</p>
     </div>
     <div class="sidecol">
       <section class="panel" aria-labelledby="key-h">
