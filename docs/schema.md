@@ -1,6 +1,6 @@
 # Schema
 
-Seven tables in `data/`, all UTF-8 CSV with a header row. `py -3.13 -m atlas.validate` checks every rule on this page.
+Eight tables in `data/`, all UTF-8 CSV with a header row. `py -3.13 -m atlas.validate` checks every rule on this page.
 
 ## peoples.csv
 
@@ -83,6 +83,10 @@ The views the reader can switch between: `view_id`, `name`, `parent`, a box (`we
 
 Period names and captions, keyed by view: `view_id`, `year_from`, `year_to`, `name`, `jump_year` (where the period buttons land) and `caption`. A view's periods run from 1 to the present without a gap. A view with none uses its parent's.
 
+## events.csv
+
+Dated events that mark the slider: `view_id`, `year`, `label` and `status`. A view with none uses its parent's. They are a seed like everything else: about a dozen per view, typed from memory, each a date sure enough to print. A tap near a mark lands on it and the label shows beside the year.
+
 ## parts/
 
 Everything outside the first seed of Europe is authored as one file per part of the world, `parts/partN.py`, and merged into the tables by `tools/add_part.py`. `docs/authoring.md` describes the format. Edit the part file and apply it again; do not edit a part's rows in the CSV by hand. `tools/wash_check.py` finds land with no language wash.
@@ -107,6 +111,7 @@ Succession and naming links between entries. `relation` is one of `continues`, `
 | E10 | Every entry has at least one claim |
 | E11 | `entered_on` is a date |
 | E12 | A group has a name and at least two members (peoples or child groups), and is not its own ancestor |
+| E14 | An event has a year inside the survey and a label |
 | E13 | A view has a box with west < east and south < north. A period has a name, a caption, and a jump year between its dates |
 
 It also prints a note for every group of entries that share a name, so the separate records stay visible.

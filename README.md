@@ -28,7 +28,7 @@ Then open `http://localhost:8000`. On macOS or Linux use `python3` in place of `
 | `site/` | The viewer |
 | `tests/` | Tests for the tables and the tools |
 | `parts/` | One file per part of the world, merged into `data/` by `tools/add_part.py` |
-| `tools/` | Coastline and regions, the part merger, the dark-land check, the page builder |
+| `tools/` | Coastline and regions, the part merger, the dark-land check, the class and grain audit, the page builder, and a browser check of the viewer |
 | `docs/authoring.md` | How to write a part |
 | `docs/reports/world.md` | What the world job built and what it is least sure of |
 | `docs/plan.md` | The plan, seven stages |

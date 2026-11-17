@@ -31,4 +31,5 @@ Use `python3` in place of `py -3.13` on macOS or Linux. Serve the viewer with `p
 - **After editing the tables, run `atlas.build`** so `site/data/peoples.json` matches. A test fails when it is stale.
 - **Parts of the world live in `parts/`.** Edit `parts/partN.py` and apply it with `tools/add_part.py`; see `docs/authoring.md`. Ids are unique across all parts, groups and sources included.
 - **No land in the survey is dark** in any year people lived there. `tools/wash_check.py --all` reports only islands before their first settlement.
+- **The viewer is checked in a browser.** After changing `site/`, build the page and run `node tools/ux_check.js` if Playwright is to hand, and look at a screenshot.
 - **Write plainly** in reports, notes and commit messages.

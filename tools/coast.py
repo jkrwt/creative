@@ -124,6 +124,20 @@ def ring(arcs, indices):
     return pts
 
 
+def unwrap(pts):
+    """The same ring with longitudes made continuous, so no step is longer than half a turn."""
+    out, shift = [], 0.0
+    for i, (x, y) in enumerate(pts):
+        if i:
+            step = x + shift - out[-1][0]
+            if step > 180:
+                shift -= 360
+            elif step < -180:
+                shift += 360
+        out.append((x + shift, y))
+    return out
+
+
 def polygons(obj):
     for g in obj.get("geometries", [obj]):
         if g["type"] == "Polygon":
@@ -216,15 +230,22 @@ def cut(arcs, obj, tol_world, min_area, box=None, mode=None, tol_eu=None):
         if mode:                                   # whole polygons, chosen by where their centre is
             if inside(centre(base), box) != (mode == "in"):
                 continue
-            c = clip(base, world)
+            pieces = [clip(base, world)]
+        elif box:
+            # A ring that crosses the date line is stored with a jump from +180 to -180. Clipped as it stands,
+            # the jump runs straight across the map and cuts a band out of whatever the box holds. So the ring
+            # is unwrapped first, and tried a whole turn east and west, where the rest of it may lie.
+            flat = unwrap(base)
+            pieces = [clip([(x + turn, y) for x, y in flat], box) for turn in (0.0, 360.0, -360.0)]
         else:
-            c = clip(base, box or world)
-        if len(c) < 3:
-            continue
-        eu = tol_eu is not None and inside(centre(c), EUROPE)
-        done = finish(c, tol_eu if eu else tol_world, min_area, 3 if eu else 2)
-        if done:
-            res.append(done)
+            pieces = [clip(base, world)]
+        for c in pieces:
+            if len(c) < 3:
+                continue
+            eu = tol_eu is not None and inside(centre(c), EUROPE)
+            done = finish(c, tol_eu if eu else tol_world, min_area, 3 if eu else 2)
+            if done:
+                res.append(done)
     res.sort(key=len, reverse=True)
     return res
 

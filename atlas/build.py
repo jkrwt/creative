@@ -50,6 +50,9 @@ def build(tables):
     for r in sorted(tables.get("periods", []), key=lambda r: int(r["year_from"])):
         periods.setdefault(r["view_id"], []).append(
             [int(r["year_from"]), int(r["year_to"]), r["caption"], r["name"], int(r["jump_year"])])
+    events = {}
+    for r in sorted(tables.get("events", []), key=lambda r: int(r["year"])):
+        events.setdefault(r["view_id"], []).append([int(r["year"]), r["label"]])
     return {
         "window": [1, model.YEAR_MAX],
         "families": model.FAMILIES,
@@ -64,6 +67,7 @@ def build(tables):
         "views": [{"id": v["view_id"], "name": v["name"], "parent": v["parent"], "proj": v["projection"],
                    "box": [float(v[k]) for k in ("west", "south", "east", "north")]} for v in tables.get("views", [])],
         "periods": periods,
+        "events": events,
         "links": [dict(l) for l in tables["links"]],
         "peoples": peoples,
     }

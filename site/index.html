@@ -23,8 +23,13 @@
   <div class="atlas wide">
     <div class="mapcol">
       <div class="chapter">
-        <div class="when"><span id="yearlabel">150 CE</span><span id="eraname"></span></div>
+        <div class="when"><span id="yearlabel">150 CE</span><span id="eraname"></span><span id="markname" hidden></span></div>
         <p id="era" aria-live="polite"></p>
+      </div>
+      <div class="find">
+        <label for="search">Find a people, state, language or group</label>
+        <input type="search" id="search" autocomplete="off" spellcheck="false" placeholder="Try Maya, Mali, Tang, Guaraní" role="combobox" aria-expanded="false" aria-controls="found" aria-autocomplete="list">
+        <div id="found" role="listbox" aria-label="Matches" hidden></div>
       </div>
       <div class="switch">
         <div class="seg" id="views" role="group" aria-label="Part of the world shown"></div>
@@ -35,7 +40,7 @@
         <canvas id="map" role="img" aria-label="Map of peoples, languages and states at the selected year. The list after the map names everything on it."></canvas>
         <div id="detail" class="card" role="region" aria-label="Details of the selected entry" aria-live="polite" hidden></div>
       </div>
-      <p class="fine">Tap a group to open it. Tap a people for its language, dates and sources.</p>
+      <p class="fine">Tap a group to open it. Tap a people for its language, dates, sources, and what it became.</p>
       <div class="time" role="group" aria-label="Time">
         <div class="yearrow">
           <div class="btns">
@@ -45,9 +50,14 @@
             <button type="button" id="motion" aria-pressed="true">Motion on</button>
           </div>
         </div>
-        <input type="range" id="year" min="1" max="2026" step="1" value="150" aria-label="Year">
-        <div id="erastrip" aria-hidden="true"></div>
+        <div class="track">
+          <div id="marks" role="group" aria-label="Dated events"></div>
+          <input type="range" id="year" min="1" max="2026" step="1" value="150" aria-label="Year" aria-describedby="keys">
+          <div class="spanrow" aria-hidden="true"><i id="lifespan" hidden></i></div>
+        </div>
+        <div id="erastrip" role="group" aria-label="Periods"></div>
         <div class="ticks" id="ticks" aria-hidden="true"></div>
+        <p class="fine" id="keys">Dots are dated events and bars are periods: tap either to go there. With the slider in focus, the arrow keys step ten years, with Shift a hundred and with Alt one; Page Up and Page Down step a period; [ and ] step an event.</p>
       </div>
     </div>
     <div class="sidecol">

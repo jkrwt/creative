@@ -281,6 +281,7 @@ def load(root=ROOT):
         "groups": read_table(data / "groups.csv"),
         "views": read_table(data / "views.csv"),
         "periods": read_table(data / "periods.csv"),
+        "events": read_table(data / "events.csv"),
     }
 
 
