@@ -812,192 +812,6 @@ territory-of-new-guinea,Territory of New Guinea,polity,eng,no,papua,
 papua-and-new-guinea,Papua and New Guinea,polity,eng,no,papua,
 papua-new-guinea,Papua New Guinea,polity,eng,no,papua,
 indonesian-papua,Papua (Indonesia),polity,malayic,no,papua,
-gandhari-prakrit,Gandhari,language,dard,no,indus,
-kashmiri-dardic-speakers,Kashmiri and Dardic,language,dard,no,indus+hindustan,
-burushaski-speakers,Burushaski,language,isolate,no,indus,
-tibetic-speakers-himalaya,Ladakhi and Balti,language,tibetic,no,indus+hindustan,
-pashto-speakers-indus,Pashto,language,eiran,no,indus,
-brahui-speakers,Brahui,language,dravn,no,indus,
-balochi-speakers-indus,Balochi,language,wiran,no,indus,
-sindhi-speakers,Sindhi,language,indw,no,indus,
-urdu-speakers-karachi,Urdu,language,indn,no,indus,
-central-prakrits,Central Prakrits,language,indn,no,indus+hindustan,
-hindi-speakers,Hindi and its dialects,language,indn,no,hindustan,
-rajasthani-speakers,Rajasthani,language,indn,no,hindustan,
-punjabi-speakers,Punjabi,language,indn,no,indus+hindustan,
-pahari-speakers,Pahari languages,language,indn,no,hindustan,
-nepali-speakers,Nepali,language,indn,no,hindustan+bengal,
-himalayan-tb-speakers,Himalayan languages,language,tbother,no,hindustan+bengal,
-gujarati-speakers,Gujarati,language,indw,no,hindustan+deccan,
-bhili-speakers,Bhili,language,indw,no,hindustan+deccan,
-maharashtri-prakrit,Maharashtri Prakrit,language,indw,no,deccan+hindustan,
-marathi-speakers,Marathi and Konkani,language,indw,no,deccan+hindustan,
-chhattisgarhi-speakers,Chhattisgarhi,language,indn,no,hindustan+deccan,
-gondi-speakers,"Gondi, Kui and Kurukh",language,dravn,no,hindustan+deccan,
-munda-speakers,Munda languages,language,munda,no,hindustan+deccan,
-magadhi-prakrit,Eastern Prakrits,language,inde,no,hindustan+bengal+deccan,
-bihari-speakers,"Bhojpuri, Maithili, Magahi",language,inde,no,hindustan,
-bengali-speakers,Bengali,language,inde,no,hindustan+bengal,
-odia-speakers,Odia,language,inde,no,hindustan+deccan,
-assamese-speakers,Assamese,language,inde,no,bengal,
-bodo-garo-speakers,Bodo and Garo,language,tbother,no,bengal,
-tai-ahom-speakers,Tai Ahom,language,tai,no,bengal,
-khasi-speakers,Khasi,language,aaother,no,bengal,
-naga-kuki-speakers,"Naga, Meitei and Kuki-Chin",language,tbother,no,bengal,
-arunachal-speakers,Tani and Mishmi,language,tbother,no,bengal,
-kannada-speakers,Kannada,language,telkan,no,deccan,
-tulu-speakers,Tulu,language,telkan,no,deccan,
-telugu-speakers,Telugu,language,telkan,no,deccan,
-tamil-speakers,Tamil,language,tamil,no,deccan,
-malayalam-speakers,Malayalam,language,tamil,no,deccan,
-sinhala-speakers,Sinhala,language,sinh,no,lanka,
-tamil-speakers-lanka,Tamil of Sri Lanka,language,tamil,no,lanka,
-vedda-speakers,Vedda,language,isolate,no,lanka,
-dhivehi-speakers,Dhivehi,language,sinh,no,lanka,
-indo-scythians,Indo-Scythians,people,eiran,yes,indus+hindustan,indus-punjab
-yaudheyas,Yaudheyas,people,indn,no,indus+hindustan,indus-punjab
-sindh-rai-chach,Kingdom of Sindh,people,indw,yes,indus,indus-punjab
-arab-sindh,Arab Sindh,people,arab,no,indus,indus-punjab
-hindu-shahis,Hindu Shahis,people,indn,yes,indus,indus-punjab
-sindh-soomra-samma,Soomras and Sammas,people,indw,no,indus,indus-punjab
-sindh-kalhora-talpur,Kalhoras and Talpurs,people,indw,no,indus,indus-punjab
-jats,Jats,people,indn,no,indus+hindustan,indus-punjab
-baloch-east,Baloch,people,wiran,no,indus,indus-punjab
-brahuis,Brahui,people,dravn,no,indus,indus-punjab
-kalat-khanate,Khanate of Kalat,people,dravn,no,indus,indus-punjab
-sikhs,Sikhs,people,indn,no,indus+hindustan,indus-punjab
-sikh-empire,Sikh Empire,people,indn,no,indus+hindustan,indus-punjab
-punjabis,Punjabis,people,indn,no,indus+hindustan,indus-punjab
-western-kshatrapas,Western Kshatrapas,people,eiran,yes,hindustan+deccan,rajput-west
-malavas,Malavas,people,indn,no,hindustan,rajput-west
-aulikaras,Aulikaras,people,indn,no,hindustan,rajput-west
-maitrakas,Maitrakas,people,indw,yes,hindustan+deccan,rajput-west
-gurjara-pratiharas,Gurjara-Pratiharas,people,indn,no,hindustan+indus,rajput-west
-chahamanas,Chauhans,people,indn,no,hindustan,rajput-west
-paramaras,Paramaras,people,indn,no,hindustan,rajput-west
-chandelas,Chandelas,people,indn,no,hindustan,rajput-west
-kalachuris-tripuri,Kalachuris,people,indn,no,hindustan+deccan,rajput-west
-solankis,Solankis,people,indw,no,hindustan+deccan,rajput-west
-mewar,Mewar,people,indn,no,hindustan,rajput-west
-marwar,Marwar,people,indn,no,hindustan,rajput-west
-amber-jaipur,Amber and Jaipur,people,indn,no,hindustan,rajput-west
-gujaratis,Gujaratis,people,indw,no,hindustan+deccan,rajput-west
-panchala-kings,Panchala,people,indn,no,hindustan,ganges-kingdoms
-kaushambi-kings,Kaushambi,people,indn,no,hindustan,ganges-kingdoms
-nagas-padmavati,Nagas of Padmavati,people,indn,no,hindustan,ganges-kingdoms
-guptas,Gupta Empire,people,indn,no,india,ganges-kingdoms
-maukharis,Maukharis,people,indn,no,hindustan,ganges-kingdoms
-pushyabhutis,Harsha's empire,people,indn,no,hindustan+indus+bengal,ganges-kingdoms
-gahadavalas,Gahadavalas,people,indn,no,hindustan,ganges-kingdoms
-kalinga-kingdom,Kalinga,people,inde,yes,deccan+hindustan,eastern-kingdoms
-samatata,Samatata and Vanga,people,inde,yes,bengal,eastern-kingdoms
-gauda,Gauda,people,inde,no,bengal+hindustan,eastern-kingdoms
-kamarupa,Kamarupa,people,inde,yes,bengal,eastern-kingdoms
-palas,Palas,people,inde,no,bengal+hindustan,eastern-kingdoms
-senas,Senas,people,inde,no,bengal+hindustan,eastern-kingdoms
-somavamshis,Somavamshis,people,inde,no,deccan+hindustan,eastern-kingdoms
-eastern-gangas,Eastern Gangas,people,inde,no,deccan+hindustan,eastern-kingdoms
-gajapatis,Gajapatis,people,inde,no,deccan+hindustan,eastern-kingdoms
-ahoms,Ahom kingdom,people,tai,no,bengal,eastern-kingdoms
-koch-kingdom,Koch kingdom,people,tbother,yes,bengal,eastern-kingdoms
-bengal-nawabs,Nawabs of Bengal,people,pers,no,bengal+hindustan,mughal-successors
-bengalis,Bengalis,people,inde,no,bengal+hindustan,eastern-kingdoms
-odias,Odias,people,inde,no,deccan+hindustan,eastern-kingdoms
-assamese-people,Assamese,people,inde,no,bengal,eastern-kingdoms
-kunindas,Kunindas,people,indn,yes,hindustan,himalayan-kingdoms
-kiratas,Kiratas,people,tbother,yes,hindustan,himalayan-kingdoms
-licchavis-nepal,Licchavis of Nepal,people,indn,yes,hindustan,himalayan-kingdoms
-patola-shahis,Patola Shahis,people,isolate,yes,indus,himalayan-kingdoms
-kashmir-kingdom,Kashmir,people,dard,no,hindustan+indus,himalayan-kingdoms
-kumaon-garhwal,Kumaon and Garhwal,people,indn,no,hindustan,himalayan-kingdoms
-ladakh-kingdom,Ladakh,people,tibetic,no,hindustan+indus,himalayan-kingdoms
-khasa-kingdom,Khasa kingdom,people,indn,no,hindustan,himalayan-kingdoms
-mallas-nepal,Malla kingdoms,people,tbother,no,hindustan,himalayan-kingdoms
-gorkha,Gorkha,people,indn,no,hindustan,himalayan-kingdoms
-sikkim-kingdom,Sikkim,people,tibetic,no,bengal,himalayan-kingdoms
-kashmiris,Kashmiris,people,dard,no,hindustan+indus,himalayan-kingdoms
-bengal-sultanate,Bengal Sultanate,people,pers,no,bengal+hindustan,north-sultanates
-kashmir-sultanate,Kashmir Sultanate,people,pers,no,hindustan+indus,north-sultanates
-jaunpur-sultanate,Jaunpur Sultanate,people,pers,no,hindustan,north-sultanates
-malwa-sultanate,Malwa Sultanate,people,pers,no,hindustan,north-sultanates
-gujarat-sultanate,Gujarat Sultanate,people,pers,no,hindustan+deccan,north-sultanates
-awadh,Awadh,people,pers,no,hindustan,mughal-successors
-rohillas,Rohilkhand,people,eiran,no,hindustan,mughal-successors
-hyderabad-nizam,Hyderabad,people,pers,no,deccan+hindustan,mughal-successors
-carnatic-nawabs,Nawabs of the Carnatic,people,pers,no,deccan,mughal-successors
-satavahanas,Satavahanas,people,indw,no,deccan+hindustan,deccan-kingdoms
-ikshvakus,Andhra Ikshvakus,people,telkan,yes,deccan,deccan-kingdoms
-vakatakas,Vakatakas,people,indw,yes,deccan+hindustan,deccan-kingdoms
-kadambas,Kadambas,people,telkan,no,deccan,deccan-kingdoms
-western-gangas,Western Gangas,people,telkan,no,deccan,deccan-kingdoms
-vishnukundins,Vishnukundins,people,telkan,yes,deccan,deccan-kingdoms
-chalukyas-badami,Chalukyas of Badami,people,telkan,no,deccan+hindustan,deccan-kingdoms
-eastern-chalukyas,Chalukyas of Vengi,people,telkan,no,deccan,deccan-kingdoms
-rashtrakutas,Rashtrakutas,people,telkan,no,deccan+hindustan,deccan-kingdoms
-western-chalukyas,Chalukyas of Kalyani,people,telkan,no,deccan+hindustan,deccan-kingdoms
-hoysalas,Hoysalas,people,telkan,no,deccan,deccan-kingdoms
-kakatiyas,Kakatiyas,people,telkan,no,deccan,deccan-kingdoms
-yadavas,Yadavas of Devagiri,people,indw,no,deccan+hindustan,deccan-kingdoms
-vijayanagara,Vijayanagara,people,telkan,no,deccan,deccan-kingdoms
-mysore,Mysore,people,telkan,no,deccan,deccan-kingdoms
-marathas,Marathas,people,indw,no,india,deccan-kingdoms
-kannadigas,Kannadigas,people,telkan,no,deccan,deccan-kingdoms
-telugus,Telugus,people,telkan,no,deccan,deccan-kingdoms
-bahmanis,Bahmani Sultanate,people,pers,no,deccan+hindustan,deccan-sultanates
-ahmadnagar,Ahmadnagar,people,pers,no,deccan,deccan-sultanates
-bijapur,Bijapur,people,pers,no,deccan,deccan-sultanates
-golconda,Golconda,people,pers,no,deccan,deccan-sultanates
-madurai-sultanate,Madurai Sultanate,people,pers,no,deccan,deccan-sultanates
-cheras,Cheras,people,tamil,no,deccan,tamil-kingdoms
-cholas,Cholas,people,tamil,no,deccan+lanka,tamil-kingdoms
-pandyas,Pandyas,people,tamil,no,deccan,tamil-kingdoms
-ays,Ay kingdom,people,tamil,no,deccan,tamil-kingdoms
-kalabhras,Kalabhras,people,tamil,yes,deccan,tamil-kingdoms
-pallavas,Pallavas,people,tamil,no,deccan,tamil-kingdoms
-venad-travancore,Venad and Travancore,people,tamil,no,deccan,tamil-kingdoms
-zamorins,Calicut,people,tamil,no,deccan,tamil-kingdoms
-madurai-nayaks,Nayaks of Madurai,people,telkan,no,deccan,tamil-kingdoms
-tamils,Tamils,people,tamil,no,deccan,tamil-kingdoms
-malayalis,Malayalis,people,tamil,no,deccan,tamil-kingdoms
-anuradhapura,Anuradhapura,people,sinh,no,lanka,lanka-kingdoms
-ruhuna,Ruhuna,people,sinh,no,lanka,lanka-kingdoms
-polonnaruwa,Polonnaruwa,people,sinh,no,lanka,lanka-kingdoms
-dambadeniya-gampola,Dambadeniya and Gampola,people,sinh,no,lanka,lanka-kingdoms
-jaffna-kingdom,Jaffna kingdom,people,tamil,no,lanka,lanka-kingdoms
-kotte,Kotte,people,sinh,no,lanka,lanka-kingdoms
-kandy,Kandy,people,sinh,no,lanka,lanka-kingdoms
-veddas,Veddas,people,isolate,yes,lanka,lanka-kingdoms
-maldives-sultanate,Maldive Sultanate,people,sinh,no,lanka,lanka-kingdoms
-sinhalese,Sinhalese,people,sinh,no,lanka,lanka-kingdoms
-sri-lankan-tamils,Sri Lankan Tamils,people,tamil,no,lanka,lanka-kingdoms
-gonds,Gonds,people,dravn,no,hindustan+deccan,central-hill-peoples
-gond-kingdoms,Gond kingdoms,people,dravn,no,hindustan+deccan,central-hill-peoples
-bhils,Bhils,people,indw,yes,hindustan+deccan,central-hill-peoples
-mundas,Munda and Ho,people,munda,no,hindustan+deccan,central-hill-peoples
-santals,Santals,people,munda,no,hindustan+bengal,central-hill-peoples
-oraons,Kurukh,people,dravn,no,hindustan,central-hill-peoples
-kondhs,Kondh,people,dravn,no,deccan+hindustan,central-hill-peoples
-soras,Sora,people,munda,no,deccan,central-hill-peoples
-nagas,Nagas,people,tbother,no,bengal,northeast-hills
-khasis,Khasi and Jaintia,people,aaother,no,bengal,northeast-hills
-dimasa-kingdom,Dimasa kingdom,people,tbother,no,bengal,northeast-hills
-manipur,Manipur,people,tbother,no,bengal,northeast-hills
-tripura-kingdom,Tripura,people,tbother,no,bengal,northeast-hills
-mizos,Mizo and Kuki,people,tbother,no,bengal,northeast-hills
-tani-peoples,"Adi, Nyishi, Apatani",people,tbother,no,bengal,northeast-hills
-delhi-sultanate,Delhi Sultanate,polity,pers,no,india,
-mughal-empire,Mughal Empire,polity,pers,no,india,
-portuguese-india,Portuguese India,polity,ibrom,no,deccan+hindustan,
-colonial-ceylon,Ceylon,polity,,no,lanka,
-east-india-company,East India Company,polity,eng,no,india,
-british-raj,British India,polity,eng,no,india,
-jammu-and-kashmir,Jammu and Kashmir,polity,,no,hindustan+indus,
-nepal,Nepal,polity,indn,no,hindustan,
-india,India,polity,,no,india,
-pakistan,Pakistan,polity,,no,indus+bengal,
-bangladesh,Bangladesh,polity,inde,no,bengal,
-sri-lanka,Sri Lanka,polity,,no,lanka,
-maldives,Maldives,polity,sinh,no,lanka,
 chinese-speakers,Chinese,language,sinitic,no,chinan+chinas+mongolia+tarim,
 chinese-northeast,Chinese (north-east),language,sinitic,no,manchuria,
 yue-languages,Yue languages,language,tai,yes,chinas,
@@ -1918,3 +1732,188 @@ uzbekistan,Uzbekistan,polity,,no,turan,
 turkmenistan,Turkmenistan,polity,,no,turan,
 tajikistan,Tajikistan,polity,,no,turan,
 kyrgyzstan,Kyrgyzstan,polity,,no,turan,
+gandhari-prakrit,Gandhari,language,dard,no,indus,
+kashmiri-dardic-speakers,Kashmiri and Dardic,language,dard,no,indus+hindustan,
+burushaski-speakers,Burushaski,language,isolate,no,indus,
+tibetic-speakers-himalaya,Ladakhi and Balti,language,tibetic,no,indus+hindustan,
+pashto-speakers-indus,Pashto,language,eiran,no,indus,
+brahui-speakers,Brahui,language,dravn,no,indus,
+balochi-speakers-indus,Balochi,language,wiran,no,indus,
+sindhi-speakers,Sindhi,language,indw,no,indus,
+urdu-speakers-karachi,Urdu,language,indn,no,indus,
+central-prakrits,Central Prakrits,language,indn,no,indus+hindustan,
+hindi-speakers,Hindi and its dialects,language,indn,no,hindustan,
+rajasthani-speakers,Rajasthani,language,indn,no,hindustan,
+punjabi-speakers,Punjabi,language,indn,no,indus+hindustan,
+pahari-speakers,Pahari languages,language,indn,no,hindustan,
+nepali-speakers,Nepali,language,indn,no,hindustan+bengal,
+himalayan-tb-speakers,Himalayan languages,language,tbother,no,hindustan+bengal,
+gujarati-speakers,Gujarati,language,indw,no,hindustan+deccan,
+bhili-speakers,Bhili,language,indw,no,hindustan+deccan,
+maharashtri-prakrit,Maharashtri Prakrit,language,indw,no,deccan+hindustan,
+marathi-speakers,Marathi and Konkani,language,indw,no,deccan+hindustan,
+chhattisgarhi-speakers,Chhattisgarhi,language,indn,no,hindustan+deccan,
+gondi-speakers,"Gondi, Kui and Kurukh",language,dravn,no,hindustan+deccan,
+munda-speakers,Munda languages,language,munda,no,hindustan+deccan,
+magadhi-prakrit,Eastern Prakrits,language,inde,no,hindustan+bengal+deccan,
+bihari-speakers,"Bhojpuri, Maithili, Magahi",language,inde,no,hindustan,
+bengali-speakers,Bengali,language,inde,no,hindustan+bengal,
+odia-speakers,Odia,language,inde,no,hindustan+deccan,
+assamese-speakers,Assamese,language,inde,no,bengal,
+bodo-garo-speakers,Bodo and Garo,language,tbother,no,bengal,
+tai-ahom-speakers,Tai Ahom,language,tai,no,bengal,
+khasi-speakers,Khasi,language,aaother,no,bengal,
+naga-kuki-speakers,"Naga, Meitei and Kuki-Chin",language,tbother,no,bengal,
+arunachal-speakers,Tani and Mishmi,language,tbother,no,bengal,
+kannada-speakers,Kannada,language,telkan,no,deccan,
+tulu-speakers,Tulu,language,telkan,no,deccan,
+telugu-speakers,Telugu,language,telkan,no,deccan,
+tamil-speakers,Tamil,language,tamil,no,deccan,
+malayalam-speakers,Malayalam,language,tamil,no,deccan,
+sinhala-speakers,Sinhala,language,sinh,no,lanka,
+tamil-speakers-lanka,Tamil of Sri Lanka,language,tamil,no,lanka,
+vedda-speakers,Vedda,language,isolate,no,lanka,
+dhivehi-speakers,Dhivehi,language,sinh,no,lanka,
+indo-scythians,Indo-Scythians,people,eiran,yes,indus+hindustan,indus-punjab
+yaudheyas,Yaudheyas,people,indn,no,indus+hindustan,indus-punjab
+sindh-rai-chach,Kingdom of Sindh,people,indw,yes,indus,indus-punjab
+arab-sindh,Arab Sindh,people,arab,no,indus,indus-punjab
+hindu-shahis,Hindu Shahis,people,indn,yes,indus,indus-punjab
+sindh-soomra-samma,Soomras and Sammas,people,indw,no,indus,indus-punjab
+sindh-kalhora-talpur,Kalhoras and Talpurs,people,indw,no,indus,indus-punjab
+jats,Jats,people,indn,no,indus+hindustan,indus-punjab
+baloch-east,Baloch,people,wiran,no,indus,indus-punjab
+brahuis,Brahui,people,dravn,no,indus,indus-punjab
+kalat-khanate,Khanate of Kalat,people,dravn,no,indus,indus-punjab
+sikhs,Sikhs,people,indn,no,indus+hindustan,indus-punjab
+sikh-empire,Sikh Empire,people,indn,no,indus+hindustan,indus-punjab
+punjabis,Punjabis,people,indn,no,indus+hindustan,indus-punjab
+western-kshatrapas,Western Kshatrapas,people,eiran,yes,hindustan+deccan,rajput-west
+malavas,Malavas,people,indn,no,hindustan,rajput-west
+aulikaras,Aulikaras,people,indn,no,hindustan,rajput-west
+maitrakas,Maitrakas,people,indw,yes,hindustan+deccan,rajput-west
+gurjara-pratiharas,Gurjara-Pratiharas,people,indn,no,hindustan+indus,rajput-west
+chahamanas,Chauhans,people,indn,no,hindustan,rajput-west
+paramaras,Paramaras,people,indn,no,hindustan,rajput-west
+chandelas,Chandelas,people,indn,no,hindustan,rajput-west
+kalachuris-tripuri,Kalachuris,people,indn,no,hindustan+deccan,rajput-west
+solankis,Solankis,people,indw,no,hindustan+deccan,rajput-west
+mewar,Mewar,people,indn,no,hindustan,rajput-west
+marwar,Marwar,people,indn,no,hindustan,rajput-west
+amber-jaipur,Amber and Jaipur,people,indn,no,hindustan,rajput-west
+gujaratis,Gujaratis,people,indw,no,hindustan+deccan,rajput-west
+panchala-kings,Panchala,people,indn,no,hindustan,ganges-kingdoms
+kaushambi-kings,Kaushambi,people,indn,no,hindustan,ganges-kingdoms
+nagas-padmavati,Nagas of Padmavati,people,indn,no,hindustan,ganges-kingdoms
+guptas,Gupta Empire,people,indn,no,india,ganges-kingdoms
+maukharis,Maukharis,people,indn,no,hindustan,ganges-kingdoms
+pushyabhutis,Harsha's empire,people,indn,no,hindustan+indus+bengal,ganges-kingdoms
+gahadavalas,Gahadavalas,people,indn,no,hindustan,ganges-kingdoms
+kalinga-kingdom,Kalinga,people,inde,yes,deccan+hindustan,eastern-kingdoms
+samatata,Samatata and Vanga,people,inde,yes,bengal,eastern-kingdoms
+gauda,Gauda,people,inde,no,bengal+hindustan,eastern-kingdoms
+kamarupa,Kamarupa,people,inde,yes,bengal,eastern-kingdoms
+palas,Palas,people,inde,no,bengal+hindustan,eastern-kingdoms
+senas,Senas,people,inde,no,bengal+hindustan,eastern-kingdoms
+somavamshis,Somavamshis,people,inde,no,deccan+hindustan,eastern-kingdoms
+eastern-gangas,Eastern Gangas,people,inde,no,deccan+hindustan,eastern-kingdoms
+gajapatis,Gajapatis,people,inde,no,deccan+hindustan,eastern-kingdoms
+ahoms,Ahom kingdom,people,tai,no,bengal,eastern-kingdoms
+koch-kingdom,Koch kingdom,people,tbother,yes,bengal,eastern-kingdoms
+bengal-nawabs,Nawabs of Bengal,people,pers,no,bengal+hindustan,mughal-successors
+bengalis,Bengalis,people,inde,no,bengal+hindustan,eastern-kingdoms
+odias,Odias,people,inde,no,deccan+hindustan,eastern-kingdoms
+assamese-people,Assamese,people,inde,no,bengal,eastern-kingdoms
+kunindas,Kunindas,people,indn,yes,hindustan,himalayan-kingdoms
+licchavis-nepal,Licchavis of Nepal,people,indn,yes,hindustan,himalayan-kingdoms
+patola-shahis,Patola Shahis,people,isolate,yes,indus,himalayan-kingdoms
+kashmir-kingdom,Kashmir,people,dard,no,hindustan+indus,himalayan-kingdoms
+kumaon-garhwal,Kumaon and Garhwal,people,indn,no,hindustan,himalayan-kingdoms
+ladakh-kingdom,Ladakh,people,tibetic,no,hindustan+indus,himalayan-kingdoms
+khasa-kingdom,Khasa kingdom,people,indn,no,hindustan,himalayan-kingdoms
+mallas-nepal,Malla kingdoms,people,tbother,no,hindustan,himalayan-kingdoms
+gorkha,Gorkha,people,indn,no,hindustan,himalayan-kingdoms
+sikkim-kingdom,Sikkim,people,tibetic,no,bengal,himalayan-kingdoms
+kashmiris,Kashmiris,people,dard,no,hindustan+indus,himalayan-kingdoms
+bengal-sultanate,Bengal Sultanate,people,pers,no,bengal+hindustan,north-sultanates
+kashmir-sultanate,Kashmir Sultanate,people,pers,no,hindustan+indus,north-sultanates
+jaunpur-sultanate,Jaunpur Sultanate,people,pers,no,hindustan,north-sultanates
+malwa-sultanate,Malwa Sultanate,people,pers,no,hindustan,north-sultanates
+gujarat-sultanate,Gujarat Sultanate,people,pers,no,hindustan+deccan,north-sultanates
+awadh,Awadh,people,pers,no,hindustan,mughal-successors
+rohillas,Rohilkhand,people,eiran,no,hindustan,mughal-successors
+hyderabad-nizam,Hyderabad,people,pers,no,deccan+hindustan,mughal-successors
+carnatic-nawabs,Nawabs of the Carnatic,people,pers,no,deccan,mughal-successors
+satavahanas,Satavahanas,people,indw,no,deccan+hindustan,deccan-kingdoms
+ikshvakus,Andhra Ikshvakus,people,telkan,yes,deccan,deccan-kingdoms
+vakatakas,Vakatakas,people,indw,yes,deccan+hindustan,deccan-kingdoms
+kadambas,Kadambas,people,telkan,no,deccan,deccan-kingdoms
+western-gangas,Western Gangas,people,telkan,no,deccan,deccan-kingdoms
+vishnukundins,Vishnukundins,people,telkan,yes,deccan,deccan-kingdoms
+chalukyas-badami,Chalukyas of Badami,people,telkan,no,deccan+hindustan,deccan-kingdoms
+eastern-chalukyas,Chalukyas of Vengi,people,telkan,no,deccan,deccan-kingdoms
+rashtrakutas,Rashtrakutas,people,telkan,no,deccan+hindustan,deccan-kingdoms
+western-chalukyas,Chalukyas of Kalyani,people,telkan,no,deccan+hindustan,deccan-kingdoms
+hoysalas,Hoysalas,people,telkan,no,deccan,deccan-kingdoms
+kakatiyas,Kakatiyas,people,telkan,no,deccan,deccan-kingdoms
+yadavas,Yadavas of Devagiri,people,indw,no,deccan+hindustan,deccan-kingdoms
+vijayanagara,Vijayanagara,people,telkan,no,deccan,deccan-kingdoms
+mysore,Mysore,people,telkan,no,deccan,deccan-kingdoms
+marathas,Marathas,people,indw,no,india,deccan-kingdoms
+kannadigas,Kannadigas,people,telkan,no,deccan,deccan-kingdoms
+telugus,Telugus,people,telkan,no,deccan,deccan-kingdoms
+bahmanis,Bahmani Sultanate,people,pers,no,deccan+hindustan,deccan-sultanates
+ahmadnagar,Ahmadnagar,people,pers,no,deccan,deccan-sultanates
+bijapur,Bijapur,people,pers,no,deccan,deccan-sultanates
+golconda,Golconda,people,pers,no,deccan,deccan-sultanates
+madurai-sultanate,Madurai Sultanate,people,pers,no,deccan,deccan-sultanates
+cheras,Cheras,people,tamil,no,deccan,tamil-kingdoms
+cholas,Cholas,people,tamil,no,deccan+lanka,tamil-kingdoms
+pandyas,Pandyas,people,tamil,no,deccan,tamil-kingdoms
+ays,Ay kingdom,people,tamil,no,deccan,tamil-kingdoms
+kalabhras,Kalabhras,people,tamil,yes,deccan,tamil-kingdoms
+pallavas,Pallavas,people,tamil,no,deccan,tamil-kingdoms
+venad-travancore,Venad and Travancore,people,tamil,no,deccan,tamil-kingdoms
+zamorins,Calicut,people,tamil,no,deccan,tamil-kingdoms
+madurai-nayaks,Nayaks of Madurai,people,telkan,no,deccan,tamil-kingdoms
+tamils,Tamils,people,tamil,no,deccan,tamil-kingdoms
+malayalis,Malayalis,people,tamil,no,deccan,tamil-kingdoms
+anuradhapura,Anuradhapura,people,sinh,no,lanka,lanka-kingdoms
+ruhuna,Ruhuna,people,sinh,no,lanka,lanka-kingdoms
+polonnaruwa,Polonnaruwa,people,sinh,no,lanka,lanka-kingdoms
+dambadeniya-gampola,Dambadeniya and Gampola,people,sinh,no,lanka,lanka-kingdoms
+jaffna-kingdom,Jaffna kingdom,people,tamil,no,lanka,lanka-kingdoms
+kotte,Kotte,people,sinh,no,lanka,lanka-kingdoms
+kandy,Kandy,people,sinh,no,lanka,lanka-kingdoms
+veddas,Veddas,people,isolate,yes,lanka,lanka-kingdoms
+maldives-sultanate,Maldive Sultanate,people,sinh,no,lanka,lanka-kingdoms
+sinhalese,Sinhalese,people,sinh,no,lanka,lanka-kingdoms
+sri-lankan-tamils,Sri Lankan Tamils,people,tamil,no,lanka,lanka-kingdoms
+gonds,Gonds,people,dravn,no,hindustan+deccan,central-hill-peoples
+gond-kingdoms,Gond kingdoms,people,dravn,no,hindustan+deccan,central-hill-peoples
+bhils,Bhils,people,indw,yes,hindustan+deccan,central-hill-peoples
+mundas,Munda and Ho,people,munda,no,hindustan+deccan,central-hill-peoples
+santals,Santals,people,munda,no,hindustan+bengal,central-hill-peoples
+oraons,Kurukh,people,dravn,no,hindustan,central-hill-peoples
+kondhs,Kondh,people,dravn,no,deccan+hindustan,central-hill-peoples
+soras,Sora,people,munda,no,deccan,central-hill-peoples
+nagas,Nagas,people,tbother,no,bengal,northeast-hills
+khasis,Khasi and Jaintia,people,aaother,no,bengal,northeast-hills
+dimasa-kingdom,Dimasa kingdom,people,tbother,no,bengal,northeast-hills
+manipur,Manipur,people,tbother,no,bengal,northeast-hills
+tripura-kingdom,Tripura,people,tbother,no,bengal,northeast-hills
+mizos,Mizo and Kuki,people,tbother,no,bengal,northeast-hills
+tani-peoples,"Adi, Nyishi, Apatani",people,tbother,no,bengal,northeast-hills
+delhi-sultanate,Delhi Sultanate,polity,pers,no,india,
+mughal-empire,Mughal Empire,polity,pers,no,india,
+portuguese-india,Portuguese India,polity,ibrom,no,deccan+hindustan,
+colonial-ceylon,Ceylon,polity,,no,lanka,
+east-india-company,East India Company,polity,eng,no,india,
+british-raj,British India,polity,eng,no,india,
+jammu-and-kashmir,Jammu and Kashmir,polity,,no,hindustan+indus,
+nepal,Nepal,polity,indn,no,hindustan,
+india,India,polity,,no,india,
+pakistan,Pakistan,polity,,no,indus+bengal,
+bangladesh,Bangladesh,polity,inde,no,bengal,
+sri-lanka,Sri Lanka,polity,,no,lanka,
+maldives,Maldives,polity,sinh,no,lanka,

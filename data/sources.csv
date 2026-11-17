@@ -78,26 +78,6 @@ miklouho-maclay,"Nikolai Miklouho-Maclay, New Guinea diaries",text,1871 to 1883,
 malinowski,"Bronisław Malinowski, Argonauts of the Western Pacific",text,1922,no,,Fieldwork in the Trobriand Islands from 1915 to 1918.
 native-title,Native title determinations and land rights claims,record,1976 onward,yes,,Bucket. A legal record of present-day recognition by Australian courts. It shows who is recognised today and is not a map of the past.
 australian-census,Census of Australia,census,1911 onward,no,,Aboriginal people were fully counted only from 1971.
-periplus,Periplus of the Erythraean Sea,text,about 50,no,,A Greek merchant's guide to the ports of the Indian Ocean. It names rulers and ports of western and southern India.
-sangam-poetry,Sangam poetry (the early Tamil anthologies),text,"about 1st to 3rd century, dates disputed",yes,,Bucket. Dates of composition are disputed. A checked claim cites the anthology and poem.
-indian-inscriptions,Inscriptions of South Asia,inscription,3rd century BCE onward,yes,,Bucket. A checked claim cites the inscription.
-indian-coins,Coinages of South Asia,coin,2nd century BCE onward,yes,,Bucket. A checked claim cites the coin series and where it is found.
-puranas,Puranic king lists,text,compiled about 4th century and later,yes,,Bucket. Late and unreliable for dates and reign lengths. Used only beside coins and inscriptions.
-faxian,"Faxian, Record of Buddhist Kingdoms",text,about 414,no,,A Chinese pilgrim who travelled through north India and Sri Lanka between 399 and 412.
-harshacharita,"Bana, Harshacharita",text,about 640,no,,"A court biography of Harsha. Praise, not record."
-al-biruni,"al-Biruni, India",text,about 1030,no,,Written at the Ghaznavid court by a scholar who learned Sanskrit.
-arab-geographers-sindh,Arab historians and geographers on Sindh and the Indian coast,text,9th to 11th century,yes,,Bucket. A checked claim cites the author and passage.
-chachnama,Chachnama,text,Persian version of about 1216,no,,"A Persian version of a lost Arabic account of Sindh before and during the conquest of 712. Late, with legend mixed in."
-rajatarangini,"Kalhana, Rajatarangini",text,1148,no,,"A Sanskrit chronicle of the kings of Kashmir. Reliable for its last few centuries, legendary for the early ones."
-mahavamsa,Mahavamsa and its continuation the Culavamsa,text,"5th century, continued to the 18th",no,,"The Pali chronicle of Sri Lanka, written by monks. Its earliest centuries are tradition."
-persian-chronicles,Persian chronicles of the Sultanate and Mughal periods,text,13th to 18th century,yes,,Bucket. A checked claim cites the chronicle and passage.
-buranjis,Ahom and Assamese buranjis,text,"from the 13th century, surviving copies later",yes,,"Bucket. Court chronicles of the Ahom kingdom, first in Tai Ahom and later in Assamese."
-nepal-vamshavalis,Nepalese vamshavalis (chronicles),text,14th to 19th century,yes,,Bucket. Late chronicles. Their account of the centuries before the Licchavi inscriptions is tradition.
-portuguese-chroniclers,Portuguese chroniclers and travellers of the 16th century,text,16th century,yes,,"Bucket. Barros, Barbosa, Pires, Paes and others. A checked claim cites the work and passage."
-knox-ceylon,"Robert Knox, An Historical Relation of the Island Ceylon",text,1681,no,,Written by an Englishman held in the kingdom of Kandy for nineteen years.
-company-records,Records of the East India Company,record,1600 to 1858,yes,,Bucket. A checked claim cites the series and document.
-lsi-grierson,"Grierson, Linguistic Survey of India",modern-study,1903 to 1928,no,,The first survey of the languages of British India. It left out the Madras presidency and the princely south.
-census-india,Census of India and the censuses of its successor states,census,1881 onward,yes,,Bucket. A checked claim cites the census year and table.
 shiji,"Sima Qian, Shiji (Records of the Grand Historian)",text,about 90 BCE,no,,"Its chapters on the Xiongnu, the south-western peoples and the Yue are the base of later accounts."
 hanshu,"Ban Gu, Hanshu (Book of Han)",text,about 100,no,,"Covers the Western Han to 23 CE, with a treatise on the Western Regions."
 hou-hanshu,"Fan Ye, Hou Hanshu (Book of the Later Han)",text,about 445,no,,"Compiled two centuries after the dynasty it covers, from earlier records."
@@ -119,7 +99,6 @@ japanese-records,"Japanese court, shogunate and domain records",record,8th centu
 orkhon-inscriptions,Orkhon inscriptions,inscription,about 720 to 735,no,,"Old Turkic memorial inscriptions in the Orkhon valley, the oldest dated texts in a Turkic language."
 old-tibetan-annals,Old Tibetan Annals and Old Tibetan Chronicle from Dunhuang,text,8th to 9th century,no,,Year by year from 650. The Chronicle's account of earlier kings is tradition.
 secret-history,Secret History of the Mongols,text,about 1240,no,,The date of composition is disputed.
-xuanzang,"Xuanzang, Records of the Western Regions",text,646,no,,A pilgrim's description of the Tarim oases and India.
 man-shu,"Fan Chuo, Man shu (Book of the Southern Barbarians)",text,about 863,no,,A Tang official's description of Nanzhao and the peoples of Yunnan.
 tarim-manuscripts,Manuscripts from the Tarim oases and Dunhuang,text,3rd to 10th century,yes,,"Bucket. Tocharian, Khotanese, Kharosthi, Old Uyghur, Tibetan and Chinese documents. A checked claim cites the manuscript."
 qing-gazetteers,Qing gazetteers and court records,record,1644 to 1912,yes,,Bucket. A checked claim cites the gazetteer and chapter.
@@ -185,7 +164,6 @@ thai-chronicles,"Thai, Lao and Cambodian royal chronicles",text,15th to 19th cen
 dai-viet-chronicle,Dai Viet su ky toan thu (Complete Annals of Dai Viet),text,"1479, printed 1697",no,,The court annals of Vietnam. Early chapters draw on Chinese histories and legend.
 zhou-daguan,"Zhou Daguan, Record of Cambodia, the Land and Its People",text,about 1297,no,,The only eyewitness description of Angkor at its height.
 marco-polo,"Marco Polo, Description of the World",text,about 1298,no,,Its routes and some of its claims are disputed.
-ibn-battuta,"Ibn Battuta, Travels",text,dictated about 1355,no,,"He visited Mogadishu, Mombasa and Kilwa about 1331 and Mali in 1352 and 1353."
 tome-pires,"Tome Pires, Suma Oriental",text,1512 to 1515,no,,Written at Malacca just after the Portuguese conquest. Surveys ports from the Red Sea to Maluku.
 pigafetta,"Antonio Pigafetta, account of Magellan's voyage",text,about 1524,no,,"Eyewitness of the Marianas, the Visayas, Brunei and Tidore in 1521."
 spanish-philippine-chronicles,Spanish chroniclers and mission records of the Philippines and the Marianas,text,1565 to 19th century,yes,,Bucket. A checked claim cites the author and work.
@@ -221,3 +199,25 @@ census-1897,Russian imperial census of 1897,census,1897,no,,The first count of t
 soviet-censuses,Soviet and later national censuses,census,1926 onward,yes,,Bucket. A checked claim cites the census year.
 modern-ethnography,"Modern language and ethnographic surveys of Iran, Afghanistan and Central Asia",modern-study,various,yes,,"Bucket. Iran and Afghanistan have never counted their people by language, so areas are estimates."
 steppe-archaeology,"Archaeology of the steppe, the Urals and Siberia",modern-study,various,yes,,"Bucket. Burial mounds, settlements and named cultures. A culture is not a people and its language is always inferred."
+periplus,Periplus of the Erythraean Sea,text,mid 1st century,no,,"A Greek merchant's guide to the ports of the Red Sea, Arabia and India."
+sangam-poetry,Sangam poetry (the early Tamil anthologies),text,"about 1st to 3rd century, dates disputed",yes,,Bucket. Dates of composition are disputed. A checked claim cites the anthology and poem.
+indian-inscriptions,Inscriptions of South Asia,inscription,3rd century BCE onward,yes,,Bucket. A checked claim cites the inscription.
+indian-coins,Coinages of South Asia,coin,2nd century BCE onward,yes,,Bucket. A checked claim cites the coin series and where it is found.
+puranas,Puranic king lists,text,compiled about 4th century and later,yes,,Bucket. Late and unreliable for dates and reign lengths. Used only beside coins and inscriptions.
+faxian,"Faxian, Record of Buddhist Kingdoms",text,about 414,no,,A Chinese pilgrim who travelled through north India and Sri Lanka between 399 and 412.
+xuanzang,"Xuanzang, Records of the Western Regions",text,646,no,,A Chinese pilgrim who travelled through India between 630 and 644 and describes its kingdoms one by one.
+harshacharita,"Bana, Harshacharita",text,about 640,no,,"A court biography of Harsha. Praise, not record."
+al-biruni,"al-Biruni, India",text,about 1030,no,,Written at the Ghaznavid court by a scholar who learned Sanskrit.
+arab-geographers-sindh,Arab historians and geographers on Sindh and the Indian coast,text,9th to 11th century,yes,,Bucket. A checked claim cites the author and passage.
+chachnama,Chachnama,text,Persian version of about 1216,no,,"A Persian version of a lost Arabic account of Sindh before and during the conquest of 712. Late, with legend mixed in."
+rajatarangini,"Kalhana, Rajatarangini",text,1148,no,,"A Sanskrit chronicle of the kings of Kashmir. Reliable for its last few centuries, legendary for the early ones."
+ibn-battuta,"Ibn Battuta, Travels",text,dictated about 1355,no,,"He visited Mogadishu, Mombasa and Kilwa about 1331 and Mali in 1352 and 1353."
+mahavamsa,Mahavamsa and its continuation the Culavamsa,text,"5th century, continued to the 18th",no,,"The Pali chronicle of Sri Lanka, written by monks. Its earliest centuries are tradition."
+persian-chronicles,Persian chronicles of the Sultanate and Mughal periods,text,13th to 18th century,yes,,Bucket. A checked claim cites the chronicle and passage.
+buranjis,Ahom and Assamese buranjis,text,"from the 13th century, surviving copies later",yes,,"Bucket. Court chronicles of the Ahom kingdom, first in Tai Ahom and later in Assamese."
+nepal-vamshavalis,Nepalese vamshavalis (chronicles),text,14th to 19th century,yes,,Bucket. Late chronicles. Their account of the centuries before the Licchavi inscriptions is tradition.
+portuguese-chroniclers,Portuguese chroniclers and travellers of the 16th century,text,16th century,yes,,"Bucket. Barros, Barbosa, Pires, Paes and others. A checked claim cites the work and passage."
+knox-ceylon,"Robert Knox, An Historical Relation of the Island Ceylon",text,1681,no,,Written by an Englishman held in the kingdom of Kandy for nineteen years.
+company-records,Records of the East India Company,record,1600 to 1858,yes,,Bucket. A checked claim cites the series and document.
+lsi-grierson,"Grierson, Linguistic Survey of India",modern-study,1903 to 1928,no,,The first survey of the languages of British India. It left out the Madras presidency and the princely south.
+census-india,Census of India and the censuses of its successor states,census,1881 onward,yes,,Bucket. A checked claim cites the census year and table.

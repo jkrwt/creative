@@ -84,22 +84,6 @@ ng-highlands,The highlands,new-guinea-peoples,"Farmers of the high valleys, wher
 ng-sepik-north,Sepik and north coast,new-guinea-peoples,River peoples of the Sepik and the peoples of the north coast and the Bird's Head. The grouping is a convenience and joins many unrelated languages.,seed
 ng-papuan-coasts,Southern coasts,new-guinea-peoples,"Peoples of the southern swamps and rivers and of the Papuan peninsula, some speaking Papuan and some Austronesian languages.",seed
 ng-islands,The islands,new-guinea-peoples,"Peoples of the Bismarck Archipelago, Bougainville and the islands off the south-east. Most speak Oceanic languages that descend from the speech of the Lapita voyagers.",seed
-north-india,North India,,"The kingdoms and peoples of the Indus and Ganges plains, Bengal and the Himalaya. The line between north and south is a modern convenience: several empires ruled both.",seed
-south-india,South India,,"The Deccan plateau, the Tamil and Kerala coasts and Sri Lanka. Most people here have spoken Dravidian languages for as long as there are records.",seed
-hill-peoples,Hill peoples,,"Peoples of the forested hills of central India and the north-east, who kept their own languages while the plains around them changed. A modern grouping by way of life, not by descent.",seed
-indus-punjab,Indus and Punjab,north-india,"The north-west, the road by which Sakas, Kushans, Huns, Turks and Afghans came into India. Kushans, Ghaznavids and Durranis are drawn from the Afghan side.",seed
-rajput-west,Rajputs and the west,north-india,"Rajasthan, Gujarat and Malwa. Rajput clans appear in inscriptions from the 7th century, and several of their states lasted until 1947.",seed
-ganges-kingdoms,Ganges kingdoms,north-india,"The plain from Delhi to Patna, the seat of the Guptas and of Harsha. Whoever held Kannauj after them claimed the north.",seed
-eastern-kingdoms,"Bengal, Assam, Odisha",north-india,"The lower Ganges, the Brahmaputra valley and the coast of Kalinga. Indo-Aryan speech and Brahmin settlement spread here through the first millennium.",seed
-himalayan-kingdoms,Himalayan kingdoms,north-india,Valley kingdoms from Kashmir to Sikkim. Indo-Aryan speakers from the plains met Tibeto-Burman and Tibetan speakers here.,seed
-north-sultanates,Northern sultanates,north-india,"Provinces of the Delhi Sultanate that became kingdoms after 1340. Their courts wrote Persian and their people spoke Bengali, Gujarati, Hindi and Kashmiri.",seed
-mughal-successors,Mughal successors,north-india,"States that rose as Mughal power failed after 1707. Some were founded by Mughal governors and some by the Sikhs, Jats and Afghans who fought them.",seed
-deccan-kingdoms,Deccan kingdoms,south-india,"Dynasties of the plateau between the Narmada and the Kaveri, from the Satavahanas to Mysore. Their inscriptions are in Prakrit, then Sanskrit, Kannada, Telugu and Marathi.",seed
-tamil-kingdoms,Tamil and Kerala,south-india,"Cheras, Cholas and Pandyas are named in Ashoka's edicts, in Tamil poetry and by Greek writers. The same three names were still in use a thousand years later.",seed
-deccan-sultanates,Deccan sultanates,south-india,The Bahmani kingdom broke from Delhi in 1347 and split into five sultanates about 1500. The Mughals took the last of them in 1687.,seed
-lanka-kingdoms,Sri Lanka and Maldives,south-india,"Sinhalese kingdoms recorded by their own chronicle from before 1 CE, a Tamil kingdom in the north from the 13th century, and the island sultanate of the Maldives.",seed
-central-hill-peoples,Central Indian hills,hill-peoples,"Speakers of Munda and central Dravidian languages, and the Bhils. They held far more of central India in 1 CE than they do now, though early placements rest on language and not on record.",seed
-northeast-hills,North-east hills,hill-peoples,"Speakers of Tibeto-Burman languages and of Khasi, between the Brahmaputra and Burma. Written record begins with the Ahom chronicles in the 13th century.",seed
 chinese-states,Chinese states,,"The Chinese-speaking population and the states it lived in when the empire was divided. Single dynasties such as Han, Tang and Ming are lettered as states.",seed
 han-chinese,Han Chinese,chinese-states,"The regional populations of Chinese speakers. The division by speech is a modern convenience, and the southern groups formed as settlers moved south over two thousand years.",seed
 three-kingdoms,Three Kingdoms,chinese-states,"Wei, Shu and Wu divided the Han empire from 220 until Jin joined it again in 280.",seed
@@ -213,3 +197,19 @@ hordes-and-khanates,Hordes and khanates,steppe-world,"Kazakhs, Uzbeks, Turkmens,
 ural-and-ob-peoples,Ural and Ob peoples,,"The peoples of the forest and tundra either side of the Urals, most of them speakers of Uralic languages, with their Turkic neighbours. A modern grouping by place.",seed
 volga-and-kama,Volga and Kama,ural-and-ob-peoples,"Mordvins, Mari, Udmurts and Komi of the forest, and the Bulgars, Bashkirs and Tatars who settled beside them.",seed
 west-siberians,Western Siberia,ural-and-ob-peoples,"Hunters, fishers and reindeer herders of the Ob and the Yenisei, and the Turkic peoples of the southern forest edge and the Sayan and Altai mountains. Russian records begin in the 16th century.",seed
+north-india,North India,,"The kingdoms and peoples of the Indus and Ganges plains, Bengal and the Himalaya. The line between north and south is a modern convenience: several empires ruled both.",seed
+south-india,South India,,"The Deccan plateau, the Tamil and Kerala coasts and Sri Lanka. Most people here have spoken Dravidian languages for as long as there are records.",seed
+hill-peoples,Hill peoples,,"Peoples of the forested hills of central India and the north-east, who kept their own languages while the plains around them changed. A modern grouping by way of life, not by descent.",seed
+indus-punjab,Indus and Punjab,north-india,"The north-west, the road by which Sakas, Kushans, Huns, Turks and Afghans came into India. Kushans, Ghaznavids and Durranis are drawn from the Afghan side.",seed
+rajput-west,Rajputs and the west,north-india,"Rajasthan, Gujarat and Malwa. Rajput clans appear in inscriptions from the 7th century, and several of their states lasted until 1947.",seed
+ganges-kingdoms,Ganges kingdoms,north-india,"The plain from Delhi to Patna, the seat of the Guptas and of Harsha. Whoever held Kannauj after them claimed the north.",seed
+eastern-kingdoms,"Bengal, Assam, Odisha",north-india,"The lower Ganges, the Brahmaputra valley and the coast of Kalinga. Indo-Aryan speech and Brahmin settlement spread here through the first millennium.",seed
+himalayan-kingdoms,Himalayan kingdoms,north-india,Valley kingdoms from Kashmir to Sikkim. Indo-Aryan speakers from the plains met Tibeto-Burman and Tibetan speakers here.,seed
+north-sultanates,Northern sultanates,north-india,"Provinces of the Delhi Sultanate that became kingdoms after 1340. Their courts wrote Persian and their people spoke Bengali, Gujarati, Hindi and Kashmiri.",seed
+mughal-successors,Mughal successors,north-india,"States that rose as Mughal power failed after 1707. Some were founded by Mughal governors and some by the Sikhs, Jats and Afghans who fought them.",seed
+deccan-kingdoms,Deccan kingdoms,south-india,"Dynasties of the plateau between the Narmada and the Kaveri, from the Satavahanas to Mysore. Their inscriptions are in Prakrit, then Sanskrit, Kannada, Telugu and Marathi.",seed
+tamil-kingdoms,Tamil and Kerala,south-india,"Cheras, Cholas and Pandyas are named in Ashoka's edicts, in Tamil poetry and by Greek writers. The same three names were still in use a thousand years later.",seed
+deccan-sultanates,Deccan sultanates,south-india,The Bahmani kingdom broke from Delhi in 1347 and split into five sultanates about 1500. The Mughals took the last of them in 1687.,seed
+lanka-kingdoms,Sri Lanka and Maldives,south-india,"Sinhalese kingdoms recorded by their own chronicle from before 1 CE, a Tamil kingdom in the north from the 13th century, and the island sultanate of the Maldives.",seed
+central-hill-peoples,Central Indian hills,hill-peoples,"Speakers of Munda and central Dravidian languages, and the Bhils. They held far more of central India in 1 CE than they do now, though early placements rest on language and not on record.",seed
+northeast-hills,North-east hills,hill-peoples,"Speakers of Tibeto-Burman languages and of Khasi, between the Brahmaputra and Burma. Written record begins with the Ahom chronicles in the 13th century.",seed
