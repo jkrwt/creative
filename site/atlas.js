@@ -101,7 +101,7 @@
   // How many labels of each kind a wide view may carry, so an overview stays an overview: leads, languages, states.
   var CAPS = [[15, 6, 7], [16, 9, 9], [20, 10, 10]];
   var MAX_CELLS = 230000;
-  var SERIF = '"EB Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif';
+  var DISPLAY = '"Space Grotesk", Inter, system-ui, -apple-system, "Segoe UI", sans-serif';   // names on the map: one modern grotesk, upright
   var SANS = 'Inter, system-ui, -apple-system, "Segoe UI", sans-serif';
   var CLASS_TEXT = {
     attested: 'Attested: a named centre or record is known',
@@ -175,7 +175,7 @@
   window.PeoplesAtlas = function (data, coast, opts) {
     opts = opts || {};
     var V = { proj: 'local', lamc: 0, kx: 1, x0: 0, y1: 0, s: 1 };   // the view: projection, centre meridian, left and top in units, pixels per unit
-    var WU, HU, XMID, LATMIN, LATMAX, HALFLON, RX0 = 0, RX1 = 1e9;
+    var WU, HU, XMID, LATMIN, LATMAX, HALFLON, RX0 = 0, RX1 = 1e9, sizedFor = '';
     var REQ = null, REQP = 'local';    // the box that was asked for and its projection; the box shown may be wider
     function setBox(b, proj) {
       REQ = b.slice();
@@ -234,7 +234,7 @@
       p.ft = -1; p.inOpen = false; p.inView = true;
       if (p.type !== 'polity' && RANGE[p.family]) {
         var r = RANGE[p.family], tone = TONE[p.family];
-        if (p.type === 'language') { p.hue = r[0] + (r[1] - r[0]) * hash(p.id, 1); p.rgb = hsl(p.hue, tone[0] * 0.8, tone[1] - 0.03 + 0.07 * hash(p.id, 2)); }
+        if (p.type === 'language') { p.hue = r[0] + (r[1] - r[0]) * (0.3 + 0.4 * hash(p.id, 1)); p.rgb = hsl(p.hue, tone[0] * 0.85, tone[1] - 0.01 + 0.03 * hash(p.id, 2)); }   // washes of one family sit close together, so a continent reads as a few flat fields
         else { p.hue = r[0] + (r[1] - r[0]) * hash(p.id, 1); p.rgb = hsl(p.hue, tone[0], tone[1] - 0.05 + 0.12 * hash(p.id, 2)); }
         p.tint = hsl(p.hue, Math.min(0.7, tone[0]), 0.88); p.mark = hsl(p.hue, tone[0], Math.min(0.8, tone[1] + 0.14));
       }
@@ -343,12 +343,17 @@
     function layer(w, h) { var c = document.createElement('canvas'); c.width = w; c.height = h; return c; }
 
     function resize() {
-      var w = canvas.clientWidth || 320;
+      var holder = canvas.parentNode, w = (holder && holder.clientWidth) || canvas.clientWidth || 320;
       dpr = Math.min(window.devicePixelRatio || 1, 2);
       applyBox();
       var cap = wide ? Math.max(320, Math.round(window.innerHeight * 0.8)) : 1e9;
+      var floor = wide && w < 700 ? Math.round(Math.min(window.innerHeight * 0.56, 480)) : 0;   // a phone gets a map it can read
       W = w; H = Math.round(w * HU / WU); S = W / WU;
       if (H > cap) { H = cap; S = H / HU; V.x0 = XMID - W / (2 * S); }   // too tall for the screen: keep the height and show more to the sides
+      else if (H < floor) { H = floor; S = H / HU; W = Math.ceil(WU * S); }   // too short: keep the height and let the map run on sideways
+      canvas.style.width = W + 'px';
+      if (holder && W > w + 1 && holder.scrollLeft != null && sizedFor !== REQ.join()) holder.scrollLeft = Math.round((W - w) * (curView.parent ? 0.5 : 0.56));
+      sizedFor = REQ.join();
       V.s = S; RX0 = W / 2 - WU * S / 2; RX1 = W / 2 + WU * S / 2;      // the part of the canvas the view asked for
       var perDeg = Math.min(Math.abs(unit(V, 1, LATMIN)[0]), Math.abs(unit(V, 1, LATMAX)[0]));
       HALFLON = Math.min(180, W / (2 * S) / Math.max(0.05, perDeg) + 2);
@@ -364,9 +369,17 @@
       var b = base.getContext('2d'), SEA = '#05080e', wl0 = Math.min(1, Math.max(0.42, W / 1100));
       b.fillStyle = SEA; b.fillRect(0, 0, PW, PH);
       b.lineJoin = 'round';
-      [[30, 0.05], [21, 0.08], [13.5, 0.12], [7.5, 0.18], [3, 0.3]].forEach(function (wl) {
-        b.lineWidth = (2 * wl[0] * wl0 + 1.1) * dpr; b.strokeStyle = 'rgba(126,170,198,' + wl[1] + ')'; b.stroke(shore);
-        b.lineWidth = (2 * wl[0] * wl0 - 0.5) * dpr; b.strokeStyle = SEA; b.stroke(shore);
+      var step = 1 / S > 0.055 ? 30 : 1 / S > 0.02 ? 10 : 5, grat = new Path2D(), gi2, gj, gq;     // a graticule: the sea is measured, not engraved
+      for (gi2 = -180; gi2 < 180; gi2 += step) {
+        if (Math.abs(norm(gi2 - V.lamc)) > HALFLON) continue;
+        for (gj = -84; gj <= 84; gj += 2) { gq = unit(V, norm(gi2 - V.lamc), gj); if (gj === -84) grat.moveTo((gq[0] - V.x0) * S * dpr, (V.y1 - gq[1]) * S * dpr); else grat.lineTo((gq[0] - V.x0) * S * dpr, (V.y1 - gq[1]) * S * dpr); }
+      }
+      for (gj = -60; gj <= 80; gj += step) {
+        for (gi2 = -HALFLON; gi2 <= HALFLON; gi2 += 2) { gq = unit(V, gi2, gj); if (gi2 === -HALFLON) grat.moveTo((gq[0] - V.x0) * S * dpr, (V.y1 - gq[1]) * S * dpr); else grat.lineTo((gq[0] - V.x0) * S * dpr, (V.y1 - gq[1]) * S * dpr); }
+      }
+      b.lineWidth = dpr; b.strokeStyle = 'rgba(140,170,200,.075)'; b.stroke(grat);
+      [[9, 0.05], [4, 0.09]].forEach(function (wl) {
+        b.lineWidth = 2 * wl[0] * wl0 * dpr; b.strokeStyle = 'rgba(120,175,215,' + wl[1] + ')'; b.stroke(shore);
       });
       b.fillStyle = '#0b0e14'; b.fill(full);                      // land outside the survey, hatched
       var hp = layer(8, 8), hc = hp.getContext('2d');
@@ -382,12 +395,12 @@
       cc.globalCompositeOperation = 'destination-in'; cc.fillStyle = '#fff'; cc.fill(full);
       b.drawImage(cov, 0, 0);
       var v = b.createRadialGradient(PW * .5, PH * .48, PH * .3, PW * .5, PH * .5, Math.max(PH * .78, PW * .5));
-      v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,.5)');
+      v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,.28)');
       b.fillStyle = v; b.fillRect(0, 0, PW, PH);
 
       mask = layer(PW, PH); var m = mask.getContext('2d'); m.fillStyle = '#fff'; m.fill(full);
       coastLayer = layer(PW, PH); var c = coastLayer.getContext('2d');
-      c.lineJoin = 'round'; c.lineWidth = 0.9 * dpr; c.strokeStyle = 'rgba(222,236,242,.62)'; c.stroke(shore);
+      c.lineJoin = 'round'; c.lineWidth = 0.8 * dpr; c.strokeStyle = 'rgba(235,244,250,.5)'; c.stroke(shore);
       stage = layer(PW, PH); sctx = stage.getContext('2d'); sctx.imageSmoothingQuality = 'high';
 
       // Field grid. Each land cell of a surveyed region carries that region's number, counted from 1.
@@ -424,6 +437,7 @@
       pw1 = new Float32Array(n); pw2 = new Float32Array(n); pb1 = new Int16Array(n); pb2 = new Int16Array(n);
       lw1 = new Float32Array(n); lw2 = new Float32Array(n); lb1 = new Int16Array(n); lb2 = new Int16Array(n);
       offX = new Float32Array(GH); offY = new Float32Array(GW);
+      splatKey = '';                   // the arrays are new and empty: whatever the size, the field must be made again
       lastField = -1e9; draw(performance.now());
     }
 
@@ -610,11 +624,11 @@
           var La = 0, Lr = 0, Lg = 0, Lb = 0, lp = null;
           if (lt >= 0) {
             lp = people[blobs[lt].pi]; s = lw1[i];
-            La = 1 - Math.exp(-4.4 * s);
+            La = 1 - Math.exp(-9 * s);
             pick(lw1, lw2, lb1, lb2, i, stripe, true);
             v = Math.sqrt(s) * 4.6 - t * 0.09; fr = v - Math.floor(v);
             line = s > 0.05 && fr < 0.3 ? 1 - Math.abs(fr - 0.15) / 0.15 : 0;
-            var ls = 0.62 + 0.2 * Math.min(1, s * 1.3) + line * line * 0.08;
+            var ls = 0.8 + 0.04 * Math.min(1, s * 1.3) + line * line * 0.02;
             if (muted(lp)) La *= 0.12;
             if (picked) { if (blobs[lt].pi === selected) ls += 0.25; else La *= 0.35; }
             Lr = out[0] * ls; Lg = out[1] * ls; Lb = out[2] * ls;
@@ -632,7 +646,7 @@
               Pa = 1 - Math.exp(-(cl === 'attested' ? 6.5 : cl === 'reconstructed' ? 5 : 3.6) * s);
               v = Math.sqrt(s) * 4.6 - t * 0.09; fr = v - Math.floor(v);
               line = s > 0.04 && fr < 0.3 ? 1 - Math.abs(fr - 0.15) / 0.15 : 0;
-              ps = 0.6 + 0.44 * Math.min(1, s * 1.25) + line * line * 0.22;
+              ps = 0.74 + 0.3 * Math.min(1, s * 1.25) + line * line * 0.12;
               if (cl === 'indicative' && ((gx ^ gy) & 1)) Pa *= 0.55;
               if (openG >= 0 && !pp.inOpen) Pa *= 0.4;
             }
@@ -702,7 +716,8 @@
       }
       labels.sort(function (u, v) { return rank(v) - rank(u); });
       labelHits = [];
-      var boxes = [], lvl = viewLevel(curView), room = Math.max(4, Math.floor(W * H / (W < 600 ? 24000 : 11000))), caps = (openG < 0 ? CAPS[Math.min(lvl, CAPS.length - 1)] : [40, 40, 40]).concat([60]).map(function (c, i) { return Math.min(c, i ? Math.ceil(room / (W < 600 ? 3 : 2)) * (i === 3 ? 3 : 1) : room); }), used = [0, 0, 0, 0];
+      var boxes = [], lvl = viewLevel(curView), seenW = Math.min(W, (canvas.parentNode && canvas.parentNode.clientWidth) || W), room = Math.max(4, Math.floor(W * H / (seenW < 600 ? 30000 : 11000))),   // a phone sees part of a wide map at a time
+           caps = (openG < 0 ? CAPS[Math.min(lvl, CAPS.length - 1)] : [40, 40, 40]).concat([60]).map(function (c, i) { return Math.min(c, i ? Math.ceil(room / (seenW < 600 ? 3 : 2)) * (i === 3 ? 3 : 1) : room); }), used = [0, 0, 0, 0];
       ctx.lineJoin = 'round'; ctx.textBaseline = 'middle';
       labels.forEach(function (L) {
         var isLead = !!L.lead, p = isLead ? null : people[L.b.pi], sel = !isLead && L.b.pi === selected;
@@ -718,12 +733,12 @@
         var size, txt, fill, space, markCol = null, tail = '', vis = Math.min(1, L.a * 1.2);
         if (isLead) {
           if (openG >= 0 && !L.open) vis *= 0.55;
-          size = Math.max(13, Math.min(16, 11.5 + Math.sqrt(gLive[L.g]) * 1.1)); txt = groups[gkeys[L.g]].name.toUpperCase(); space = 1.9;
-          ctx.font = 'italic 600 ' + size + 'px ' + SERIF; fill = css(gtint[L.g], vis); markCol = css(gmark[L.g], vis); tail = String(gLive[L.g]);
+          size = Math.max(12, Math.min(15, 11 + Math.sqrt(gLive[L.g]) * 0.8)); txt = groups[gkeys[L.g]].name.toUpperCase(); space = 1.3;
+          ctx.font = '700 ' + size + 'px ' + DISPLAY; fill = css(gtint[L.g], vis); markCol = css(gmark[L.g], vis); tail = String(gLive[L.g]);
         }
-        else if (p.type === 'polity') { size = 11.5; txt = p.name.toUpperCase(); space = 4.5; ctx.font = '600 ' + size + 'px ' + SANS; fill = 'rgba(232,238,245,' + Math.min(.78, L.a) + ')'; }
-        else if (p.type === 'language') { size = Math.max(13, Math.min(16, 12 + L.b.r * 1.4)); txt = p.name; space = 0.4; ctx.font = 'italic 500 ' + size + 'px ' + SERIF; fill = css(p.tint, Math.min(.9, L.a)); if (p.rgb) markCol = css(p.mark, vis); }
-        else { size = Math.max(11.5, Math.min(16, 10 + L.b.r * 8)); txt = p.name.toUpperCase(); space = 1.6; ctx.font = 'italic 600 ' + size + 'px ' + SERIF; fill = css(p.tint, vis); if (p.rgb) markCol = css(p.mark, vis); }
+        else if (p.type === 'polity') { size = 11; txt = p.name.toUpperCase(); space = 3.6; ctx.font = '500 ' + size + 'px ' + DISPLAY; fill = 'rgba(232,238,245,' + Math.min(.78, L.a) + ')'; }
+        else if (p.type === 'language') { size = Math.max(12, Math.min(14, 11.5 + L.b.r * 1)); txt = p.name; space = 0.1; ctx.font = '500 ' + size + 'px ' + SANS; fill = css(p.tint, Math.min(.9, L.a)); if (p.rgb) markCol = css(p.mark, vis); }
+        else { size = Math.max(11.5, Math.min(15, 10 + L.b.r * 7)); txt = p.name.toUpperCase(); space = 1; ctx.font = '600 ' + size + 'px ' + DISPLAY; fill = css(p.tint, vis); if (p.rgb) markCol = css(p.mark, vis); }
         try { ctx.letterSpacing = space + 'px'; } catch (e) {}
         var gw = markCol ? size * 0.5 + 5 : 0, tw = ctx.measureText(txt).width, tailw = tail ? size * 0.46 * tail.length + 9 : 0, full = tw + gw + tailw;
         var bx = Math.max(3, Math.min(W - full - 3, c[0] - full / 2)), by = c[1], box, clash = true;
@@ -819,6 +834,8 @@
 
     function select(pi) { selected = pi; showDetail(pi); lastKey = ''; lastField = -1e9; update(false); }
 
+    yearLabel.textContent = '';
+    var yearNum = el('span', 'num'), yearEra = el('span', 'ce', 'CE'); yearLabel.appendChild(yearNum); yearLabel.appendChild(yearEra);
     var eraIdx = -1, legendKey = '', MARKS = [], marksEl = $('marks'), spanEl = $('lifespan'), markName = $('markname');
     function pct(y) { return (y - 1) / (END - 1) * 100; }
     function eventsFor(v) {
@@ -848,7 +865,7 @@
       }
     }
     function update(fromSlider) {
-      yearLabel.textContent = fmt(year);
+      yearNum.textContent = String(year < 1 ? 1 : Math.round(year));
       var here = markNear(Math.round(year), 0);
       if (markName) { markName.textContent = here ? here[1] : ''; markName.hidden = !here; }
       if (marksEl) Array.prototype.forEach.call(marksEl.children, function (b, i) { b.className = MARKS[i] === here ? 'on' : ''; });
@@ -938,7 +955,7 @@
       if (still) draw(performance.now());
     }
 
-    function stop() { playing = false; playBtn.textContent = 'Play'; playBtn.setAttribute('aria-pressed', 'false'); }
+    function stop() { playing = false; playBtn.textContent = '\u25b6 Play'; playBtn.setAttribute('aria-pressed', 'false'); }
 
     slider.addEventListener('input', function () { year = +slider.value; stop(); update(true); });
     // Letting go near a dated event lands on it. The reach is what three pixels of the track is worth.
@@ -965,7 +982,7 @@
     playBtn.addEventListener('click', function () {
       if (playing) { stop(); return; }
       if (year >= END - 5) year = 1;
-      playing = true; playBtn.textContent = 'Pause'; playBtn.setAttribute('aria-pressed', 'true');
+      playing = true; playBtn.textContent = '\u275a\u275a Pause'; playBtn.setAttribute('aria-pressed', 'true');
     });
     // What is under a point of the map, in css pixels: a lettered name first, then whichever entry owns that
     // cell of the field, then the same within a finger's width. Returns { pi } or { g } or null.
@@ -1229,7 +1246,7 @@
       fieldMs: function (n) { var t0 = performance.now(); for (var i = 0; i < n; i++) paint(i * 0.04); var t1 = performance.now(); splat(); return [(t1 - t0) / n, performance.now() - t1]; },
       dark: function () { var d = 0, land = 0; splat(); for (var i = 0; i < landCell.length; i++) if (landCell[i]) { land++; if (lb1[i] < 0 || lw1[i] < 0.045) d++; } return [d, land]; } };
     if (document.fonts && document.fonts.load) {
-      Promise.all([document.fonts.load('italic 600 12px "EB Garamond"'), document.fonts.load('italic 500 12px "EB Garamond"')])
+      Promise.all([document.fonts.load('700 12px "Space Grotesk"'), document.fonts.load('600 12px "Space Grotesk"'), document.fonts.load('500 12px Inter')])
         .then(function () { draw(performance.now()); }, function () {});
     }
     requestAnimationFrame(frame);
