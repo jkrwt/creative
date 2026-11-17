@@ -175,10 +175,13 @@
   window.PeoplesAtlas = function (data, coast, opts) {
     opts = opts || {};
     var V = { proj: 'local', lamc: 0, kx: 1, x0: 0, y1: 0, s: 1 };   // the view: projection, centre meridian, left and top in units, pixels per unit
-    var WU, HU, XMID, LATMIN, LATMAX, HALFLON, RX0 = 0, RX1 = 1e9, sizedFor = '';
+    var WU, HU, XMID, LATMIN, LATMAX, HALFLON, RX0 = 0, RX1 = 1e9;
+    // The camera. Null means the view's own frame. Otherwise the middle of the picture and its height, in the
+    // view's projected units, as left by a pinch, a drag, the wheel or the zoom buttons.
+    var cam = null, baseX0 = 0, baseY1 = 0, sMin = 1, sMax = 1;
     var REQ = null, REQP = 'local';    // the box that was asked for and its projection; the box shown may be wider
     function setBox(b, proj) {
-      REQ = b.slice();
+      REQ = b.slice(); cam = null;          // a new view starts from its own frame
       REQP = proj === 'equal-earth' || (!proj && (b[3] - b[1] > 42 || b[2] - b[0] > 80)) ? 'ee' : 'local';
     }
     function unit(v, dlon, lat) { return v.proj === 'ee' ? equalEarth(dlon, lat) : [dlon * v.kx, lat]; }
@@ -348,15 +351,26 @@
       applyBox();
       var cap = wide ? Math.max(320, Math.round(window.innerHeight * 0.8)) : 1e9;
       var floor = wide && w < 700 ? Math.round(Math.min(window.innerHeight * 0.56, 480)) : 0;   // a phone gets a map it can read
+      baseX0 = V.x0; baseY1 = V.y1;
       W = w; H = Math.round(w * HU / WU); S = W / WU;
       if (H > cap) { H = cap; S = H / HU; V.x0 = XMID - W / (2 * S); }   // too tall for the screen: keep the height and show more to the sides
-      else if (H < floor) { H = floor; S = H / HU; W = Math.ceil(WU * S); }   // too short: keep the height and let the map run on sideways
+      else if (H < floor) {            // too short for a phone: keep a working height, show the middle, and let a drag bring the rest
+        H = floor;
+        if (!cam) cam = { cx: XMID + (curView.parent ? 0 : WU * 0.04), cy: baseY1 - HU / 2, hu: HU, auto: true };
+      }
+      sMin = Math.min(W / WU, H / HU); sMax = Math.min(90, Math.max(sMin * 8, 12));   // as far in as the coastline and the claims have anything to show
       canvas.style.width = W + 'px';
-      if (holder && W > w + 1 && holder.scrollLeft != null && sizedFor !== REQ.join()) holder.scrollLeft = Math.round((W - w) * (curView.parent ? 0.5 : 0.56));
-      sizedFor = REQ.join();
-      V.s = S; RX0 = W / 2 - WU * S / 2; RX1 = W / 2 + WU * S / 2;      // the part of the canvas the view asked for
+      RX0 = W / 2 - WU * S / 2; RX1 = W / 2 + WU * S / 2;      // the part of the canvas the view asked for
+      if (cam) {
+        S = Math.max(sMin, Math.min(sMax, H / cam.hu)); cam.hu = H / S;
+        cam.cx = Math.max(baseX0, Math.min(baseX0 + WU, cam.cx)); cam.cy = Math.max(baseY1 - HU, Math.min(baseY1, cam.cy));
+        V.x0 = cam.cx - W / (2 * S); V.y1 = cam.cy + H / (2 * S); RX0 = 0; RX1 = W;
+        var latOf = function (y) { var lo = -89, hi = 89; for (var it = 0; it < 24; it++) { var mid = (lo + hi) / 2; if (unit(V, 0, mid)[1] < y) lo = mid; else hi = mid; } return (lo + hi) / 2; };
+        LATMIN = latOf(V.y1 - H / S); LATMAX = latOf(V.y1);
+      }
+      V.s = S;
       var perDeg = Math.min(Math.abs(unit(V, 1, LATMIN)[0]), Math.abs(unit(V, 1, LATMAX)[0]));
-      HALFLON = Math.min(180, W / (2 * S) / Math.max(0.05, perDeg) + 2);
+      HALFLON = Math.min(180, (Math.abs(V.x0 + W / (2 * S)) + W / (2 * S)) / Math.max(0.05, perDeg) + 2);   // far enough to either side of the centre meridian to cover the picture
       canvas.style.height = H + 'px';
       var PW = Math.round(W * dpr), PH = Math.round(H * dpr);
       canvas.width = PW; canvas.height = PH;
@@ -950,7 +964,7 @@
       }
       if (selected >= 0) showDetail(selected);
       if (!fromSlider) slider.value = Math.round(year);
-      writeHash();
+      writeHash(); if (typeof syncZoom === 'function') syncZoom();
       lastField = -1e9;
       if (still) draw(performance.now());
     }
@@ -1006,8 +1020,84 @@
       if (hit.g != null) return groups[gkeys[hit.g]].name + ' · ' + gLive[hit.g] + ' · open';
       var p = people[hit.pi]; return p.name + (p.type === 'language' ? ' · language' : p.type === 'polity' ? ' · state' : '');
     }
+    // Moving the camera. While fingers are down the picture already on the canvas is slid and stretched, which
+    // costs nothing; when they lift, the map is drawn again at the new place. One finger slides sideways and
+    // leaves up and down to the page. Two fingers pinch and move any way. A mouse drags any way, and the wheel
+    // zooms with Ctrl or Cmd held, which is also what a trackpad pinch sends.
+    var ptrs = {}, nPtr = 0, gest = null, dragged = false, wheelTimer = 0;
+    function holderRect() { return (canvas.parentNode || canvas).getBoundingClientRect(); }
+    function showGest() { canvas.style.transform = gest ? 'translate(' + gest.tx + 'px,' + gest.ty + 'px) scale(' + gest.k + ')' : ''; }
+    function clampK(k) { return Math.max(sMin / S, Math.min(sMax / S, k)); }
+    function commitGest() {
+      var g = gest; gest = null; canvas.style.transform = '';
+      if (!g || (Math.abs(g.k - 1) < 0.01 && Math.abs(g.tx) < 2 && Math.abs(g.ty) < 2)) return;
+      var s2 = S * g.k, x0 = V.x0 - g.tx / g.k / S, y1 = V.y1 + g.ty / g.k / S;
+      cam = { cx: x0 + W / (2 * s2), cy: y1 - H / (2 * s2), hu: H / s2 };
+      if (s2 <= sMin * 1.01 && !(H / HU > W / WU * 1.01)) cam = null;      // pinched all the way out: back to the view's own frame
+      tipAt = null; tipEl.hidden = true;
+      resize(); lastKey = ''; update(false); syncZoom();
+    }
+    function zoomBy(f) {
+      if (glide) return;
+      gest = { k: clampK(f), tx: 0, ty: 0 }; gest.tx = W / 2 * (1 - gest.k); gest.ty = H / 2 * (1 - gest.k); commitGest();
+    }
+    function resetCam() { if (glide) return; cam = null; resize(); lastKey = ''; update(false); syncZoom(); }
+    var zoomEl = el('div', 'zoom'), zoomIn = el('button', null, '+'), zoomOut = el('button', null, '\u2212'), zoomHome = el('button', null, '\u2302');
+    zoomEl.setAttribute('role', 'group'); zoomEl.setAttribute('aria-label', 'Zoom');
+    [[zoomIn, 'Zoom in', function () { zoomBy(1.6); }], [zoomOut, 'Zoom out', function () { zoomBy(1 / 1.6); }], [zoomHome, 'Back to the whole view', resetCam]].forEach(function (z) {
+      z[0].type = 'button'; z[0].setAttribute('aria-label', z[1]); z[0].title = z[1]; z[0].addEventListener('click', z[2]); zoomEl.appendChild(z[0]);
+    });
+    if (canvas.parentNode && canvas.parentNode.parentNode) canvas.parentNode.parentNode.appendChild(zoomEl);
+    function syncZoom() { zoomOut.disabled = S <= sMin * 1.01; zoomIn.disabled = S >= sMax * 0.99; zoomHome.disabled = !cam || !!cam.auto; }
+    function rebase() {                 // start measuring again from the fingers that are down now
+      var ids = Object.keys(ptrs), a = ptrs[ids[0]], b = ptrs[ids[1]];
+      gest.t0 = [gest.tx, gest.ty]; gest.k0 = gest.k;
+      if (b) { gest.d0 = Math.max(10, Math.hypot(a.x - b.x, a.y - b.y)); gest.m0 = [(a.x + b.x) / 2, (a.y + b.y) / 2]; }
+      else if (a) gest.m0 = [a.x, a.y];
+    }
+    canvas.addEventListener('pointerdown', function (ev) {
+      if (glide || (ev.pointerType === 'mouse' && ev.button !== 0)) return;
+      var r = holderRect(); ptrs[ev.pointerId] = { x: ev.clientX - r.left, y: ev.clientY - r.top, touch: ev.pointerType !== 'mouse' }; nPtr = Object.keys(ptrs).length;
+      if (!gest) { gest = { k: 1, tx: 0, ty: 0 }; dragged = false; }
+      try { canvas.setPointerCapture(ev.pointerId); } catch (e) {}
+      rebase();
+    });
+    canvas.addEventListener('pointermove', function (ev) {
+      var pt = ptrs[ev.pointerId]; if (!pt || !gest) return;
+      var r = holderRect(); pt.x = ev.clientX - r.left; pt.y = ev.clientY - r.top;
+      var ids = Object.keys(ptrs), a = ptrs[ids[0]], b = ptrs[ids[1]];
+      if (b) {
+        var mid = [(a.x + b.x) / 2, (a.y + b.y) / 2], k = clampK(gest.k0 * Math.hypot(a.x - b.x, a.y - b.y) / gest.d0);
+        var px0 = (gest.m0[0] - gest.t0[0]) / gest.k0, py0 = (gest.m0[1] - gest.t0[1]) / gest.k0;      // the point of the picture under the fingers
+        gest.k = k; gest.tx = mid[0] - k * px0; gest.ty = mid[1] - k * py0; dragged = true;
+      } else {
+        var dx = a.x - gest.m0[0], dy = a.y - gest.m0[1];
+        if (!dragged && Math.abs(dx) + Math.abs(dy) < 7) return;
+        dragged = true; gest.tx = gest.t0[0] + dx; gest.ty = gest.t0[1] + (a.touch ? 0 : dy);
+      }
+      showGest();
+    });
+    function liftPointer(ev) {
+      if (!ptrs[ev.pointerId]) return;
+      delete ptrs[ev.pointerId]; nPtr = Object.keys(ptrs).length;
+      if (!gest) return;
+      if (nPtr) rebase(); else if (dragged) commitGest(); else gest = null;
+    }
+    canvas.addEventListener('pointerup', liftPointer);
+    canvas.addEventListener('pointercancel', liftPointer);
+    canvas.addEventListener('wheel', function (ev) {
+      if (!(ev.ctrlKey || ev.metaKey) || glide) return;
+      ev.preventDefault();
+      var r = holderRect(), fx = ev.clientX - r.left, fy = ev.clientY - r.top;
+      if (!gest) gest = { k: 1, tx: 0, ty: 0 };
+      var k = clampK(gest.k * Math.exp(-ev.deltaY * 0.012)), pxw = (fx - gest.tx) / gest.k, pyw = (fy - gest.ty) / gest.k;
+      gest.k = k; gest.tx = fx - k * pxw; gest.ty = fy - k * pyw; showGest();
+      clearTimeout(wheelTimer); wheelTimer = setTimeout(commitGest, 170);
+    }, { passive: false });
+
     canvas.addEventListener('click', function (ev) {
       if (glide) return;
+      if (dragged) { dragged = false; return; }                // the end of a drag is not a tap
       var r = canvas.getBoundingClientRect(), hit = hitAt(ev.clientX - r.left, ev.clientY - r.top, 15);
       if (hit && hit.g != null) { openGroup(hit.g); return; }
       select(hit ? hit.pi : -1);
@@ -1239,7 +1329,7 @@
     }
     window.addEventListener('hashchange', readHash);
     window.addEventListener('resize', resize);
-    showDetail(-1); resize(); update(false); readHash();
+    showDetail(-1); resize(); update(false); readHash(); syncZoom();
     window.__atlas = { state: function () { return { view: curView.id, year: year, open: openG >= 0 ? gkeys[openG] : '', W: W, H: H, cell: CELL, cells: GW * GH }; },
       setView: function (id) { if (viewById[id]) { var keep = still; still = true; setView(viewById[id]); viewButtons(); still = keep; } },
       setYear: function (y) { year = y; update(false); }, openGroup: function (id) { var keep = still; still = true; openGroup(gpos[id]); still = keep; },
