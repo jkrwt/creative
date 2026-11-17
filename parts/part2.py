@@ -1,6 +1,9 @@
 {
  "part": 2,
  "regions": ["iran", "afghanistan", "turan", "steppe", "wsiberia"],
+ # Attested before the audit's date for the region. aorsi: Strabo, and Tacitus for the year 49. kyrgyz-yenisei: Tang
+ # histories and Old Turkic inscriptions. sibir-khanate and bashkirs: Russian records of the 1550s.
+ "attested_early": ["aorsi", "kyrgyz-yenisei", "sibir-khanate", "bashkirs"],
  "sources": [
    ("isidore-charax", "Isidore of Charax, Parthian Stations", "text", "about 1", "no", "An itinerary across the Parthian empire from the Euphrates to Arachosia."),
    ("iranian-coins", "Coins of the Parthian, Persid, Kushan, Sasanian and Hunnic rulers", "coin", "3rd century BCE to 8th century", "yes", "Bucket. A checked claim cites the issue."),
@@ -92,8 +95,8 @@
    ]),
    ("turkmen-speakers", "Turkmen", "language", "oghuz", "no", "turan+iran+afghanistan", "", [
      (59.0, 39.5, 480, 1050, 2026, 1, "r", "kashgari-diwan;soviet-censuses", "Oghuz Turkic spread over the Karakum from the 11th century. Much of this land is desert and thinly peopled."),
-     (55.3, 37.6, 120, 1500, 2026, 1, "a", "modern-ethnography", "The Gorgan plain in Iran."),
-     (64.5, 36.6, 160, 1700, 2026, 1, "a", "modern-ethnography", "North-western Afghanistan."),
+     (55.3, 37.6, 120, 1500, 2026, 1, "r", "modern-ethnography", "The Gorgan plain in Iran. The starting date is an estimate."),
+     (64.5, 36.6, 160, 1700, 2026, 1, "r", "modern-ethnography", "North-western Afghanistan. The starting date is an estimate."),
    ]),
    ("qashqai-speakers", "Qashqai and Khorasani Turkic", "language", "oghuz", "no", "iran", "", [
      (52.2, 30.2, 170, 1500, 2026, 1, "r", "modern-ethnography", "The Qashqai of Fars, who moved each year between the Gulf lowlands and the Zagros."),
@@ -207,7 +210,7 @@
    ]),
    ("volga-bulgar-speakers", "Volga Bulgar and Chuvash", "language", "turk", "no", "east", "", [
      (49.5, 55.0, 280, 700, 1400, 0, "r", "ibn-fadlan", "Bulgars settled where the Kama meets the Volga in the 8th century."),
-     (47.0, 55.5, 140, 1400, 2026, 1, "a", "census-1897", "Chuvash, the one surviving language of the Bulgar branch of Turkic."),
+     (47.0, 55.5, 140, 1400, 2026, 1, "r", "census-1897", "Chuvash, the one surviving language of the Bulgar branch of Turkic. Russian records name the Chuvash from the 16th century."),
    ]),
    ("tatar-speakers", "Tatar", "language", "kipch", "no", "east", "", [
      (50.5, 55.5, 280, 1250, 2026, 1, "r", "census-1897;linguistic-geography", "Kazan Tatar grew from Bulgar and Kipchak speech under the Golden Horde."),
@@ -226,9 +229,9 @@
      (59.0, 60.5, 300, 1, 1750, 0, "r", "primary-chronicle;russian-siberian-records", "Mansi lived west of the Urals too, on the upper Kama and the Pechora, until Russian settlement."),
    ]),
    ("samoyedic-speakers", "Nenets and other Samoyedic", "language", "samoyed", "no", "east+wsiberia", "", [
-     (72.0, 69.0, 750, 1, 2026, 1, "i", "linguistic-geography;russian-siberian-records", "The tundra from the Ob to the Yenisei. Reindeer hunters and later herders, very thinly spread."),
-     (98.0, 74.0, 620, 1, 2026, 1, "i", "linguistic-geography;russian-siberian-records", "Taymyr, the land of the Nganasan and Enets. The Arctic islands inside this circle had no people."),
-     (52.0, 67.5, 480, 1, 2026, 1, "i", "primary-chronicle;linguistic-geography", "The tundra west of the Urals. The Primary Chronicle names the Samoyad in 1096, and whether Samoyedic speakers were here much earlier is uncertain."),
+     (72.0, 69.0, 750, 1, 2026, 1, "i", "linguistic-geography;russian-siberian-records", "The tundra from the Ob to the Yenisei. Reindeer hunters and later herders, very thinly spread. Samoyedic speakers may have come north from southern Siberia only in the first millennium, and what was spoken here before them is not known."),
+     (98.0, 74.0, 620, 1, 2026, 1, "i", "linguistic-geography;russian-siberian-records", "Taymyr, the land of the Nganasan and Enets. The Arctic islands inside this circle had no people. The early centuries are a guess, as on the Ob."),
+     (52.0, 67.5, 480, 1, 2026, 1, "i", "primary-chronicle;linguistic-geography", "The tundra west of the Urals. The Primary Chronicle names the Samoyad in 1096. One view brings Samoyedic speakers to the far north only some time before the 12th century, so the earlier centuries here are a guess."),
      (57.0, 76.5, 600, 1, 2026, 1, "i", "linguistic-geography", "Novaya Zemlya and Franz Josef Land had no settled people. Nenets and Russian hunters visited Novaya Zemlya."),
      (81.0, 60.5, 420, 1, 2026, 1, "r", "linguistic-geography;russian-siberian-records", "Selkup, on the middle Ob and the Taz."),
      (95.0, 54.0, 330, 1, 1850, 0, "r", "linguistic-geography;russian-siberian-records", "Kamas and Mator, Samoyedic languages of the Sayan mountains that died out by the 20th century."),
@@ -236,7 +239,7 @@
    ("yeniseian-speakers", "Ket and Yeniseian", "language", "paleosib", "no", "wsiberia", "", [
      (90.0, 57.0, 560, 1, 1750, 0, "i", "linguistic-geography", "River names show that Yeniseian languages were once spoken across southern Siberia. Kott, Arin and Assan died out in the 18th and 19th centuries."),
      (88.0, 62.5, 330, 1750, 2026, 1, "a", "russian-siberian-records;soviet-censuses", "Ket, on the middle Yenisei, the last language of the family."),
-     (98.0, 63.0, 620, 1, 1300, 0, "i", "linguistic-geography", "The taiga east of the Yenisei, very thinly peopled. The languages are unknown, and Yeniseian or other Old Siberian languages are assumed."),
+     (98.0, 63.0, 620, 1, 1300, 0, "i", "linguistic-geography", "The taiga east of the Yenisei, very thinly peopled. The languages are unknown. Yeniseian speakers are now thought to have come north from the Sayan and Baikal country quite late, so this claim stands for unknown Old Siberian languages."),
      (100.5, 54.5, 420, 1, 600, 0, "i", "linguistic-geography", "The Angara country west of Lake Baikal. The languages are unknown."),
    ]),
    ("evenki-speakers-yenisei", "Evenki", "language", "tung", "no", "wsiberia", "", [
@@ -297,8 +300,8 @@
      (51.0, 32.5, 500, 934, 1062, 0, "a", "persian-histories", "Daylamite soldiers from the Caspian mountains who took western Iran and, in 945, Baghdad."),
    ]),
    ("ghaznavids-ghazna", "Ghaznavids", "people", "turk", "no", "afghanistan+iran+turan+indus", "iranian-dynasties", [
-     (66.0, 34.0, 600, 977, 1040, 0, "a", "persian-histories", "Turkic slave soldiers of the Samanids founded a state at Ghazni. Mahmud raided India from here."),
-     (69.0, 33.0, 300, 1040, 1163, 0, "a", "persian-histories", "After losing Khurasan to the Seljuks in 1040 they kept Ghazni and the Punjab."),
+     (67.5, 33.8, 600, 977, 1040, 0, "a", "persian-histories", "Turkic slave soldiers of the Samanids founded a state at Ghazni. Mahmud raided India from here."),
+     (69.0, 33.0, 300, 1040, 1163, 0, "a", "persian-histories", "After losing Khurasan to the Seljuks in 1040 they kept Ghazni and the Punjab. Ghazni was lost in 1151 or 1163, sources differ, and the last of the line held Lahore until 1186."),
    ]),
    ("ghurids-ghor", "Ghurids", "people", "eiran", "yes", "afghanistan+iran+indus", "iranian-dynasties", [
      (65.0, 34.0, 450, 1148, 1215, 0, "a", "persian-histories", "Chiefs of the mountains of Ghor who burned Ghazni and conquered as far as Bengal. The speech of Ghor is said to have differed from Persian."),
@@ -365,11 +368,9 @@
      (71.5, 40.6, 170, 1, 750, 0, "a", "chinese-histories-west", "The Dayuan of the Han histories, a land of walled towns and prized horses, later under its own kings until the Arab conquest."),
    ]),
    ("khwarezmians", "Khwarezmians", "people", "eiran", "no", "turan", "sogd-and-khwarezm", [
-     (60.6, 41.8, 220, 1, 995, 0, "a", "biruni;iranian-coins", "A kingdom on the lower Amu Darya with its own era and script. Al-Biruni lists its Afrighid kings at Kath."),
+     (60.6, 41.8, 220, 1, 712, 0, "r", "biruni;iranian-coins", "A kingdom on the lower Amu Darya with its own era, script and coins. Al-Biruni's list of its Afrighid kings at Kath was written about 1000, long after the early reigns."),
+     (60.6, 41.8, 220, 712, 995, 0, "a", "tabari;biruni", "Arab armies under Qutayba entered Khwarezm in 712, and from then Arabic writers record the kingdom and its shahs at Kath."),
      (60.0, 42.0, 220, 995, 1220, 0, "r", "biruni;juvayni", "Under the Mamunids and then Turkic governors, the Khwarazmshahs. The Mongols destroyed Urgench in 1221."),
-   ]),
-   ("sogdian-colonies", "Sogdian colonies", "people", "eiran", "no", "turan+steppe", "sogd-and-khwarezm", [
-     (73.5, 42.8, 230, 550, 1000, 0, "a", "xuanzang-xiyuji;sogdian-documents", "Trading towns such as Suyab, Navekat and Talas, along the Chu and the Talas under Turkic rule."),
    ]),
    # ---------------------------------------------------------------- Bactria and Kabul
    ("yuezhi-bactria", "Yuezhi", "people", "steppeunk", "yes", "afghanistan+turan", "bactria-and-kabul", [
@@ -405,23 +406,21 @@
      (62.0, 31.0, 230, 1, 240, 0, "a", "isidore-charax", "The Parthian Stations calls the country Sakastan. The name survives as Sistan."),
    ]),
    ("kangju", "Kangju", "people", "eiran", "yes", "steppe+turan", "saka-peoples", [
-     (67.5, 43.5, 330, 1, 400, 0, "a", "chinese-histories-west", "A nomad power on the middle Syr Darya with towns under its protection, known from Chinese report. Its language is assumed from names."),
+     (67.5, 43.5, 330, 1, 280, 0, "a", "chinese-histories-west", "A nomad power on the middle Syr Darya with towns under its protection, described in the Hanshu, the Hou Hanshu and the Weilue. Its language is taken to be eastern Iranian, close to Sogdian."),
+     (67.5, 43.5, 300, 280, 400, 0, "r", "chinese-histories-west", "After the 3rd century Chinese report thins and Kangju declines. It is gone by the 5th century."),
    ]),
-   ("wusun-semirechye", "Wusun", "people", "steppeunk", "yes", "steppe+turan", "saka-peoples", [
-     (78.0, 43.5, 300, 1, 400, 0, "a", "chinese-histories-west", "Herders of the Ili valley and Issyk-Kul, allies of Han China by marriage. Their language is not known."),
+   ("wusun-semirechye", "Wusun", "people", "eiran", "yes", "steppe+turan", "saka-peoples", [
+     (78.0, 43.5, 300, 1, 400, 0, "a", "chinese-histories-west", "Herders of the Ili valley and Issyk-Kul, allies of Han China by marriage, in Chinese records until 436. Most scholars take their language to be Iranian, but it is not recorded and others have argued for Tocharian or Turkic."),
    ]),
    ("dahae", "Dahae", "people", "eiran", "yes", "turan", "saka-peoples", [
      (56.5, 39.5, 280, 1, 250, 0, "r", "strabo-geog", "Nomads east of the Caspian. The Parni, from whom the Parthian kings came, were one of their divisions."),
    ]),
    ("aorsi", "Aorsi", "people", "iran", "yes", "steppe+east", "saka-peoples", [
-     (51.0, 48.0, 400, 1, 100, 0, "a", "strabo-geog", "Strabo places the Upper Aorsi along the Caspian and says they carried Indian and Babylonian goods by camel. The Alans replaced them."),
-   ]),
-   ("saka-tian-shan", "Saka of the Tian Shan", "people", "eiran", "yes", "steppe+turan", "saka-peoples", [
-     (75.5, 42.3, 280, 1, 200, 0, "r", "chinese-histories-west;steppe-archaeology", "The Sai of the Han histories, living among the Wusun. Burial mounds around Issyk-Kul are of Saka type."),
+     (51.0, 48.0, 400, 1, 100, 0, "a", "strabo-geog;tacitus", "Strabo places the Upper Aorsi along the Caspian and says they carried Indian and Babylonian goods by camel. Tacitus names their king in 49. The Alans replaced them in the 1st century."),
    ]),
    # ---------------------------------------------------------------- Huns of the east
    ("kidarites", "Kidarites", "people", "steppeunk", "yes", "afghanistan+turan+indus", "eastern-huns", [
-     (67.0, 36.5, 380, 360, 470, 0, "a", "ammianus;iranian-coins", "Huns who took Bactria and then Gandhara, perhaps the Chionites whom Ammianus saw fighting beside the Persians in 359. Their kings took the Kushan title."),
+     (67.0, 36.5, 380, 360, 467, 0, "a", "ammianus;iranian-coins", "Huns who took Bactria and then Gandhara, perhaps the Chionites whom Ammianus saw fighting beside the Persians in 359. Their kings took the Kushan title. The Persian king Peroz beat them in 467."),
    ]),
    ("hephthalites", "Hephthalites", "people", "steppeunk", "yes", "afghanistan+turan", "eastern-huns", [
      (67.0, 37.5, 550, 450, 560, 0, "a", "procopius;chinese-histories-west", "Procopius calls them White Huns. From Bactria they ruled Sogd, killed the Persian king Peroz in 484, and were broken by Persians and Turks about 560."),
@@ -431,11 +430,8 @@
      (69.2, 34.8, 200, 480, 665, 0, "a", "iranian-coins;xuanzang-xiyuji", "Kings of Kapisa and Kabul, known from coins with a bull-headed crown. Xuanzang visited their court."),
    ]),
    # ---------------------------------------------------------------- Turkic khaganates
-   ("sabirs", "Sabirs", "people", "turk", "yes", "steppe+wsiberia", "turkic-khaganates", [
-     (66.0, 52.0, 450, 400, 515, 0, "i", "procopius;linguistic-geography", "Byzantine writers say the Sabirs drove the Oghur peoples west about 463 and later appear north of the Caucasus. Their earlier home is a guess, and the name may live on in Siberia."),
-   ]),
    ("western-turks", "Western Turks", "people", "turk", "no", "steppe+turan+afghanistan", "turkic-khaganates", [
-     (73.0, 43.5, 750, 552, 659, 0, "a", "chinese-histories-west;menander", "The western wing of the Turk khaganate, under Istemi and his heirs, with a court near Suyab. A Roman envoy reached it in 569, and Tang China broke it in 659."),
+     (73.0, 43.5, 750, 552, 657, 0, "a", "chinese-histories-west;menander", "The western wing of the Turk khaganate, under Istemi and his heirs, with a court at Suyab. A Roman envoy reached it in 569. It was a khaganate of its own from about 600, and Tang China broke it in 657."),
    ]),
    ("karluks-west", "Karluks", "people", "turk", "no", "steppe+turan", "turkic-khaganates", [
      (76.0, 43.5, 350, 766, 940, 0, "a", "arab-geographers", "After the Turgesh, the Karluks held Semirechye. The Kara-Khanid house came from among them."),
@@ -459,9 +455,10 @@
    ("kara-khitai-west", "Kara-Khitai", "people", "xianbei", "no", "turan+steppe", "turkic-khaganates", [
      (75.0, 43.0, 550, 1130, 1218, 0, "a", "juvayni", "Khitans who fled west when their Liao state fell in north China. From Balasagun they ruled Muslim Turks and beat the Seljuk sultan Sanjar in 1141."),
    ]),
-   ("kyrgyz-yenisei", "Yenisei Kyrgyz", "people", "sibturk", "no", "wsiberia", "turkic-khaganates", [
+   ("kyrgyz-yenisei", "Yenisei Kyrgyz", "people", "sibturk", "no", "wsiberia", "west-siberians", [
      (91.5, 53.8, 250, 1, 550, 0, "r", "chinese-histories-west;steppe-archaeology", "The Jiankun of the Han histories. The Tashtyk culture of the Minusinsk basin is usually linked with them, and their language then is uncertain."),
-     (92.0, 53.3, 350, 550, 1207, 0, "a", "old-turkic-inscriptions;chinese-histories-west", "A Turkic-speaking kingdom on the upper Yenisei. In 840 it destroyed the Uyghur khaganate in Mongolia, and in 1207 it submitted to the Mongols."),
+     (92.0, 53.3, 300, 550, 650, 0, "r", "chinese-histories-west", "Subjects of the first Turk khaganate. There is no evidence for their language before the Tang period."),
+     (92.0, 53.3, 350, 650, 1207, 0, "a", "old-turkic-inscriptions;chinese-histories-west", "A Turkic-speaking kingdom on the upper Yenisei, described in the Tang histories and named in Turkic inscriptions from the 8th century. In 840 it destroyed the Uyghur khaganate in Mongolia, and in 1207 it submitted to the Mongols."),
    ]),
    # ---------------------------------------------------------------- Mongol successors
    ("ilkhanate", "Ilkhanate", "people", "mong", "no", "iran+afghanistan", "mongol-successors", [
@@ -486,11 +483,12 @@
      (49.1, 55.8, 250, 1438, 1552, 0, "a", "russian-siberian-records", "A successor of the Golden Horde on the middle Volga. Ivan IV took Kazan in 1552 and Astrakhan in 1556."),
    ]),
    ("sibir-khanate", "Khanate of Sibir", "people", "kipch", "no", "wsiberia", "mongol-successors", [
-     (68.5, 57.5, 330, 1468, 1598, 0, "a", "russian-siberian-records", "A Tatar khanate on the Tobol and the Irtysh that took tribute from the Khanty and Mansi. Yermak's Cossacks took its capital in 1582, and Khan Kuchum fought on until 1598."),
+     (68.5, 57.5, 330, 1468, 1555, 0, "r", "russian-siberian-records", "A Tatar khanate on the Tobol and the Irtysh that took tribute from the Khanty and Mansi. Its first century is known from later chronicles and the founding date is conventional."),
+     (68.5, 57.5, 330, 1555, 1598, 0, "a", "russian-siberian-records", "After Kazan fell its ruler Yediger sent to Moscow and paid tribute in the 1550s. Kuchum took the throne by 1563, Yermak's Cossacks took the capital in 1582, and Kuchum fought on until 1598."),
    ]),
    # ---------------------------------------------------------------- Hordes and khanates
    ("kazakh-khanate", "Kazakh Khanate", "people", "kipch", "no", "steppe", "hordes-and-khanates", [
-     (71.0, 45.0, 500, 1465, 1718, 0, "a", "persian-histories;russian-siberian-records", "Janibek and Kerei led their people away from the Uzbek khan about 1465. The khans later sat at Turkistan on the Syr Darya."),
+     (69.0, 44.5, 500, 1465, 1718, 0, "a", "persian-histories;russian-siberian-records", "Janibek and Kerei led their people away from the Uzbek khan about 1465, the date usually given. The khans later sat at Turkistan on the Syr Darya. Tauke, the last khan of all three zhuzes, died in 1715 or 1718."),
    ]),
    ("kazakh-zhuzes", "Kazakh zhuzes", "people", "kipch", "no", "steppe", "hordes-and-khanates", [
      (54.5, 48.0, 420, 1718, 1824, 0, "a", "russian-siberian-records", "The Junior Zhuz, in the west. It took Russian protection in 1731."),
@@ -502,7 +500,7 @@
    ]),
    ("khanate-of-bukhara", "Bukhara", "people", "karluk", "no", "turan+afghanistan", "hordes-and-khanates", [
      (65.5, 39.5, 400, 1500, 1785, 0, "a", "persian-histories", "Shaybani Khan's Uzbeks took Transoxiana from the Timurids by 1507. The khanate passed from the Shaybanids to the Janids in 1599."),
-     (65.5, 39.3, 330, 1785, 1920, 0, "a", "persian-histories;acts-treaties", "The Manghit emirs. A Russian protectorate from 1868, ended by the Red Army in 1920."),
+     (65.5, 39.3, 330, 1785, 1920, 0, "a", "persian-histories;acts-treaties", "The Manghit emirs. Russia took Samarkand and imposed a treaty in 1868, the emirate was formally a protectorate from 1873, and the Red Army ended it in 1920."),
    ]),
    ("khanate-of-khiva", "Khiva", "people", "karluk", "no", "turan", "hordes-and-khanates", [
      (60.4, 41.5, 280, 1511, 1920, 0, "a", "persian-histories;acts-treaties", "An Uzbek khanate in Khwarezm. A Russian protectorate from 1873."),
@@ -518,7 +516,7 @@
      (59.5, 43.0, 180, 1750, 2026, 1, "a", "census-1897;soviet-censuses", "They moved to the Amu Darya delta in the 18th century. Karakalpakstan is an autonomous republic of Uzbekistan."),
    ]),
    ("kyrgyz-tian-shan", "Kyrgyz", "people", "kipch", "no", "turan", "hordes-and-khanates", [
-     (75.5, 41.7, 280, 1500, 2026, 1, "a", "persian-histories;soviet-censuses", "Mountain herders of the Tian Shan, under Moghul, Dzungar and Kokand overlords and Russian rule from the 1860s."),
+     (75.5, 41.7, 280, 1500, 2026, 1, "a", "persian-histories;soviet-censuses", "Mountain herders of the Tian Shan, under Moghul, Dzungar and Kokand overlords and Russian rule from the 1860s. The name is recorded here by the 16th century. When they came, and whether many came from the Yenisei at all, is not settled."),
    ]),
    ("turkmens", "Turkmens", "people", "oghuz", "no", "turan+iran+afghanistan", "hordes-and-khanates", [
      (57.5, 40.0, 400, 1050, 1600, 0, "r", "kashgari-diwan;persian-histories", "Oghuz who stayed east of the Caspian and became Muslim were called Turkmen."),
@@ -556,14 +554,15 @@
      (55.5, 54.8, 200, 800, 1240, 0, "i", "carpini-rubruck", "The friars call this country Great Hungary. Julian found people there in 1236 whose speech he understood, shortly before the Mongols came."),
    ]),
    ("volga-bulgars", "Volga Bulgars", "people", "turk", "no", "east", "volga-and-kama", [
-     (49.5, 55.0, 250, 700, 1240, 0, "a", "ibn-fadlan;primary-chronicle", "A trading state where the Kama meets the Volga. Its ruler took Islam and received the caliph's embassy in 922, and the Mongols conquered it in 1236."),
+     (49.5, 55.0, 250, 700, 922, 0, "r", "ibn-fadlan;steppe-archaeology", "Bulgars settled where the Kama meets the Volga. Accounts of when the state formed range from the late 7th to the late 9th century."),
+     (49.5, 55.0, 250, 922, 1240, 0, "a", "ibn-fadlan;primary-chronicle", "A trading state where the Kama meets the Volga. Its ruler took Islam and received the caliph's embassy in 922, and the Mongols conquered it in 1236."),
      (49.5, 55.0, 200, 1240, 1438, 0, "r", "carpini-rubruck", "Under the Golden Horde the Bulgar towns went on, and their people merged into the Kazan Tatars and the Chuvash."),
    ]),
    ("chuvash", "Chuvash", "people", "turk", "no", "east", "volga-and-kama", [
      (47.0, 55.5, 120, 1500, 2026, 1, "a", "russian-siberian-records;census-1897", "First named in Russian records in the early 16th century."),
    ]),
    ("bashkirs", "Bashkirs", "people", "kipch", "no", "east+wsiberia", "volga-and-kama", [
-     (57.0, 54.0, 280, 900, 1557, 0, "a", "ibn-fadlan;carpini-rubruck", "Herders of the southern Urals, met by Ibn Fadlan in 922."),
+     (57.0, 54.0, 280, 900, 1557, 0, "r", "ibn-fadlan;carpini-rubruck", "Herders of the southern Urals. Ibn Fadlan met Bashkirs in 922 on his road to the Bulgars, west of the mountains, and the friars use the name for Great Hungary, so their place in these centuries is set by later scholarship."),
      (57.0, 53.8, 280, 1557, 2026, 1, "a", "russian-siberian-records;census-1897", "They accepted Moscow's rule in the 1550s and rose against it several times down to 1775."),
    ]),
    ("volga-tatars", "Volga Tatars", "people", "kipch", "no", "east", "volga-and-kama", [
@@ -617,7 +616,7 @@
      (55.0, 35.0, 1000, 1040, 1157, 0, "a", "persian-histories", "Oghuz Turks under the house of Seljuk beat the Ghaznavids in 1040 and took Baghdad in 1055. The east held together until the death of Sanjar at Merv in 1157."),
    ]),
    ("khwarazmian-empire", "Khwarazmian Empire", "polity", "", "no", "turan+iran+afghanistan", "", [
-     (59.5, 40.0, 450, 1097, 1194, 0, "a", "juvayni", "Turkic governors of Khwarezm for the Seljuks, the Khwarazmshahs made themselves independent."),
+     (59.5, 40.0, 450, 1077, 1194, 0, "a", "juvayni", "Turkic governors of Khwarezm for the Seljuks from 1077, the Khwarazmshahs were vassals of the Seljuks and then the Kara-Khitai and made themselves independent late in the 12th century."),
      (58.5, 36.5, 950, 1194, 1221, 0, "a", "juvayni", "For a generation they ruled from the Syr Darya to the Zagros. Chinggis Khan destroyed the state between 1219 and 1221."),
    ]),
    ("timurid-empire", "Timurid Empire", "polity", "karluk", "no", "turan+iran+afghanistan+mesopotamia", "", [
@@ -628,7 +627,7 @@
      (53.0, 33.5, 750, 1501, 1736, 0, "a", "persian-histories", "Shah Ismail took Tabriz in 1501 with Turkmen followers and made Twelver Shia Islam the faith of the state. Isfahan was the capital from 1598."),
    ]),
    ("qajar-iran", "Qajar Iran", "polity", "", "no", "iran", "", [
-     (53.0, 33.0, 700, 1796, 1925, 0, "a", "persian-histories;acts-treaties", "A Turkmen house that reunited Iran from Tehran. It lost the Caucasus to Russia by 1828 and Herat to the Afghans."),
+     (53.0, 33.0, 700, 1794, 1925, 0, "a", "persian-histories;acts-treaties", "A Turkmen house that reunited Iran from Tehran. Agha Mohammad Khan destroyed the last Zand in 1794 and was crowned in 1796. It lost the Caucasus to Russia by 1828 and Herat to the Afghans."),
    ]),
    ("iran", "Iran", "polity", "", "no", "iran", "", [
      (53.5, 32.5, 650, 1925, 2026, 1, "a", "acts-treaties", "Under the Pahlavi shahs from 1925 and an Islamic republic since the revolution of 1979."),

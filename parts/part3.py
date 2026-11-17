@@ -285,8 +285,8 @@
      (81.3, 7.5, 60, 1500, 1950, 0, "r", "knox-ceylon;linguistic-geography", "The eastern forests."),
    ]),
    ("dhivehi-speakers", "Dhivehi", "language", "sinh", "no", "lanka", "", [
-     (73.3, 3.5, 420, 1, 1150, 0, "r", "linguistic-geography", "The Maldives were settled by speakers of an early form of Sinhala. The date is uncertain and may be a few centuries after 1 CE."),
-     (73.3, 3.5, 420, 1150, 2026, 1, "a", "indian-inscriptions;ibn-battuta;census-india", "Copper plate grants in Dhivehi survive from the 12th century."),
+     (73.3, 3.5, 470, 1, 1150, 0, "r", "linguistic-geography", "The Maldives were settled by speakers of an early form of Sinhala. The date is uncertain and may be a few centuries after 1 CE."),
+     (73.3, 3.5, 470, 1150, 2026, 1, "a", "indian-inscriptions;ibn-battuta;census-india", "Copper plate grants in Dhivehi survive from the end of the 12th century."),
    ]),
 
    # ---------------------------------------------------------------- Indus and Punjab
@@ -302,10 +302,10 @@
    ]),
    ("arab-sindh", "Arab Sindh", "people", "arab", "no", "indus", "indus-punjab", [
      (68.6, 26.2, 300, 712, 854, 0, "a", "arab-geographers-sindh;chachnama", "Conquered for the Umayyad caliphate by Muhammad ibn al-Qasim in 712."),
-     (68.6, 25.9, 220, 854, 1025, 0, "a", "arab-geographers-sindh", "The Habbari emirs of Mansura. A separate emirate held Multan."),
+     (68.6, 25.9, 220, 854, 1026, 0, "a", "arab-geographers-sindh", "The Habbari emirs of Mansura. A separate emirate held Multan. Mahmud of Ghazni ended Arab rule in Sindh in 1026."),
    ]),
    ("hindu-shahis", "Hindu Shahis", "people", "indn", "yes", "indus", "indus-punjab", [
-     (72.6, 33.6, 250, 850, 1026, 0, "a", "al-biruni;indian-coins;rajatarangini", "Kings of Gandhara and Punjab, with their seat at Hund on the Indus after losing Kabul. The Ghaznavids destroyed the kingdom."),
+     (72.6, 33.6, 250, 850, 1026, 0, "a", "al-biruni;indian-coins;rajatarangini", "Kings of Gandhara and Punjab, with their seat at Hund on the Indus after losing Kabul. Their start is put between 822 and 870. The Ghaznavids destroyed the kingdom."),
    ]),
    ("sindh-soomra-samma", "Soomras and Sammas", "people", "indw", "no", "indus", "indus-punjab", [
      (68.4, 25.2, 220, 1026, 1351, 0, "r", "persian-chronicles", "The Soomras, a local line in lower Sindh. Little contemporary record survives."),
@@ -320,7 +320,8 @@
    ]),
    ("baloch-east", "Baloch", "people", "wiran", "no", "indus", "indus-punjab", [
      (63.8, 26.6, 280, 1100, 2026, 1, "r", "linguistic-geography;census-india", "Baloch tradition and the evidence of the language bring them east from Kerman into Makran after 1000."),
-     (68.4, 29.0, 200, 1450, 2026, 1, "a", "persian-chronicles;census-india", "Baloch clans on the Kachhi plain and along the Indus. Balochistan today is divided between Pakistan and Iran."),
+     (68.4, 29.0, 200, 1450, 1519, 0, "r", "persian-chronicles;linguistic-geography", "Baloch clans reached the Kachhi plain and the Indus in the 15th century. The accounts of this move are ballads and later chronicles."),
+     (68.4, 29.0, 200, 1519, 2026, 1, "a", "persian-chronicles;census-india", "Baloch clans on the Kachhi plain and along the Indus, where Babur met them in 1519. Balochistan today is divided between Pakistan and Iran."),
    ]),
    ("brahuis", "Brahui", "people", "dravn", "no", "indus", "indus-punjab", [
      (66.4, 28.6, 180, 1100, 2026, 1, "r", "linguistic-geography;census-india", "Herders of the Kalat highlands who speak a Dravidian language. When they came there is disputed."),
@@ -340,7 +341,7 @@
    ]),
    # ---------------------------------------------------------------- Rajputs and the west
    ("western-kshatrapas", "Western Kshatrapas", "people", "eiran", "yes", "hindustan+deccan", "rajput-west", [
-     (72.8, 22.8, 330, 35, 405, 0, "a", "indian-coins;indian-inscriptions;periplus;ptolemy-geog", "Saka rulers of Gujarat and Malwa. The Periplus names one at Barygaza, Ptolemy names another at Ujjain, and their dated coins run for three centuries. Their inscriptions are in Prakrit and Sanskrit."),
+     (72.8, 22.8, 330, 35, 415, 0, "a", "indian-coins;indian-inscriptions;periplus;ptolemy-geog", "Saka rulers of Gujarat and Malwa. The Periplus names one at Barygaza, Ptolemy names another at Ujjain, and their dated coins run for three centuries. Their inscriptions are in Prakrit and Sanskrit."),
    ]),
    ("malavas", "Malavas", "people", "indn", "no", "hindustan", "rajput-west", [
      (75.8, 25.8, 170, 1, 400, 0, "r", "indian-coins;indian-inscriptions", "A republic of eastern Rajasthan known from small copper coins. The region of Malwa to the south later took their name."),
@@ -363,7 +364,7 @@
      (75.6, 23.0, 250, 950, 1305, 0, "a", "indian-inscriptions", "Kings of Malwa at Dhar. Bhoja, who died about 1055, is the best known."),
    ]),
    ("chandelas", "Chandelas", "people", "indn", "no", "hindustan", "rajput-west", [
-     (79.9, 25.0, 200, 831, 1203, 0, "a", "indian-inscriptions;al-biruni", "Kings of Bundelkhand and builders of the Khajuraho temples."),
+     (79.9, 25.0, 200, 831, 1203, 0, "a", "indian-inscriptions;al-biruni", "Kings of Bundelkhand and builders of the Khajuraho temples. Delhi's army took Kalinjar in 1203, though the line lasted as minor kings until about 1315."),
    ]),
    ("kalachuris-tripuri", "Kalachuris", "people", "indn", "no", "hindustan+deccan", "rajput-west", [
      (80.2, 23.0, 280, 850, 1212, 0, "a", "indian-inscriptions", "Kings of Tripuri near Jabalpur, in the hill country between the Ganges plain and the Deccan."),
@@ -376,10 +377,12 @@
      (74.2, 24.7, 170, 1326, 1947, 0, "a", "indian-inscriptions;persian-chronicles", "The Sisodia kings, the leading Rajput house. Their capital moved to Udaipur after 1568."),
    ]),
    ("marwar", "Marwar", "people", "indn", "no", "hindustan", "rajput-west", [
-     (73.0, 26.4, 200, 1250, 1947, 0, "r", "persian-chronicles;indian-inscriptions", "The Rathor kingdom of the western desert. Jodhpur was founded in 1459. The early dates are from bardic chronicles."),
+     (73.0, 26.4, 200, 1250, 1459, 0, "r", "indian-inscriptions", "The Rathor chiefs of Pali and Mandore in the western desert. The early dates are from bardic chronicles."),
+     (73.0, 26.4, 200, 1459, 1947, 0, "a", "persian-chronicles;indian-inscriptions", "The Rathor kingdom of Jodhpur, a city founded in 1459. Its kings served the Mughals from 1583."),
    ]),
    ("amber-jaipur", "Amber and Jaipur", "people", "indn", "no", "hindustan", "rajput-west", [
-     (75.9, 26.9, 120, 1150, 1947, 0, "r", "persian-chronicles;indian-inscriptions", "The Kachhwaha kingdom. Its kings served the Mughals as generals from 1562 and built Jaipur in 1727."),
+     (75.9, 26.9, 120, 1150, 1562, 0, "r", "indian-inscriptions", "The Kachhwaha chiefs of Amber. Tradition puts their arrival anywhere from the 10th to the 12th century and the early dates cannot be checked."),
+     (75.9, 26.9, 120, 1562, 1947, 0, "a", "persian-chronicles;indian-inscriptions", "The Kachhwaha kingdom. Its kings served the Mughals as generals from 1562 and built Jaipur in 1727."),
    ]),
    ("gujaratis", "Gujaratis", "people", "indw", "no", "hindustan+deccan", "rajput-west", [
      (71.8, 22.6, 260, 1818, 2026, 1, "a", "census-india", "The people of Gujarat, long known as traders across the Indian Ocean."),
@@ -411,7 +414,7 @@
    ]),
    # ---------------------------------------------------------------- Bengal, Assam, Odisha
    ("kalinga-kingdom", "Kalinga", "people", "inde", "yes", "deccan+hindustan", "eastern-kingdoms", [
-     (85.6, 20.1, 190, 1, 150, 0, "r", "indian-inscriptions;pliny-nh", "Kharavela's inscription near Bhubaneswar records a conquering king of Kalinga. Its date is disputed between the 1st century BCE and the 1st CE. Pliny names the Calingae."),
+     (85.6, 20.1, 190, 1, 150, 0, "r", "indian-inscriptions;pliny-nh", "Kharavela's inscription near Bhubaneswar records a conquering king of Kalinga. Its date is disputed between the 2nd century BCE and the 1st CE, so he may fall before this survey begins. Pliny names the Calingae."),
    ]),
    ("samatata", "Samatata and Vanga", "people", "inde", "yes", "bengal", "eastern-kingdoms", [
      (90.9, 23.4, 160, 350, 750, 0, "a", "indian-inscriptions;xuanzang", "Kingdoms of the eastern delta. Samudragupta's inscription names Samatata as a frontier kingdom and Xuanzang visited it."),
@@ -440,7 +443,7 @@
      (85.3, 19.6, 400, 1434, 1541, 0, "a", "indian-inscriptions;persian-chronicles;portuguese-chroniclers", "Kings of Odisha who for a time held the coast from the Ganges to the Kaveri."),
    ]),
    ("ahoms", "Ahom kingdom", "people", "tai", "no", "bengal", "eastern-kingdoms", [
-     (94.7, 27.0, 130, 1228, 1540, 0, "a", "buranjis", "Tai-speaking Ahoms crossed the Patkai hills from upper Burma in 1228 and founded a kingdom in upper Assam."),
+     (94.7, 27.0, 130, 1228, 1540, 0, "r", "buranjis", "Tai-speaking Ahoms crossed the Patkai hills from upper Burma in 1228 and founded a kingdom in upper Assam. The Ahom chronicles are the only source for these centuries and the surviving copies are later."),
      (93.4, 26.6, 270, 1540, 1826, 0, "a", "buranjis;persian-chronicles", "The kingdom took the whole valley and beat back the Mughals in 1671. Its court took up Assamese and Hinduism. Burma and then the Company ended it."),
    ]),
    ("koch-kingdom", "Koch kingdom", "people", "tbother", "yes", "bengal", "eastern-kingdoms", [
@@ -462,9 +465,6 @@
    ("kunindas", "Kunindas", "people", "indn", "yes", "hindustan", "himalayan-kingdoms", [
      (77.6, 30.8, 130, 1, 250, 0, "a", "indian-coins;ptolemy-geog", "A people of the Himalayan foothills known from silver and copper coins. Ptolemy's Kulindrine is probably their country."),
    ]),
-   ("kiratas", "Kiratas", "people", "tbother", "yes", "hindustan", "himalayan-kingdoms", [
-     (85.6, 27.5, 170, 1, 400, 0, "i", "nepal-vamshavalis", "Later chronicles say Kirata kings ruled the Nepal valley before the Licchavis. The name is used in Sanskrit for hill peoples in general."),
-   ]),
    ("licchavis-nepal", "Licchavis of Nepal", "people", "indn", "yes", "hindustan", "himalayan-kingdoms", [
      (85.3, 27.7, 110, 400, 750, 0, "a", "indian-inscriptions;xuanzang", "Kings of the Kathmandu valley whose Sanskrit inscriptions begin in 464. Many place names in them are in an early form of Newar."),
    ]),
@@ -476,22 +476,27 @@
    ]),
    ("kumaon-garhwal", "Kumaon and Garhwal", "people", "indn", "no", "hindustan", "himalayan-kingdoms", [
      (79.6, 29.8, 120, 700, 1100, 0, "r", "indian-inscriptions", "The Katyuri kings."),
-     (79.3, 30.0, 130, 1100, 1804, 0, "a", "indian-inscriptions;persian-chronicles", "The Chand kings of Kumaon and the Panwar kings of Garhwal. Gorkha armies conquered both by 1804."),
+     (79.3, 30.0, 130, 1100, 1500, 0, "r", "indian-inscriptions", "The early Chand kings of Kumaon and the chiefs of Garhwal. The traditional king lists reach back further than the record supports."),
+     (79.3, 30.0, 130, 1500, 1804, 0, "a", "indian-inscriptions;persian-chronicles", "The Chand kings of Kumaon and the Panwar kings of Garhwal. Gorkha armies took Kumaon in 1790 and Garhwal in 1804."),
    ]),
    ("ladakh-kingdom", "Ladakh", "people", "tibetic", "no", "hindustan+indus", "himalayan-kingdoms", [
-     (77.6, 34.2, 200, 930, 1842, 0, "r", "linguistic-geography", "Known mainly from its own later royal chronicle. A kingdom founded by a branch of the old Tibetan royal house, under the Namgyal kings from 1460. The Dogras of Jammu conquered it by 1842."),
+     (77.6, 34.2, 200, 930, 1532, 0, "r", "linguistic-geography", "Known mainly from its own later royal chronicle. A kingdom founded about 930 by a branch of the old Tibetan royal house, under the Namgyal kings from 1460."),
+     (77.6, 34.2, 200, 1532, 1842, 0, "a", "persian-chronicles;company-records", "Mirza Haidar invaded Ladakh in 1532 and wrote about it, and Mughal and then Company records follow. The Dogras of Jammu conquered it by 1842. Sovereignty over the region is disputed today between India, Pakistan and China."),
    ]),
    ("khasa-kingdom", "Khasa kingdom", "people", "indn", "no", "hindustan", "himalayan-kingdoms", [
-     (81.6, 29.3, 220, 1100, 1400, 0, "a", "indian-inscriptions", "The Khasa Malla kings of the Karnali basin, who also held western Tibet for a time. Their language became Nepali."),
+     (81.6, 29.3, 220, 1100, 1223, 0, "r", "indian-inscriptions", "The first Khasa kings of the Karnali basin, known from the genealogies in later inscriptions."),
+     (81.6, 29.3, 220, 1223, 1400, 0, "a", "indian-inscriptions", "The Khasa Malla kings of the Karnali basin, who also held western Tibet for a time. Their own inscriptions begin in 1223. Their language became Nepali."),
    ]),
    ("mallas-nepal", "Malla kingdoms", "people", "tbother", "no", "hindustan", "himalayan-kingdoms", [
      (85.3, 27.7, 90, 1201, 1769, 0, "a", "indian-inscriptions;nepal-vamshavalis", "Newar kings of the Kathmandu valley, divided after 1482 among Kathmandu, Patan and Bhaktapur."),
    ]),
    ("gorkha", "Gorkha", "people", "indn", "no", "hindustan", "himalayan-kingdoms", [
-     (84.6, 28.0, 70, 1559, 1768, 0, "a", "nepal-vamshavalis", "A small hill kingdom whose king Prithvi Narayan Shah conquered the Kathmandu valley in 1768 and 1769."),
+     (84.6, 28.0, 70, 1559, 1743, 0, "r", "nepal-vamshavalis", "A small hill kingdom founded by Dravya Shah in 1559 by the date in the later chronicles."),
+     (84.6, 28.0, 70, 1743, 1768, 0, "a", "nepal-vamshavalis;company-records", "Prithvi Narayan Shah became king in 1743 and conquered the Kathmandu valley in 1768 and 1769. The Company sent a force against him in 1767."),
    ]),
    ("sikkim-kingdom", "Sikkim", "people", "tibetic", "no", "bengal", "himalayan-kingdoms", [
-     (88.5, 27.4, 60, 1642, 1975, 0, "a", "company-records;acts-treaties", "A kingdom of Bhutia rulers over Lepcha and later Nepali subjects. It joined India in 1975."),
+     (88.5, 27.4, 60, 1642, 1817, 0, "r", "linguistic-geography", "A kingdom of Bhutia rulers over Lepcha subjects, founded in 1642 by its own account."),
+     (88.5, 27.4, 60, 1817, 1975, 0, "a", "company-records;acts-treaties", "A kingdom of Bhutia rulers over Lepcha and later Nepali subjects, in treaty with the Company from 1817. It joined India in 1975."),
    ]),
    ("kashmiris", "Kashmiris", "people", "dard", "no", "hindustan+indus", "himalayan-kingdoms", [
      (74.8, 34.1, 120, 1586, 2026, 1, "a", "persian-chronicles;census-india", "The people of the valley under Mughal, Afghan, Sikh and Dogra rule. Since 1947 sovereignty over Kashmir has been disputed between India and Pakistan."),
@@ -534,7 +539,8 @@
      (79.3, 16.5, 160, 225, 325, 0, "a", "indian-inscriptions", "Successors of the Satavahanas in the Krishna valley, with their capital at Nagarjunakonda."),
    ]),
    ("vakatakas", "Vakatakas", "people", "indw", "yes", "deccan+hindustan", "deccan-kingdoms", [
-     (78.0, 20.5, 330, 250, 500, 0, "a", "indian-inscriptions;puranas", "Kings of Vidarbha and the northern Deccan, allied to the Guptas by marriage. The later Ajanta caves were cut under them."),
+     (78.0, 20.5, 330, 250, 340, 0, "r", "puranas;indian-inscriptions", "The first Vakataka kings, known from the Puranas and from the genealogies in later inscriptions."),
+     (78.0, 20.5, 330, 340, 500, 0, "a", "indian-inscriptions", "Kings of Vidarbha and the northern Deccan, allied to the Guptas by marriage. Their own inscriptions begin about 340. The later Ajanta caves were cut under them."),
    ]),
    ("kadambas", "Kadambas", "people", "telkan", "no", "deccan", "deccan-kingdoms", [
      (75.0, 14.6, 170, 345, 540, 0, "a", "indian-inscriptions", "Kings of Banavasi. The earliest Kannada inscription dates from their time."),
@@ -558,7 +564,7 @@
      (76.6, 16.9, 450, 973, 1189, 0, "a", "indian-inscriptions", "They restored Chalukya rule over the Deccan and fought the Cholas for a century and a half."),
    ]),
    ("hoysalas", "Hoysalas", "people", "telkan", "no", "deccan", "deccan-kingdoms", [
-     (76.0, 13.0, 250, 1047, 1343, 0, "a", "indian-inscriptions;persian-chronicles", "Kings of southern Karnataka at Dwarasamudra, builders of the temples of Belur and Halebidu."),
+     (76.0, 13.0, 250, 1047, 1346, 0, "a", "indian-inscriptions;persian-chronicles", "Kings of southern Karnataka at Dwarasamudra, builders of the temples of Belur and Halebidu. The family is recorded as hill chiefs from about 950."),
    ]),
    ("kakatiyas", "Kakatiyas", "people", "telkan", "no", "deccan", "deccan-kingdoms", [
      (79.6, 17.6, 300, 1163, 1323, 0, "a", "indian-inscriptions;persian-chronicles", "Kings of Warangal who joined the Telugu uplands and the coast. Delhi's armies took Warangal in 1323."),
@@ -567,11 +573,12 @@
      (75.4, 19.6, 330, 1187, 1317, 0, "a", "indian-inscriptions;persian-chronicles", "Kings of the Marathi country, under whom Marathi became a written language. Delhi annexed the kingdom in 1317."),
    ]),
    ("vijayanagara", "Vijayanagara", "people", "telkan", "no", "deccan", "deccan-kingdoms", [
-     (77.0, 13.8, 520, 1336, 1565, 0, "a", "indian-inscriptions;persian-chronicles;portuguese-chroniclers", "An empire of the whole south founded at Hampi on the Tungabhadra. Portuguese visitors describe the city at its height about 1520."),
+     (76.8, 14.6, 520, 1336, 1565, 0, "a", "indian-inscriptions;persian-chronicles;portuguese-chroniclers", "An empire of the whole south founded at Hampi on the Tungabhadra. Portuguese visitors describe the city at its height about 1520."),
      (79.0, 13.6, 250, 1565, 1646, 0, "a", "indian-inscriptions;portuguese-chroniclers", "After defeat by the sultanates at Talikota in 1565 the kings ruled from Penukonda and Chandragiri."),
    ]),
    ("mysore", "Mysore", "people", "telkan", "no", "deccan", "deccan-kingdoms", [
-     (76.6, 12.4, 100, 1399, 1761, 0, "a", "indian-inscriptions;persian-chronicles", "The Wodeyar kings, at first under Vijayanagara."),
+     (76.6, 12.4, 100, 1399, 1610, 0, "r", "indian-inscriptions", "The Wodeyar chiefs under Vijayanagara. The founding date of 1399 is the dynasty's own tradition."),
+     (76.6, 12.4, 100, 1610, 1761, 0, "a", "indian-inscriptions;persian-chronicles", "The Wodeyar kings, independent after they took Srirangapatna in 1610."),
      (76.8, 12.8, 290, 1761, 1799, 0, "a", "persian-chronicles;company-records", "Under Hyder Ali and Tipu Sultan Mysore fought four wars with the Company."),
      (76.6, 13.0, 200, 1799, 1947, 0, "a", "company-records", "A princely state under the restored Wodeyars."),
    ]),
@@ -605,7 +612,7 @@
    ]),
    # ---------------------------------------------------------------- Tamil and Kerala
    ("cheras", "Cheras", "people", "tamil", "no", "deccan", "tamil-kingdoms", [
-     (76.5, 10.8, 150, 1, 400, 0, "a", "sangam-poetry;periplus;pliny-nh;ptolemy-geog", "Kings of the west coast and the pepper trade. Pliny and the Periplus know the king as Caelobothras or Cerobothra, and the port as Muziris."),
+     (76.5, 10.8, 150, 1, 300, 0, "a", "sangam-poetry;periplus;pliny-nh;ptolemy-geog", "Kings of the west coast and the pepper trade. Pliny and the Periplus know the king as Caelobothras or Cerobothra, and the port as Muziris. The record fails after about 300."),
      (76.2, 10.3, 170, 800, 1124, 0, "a", "indian-inscriptions", "The later Cheras of Mahodayapuram."),
    ]),
    ("cholas", "Cholas", "people", "tamil", "no", "deccan+lanka", "tamil-kingdoms", [
@@ -634,7 +641,8 @@
      (76.9, 9.2, 170, 1729, 1949, 0, "a", "company-records", "Martanda Varma enlarged it into Travancore, which lasted as a princely state."),
    ]),
    ("zamorins", "Calicut", "people", "tamil", "no", "deccan", "tamil-kingdoms", [
-     (75.9, 11.3, 110, 1200, 1766, 0, "a", "ibn-battuta;portuguese-chroniclers", "The Zamorins, lords of the pepper port where Ibn Battuta saw Chinese junks and where Vasco da Gama landed in 1498."),
+     (75.9, 11.3, 110, 1200, 1342, 0, "r", "indian-inscriptions", "The rise of the Zamorins after the Chera kingdom broke up. It is known from later tradition."),
+     (75.9, 11.3, 110, 1342, 1766, 0, "a", "ibn-battuta;portuguese-chroniclers", "The Zamorins, lords of the pepper port where Ibn Battuta saw Chinese junks in 1342 and where Vasco da Gama landed in 1498."),
    ]),
    ("madurai-nayaks", "Nayaks of Madurai", "people", "telkan", "no", "deccan", "tamil-kingdoms", [
      (78.1, 10.0, 200, 1529, 1736, 0, "a", "indian-inscriptions;portuguese-chroniclers", "Telugu-speaking governors of Vijayanagara who became kings of the southern Tamil country."),
@@ -665,11 +673,12 @@
      (80.0, 6.9, 130, 1412, 1597, 0, "a", "mahavamsa;portuguese-chroniclers", "The kingdom of the south-west coast. The Portuguese arrived in 1505 and inherited the crown in 1597."),
    ]),
    ("kandy", "Kandy", "people", "sinh", "no", "lanka", "lanka-kingdoms", [
-     (80.7, 7.3, 130, 1590, 1815, 0, "a", "mahavamsa;knox-ceylon;portuguese-chroniclers", "The hill kingdom that held out against the Portuguese and the Dutch. The British deposed its last king in 1815."),
+     (80.7, 7.3, 90, 1469, 1592, 0, "r", "mahavamsa;portuguese-chroniclers", "A hill kingdom founded about 1469, at first under Kotte. Sitawaka conquered it in 1581."),
+     (80.7, 7.3, 130, 1592, 1815, 0, "a", "mahavamsa;knox-ceylon;portuguese-chroniclers", "Restored in 1592, the hill kingdom held out against the Portuguese and the Dutch. The British deposed its last king in 1815."),
    ]),
    ("veddas", "Veddas", "people", "isolate", "yes", "lanka", "lanka-kingdoms", [
-     (81.0, 7.7, 140, 1, 1500, 0, "i", "mahavamsa", "Forest hunters, the island's oldest population. The chronicle's stories of them are legend, and the placement is loose. The name is the Sinhala one. They call themselves Wanniyala-Aetto."),
-     (81.3, 7.5, 60, 1500, 2026, 1, "a", "knox-ceylon;census-india", "Knox described them in the eastern forests in 1681. A few communities remain."),
+     (81.0, 7.7, 140, 1, 1681, 0, "i", "mahavamsa", "Forest hunters, the island's oldest population. The chronicle's stories of them are legend, and the placement is loose. The name is the Sinhala one. They call themselves Wanniyala-Aetto."),
+     (81.3, 7.5, 60, 1681, 2026, 1, "a", "knox-ceylon;census-india", "Knox described them in the eastern forests in 1681. A few communities remain."),
    ]),
    ("maldives-sultanate", "Maldive Sultanate", "people", "sinh", "no", "lanka", "lanka-kingdoms", [
      (73.5, 4.2, 300, 1153, 1968, 0, "a", "ibn-battuta;indian-inscriptions;portuguese-chroniclers", "The islands' Buddhist king became a Muslim sultan in 1153 by the traditional date. Ibn Battuta served as a judge there in 1343."),
@@ -686,45 +695,55 @@
      (80.6, 20.4, 250, 1780, 2026, 1, "a", "company-records;census-india", "The largest of the hill peoples of central India."),
    ]),
    ("gond-kingdoms", "Gond kingdoms", "people", "dravn", "no", "hindustan+deccan", "central-hill-peoples", [
-     (79.8, 21.8, 290, 1400, 1780, 0, "a", "persian-chronicles", "Garha-Mandla, Deogarh, Kherla and Chanda. Akbar's general defeated queen Durgavati of Garha in 1564. The Marathas took the last of them."),
+     (79.8, 21.8, 290, 1400, 1500, 0, "r", "persian-chronicles", "The first Gond kings of Garha, Kherla, Deogarh and Chanda. Their founding dates are tradition."),
+     (79.8, 21.8, 290, 1500, 1780, 0, "a", "persian-chronicles", "Garha-Mandla, Deogarh, Kherla and Chanda. Akbar's general defeated queen Durgavati of Garha in 1564. The Marathas took the last of them, Garha-Mandla in 1781."),
    ]),
    ("bhils", "Bhils", "people", "indw", "yes", "hindustan+deccan", "central-hill-peoples", [
      (74.3, 22.8, 200, 1, 600, 0, "i", "linguistic-geography", "Placed where they are found later. Their early language is unknown."),
      (74.3, 22.8, 200, 600, 2026, 1, "r", "indian-inscriptions;persian-chronicles;census-india", "Sanskrit writers name the Bhillas as hill archers from about 600. Rajput kings of Mewar were installed with Bhil rites."),
    ]),
    ("mundas", "Munda and Ho", "people", "munda", "no", "hindustan+deccan", "central-hill-peoples", [
-     (85.3, 22.9, 140, 1, 2026, 1, "r", "linguistic-geography;census-india", "Peoples of the Chota Nagpur plateau. Their own traditions and their language are the evidence before the 18th century."),
+     (85.3, 22.9, 140, 1, 1820, 0, "r", "linguistic-geography", "Peoples of the Chota Nagpur plateau. Their own traditions and their language are the evidence before the 19th century."),
+     (85.3, 22.9, 140, 1820, 2026, 1, "a", "company-records;census-india", "The Company fought the Ho from 1820 and the Munda and Ho rose against it in 1831."),
    ]),
    ("santals", "Santals", "people", "munda", "no", "hindustan+bengal", "central-hill-peoples", [
      (86.2, 23.0, 150, 1, 1790, 0, "i", "linguistic-geography", "Placed by language and tradition on the eastern edge of the plateau."),
      (87.2, 24.3, 130, 1790, 2026, 1, "a", "company-records;census-india", "The Company settled Santals in the Rajmahal hills from the 1790s. They rose against landlords and the Company in 1855."),
    ]),
    ("oraons", "Kurukh", "people", "dravn", "no", "hindustan", "central-hill-peoples", [
-     (84.6, 23.3, 110, 1000, 2026, 1, "r", "linguistic-geography;census-india", "A Dravidian-speaking people of Chota Nagpur, also called Oraon. Their tradition brings them from the Rohtas hills to the north-west."),
+     (84.6, 23.3, 110, 1000, 1881, 0, "r", "linguistic-geography", "A Dravidian-speaking people of Chota Nagpur, also called Oraon. Their tradition brings them from the Rohtas hills to the north-west, at a date that is not known."),
+     (84.6, 23.3, 110, 1881, 2026, 1, "a", "census-india", "Counted in the censuses of British India and its successors."),
    ]),
    ("kondhs", "Kondh", "people", "dravn", "no", "deccan+hindustan", "central-hill-peoples", [
-     (83.9, 20.0, 130, 1, 2026, 1, "r", "linguistic-geography;company-records;census-india", "Hill farmers of inland Odisha, called Khonds in older books. Recorded from the 1830s and placed earlier by language."),
+     (83.9, 20.0, 130, 1, 1836, 0, "r", "linguistic-geography", "Hill farmers of inland Odisha, called Khonds in older books. Placed by language before the 1830s."),
+     (83.9, 20.0, 130, 1836, 2026, 1, "a", "company-records;census-india", "Company officers recorded the Kondh during the Ghumsur campaigns of the 1830s."),
    ]),
    ("soras", "Sora", "people", "munda", "no", "deccan", "central-hill-peoples", [
-     (84.0, 19.0, 100, 1, 2026, 1, "r", "pliny-nh;ptolemy-geog;census-india", "The Savaras of Sanskrit texts. Pliny's Suari and Ptolemy's Sabarai are probably the same name, though where those writers meant is not certain."),
+     (84.0, 19.0, 100, 1, 1881, 0, "r", "pliny-nh;ptolemy-geog", "The Savaras of Sanskrit texts. Pliny's Suari and Ptolemy's Sabarai are probably the same name, though where those writers meant is not certain."),
+     (84.0, 19.0, 100, 1881, 2026, 1, "a", "census-india", "Counted in the censuses of British India and its successors."),
    ]),
    # ---------------------------------------------------------------- North-east hills
    ("nagas", "Nagas", "people", "tbother", "no", "bengal", "northeast-hills", [
      (94.5, 26.0, 130, 1, 1228, 0, "i", "linguistic-geography", "Placed by language. Naga is an outside name for some dozens of peoples with languages of their own."),
-     (94.5, 26.0, 130, 1228, 2026, 1, "a", "buranjis;census-india", "The Ahom chronicles record wars and treaties with the Nagas from the 13th century."),
+     (94.5, 26.0, 130, 1228, 1832, 0, "r", "buranjis", "The Ahom chronicles record wars and treaties with the Nagas from the 13th century, but name few places and survive in later copies."),
+     (94.5, 26.0, 130, 1832, 2026, 1, "a", "company-records;census-india", "British officers first crossed the Naga hills in 1832."),
    ]),
    ("khasis", "Khasi and Jaintia", "people", "aaother", "no", "bengal", "northeast-hills", [
      (91.8, 25.5, 90, 1, 1500, 0, "i", "linguistic-geography", "Placed by language."),
-     (92.0, 25.4, 100, 1500, 2026, 1, "a", "buranjis;company-records;census-india", "The Jaintia kingdom and the Khasi chiefdoms, annexed by the Company in the 1830s."),
+     (92.0, 25.4, 100, 1500, 1765, 0, "r", "buranjis", "The Jaintia kingdom, whose king list begins about 1500, and the Khasi chiefdoms. Ahom chronicles mention the Jaintia kings from the 17th century."),
+     (92.0, 25.4, 100, 1765, 2026, 1, "a", "company-records;census-india", "The Company met the Jaintia kingdom and the Khasi chiefdoms when it took over Sylhet in 1765, and annexed them in the 1830s."),
    ]),
    ("dimasa-kingdom", "Dimasa kingdom", "people", "tbother", "no", "bengal", "northeast-hills", [
-     (93.4, 25.7, 130, 1250, 1832, 0, "a", "buranjis", "The Kachari kingdom of Dimapur and later Maibang and Khaspur, a neighbour and rival of the Ahoms."),
+     (93.4, 25.7, 130, 1250, 1540, 0, "r", "buranjis", "The Kachari kingdom of Dimapur. Its early centuries are known only from Ahom chronicles that survive in later copies."),
+     (93.4, 25.7, 130, 1540, 1832, 0, "a", "buranjis;company-records", "The Kachari kingdom at Maibang and later Khaspur, a neighbour and rival of the Ahoms. The Company annexed it in 1832."),
    ]),
    ("manipur", "Manipur", "people", "tbother", "no", "bengal", "northeast-hills", [
-     (93.9, 24.7, 90, 1100, 1949, 0, "r", "buranjis;company-records", "The Meitei kingdom of the Imphal valley, also called Kangleipak. Its royal chronicle claims a far earlier beginning that cannot be checked."),
+     (93.9, 24.7, 90, 1100, 1762, 0, "r", "buranjis", "The Meitei kingdom of the Imphal valley, also called Kangleipak. Its royal chronicle claims a far earlier beginning that cannot be checked."),
+     (93.9, 24.7, 90, 1762, 1949, 0, "a", "company-records", "The king of Manipur made a treaty with the Company in 1762. The state joined India in 1949."),
    ]),
    ("tripura-kingdom", "Tripura", "people", "tbother", "no", "bengal", "northeast-hills", [
-     (91.6, 23.8, 100, 1400, 1949, 0, "a", "persian-chronicles;company-records", "The Manikya kings of the Tripuri, also written Twipra."),
+     (91.6, 23.8, 100, 1400, 1500, 0, "r", "persian-chronicles", "The first Manikya kings of the Tripuri. The kingdom's own chronicle is the main source for its first century."),
+     (91.6, 23.8, 100, 1500, 1949, 0, "a", "persian-chronicles;company-records", "The Manikya kings of the Tripuri, also written Twipra, who fought the sultans of Bengal and then the Mughals."),
    ]),
    ("mizos", "Mizo and Kuki", "people", "tbother", "no", "bengal", "northeast-hills", [
      (92.8, 23.5, 120, 1700, 2026, 1, "r", "company-records;census-india", "Mizo tradition brings them from the Chin hills about 1700. They were called Lushai in British records."),

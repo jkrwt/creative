@@ -38,7 +38,7 @@
    ("first-australians", "First Australians", "",
     "Aboriginal and Torres Strait Islander peoples, in their countries for some fifty thousand years. Australia had about 250 languages and the map can name only a few of the largest and best known peoples, each placed as a soft field and never as a boundary."),
    ("aus-southeast", "The south-east", "first-australians",
-    "Peoples of the Murray and Darling rivers and the coast from Adelaide to northern New South Wales, the first to meet British settlement after 1788. Koori is a shared self-name across much of this area and not a single people."),
+    "Peoples of the Murray and Darling rivers, the coast from Adelaide to northern New South Wales, and Tasmania across Bass Strait, the first to meet British settlement after 1788. Koori is a shared self-name across much of the mainland south-east and not a single people. Tasmanian Aboriginal people call themselves Palawa or Pakana."),
    ("aus-west", "The west", "first-australians",
     "Peoples of the south-west, the Murchison and the Pilbara. Noongar and Yamatji are broad self-names that each cover several language groups."),
    ("aus-desert", "The desert", "first-australians",
@@ -47,8 +47,6 @@
     "Peoples of Arnhem Land, the Top End and the Kimberley, where most of the continent's language families are packed into one corner. Makassan sailors were visiting this coast before the British came."),
    ("aus-queensland", "Queensland", "first-australians",
     "Peoples from Cape York to Moreton Bay and the inland rivers. Murri is a shared self-name across Queensland and not a single people."),
-   ("aus-tasmania", "Tasmania", "first-australians",
-    "Tasmania was cut off by the sea about twelve thousand years ago. Its people survived the war and removals of the 1820s and 1830s, and the community today calls itself Palawa or Pakana."),
    ("torres-strait", "Torres Strait", "first-australians",
     "Seafaring gardeners and fishers of the islands between Cape York and New Guinea, distinct from Aboriginal peoples. The western islands speak a Pama-Nyungan language and the eastern islands a Papuan one."),
    ("new-guinea-peoples", "New Guinea peoples", "",
@@ -367,9 +365,9 @@
      (138.6, -34.8, 70, 1836, 2026, 1, "a", "mission-protectorate-records",
       "Recorded when Adelaide was founded in 1836. Missionaries wrote down the language, which has been revived from their work."),
    ]),
-   ("barkindji", "Barkindji", "people", "pama", "yes", "australia", "aus-southeast", [
+   ("barkindji", "Barkandji", "people", "pama", "yes", "australia", "aus-southeast", [
      (142.5, -32.0, 180, 1, 1835, 0, "i", "oral-tradition-songlines;aus-papuan-linguistics",
-      "Also Paakantyi, the people of the Barka, the Darling River. Projected back from where they were first recorded."),
+      "Also Paakantyi or Barkindji, the people of the Barka, the Darling River. Projected back from where they were first recorded."),
      (142.5, -32.0, 180, 1835, 2026, 1, "a", "explorers-settlers-journals;native-title", "Met by Mitchell's expedition in 1835. Native title was recognised in 2015."),
    ]),
    # ---------------- peoples: the west ----------------
@@ -392,15 +390,19 @@
    # ---------------- peoples: the desert ----------------
    ("pitjantjatjara", "Pitjantjatjara", "people", "pama", "yes", "australia", "aus-desert", [
      (130.5, -26.3, 220, 1000, 1873, 0, "i", "oral-tradition-songlines;aus-papuan-linguistics",
-      "With Yankunytjatjara, the Aṉangu of the country around Uluru and the Musgrave Ranges. The start date is a guess, since Western Desert speech is thought to have spread in the last two thousand years."),
-     (130.5, -26.3, 220, 1873, 2026, 1, "a", "explorers-settlers-journals;native-title",
-      "Met by Giles and Gosse in 1873. Freehold title to the Aṉangu Pitjantjatjara lands was granted in 1981."),
+      "With Yankunytjatjara, the Aṉangu of the country around Uluru and the Musgrave Ranges. The start date is a guess. Linguists put the spread of Western Desert speech between about one and two thousand years ago, and people lived in the desert long before that."),
+     (130.5, -26.3, 220, 1873, 1933, 0, "r", "explorers-settlers-journals",
+      "The explorers Giles and Gosse crossed this country in 1873 and met people they did not name. Doggers and prospectors followed."),
+     (130.5, -26.3, 220, 1933, 2026, 1, "a", "mission-protectorate-records;native-title",
+      "Recorded by name by the anthropologist Tindale in 1933 and at Ernabella mission from 1937. Freehold title to the Aṉangu Pitjantjatjara lands was granted in 1981."),
    ]),
    ("martu", "Martu", "people", "pama", "yes", "australia", "aus-desert", [
      (123.0, -23.0, 280, 1000, 1906, 0, "i", "oral-tradition-songlines;aus-papuan-linguistics",
-      "People of the Great and Little Sandy Deserts. Placed loosely, with a start date that is a guess."),
-     (123.0, -23.0, 280, 1906, 2026, 1, "a", "explorers-settlers-journals;native-title",
-      "Met along the Canning Stock Route from 1906. Some families lived wholly in the desert until the 1960s."),
+      "People of the Great and Little Sandy Deserts, speakers of several Western Desert dialects. Placed loosely, with a start date that is a guess, as for Pitjantjatjara."),
+     (123.0, -23.0, 280, 1906, 1946, 0, "r", "explorers-settlers-journals",
+      "Canning's survey parties of 1906 and 1907 seized desert men as guides along the stock route and did not record them as a people."),
+     (123.0, -23.0, 280, 1946, 2026, 1, "a", "mission-protectorate-records;native-title",
+      "Recorded at Jigalong mission from 1946. Some families lived wholly in the desert until the 1960s. Martu, the word for person, has been the shared name since the 1980s."),
    ]),
    ("arrernte", "Arrernte", "people", "pama", "yes", "australia", "aus-desert", [
      (133.9, -23.7, 200, 1, 1872, 0, "i", "oral-tradition-songlines;archaeology-sahul",
@@ -417,7 +419,7 @@
    ("diyari", "Diyari", "people", "pama", "yes", "australia", "aus-desert", [
      (138.8, -28.3, 120, 1, 1866, 0, "i", "oral-tradition-songlines;aus-papuan-linguistics",
       "Also Dieri. People of Cooper Creek east of Lake Eyre, projected back from where they were first recorded."),
-     (138.8, -28.3, 120, 1866, 2026, 1, "a", "mission-protectorate-records", "Recorded at the Lutheran mission at Killalpaninna from 1866."),
+     (138.8, -28.3, 120, 1866, 2026, 1, "a", "mission-protectorate-records", "Recorded at the Lutheran mission at Killalpaninna, founded in 1866 and settled in 1867."),
    ]),
    # ---------------- peoples: Top End and Kimberley ----------------
    ("yolngu", "Yolŋu", "people", "pama", "yes", "australia", "aus-north", [
@@ -437,11 +439,11 @@
      (130.8, -11.6, 70, 1, 1824, 0, "r", "oral-tradition-songlines;dutch-voyagers",
       "People of Bathurst and Melville Islands. Dutch ships met islanders here in 1705 without naming them."),
      (130.8, -11.6, 70, 1824, 2026, 1, "a", "mission-protectorate-records",
-      "They resisted the British post of Fort Dundas from 1824 until it was abandoned. A mission came in 1911."),
+      "They resisted the British post of Fort Dundas from 1824 until it was abandoned in 1829. Few records follow until a mission came in 1911. The name Tiwi was taken up in writing about 1930."),
    ]),
    ("larrakia", "Larrakia", "people", "ausnp", "yes", "australia", "aus-north", [
-     (130.9, -12.5, 50, 1, 1869, 0, "i", "oral-tradition-songlines", "The saltwater people of Darwin harbour, projected back from 1869."),
-     (130.9, -12.5, 50, 1869, 2026, 1, "a", "explorers-settlers-journals;mission-protectorate-records", "Recorded when the town of Palmerston, now Darwin, was surveyed in 1869."),
+     (130.85, -12.45, 50, 1, 1869, 0, "i", "oral-tradition-songlines", "The saltwater people of Darwin harbour, projected back from 1869."),
+     (130.85, -12.45, 50, 1869, 2026, 1, "a", "explorers-settlers-journals;mission-protectorate-records", "Recorded when the town of Palmerston, now Darwin, was surveyed in 1869."),
    ]),
    ("gurindji", "Gurindji", "people", "pama", "yes", "australia", "aus-north", [
      (130.8, -17.4, 120, 1, 1883, 0, "i", "oral-tradition-songlines;aus-papuan-linguistics",
@@ -450,9 +452,9 @@
       "Recorded after Wave Hill station was set up in 1883. Their walk-off in 1966 led to the first land hand-back in 1975."),
    ]),
    ("yawuru", "Yawuru", "people", "ausnp", "yes", "australia", "aus-north", [
-     (122.3, -18.0, 80, 1, 1883, 0, "i", "oral-tradition-songlines;aus-papuan-linguistics",
+     (122.25, -17.95, 80, 1, 1883, 0, "i", "oral-tradition-songlines;aus-papuan-linguistics",
       "People of Roebuck Bay, projected back from where they were first recorded."),
-     (122.3, -18.0, 80, 1883, 2026, 1, "a", "mission-protectorate-records;native-title",
+     (122.25, -17.95, 80, 1883, 2026, 1, "a", "mission-protectorate-records;native-title",
       "Recorded when Broome grew up as a pearling port in the 1880s, with divers from across Asia."),
    ]),
    ("bunuba", "Bunuba", "people", "ausnp", "yes", "australia", "aus-north", [
@@ -467,9 +469,11 @@
      (145.3, -16.2, 70, 1873, 2026, 1, "a", "explorers-settlers-journals;native-title", "Recorded during the Palmer River gold rush from 1873."),
    ]),
    ("guugu-yimithirr", "Guugu Yimithirr", "people", "pama", "yes", "australia", "aus-queensland", [
-     (145.1, -15.2, 70, 1, 1770, 0, "i", "oral-tradition-songlines", "People of the Endeavour River, projected back from 1770."),
-     (145.1, -15.2, 70, 1770, 2026, 1, "a", "cook-journals;mission-protectorate-records",
-      "Cook's crew spent seven weeks here in 1770 and wrote down words of the language, among them kangaroo. A Lutheran mission followed in 1886."),
+     (145.1, -15.2, 70, 1, 1770, 0, "i", "oral-tradition-songlines", "Also Guugu Yimidhirr. People of the Endeavour River, projected back from 1770."),
+     (145.1, -15.2, 70, 1770, 1873, 0, "r", "cook-journals",
+      "Cook's crew spent seven weeks here in 1770 and wrote down words of the language, among them kangaroo. They did not record the people's name, and a century passed with few records."),
+     (145.1, -15.2, 70, 1873, 2026, 1, "a", "explorers-settlers-journals;mission-protectorate-records",
+      "Recorded from the founding of Cooktown in the gold rush of 1873. A Lutheran mission followed at Cape Bedford in 1886, later Hope Vale."),
    ]),
    ("wik", "Wik", "people", "pama", "yes", "australia", "aus-queensland", [
      (141.8, -13.8, 100, 1, 1904, 0, "r", "oral-tradition-songlines;dutch-voyagers",
@@ -483,38 +487,43 @@
      (139.8, -20.8, 120, 1867, 2026, 1, "a", "explorers-settlers-journals;native-title", "Recorded from the 1860s. They fought settlers and police for years, until a defeat at Battle Mountain in 1884."),
    ]),
    ("yuggera", "Yuggera", "people", "pama", "yes", "australia", "aus-queensland", [
-     (152.7, -27.6, 70, 1, 1825, 0, "i", "oral-tradition-songlines", "With Turrbal, the people of the Brisbane River. Projected back from 1825."),
+     (152.7, -27.6, 70, 1, 1825, 0, "i", "oral-tradition-songlines", "Also Jagera or Yagara. With Turrbal, the people of the Brisbane River. Projected back from 1825."),
      (152.7, -27.6, 70, 1825, 2026, 1, "a", "explorers-settlers-journals", "Recorded from the founding of the Moreton Bay penal settlement."),
    ]),
    ("bidjara", "Bidjara", "people", "pama", "yes", "australia", "aus-queensland", [
      (146.8, -25.0, 130, 1, 1846, 0, "i", "oral-tradition-songlines;archaeology-sahul",
       "People of the Carnarvon Ranges and the upper Warrego, a country rich in stencil art. Projected back from where they were first recorded."),
-     (146.8, -25.0, 130, 1846, 2026, 1, "a", "explorers-settlers-journals", "Recorded after Mitchell's expedition of 1846 opened the country to squatters."),
+     (146.8, -25.0, 130, 1846, 1860, 0, "r", "explorers-settlers-journals", "Mitchell's expedition crossed the head of the Warrego in 1846 and did not name the people it met."),
+     (146.8, -25.0, 130, 1860, 2026, 1, "a", "explorers-settlers-journals", "Recorded once the Warrego and Maranoa districts were opened to squatters in 1860."),
    ]),
    # ---------------- peoples: Tasmania and Torres Strait ----------------
-   ("palawa", "Palawa", "people", "tasm", "no", "australia", "aus-tasmania", [
-     (146.5, -42.0, 180, 1, 1777, 0, "r", "archaeology-sahul;oral-tradition-songlines",
-      "Tasmanian Aboriginal people, in about nine nations. Archaeology shows people here for some forty thousand years, cut off from the mainland for the last twelve thousand."),
-     (146.5, -42.0, 180, 1777, 1835, 0, "a", "cook-journals;mission-protectorate-records",
-      "Met by French and British ships from 1772. Settlement from 1803 led to the Black War of the 1820s and the removal of survivors to Flinders Island."),
-     (147.0, -41.6, 150, 1835, 2026, 1, "a", "mission-protectorate-records;australian-census",
-      "The claim that they died out in 1876 was false. The community, also called Pakana, descends mainly from families of the Bass Strait islands."),
+   ("palawa", "Palawa", "people", "tasm", "no", "australia", "aus-southeast", [
+     (146.5, -42.0, 180, 1, 1772, 0, "r", "archaeology-sahul;oral-tradition-songlines",
+      "Tasmanian Aboriginal people, in about nine nations. Archaeology shows people here for some forty thousand years, cut off from the mainland by the sea for the last twelve thousand."),
+     (146.5, -42.0, 180, 1772, 1803, 0, "r", "cook-journals",
+      "French and British ships met people on the south-east coast from 1772, Cook among them in 1777. They saw only the shore and named no nation."),
+     (146.5, -42.0, 180, 1803, 1835, 0, "a", "mission-protectorate-records",
+      "Settlement from 1803 led to the Black War of the 1820s and the removal of survivors to Wybalenna on Flinders Island between 1830 and 1835."),
+     (147.0, -41.6, 150, 1835, 1971, 0, "r", "mission-protectorate-records",
+      "The claim that they died out in 1876 was false. Survivors lived at Oyster Cove and on farms, and island families later moved to the main island, while governments denied that they were Aboriginal. Placed loosely."),
+     (147.0, -41.6, 150, 1971, 2026, 1, "a", "australian-census",
+      "The community today, also called Pakana, descends mainly from families of the Bass Strait islands."),
+     (148.2, -40.4, 60, 1810, 1830, 0, "r", "mission-protectorate-records",
+      "The Bass Strait islands. A community grew here from about 1810, descended from Palawa women and sealers. Sealers kept few records."),
+     (148.2, -40.4, 60, 1830, 2026, 1, "a", "mission-protectorate-records",
+      "The Islanders of Cape Barren and Flinders Islands, recorded from 1830 and in their own petitions for land from the 1850s. They kept the people alive."),
    ]),
-   ("cape-barren-islanders", "Bass Strait Islanders", "people", "tasm", "yes", "australia", "aus-tasmania", [
-     (148.1, -40.3, 60, 1810, 2026, 1, "a", "mission-protectorate-records",
-      "A community descended from Palawa women and sealers on Cape Barren and Flinders Islands. They spoke English with Palawa words and kept the people alive, and they are Palawa."),
-   ]),
-   ("maluilgal", "Maluilgal", "people", "pama", "yes", "australia", "torres-strait", [
-     (142.2, -10.15, 60, 1, 1871, 0, "r", "archaeology-sahul;oral-tradition-songlines",
-      "Western Torres Strait Islanders of Mabuiag, Badu and Moa. Torres sailed through in 1606 and named no one. Archaeology shows island villages and gardens for well over two thousand years."),
-     (142.2, -10.15, 60, 1871, 2026, 1, "a", "mission-protectorate-records;native-title",
+   ("maluilgal", "Maluligal", "people", "pama", "yes", "australia", "torres-strait", [
+     (142.15, -10.12, 60, 1, 1871, 0, "r", "archaeology-sahul;oral-tradition-songlines",
+      "Also written Maluilgal. Western Torres Strait Islanders of Mabuiag, Badu and Moa. Torres sailed through in 1606 and named no one. Archaeology shows island villages and gardens for well over two thousand years."),
+     (142.15, -10.12, 60, 1871, 2026, 1, "a", "mission-protectorate-records;native-title",
       "Recorded from the arrival of the London Missionary Society in 1871, which Islanders mark as the Coming of the Light."),
    ]),
    ("meriam", "Meriam", "people", "papother", "yes", "australia", "torres-strait", [
      (144.05, -9.92, 50, 1, 1802, 0, "r", "oral-tradition-songlines;archaeology-sahul",
       "The people of Mer, Erub and Ugar in the eastern strait, gardeners under the law of Malo. The name is projected back."),
      (144.05, -9.92, 50, 1802, 2026, 1, "a", "flinders-voyage;native-title",
-      "Described by passing ships about 1800 and by missionaries from 1871. Eddie Koiki Mabo's case over Mer land brought the recognition of native title in 1992."),
+      "The Pandora sighted and named the Murray Islands in 1791, and Flinders traded with the islanders from his ship in 1802. Missionaries came in 1871. Eddie Koiki Mabo's case over Mer land brought the recognition of native title in 1992."),
    ]),
    # ---------------- peoples: New Guinea highlands ----------------
    ("enga", "Enga", "people", "tng", "yes", "papua", "ng-highlands", [
@@ -524,7 +533,7 @@
    ]),
    ("huli", "Huli", "people", "tng", "yes", "papua", "ng-highlands", [
      (142.9, -5.9, 50, 1, 1935, 0, "i", "oral-tradition-songlines", "People of the Tari basin, with long genealogies. Projected back from 1935."),
-     (142.9, -5.9, 50, 1935, 2026, 1, "a", "patrol-reports", "First met by the Hides and O'Malley patrol in 1935."),
+     (142.9, -5.9, 50, 1935, 2026, 1, "a", "patrol-reports", "Recorded by the Hides and O'Malley patrol in 1935. Two prospectors had crossed the basin the year before."),
    ]),
    ("melpa", "Melpa", "people", "tng", "yes", "papua", "ng-highlands", [
      (144.2, -5.8, 45, 1, 1933, 0, "r", "archaeology-sahul;oral-tradition-songlines",
@@ -534,7 +543,7 @@
    ("chimbu", "Chimbu", "people", "tng", "yes", "papua", "ng-highlands", [
      (145.0, -6.0, 45, 1, 1933, 0, "i", "oral-tradition-songlines;archaeology-sahul",
       "Also Simbu, speakers of Kuman, in some of the most densely gardened valleys of the island. Projected back from 1933."),
-     (145.0, -6.0, 45, 1933, 2026, 1, "a", "patrol-reports", "First met by the 1933 patrol through the Wahgi valley."),
+     (145.0, -6.0, 45, 1933, 2026, 1, "a", "patrol-reports", "First met by the Leahy and Taylor expedition through the Wahgi valley in 1933. The explorers took the name from simbu, a Kuman word of pleased surprise."),
    ]),
    ("dani", "Dani", "people", "tng", "yes", "papua", "ng-highlands", [
      (138.9, -4.0, 70, 1, 1938, 0, "i", "oral-tradition-songlines;archaeology-sahul",
@@ -543,8 +552,8 @@
       "The Baliem valley and its tens of thousands of people became known to outsiders in 1938, though Dutch expeditions had met western Dani earlier."),
    ]),
    ("mee", "Mee", "people", "tng", "yes", "papua", "ng-highlands", [
-     (136.2, -3.9, 50, 1, 1936, 0, "i", "oral-tradition-songlines", "Also Ekari or Kapauku. People of the Paniai Lakes, projected back from 1936."),
-     (136.2, -3.9, 50, 1936, 2026, 1, "a", "mission-protectorate-records", "The lakes were sighted from the air in 1936 and a Dutch post followed."),
+     (136.2, -3.9, 50, 1, 1938, 0, "i", "oral-tradition-songlines", "Also Ekari or Kapauku. People of the Paniai Lakes, projected back from 1938. A pilot saw the lakes and canoes on them from the air at the end of 1936."),
+     (136.2, -3.9, 50, 1938, 2026, 1, "a", "mission-protectorate-records", "Recorded from the Dutch post set up at the lakes in 1938."),
    ]),
    # ---------------- peoples: Sepik and north coast ----------------
    ("iatmul", "Iatmul", "people", "papother", "yes", "papua", "ng-sepik-north", [
@@ -552,14 +561,14 @@
      (143.3, -4.3, 50, 1912, 2026, 1, "a", "mission-protectorate-records;patrol-reports", "Recorded by German river expeditions about 1912."),
    ]),
    ("abelam", "Abelam", "people", "papother", "yes", "papua", "ng-sepik-north", [
-     (143.1, -3.75, 40, 1, 1930, 0, "i", "oral-tradition-songlines", "Yam growers of the hills north of the Sepik. Projected back from where they were first recorded."),
-     (143.1, -3.75, 40, 1930, 2026, 1, "a", "patrol-reports", "Recorded by patrols and ethnographers from about the 1930s."),
+     (143.1, -3.75, 40, 1, 1937, 0, "i", "oral-tradition-songlines", "Yam growers of the hills north of the Sepik. Projected back from where they were first recorded. The ethnologist Thurnwald passed through just before the First World War."),
+     (143.1, -3.75, 40, 1937, 2026, 1, "a", "patrol-reports", "Recorded from the Australian patrol post set up at Maprik in 1937."),
    ]),
    ("biak", "Biak", "people", "oceanic", "yes", "papua", "ng-sepik-north", [
      (136.0, -1.0, 70, 1, 1500, 0, "i", "aus-papuan-linguistics;oral-tradition-songlines", "Seafarers of Biak and Numfor in Cenderawasih Bay. Projected back from later records."),
      (136.0, -1.0, 70, 1500, 1855, 0, "r", "oral-tradition-songlines;explorers-settlers-journals",
       "Biak sailors raided and traded as far as Maluku and carried tribute to Tidore, as their own traditions and European reports agree."),
-     (136.0, -1.0, 70, 1855, 2026, 1, "a", "mission-protectorate-records", "Recorded by missionaries from 1855."),
+     (136.0, -1.0, 70, 1855, 2026, 1, "a", "mission-protectorate-records", "Recorded from 1855 by missionaries at Mansinam in Doreh Bay, who lived among Numfor settlers and wrote down their language. Missions reached the islands themselves later."),
    ]),
    ("arfak-peoples", "Arfak peoples", "people", "papother", "yes", "papua", "ng-sepik-north", [
      (133.9, -1.2, 60, 1, 1872, 0, "i", "oral-tradition-songlines", "Hatam, Meyah, Sougb and Moile of the Arfak Mountains. Projected back from where they were first recorded."),
@@ -567,9 +576,9 @@
    ]),
    # ---------------- peoples: southern coasts ----------------
    ("asmat", "Asmat", "people", "tng", "yes", "papua", "ng-papuan-coasts", [
-     (138.5, -5.6, 90, 1, 1912, 0, "r", "oral-tradition-songlines;cook-journals",
-      "Woodcarvers of the southern tidal swamps. Cook's men landed on this coast in 1770 and were driven off, without learning who lived there."),
-     (138.5, -5.6, 90, 1912, 2026, 1, "a", "mission-protectorate-records", "Recorded by Dutch expeditions in the early 20th century. A permanent post came only about 1938."),
+     (138.5, -5.6, 90, 1, 1904, 0, "r", "oral-tradition-songlines;dutch-voyagers;cook-journals",
+      "Woodcarvers of the southern tidal swamps. Carstensz saw people on this coast in 1623 and Cook's men landed in 1770 and were driven off, without learning who lived there."),
+     (138.5, -5.6, 90, 1904, 2026, 1, "a", "mission-protectorate-records", "Recorded by Dutch expeditions between 1904 and 1913, in brief meetings. A government post came only in 1938 and lasting contact in the 1950s."),
    ]),
    ("marind", "Marind", "people", "papother", "yes", "papua", "ng-papuan-coasts", [
      (139.8, -7.9, 110, 1, 1902, 0, "i", "oral-tradition-songlines", "Also Marind-anim. People of the southern coast and savanna, whose language some place in Trans-New Guinea. Projected back from 1902."),
@@ -599,7 +608,7 @@
    ]),
    ("tolai", "Tolai", "people", "oceanic", "yes", "papua", "ng-islands", [
      (152.1, -4.3, 40, 1000, 1875, 0, "i", "oral-tradition-songlines;aus-papuan-linguistics",
-      "People of the Gazelle Peninsula. Tradition and language suggest their forebears crossed from New Ireland, perhaps after the great Rabaul eruption of the 7th century. The start date is a guess."),
+      "People of the Gazelle Peninsula. Tradition and language agree that their forebears crossed from New Ireland after the Rabaul eruption of the late 7th century. The crossings are undated and may be only a few centuries older than 1875, so the start date is a guess."),
      (152.1, -4.3, 40, 1875, 2026, 1, "a", "mission-protectorate-records", "Recorded by traders and Methodist missionaries from 1875. Known for tabu shell money."),
    ]),
    ("trobriand-islanders", "Trobriand Islanders", "people", "oceanic", "yes", "papua", "ng-islands", [
@@ -620,7 +629,7 @@
    # ---------------- visitors and states ----------------
    ("makassan-trepangers", "Makassan trepangers", "people", "malayic", "no", "australia", "", [
      (135.5, -12.0, 230, 1700, 1907, 0, "r", "flinders-voyage;oral-tradition-songlines;archaeology-sahul",
-      "Fleets from Makassar in Sulawesi camped each wet season on the Arnhem Land coast to gather and cure trepang. The trade was running by about 1700 and some argue for an earlier start. Australian law ended it in 1907."),
+      "Fleets from Makassar in Sulawesi camped each wet season on the Arnhem Land coast to cure trepang, until licences were refused and the last boat left in 1907. The start is disputed: trade records suggest 1720 to 1780 and dated camp sites suggest before 1650."),
    ]),
    ("tidore-papuan-coast", "Tidore's Papuan coast", "polity", "", "no", "papua", "", [
      (132.4, -1.8, 230, 1500, 1898, 0, "r", "acts-treaties;oral-tradition-songlines",
@@ -652,7 +661,7 @@
    ]),
    ("dutch-new-guinea", "Dutch New Guinea", "polity", "wgerm", "no", "papua", "", [
      (136.3, -4.0, 520, 1828, 1962, 0, "a", "acts-treaties",
-      "The Netherlands claimed the western half of the island in 1828. It kept no lasting post until 1898 and reached the highlands only in the 1930s."),
+      "The Netherlands claimed the western half of the island in 1828. It kept no lasting post until 1898 and reached the highlands only in the 1930s. It handed the territory to a United Nations administration in October 1962."),
    ]),
    ("german-new-guinea", "German New Guinea", "polity", "wgerm", "no", "papua", "", [
      (148.0, -4.8, 480, 1884, 1914, 0, "a", "acts-treaties", "The north-east of the island and the Bismarck Archipelago, annexed by Germany in 1884 and taken by Australian troops in 1914."),
@@ -664,7 +673,7 @@
      (146.5, -8.6, 420, 1906, 1949, 0, "a", "acts-treaties;patrol-reports", "British New Guinea under Australian rule."),
    ]),
    ("territory-of-new-guinea", "Territory of New Guinea", "polity", "eng", "no", "papua", "", [
-     (148.0, -4.8, 480, 1914, 1949, 0, "a", "acts-treaties;patrol-reports", "Former German New Guinea, under Australian military rule from 1914 and a League of Nations mandate from 1921. Japan held much of it from 1942 to 1945."),
+     (148.0, -4.8, 480, 1914, 1949, 0, "a", "acts-treaties;patrol-reports", "Former German New Guinea, under Australian military rule from 1914 and a League of Nations mandate granted in 1920, with civil rule from 1921. Japan held much of it from 1942 to 1945."),
    ]),
    ("papua-and-new-guinea", "Papua and New Guinea", "polity", "eng", "no", "papua", "", [
      (147.0, -6.3, 560, 1949, 1975, 0, "a", "acts-treaties;patrol-reports", "The two Australian territories joined under one administration."),
@@ -694,7 +703,6 @@
    ("territory-of-new-guinea", "papua-and-new-guinea", "merged-into", 1949, "acts-treaties", ""),
    ("papua-and-new-guinea", "papua-new-guinea", "continues", 1975, "acts-treaties", "Independence."),
    ("dutch-new-guinea", "indonesian-papua", "absorbed-by", 1963, "acts-treaties", "Transferred through a United Nations interim administration. The transfer is contested by an independence movement."),
-   ("cape-barren-islanders", "palawa", "split-from", 1810, "mission-protectorate-records", "The island community grew from Palawa women and sealers and is the main line of descent of Palawa today."),
  ],
  "periods": {
    "australia": [

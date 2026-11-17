@@ -1,6 +1,7 @@
 {
  "part": 4,
  "regions": ["tibet", "tarim", "mongolia", "manchuria", "chinan", "chinas", "korea", "japan", "esiberia"],
+ "attested_early": ["wa", "qiang", "tuyuhun", "tibetans", "tibetan-empire"],
  "sources": [
    ("shiji", "Sima Qian, Shiji (Records of the Grand Historian)", "text", "about 90 BCE", "no", "Its chapters on the Xiongnu, the south-western peoples and the Yue are the base of later accounts."),
    ("hanshu", "Ban Gu, Hanshu (Book of Han)", "text", "about 100", "no", "Covers the Western Han to 23 CE, with a treatise on the Western Regions."),
@@ -147,7 +148,7 @@
    ]),
    ("tocharian-speakers", "Tocharian", "language", "toch", "no", "tarim", "", [
      (85.5, 41.3, 380, 1, 1000, 0, "r", "tarim-manuscripts", "Kucha, Karashahr and Turfan. The manuscripts date from about 400 to 800 and the language is assumed for the centuries before."),
-     (89.5, 39.0, 300, 1, 650, 0, "i", "tarim-manuscripts", "Loulan and Shanshan. The kingdom wrote in Gandhari Prakrit and its own language is uncertain, perhaps a third Tocharian language."),
+     (89.5, 39.0, 300, 1, 650, 0, "i", "tarim-manuscripts", "Loulan and Shanshan. The kingdom wrote in Gandhari Prakrit and its own language is uncertain. A third Tocharian language was proposed, and recent work explains the evidence as Iranian loans."),
    ]),
    ("saka-speakers-tarim", "Saka (Khotanese)", "language", "eiran", "no", "tarim+tibet", "", [
      (80.0, 38.0, 450, 1, 1050, 0, "r", "tarim-manuscripts;xuanzang", "Khotan, Yarkand and Kashgar. Khotanese documents run from the 7th to the 10th century."),
@@ -442,7 +443,7 @@
    ]),
    # ---------------------------------------------------------------- Yunnan kingdoms
    ("dian", "Dian", "people", "burm", "yes", "chinas", "yunnan-kingdoms", [
-     (102.7, 24.8, 130, 1, 115, 0, "a", "shiji;hanshu;eastasia-archaeology", "A kingdom on Lake Dian, known from its bronzes and from the gold seal Han gave its king in 109 BCE. Its language is unknown."),
+     (102.7, 24.8, 130, 1, 115, 0, "r", "shiji;hanshu;eastasia-archaeology", "A kingdom on Lake Dian, known from its bronzes and from the gold seal Han gave its king in 109 BCE. By 1 CE it lay inside a Han commandery, its end is dated from the graves, and its language is unknown."),
    ]),
    ("cuan", "Cuan", "people", "burm", "yes", "chinas", "yunnan-kingdoms", [
      (103.3, 25.2, 220, 340, 750, 0, "a", "man-shu;tang-histories", "The Cuan family ruled eastern Yunnan for four centuries. The Tang called their peoples the Black and White Man."),
@@ -459,22 +460,24 @@
    ]),
    ("miao", "Miao (Hmong)", "people", "hmong", "no", "chinas", "southwest-peoples", [
      (109.3, 27.5, 250, 900, 1600, 0, "r", "songshi;mingshi", "Miao is a Chinese name. Hmong, Hmu and Qo Xiong are among the names the people use."),
-     (107.5, 26.5, 380, 1600, 2026, 1, "a", "qing-gazetteers;eastasia-censuses", "After the risings of the 18th and 19th centuries many moved west into Yunnan and on into Southeast Asia."),
+     (107.5, 26.5, 380, 1600, 2026, 1, "a", "mingshi;qing-gazetteers;eastasia-censuses", "Ming and Qing records name the Miao of Guizhou and western Hunan. After the risings of the 18th and 19th centuries many moved west into Yunnan and on into Southeast Asia."),
    ]),
    ("yao", "Yao (Mien)", "people", "hmong", "no", "chinas", "southwest-peoples", [
      (111.5, 25.0, 220, 1000, 2026, 1, "r", "songshi;qing-gazetteers", "Hill farmers of the Nanling range between Hunan, Guangdong and Guangxi."),
    ]),
    ("zhuang", "Zhuang", "people", "tai", "no", "chinas", "southwest-peoples", [
-     (107.8, 23.5, 270, 1000, 2026, 1, "a", "songshi;eastasia-censuses", "The Tai speakers of Guangxi, the largest minority people of China. Nong Zhigao led a rising against Song in 1052."),
+     (107.8, 23.5, 270, 1000, 1368, 0, "r", "songshi;linguistic-geography", "The Tai speakers of Guangxi. Song records call them by clan and district names, the name Zhuang is rare before the Ming, and Nong Zhigao led a rising against Song in 1052."),
+     (107.8, 23.5, 270, 1368, 2026, 1, "a", "mingshi;qing-gazetteers;eastasia-censuses", "Named as Zhuang across Guangxi in Ming and Qing records. They are the largest minority people of China."),
    ]),
    ("yi", "Yi (Nuosu)", "people", "burm", "no", "chinas", "southwest-peoples", [
      (103.3, 26.8, 300, 900, 2026, 1, "r", "yuanshi;mingshi;eastasia-censuses", "The Wuman and Luoluo of the Chinese histories, in the Liangshan hills, eastern Yunnan and western Guizhou. Nuosu is the name used in Liangshan."),
    ]),
    ("bai", "Bai", "people", "burm", "no", "chinas+tibet", "southwest-peoples", [
-     (100.2, 25.8, 110, 1253, 2026, 1, "a", "yuanshi;eastasia-censuses", "The people of the Dali plain. Where the Bai language belongs within Sino-Tibetan is disputed."),
+     (100.2, 25.8, 110, 1253, 1382, 0, "r", "yuanshi;linguistic-geography", "The people of the Dali plain after the kingdom fell. Where the Bai language belongs within Sino-Tibetan is disputed."),
+     (100.2, 25.8, 110, 1382, 2026, 1, "a", "mingshi;eastasia-censuses", "Called Minjia in Chinese from the Ming until 1949."),
    ]),
    ("tujia", "Tujia", "people", "tbother", "no", "chinas", "southwest-peoples", [
-     (109.6, 29.3, 180, 1000, 2026, 1, "r", "mingshi;qing-gazetteers", "Governed by their own hereditary chiefs until the 1720s. Most now speak Chinese."),
+     (109.6, 29.3, 180, 1000, 2026, 1, "r", "mingshi;qing-gazetteers", "Recorded under this name from about the 14th century and governed by their own hereditary chiefs until 1728 to 1735. Most now speak Chinese."),
    ]),
    ("dai", "Dai", "people", "tai", "no", "chinas", "southwest-peoples", [
      (100.8, 22.0, 130, 1180, 2026, 1, "r", "mingshi;linguistic-geography", "The Tai Lue principality of Sipsongpanna, by tradition founded about 1180."),
@@ -502,7 +505,8 @@
    ]),
    ("tanguts", "Tanguts", "people", "tbother", "no", "chinan+chinas+mongolia+tarim+tibet", "tibetans-qiang", [
      (103.0, 33.5, 200, 550, 880, 0, "r", "tang-histories", "The Dangxiang of the Sichuan and Qinghai border, who moved north to the Ordos under Tibetan pressure."),
-     (107.0, 38.2, 300, 880, 1400, 0, "a", "songshi;tarim-manuscripts", "Tangut is the Mongol name. The people called themselves Mi."),
+     (107.0, 38.2, 300, 880, 1227, 0, "a", "songshi;tarim-manuscripts", "Tangut is the Mongol name. The people called themselves Mi."),
+     (107.0, 38.2, 300, 1227, 1400, 0, "r", "yuanshi;tarim-manuscripts", "Tanguts lived on under Mongol and Ming rule. The last known text in their script dates from 1502."),
    ]),
    ("western-xia", "Western Xia", "polity", "tbother", "no", "chinan+mongolia+tarim", "", [
      (104.0, 38.8, 500, 1038, 1227, 0, "a", "songshi", "The Tangut empire, with its capital at what is now Yinchuan. Chinggis Khan destroyed it in 1227."),
@@ -533,7 +537,7 @@
      (86.6, 42.1, 130, 1, 850, 0, "a", "hanshu;xuanzang;tarim-manuscripts", "Home of Tocharian A, known as Agni in its own texts."),
    ]),
    ("shanshan", "Shanshan (Loulan)", "people", "toch", "yes", "tarim", "tarim-oases", [
-     (89.0, 39.5, 200, 1, 445, 0, "a", "hanshu;tarim-manuscripts", "A kingdom around Lop Nor that kept its records in Gandhari Prakrit. Its own language is uncertain."),
+     (89.0, 39.5, 200, 1, 445, 0, "a", "hanshu;tarim-manuscripts", "A kingdom around Lop Nor that kept its records in Gandhari Prakrit. Its own language is uncertain: a third Tocharian language was proposed, and recent work finds that case weak."),
    ]),
    ("gaochang", "Gaochang", "people", "sinitic", "no", "tarim", "tarim-oases", [
      (89.5, 42.9, 130, 460, 640, 0, "a", "weishu;tang-histories;tarim-manuscripts", "A kingdom at Turfan ruled by Chinese families over a mixed Chinese, Tocharian and Sogdian population. Tang annexed it in 640."),
@@ -542,10 +546,10 @@
      (89.5, 43.0, 300, 866, 1335, 0, "a", "songshi;tarim-manuscripts", "Uyghurs from Mongolia founded a kingdom at Turfan and Beshbalik. Its ruler submitted to Chinggis Khan in 1209."),
    ]),
    ("ganzhou-uyghurs", "Ganzhou Uyghurs", "people", "turk", "no", "chinan+tarim", "tarim-oases", [
-     (100.4, 38.9, 200, 870, 1036, 0, "a", "songshi", "A Uyghur kingdom in the Hexi corridor, conquered by the Tanguts. The Yugur of Gansu are taken to descend from it."),
+     (100.4, 38.9, 200, 894, 1036, 0, "a", "songshi", "Uyghurs reached the Hexi corridor after 840 and held Ganzhou as a kingdom from about 894. The Tanguts conquered it in 1036, and the Yugur of Gansu are taken to descend from it."),
    ]),
-   ("yarkand-khanate", "Yarkand Khanate", "people", "karluk", "no", "tarim", "tarim-oases", [
-     (77.5, 38.5, 400, 1514, 1680, 0, "a", "mingshi;qing-gazetteers", "Founded by a Chagatai prince in 1514 and ruled in its last decades through the Khoja religious leaders. The Dzungars took it in 1680."),
+   ("yarkand-khanate", "Yarkand Khanate", "polity", "karluk", "no", "tarim", "", [
+     (77.5, 38.5, 400, 1514, 1680, 0, "a", "mingshi;qing-gazetteers", "Founded by a Chagatai prince in 1514 and ruled in its last decades through the Khoja religious leaders. The Dzungars took it in 1680, and by one reckoning its khans lasted under them until 1705."),
    ]),
    ("uyghurs", "Uyghurs", "people", "karluk", "no", "tarim", "tarim-oases", [
      (81.5, 39.5, 500, 1500, 2026, 1, "a", "qing-gazetteers;eastasia-censuses", "The Turkic Muslim people of the oases. They were named by their towns until the name Uyghur was taken up again in the 1920s."),
@@ -583,7 +587,8 @@
      (116.5, 47.5, 300, 900, 1202, 0, "r", "liaoshi;secret-history", "A people of eastern Mongolia, called Zubu in Liao records. Temüjin destroyed them in 1202 and their name passed to others."),
    ]),
    ("kereit", "Kereit", "people", "mong", "yes", "mongolia", "mongolia-steppe", [
-     (105.0, 47.5, 280, 1000, 1203, 0, "a", "secret-history;liaoshi", "A Christian people of the Tuul and Orkhon. Whether they spoke Mongolic or Turkic is disputed."),
+     (105.0, 47.5, 280, 1000, 1150, 0, "r", "liaoshi;secret-history", "A Christian people of the Tuul and Orkhon. Their history before the 12th century comes from later writers."),
+     (105.0, 47.5, 280, 1150, 1203, 0, "a", "secret-history", "The Kereit of Toghrul, ally and then enemy of Temüjin. Whether they spoke Mongolic or Turkic is disputed."),
    ]),
    ("naimans", "Naimans", "people", "turk", "yes", "mongolia+tarim", "mongolia-steppe", [
      (93.0, 48.0, 330, 1100, 1204, 0, "a", "secret-history", "A people of the Altai and western Mongolia with a Uyghur-style chancery. Their language is disputed."),
@@ -618,7 +623,8 @@
      (118.5, 41.7, 250, 1, 207, 0, "a", "hou-hanshu;sanguozhi", "Herders settled along the Han frontier. Cao Cao broke them at White Wolf Mountain in 207."),
    ]),
    ("yilou", "Yilou", "people", "tung", "yes", "manchuria+esiberia", "manchurian-peoples", [
-     (130.5, 46.0, 300, 1, 450, 0, "a", "sanguozhi", "Forest people east of Buyeo, whom the Chinese identified with the ancient Sushen. Their language is assumed to be Tungusic."),
+     (130.5, 46.0, 300, 1, 220, 0, "r", "sanguozhi;hou-hanshu", "Forest people east of Buyeo and subject to it in Han times. Their placement before the 3rd century rests on the later account."),
+     (130.5, 46.0, 300, 220, 450, 0, "a", "sanguozhi", "Described in the Sanguozhi, which says their speech differed from that of Buyeo. The Chinese identified them with the ancient Sushen, and their language is assumed to be Tungusic."),
    ]),
    ("mohe", "Mohe", "people", "tung", "yes", "manchuria+esiberia", "manchurian-peoples", [
      (129.5, 46.0, 400, 450, 930, 0, "a", "weishu;tang-histories", "Called Wuji in the Weishu. The Sumo Mohe helped found Balhae and the Heishui Mohe of the Amur became the Jurchens."),
@@ -646,11 +652,12 @@
    ]),
    # ---------------------------------------------------------------- East Siberians
    ("kurykan", "Kurykan", "people", "turk", "no", "esiberia+wsiberia", "east-siberians", [
-     (106.5, 53.0, 220, 550, 900, 0, "a", "orkhon-inscriptions;tang-histories", "A Turkic people around Lake Baikal, named in the Orkhon inscriptions and known for their horses."),
+     (106.5, 53.0, 220, 550, 900, 0, "r", "orkhon-inscriptions;tang-histories", "A Turkic people named in the Orkhon inscriptions and, as tributaries known for their horses, in the Tang histories. Their placement around Lake Baikal and the Angara, and their dates, are later scholarship."),
    ]),
    ("siberian-yupik", "Siberian Yupik", "people", "inuit", "no", "esiberia", "east-siberians", [
      (-173.0, 65.0, 200, 1, 1648, 0, "r", "eastasia-archaeology", "Sea-mammal hunters known from the Old Bering Sea and Punuk cultures, taken to be ancestors of the Yupik."),
-     (-173.0, 65.0, 200, 1648, 2026, 1, "a", "russian-siberian-records;eastasia-censuses", "Villages on the coast of Chukotka."),
+     (-173.0, 65.0, 200, 1648, 1897, 0, "r", "russian-siberian-records;linguistic-geography", "Villages on the coast of Chukotka. Dezhnev passed the strait in 1648, and early Russian reports do not clearly tell the Yupik from the coastal Chukchi."),
+     (-173.0, 65.0, 200, 1897, 2026, 1, "a", "eastasia-censuses", "Villages on the coast of Chukotka, counted apart from the Chukchi in the censuses."),
    ]),
    ("evenki", "Evenki", "people", "tung", "no", "esiberia+manchuria", "east-siberians", [
      (116.0, 56.0, 600, 1000, 1620, 0, "i", "linguistic-geography", "Placement before the Russian records is inferred from the spread of the language."),
@@ -664,23 +671,25 @@
      (152.0, 68.0, 400, 1640, 2026, 1, "a", "russian-siberian-records;eastasia-censuses", "Hunters of the Kolyma and Indigirka. Epidemics and absorption left a few hundred speakers."),
    ]),
    ("chukchi", "Chukchi", "people", "paleosib", "no", "esiberia", "east-siberians", [
-     (176.0, 66.5, 400, 1, 1640, 0, "i", "eastasia-archaeology;linguistic-geography", "Assumed from later records."),
-     (175.0, 66.5, 450, 1640, 2026, 1, "a", "russian-siberian-records;eastasia-censuses", "Reindeer herders and sea hunters who call themselves Luoravetlan. They fought off Russian forces through the 18th century."),
+     (176.0, 66.5, 400, 1, 1643, 0, "i", "eastasia-archaeology;linguistic-geography", "Assumed from later records."),
+     (175.0, 66.5, 450, 1643, 2026, 1, "a", "russian-siberian-records;eastasia-censuses", "Reindeer herders and sea hunters who call themselves Luoravetlan. Russians met them on the Kolyma in 1643 and failed to subdue them through the 18th century."),
    ]),
    ("koryak", "Koryak", "people", "paleosib", "no", "esiberia", "east-siberians", [
-     (165.0, 61.5, 350, 1, 1640, 0, "i", "eastasia-archaeology;linguistic-geography", "Assumed from later records."),
-     (165.0, 61.5, 350, 1640, 2026, 1, "a", "russian-siberian-records;eastasia-censuses", "Northern Kamchatka and the coast of the Sea of Okhotsk."),
+     (165.0, 61.5, 350, 1, 1695, 0, "i", "eastasia-archaeology;linguistic-geography", "Assumed from later records."),
+     (165.0, 61.5, 350, 1695, 2026, 1, "a", "russian-siberian-records;eastasia-censuses", "Northern Kamchatka and the coast of the Sea of Okhotsk. The name is first recorded by Atlasov in 1695."),
    ]),
    ("nivkh", "Nivkh", "people", "paleosib", "no", "esiberia", "east-siberians", [
      (141.5, 52.5, 250, 1, 1263, 0, "i", "eastasia-archaeology;linguistic-geography", "Assumed from later records."),
-     (141.5, 52.5, 250, 1263, 2026, 1, "a", "yuanshi;russian-siberian-records", "Fishers of the Amur mouth and northern Sakhalin, called Jilimi in Yuan records and Gilyak by the Russians."),
+     (141.5, 52.5, 250, 1263, 1643, 0, "r", "yuanshi;linguistic-geography", "Yuan records name the Jilimi of the lower Amur as allies from 1263. That they were the Nivkh is the usual reading."),
+     (141.5, 52.5, 250, 1643, 2026, 1, "a", "russian-siberian-records;eastasia-censuses", "Fishers of the Amur mouth and northern Sakhalin, first described by Poyarkov in 1643 and called Gilyak by the Russians."),
    ]),
    ("sakha", "Sakha (Yakuts)", "people", "sibturk", "no", "esiberia", "east-siberians", [
      (129.7, 62.0, 350, 1300, 1632, 0, "r", "linguistic-geography;eastasia-archaeology", "Turkic horse and cattle herders on the middle Lena. Their own tradition and the language point to an origin near Lake Baikal."),
      (128.0, 64.5, 750, 1632, 2026, 1, "a", "russian-siberian-records;eastasia-censuses", "The Russians founded Yakutsk in 1632. The Sakha then spread north and west."),
    ]),
    ("buryats", "Buryats", "people", "mong", "no", "esiberia+wsiberia+mongolia", "east-siberians", [
-     (107.5, 52.5, 300, 1200, 2026, 1, "a", "secret-history;russian-siberian-records;eastasia-censuses", "The Secret History lists the Buriyad among the forest peoples who submitted in 1207."),
+     (107.5, 52.5, 300, 1200, 1643, 0, "r", "secret-history;linguistic-geography", "The Secret History lists the Buriyad among the forest peoples who submitted in 1207. It does not say closely where they lived."),
+     (107.5, 52.5, 300, 1643, 2026, 1, "a", "russian-siberian-records;eastasia-censuses", "Mongolic herders on both sides of Lake Baikal, which the Russians reached in 1643."),
    ]),
 
    # ---------------------------------------------------------------- Korean kingdoms
@@ -718,7 +727,7 @@
      (128.5, 35.3, 80, 300, 562, 0, "a", "samguk-sagi;nihon-shoki", "A league of small states on the Nakdong. The Nihon Shoki's claim of a Yamato base here is disputed."),
    ]),
    ("tamna", "Tamna", "people", "kor", "yes", "korea", "korean-kingdoms", [
-     (126.55, 33.4, 50, 400, 1404, 0, "a", "samguk-sagi", "The island kingdom of Jeju, tributary to Baekje, Silla and Goryeo in turn."),
+     (126.55, 33.4, 50, 400, 1404, 0, "a", "samguk-sagi", "The island kingdom of Jeju, tributary to Baekje, Silla and Goryeo in turn and self-governing until 1404. Its early language is unknown and may have been related to Japanese."),
    ]),
    ("koreans", "Koreans", "people", "kor", "no", "korea", "korean-kingdoms", [
      (127.5, 37.6, 380, 935, 2026, 1, "a", "joseon-sillok;eastasia-censuses", "One people under Goryeo and Joseon, divided between two states since 1948."),
@@ -738,13 +747,15 @@
 
    # ---------------------------------------------------------------- Japan and Ryukyu
    ("wa", "Wa", "people", "jap", "no", "japan", "wa-yamato", [
-     (132.5, 34.0, 350, 1, 300, 0, "a", "hou-hanshu;sanguozhi", "The Chinese name for the people of the Japanese islands, living in many small communities. Where Queen Himiko's Yamatai lay, in Kyushu or in central Honshu, is disputed."),
+     (132.5, 34.0, 350, 1, 300, 0, "a", "hanshu;hou-hanshu;sanguozhi", "The Chinese name for the people of the Japanese islands, living in many small communities. Where Queen Himiko's Yamatai lay, in Kyushu or in central Honshu, is disputed."),
    ]),
    ("yamato", "Yamato", "people", "jap", "no", "japan", "wa-yamato", [
-     (135.5, 34.8, 450, 300, 710, 0, "a", "nihon-shoki;eastasia-archaeology", "The kingship of the Nara basin, whose great tombs spread from Kyushu to the Kanto plain."),
+     (135.5, 34.8, 450, 300, 421, 0, "r", "eastasia-archaeology;nihon-shoki", "The kingship of the Nara basin, known in these years from its great tombs. The court histories of these reigns are tradition."),
+     (135.5, 34.8, 450, 421, 710, 0, "a", "chinese-histories;nihon-shoki;eastasia-archaeology", "Kings of Wa sent envoys to the Liu Song court between 421 and 478, and a sword inscription dated to 471 names a great king. The great tombs spread from Kyushu to the Kanto plain."),
    ]),
    ("hayato", "Hayato", "people", "jap", "yes", "japan", "wa-yamato", [
-     (130.7, 31.6, 110, 400, 800, 0, "a", "nihon-shoki;shoku-nihongi", "The people of southern Kyushu, who rose against the court for the last time in 720."),
+     (130.7, 31.6, 110, 400, 680, 0, "r", "nihon-shoki", "The people of southern Kyushu. What the court histories say of them before the late 7th century is tradition."),
+     (130.7, 31.6, 110, 680, 800, 0, "a", "nihon-shoki;shoku-nihongi", "Recorded at court from the late 7th century. They rose for the last time in 720 and 721."),
    ]),
    ("japanese", "Japanese", "people", "jap", "no", "japan", "wa-yamato", [
      (136.5, 35.5, 550, 710, 2026, 1, "a", "shoku-nihongi;japanese-records;eastasia-censuses", "The people of the state ruled from Nara, Kyoto, Kamakura and Edo in turn."),
@@ -752,7 +763,7 @@
    ("ryukyuans", "Ryukyuans", "people", "jap", "no", "japan", "wa-yamato", [
      (127.8, 26.5, 300, 1100, 2026, 1, "r", "ryukyu-records;eastasia-archaeology", "Farmers and traders of the island chain. Local lords built stone castles called gusuku from the 12th century."),
    ]),
-   ("ryukyu-kingdom", "Ryukyu Kingdom", "people", "jap", "no", "japan", "wa-yamato", [
+   ("ryukyu-kingdom", "Ryukyu Kingdom", "polity", "jap", "no", "japan", "", [
      (127.7, 26.2, 330, 1429, 1879, 0, "a", "ryukyu-records;mingshi", "United from Shuri in 1429 and a trading partner of Ming China. Satsuma invaded in 1609 and Japan annexed the kingdom in 1879."),
    ]),
    ("nara-heian-japan", "Japan (Nara and Heian)", "polity", "jap", "no", "japan", "", [
@@ -762,10 +773,10 @@
      (137.5, 35.5, 550, 1185, 1333, 0, "a", "japanese-records", "Warrior government at Kamakura beside the court at Kyoto. It turned back Mongol fleets in 1274 and 1281."),
    ]),
    ("muromachi-shogunate", "Muromachi shogunate", "polity", "jap", "no", "japan", "", [
-     (136.0, 35.2, 550, 1336, 1600, 0, "a", "japanese-records", "The Ashikaga shoguns at Kyoto. From 1467 power lay with warring regional lords, until Nobunaga and Hideyoshi reunited the country after 1568."),
+     (136.0, 35.2, 550, 1336, 1573, 0, "a", "japanese-records", "The Ashikaga shoguns at Kyoto. From 1467 power lay with warring regional lords, and Nobunaga drove out the last shogun in 1573."),
    ]),
    ("tokugawa-shogunate", "Tokugawa shogunate", "polity", "jap", "no", "japan", "", [
-     (137.5, 36.0, 600, 1600, 1868, 0, "a", "japanese-records", "Government from Edo, now Tokyo, over some 260 domains."),
+     (137.5, 36.0, 600, 1603, 1868, 0, "a", "japanese-records", "Ieyasu won at Sekigahara in 1600 and became shogun in 1603. Government from Edo, now Tokyo, over some 260 domains."),
    ]),
    ("empire-of-japan", "Empire of Japan", "polity", "jap", "no", "japan+korea+manchuria+esiberia", "", [
      (137.5, 37.0, 650, 1868, 1910, 0, "a", "acts-treaties", "The Meiji state took in Hokkaido and Ryukyu, and southern Sakhalin in 1905."),
@@ -779,7 +790,8 @@
      (142.5, 43.2, 280, 1, 700, 0, "r", "eastasia-archaeology", "The hunters and fishers of Hokkaido who kept the Jomon way of life after rice farming spread through Honshu. Known from archaeology only."),
    ]),
    ("emishi", "Emishi", "people", "ainu", "yes", "japan", "emishi-ainu", [
-     (141.0, 39.5, 220, 400, 1200, 0, "a", "nihon-shoki;shoku-nihongi", "The court's name for the people of northern Honshu beyond its rule. Their leader Aterui surrendered in 802."),
+     (141.0, 39.5, 220, 400, 658, 0, "r", "nihon-shoki;eastasia-archaeology", "The court's name for the people of northern Honshu beyond its rule. Entries about them before the 7th century are tradition."),
+     (141.0, 39.5, 220, 658, 1200, 0, "a", "nihon-shoki;shoku-nihongi;japanese-records", "Abe no Hirafu's fleet sailed against them in 658 and their leader Aterui surrendered in 802."),
    ]),
    ("okhotsk-culture", "Okhotsk culture", "people", "paleosib", "yes", "japan+esiberia", "emishi-ainu", [
      (143.5, 46.0, 350, 400, 1200, 0, "r", "eastasia-archaeology", "Sea hunters of Sakhalin, the north coast of Hokkaido and the Kurils. Often linked to the Nivkh, which is inference."),
@@ -797,7 +809,7 @@
    ("jurchens", "jin-jurchen", "continues", 1115, "jinshi", "Aguda proclaimed the Jin in 1115."),
    ("tanguts", "western-xia", "continues", 1038, "songshi", "Yuanhao took the title of emperor in 1038."),
    ("uyghur-khaganate", "qocho", "continues", 866, "tang-histories", "Uyghurs moved to the Turfan region after 840."),
-   ("uyghur-khaganate", "ganzhou-uyghurs", "continues", 870, "tang-histories", "Another group settled in the Hexi corridor."),
+   ("uyghur-khaganate", "ganzhou-uyghurs", "continues", 894, "tang-histories", "Another group settled in the Hexi corridor after 840."),
    ("khamag-mongols", "mongol-empire", "continues", 1206, "secret-history", "The assembly of 1206."),
    ("mongol-empire", "yuan-dynasty", "continues", 1271, "yuanshi", "Khubilai took the dynastic name Yuan in 1271."),
    ("yuan-dynasty", "northern-yuan", "continues", 1368, "mingshi", "The court withdrew to Mongolia."),
