@@ -2,6 +2,10 @@
  "part": 5,
  "regions": ["taiwan", "burma", "indochina", "malaya", "sumatra", "java", "borneo", "eindonesia", "philippines",
              "melanesia", "micronesia", "polynesia", "newzealand", "madagascar"],
+ # Entries with a claim classed attested before written records become general in their region, each resting on
+ # a named early source: Chinese histories (Linyi from 192, Butuan in 1001), Yijing in 671 and the Kedukan Bukit
+ # stone of 683, the Kutai posts, the Purnavarman inscriptions, and the Laguna copperplate of 900.
+ "attested_early": ["champa", "srivijaya", "kutai", "tarumanagara", "tondo-maynila", "butuan"],
  "sources": [
    ("periplus-erythraean", "Periplus of the Erythraean Sea", "text", "mid 1st century", "no", "A Greek merchant's guide to the Red Sea and the East African coast as far as Rhapta."),
    ("chinese-histories-nanhai", "Chinese dynastic histories and their accounts of the southern seas", "text",
@@ -184,10 +188,10 @@
    ("batak-speakers", "Batak, Gayo and Nias", "language", "malayic", "no", "sumatra", "", [
      (98.7, 2.4, 280, 1, 2026, 1, "r", "linguistic-geography", "The northern highlands around Lake Toba. Inferred before the first outside reports of the 13th to 16th centuries."),
      (99.2, -1.5, 260, 1, 2026, 1, "i", "linguistic-geography", "Nias, Mentawai and Enggano, the islands off the west coast. Thinly peopled."),
-     (96.2, 4.6, 220, 1, 1150, 0, "i", "linguistic-geography", "The northern tip before Acehnese. The languages are assumed to have been related to Gayo and Batak."),
+     (96.2, 4.6, 220, 1, 1000, 0, "i", "linguistic-geography", "The northern tip before Acehnese. The languages are assumed to have been related to Gayo and Batak."),
    ]),
    ("acehnese-speakers", "Acehnese", "language", "cham", "no", "sumatra", "", [
-     (95.9, 5.0, 170, 1100, 2026, 1, "r", "linguistic-geography", "Acehnese is a Chamic language, close kin of Cham in Vietnam. How and when it reached Sumatra is debated."),
+     (95.9, 5.0, 170, 950, 2026, 1, "r", "linguistic-geography", "Acehnese is a Chamic language, close kin of Cham in Vietnam. Linguists put its arrival in Sumatra between the 8th and the 10th century, and the first sure outside record is of 1292."),
    ]),
    ("sundanese-speakers", "Sundanese", "language", "malayic", "no", "java", "", [
      (107.0, -6.9, 190, 1, 1350, 0, "r", "linguistic-geography", "Western Java. Inferred before the first Old Sundanese inscriptions of the 14th century."),
@@ -222,7 +226,8 @@
    ]),
    ("tagalog-speakers", "Tagalog, Kapampangan and Bikol", "language", "philip", "no", "philippines", "", [
      (121.5, 14.2, 260, 1, 900, 0, "r", "linguistic-geography", "Central and southern Luzon. Inferred."),
-     (121.5, 14.2, 260, 900, 2026, 1, "a", "sea-inscriptions;spanish-philippine-chronicles", "A copperplate of 900 found by Laguna de Bay names local places and people. Tagalog is the base of Filipino, the national language."),
+     (121.5, 14.2, 260, 900, 1570, 0, "r", "sea-inscriptions;linguistic-geography", "A copperplate of 900 found by Laguna de Bay names local places and people, but it is written in Old Malay, so the speech of the country is still inferred."),
+     (121.5, 14.2, 260, 1570, 2026, 1, "a", "spanish-philippine-chronicles;seasia-pacific-censuses", "Spanish friars wrote Tagalog down from the 1570s. It is the base of Filipino, the national language."),
    ]),
    ("visayan-speakers", "Visayan languages", "language", "philip", "no", "philippines", "", [
      (123.8, 10.8, 300, 1, 1521, 0, "r", "linguistic-geography", "The central islands. Inferred before 1521."),
@@ -272,7 +277,8 @@
    # ---------------------------------------------------------------- language wash: Pacific
    ("oceanic-melanesia", "Solomon and Vanuatu languages", "language", "oceanic", "no", "melanesia", "", [
      (159.8, -8.8, 380, 1, 2026, 1, "r", "linguistic-geography;settlement-archaeology", "Some seventy Oceanic languages of the Solomon Islands. Pijin, an English-based creole, is now the common language."),
-     (167.8, -16.3, 330, 1, 2026, 1, "r", "linguistic-geography;settlement-archaeology", "Vanuatu, settled by Lapita people about 1000 BCE, has more than a hundred languages. Bislama is the common language today."),
+     (167.8, -16.3, 380, 1, 2026, 1, "r", "linguistic-geography;settlement-archaeology", "Vanuatu, settled by Lapita people about 1000 BCE, has more than a hundred languages. Bislama is the common language today."),
+     (166.3, -11.1, 150, 1, 2026, 1, "r", "linguistic-geography;settlement-archaeology", "Santa Cruz, the Reef Islands and Vanikoro in the outer Solomons, reached by Lapita people about 3,000 years ago."),
    ]),
    ("kanak-languages", "Kanak languages", "language", "oceanic", "no", "melanesia", "", [
      (165.6, -21.3, 250, 1, 2026, 1, "r", "linguistic-geography;settlement-archaeology", "New Caledonia and the Loyalty Islands, settled by Lapita people about 1000 BCE. Some twenty-eight languages, among them Drehu, Nengone and Paicî."),
@@ -364,7 +370,8 @@
      (104.9, 12.0, 220, 1431, 1863, 0, "a", "thai-chronicles", "The Khmer kingdom after Angkor, with capitals at Longvek and Oudong, squeezed between Siam and Vietnam. A French protectorate from 1863."),
    ]),
    ("dvaravati", "Dvaravati", "people", "monkhmer", "no", "indochina", "mon-khmer-realms", [
-     (100.3, 14.5, 220, 550, 1000, 0, "a", "sea-inscriptions;chinese-histories-nanhai", "Mon Buddhist towns of the Chao Phraya plain. The name is found on silver medals from Nakhon Pathom."),
+     (100.3, 14.5, 220, 550, 640, 0, "r", "settlement-archaeology;sea-inscriptions", "Mon Buddhist towns of the Chao Phraya plain, taking shape in the later 6th century. Known from archaeology before the name appears."),
+     (100.3, 14.5, 220, 640, 1000, 0, "a", "sea-inscriptions;chinese-histories-nanhai", "The name is found on silver medals from Nakhon Pathom and in Chinese accounts of the 7th century. The towns passed under Khmer power in the 11th century."),
    ]),
    ("haripunjaya", "Haripunjaya", "people", "monkhmer", "no", "indochina", "mon-khmer-realms", [
      (99.0, 18.5, 110, 750, 1292, 0, "r", "thai-chronicles;sea-inscriptions", "A Mon kingdom at Lamphun. Its founding by Queen Camadevi is chronicle tradition, and its own Mon inscriptions date from the 12th century."),
@@ -381,8 +388,8 @@
    ]),
    # ---------------------------------------------------------------- peoples: Pyu and Burmese
    ("pyu-cities", "Pyu city states", "people", "tbother", "no", "burma", "burmese-realms", [
-     (95.3, 20.2, 300, 1, 400, 0, "r", "settlement-archaeology", "Walled brick towns at Beikthano, Halin and Sri Ksetra, known from archaeology."),
-     (95.3, 20.2, 300, 400, 832, 0, "a", "sea-inscriptions;chinese-histories-nanhai", "Pyu inscriptions and Tang accounts of the Piao kingdom. Nanzhao sacked Halin in 832."),
+     (95.3, 20.2, 300, 1, 500, 0, "r", "settlement-archaeology", "Walled brick towns at Beikthano, Halin and Sri Ksetra, known from archaeology."),
+     (95.3, 20.2, 300, 500, 832, 0, "a", "sea-inscriptions;chinese-histories-nanhai", "Pyu inscriptions and Tang accounts of the Piao kingdom. Nanzhao sacked Halin in 832."),
    ]),
    ("pagan", "Pagan (Bagan)", "people", "burm", "no", "burma", "burmese-realms", [
      (94.9, 21.2, 150, 849, 1044, 0, "r", "burmese-chronicles", "The chronicles date the walls of Pagan to 849. Little is certain before Anawrahta."),
@@ -428,7 +435,7 @@
    ]),
    ("champa", "Champa", "people", "cham", "no", "indochina", "viet-cham", [
      (108.2, 15.9, 230, 192, 1471, 0, "a", "chinese-histories-nanhai;sea-inscriptions", "Chinese histories date the kingdom they call Linyi from 192. Cham inscriptions begin about the 4th century at Mỹ Sơn."),
-     (109.0, 12.8, 220, 300, 1471, 0, "a", "sea-inscriptions", "Kauthara and Panduranga in the south. The Võ Cạnh stone near Nha Trang is the oldest Sanskrit inscription of Southeast Asia."),
+     (109.0, 12.8, 220, 300, 1471, 0, "a", "sea-inscriptions", "Kauthara and Panduranga in the south. The Võ Cạnh stone near Nha Trang is the oldest Sanskrit inscription of Southeast Asia, dated between the 2nd and 4th centuries."),
      (108.8, 11.6, 110, 1471, 1832, 0, "a", "dai-viet-chronicle", "Panduranga, the last Cham principality, annexed by Vietnam in 1832."),
    ]),
    ("cham-people", "Cham", "people", "cham", "no", "indochina", "viet-cham", [
@@ -436,16 +443,19 @@
    ]),
    # ---------------------------------------------------------------- peoples: hill peoples
    ("karen-people", "Karen", "people", "tbother", "no", "burma+indochina", "seasia-hill-peoples", [
-     (97.5, 17.8, 200, 1750, 2026, 1, "a", "missionary-records;seasia-pacific-censuses", "Karen is the outside name, and the Sgaw call themselves Pgaz K'Nyau. They were probably in these hills long before the first clear records."),
+     (97.5, 17.8, 200, 1750, 1800, 0, "r", "linguistic-geography", "Karen speakers were probably in these hills long before the first clear records. Pagan inscriptions of the 13th century may name them, and that reading is not certain."),
+     (97.5, 17.8, 200, 1800, 2026, 1, "a", "missionary-records;seasia-pacific-censuses", "Karen is the outside name, and the Sgaw call themselves Pgaz K'Nyau. Missionaries and British officers described them from the early 19th century."),
    ]),
    ("chin-zo", "Chin (Zo)", "people", "tbother", "no", "burma", "seasia-hill-peoples", [
-     (93.6, 22.3, 150, 1750, 2026, 1, "a", "seasia-pacific-censuses", "Chin is the Burmese name, and Zo, Lai and Asho are among their own names. Recorded by British officers in the 19th century."),
+     (93.6, 22.3, 150, 1750, 1825, 0, "r", "linguistic-geography", "The peoples of the western hills before outside records. Their presence is inferred from their languages."),
+     (93.6, 22.3, 150, 1825, 2026, 1, "a", "seasia-pacific-censuses", "Chin is the Burmese name, and Zo, Lai and Asho are among their own names. Recorded by British officers in the 19th century."),
    ]),
    ("kachin-jingpho", "Kachin (Jingpho)", "people", "tbother", "no", "burma", "seasia-hill-peoples", [
-     (97.3, 25.8, 220, 1750, 2026, 1, "a", "seasia-pacific-censuses", "Kachin is the outside name for the Jingpho and their neighbours, who spread south through these hills in recent centuries."),
+     (97.3, 25.8, 220, 1750, 1825, 0, "r", "linguistic-geography", "The Jingpho and their neighbours spread south through these hills in recent centuries. Before British records this is inferred."),
+     (97.3, 25.8, 220, 1825, 2026, 1, "a", "seasia-pacific-censuses", "Kachin is the outside name for the Jingpho and their neighbours, recorded by British officers from the 1820s and 1830s."),
    ]),
    ("hmong-seasia", "Hmong", "people", "hmong", "no", "indochina", "seasia-hill-peoples", [
-     (103.3, 20.0, 220, 1810, 1860, 0, "r", "linguistic-geography;polynesian-oral-tradition", "Hmong families moved from southern China onto the high ridges of Vietnam and Laos between about 1790 and the 1860s. Their own tradition and later accounts are the evidence for the first decades."),
+     (103.3, 20.0, 220, 1810, 1860, 0, "r", "linguistic-geography", "Hmong families moved from southern China onto the high ridges of Vietnam and Laos between about 1790 and the 1860s. Their own tradition and later accounts are the evidence for the first decades."),
      (103.3, 20.0, 220, 1860, 2026, 1, "a", "seasia-pacific-censuses", "Recorded by French officers and in colonial counts from the later 19th century. Miao and Meo are outside names."),
    ]),
    ("highlanders-jarai", "Jarai, Rade and Bahnar", "people", "cham", "no", "indochina", "seasia-hill-peoples", [
@@ -462,7 +472,8 @@
      (97.8, 21.5, 250, 1300, 1959, 0, "a", "burmese-chronicles", "Small Tai principalities under hereditary lords, tributary to Burma for most of their history until the lords gave up their powers in 1959. The Shan call themselves Tai Yai."),
    ]),
    ("sukhothai", "Sukhothai", "people", "tai", "no", "indochina", "tai-peoples", [
-     (99.8, 17.0, 250, 1238, 1438, 0, "a", "sea-inscriptions;thai-chronicles", "The first large Thai kingdom, founded on a Khmer outpost. The inscription credited to King Ram Khamhaeng is dated 1292, and some doubt its age."),
+     (99.8, 17.0, 250, 1238, 1292, 0, "r", "thai-chronicles", "The first large Thai kingdom, founded on a Khmer outpost. The founding date of 1238 is conventional and rests on later reckoning."),
+     (99.8, 17.0, 250, 1292, 1438, 0, "a", "sea-inscriptions;thai-chronicles", "The inscription credited to King Ram Khamhaeng is dated 1292, and some doubt its age. Ayutthaya made Sukhothai a province in 1438."),
    ]),
    ("lan-na", "Lan Na", "people", "tai", "no", "indochina", "tai-peoples", [
      (99.0, 18.8, 200, 1292, 1558, 0, "a", "thai-chronicles", "Founded by Mangrai, who took Mon Haripunjaya and built Chiang Mai in 1296."),
@@ -489,7 +500,7 @@
      (100.4, 5.7, 90, 300, 1136, 0, "r", "settlement-archaeology;sea-inscriptions", "A port at the Bujang valley on the crossing to the east coast. A Chola inscription names it as Kadaram, raided in 1025, and its language is assumed."),
    ]),
    ("srivijaya", "Srivijaya", "people", "malayic", "no", "sumatra+malaya", "malay-realms", [
-     (104.7, -3.0, 250, 670, 700, 0, "a", "sea-inscriptions;yijing-record", "Founded at Palembang. The Kedukan Bukit stone of 683 records its king's expedition, and Yijing studied here."),
+     (104.7, -3.0, 250, 671, 700, 0, "a", "sea-inscriptions;yijing-record", "Founded at Palembang. Yijing stayed here in 671, and the Kedukan Bukit stone of 683 records its king's expedition."),
      (103.0, 0.0, 600, 700, 1025, 0, "a", "sea-inscriptions;chinese-histories-nanhai", "Master of both shores of the straits and of the trade between India and China. A Chola fleet raided its ports in 1025."),
      (103.6, -1.6, 350, 1025, 1275, 0, "a", "chinese-histories-nanhai", "The Chinese go on naming Sanfoqi, by now centred at Jambi."),
    ]),
@@ -500,7 +511,8 @@
      (99.96, 8.4, 130, 775, 1280, 0, "r", "sea-inscriptions;chinese-histories-nanhai", "A kingdom of the isthmus at Nakhon Si Thammarat, named in Chola and Chinese sources. Its language is uncertain, and it passed to the Thai in the late 13th century."),
    ]),
    ("samudra-pasai", "Samudra-Pasai", "people", "malayic", "no", "sumatra", "malay-realms", [
-     (97.2, 5.1, 90, 1267, 1521, 0, "a", "marco-polo;ibn-battuta", "The first Muslim sultanate of the islands, where Marco Polo and Ibn Battuta both stopped. The name Sumatra comes from Samudra."),
+     (97.2, 5.1, 90, 1267, 1292, 0, "r", "malay-annals", "The first Muslim sultanate of the islands. The founding date of 1267 comes from later tradition."),
+     (97.2, 5.1, 90, 1292, 1521, 0, "a", "marco-polo;ibn-battuta", "Marco Polo stopped here in 1292 and Ibn Battuta in the 1340s. The name Sumatra comes from Samudra."),
    ]),
    ("malacca", "Malacca", "people", "malayic", "no", "malaya+sumatra", "malay-realms", [
      (102.25, 2.2, 250, 1400, 1511, 0, "a", "malay-annals;tome-pires;chinese-histories-nanhai", "Founded about 1400 by a prince from Palembang and taken by the Portuguese in 1511. Its court set the pattern of Malay language, law and Islam."),
@@ -509,7 +521,8 @@
      (104.0, 1.3, 250, 1528, 1824, 0, "a", "malay-annals;voc-records", "Founded by the heirs of Malacca, with the Riau islands. Divided between British and Dutch spheres in 1824."),
    ]),
    ("patani", "Patani", "people", "malayic", "no", "indochina+malaya", "malay-realms", [
-     (101.3, 6.8, 100, 1450, 1785, 0, "a", "tome-pires;thai-chronicles", "A Malay sultanate and pepper port, often tributary to Siam, which conquered it in 1785. Its people still speak Malay."),
+     (101.3, 6.8, 100, 1450, 1511, 0, "r", "thai-chronicles", "A Malay port founded, by its own chronicle, about the middle of the 15th century. The date is not secure."),
+     (101.3, 6.8, 100, 1511, 1785, 0, "a", "tome-pires;thai-chronicles", "A Malay sultanate and pepper port, often tributary to Siam, which conquered it in 1785 and 1786. Its people still speak Malay."),
    ]),
    ("aceh", "Aceh", "people", "cham", "no", "sumatra", "malay-realms", [
      (95.5, 5.3, 250, 1496, 1903, 0, "a", "tome-pires;voc-records", "The strongest Muslim state of the straits in the 16th and 17th centuries. It fought the Dutch from 1873 to 1903."),
@@ -520,11 +533,11 @@
      (114.9, 4.7, 200, 1600, 1888, 0, "a", "voc-records", "Reduced step by step by Sulu, Sarawak and North Borneo. Under British protection from 1888."),
    ]),
    ("kutai", "Kutai", "people", "malayic", "yes", "borneo+eindonesia", "malay-realms", [
-     (117.0, -0.4, 100, 380, 450, 0, "a", "sea-inscriptions", "Seven stone posts with Sanskrit inscriptions of King Mulawarman, from about 400, the oldest writing in Indonesia. The language of his people is assumed."),
-     (117.0, -0.5, 130, 1300, 1945, 0, "r", "nagarakretagama;voc-records", "The later kingdom and sultanate of Kutai on the Mahakam."),
+     (117.0, -0.4, 100, 380, 450, 0, "a", "sea-inscriptions", "Seven stone posts with Sanskrit inscriptions of King Mulawarman, from about 400, the oldest writing in Indonesia. They do not name the kingdom, which is called after the district, and the language of his people is assumed."),
    ]),
    ("banjar", "Banjar", "people", "malayic", "no", "borneo", "malay-realms", [
-     (114.6, -3.3, 200, 1526, 1860, 0, "a", "voc-records", "A Malay-speaking sultanate at Banjarmasin, grown rich on pepper. The Dutch abolished it in 1860."),
+     (114.6, -3.3, 200, 1526, 1606, 0, "r", "voc-records", "A Malay-speaking sultanate at Banjarmasin, founded by its own tradition in 1526."),
+     (114.6, -3.3, 200, 1606, 1860, 0, "a", "voc-records", "Grown rich on pepper and known to the Dutch from the early 17th century. The Dutch abolished it in 1860."),
    ]),
    # ---------------------------------------------------------------- peoples: Java and Bali
    ("buni-culture", "Buni culture", "people", "malayic", "yes", "java", "java-realms", [
@@ -552,13 +565,14 @@
      (106.8, -6.6, 120, 1030, 1579, 0, "a", "sea-inscriptions;tome-pires", "The Hindu kingdom of western Java, with its capital at Pakuan near Bogor. Banten ended it in 1579."),
    ]),
    ("demak", "Demak", "people", "malayic", "no", "java", "java-realms", [
-     (110.6, -6.9, 170, 1475, 1554, 0, "a", "tome-pires", "The first Muslim state of Java, a port on the north coast that brought down Majapahit."),
+     (110.6, -6.9, 170, 1475, 1512, 0, "r", "tome-pires", "The first Muslim state of Java, a port on the north coast. Its beginnings are obscure and the date of 1475 is traditional."),
+     (110.6, -6.9, 170, 1512, 1554, 0, "a", "tome-pires", "Described by Pires about 1515. It brought down the last of Majapahit in 1527."),
    ]),
    ("banten", "Banten", "people", "malayic", "no", "java", "java-realms", [
      (106.15, -6.05, 120, 1527, 1813, 0, "a", "voc-records", "A pepper sultanate at the western tip of Java, ruling Lampung across the strait. Under Dutch control from 1682."),
    ]),
    ("mataram-sultanate", "Mataram Sultanate", "people", "malayic", "no", "java", "java-realms", [
-     (110.4, -7.7, 300, 1587, 1755, 0, "a", "voc-records", "Under Sultan Agung it ruled most of Java and attacked Batavia in 1628 and 1629."),
+     (110.4, -7.7, 300, 1586, 1755, 0, "a", "voc-records", "Under Sultan Agung it ruled most of Java and attacked Batavia in 1628 and 1629."),
    ]),
    ("surakarta-yogyakarta", "Surakarta and Yogyakarta", "people", "malayic", "no", "java", "java-realms", [
      (110.6, -7.7, 90, 1755, 1945, 0, "a", "voc-records", "The two courts Mataram was divided into in 1755. Yogyakarta's sultan still governs its special region."),
@@ -569,19 +583,24 @@
    ]),
    # ---------------------------------------------------------------- peoples: eastern sultanates
    ("tondo-maynila", "Tondo and Maynila", "people", "philip", "yes", "philippines", "eastern-sultanates", [
-     (120.97, 14.6, 70, 900, 1571, 0, "a", "sea-inscriptions;spanish-philippine-chronicles", "A copperplate of 900 written in Old Malay names Tondo. By 1570 Maynila was ruled by Muslim kin of the sultans of Brunei, and Spain took it in 1571."),
+     (120.97, 14.6, 70, 900, 1000, 0, "a", "sea-inscriptions", "A copperplate of 900 found by Laguna de Bay, written in Old Malay with Sanskrit and Old Javanese words, names Tondo and its chief."),
+     (120.97, 14.6, 70, 1000, 1500, 0, "r", "settlement-archaeology;chinese-histories-nanhai", "No local writing survives from these centuries. Trade goods and brief Chinese notices of Luzon are the evidence."),
+     (120.97, 14.6, 70, 1500, 1571, 0, "a", "tome-pires;spanish-philippine-chronicles", "Pires wrote of Luzon traders at Malacca about 1515. By 1570 Maynila was ruled by Muslim kin of the sultans of Brunei, and Spain took it in 1571."),
    ]),
    ("butuan", "Butuan", "people", "philip", "yes", "philippines", "eastern-sultanates", [
-     (125.5, 8.95, 90, 1001, 1521, 0, "a", "chinese-histories-nanhai;pigafetta", "A gold-trading port of northern Mindanao that sent envoys to Song China from 1001. Large plank boats have been dug up here."),
+     (125.5, 8.95, 90, 1001, 1050, 0, "a", "chinese-histories-nanhai", "A gold-trading port of northern Mindanao that sent envoys to Song China from 1001."),
+     (125.5, 8.95, 90, 1050, 1521, 0, "r", "settlement-archaeology;pigafetta", "Large plank boats and gold work have been dug up here. No record names the port again until Magellan's men met its ruler in 1521."),
    ]),
    ("sugbu", "Sugbu (Cebu)", "people", "philip", "no", "philippines", "eastern-sultanates", [
-     (123.9, 10.3, 80, 1400, 1565, 0, "r", "pigafetta;spanish-philippine-chronicles", "A Visayan port under Rajah Humabon when Magellan arrived in 1521. Its earlier history rests on later tradition."),
+     (123.9, 10.3, 80, 1500, 1521, 0, "r", "spanish-philippine-chronicles", "A Visayan port whose earlier history rests on legend written down much later, with no dates."),
+     (123.9, 10.3, 80, 1521, 1565, 0, "a", "pigafetta;spanish-philippine-chronicles", "Under Rajah Humabon when Magellan arrived in 1521. Legazpi took it for Spain in 1565."),
    ]),
    ("sulu", "Sulu", "people", "philip", "no", "philippines+borneo", "eastern-sultanates", [
-     (121.0, 6.0, 250, 1450, 1915, 0, "a", "spanish-philippine-chronicles", "A Tausug sultanate at Jolo, founded about 1450, strong at sea in the 18th century. Its old claim to eastern Sabah is still disputed between the Philippines and Malaysia."),
+     (121.0, 6.0, 250, 1450, 1521, 0, "r", "spanish-philippine-chronicles", "A Tausug sultanate at Jolo. Most historians date its founding to about 1457 and one tradition to 1405."),
+     (121.0, 6.0, 250, 1521, 1915, 0, "a", "pigafetta;spanish-philippine-chronicles", "Strong at sea in the 18th century. Its old claim to eastern Sabah is still disputed between the Philippines and Malaysia."),
    ]),
    ("ternate", "Ternate", "people", "papother", "no", "eindonesia", "eastern-sultanates", [
-     (127.4, 0.8, 300, 1486, 1512, 0, "r", "polynesian-oral-tradition", "Zainal Abidin, by tradition the first ruler to take the title of sultan, reigned from 1486. Tradition puts the first king in 1257, and nothing written at the time survives."),
+     (127.4, 0.8, 300, 1486, 1512, 0, "r", "tome-pires;voc-records", "Zainal Abidin, by tradition the first ruler to take the title of sultan, reigned from 1486. Tradition written down later puts the first king in 1257, and nothing written at the time survives."),
      (127.4, 0.8, 300, 1512, 1683, 0, "a", "tome-pires;voc-records", "A clove island whose sultans claimed islands from Sulawesi to the Papuan coast, described by the Portuguese from 1512. Its language is Papuan, and Tidore across the strait was its twin and rival."),
      (127.4, 0.8, 120, 1683, 1914, 0, "a", "voc-records", "A Dutch vassal from 1683."),
    ]),
@@ -605,15 +624,16 @@
      (123.8, 10.8, 280, 1521, 2026, 1, "a", "pigafetta;spanish-philippine-chronicles", "The peoples of the central islands. Spaniards called the tattooed Visayans Pintados."),
    ]),
    ("moro-peoples", "Moro peoples", "people", "philip", "no", "philippines", "island-asia-peoples", [
-     (123.3, 7.0, 280, 1450, 2026, 1, "a", "spanish-philippine-chronicles", "Maguindanao, Maranao, Tausug, Sama and other Muslim peoples of Mindanao and Sulu. Moro was the Spanish name and is now used with pride, as in Bangsamoro."),
+     (123.3, 7.0, 280, 1450, 1565, 0, "r", "spanish-philippine-chronicles", "Islam reached Sulu in the 14th century and Mindanao about 1500, by the peoples' own genealogies, which were written down later."),
+     (123.3, 7.0, 280, 1565, 2026, 1, "a", "spanish-philippine-chronicles", "Maguindanao, Maranao, Tausug, Sama and other Muslim peoples of Mindanao and Sulu, with the sultanate of Maguindanao strongest in the 17th century. Moro was the Spanish name and is now used with pride, as in Bangsamoro."),
    ]),
    ("dayak", "Dayak peoples", "people", "malayic", "no", "borneo+eindonesia", "island-asia-peoples", [
      (113.8, 0.8, 400, 1, 1800, 0, "i", "linguistic-geography;settlement-archaeology", "The inland peoples of Borneo, known from archaeology and language. The ancestors of the Malagasy sailed from the south-east of this island."),
      (113.8, 0.8, 400, 1800, 2026, 1, "a", "voc-records;seasia-pacific-censuses", "Iban, Bidayuh, Kayan, Kenyah, Ngaju and many others. Dayak is a collective name used by outsiders and now by the peoples themselves."),
    ]),
    ("batak", "Batak", "people", "malayic", "no", "sumatra", "island-asia-peoples", [
-     (99.0, 2.5, 150, 1000, 1500, 0, "r", "linguistic-geography;chinese-histories-nanhai", "Highland peoples around Lake Toba, perhaps the Bata of a 13th century Chinese list."),
-     (99.0, 2.5, 150, 1500, 2026, 1, "a", "tome-pires;missionary-records", "Toba, Karo, Simalungun, Mandailing and others, with their own script. Named by Pires about 1515."),
+     (99.0, 2.5, 150, 1000, 1512, 0, "r", "linguistic-geography;chinese-histories-nanhai", "Highland peoples around Lake Toba, perhaps the Bata of a 13th century Chinese list."),
+     (99.0, 2.5, 150, 1512, 2026, 1, "a", "tome-pires;missionary-records", "Toba, Karo, Simalungun, Mandailing and others, with their own script. Named by Pires about 1515."),
    ]),
    ("minangkabau", "Minangkabau", "people", "malayic", "no", "sumatra", "island-asia-peoples", [
      (100.5, -0.5, 150, 1347, 2026, 1, "a", "sea-inscriptions;voc-records", "The people of the western highlands, with the inland kingdom of Pagaruyung from the 14th century. Known for descent through mothers and for wide migration."),
@@ -627,7 +647,7 @@
    ]),
    # ---------------------------------------------------------------- Micronesians
    ("chamorro", "Chamorro (CHamoru)", "people", "philip", "yes", "micronesia", "micronesians", [
-     (145.2, 14.6, 150, 1, 1521, 0, "r", "settlement-archaeology", "The people of the Mariana Islands, settled about 1500 BCE in one of the longest open-sea crossings of its time. Their stone house pillars, latte, date from about 900."),
+     (145.2, 14.6, 150, 1, 1521, 0, "r", "settlement-archaeology", "The people of the Mariana Islands, settled between about 1500 and 1100 BCE in one of the longest open-sea crossings of its time. Their stone house pillars, latte, date from about 900."),
      (145.2, 14.6, 150, 1521, 2026, 1, "a", "pigafetta;spanish-philippine-chronicles", "Magellan landed at Guam in 1521. Spanish conquest after 1668 and disease cut their numbers by nine tenths or more."),
    ]),
    ("palauans", "Palauans (Belau)", "people", "philip", "yes", "micronesia", "micronesians", [
@@ -656,7 +676,7 @@
    ]),
    ("kanak", "Kanak", "people", "oceanic", "no", "melanesia", "melanesian-islanders", [
      (165.6, -21.3, 200, 1, 1774, 0, "r", "settlement-archaeology", "The people of New Caledonia, settled by Lapita people about 1000 BCE. The Lapita site that names the culture is on this island."),
-     (165.6, -21.3, 200, 1774, 2026, 1, "a", "cook-journals;seasia-pacific-censuses", "Cook landed in 1774 and France annexed the island in 1853. Kanak is the name the people chose for themselves in the 20th century."),
+     (165.6, -21.3, 200, 1774, 2026, 1, "a", "cook-journals;seasia-pacific-censuses", "Cook landed in 1774 and France annexed the island in 1853. Kanak is the name the people chose for themselves in the 20th century, and the future status of New Caledonia is contested and not settled here."),
    ]),
    ("itaukei", "iTaukei (Fijians)", "people", "oceanic", "no", "melanesia", "melanesian-islanders", [
      (178.0, -17.8, 200, 1, 1800, 0, "r", "settlement-archaeology;polynesian-oral-tradition", "Fiji was settled about 1000 to 900 BCE and stayed in touch with Tonga and Samoa. Hill forts multiplied after about 1200."),
@@ -672,15 +692,15 @@
      (-172.0, -13.8, 170, 1770, 2026, 1, "a", "european-voyagers;missionary-records", "Sighted by Roggeveen in 1722. Missionaries arrived in 1830."),
    ]),
    ("tui-tonga", "Tu'i Tonga chiefdom", "people", "polynesian", "no", "polynesia+melanesia", "west-polynesians", [
-     (-175.1, -21.15, 700, 1200, 1500, 0, "r", "polynesian-oral-tradition;settlement-archaeology", "The sacred kings of Tonga drew tribute and marriage partners from Samoa, eastern Fiji and islands beyond. The line is traced by tradition to about 950, and stone tombs at Lapaha mark their capital."),
+     (-175.1, -21.15, 450, 1200, 1500, 0, "r", "polynesian-oral-tradition;settlement-archaeology", "The sacred kings of Tonga drew tribute, stone and marriage partners from Samoa, eastern Fiji and islands beyond, an influence wider than this circle. Tradition traces the line to about 950, and their stone-faced tombs date from about 1300."),
    ]),
    # ---------------------------------------------------------------- Eastern Polynesians
    ("maohi", "Mā'ohi (Tahitians)", "people", "polynesian", "no", "polynesia", "east-polynesians", [
      (-149.6, -17.6, 250, 1050, 1767, 0, "r", "settlement-archaeology;polynesian-oral-tradition", "The people of the Society Islands, settled about 1000 to 1100. Ra'iatea and its temple Taputapuātea were a religious centre for islands far away."),
      (-149.6, -17.6, 250, 1767, 2026, 1, "a", "cook-journals;european-voyagers", "Wallis reached Tahiti in 1767 and Cook in 1769. Tahitian is the outside name."),
    ]),
-   ("enata", "Enata (Marquesans)", "people", "polynesian", "no", "polynesia", "east-polynesians", [
-     (-139.6, -9.5, 150, 1100, 1595, 0, "r", "settlement-archaeology", "The people of Te Henua Enana, the Marquesas, settled about 1100 on current dating."),
+   ("enata", "ʻEnata (Marquesans)", "people", "polynesian", "no", "polynesia", "east-polynesians", [
+     (-139.6, -9.5, 150, 1100, 1595, 0, "r", "settlement-archaeology", "The people of the Marquesas, who say ʻEnana and Te Henua ʻEnana in the north and ʻEnata and Te Fenua ʻEnata in the south. Dates for first settlement run from the 10th to the late 12th century."),
      (-139.6, -9.5, 150, 1595, 2026, 1, "a", "european-voyagers", "Mendaña named the islands in 1595. Disease in the 19th century left only a few thousand survivors."),
    ]),
    ("cook-islanders", "Cook Islands Māori", "people", "polynesian", "no", "polynesia", "east-polynesians", [
@@ -711,7 +731,7 @@
      (47.5, -18.9, 120, 1540, 2026, 1, "r", "tantara-andriana", "The people of the central highlands around Antananarivo, whose royal traditions were written down in the 19th century. Europeans called them Hova, properly the name of one rank."),
    ]),
    ("sakalava", "Sakalava", "people", "malagasy", "no", "madagascar", "malagasy-peoples", [
-     (44.9, -19.3, 250, 1650, 1700, 0, "r", "polynesian-oral-tradition", "The kingdom of Menabe was founded on the west coast by Andriandahifotsy in the 17th century. Its early dates come from royal tradition and differ between accounts."),
+     (44.9, -19.3, 250, 1650, 1700, 0, "r", "polynesian-oral-tradition", "The Sakalava kingdom of Menabe was founded on the west coast by Andriandahifotsy in the 17th century. Its early dates come from royal tradition and differ between accounts."),
      (44.9, -19.3, 250, 1700, 2026, 1, "a", "european-voyagers;polynesian-oral-tradition", "Cattle-keeping kingdoms of the west coast, Menabe and from about 1690 Boina, the strongest power on the island in the 18th century."),
    ]),
    ("betsimisaraka", "Betsimisaraka", "people", "malagasy", "no", "madagascar", "malagasy-peoples", [
@@ -793,56 +813,17 @@
    ("indonesia", "Indonesia", "polity", "malayic", "no", "indonesia", "", [
      (113.0, -3.5, 1300, 1945, 2026, 1, "a", "seasia-pacific-censuses", "Independence was declared in 1945 and recognised in 1949. Indonesian, a form of Malay, is the national language beside some seven hundred others."),
    ]),
-   ("timor-leste", "Timor-Leste", "polity", "", "no", "eindonesia", "", [
-     (125.8, -8.8, 100, 2002, 2026, 1, "a", "seasia-pacific-censuses", "Independent in 2002 after Portuguese rule to 1975 and Indonesian occupation to 1999. Tetum and Portuguese are official."),
-   ]),
    ("philippines-republic", "Philippines", "polity", "philip", "no", "philippines", "", [
      (122.0, 12.5, 550, 1946, 2026, 1, "a", "seasia-pacific-censuses", "A republic since 1946. Filipino and English are official, and the Bangsamoro region in the south has governed itself since 2019."),
    ]),
    ("fiji", "Fiji", "polity", "", "no", "melanesia", "", [
      (178.0, -17.8, 200, 1970, 2026, 1, "a", "seasia-pacific-censuses", "A British colony from 1874 and independent in 1970. Fijian, English and Fiji Hindi are official."),
    ]),
-   ("solomon-islands", "Solomon Islands", "polity", "", "no", "melanesia", "", [
-     (159.8, -8.8, 350, 1978, 2026, 1, "a", "seasia-pacific-censuses", "A British protectorate from 1893 and independent in 1978."),
-   ]),
-   ("vanuatu", "Vanuatu", "polity", "", "no", "melanesia", "", [
-     (167.8, -16.3, 300, 1980, 2026, 1, "a", "seasia-pacific-censuses", "Ruled jointly by Britain and France as the New Hebrides from 1906. Independent in 1980."),
-   ]),
-   ("new-caledonia", "New Caledonia", "polity", "", "no", "melanesia", "", [
-     (165.6, -21.3, 200, 1853, 2026, 1, "a", "seasia-pacific-censuses", "French since 1853. Its future status has been put to several votes and remains contested between Kanak independence parties and others."),
-   ]),
-   ("samoa", "Samoa", "polity", "polynesian", "no", "polynesia", "", [
-     (-172.2, -13.7, 120, 1962, 2026, 1, "a", "seasia-pacific-censuses", "The western islands were German from 1900, under New Zealand from 1914 and independent in 1962. The eastern islands are American Samoa."),
-   ]),
-   ("french-polynesia", "French Polynesia", "polity", "", "no", "polynesia", "", [
-     (-146.0, -16.5, 600, 1880, 2026, 1, "a", "seasia-pacific-censuses", "The Society, Tuamotu, Marquesas, Austral and Gambier islands, French since the 19th century and now self-governing within France."),
-   ]),
-   ("cook-islands", "Cook Islands", "polity", "polynesian", "no", "polynesia", "", [
-     (-159.8, -21.2, 200, 1965, 2026, 1, "a", "seasia-pacific-censuses", "Self-governing in free association with New Zealand since 1965."),
-   ]),
-   ("micronesia-fsm", "Micronesia", "polity", "", "no", "micronesia", "", [
-     (152.0, 7.0, 800, 1986, 2026, 1, "a", "seasia-pacific-censuses", "The Federated States of Micronesia: Yap, Chuuk, Pohnpei and Kosrae. Under Spain, Germany, Japan and the United States in turn, and independent in free association since 1986."),
-   ]),
-   ("palau", "Palau", "polity", "", "no", "micronesia", "", [
-     (134.55, 7.45, 80, 1994, 2026, 1, "a", "seasia-pacific-censuses", "Independent in free association with the United States since 1994."),
-   ]),
-   ("marshall-islands", "Marshall Islands", "polity", "", "no", "micronesia", "", [
-     (169.5, 8.5, 450, 1986, 2026, 1, "a", "seasia-pacific-censuses", "Independent in free association with the United States since 1986."),
-   ]),
-   ("kiribati", "Kiribati", "polity", "", "no", "micronesia", "", [
-     (173.0, 1.0, 350, 1979, 2026, 1, "a", "seasia-pacific-censuses", "The Gilbert Islands, British from 1892, independent in 1979 with the Phoenix and Line Islands."),
-   ]),
    ("new-zealand", "Aotearoa New Zealand", "polity", "eng", "no", "newzealand", "", [
      (173.5, -41.0, 700, 1840, 2026, 1, "a", "seasia-pacific-censuses", "A British colony from 1840 and self-governing from the 1850s. Māori and English are both official languages."),
    ]),
    ("madagascar-republic", "Madagascar", "polity", "malagasy", "no", "madagascar", "", [
      (47.0, -19.0, 600, 1960, 2026, 1, "a", "seasia-pacific-censuses", "Independent in 1960. Malagasy and French are official."),
-   ]),
-   ("comoros", "Comoros", "polity", "", "no", "madagascar", "", [
-     (43.7, -12.0, 100, 1975, 2026, 1, "a", "seasia-pacific-censuses", "Three islands became independent in 1975. Mayotte voted to stay French, and sovereignty over it is disputed between the Comoros and France."),
-   ]),
-   ("mauritius", "Mauritius", "polity", "", "no", "madagascar", "", [
-     (57.55, -20.25, 60, 1968, 2026, 1, "a", "seasia-pacific-censuses", "French from 1715, British from 1810 and independent in 1968. Réunion to the west is part of France."),
    ]),
  ],
  "links": [
