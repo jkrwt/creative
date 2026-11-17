@@ -123,8 +123,10 @@
      (-45.0, 71.0, 1300, 1, 1300, 0, "i", "americas-archaeology", "Greenland. A thin wash only: most of Greenland seems to have stood empty between about 1 and 700, and the ice cap always."),
    ]),
    ("norse-greenland-speakers", "Greenlandic Norse", "language", "norse", "no", "arcticam", "", [
-     (-45.5, 61.0, 160, 985, 1450, 0, "a", "vinland-sagas;americas-archaeology", "The Eastern Settlement. The last written record is of a wedding at Hvalsey in 1408."),
-     (-50.8, 64.3, 110, 985, 1350, 0, "a", "vinland-sagas;americas-archaeology", "The Western Settlement, found deserted about 1350."),
+     (-45.5, 61.0, 160, 985, 1124, 0, "r", "vinland-sagas;americas-archaeology", "The Eastern Settlement. The landing is dated from sagas written two centuries later and from archaeology."),
+     (-45.5, 61.0, 160, 1124, 1450, 0, "a", "islendingabok;americas-archaeology", "The Eastern Settlement, with a bishop at Gardar from the 1120s. The last written record is of a wedding at Hvalsey in 1408."),
+     (-50.8, 64.3, 110, 985, 1124, 0, "r", "vinland-sagas;americas-archaeology", "The Western Settlement."),
+     (-50.8, 64.3, 110, 1124, 1350, 0, "a", "islendingabok;americas-archaeology", "The Western Settlement, reported deserted about 1350. Radiocarbon dates suggest some people stayed until about 1400."),
    ]),
    ("northern-athabaskan-speakers", "Dene (Northern Athabaskan)", "language", "athab", "no", "arcticam+canada", "", [
      (-150.0, 64.5, 550, 1, 2026, 1, "r", "linguistic-geography", "Interior Alaska. Linguists place the Athabaskan homeland in interior Alaska, Yukon and northern British Columbia. Thinly peopled forest."),
@@ -177,7 +179,8 @@
    ("pueblo-speakers", "Pueblo languages", "language", "pueblo", "no", "usawest", "", [
      (-108.7, 36.3, 350, 1, 1500, 0, "r", "americas-archaeology;americas-oral-tradition", "The Ancestral Pueblo country. Tanoan, Keresan and Zuni are assumed from where their speakers live now."),
      (-106.5, 35.3, 220, 1, 2026, 1, "r", "americas-archaeology;iberian-chroniclers", "The Rio Grande pueblos, described by the Coronado expedition in 1540."),
-     (-109.6, 35.4, 150, 1500, 2026, 1, "a", "iberian-chroniclers", "Zuni and Hopi. Hopi is a Uto-Aztecan language."),
+     (-109.6, 35.4, 150, 1500, 1540, 0, "r", "americas-archaeology", "Zuni and Hopi before the first Spanish visit."),
+     (-109.6, 35.4, 150, 1540, 2026, 1, "a", "iberian-chroniclers", "Zuni and Hopi. Hopi is a Uto-Aztecan language."),
      (-108.0, 33.2, 300, 1, 1450, 0, "i", "americas-archaeology", "The Mogollon highlands. The language is unknown and assumed to be like that of the later pueblos."),
    ]),
    ("yuman-speakers", "Yuman and Baja California languages", "language", "pueblo", "no", "usawest+mexico", "", [
@@ -219,7 +222,8 @@
    ]),
    ("iroquoian-speakers", "Iroquoian languages", "language", "iroq", "no", "canada+usaeast", "", [
      (-77.5, 43.3, 300, 1, 1790, 0, "r", "linguistic-geography;americas-archaeology", "The lower Great Lakes. Most archaeologists see Iroquoian speakers here from at least 1000, and many from much earlier."),
-     (-72.8, 46.0, 200, 1100, 1580, 0, "a", "english-colonial-accounts", "The St Lawrence Iroquoians, met by Cartier in 1535 and gone by 1600."),
+     (-72.8, 46.0, 200, 1100, 1535, 0, "r", "americas-archaeology", "The St Lawrence Iroquoians before Cartier, known from archaeology."),
+     (-72.8, 46.0, 200, 1535, 1580, 0, "a", "english-colonial-accounts", "The St Lawrence Iroquoians, met by Cartier in 1535 and gone by 1600."),
      (-83.5, 35.3, 230, 1, 1838, 0, "r", "linguistic-geography", "Cherokee of the southern Appalachians. Projected back from the time of contact."),
      (-77.3, 35.6, 130, 900, 1715, 0, "r", "linguistic-geography", "Tuscarora and their neighbours."),
      (-95.0, 36.0, 150, 1838, 1930, 0, "a", "acts-treaties", "The Cherokee Nation after removal."),
@@ -309,7 +313,8 @@
      (-62.0, 15.0, 380, 1, 1700, 0, "r", "americas-archaeology;linguistic-geography", "The Lesser Antilles. The Kalinago language was Arawakan with a Carib vocabulary used by men."),
      (-61.3, 14.5, 150, 1700, 1800, 0, "a", "english-colonial-accounts", "Kalinago and Garifuna on Dominica and St Vincent."),
      (-61.2, 10.4, 150, 1, 1790, 0, "r", "iberian-chroniclers", "Trinidad, shared by Arawakan and Cariban speakers."),
-     (-71.0, 19.0, 300, 600, 1540, 0, "a", "columbus-journal;ramon-pane", "Hispaniola. Taíno is recorded by the first Spanish writers. Class a applies to the years after 1492."),
+     (-71.0, 19.0, 300, 600, 1492, 0, "r", "americas-archaeology;linguistic-geography", "Hispaniola before Columbus. The language is projected back from the time of contact."),
+     (-71.0, 19.0, 300, 1492, 1540, 0, "a", "columbus-journal;ramon-pane", "Hispaniola. Taíno is recorded by the first Spanish writers."),
      (-77.3, 18.1, 140, 600, 1540, 0, "r", "americas-archaeology", "Jamaica was first settled about 600."),
      (-76.5, 20.5, 300, 700, 1540, 0, "r", "americas-archaeology;columbus-journal", "Eastern Cuba."),
      (-80.5, 22.2, 350, 900, 1540, 0, "r", "americas-archaeology;iberian-chroniclers", "Central Cuba."),
@@ -342,9 +347,9 @@
      (-51.5, -5.0, 400, 500, 1950, 0, "r", "linguistic-geography", "The Xingu and Tocantins."),
      (-65.0, -3.5, 550, 1200, 1900, 0, "r", "carvajal;iberian-chroniclers", "Omagua and Kokama of the upper river, and after 1650 the Tupi-based general language spread by missions."),
      (-46.0, -3.0, 400, 1100, 1800, 0, "r", "iberian-chroniclers", "Maranhao and Para."),
-     (-36.5, -8.0, 350, 1000, 1700, 0, "r", "iberian-chroniclers;americas-archaeology", "The north-east coast. Tupi speakers spread along the coast between about 1 and 1000. Direction and dates are debated."),
-     (-39.5, -14.0, 400, 900, 1700, 0, "r", "iberian-chroniclers;americas-archaeology", "The Bahia coast."),
-     (-44.5, -23.0, 350, 700, 1700, 0, "r", "staden;americas-archaeology", "The coast of Rio and Sao Paulo, where Staden was held by the Tupinamba."),
+     (-36.5, -8.0, 350, 500, 1700, 0, "r", "iberian-chroniclers;americas-archaeology", "The north-east coast. Pottery of the Tupinamba tradition is dated on the coast from about 200 to 500, and some dates are older. Direction and dates are debated."),
+     (-39.5, -14.0, 400, 500, 1700, 0, "r", "iberian-chroniclers;americas-archaeology", "The Bahia coast."),
+     (-44.5, -23.0, 350, 400, 1700, 0, "r", "staden;americas-archaeology", "The coast of Rio and Sao Paulo, where Staden was held by the Tupinamba."),
    ]),
    ("guarani-speakers", "Guaraní", "language", "tupi", "no", "cone+brazil+andes", "", [
      (-56.3, -25.0, 330, 300, 1540, 0, "r", "americas-archaeology;linguistic-geography", "Guaraní farmers spread south from the Amazon basin in the first centuries CE."),
@@ -355,7 +360,8 @@
      (-58.5, -30.0, 300, 800, 1750, 0, "r", "iberian-chroniclers", "The middle Parana."),
      (-58.0, -28.0, 200, 1750, 2026, 1, "a", "americas-censuses", "Corrientes."),
      (-55.0, -22.0, 300, 400, 2026, 1, "r", "linguistic-geography", "Kaiowa and Nhandeva country."),
-     (-63.3, -20.0, 220, 1480, 2026, 1, "a", "iberian-chroniclers", "Guaraní who moved to the Andean foothills about 1500, called Chiriguano by the Spanish."),
+     (-63.3, -20.0, 220, 1480, 1550, 0, "r", "iberian-chroniclers", "Guaraní who moved to the Andean foothills about 1500. The date rests on later Spanish and Inca accounts."),
+     (-63.3, -20.0, 220, 1550, 2026, 1, "a", "iberian-chroniclers", "The Guaraní of the Andean foothills, called Chiriguano by the Spanish."),
    ]),
    ("je-speakers", "Macro-Jê languages", "language", "je", "no", "brazil+amazon+andes+cone", "", [
      (-48.0, -12.0, 650, 1, 1900, 0, "r", "linguistic-geography", "The central Brazilian plateau, where linguists place the Jê homeland. Projected back from the time of contact."),
@@ -397,11 +403,14 @@
      (-76.5, -10.8, 330, 1, 2026, 1, "r", "linguistic-geography", "Central Peru, where linguists place the Quechua homeland."),
      (-78.3, -7.0, 250, 1000, 1850, 0, "r", "linguistic-geography", "Quechua of the northern highlands."),
      (-72.8, -14.0, 350, 900, 2026, 1, "r", "linguistic-geography", "Quechua reached the south before the Inca. Whether it spread with Wari or later is debated."),
-     (-70.5, -15.2, 200, 1450, 2026, 1, "a", "cieza-de-leon", "North of Lake Titicaca."),
-     (-78.7, -1.6, 250, 1450, 2026, 1, "a", "cieza-de-leon", "Highland Ecuador, where Quechua spread under the Inca and then the Spanish missions."),
+     (-70.5, -15.2, 200, 1450, 1534, 0, "r", "cieza-de-leon", "North of Lake Titicaca under the Inca, as later Spanish writers tell it."),
+     (-70.5, -15.2, 200, 1534, 2026, 1, "a", "cieza-de-leon", "North of Lake Titicaca."),
+     (-78.7, -1.6, 250, 1450, 1534, 0, "r", "cieza-de-leon", "Highland Ecuador, where Quechua spread under the Inca. Some linguists think it came earlier with trade."),
+     (-78.7, -1.6, 250, 1534, 2026, 1, "a", "cieza-de-leon", "Highland Ecuador, where Quechua spread under the Inca and then the Spanish missions."),
      (-76.5, -6.5, 200, 1500, 2026, 1, "i", "linguistic-geography", "Lowland Quechua of San Martin."),
      (-76.8, -1.5, 300, 1600, 2026, 1, "r", "linguistic-geography", "Kichwa of the Napo and Pastaza, spread by missions and trade."),
-     (-65.8, -19.0, 280, 1470, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "The Bolivian valleys, settled with Quechua speakers by the Inca."),
+     (-65.8, -19.0, 280, 1470, 1538, 0, "r", "iberian-chroniclers", "The Bolivian valleys, settled with Quechua speakers by the Inca, as later Spanish records tell it."),
+     (-65.8, -19.0, 280, 1538, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "The Bolivian valleys, settled with Quechua speakers by the Inca."),
      (-66.0, -23.5, 250, 1480, 1850, 0, "r", "iberian-chroniclers", "The far south of the Inca realm."),
      (-64.5, -27.3, 280, 1480, 1900, 0, "r", "iberian-chroniclers", "Santiago del Estero and the north-west of Argentina."),
    ]),
@@ -604,67 +613,38 @@
      (-91.2, 15.0, 90, 1250, 1524, 0, "r", "popol-vuh", "The K'iche' kingdom of Q'umarkaj. Its history comes from the Popol Vuh, written after the conquest."),
      (-91.3, 15.0, 90, 1524, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "The largest Maya people of Guatemala today."),
    ]),
-   ("kaqchikel", "Kaqchikel", "people", "maya", "no", "centralam", "maya-peoples", [
-     (-90.9, 14.7, 60, 1470, 2026, 1, "r", "annals-kaqchikels", "They broke from the K'iche' about 1470 and ruled from Iximche. Class r for the years before 1524."),
-   ]),
-   ("huastec", "Teenek (Huastec)", "people", "maya", "no", "mexico", "maya-peoples", [
-     (-98.5, 21.8, 150, 1, 2026, 1, "r", "linguistic-geography;americas-archaeology", "Mayan speakers of the northern Gulf coast, long parted from the rest. The older name is Huastec."),
-   ]),
    ("zapotec", "Zapotec", "people", "otom", "no", "mexico", "oaxaca-peoples", [
      (-96.77, 17.04, 120, 1, 850, 0, "r", "americas-archaeology", "Monte Alban, a hilltop city with its own early writing, mostly unread. It declined after about 750."),
      (-96.6, 16.9, 150, 850, 1521, 0, "r", "americas-archaeology;iberian-chroniclers", "Zapotec kingdoms of the valley, with Zaachila and Mitla the chief towns."),
      (-96.3, 16.8, 180, 1521, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "Zapotec is still widely spoken. Isthmus Zapotecs call themselves Binniza."),
    ]),
    ("mixtec", "Ñuu Savi (Mixtec)", "people", "otom", "no", "mexico", "oaxaca-peoples", [
-     (-97.6, 17.3, 130, 900, 1521, 0, "a", "mixtec-codices", "Small kingdoms whose painted histories name rulers such as Eight Deer of Tilantongo in the 11th century."),
+     (-97.6, 17.3, 130, 900, 1300, 0, "r", "mixtec-codices;americas-archaeology", "Small kingdoms. Their painted histories name rulers such as Eight Deer of Tilantongo in the 11th century, but the surviving books were painted later."),
+     (-97.6, 17.3, 130, 1300, 1521, 0, "a", "mixtec-codices", "The kingdoms in the centuries when the surviving painted histories were made. They name towns such as Tilantongo by place signs."),
      (-97.7, 17.3, 150, 1521, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "The older name is Mixtec."),
    ]),
    ("teotihuacan", "Teotihuacan", "people", "isolate", "yes", "mexico", "central-mexico", [
      (-98.84, 19.69, 250, 1, 600, 0, "r", "americas-archaeology", "The largest city of the Americas in its time. Its language is unknown, and its centre was burned about 550 to 600."),
    ]),
-   ("teuchitlan", "Teuchitlan culture", "people", "isolate", "yes", "mexico", "central-mexico", [
-     (-103.85, 20.7, 120, 1, 450, 0, "r", "americas-archaeology", "Builders of shaft tombs and circular pyramids in Jalisco. A culture known from archaeology. Language unknown."),
-   ]),
    ("toltec", "Toltec (Tula)", "people", "nahua", "yes", "mexico", "central-mexico", [
-     (-99.34, 20.06, 200, 900, 1170, 0, "r", "americas-archaeology;florentine-codex", "The city of Tula. Later Nahua histories made the Toltecs their model of civilisation. Nahuatl speech is assumed."),
-   ]),
-   ("otomi", "Hñähñu (Otomi)", "people", "otom", "no", "mexico", "central-mexico", [
-     (-99.4, 20.4, 130, 1000, 2026, 1, "r", "florentine-codex;americas-censuses", "Old inhabitants of the central highlands, named in Nahua histories. The older name is Otomi."),
+     (-99.34, 20.06, 200, 900, 1150, 0, "r", "americas-archaeology;florentine-codex", "The city of Tula, burned and largely left about 1150. Later Nahua histories made the Toltecs their model of civilisation. Nahuatl speech is assumed."),
    ]),
    ("mexica", "Mexica (Triple Alliance)", "people", "nahua", "no", "mexico", "central-mexico", [
      (-99.13, 19.43, 60, 1325, 1428, 0, "r", "florentine-codex", "Tenochtitlan, founded by tradition in 1325."),
-     (-98.5, 18.8, 330, 1428, 1521, 0, "a", "cortes-letters;bernal-diaz;florentine-codex", "The alliance of Tenochtitlan, Texcoco and Tlacopan, often called the Aztec empire. It took tribute from the Gulf to the Pacific and fell in 1521."),
-   ]),
-   ("tlaxcala", "Tlaxcala", "people", "nahua", "no", "mexico", "central-mexico", [
-     (-98.24, 19.32, 45, 1350, 1600, 0, "a", "cortes-letters;bernal-diaz", "A Nahua republic the Mexica never conquered. It allied with Cortes in 1519."),
+     (-98.5, 18.8, 330, 1428, 1521, 0, "r", "cortes-letters;bernal-diaz;florentine-codex", "The alliance of Tenochtitlan, Texcoco and Tlacopan, often called the Aztec empire. It fell in 1521. Class r because eyewitness accounts begin only in 1519 and the histories were written after the conquest."),
    ]),
    ("purepecha", "Purépecha", "people", "mixezoq", "no", "mexico", "central-mexico", [
-     (-101.6, 19.6, 180, 1350, 1530, 0, "a", "relacion-michoacan", "The Tarascan state of Tzintzuntzan, which defeated the Mexica. Tarascan is the older outside name."),
+     (-101.6, 19.6, 180, 1350, 1530, 0, "r", "relacion-michoacan", "The Tarascan state of Tzintzuntzan, which defeated the Mexica. Its history was written down about 1540. Tarascan is the older outside name."),
      (-101.9, 19.6, 120, 1530, 2026, 1, "a", "americas-censuses", "Purépecha of Michoacan."),
-   ]),
-   ("totonac", "Totonac", "people", "mixezoq", "no", "mexico", "central-mexico", [
-     (-97.3, 20.2, 110, 800, 2026, 1, "r", "cortes-letters;americas-archaeology", "The people of Cempoala, the first allies of Cortes in 1519. Whether El Tajin was Totonac is disputed."),
    ]),
    ("nahua", "Nahua", "people", "nahua", "no", "mexico", "central-mexico", [
      (-98.6, 19.6, 250, 1521, 2026, 1, "a", "florentine-codex;americas-censuses", "Nahuatl speakers after the conquest. Nahuatl is still the most spoken native language of Mexico."),
-   ]),
-   ("lenca", "Lenca", "people", "camisc", "no", "centralam", "isthmus-peoples", [
-     (-88.2, 14.2, 130, 1000, 2026, 1, "r", "iberian-chroniclers", "Western Honduras and eastern El Salvador. Lempira led them against Spain in the 1530s. The language is no longer spoken."),
-   ]),
-   ("pipil", "Nahua Pipil", "people", "nahua", "no", "centralam", "isthmus-peoples", [
-     (-89.4, 13.7, 90, 900, 2026, 1, "r", "iberian-chroniclers", "Nahua who moved from Mexico to El Salvador about 900 to 1200. Their state of Cuzcatlan fell in 1528."),
    ]),
    ("chorotega", "Chorotega", "people", "otom", "no", "centralam", "isthmus-peoples", [
      (-85.9, 11.9, 100, 800, 1650, 0, "r", "iberian-chroniclers", "Oto-Manguean speakers who moved from Mexico to Nicaragua and Nicoya."),
    ]),
    ("gran-cocle", "Gran Coclé culture", "people", "chib", "yes", "centralam", "isthmus-peoples", [
      (-80.4, 8.4, 100, 200, 1520, 0, "r", "americas-archaeology", "Chiefdoms of central Panama known from rich graves. A culture known from archaeology. Chibchan speech is assumed."),
-   ]),
-   ("diquis", "Diquís culture", "people", "chib", "yes", "centralam", "isthmus-peoples", [
-     (-83.4, 8.9, 80, 700, 1530, 0, "r", "americas-archaeology", "Makers of the stone spheres of southern Costa Rica. A culture known from archaeology."),
-   ]),
-   ("bribri", "Bribri and Cabécar", "people", "chib", "no", "centralam", "isthmus-peoples", [
-     (-83.2, 9.4, 80, 1550, 2026, 1, "r", "iberian-chroniclers;americas-censuses", "Talamanca, never fully brought under Spanish rule."),
    ]),
    ("miskito", "Miskito", "people", "camisc", "no", "centralam", "isthmus-peoples", [
      (-83.8, 14.0, 180, 1630, 2026, 1, "a", "english-colonial-accounts", "A kingdom allied with England from the 17th century to 1860."),
@@ -679,21 +659,12 @@
    ("nazca", "Nazca", "people", "aymara", "yes", "andes", "andes-coast", [
      (-75.1, -14.7, 130, 1, 650, 0, "r", "americas-archaeology", "Makers of the desert lines. A culture known from archaeology. The language is unknown and early Aymara is one proposal."),
    ]),
-   ("sican", "Sicán (Lambayeque)", "people", "andisol", "yes", "andes", "andes-coast", [
-     (-79.8, -6.5, 100, 750, 1375, 0, "r", "americas-archaeology", "Metalworking lords of Lambayeque, conquered by Chimor about 1375."),
-   ]),
    ("chimu", "Chimú (Chimor)", "people", "andisol", "yes", "andes", "andes-coast", [
      (-79.1, -8.1, 220, 900, 1470, 0, "r", "americas-archaeology;iberian-chroniclers", "The kingdom of Chimor, ruled from Chan Chan and taken by the Inca about 1470. Its king list was recorded by the Spanish."),
      (-78.0, -10.2, 200, 1300, 1470, 0, "r", "americas-archaeology", "Chimor at its southern reach."),
    ]),
-   ("chincha", "Chincha", "people", "quechua", "yes", "andes", "andes-coast", [
-     (-76.1, -13.4, 70, 1100, 1532, 0, "r", "cieza-de-leon", "A trading lordship of the south coast, allied to the Inca."),
-   ]),
    ("pukara", "Pukara", "people", "andisol", "yes", "andes", "andes-highland", [
      (-70.4, -15.0, 100, 1, 300, 0, "r", "americas-archaeology", "A ceremonial centre north of Lake Titicaca. A culture known from archaeology."),
-   ]),
-   ("recuay", "Recuay", "people", "quechua", "yes", "andes", "andes-highland", [
-     (-77.6, -9.3, 100, 200, 650, 0, "r", "americas-archaeology", "Highland lords of Ancash. A culture known from archaeology. The language is assumed."),
    ]),
    ("tiwanaku", "Tiwanaku", "people", "andisol", "yes", "andes+cone", "andes-highland", [
      (-68.67, -16.55, 300, 400, 1050, 0, "r", "americas-archaeology", "A city and its sphere around Lake Titicaca. Puquina is now thought its likeliest language. Older books say Aymara."),
@@ -702,42 +673,28 @@
      (-74.2, -13.1, 300, 600, 1000, 0, "r", "americas-archaeology", "A highland state with planned colonies from Cuzco to Cajamarca. Whether it spoke Quechua or Aymara is debated."),
      (-77.3, -9.0, 300, 650, 950, 0, "r", "americas-archaeology", "Wari colonies of the north."),
    ]),
-   ("chachapoya", "Chachapoya", "people", "andisol", "yes", "andes", "andes-highland", [
-     (-77.9, -6.4, 110, 800, 1570, 0, "r", "americas-archaeology;cieza-de-leon", "Cloud-forest people of Kuelap, conquered by the Inca about 1470. Their language is all but unrecorded."),
-   ]),
    ("aymara-kingdoms", "Colla and Lupaqa", "people", "aymara", "no", "andes", "andes-highland", [
      (-70.0, -16.0, 200, 1100, 1450, 0, "r", "cieza-de-leon;americas-archaeology", "Aymara kingdoms of the Titicaca basin between Tiwanaku and the Inca conquest."),
    ]),
    ("inca", "Inca (Tawantinsuyu)", "people", "quechua", "no", "andes+andesn+cone", "andes-highland", [
      (-71.97, -13.52, 80, 1200, 1438, 0, "r", "betanzos;garcilaso", "The kingdom of Cuzco. Its early rulers are known only from dynastic tradition."),
-     (-72.0, -14.5, 600, 1438, 1532, 0, "a", "betanzos;cieza-de-leon;guaman-poma", "The empire built from the reign of Pachacuti, by the traditional dating. Class a applies to its last years, seen by the Spanish."),
-     (-78.5, -3.5, 450, 1470, 1532, 0, "a", "cieza-de-leon", "The northern conquests to Quito."),
-     (-68.5, -27.0, 650, 1480, 1532, 0, "a", "cieza-de-leon", "The southern conquests to central Chile and north-west Argentina."),
+     (-72.0, -14.5, 600, 1438, 1532, 0, "r", "betanzos;cieza-de-leon;guaman-poma", "The empire built from the reign of Pachacuti, by the traditional dating. Class r because the Spanish saw only its last years and wrote its history afterwards."),
+     (-78.5, -3.5, 450, 1470, 1532, 0, "r", "cieza-de-leon", "The northern conquests to Quito, dated between about 1460 and 1500."),
+     (-68.5, -27.0, 650, 1480, 1532, 0, "r", "cieza-de-leon", "The southern conquests to central Chile and north-west Argentina."),
      (-73.0, -13.0, 60, 1537, 1572, 0, "a", "iberian-chroniclers", "The last Inca state, at Vilcabamba."),
    ]),
    ("quechua-people", "Quechua (Runa)", "people", "quechua", "no", "andes+andesn", "andes-highland", [
      (-73.0, -13.5, 400, 1532, 2026, 1, "a", "guaman-poma;americas-censuses", "Quechua speakers under Spain and the republics. Tupac Amaru II led a great rising in 1780."),
    ]),
    ("aymara-people", "Aymara", "people", "aymara", "no", "andes+cone", "andes-highland", [
-     (-68.8, -16.8, 220, 1450, 2026, 1, "a", "cieza-de-leon;americas-censuses", "The people of the altiplano."),
-   ]),
-   ("uru", "Uru", "people", "andisol", "no", "andes", "andes-highland", [
-     (-68.9, -17.5, 90, 1, 2026, 1, "r", "iberian-chroniclers;linguistic-geography", "Fishers of the lakes and reed beds, treated as a people apart by the Inca and Spain. Projected back from the time of contact."),
+     (-68.8, -16.8, 220, 1450, 1535, 0, "r", "cieza-de-leon", "The people of the altiplano under the Inca, as later Spanish writers tell it."),
+     (-68.8, -16.8, 220, 1535, 2026, 1, "a", "cieza-de-leon;americas-censuses", "The people of the altiplano."),
    ]),
    ("san-agustin", "San Agustín culture", "people", "choco", "yes", "andesn", "northern-andes", [
      (-76.3, 1.9, 70, 1, 900, 0, "r", "americas-archaeology", "Carvers of stone statues at the head of the Magdalena. A culture known from archaeology. Language unknown."),
    ]),
-   ("quimbaya", "Quimbaya", "people", "choco", "yes", "andesn", "northern-andes", [
-     (-75.7, 4.8, 80, 300, 1600, 0, "r", "americas-archaeology;cieza-de-leon", "Goldworkers of the middle Cauca. The language is unrecorded."),
-   ]),
-   ("zenu", "Zenú", "people", "chib", "yes", "andesn", "northern-andes", [
-     (-75.4, 8.6, 120, 200, 1600, 0, "r", "americas-archaeology;iberian-chroniclers", "Builders of drained fields on the Sinu and San Jorge. The language is unknown."),
-   ]),
    ("tairona", "Tairona", "people", "chib", "no", "andesn", "northern-andes", [
      (-73.9, 11.1, 80, 200, 1600, 0, "r", "americas-archaeology;iberian-chroniclers", "Stone-built towns of the Sierra Nevada de Santa Marta, broken by Spain about 1600."),
-   ]),
-   ("kogi", "Kogi (Kággaba)", "people", "chib", "no", "andesn", "northern-andes", [
-     (-73.7, 10.9, 70, 1600, 2026, 1, "r", "americas-oral-tradition;americas-censuses", "Descendants of the Tairona, with the Ika and Wiwa, in the high Sierra."),
    ]),
    ("muisca", "Muisca", "people", "chib", "no", "andesn", "northern-andes", [
      (-73.6, 5.3, 110, 800, 1540, 0, "r", "iberian-chroniclers;americas-archaeology", "Two rival confederations under the zipa and the zaque when the Spanish arrived in 1537."),
@@ -748,22 +705,14 @@
    ("manteno", "Manteño", "people", "choco", "yes", "andesn", "northern-andes", [
      (-80.6, -1.2, 120, 800, 1530, 0, "r", "americas-archaeology;iberian-chroniclers", "Seafaring traders of the coast of Ecuador, met on a balsa raft by Pizarro's pilot in 1526. Language unrecorded."),
    ]),
-   ("canari", "Cañari", "people", "andisol", "yes", "andesn", "northern-andes", [
-     (-79.0, -2.8, 80, 500, 1600, 0, "r", "cieza-de-leon", "Highlanders of southern Ecuador who fought the Inca and then sided with Spain."),
-   ]),
    ("wayuu", "Wayuu", "people", "arawak", "no", "andesn", "northern-andes", [
-     (-72.0, 11.7, 110, 1500, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "Herders of the Guajira peninsula, never conquered by Spain. The older name is Guajiro."),
+     (-72.0, 11.7, 110, 1500, 1700, 0, "r", "iberian-chroniclers;linguistic-geography", "The Guajira peninsula. Early Spanish reports of its peoples are thin, so the placement is projected back."),
+     (-72.0, 11.7, 110, 1700, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "Herders of the Guajira peninsula, never conquered by Spain. The older name is Guajiro."),
    ]),
    # ------------------------------------------------------------------ Woodlands and Plains
    ("hopewell", "Hopewell culture", "people", "isolate", "yes", "usaeast", "mound-builders", [
      (-83.0, 39.3, 200, 1, 500, 0, "r", "americas-archaeology", "Builders of geometric earthworks in Ohio, with trade reaching the Rockies and the Gulf. A culture known from archaeology. Language unknown."),
      (-90.0, 39.6, 200, 1, 400, 0, "r", "americas-archaeology", "The Illinois valley branch."),
-   ]),
-   ("weeden-island", "Weeden Island culture", "people", "musk", "yes", "usaeast", "mound-builders", [
-     (-84.5, 30.6, 200, 200, 900, 0, "r", "americas-archaeology", "Mound-building villagers of the Gulf coast. A culture known from archaeology. Muskogean speech is a guess."),
-   ]),
-   ("coles-creek", "Coles Creek culture", "people", "naisol", "yes", "usaeast", "mound-builders", [
-     (-91.4, 31.6, 200, 700, 1200, 0, "r", "americas-archaeology", "Platform mounds of the lower Mississippi. A culture known from archaeology."),
    ]),
    ("cahokia", "Cahokia", "people", "sioux", "yes", "usaeast", "mound-builders", [
      (-90.06, 38.66, 200, 1050, 1350, 0, "r", "americas-archaeology", "The largest town north of Mexico, abandoned by about 1350. Its language is unknown. Siouan is one guess."),
@@ -771,29 +720,12 @@
    ("mississippian", "Mississippian chiefdoms", "people", "musk", "yes", "usaeast", "mound-builders", [
      (-87.0, 33.5, 400, 1000, 1600, 0, "r", "americas-archaeology;de-soto-narratives", "Maize-farming chiefdoms with temple mounds, such as Moundville and Etowah. De Soto's men met the last of them in 1540."),
    ]),
-   ("fort-ancient", "Fort Ancient culture", "people", "algon", "yes", "usaeast", "mound-builders", [
-     (-83.5, 38.9, 200, 1000, 1700, 0, "r", "americas-archaeology", "Farming villages of the middle Ohio. A culture known from archaeology. A link to the Shawnee is often proposed."),
-   ]),
-   ("oneota", "Oneota culture", "people", "sioux", "yes", "usaeast", "mound-builders", [
-     (-91.5, 43.5, 300, 1000, 1650, 0, "r", "americas-archaeology;americas-oral-tradition", "Villagers of the upper Mississippi, taken to be ancestors of the Ho-Chunk and Ioway."),
-   ]),
    ("caddo", "Caddo", "people", "caddo", "no", "usaeast", "mound-builders", [
      (-94.5, 32.5, 200, 900, 1835, 0, "r", "americas-archaeology;de-soto-narratives", "Mound-building farmers, met by de Soto's men in 1542 and still there when removed in 1835."),
    ]),
-   ("natchez", "Natchez", "people", "naisol", "no", "usaeast", "mound-builders", [
-     (-91.35, 31.55, 90, 1200, 1731, 0, "r", "english-colonial-accounts;americas-archaeology", "The last mound-building chiefdom, described by French colonists and destroyed by them in 1731."),
-   ]),
-   ("laurel", "Laurel culture", "people", "algon", "yes", "canada+usaeast", "northeast-peoples", [
-     (-88.0, 49.0, 400, 1, 1100, 0, "r", "americas-archaeology", "Potters and mound builders of the northern forest. A culture known from archaeology. Algonquian speech is assumed."),
-   ]),
-   ("beothuk", "Beothuk", "people", "algon", "yes", "canada", "northeast-peoples", [
-     (-56.0, 48.8, 150, 1000, 1829, 0, "r", "english-colonial-accounts;americas-archaeology", "The people of Newfoundland. Shanawdithit, the last known Beothuk, died in 1829."),
-   ]),
-   ("st-lawrence-iroquoians", "St Lawrence Iroquoians", "people", "iroq", "no", "canada", "northeast-peoples", [
-     (-72.6, 46.2, 130, 1300, 1580, 0, "a", "english-colonial-accounts", "The towns of Stadacona and Hochelaga, visited by Cartier in 1535 and gone when Champlain came in 1603."),
-   ]),
    ("wendat", "Wendat (Huron)", "people", "iroq", "no", "canada", "northeast-peoples", [
-     (-79.8, 44.6, 70, 1400, 1650, 0, "a", "jesuit-relations", "A confederacy by Georgian Bay, dispersed by the Haudenosaunee in 1649."),
+     (-79.8, 44.6, 70, 1400, 1615, 0, "r", "americas-archaeology;americas-oral-tradition", "The confederacy by Georgian Bay before the French came, known from archaeology and tradition."),
+     (-79.8, 44.6, 70, 1615, 1650, 0, "a", "english-colonial-accounts;jesuit-relations", "A confederacy by Georgian Bay, visited by Champlain in 1615 and dispersed by the Haudenosaunee in 1649."),
    ]),
    ("haudenosaunee", "Haudenosaunee", "people", "iroq", "no", "canada+usaeast", "northeast-peoples", [
      (-76.2, 42.9, 170, 1450, 1784, 0, "r", "americas-oral-tradition;jesuit-relations", "The league of five and later six nations. Its founding is dated by tradition and scholars anywhere from 1142 to about 1600. The older name is Iroquois."),
@@ -804,32 +736,13 @@
      (-90.5, 47.5, 450, 1800, 2026, 1, "a", "acts-treaties", "Around Lake Superior and west to the prairie edge. The older names are Ojibwa and Chippewa."),
    ]),
    ("cree", "Cree", "people", "algon", "no", "canada", "northeast-peoples", [
-     (-82.0, 52.0, 450, 1600, 2026, 1, "a", "jesuit-relations;hbc-records", "The forest around James Bay and Hudson Bay. Self-names include Eeyou, Ininiw and Nehiyaw."),
+     (-82.0, 52.0, 450, 1600, 1670, 0, "r", "jesuit-relations", "The forest around James Bay and Hudson Bay. French writers heard of the Cree from about 1640, at a distance."),
+     (-82.0, 52.0, 450, 1670, 2026, 1, "a", "hbc-records", "The forest around James Bay and Hudson Bay, where the Hudson's Bay Company traded from 1670. Self-names include Eeyou, Ininiw and Nehiyaw."),
      (-106.0, 53.5, 300, 1750, 2026, 1, "a", "hbc-records", "Plains Cree, who moved west with the fur trade."),
    ]),
-   ("innu", "Innu", "people", "algon", "no", "canada", "northeast-peoples", [
-     (-66.0, 52.0, 400, 1600, 2026, 1, "a", "jesuit-relations", "Hunters of Quebec and Labrador. The older names are Montagnais and Naskapi."),
-   ]),
-   ("mikmaq", "Mi'kmaq", "people", "algon", "no", "canada", "northeast-peoples", [
-     (-63.5, 45.8, 200, 1500, 2026, 1, "a", "jesuit-relations;english-colonial-accounts", "The Maritime peninsula. They traded with European fishermen from the early 16th century."),
-   ]),
-   ("wabanaki", "Wabanaki", "people", "algon", "no", "canada+usaeast", "northeast-peoples", [
-     (-69.0, 45.0, 180, 1600, 2026, 1, "a", "english-colonial-accounts", "Abenaki, Penobscot, Passamaquoddy and Wolastoqiyik, allied as a confederacy from the 1680s."),
-   ]),
-   ("wampanoag", "Wampanoag", "people", "algon", "no", "usaeast", "northeast-peoples", [
-     (-70.8, 41.7, 60, 1600, 2026, 1, "a", "english-colonial-accounts", "The people who met the Plymouth colonists in 1620 and fought them under Metacom in 1675."),
-   ]),
-   ("lenape", "Lenape", "people", "algon", "no", "usaeast", "northeast-peoples", [
-     (-75.2, 40.3, 110, 1500, 1760, 0, "a", "english-colonial-accounts;acts-treaties", "The Delaware valley. Pushed west in the 18th century, and now mostly in Oklahoma and Ontario. The older name is Delaware."),
-   ]),
    ("powhatan", "Powhatan", "people", "algon", "no", "usaeast", "northeast-peoples", [
-     (-76.9, 37.5, 90, 1570, 1646, 0, "a", "english-colonial-accounts", "A paramount chiefdom of some thirty peoples of tidewater Virginia, met by the Jamestown colonists in 1607."),
-   ]),
-   ("shawnee", "Shawnee", "people", "algon", "no", "usaeast", "northeast-peoples", [
-     (-83.5, 39.5, 200, 1670, 1832, 0, "a", "english-colonial-accounts;acts-treaties", "Much travelled people of the Ohio country. Tecumseh led a wide alliance until 1813."),
-   ]),
-   ("timucua", "Timucua", "people", "naisol", "no", "usaeast", "southeast-peoples", [
-     (-82.0, 29.8, 140, 1000, 1710, 0, "r", "iberian-chroniclers;americas-archaeology", "Chiefdoms of northern Florida. Their language was written by Spanish friars. Class r for the years before 1564."),
+     (-76.9, 37.5, 90, 1570, 1607, 0, "r", "english-colonial-accounts", "The chiefdom as it grew in the generation before the English came, as they were told."),
+     (-76.9, 37.5, 90, 1607, 1646, 0, "a", "english-colonial-accounts", "A paramount chiefdom of some thirty peoples of tidewater Virginia, met by the Jamestown colonists in 1607."),
    ]),
    ("calusa", "Calusa", "people", "naisol", "yes", "usaeast", "southeast-peoples", [
      (-81.9, 26.5, 100, 500, 1710, 0, "r", "iberian-chroniclers;americas-archaeology", "A kingdom of fishers on the Gulf coast of Florida, which drove off Ponce de Leon in 1521. Their language is almost unrecorded."),
@@ -839,151 +752,47 @@
      (-94.9, 35.9, 90, 1838, 2026, 1, "a", "acts-treaties", "The Cherokee Nation after the forced removal of 1838. A smaller band stayed in North Carolina."),
    ]),
    ("mvskoke", "Mvskoke (Creek)", "people", "musk", "no", "usaeast", "southeast-peoples", [
-     (-85.5, 32.7, 170, 1650, 1836, 0, "a", "english-colonial-accounts;acts-treaties", "A confederacy of towns that grew from the Mississippian chiefdoms. The older name is Creek."),
+     (-85.5, 32.7, 170, 1650, 1700, 0, "r", "english-colonial-accounts;americas-archaeology", "The towns as they gathered after the chiefdoms broke up, before English traders wrote of them."),
+     (-85.5, 32.7, 170, 1700, 1836, 0, "a", "english-colonial-accounts;acts-treaties", "A confederacy of towns that grew from the Mississippian chiefdoms. The older name is Creek."),
      (-96.0, 35.5, 80, 1836, 2026, 1, "a", "acts-treaties", "The Muscogee Nation after removal."),
-   ]),
-   ("choctaw", "Chahta (Choctaw)", "people", "musk", "no", "usaeast", "southeast-peoples", [
-     (-89.2, 32.8, 130, 1650, 1831, 0, "a", "english-colonial-accounts;acts-treaties", "Central Mississippi."),
-     (-95.3, 34.3, 90, 1831, 2026, 1, "a", "acts-treaties", "The Choctaw Nation after removal, the first of the removals."),
-   ]),
-   ("chickasaw", "Chickasaw", "people", "musk", "no", "usaeast", "southeast-peoples", [
-     (-88.8, 34.3, 90, 1540, 1837, 0, "a", "de-soto-narratives;acts-treaties", "Met by de Soto in 1540. Removed in 1837."),
-   ]),
-   ("seminole", "Seminole", "people", "musk", "no", "usaeast", "southeast-peoples", [
-     (-81.6, 27.8, 170, 1750, 2026, 1, "a", "acts-treaties", "Formed in Florida from Creek settlers and others. Most were removed after three wars. Some never left."),
-   ]),
-   ("catawba", "Catawba", "people", "sioux", "no", "usaeast", "southeast-peoples", [
-     (-80.9, 34.9, 80, 1540, 2026, 1, "r", "english-colonial-accounts", "Siouan speakers of the Carolina Piedmont."),
-   ]),
-   ("mandan-hidatsa", "Mandan and Hidatsa", "people", "sioux", "no", "usaeast+usawest", "plains-peoples", [
-     (-101.0, 47.2, 90, 1000, 2026, 1, "r", "americas-archaeology;lewis-clark", "Earth-lodge farming towns on the Missouri, visited by French traders in 1738. Smallpox killed most Mandan in 1837."),
-   ]),
-   ("pawnee", "Pawnee", "people", "caddo", "no", "usaeast", "plains-peoples", [
-     (-98.5, 41.0, 160, 1250, 1875, 0, "r", "americas-archaeology;lewis-clark", "Earth-lodge farmers of Nebraska. Archaeology links them to the villages of the central Plains from about 1250."),
-   ]),
-   ("wichita", "Wichita", "people", "caddo", "no", "usaeast", "plains-peoples", [
-     (-97.5, 37.0, 200, 1000, 1870, 0, "r", "iberian-chroniclers;americas-archaeology", "Grass-house villagers of Kansas and Oklahoma. Coronado reached them in 1541 and called the country Quivira."),
-   ]),
-   ("osage", "Osage (Wazhazhe)", "people", "sioux", "no", "usaeast", "plains-peoples", [
-     (-93.5, 38.0, 170, 1670, 1825, 0, "a", "english-colonial-accounts;acts-treaties", "Named by French travellers in 1673."),
    ]),
    ("niitsitapi", "Niitsitapi (Blackfoot)", "people", "algon", "no", "canada+usawest", "plains-peoples", [
      (-112.5, 50.0, 260, 1500, 2026, 1, "r", "hbc-records;americas-oral-tradition", "Siksika, Kainai and Piikani of the north-western Plains. Traders first describe them in the 1750s."),
-   ]),
-   ("apsaalooke", "Apsáalooke (Crow)", "people", "sioux", "no", "usawest", "plains-peoples", [
-     (-108.0, 45.6, 200, 1600, 2026, 1, "r", "americas-oral-tradition;lewis-clark", "They left the Hidatsa of the Missouri and moved up the Yellowstone. The date is uncertain."),
-   ]),
-   ("nakoda", "Nakoda (Assiniboine)", "people", "sioux", "no", "canada+usawest", "plains-peoples", [
-     (-104.0, 50.0, 250, 1640, 2026, 1, "a", "jesuit-relations;hbc-records", "Siouan speakers who parted from the Dakota and allied with the Cree."),
    ]),
    ("oceti-sakowin", "Očhéthi Šakówiŋ", "people", "sioux", "no", "usaeast+usawest", "plains-peoples", [
      (-94.0, 45.5, 220, 1640, 1780, 0, "a", "jesuit-relations", "The seven council fires of the Dakota and Lakota, in Minnesota when French writers first name them. The older name is Sioux."),
      (-101.5, 44.5, 330, 1780, 1880, 0, "a", "lewis-clark;acts-treaties", "The Lakota moved onto the Plains with horses and held the country around the Black Hills."),
      (-101.0, 44.5, 220, 1880, 2026, 1, "a", "acts-treaties", "Lakota and Dakota reservations."),
    ]),
-   ("cheyenne", "Cheyenne (Tsitsistas)", "people", "algon", "no", "usaeast+usawest", "plains-peoples", [
-     (-103.5, 41.5, 280, 1780, 1877, 0, "a", "lewis-clark;acts-treaties", "Farmers in Minnesota and Dakota in the 17th century, mounted bison hunters by 1800, allied with the Arapaho."),
-   ]),
    ("comanche", "Comanche", "people", "numic", "no", "usaeast+usawest", "plains-peoples", [
-     (-101.0, 34.0, 400, 1720, 1875, 0, "a", "iberian-chroniclers;acts-treaties", "The self-name is Nʉmʉnʉʉ. They held the southern Plains against Spain, Mexico and Texas."),
+     (-101.0, 34.0, 400, 1706, 1875, 0, "a", "iberian-chroniclers;acts-treaties", "The self-name is Nʉmʉnʉʉ. Spanish New Mexico first recorded them in 1706. They held the southern Plains against Spain, Mexico and Texas."),
      (-98.4, 34.6, 60, 1875, 2026, 1, "a", "acts-treaties", "In Oklahoma after 1875."),
-   ]),
-   ("kiowa", "Kiowa", "people", "pueblo", "no", "usaeast+usawest", "plains-peoples", [
-     (-100.0, 35.8, 250, 1790, 1875, 0, "a", "acts-treaties;americas-oral-tradition", "Their tradition tells of a move from the upper Yellowstone to the Black Hills and then south."),
-   ]),
-   ("metis", "Métis", "people", "fr", "no", "canada", "plains-peoples", [
-     (-98.0, 50.2, 250, 1810, 2026, 1, "a", "hbc-records", "A people born of the fur trade, of Cree, Ojibwe and French or Scots descent. Their Michif language mixes Cree and French."),
    ]),
    # ------------------------------------------------------------------ West and Southwest
    ("ancestral-pueblo", "Ancestral Pueblo", "people", "pueblo", "yes", "usawest", "pueblo-southwest", [
      (-108.8, 36.8, 230, 1, 1300, 0, "r", "americas-archaeology;americas-oral-tradition", "Basketmaker villages, then the great houses of Chaco Canyon and the cliff towns of Mesa Verde. The Four Corners were left by 1300."),
    ]),
-   ("mogollon", "Mogollon culture", "people", "pueblo", "yes", "usawest+mexico", "pueblo-southwest", [
-     (-108.3, 33.3, 220, 200, 1450, 0, "r", "americas-archaeology", "Mountain farmers, among them the Mimbres potters. A culture known from archaeology. Language unknown."),
-   ]),
    ("hohokam", "Hohokam", "people", "nahua", "yes", "usawest", "pueblo-southwest", [
      (-112.0, 33.2, 150, 300, 1450, 0, "r", "americas-archaeology;americas-oral-tradition", "Canal irrigators of the Salt and Gila rivers. O'odham tradition and many archaeologists hold them to be O'odham ancestors."),
    ]),
-   ("fremont", "Fremont culture", "people", "isolate", "yes", "usawest", "pueblo-southwest", [
-     (-111.5, 39.5, 280, 400, 1300, 0, "r", "americas-archaeology", "Farmers and foragers of Utah. A culture known from archaeology. Language unknown."),
-   ]),
-   ("paquime", "Paquimé (Casas Grandes)", "people", "nahua", "yes", "mexico", "pueblo-southwest", [
-     (-107.95, 30.37, 120, 1200, 1450, 0, "r", "americas-archaeology", "A trading town of Chihuahua with macaw pens and ball courts. Language unknown."),
-   ]),
    ("pueblos", "Pueblo peoples", "people", "pueblo", "no", "usawest", "pueblo-southwest", [
      (-106.4, 35.6, 130, 1300, 2026, 1, "r", "iberian-chroniclers;americas-oral-tradition", "The Tewa, Tiwa, Towa and Keres towns of the Rio Grande, described by Coronado's men in 1540. They drove out the Spanish from 1680 to 1692."),
-   ]),
-   ("hopi", "Hopi", "people", "numic", "no", "usawest", "pueblo-southwest", [
-     (-110.5, 35.85, 60, 1100, 2026, 1, "r", "americas-archaeology;iberian-chroniclers", "Oraibi has been lived in since about 1100. Spanish visitors came in 1540."),
-   ]),
-   ("zuni", "A:shiwi (Zuni)", "people", "pueblo", "no", "usawest", "pueblo-southwest", [
-     (-108.85, 35.07, 50, 1250, 2026, 1, "r", "iberian-chroniclers;americas-archaeology", "The towns Coronado took for the cities of Cibola in 1540. Zuni is a language with no known relatives."),
    ]),
    ("dine", "Diné (Navajo)", "people", "athab", "no", "usawest", "pueblo-southwest", [
      (-108.3, 36.6, 170, 1500, 1868, 0, "r", "iberian-chroniclers;americas-oral-tradition", "Athabaskan speakers who took up farming and herding. Spanish writers name them from the 1620s."),
      (-109.5, 36.2, 200, 1868, 2026, 1, "a", "acts-treaties", "The Navajo Nation, after the forced march to Bosque Redondo and the treaty of 1868."),
    ]),
-   ("nde", "Ndé (Apache)", "people", "athab", "no", "usawest+usaeast+mexico", "pueblo-southwest", [
-     (-103.5, 37.5, 350, 1350, 1720, 0, "r", "americas-archaeology;iberian-chroniclers", "Plains Apache, the Querechos met by Coronado in 1541."),
-     (-107.5, 32.8, 350, 1600, 1886, 0, "a", "iberian-chroniclers;acts-treaties", "Mescalero, Chiricahua and Western Apache. Geronimo's surrender in 1886 ended the wars."),
-     (-110.0, 33.6, 100, 1886, 2026, 1, "a", "acts-treaties", "Apache reservations."),
-   ]),
-   ("oodham", "O'odham", "people", "nahua", "no", "usawest+mexico", "pueblo-southwest", [
-     (-112.0, 32.0, 170, 1450, 2026, 1, "r", "iberian-chroniclers;americas-oral-tradition", "Akimel and Tohono O'odham of the Sonoran desert. The older names are Pima and Papago."),
-   ]),
-   ("yuman-peoples", "Quechan and Mojave", "people", "pueblo", "no", "usawest+mexico", "pueblo-southwest", [
-     (-114.5, 33.8, 150, 1000, 2026, 1, "r", "iberian-chroniclers;americas-archaeology", "Yuman farmers of the lower Colorado, first met by Spanish parties in 1540."),
-   ]),
-   ("yoeme", "Yoeme (Yaqui)", "people", "nahua", "no", "mexico", "pueblo-southwest", [
-     (-110.0, 27.7, 90, 1533, 2026, 1, "a", "iberian-chroniclers", "Eight towns on the Yaqui river. They resisted Spain and Mexico into the 20th century."),
-   ]),
-   ("raramuri", "Rarámuri", "people", "nahua", "no", "mexico", "pueblo-southwest", [
-     (-107.5, 27.5, 170, 1600, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "The Sierra Madre of Chihuahua. The older name is Tarahumara."),
-   ]),
-   ("wixarika", "Wixárika", "people", "nahua", "no", "mexico", "pueblo-southwest", [
-     (-104.0, 22.0, 80, 1530, 2026, 1, "r", "iberian-chroniclers;americas-censuses", "The western Sierra Madre. The older name is Huichol."),
-   ]),
    ("tlingit", "Tlingit", "people", "athab", "no", "arcticam+canada", "northwest-coast", [
      (-134.5, 57.5, 280, 1, 2026, 1, "r", "americas-oral-tradition;rac-records", "The Alaska panhandle. Russians first met them in 1741. Earlier centuries rest on archaeology and clan histories."),
-   ]),
-   ("haida", "Haida", "people", "salish", "no", "arcticam+canada", "northwest-coast", [
-     (-132.2, 53.2, 130, 1, 2026, 1, "r", "americas-archaeology;americas-oral-tradition", "Haida Gwaii. First written of in 1774. Haida is a language with no proven relatives."),
-   ]),
-   ("tsimshian", "Tsimshian", "people", "salish", "no", "canada", "northwest-coast", [
-     (-129.5, 54.6, 120, 1, 2026, 1, "r", "americas-archaeology;americas-oral-tradition", "The Skeena and Nass, with the Nisga'a and Gitxsan. Town sites here are several thousand years old."),
-   ]),
-   ("kwakwakawakw", "Kwakwaka'wakw", "people", "salish", "no", "canada", "northwest-coast", [
-     (-127.0, 50.6, 110, 1, 2026, 1, "r", "americas-archaeology;americas-oral-tradition", "Northern Vancouver Island and the facing coast. The older name is Kwakiutl."),
-   ]),
-   ("nuu-chah-nulth", "Nuu-chah-nulth", "people", "salish", "no", "canada", "northwest-coast", [
-     (-125.8, 49.3, 100, 1, 2026, 1, "r", "americas-archaeology;english-colonial-accounts", "Whalers of western Vancouver Island, met by Cook in 1778. The older name is Nootka."),
    ]),
    ("coast-salish", "Coast Salish", "people", "salish", "no", "canada+usawest", "northwest-coast", [
      (-122.8, 48.4, 170, 1, 2026, 1, "r", "americas-archaeology;americas-oral-tradition", "Many peoples around the Salish Sea. A modern collective name."),
    ]),
-   ("chinook", "Chinook", "people", "calif", "no", "usawest", "northwest-coast", [
-     (-123.3, 46.1, 100, 1000, 1855, 0, "r", "lewis-clark", "Traders of the lower Columbia, described by Lewis and Clark in 1805."),
-   ]),
-   ("nimiipuu", "Nimiipuu (Nez Perce)", "people", "calif", "no", "usawest", "california-plateau", [
-     (-116.3, 46.0, 140, 1500, 2026, 1, "r", "lewis-clark;acts-treaties", "The Columbia Plateau. Lewis and Clark met them in 1805."),
-   ]),
    ("shoshone", "Shoshone", "people", "numic", "no", "usawest", "california-plateau", [
      (-112.5, 42.5, 300, 1300, 2026, 1, "r", "lewis-clark;linguistic-geography", "The self-name is Newe. They were among the first northern peoples to have horses."),
    ]),
-   ("ute", "Nuche (Ute)", "people", "numic", "no", "usawest", "california-plateau", [
-     (-108.0, 38.8, 220, 1300, 2026, 1, "r", "iberian-chroniclers;linguistic-geography", "The Colorado mountains. Spanish New Mexico knew them from the 1620s."),
-   ]),
-   ("paiute", "Numu and Nuwuvi (Paiute)", "people", "numic", "no", "usawest", "california-plateau", [
-     (-117.5, 39.5, 300, 1100, 2026, 1, "r", "linguistic-geography", "Northern and Southern Paiute of the Great Basin."),
-   ]),
    ("chumash", "Chumash", "people", "calif", "no", "usawest", "california-plateau", [
      (-119.8, 34.5, 90, 1, 2026, 1, "r", "americas-archaeology;iberian-chroniclers", "Plank-canoe towns of the Santa Barbara channel, seen by Cabrillo in 1542. Archaeology shows long continuity."),
-   ]),
-   ("yokuts", "Yokuts", "people", "calif", "no", "usawest", "california-plateau", [
-     (-119.7, 36.3, 130, 500, 2026, 1, "r", "linguistic-geography", "The San Joaquin valley, among the most thickly peopled parts of the continent north of Mexico."),
-   ]),
-   ("miwok-ohlone", "Miwok and Ohlone", "people", "calif", "no", "usawest", "california-plateau", [
-     (-121.6, 37.9, 110, 500, 2026, 1, "r", "linguistic-geography;iberian-chroniclers", "Central California around San Francisco Bay."),
    ]),
    # ------------------------------------------------------------------ Arctic and Subarctic
    ("dorset-culture", "Dorset culture (Tuniit)", "people", "isolate", "yes", "arcticam+canada", "arctic-early", [
@@ -994,57 +803,37 @@
    ("old-bering-sea", "Old Bering Sea and Birnirk cultures", "people", "inuit", "yes", "arcticam", "arctic-early", [
      (-168.0, 65.5, 250, 1, 1000, 0, "r", "americas-archaeology", "Whale and walrus hunters of Bering Strait, known from archaeology and taken to be ancestral Inuit and Yupik."),
    ]),
-   ("ipiutak", "Ipiutak culture", "people", "inuit", "yes", "arcticam", "arctic-early", [
-     (-166.8, 68.3, 120, 100, 800, 0, "r", "americas-archaeology", "A large settlement at Point Hope with carved ivory. A culture known from archaeology. Language unknown."),
-   ]),
-   ("norton-tradition", "Norton tradition", "people", "inuit", "yes", "arcticam", "arctic-early", [
-     (-162.0, 61.0, 350, 1, 1000, 0, "r", "americas-archaeology", "Coastal villagers of western Alaska, taken to be ancestors of the Yup'ik. Known from archaeology."),
-   ]),
-   ("taltheilei", "Taltheilei tradition", "people", "athab", "yes", "arcticam+canada", "arctic-early", [
-     (-106.0, 62.0, 450, 1, 1300, 0, "r", "americas-archaeology", "Caribou hunters of the barren lands, known from archaeology and taken to be ancestral Dene."),
-   ]),
    ("thule-culture", "Thule culture", "people", "inuit", "no", "arcticam+canada", "arctic-early", [
      (-160.0, 68.5, 400, 900, 1600, 0, "r", "americas-archaeology", "Whale hunters of north Alaska, the direct ancestors of the Inuit. A culture known from archaeology."),
      (-95.0, 70.0, 900, 1200, 1600, 0, "r", "americas-archaeology", "The spread across the Canadian Arctic took only a few generations. Recent dating puts it after 1200."),
      (-55.0, 70.0, 600, 1250, 1600, 0, "r", "americas-archaeology", "Greenland."),
    ]),
    ("norse-greenlanders", "Norse Greenlanders", "people", "norse", "no", "arcticam", "arctic-early", [
-     (-45.5, 61.0, 130, 985, 1450, 0, "a", "vinland-sagas;americas-archaeology", "Farmers from Iceland in the Eastern Settlement. The sagas were written two centuries after the landing. The colony died out in the 15th century."),
-     (-50.8, 64.3, 90, 985, 1350, 0, "a", "vinland-sagas;americas-archaeology", "The Western Settlement. About 1000 its people sailed to Vinland, and a Norse site at L'Anse aux Meadows in Newfoundland confirms it."),
+     (-45.5, 61.0, 130, 985, 1124, 0, "r", "vinland-sagas;americas-archaeology", "Farmers from Iceland in the Eastern Settlement. The landing of about 985 is dated from sagas written two centuries later and from archaeology."),
+     (-45.5, 61.0, 130, 1124, 1450, 0, "a", "islendingabok;americas-archaeology", "The Eastern Settlement, named by Ari about 1125 and given a bishop at Gardar in the 1120s. The last written record is of 1408 and the colony died out about 1450."),
+     (-50.8, 64.3, 90, 985, 1124, 0, "r", "vinland-sagas;americas-archaeology", "The Western Settlement. About 1000 its people sailed to Vinland, and a Norse site at L'Anse aux Meadows in Newfoundland confirms it."),
+     (-50.8, 64.3, 90, 1124, 1350, 0, "a", "islendingabok;americas-archaeology", "The Western Settlement, reported empty by a churchman who went there about 1350. Radiocarbon dates suggest some people stayed until about 1400."),
    ]),
    ("inuit-canada", "Inuit", "people", "inuit", "no", "arcticam+canada", "inuit-yupik", [
      (-88.0, 67.0, 900, 1600, 2026, 1, "r", "hbc-records;americas-oral-tradition", "The Canadian Arctic. Nunavut was made a territory in 1999. Class r for the years before regular written reports."),
-     (-68.0, 58.5, 400, 1600, 2026, 1, "a", "hbc-records", "Nunavik and the Labrador coast."),
+     (-68.0, 58.5, 400, 1600, 1771, 0, "r", "hbc-records;americas-archaeology", "Nunavik and the Labrador coast before the missions."),
+     (-68.0, 58.5, 400, 1771, 2026, 1, "a", "hbc-records", "Nunavik and the Labrador coast, where Moravian missions kept records from 1771."),
    ]),
    ("kalaallit", "Kalaallit", "people", "inuit", "no", "arcticam", "inuit-yupik", [
-     (-50.0, 67.0, 600, 1600, 2026, 1, "a", "acts-treaties;americas-censuses", "Greenland Inuit, under Danish rule from 1721 and self-governing since 1979."),
-   ]),
-   ("inupiat", "Iñupiat", "people", "inuit", "no", "arcticam", "inuit-yupik", [
-     (-158.0, 69.5, 350, 1600, 2026, 1, "r", "americas-oral-tradition;americas-censuses", "North and north-west Alaska."),
+     (-50.0, 67.0, 600, 1600, 1721, 0, "r", "americas-archaeology;americas-oral-tradition", "Greenland Inuit before the Danish mission. Whalers and explorers met them from 1585 but left few records."),
+     (-50.0, 67.0, 600, 1721, 2026, 1, "a", "acts-treaties;americas-censuses", "Greenland Inuit, under Danish rule from 1721 and self-governing since 1979. Greenlandic is the official language."),
    ]),
    ("yupik-alaska", "Yup'ik", "people", "inuit", "no", "arcticam", "inuit-yupik", [
      (-162.0, 60.5, 300, 1000, 2026, 1, "r", "rac-records;americas-censuses", "The Yukon and Kuskokwim delta, where Yup'ik is still widely spoken."),
    ]),
-   ("sugpiaq", "Sugpiaq (Alutiiq)", "people", "inuit", "no", "arcticam", "inuit-yupik", [
-     (-153.5, 58.0, 200, 1000, 2026, 1, "r", "rac-records;americas-archaeology", "Kodiak and the Gulf of Alaska. Russians took Kodiak in 1784."),
-   ]),
    ("unangan", "Unangan", "people", "inuit", "no", "arcticam", "inuit-yupik", [
      (-170.0, 53.3, 500, 1, 2026, 1, "r", "americas-archaeology;rac-records", "The Aleutian Islands. Russian fur hunters arrived in the 1740s and the population fell steeply. The older name is Aleut."),
-   ]),
-   ("denaina", "Dena'ina", "people", "athab", "no", "arcticam", "dene-peoples", [
-     (-151.5, 61.0, 150, 1000, 2026, 1, "r", "rac-records;americas-archaeology", "Cook Inlet."),
    ]),
    ("gwichin", "Gwich'in", "people", "athab", "no", "arcticam", "dene-peoples", [
      (-140.0, 66.5, 250, 1500, 2026, 1, "r", "hbc-records;americas-oral-tradition", "Caribou hunters of the Yukon and Porcupine rivers."),
    ]),
-   ("tlicho", "Tłı̨chǫ", "people", "athab", "no", "arcticam", "dene-peoples", [
-     (-116.0, 63.5, 180, 1700, 2026, 1, "a", "hbc-records", "Between Great Slave and Great Bear lakes. The older name is Dogrib."),
-   ]),
    ("denesuline", "Denesuline", "people", "athab", "no", "arcticam+canada", "dene-peoples", [
      (-106.0, 60.0, 400, 1500, 2026, 1, "r", "hbc-records", "Caribou hunters of the forest edge, trading at Churchill from 1717. The older name is Chipewyan."),
-   ]),
-   ("dakelh", "Dakelh", "people", "athab", "no", "canada", "dene-peoples", [
-     (-124.5, 54.0, 150, 1500, 2026, 1, "r", "hbc-records", "The upper Fraser. The older name is Carrier."),
    ]),
    # ------------------------------------------------------------------ Amazon and Caribbean
    ("antillean-archaic", "Archaic peoples of the Antilles", "people", "isolate", "yes", "caribbean", "caribbean-peoples", [
@@ -1054,32 +843,20 @@
      (-64.0, 16.3, 380, 1, 600, 0, "r", "americas-archaeology", "Potters and farmers who came up the island chain from the Orinoco. A culture known from archaeology. Arawakan speech is assumed."),
    ]),
    ("taino", "Taíno chiefdoms", "people", "arawak", "no", "caribbean", "caribbean-peoples", [
-     (-70.5, 18.9, 280, 800, 1530, 0, "a", "columbus-journal;ramon-pane;americas-archaeology", "Chiefdoms of Hispaniola, five at the time of Columbus. Class a applies to the years after 1492."),
+     (-70.5, 18.9, 280, 800, 1492, 0, "r", "americas-archaeology", "Chiefdoms of Hispaniola before Columbus, known from archaeology."),
+     (-70.5, 18.9, 280, 1492, 1530, 0, "a", "columbus-journal;ramon-pane", "Chiefdoms of Hispaniola, five at the time of Columbus."),
      (-66.4, 18.2, 90, 800, 1530, 0, "r", "iberian-chroniclers;americas-archaeology", "Boriken, now Puerto Rico."),
      (-76.0, 20.4, 200, 800, 1530, 0, "r", "columbus-journal;americas-archaeology", "Eastern Cuba."),
    ]),
-   ("lucayan", "Lucayans", "people", "arawak", "no", "caribbean", "caribbean-peoples", [
-     (-75.5, 23.8, 330, 800, 1520, 0, "r", "columbus-journal;americas-archaeology", "The people of the Bahamas, the first Columbus met, on 12 October 1492. All were carried off as slaves within thirty years."),
-   ]),
    ("kalinago", "Kalinago", "people", "arawak", "no", "caribbean", "caribbean-peoples", [
-     (-61.3, 14.8, 260, 1200, 1700, 0, "r", "iberian-chroniclers;english-colonial-accounts", "The people of the Lesser Antilles, called Island Caribs by Europeans. When and how they came from the mainland is debated."),
-     (-61.3, 15.4, 40, 1700, 2026, 1, "a", "acts-treaties", "Dominica, where a Kalinago territory remains."),
-   ]),
-   ("garifuna", "Garifuna", "people", "arawak", "no", "caribbean+centralam", "caribbean-peoples", [
-     (-61.2, 13.25, 40, 1650, 1797, 0, "a", "english-colonial-accounts", "People of Kalinago and African descent on St Vincent."),
-     (-87.0, 15.8, 150, 1797, 2026, 1, "a", "americas-censuses", "Deported by Britain to the coast of Honduras in 1797. Their language is Arawakan."),
+     (-61.3, 14.8, 260, 1400, 1700, 0, "r", "iberian-chroniclers;english-colonial-accounts", "The people of the Lesser Antilles, called Island Caribs by Europeans. When and how they came from the mainland is debated. Dates from about 1200 to the century before Columbus are given."),
+     (-61.3, 15.4, 40, 1700, 2026, 1, "a", "acts-treaties", "Dominica, where a Kalinago territory has been set aside since 1903."),
    ]),
    ("lokono", "Lokono", "people", "arawak", "no", "guianas+andesn", "caribbean-peoples", [
      (-57.5, 6.2, 220, 1000, 2026, 1, "r", "iberian-chroniclers;linguistic-geography", "The people of the Guiana coast whose name for themselves gave Arawak to the language family."),
    ]),
    ("kalina", "Kalina", "people", "carib", "no", "guianas+andesn", "caribbean-peoples", [
      (-54.5, 5.5, 200, 1000, 2026, 1, "r", "iberian-chroniclers;linguistic-geography", "Mainland Caribs of the coast from the Orinoco to Cayenne."),
-   ]),
-   ("warao", "Warao", "people", "tucano", "no", "andesn+guianas", "caribbean-peoples", [
-     (-61.5, 9.0, 120, 1, 2026, 1, "r", "linguistic-geography;americas-archaeology", "Canoe people of the Orinoco delta. Their language has no known relatives."),
-   ]),
-   ("maroons", "Maroons of Suriname", "people", "eng", "no", "guianas", "caribbean-peoples", [
-     (-55.0, 4.3, 120, 1700, 2026, 1, "a", "acts-treaties", "Saramaka, Ndyuka and others, descended from Africans who escaped the plantations. The Dutch made peace with them in the 1760s. Their languages are creoles."),
    ]),
    ("upano", "Upano valley culture", "people", "tucano", "yes", "andesn", "amazon-peoples", [
      (-78.0, -2.2, 60, 1, 600, 0, "r", "americas-archaeology", "Platform towns and straight roads in the forest of eastern Ecuador, mapped in recent years. Language unknown."),
@@ -1099,9 +876,6 @@
    ("omagua", "Omagua", "people", "tupi", "no", "amazon+andes", "amazon-peoples", [
      (-68.0, -3.5, 350, 1200, 1750, 0, "r", "carvajal;iberian-chroniclers", "A thickly settled people of the upper river, described in 1542 and almost destroyed by disease and slaving by 1700."),
    ]),
-   ("manao", "Manao", "people", "arawak", "no", "amazon", "amazon-peoples", [
-     (-61.0, -2.0, 150, 1500, 1730, 0, "r", "iberian-chroniclers", "Traders of the Rio Negro, broken by the Portuguese in the 1720s. Manaus is named for them."),
-   ]),
    ("xingu", "Upper Xingu peoples", "people", "arawak", "no", "amazon", "amazon-peoples", [
      (-53.4, -12.3, 110, 1200, 2026, 1, "r", "americas-archaeology;americas-oral-tradition", "Ringed towns joined by roads, and a shared culture among speakers of Arawakan, Cariban and Tupian languages."),
    ]),
@@ -1111,20 +885,11 @@
    ("ashaninka", "Asháninka", "people", "arawak", "no", "andes+amazon", "amazon-peoples", [
      (-74.2, -11.2, 150, 1500, 2026, 1, "r", "iberian-chroniclers;linguistic-geography", "The forest east of the central Andes. They drove out the missions in 1742. The older name is Campa."),
    ]),
-   ("shipibo-konibo", "Shipibo-Konibo", "people", "pano", "no", "andes", "amazon-peoples", [
-     (-74.5, -8.0, 130, 1500, 2026, 1, "r", "iberian-chroniclers;linguistic-geography", "The Ucayali river."),
-   ]),
-   ("tukano", "Tukano and Vaupés peoples", "people", "tucano", "no", "amazon+andesn", "amazon-peoples", [
-     (-70.0, 0.5, 180, 1500, 2026, 1, "r", "linguistic-geography;americas-oral-tradition", "Some twenty peoples who marry across language lines."),
-   ]),
    ("yanomami", "Yanomami", "people", "tucano", "no", "amazon+andesn", "amazon-peoples", [
      (-64.0, 2.5, 200, 1500, 2026, 1, "i", "linguistic-geography", "The highlands between Brazil and Venezuela. Little outside contact before the 20th century, so earlier placement is loose."),
    ]),
    ("tikuna", "Magüta (Tikuna)", "people", "tucano", "no", "amazon+andes+andesn", "amazon-peoples", [
      (-69.8, -3.8, 130, 1600, 2026, 1, "r", "iberian-chroniclers;americas-censuses", "The upper Amazon where Brazil, Peru and Colombia meet. The older name is Tikuna or Ticuna."),
-   ]),
-   ("munduruku", "Munduruku", "people", "tupi", "no", "amazon", "amazon-peoples", [
-     (-57.5, -6.5, 180, 1750, 2026, 1, "a", "iberian-chroniclers", "The Tapajos. They fought the Portuguese in the 1770s and then allied with them."),
    ]),
    ("kayapo", "Mẽbêngôkre (Kayapó)", "people", "je", "no", "amazon", "amazon-peoples", [
      (-52.0, -8.0, 220, 1700, 2026, 1, "r", "linguistic-geography;americas-oral-tradition", "The middle Xingu. The older name is Kayapo."),
@@ -1139,41 +904,18 @@
      (-43.0, -14.0, 400, 800, 1500, 0, "r", "americas-archaeology", "Large ring villages of the eastern plateau. A culture known from archaeology. Macro-Jê speech is assumed."),
    ]),
    ("tupinamba", "Tupinambá", "people", "tupi", "no", "brazil+amazon", "tupi-je-peoples", [
-     (-38.8, -12.8, 250, 1000, 1650, 0, "r", "iberian-chroniclers;americas-archaeology", "Tupi speakers of the coast, met by Cabral's fleet in 1500. Class r for the years before then."),
-     (-43.5, -22.8, 150, 1000, 1600, 0, "r", "staden;americas-archaeology", "Around Rio de Janeiro, where Staden was a captive in 1554."),
-     (-44.5, -2.6, 150, 1500, 1700, 0, "a", "iberian-chroniclers", "Maranhao, reached by groups moving away from the Portuguese."),
-   ]),
-   ("potiguara", "Potiguara", "people", "tupi", "no", "brazil", "tupi-je-peoples", [
-     (-35.2, -6.5, 110, 1500, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "Tupi speakers of the north-east coast, still living on part of the same land."),
-   ]),
-   ("krenak", "Krenak (Botocudo)", "people", "je", "no", "brazil", "tupi-je-peoples", [
-     (-41.5, -18.5, 200, 1500, 2026, 1, "r", "iberian-chroniclers", "Forest peoples the Portuguese called Aimore and Botocudo, who held the hinterland until the 19th century."),
-   ]),
-   ("kariri", "Kariri", "people", "je", "yes", "brazil", "tupi-je-peoples", [
-     (-39.5, -8.0, 200, 1500, 1750, 0, "r", "iberian-chroniclers", "Peoples of the dry interior, who fought the cattle ranchers in the later 17th century. Their link to Macro-Jê is uncertain."),
-   ]),
-   ("tenetehara", "Tenetehara (Guajajara)", "people", "tupi", "no", "brazil+amazon", "tupi-je-peoples", [
-     (-46.0, -4.8, 130, 1600, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "Maranhao. The older name is Guajajara."),
+     (-38.8, -12.8, 250, 500, 1650, 0, "r", "iberian-chroniclers;americas-archaeology", "Tupi speakers of the coast, met by Cabral's fleet in 1500. Their pottery is dated on the coast from about 200 to 500. Older books put the arrival near 1000."),
+     (-43.5, -22.8, 150, 400, 1600, 0, "r", "staden;americas-archaeology", "Around Rio de Janeiro, where Staden was a captive in 1554. The earliest pottery dates here are disputed."),
+     (-44.5, -2.6, 150, 1500, 1612, 0, "r", "iberian-chroniclers", "Maranhao, reached by groups moving away from the Portuguese in the 16th century."),
+     (-44.5, -2.6, 150, 1612, 1700, 0, "a", "iberian-chroniclers", "Maranhao, where French and then Portuguese colonists described them from 1612."),
    ]),
    ("xavante", "A'uwẽ (Xavante)", "people", "je", "no", "brazil+amazon", "tupi-je-peoples", [
      (-52.0, -14.5, 150, 1750, 2026, 1, "a", "iberian-chroniclers", "Central Jê who moved west across the Araguaia to stay clear of settlers."),
    ]),
-   ("bororo", "Bororo (Boe)", "people", "je", "no", "brazil+amazon", "tupi-je-peoples", [
-     (-55.0, -16.5, 180, 1700, 2026, 1, "r", "iberian-chroniclers", "Mato Grosso."),
-   ]),
    # ------------------------------------------------------------------ Southern Cone
-   ("lickanantay", "Lickanantay (Atacameño)", "people", "andisol", "no", "cone", "mapuche-neighbours", [
-     (-68.2, -22.9, 130, 1, 2026, 1, "r", "americas-archaeology;iberian-chroniclers", "Oasis farmers and llama herders of the Atacama. Their Kunza language died out about 1900."),
-   ]),
    ("diaguita", "Diaguita", "people", "andisol", "yes", "cone", "mapuche-neighbours", [
      (-66.8, -27.5, 220, 900, 1665, 0, "r", "americas-archaeology;iberian-chroniclers", "Fortified farming towns of north-west Argentina. They fought Spain until 1665. Their Cacan language is unrecorded."),
      (-70.8, -30.0, 130, 900, 1600, 0, "r", "americas-archaeology", "The Chilean Diaguita."),
-   ]),
-   ("huarpe", "Huarpe", "people", "andisol", "no", "cone", "mapuche-neighbours", [
-     (-68.5, -32.3, 150, 1000, 1700, 0, "r", "iberian-chroniclers", "Farmers of Cuyo, carried off to work in Chile after 1560."),
-   ]),
-   ("picunche", "Picunche", "people", "mapuche", "no", "cone", "mapuche-neighbours", [
-     (-70.9, -33.6, 130, 1000, 1650, 0, "r", "iberian-chroniclers;americas-archaeology", "Mapudungun speakers of central Chile, under the Inca from about 1480 and then Spain. The name means people of the north."),
    ]),
    ("mapuche", "Mapuche", "people", "mapuche", "no", "cone", "mapuche-neighbours", [
      (-72.5, -38.0, 250, 1, 1550, 0, "r", "americas-archaeology", "The Pitren and El Vergel cultures are taken to be Mapuche ancestors. Known from archaeology."),
@@ -1181,56 +923,31 @@
      (-66.0, -38.0, 400, 1750, 1880, 0, "a", "iberian-chroniclers", "Mapuche chiefdoms of the Pampas."),
      (-72.6, -38.7, 150, 1883, 2026, 1, "a", "americas-censuses", "Araucania after the Chilean conquest."),
    ]),
-   ("huilliche", "Huilliche", "people", "mapuche", "no", "cone", "mapuche-neighbours", [
-     (-73.2, -41.0, 150, 1000, 2026, 1, "r", "iberian-chroniclers", "The southern Mapuche, as far as Chiloe. The name means people of the south."),
-   ]),
    ("guarani", "Guaraní", "people", "tupi", "no", "cone+brazil", "guarani-chaco", [
-     (-55.5, -25.5, 330, 400, 1540, 0, "r", "americas-archaeology;linguistic-geography", "Forest farmers who spread from the Amazon basin. Their pottery marks the spread."),
+     (-55.5, -25.5, 330, 200, 1540, 0, "r", "americas-archaeology;linguistic-geography", "Forest farmers who spread from the Amazon basin. Their pottery marks the spread and is dated on the Parana from about 1 to 200."),
      (-55.5, -27.3, 250, 1609, 1768, 0, "a", "iberian-chroniclers", "The thirty Jesuit mission towns."),
      (-56.5, -24.5, 250, 1540, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "Paraguay. Mbya, Kaiowa and Nhandeva communities also live in Brazil and Argentina."),
    ]),
-   ("ava-guarani", "Ava Guaraní", "people", "tupi", "no", "andes+cone", "guarani-chaco", [
-     (-63.5, -20.0, 150, 1500, 2026, 1, "a", "iberian-chroniclers", "Guaraní who reached the Andean foothills about 1500 and fought the Inca and Spain. The older name is Chiriguano."),
-   ]),
-   ("comechingon", "Comechingón", "people", "chaco", "yes", "cone", "guarani-chaco", [
-     (-64.5, -31.5, 120, 500, 1650, 0, "r", "iberian-chroniclers;americas-archaeology", "Farmers of the Cordoba hills. Their language is unclassified."),
-   ]),
    ("qom", "Qom", "people", "chaco", "no", "cone", "guarani-chaco", [
-     (-59.5, -25.5, 200, 1550, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "Mounted raiders of the Chaco from the 17th century. The older name is Toba."),
-   ]),
-   ("wichi", "Wichí", "people", "chaco", "no", "cone+andes", "guarani-chaco", [
-     (-62.0, -23.3, 180, 1550, 2026, 1, "r", "iberian-chroniclers;americas-censuses", "The Pilcomayo and Bermejo. The older name is Mataco."),
-   ]),
-   ("mbaya", "Mbayá and Kadiwéu", "people", "chaco", "no", "cone+brazil", "guarani-chaco", [
-     (-57.5, -20.5, 180, 1550, 2026, 1, "a", "iberian-chroniclers", "Horse lords of the upper Paraguay. The Kadiweu of Brazil are their descendants."),
-   ]),
-   ("ayoreo", "Ayoreo", "people", "chaco", "no", "cone+andes", "guarani-chaco", [
-     (-60.5, -19.2, 180, 1700, 2026, 1, "r", "iberian-chroniclers", "The northern Chaco. A few bands still avoid contact."),
+     (-59.5, -25.5, 200, 1550, 1650, 0, "r", "iberian-chroniclers", "The Chaco in the first century of Spanish settlement on its edges, when reports of its peoples are thin."),
+     (-59.5, -25.5, 200, 1650, 2026, 1, "a", "iberian-chroniclers;americas-censuses", "Mounted raiders of the Chaco from the 17th century. The older name is Toba."),
    ]),
    ("charrua", "Charrúa", "people", "chaco", "no", "cone+brazil", "guarani-chaco", [
      (-56.5, -32.0, 250, 1520, 1832, 0, "a", "iberian-chroniclers", "Hunters of Uruguay and its neighbours, massacred by the new republic in 1831."),
    ]),
    ("querandi", "Querandí", "people", "chon", "yes", "cone", "patagonia-peoples", [
-     (-59.5, -34.8, 200, 1500, 1700, 0, "a", "iberian-chroniclers", "Hunters of the Pampas who fought the first settlers of Buenos Aires in 1536. Their language is barely recorded."),
+     (-59.5, -34.8, 200, 1500, 1536, 0, "r", "iberian-chroniclers", "Hunters of the Pampas, projected back a generation from the first Spanish reports."),
+     (-59.5, -34.8, 200, 1536, 1680, 0, "a", "iberian-chroniclers", "Hunters of the Pampas who fought the first settlers of Buenos Aires in 1536. They fade from the records in the later 17th century. Their language is barely recorded."),
    ]),
    ("gununa-kuna", "Günün a küna", "people", "chon", "yes", "cone", "patagonia-peoples", [
      (-66.0, -40.5, 280, 1500, 1900, 0, "r", "iberian-chroniclers;linguistic-geography", "Northern Patagonia. Older names are Puelche and northern Tehuelche."),
    ]),
-   ("ranquel", "Rankülche", "people", "mapuche", "no", "cone", "patagonia-peoples", [
-     (-65.5, -35.8, 170, 1770, 1880, 0, "a", "acts-treaties", "Mapudungun-speaking people of the central Pampas. The older name is Ranquel."),
-   ]),
    ("aonikenk", "Aónikenk (Tehuelche)", "people", "chon", "no", "cone", "patagonia-peoples", [
-     (-69.5, -47.5, 400, 1520, 1900, 0, "r", "iberian-chroniclers", "Hunters of southern Patagonia. Magellan's men met them at San Julian in 1520. Mounted from the 18th century."),
+     (-69.5, -47.5, 400, 1500, 1900, 0, "r", "iberian-chroniclers", "Hunters of southern Patagonia. Magellan's men met them at San Julian in 1520. Mounted from the 18th century."),
      (-70.0, -49.5, 100, 1900, 2026, 1, "a", "americas-censuses", "Santa Cruz."),
    ]),
    ("selknam", "Selk'nam", "people", "chon", "no", "cone", "patagonia-peoples", [
      (-68.3, -53.8, 130, 1, 2026, 1, "r", "americas-archaeology;linguistic-geography", "Guanaco hunters of Tierra del Fuego. Most were killed by ranchers and disease between 1880 and 1910. The older name is Ona."),
-   ]),
-   ("yagan", "Yagán", "people", "chon", "no", "cone", "patagonia-peoples", [
-     (-68.5, -55.0, 110, 1, 2026, 1, "r", "americas-archaeology;linguistic-geography", "Canoe people of the Beagle Channel and Cape Horn. Their language has no known relatives. The older name is Yamana."),
-   ]),
-   ("kawesqar", "Kawésqar", "people", "chon", "no", "cone", "patagonia-peoples", [
-     (-74.5, -49.5, 300, 1, 2026, 1, "r", "americas-archaeology;linguistic-geography", "Canoe people of the western channels. Their language is not related to Chon. The older name is Alacaluf."),
    ]),
    # ------------------------------------------------------------------ States, lettered only
    ("new-spain", "New Spain", "polity", "ibrom", "no", "mexico+centralam+usawest+usaeast+caribbean", "", [
@@ -1245,7 +962,7 @@
      (-72.0, 5.0, 800, 1717, 1819, 0, "a", "iberian-chroniclers;acts-treaties", "A viceroyalty ruled from Bogota, made permanent in 1739."),
    ]),
    ("rio-de-la-plata", "Río de la Plata", "polity", "ibrom", "no", "cone+andes", "", [
-     (-62.0, -27.0, 1000, 1776, 1816, 0, "a", "iberian-chroniclers;acts-treaties", "A viceroyalty ruled from Buenos Aires. The Chaco and Patagonia lay outside its control."),
+     (-62.0, -27.0, 1000, 1776, 1810, 0, "a", "iberian-chroniclers;acts-treaties", "A viceroyalty ruled from Buenos Aires until the viceroy was deposed in 1810. The Chaco and Patagonia lay outside its control."),
    ]),
    ("colonial-brazil", "Brazil (Portuguese)", "polity", "ibrom", "no", "brazil+amazon", "", [
      (-41.0, -13.0, 900, 1532, 1700, 0, "a", "iberian-chroniclers", "Captaincies along the coast, with a governor at Salvador from 1549."),
@@ -1265,7 +982,7 @@
      (-72.0, 46.0, 800, 1763, 1867, 0, "a", "acts-treaties", "Quebec, the Maritime colonies and after 1791 Upper Canada."),
    ]),
    ("russian-america", "Russian America", "polity", "slave", "no", "arcticam", "", [
-     (-152.0, 59.0, 800, 1784, 1867, 0, "a", "rac-records;acts-treaties", "Fur posts of the Russian-American Company. Sold to the United States in 1867."),
+     (-152.0, 59.0, 800, 1784, 1867, 0, "a", "rac-records;acts-treaties", "Fur posts, the first on Kodiak in 1784, run by the Russian-American Company from 1799. Sold to the United States in 1867."),
    ]),
    ("united-states", "United States", "polity", "eng", "no", "usaeast+usawest+arcticam", "", [
      (-80.0, 38.0, 800, 1776, 1803, 0, "a", "acts-treaties", "Independent in 1776, with a border on the Mississippi from 1783."),
@@ -1275,29 +992,15 @@
    ("canada-state", "Canada", "polity", "eng", "no", "canada+arcticam", "", [
      (-95.0, 56.0, 2300, 1867, 2026, 1, "a", "acts-treaties", "A federation of British colonies from 1867, English and French speaking, which took over Rupert's Land in 1870."),
    ]),
-   ("greenland-state", "Greenland", "polity", "", "no", "arcticam", "", [
-     (-42.0, 72.0, 1200, 1721, 2026, 1, "a", "acts-treaties", "Danish from 1721 and self-governing within the Danish realm since 1979. Greenlandic is the official language."),
-   ]),
    ("mexico-state", "Mexico", "polity", "ibrom", "no", "mexico+usawest+usaeast+centralam", "", [
      (-104.0, 26.0, 1400, 1821, 1848, 0, "a", "acts-treaties", "Independent in 1821. It lost Texas in 1836 and the far north in 1848."),
      (-102.0, 23.5, 1000, 1848, 2026, 1, "a", "acts-treaties", "Mexico in its present borders."),
    ]),
-   ("central-america-federation", "Central America", "polity", "ibrom", "no", "centralam", "", [
-     (-87.0, 13.5, 500, 1823, 1841, 0, "a", "acts-treaties", "A federal republic of five states, which broke up between 1838 and 1841."),
-   ]),
-   ("guatemala-state", "Guatemala", "polity", "ibrom", "no", "centralam", "", [
-     (-90.3, 15.6, 200, 1841, 2026, 1, "a", "acts-treaties", "A large share of its people are Maya."),
-   ]),
-   ("haiti-state", "Haiti", "polity", "fr", "no", "caribbean", "", [
-     (-72.8, 19.0, 150, 1804, 2026, 1, "a", "acts-treaties", "Founded in 1804 by the people who had been enslaved in French Saint-Domingue."),
-   ]),
    ("cuba-state", "Cuba", "polity", "ibrom", "no", "caribbean", "", [
      (-79.5, 21.8, 500, 1902, 2026, 1, "a", "acts-treaties", "Spanish until 1898, a republic from 1902."),
    ]),
-   ("gran-colombia", "Gran Colombia", "polity", "ibrom", "no", "andesn+centralam", "", [
-     (-72.0, 4.0, 1000, 1819, 1831, 0, "a", "acts-treaties", "Bolivar's republic of Venezuela, New Granada and Quito."),
-   ]),
    ("colombia-state", "Colombia", "polity", "ibrom", "no", "andesn+centralam", "", [
+     (-72.0, 4.0, 1000, 1819, 1831, 0, "a", "acts-treaties", "Bolivar's Republic of Colombia, now called Gran Colombia, which joined Venezuela, New Granada and Quito until it broke up in 1830 and 1831."),
      (-73.5, 4.5, 600, 1831, 2026, 1, "a", "acts-treaties", "Called New Granada until 1863. Panama left it in 1903."),
    ]),
    ("venezuela-state", "Venezuela", "polity", "ibrom", "no", "andesn", "", [
@@ -1317,19 +1020,11 @@
      (-71.5, -37.0, 1700, 1883, 2026, 1, "a", "acts-treaties", "After the conquest of Araucania and the northern deserts."),
    ]),
    ("argentina-state", "Argentina", "polity", "ibrom", "no", "cone", "", [
-     (-62.5, -31.0, 700, 1816, 1880, 0, "a", "acts-treaties", "The United Provinces, then the Argentine Confederation. The Pampas, Patagonia and the Chaco were outside its control."),
+     (-62.5, -31.0, 700, 1810, 1880, 0, "a", "acts-treaties", "Self-governing from 1810 and independent by declaration in 1816: the United Provinces, then the Argentine Confederation. The Pampas, Patagonia and the Chaco were outside its control."),
      (-65.0, -37.0, 1500, 1880, 2026, 1, "a", "acts-treaties", "After the military campaigns of 1879 to 1884 in the south and the conquest of the Chaco."),
    ]),
-   ("paraguay-state", "Paraguay", "polity", "ibrom", "no", "cone", "", [
-     (-58.0, -23.5, 350, 1811, 2026, 1, "a", "acts-treaties", "Independent in 1811. Guaraní and Spanish are both official."),
-   ]),
-   ("uruguay-state", "Uruguay", "polity", "ibrom", "no", "cone", "", [
-     (-56.0, -33.0, 250, 1828, 2026, 1, "a", "acts-treaties", "Independent in 1828."),
-   ]),
-   ("empire-of-brazil", "Empire of Brazil", "polity", "ibrom", "no", "brazil+amazon", "", [
-     (-50.0, -12.0, 1800, 1822, 1889, 0, "a", "acts-treaties", "Independent under a branch of the Portuguese royal house."),
-   ]),
    ("brazil-state", "Brazil", "polity", "ibrom", "no", "brazil+amazon", "", [
+     (-50.0, -12.0, 1800, 1822, 1889, 0, "a", "acts-treaties", "The Empire of Brazil, independent in 1822 under a branch of the Portuguese royal house."),
      (-52.0, -11.0, 1900, 1889, 2026, 1, "a", "acts-treaties", "A republic from 1889."),
    ]),
  ],
@@ -1338,24 +1033,22 @@
    ("classic-maya", "yucatan-maya", "continues", 900, "americas-archaeology", "Power moved to the northern lowlands as the southern cities emptied."),
    ("mexica", "nahua", "continues", 1521, "florentine-codex", "The Nahua towns lived on under Spanish rule."),
    ("inca", "quechua-people", "continues", 1532, "guaman-poma", "The empire fell and its common language stayed."),
-   ("tairona", "kogi", "continues", 1600, "americas-oral-tradition", "The Kogi hold themselves to be descendants of the Tairona."),
    ("ancestral-pueblo", "pueblos", "continues", 1300, "americas-oral-tradition", "Pueblo histories and archaeology both trace the move to the Rio Grande, Hopi and Zuni."),
-   ("hohokam", "oodham", "continues", 1450, "americas-oral-tradition", "Held by O'odham tradition. Archaeologists differ on how direct the link is."),
    ("mississippian", "mvskoke", "continues", 1650, "americas-archaeology", "The Creek towns formed from the remains of the chiefdoms."),
    ("old-bering-sea", "thule-culture", "continues", 1000, "americas-archaeology", "Thule grew out of Birnirk in north Alaska."),
    ("thule-culture", "inuit-canada", "continues", 1600, "americas-archaeology", "The Inuit are the direct descendants of the Thule people."),
    ("thule-culture", "kalaallit", "continues", 1600, "americas-archaeology", "The Inuit of Greenland are descended from the Thule people."),
-   ("norton-tradition", "yupik-alaska", "continues", 1000, "americas-archaeology", "An assumed descent."),
-   ("taltheilei", "denesuline", "continues", 1300, "americas-archaeology", "An assumed descent."),
    ("saladoid", "taino", "continues", 800, "americas-archaeology", "Taíno society grew from the Saladoid and later Ostionoid settlers."),
    ("new-spain", "mexico-state", "continues", 1821, "acts-treaties", "Independence."),
    ("thirteen-colonies", "united-states", "continues", 1776, "acts-treaties", "Independence."),
    ("british-north-america", "canada-state", "continues", 1867, "acts-treaties", "Confederation."),
-   ("colonial-brazil", "empire-of-brazil", "continues", 1822, "acts-treaties", "Independence."),
-   ("empire-of-brazil", "brazil-state", "continues", 1889, "acts-treaties", "The republic."),
-   ("colombia-state", "gran-colombia", "split-from", 1831, "acts-treaties", "Gran Colombia broke into three states."),
-   ("venezuela-state", "gran-colombia", "split-from", 1830, "acts-treaties", "Gran Colombia broke into three states."),
+   ("colonial-brazil", "brazil-state", "continues", 1822, "acts-treaties", "Independence."),
+   ("new-granada", "colombia-state", "continues", 1819, "acts-treaties", "Independence."),
+   ("venezuela-state", "colombia-state", "split-from", 1830, "acts-treaties", "Gran Colombia broke into three states."),
+   ("ecuador-state", "colombia-state", "split-from", 1830, "acts-treaties", "Gran Colombia broke into three states."),
+   ("rio-de-la-plata", "argentina-state", "continues", 1810, "acts-treaties", "The May Revolution."),
  ],
+ "attested_early": ["norse-greenlanders", "norse-greenland-speakers"],
  "periods": {
    "americas": [
      (1, 250, "Early towns and villages", 150, "Evidence is archaeology, except Maya inscriptions. Teotihuacan grows in Mexico, Moche and Nazca on the Peruvian coast, Hopewell mounds in Ohio. Language areas are projected back from much later."),

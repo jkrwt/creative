@@ -75,8 +75,13 @@ def merge(tables, part):
     foreign = {c["people_id"] for c in t["claims"] if not c["claim_id"].startswith(prefix)}
     for pid in sorted(own_people & foreign):
         problems.append("%s: this id already belongs to another part of the atlas" % pid)
+    # Entries this part placed last time and has since dropped go too: they are the ones whose every claim
+    # carries this part's prefix.
+    had = {c["people_id"] for c in t["claims"] if c["claim_id"].startswith(prefix)}
+    dropped = had - foreign - own_people
     t["claims"] = [c for c in t["claims"] if not c["claim_id"].startswith(prefix)]
-    t["peoples"] = [p for p in t["peoples"] if p["people_id"] not in own_people]
+    t["peoples"] = [p for p in t["peoples"] if p["people_id"] not in own_people | dropped]
+    t["links"] = [l for l in t["links"] if l["from_people"] not in dropped and l["to_people"] not in dropped]
     t["groups"] = [g for g in t["groups"] if g["group_id"] not in own_groups]
     t["sources"] = [s for s in t["sources"] if s["source_id"] not in own_sources]
     t["periods"] = [r for r in t["periods"] if r["view_id"] not in own_views]
@@ -120,6 +125,13 @@ def merge(tables, part):
         for y0, y1, name, jump, caption in rows:
             t["periods"].append({"view_id": view, "year_from": str(y0), "year_to": str(y1), "name": name,
                                  "jump_year": str(jump), "caption": caption})
+    while True:                                   # a group the part no longer fills is removed with it
+        used = {p["group"] for p in t["peoples"]} | {g["parent"] for g in t["groups"]}
+        empty = [g for g in t["groups"] if g["group_id"] not in used and g["group_id"] not in own_groups]
+        if not empty or not dropped:
+            break
+        gone = {g["group_id"] for g in empty}
+        t["groups"] = [g for g in t["groups"] if g["group_id"] not in gone]
     for text in [e[1] for e in part.get("entries", [])] + [g[1] for g in part.get("groups", [])]:
         if "—" in text or "tribe" in text.lower():
             problems.append("name %r: no em dashes, and no 'tribe' in labels" % text)

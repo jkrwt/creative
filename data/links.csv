@@ -60,24 +60,6 @@ uzbek-ssr,uzbekistan,continues,1991,acts-treaties,,seed
 turkmen-ssr,turkmenistan,continues,1991,acts-treaties,,seed
 tajik-ssr,tajikistan,continues,1991,acts-treaties,,seed
 kirghiz-ssr,kyrgyzstan,continues,1991,acts-treaties,,seed
-nobatia,makuria,merged-into,700,nubian-texts,The two kingdoms were joined under the king at Dongola. The date is approximate.,seed
-meroe-kush,alwa,continues,500,archaeology-africa,Alwa held the old heartland of Kush. Continuity of people is likely and of rule is not shown.,seed
-aksum-kingdom,zagwe,continues,1137,ethiopian-chronicles,The Zagwe kept Aksum's church and its claims. The break between them is poorly recorded.,seed
-zagwe,ethiopia-solomonic,continues,1270,ethiopian-chronicles,Yekuno Amlak overthrew the last Zagwe king.,seed
-ifat,adal,continues,1415,ethiopian-chronicles,The ruling house of Ifat came back from exile and ruled as sultans of Adal.,seed
-ghana-wagadu,mali-empire,absorbed-by,1240,arab-geographers-africa,Ibn Khaldun reports the conquest.,seed
-gao-kingdom,songhai-empire,continues,1464,timbuktu-chronicles,Sunni Ali made the kingdom of Gao an empire.,seed
-kanem,bornu,continues,1380,arab-geographers-africa,The same dynasty moved its seat west of Lake Chad.,seed
-hausa-states,sokoto,absorbed-by,1808,travellers-19c,The jihad replaced the Hausa kings with Fula emirs.,seed
-segu,tukulor,absorbed-by,1861,travellers-19c,Umar Tal took Segu in 1861.,seed
-massina,tukulor,absorbed-by,1862,travellers-19c,Umar Tal took Hamdullahi in 1862.,seed
-kitara,bunyoro,continues,1500,oral-tradition-africa,Bunyoro's kings claimed to be heirs of Kitara. This is court tradition.,seed
-great-zimbabwe,mutapa,continues,1450,oral-tradition-africa,Tradition has a prince leave Great Zimbabwe for the north. The link is debated.,seed
-butua,rozvi,absorbed-by,1684,portuguese-africa,The Rozvi took Khami and the south-west.,seed
-northern-nguni,zulu,continues,1816,travellers-19c,Shaka took over the Mthethwa confederacy and beat the Ndwandwe.,seed
-ndebele,zulu,split-from,1822,travellers-19c,Mzilikazi and his following broke away from Shaka.,seed
-kwale,urewe,split-from,150,archaeology-africa,Kwale pottery is held to derive from Urewe. This is an archaeological inference.,seed
-oyo,yoruba,continues,1836,travellers-19c,The successor cities of Oyo.,seed
 van-diemens-land,new-south-wales-colony,split-from,1825,acts-treaties,Van Diemen's Land became a separate colony.,seed
 victoria-colony,new-south-wales-colony,split-from,1851,acts-treaties,,seed
 queensland-colony,new-south-wales-colony,split-from,1859,acts-treaties,,seed
@@ -175,20 +157,35 @@ preclassic-maya,classic-maya,continues,250,maya-inscriptions,The same cities and
 classic-maya,yucatan-maya,continues,900,americas-archaeology,Power moved to the northern lowlands as the southern cities emptied.,seed
 mexica,nahua,continues,1521,florentine-codex,The Nahua towns lived on under Spanish rule.,seed
 inca,quechua-people,continues,1532,guaman-poma,The empire fell and its common language stayed.,seed
-tairona,kogi,continues,1600,americas-oral-tradition,The Kogi hold themselves to be descendants of the Tairona.,seed
 ancestral-pueblo,pueblos,continues,1300,americas-oral-tradition,"Pueblo histories and archaeology both trace the move to the Rio Grande, Hopi and Zuni.",seed
-hohokam,oodham,continues,1450,americas-oral-tradition,Held by O'odham tradition. Archaeologists differ on how direct the link is.,seed
 mississippian,mvskoke,continues,1650,americas-archaeology,The Creek towns formed from the remains of the chiefdoms.,seed
 old-bering-sea,thule-culture,continues,1000,americas-archaeology,Thule grew out of Birnirk in north Alaska.,seed
 thule-culture,inuit-canada,continues,1600,americas-archaeology,The Inuit are the direct descendants of the Thule people.,seed
 thule-culture,kalaallit,continues,1600,americas-archaeology,The Inuit of Greenland are descended from the Thule people.,seed
-norton-tradition,yupik-alaska,continues,1000,americas-archaeology,An assumed descent.,seed
-taltheilei,denesuline,continues,1300,americas-archaeology,An assumed descent.,seed
 saladoid,taino,continues,800,americas-archaeology,Taíno society grew from the Saladoid and later Ostionoid settlers.,seed
 new-spain,mexico-state,continues,1821,acts-treaties,Independence.,seed
 thirteen-colonies,united-states,continues,1776,acts-treaties,Independence.,seed
 british-north-america,canada-state,continues,1867,acts-treaties,Confederation.,seed
-colonial-brazil,empire-of-brazil,continues,1822,acts-treaties,Independence.,seed
-empire-of-brazil,brazil-state,continues,1889,acts-treaties,The republic.,seed
-colombia-state,gran-colombia,split-from,1831,acts-treaties,Gran Colombia broke into three states.,seed
-venezuela-state,gran-colombia,split-from,1830,acts-treaties,Gran Colombia broke into three states.,seed
+colonial-brazil,brazil-state,continues,1822,acts-treaties,Independence.,seed
+new-granada,colombia-state,continues,1819,acts-treaties,Independence.,seed
+venezuela-state,colombia-state,split-from,1830,acts-treaties,Gran Colombia broke into three states.,seed
+ecuador-state,colombia-state,split-from,1830,acts-treaties,Gran Colombia broke into three states.,seed
+rio-de-la-plata,argentina-state,continues,1810,acts-treaties,The May Revolution.,seed
+nobatia,makuria,merged-into,650,nubian-texts,The two kingdoms were joined under the king at Dongola in the 7th century. The date is approximate.,seed
+meroe-kush,alwa,continues,500,archaeology-africa,Alwa held the old heartland of Kush. Continuity of people is likely and of rule is not shown.,seed
+aksum-kingdom,zagwe,continues,1137,ethiopian-chronicles,The Zagwe kept Aksum's church and its claims. The break between them is poorly recorded.,seed
+zagwe,ethiopia-solomonic,continues,1270,ethiopian-chronicles,Yekuno Amlak overthrew the last Zagwe king.,seed
+ifat,adal,continues,1415,ethiopian-chronicles,The ruling house of Ifat came back from exile and ruled as sultans of Adal.,seed
+ghana-wagadu,mali-empire,absorbed-by,1240,arab-geographers-africa,Ibn Khaldun reports the conquest.,seed
+gao-kingdom,songhai-empire,continues,1464,timbuktu-chronicles,Sunni Ali made the kingdom of Gao an empire.,seed
+kanem,bornu,continues,1380,arab-geographers-africa,The same dynasty moved its seat west of Lake Chad.,seed
+hausa-states,sokoto,absorbed-by,1808,travellers-19c,The jihad of 1804 to 1808 replaced the Hausa kings with Fula emirs.,seed
+segu,tukulor,absorbed-by,1861,travellers-19c,Umar Tal took Segu in 1861.,seed
+massina,tukulor,absorbed-by,1862,travellers-19c,Umar Tal took Hamdullahi in 1862.,seed
+kitara,bunyoro,continues,1500,oral-tradition-africa,Bunyoro's kings claimed to be heirs of Kitara. This is court tradition.,seed
+great-zimbabwe,mutapa,continues,1450,oral-tradition-africa,Tradition has a prince leave Great Zimbabwe for the north. The link is debated.,seed
+butua,rozvi,absorbed-by,1683,portuguese-africa,The Rozvi took Khami and the south-west.,seed
+northern-nguni,zulu,continues,1816,travellers-19c,Shaka took over the Mthethwa confederacy and beat the Ndwandwe.,seed
+ndebele,zulu,split-from,1822,travellers-19c,Mzilikazi and his following broke away from Shaka.,seed
+kwale,urewe,split-from,150,archaeology-africa,Kwale pottery is held to derive from Urewe. This is an archaeological inference.,seed
+oyo,yoruba,continues,1836,travellers-19c,The successor cities of Oyo.,seed

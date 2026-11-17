@@ -87,35 +87,6 @@ hordes-and-khanates,Hordes and khanates,steppe-world,"Kazakhs, Uzbeks, Turkmens,
 ural-and-ob-peoples,Ural and Ob peoples,,"The peoples of the forest and tundra either side of the Urals, most of them speakers of Uralic languages, with their Turkic neighbours. A modern grouping by place.",seed
 volga-and-kama,Volga and Kama,ural-and-ob-peoples,"Mordvins, Mari, Udmurts and Komi of the forest, and the Bulgars, Bashkirs and Tatars who settled beside them.",seed
 west-siberians,Western Siberia,ural-and-ob-peoples,"Hunters, fishers and reindeer herders of the Ob and the Yenisei, and the Turkic peoples of the southern forest edge and the Sayan and Altai mountains. Russian records begin in the 16th century.",seed
-bantu-peoples,Bantu peoples,,"Speakers of some five hundred related languages. In 1 CE they held the western forest and the Great Lakes. By 1000 they farmed from Kenya to the Kei River. The evidence is pottery, iron and the languages themselves, and the dates are debated.",seed
-early-bantu-farmers,Early Bantu farmers,bantu-peoples,"Early Iron Age pottery traditions named by archaeologists after the sites where they were found. They are taken to mark the spread of Bantu-speaking farmers, which is an inference.",seed
-great-lakes-kingdoms,Great Lakes kingdoms,bantu-peoples,"Kingdoms between Lake Victoria and the western Rift. Their early history is court tradition, written down after 1860.",seed
-kongo-neighbours,Kongo and neighbours,bantu-peoples,Kingdoms near the Atlantic coast from Loango to the Angolan plateau. Kongo's kings wrote letters to Lisbon and Rome from the 1490s.,seed
-savanna-kingdoms,Luba and Lunda,bantu-peoples,"Kingdoms of the savanna south of the forest, from the Kasai to Lake Malawi. Known mostly from tradition and archaeology.",seed
-swahili-coast,Swahili coast,bantu-peoples,"Trading towns from the Lamu islands to Sofala, Muslim and Bantu-speaking, with an Indian Ocean trade that Greek and Arab writers describe.",seed
-zimbabwe-plateau,Zimbabwe plateau,bantu-peoples,"Shona-speaking states that built in stone and sold gold to the coast, from Mapungubwe to the Rozvi.",seed
-nguni-sotho,Nguni and Sotho-Tswana,bantu-peoples,"The peoples of the south-east. The wars of the 1820s, called the Mfecane, made the Zulu, Sotho, Swazi and Ndebele kingdoms and sent Nguni bands north as far as Tanzania.",seed
-southwest-bantu,Herero and Ovambo,bantu-peoples,"Cattle keepers and farmers of northern Namibia and southern Angola, the south-western edge of the Bantu-speaking world.",seed
-east-african-bantu,East African Bantu,bantu-peoples,"Peoples of the highlands and plateaus between the lakes and the coast, without large kingdoms before the 19th century. A grouping of convenience.",seed
-forest-foragers,Forest foragers,bantu-peoples,"Hunters of the Congo forest, there long before the farmers. Their own languages are lost and they now speak those of their Bantu and Central Sudanic neighbours, which is why they are filed here.",seed
-khoe-san,Khoe and San,,"Herders and foragers who held all of southern Africa in 1 CE. Bantu-speaking farmers took the wetter east after about 300 and European settlers the Cape after 1652. Their languages, known for their clicks, belong to at least three unrelated families.",seed
-khoekhoe-peoples,Khoekhoe,khoe-san,"Herders of sheep and cattle from the Cape to Namibia. Khoekhoe means people of people. Colonists called them Hottentots, a name now offensive.",seed
-san-peoples,San,khoe-san,"Foragers of the south. San is a Khoekhoe word for people without cattle, an outside name, but it is the usual one. Each group has its own name and there is none for all.",seed
-hadza-sandawe,Hadza and Sandawe,khoe-san,"Two small peoples of northern Tanzania whose click languages have no proven relatives. They are grouped with Khoe and San by old convention, not by proof.",seed
-sahel-kingdoms,Sahel kingdoms,,"States of the grassland south of the Sahara, from the Senegal to Darfur. They grew on the trade in gold, salt and slaves across the desert, and Arab writers describe them from the 8th century.",seed
-western-sudan,Western Sudan,sahel-kingdoms,"Ghana, Mali and Songhai followed one another on the upper Niger and Senegal, each larger than the last.",seed
-central-sudan,Central Sudan,sahel-kingdoms,"Around Lake Chad and east to Darfur. Kanem and Bornu were ruled by one dynasty, the Sayfawa, for about a thousand years.",seed
-jihad-states,Fula jihad states,sahel-kingdoms,Between 1725 and 1862 Fula Muslim reformers overthrew older rulers from Senegal to Cameroon and founded states under clerics.,seed
-sahel-peoples,Sahel peoples,sahel-kingdoms,Peoples of the desert edge who are named here apart from any one state.,seed
-guinea-coast,Guinea coast,,The forest and coast from Sierra Leone to the Niger delta. Towns and kingdoms here are known from archaeology and tradition before the Portuguese came in the 1470s.,seed
-lower-niger,Lower Niger,guinea-coast,"From the Nok culture to Ife, Benin and Oyo, with the Igbo east of the river. Famous for sculpture in terracotta and cast metal.",seed
-akan-gbe,Akan and Gbe,guinea-coast,"Gold-producing Akan states and their eastern neighbours, among them Asante and Dahomey.",seed
-upper-guinea,Upper Guinea coast,guinea-coast,"Peoples of the coast from Sierra Leone to Liberia, first named by Portuguese sailors.",seed
-nile-horn,Nile and Horn,,"The middle and upper Nile and the Horn of Africa. Kush, Aksum, Christian Nubia and Ethiopia left their own writings, which is rare south of the Sahara before 1500.",seed
-nubia-nile,Nubia and the Nile,nile-horn,"Kush, the three Christian kingdoms that followed it, and the Muslim Funj after them, with the Beja of the Red Sea hills.",seed
-ethiopian-highlands,Ethiopian highlands,nile-horn,"Aksum and the Christian kingdom that claimed descent from it, with the Agaw who lived there before Semitic speech spread.",seed
-cushitic-peoples,Cushitic peoples,nile-horn,"Somali, Oromo, Afar and their relatives, from the Red Sea to the Rift Valley of Kenya and Tanzania, and the Muslim sultanates of the eastern Horn.",seed
-nilotic-peoples,Nilotic peoples,nile-horn,"Cattle keepers of the upper Nile. Over the last thousand years some moved south into Uganda, Kenya and Tanzania.",seed
 first-australians,First Australians,,"Aboriginal and Torres Strait Islander peoples, in their countries for some fifty thousand years. Australia had about 250 languages and the map can name only a few of the largest and best known peoples, each placed as a soft field and never as a boundary.",seed
 aus-southeast,The south-east,first-australians,"Peoples of the Murray and Darling rivers and the coast from Adelaide to northern New South Wales, the first to meet British settlement after 1788. Koori is a shared self-name across much of this area and not a single people.",seed
 aus-west,The west,first-australians,"Peoples of the south-west, the Murchison and the Pilbara. Noongar and Yamatji are broad self-names that each cover several language groups.",seed
@@ -213,3 +184,32 @@ southern-cone,Southern Cone,,From the Chaco to Tierra del Fuego. Most of this la
 mapuche-neighbours,Mapuche and Andes,southern-cone,"The Mapuche, who held off both the Inca and Spain, and the farming peoples of the Andean valleys to the north.",seed
 guarani-chaco,Guaraní and Chaco,southern-cone,Guaraní farmers of the forest and the hunters and fishers of the Chaco plain.,seed
 patagonia-peoples,Pampas and Patagonia,southern-cone,"Hunters of the grassland and the far south, and the canoe peoples of the western channels.",seed
+bantu-peoples,Bantu peoples,,"Speakers of some five hundred related languages. In 1 CE they held the western forest and the Great Lakes. By 1000 they farmed from Kenya to the Kei River. The evidence is pottery, iron and the languages themselves, and the dates are debated.",seed
+early-bantu-farmers,Early Bantu farmers,bantu-peoples,"Early Iron Age pottery traditions named by archaeologists after the sites where they were found. They are taken to mark the spread of Bantu-speaking farmers, which is an inference.",seed
+great-lakes-kingdoms,Great Lakes kingdoms,bantu-peoples,"Kingdoms between Lake Victoria and the western Rift. Their early history is court tradition, written down after 1860.",seed
+kongo-neighbours,Kongo and neighbours,bantu-peoples,Kingdoms near the Atlantic coast from Loango to the Angolan plateau. Kongo's kings wrote letters to Lisbon and Rome from the 1490s.,seed
+savanna-kingdoms,Luba and Lunda,bantu-peoples,"Kingdoms of the savanna south of the forest, from the Kasai to Lake Malawi. Known mostly from tradition and archaeology.",seed
+swahili-coast,Swahili coast,bantu-peoples,"Trading towns from the Lamu islands to Sofala, Muslim and Bantu-speaking, with an Indian Ocean trade that Greek and Arab writers describe.",seed
+zimbabwe-plateau,Zimbabwe plateau,bantu-peoples,"Shona-speaking states that built in stone and sold gold to the coast, from Mapungubwe to the Rozvi.",seed
+nguni-sotho,Nguni and Sotho-Tswana,bantu-peoples,"The peoples of the south-east. The wars of the 1820s, called the Mfecane, made the Zulu, Sotho, Swazi and Ndebele kingdoms and sent Nguni bands north as far as Tanzania.",seed
+southwest-bantu,Herero and Ovambo,bantu-peoples,"Cattle keepers and farmers of northern Namibia and southern Angola, the south-western edge of the Bantu-speaking world.",seed
+east-african-bantu,East African Bantu,bantu-peoples,"Peoples of the highlands and plateaus between the lakes and the coast, without large kingdoms before the 19th century. A grouping of convenience.",seed
+forest-foragers,Forest foragers,bantu-peoples,"Hunters of the Congo forest, there long before the farmers. Their own languages are lost and they now speak those of their Bantu and Central Sudanic neighbours, which is why they are filed here.",seed
+khoe-san,Khoe and San,,"Herders and foragers who held all of southern Africa in 1 CE. Bantu-speaking farmers took the wetter east after about 300 and European settlers the Cape after 1652. Their languages, known for their clicks, belong to at least three unrelated families.",seed
+khoekhoe-peoples,Khoekhoe,khoe-san,"Herders of sheep and cattle from the Cape to Namibia. Khoekhoe means people of people. Colonists called them Hottentots, a name now offensive.",seed
+san-peoples,San,khoe-san,"Foragers of the south. San is a Khoekhoe word for people without cattle, an outside name, but it is the usual one. Each group has its own name and there is none for all.",seed
+hadza-sandawe,Hadza and Sandawe,khoe-san,"Two small peoples of northern Tanzania whose click languages have no proven relatives. They are grouped with Khoe and San by old convention, not by proof.",seed
+sahel-kingdoms,Sahel kingdoms,,"States of the grassland south of the Sahara, from the Senegal to Darfur. They grew on the trade in gold, salt and slaves across the desert, and Arab writers describe them from the 8th century.",seed
+western-sudan,Western Sudan,sahel-kingdoms,"Ghana, Mali and Songhai followed one another on the upper Niger and Senegal, each larger than the last.",seed
+central-sudan,Central Sudan,sahel-kingdoms,"Around Lake Chad and east to Darfur. Kanem and Bornu were ruled by one dynasty, the Sayfawa, for about a thousand years.",seed
+jihad-states,Fula jihad states,sahel-kingdoms,Between 1725 and 1862 Fula Muslim reformers overthrew older rulers from Senegal to Cameroon and founded states under clerics.,seed
+sahel-peoples,Sahel peoples,sahel-kingdoms,Peoples of the desert edge who are named here apart from any one state.,seed
+guinea-coast,Guinea coast,,The forest and coast from Sierra Leone to the Niger delta. Towns and kingdoms here are known from archaeology and tradition before the Portuguese came in the 1470s.,seed
+lower-niger,Lower Niger,guinea-coast,"From the Nok culture to Ife, Benin and Oyo, with the Igbo east of the river. Famous for sculpture in terracotta and cast metal.",seed
+akan-gbe,Akan and Gbe,guinea-coast,"Gold-producing Akan states and their eastern neighbours, among them Asante and Dahomey.",seed
+upper-guinea,Upper Guinea coast,guinea-coast,"Peoples of the coast from Sierra Leone to Liberia, first named by Portuguese sailors.",seed
+nile-horn,Nile and Horn,,"The middle and upper Nile and the Horn of Africa. Kush, Aksum, Christian Nubia and Ethiopia left their own writings, which is rare south of the Sahara before 1500.",seed
+nubia-nile,Nubia and the Nile,nile-horn,"Kush, the three Christian kingdoms that followed it, and the Muslim Funj after them, with the Beja of the Red Sea hills.",seed
+ethiopian-highlands,Ethiopian highlands,nile-horn,"Aksum and the Christian kingdom that claimed descent from it, with the Agaw who lived there before Semitic speech spread.",seed
+cushitic-peoples,Cushitic peoples,nile-horn,"Somali, Oromo, Afar and their relatives, from the Red Sea to the Rift Valley of Kenya and Tanzania, and the Muslim sultanates of the eastern Horn.",seed
+nilotic-peoples,Nilotic peoples,nile-horn,"Cattle keepers of the upper Nile. Over the last thousand years some moved south into Uganda, Kenya and Tanzania.",seed

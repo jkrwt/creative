@@ -16,7 +16,7 @@
    ("ibn-hawqal", "Ibn Hawqal, Configuration of the Earth", "text", "about 977", "no", ""),
    ("bakri", "al-Bakri, Book of Roads and Kingdoms", "text", "1068", "no",
     "Written in al-Andalus from earlier reports. The fullest early account of the Maghreb and the Sahara."),
-   ("ibn-battuta", "Ibn Battuta, Travels (Rihla)", "text", "about 1355", "no", ""),
+   ("ibn-battuta", "Ibn Battuta, Travels", "text", "dictated about 1355", "no", "He visited Mogadishu, Mombasa and Kilwa about 1331 and Mali in 1352 and 1353."),
    ("ibn-khaldun", "Ibn Khaldun, Book of Lessons (Kitab al-Ibar) and its Muqaddimah", "text", "about 1377 to 1406", "no",
     "The main history of the Berber and Arab peoples of the Maghreb."),
    ("arabic-histories-east", "Arabic chronicles and geographies of Egypt, Syria, Iraq and Arabia", "text", "9th to 15th century", "yes",

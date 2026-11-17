@@ -11,7 +11,7 @@
    ("bactrian-documents", "Bactrian inscriptions and legal documents", "record", "2nd to 8th century", "yes", "Bucket. Includes the Rabatak inscription of Kanishka. A checked claim cites the document."),
    ("menander", "Menander Protector, History (fragments)", "text", "about 580", "no", "Reports the Roman embassy of Zemarchus to the Western Turks in 569."),
    ("old-turkic-inscriptions", "Old Turkic runiform inscriptions of the Yenisei and the Talas", "inscription", "8th to 10th century", "yes", "Bucket. A checked claim cites the inscription."),
-   ("tabari", "al-Tabari, History of the Prophets and Kings", "text", "about 915", "no", "The main narrative of the Arab conquest of Iran and Khurasan, written two centuries after it."),
+   ("tabari", "al-Tabari, History of the Prophets and Kings", "text", "about 915", "no", "Compiled in Baghdad from earlier reports. Its account of Arabia before Islam is tradition."),
    ("arab-geographers", "Arab and Persian geographers (Ibn Khordadbeh, al-Masudi, Ibn Hawqal, al-Muqaddasi, Hudud al-Alam)", "text", "9th to 10th century", "yes", "Bucket. A checked claim cites the author and passage."),
    ("ibn-fadlan", "Ibn Fadlan, account of the embassy to the Volga Bulgars", "text", "922", "no", "An eyewitness to the Oghuz, Bashkirs, Bulgars and Khazars."),
    ("biruni", "al-Biruni, Chronology of Ancient Nations", "text", "about 1000", "no", "Written by a native of Khwarezm."),

@@ -870,237 +870,6 @@ uzbekistan,Uzbekistan,polity,,no,turan,
 turkmenistan,Turkmenistan,polity,,no,turan,
 tajikistan,Tajikistan,polity,,no,turan,
 kyrgyzstan,Kyrgyzstan,polity,,no,turan,
-berber-south-sahara,Tuareg and Zenaga Berber,language,berb,no,sahelw,
-hassaniya-arabic,Hassaniya Arabic,language,arab,no,sahelw,
-mande-speakers,Mande languages,language,mande,no,sahelw+guinea,
-atlantic-speakers,"Wolof, Serer and Atlantic languages",language,atl,no,sahelw+guinea,
-fula-speakers,Fula (Fulfulde),language,atl,no,sahelw+guinea+chad,
-songhay-speakers,Songhay,language,songhay,no,sahelw+guinea,
-gur-speakers,Gur and Senufo,language,gur,no,sahelw+guinea,
-kru-speakers,Kru languages,language,kwa,no,guinea,
-akan-speakers,Akan and its neighbours,language,kwa,no,guinea,
-gbe-speakers,Ewe and Fon (Gbe),language,kwa,no,guinea,
-yoruba-speakers,Yoruba,language,kwa,no,guinea,
-igbo-speakers,"Igbo, Edo and delta languages",language,kwa,no,guinea+chad,
-middle-belt-speakers,"Nupe, Tiv and Middle Belt languages",language,kwa,no,guinea+chad,
-hausa-speakers,Hausa and Chadic,language,hausa,no,guinea+sahelw+chad,
-saharan-speakers,"Kanuri, Teda and Zaghawa",language,saharan,no,sahelw+chad+guinea+nile,
-chadian-arabic,Chadian Arabic,language,arab,no,chad+guinea,
-fur-maba-speakers,"Fur, Maba and their neighbours",language,nsother,no,chad+nile,
-central-sudanic-speakers,Central Sudanic,language,nsother,no,chad+nile+congo+lakes,
-ubangi-speakers,Adamawa and Ubangi languages,language,ubangi,no,chad+congo+nile+guinea,
-meroitic-speakers,Meroitic,language,nsother,yes,nile,
-nubian-speakers,Nubian,language,nubian,no,nile,
-nuba-hills-speakers,Nuba Mountains languages,language,nsother,no,nile,
-beja-speakers,Beja,language,cush,no,nile+horn,
-sudanese-arabic,Sudanese Arabic,language,arab,no,nile,
-nilotic-speakers,Nilotic languages,language,nilotic,no,nile+lakes+horn+congo,
-border-sudanic-speakers,"Gumuz, Berta and Kunama",language,nsother,no,horn+nile,
-ethiosemitic-speakers,"Ge'ez, Tigrinya and Amharic",language,ethsem,no,horn,
-agaw-speakers,Agaw,language,cush,no,horn,
-oromo-speakers,Oromo,language,cush,no,horn+lakes,
-somali-speakers,Somali and its relatives,language,cush,no,horn+lakes,
-afar-speakers,Afar and Saho,language,cush,no,horn,
-sidamo-speakers,Sidamo and Hadiyya,language,cush,no,horn,
-omotic-speakers,Omotic languages,language,omot,no,horn,
-western-bantu-speakers,Western Bantu,language,bantuw,no,congo+chad+guinea+zambezi+southafrica,
-lakes-bantu-speakers,Eastern Bantu of the lakes and highlands,language,bantue,no,lakes+congo,
-swahili-speakers,Swahili,language,bantue,no,lakes+zambezi+horn,
-zambezi-bantu-speakers,"Chewa, Bemba, Makua and Zambezi Bantu",language,bantue,no,zambezi+congo+lakes,
-southern-bantu-speakers,Southern Bantu,language,bantus,no,zambezi+southafrica,
-khoe-speakers,Khoekhoe and Khoe languages,language,khoe,no,southafrica+zambezi+congo,
-san-speakers,San languages,language,san,no,southafrica+zambezi+congo,
-lost-forager-languages,Unrecorded forager languages,language,isolate,yes,congo+zambezi+lakes,
-hadza-sandawe-languages,"Hadza, Sandawe and earlier forager languages",language,san,yes,lakes,
-southern-cushitic-speakers,Southern Cushitic,language,cush,no,lakes,
-afrikaans-speakers,Afrikaans,language,wgerm,no,southafrica,
-english-south-africa,English in South Africa,language,eng,no,southafrica,
-portuguese-islands,Portuguese and its creoles,language,ibrom,no,sahelw+congo,
-meroe-kush,Kush (Meroe),people,nsother,yes,nile,nubia-nile
-noba,Noba,people,nubian,yes,nile,nubia-nile
-beja-people,Beja,people,cush,no,nile+horn,nubia-nile
-nobatia,Nobatia,people,nubian,no,nile,nubia-nile
-makuria,Makuria,people,nubian,no,nile,nubia-nile
-alwa,Alwa,people,nubian,no,nile,nubia-nile
-funj,Funj Sultanate,people,arab,yes,nile,nubia-nile
-nubians,Nubians,people,nubian,no,nile,nubia-nile
-aksum-kingdom,Aksum,people,ethsem,no,horn,ethiopian-highlands
-agaw,Agaw,people,cush,no,horn,ethiopian-highlands
-zagwe,Zagwe kingdom,people,cush,yes,horn,ethiopian-highlands
-ethiopia-solomonic,Ethiopia,people,ethsem,no,horn,ethiopian-highlands
-amhara,Amhara,people,ethsem,no,horn,ethiopian-highlands
-tigrayans,Tigrayans,people,ethsem,no,horn,ethiopian-highlands
-kaffa,Kaffa,people,omot,no,horn,ethiopian-highlands
-somali-people,Somali,people,cush,no,horn+lakes,cushitic-peoples
-oromo-people,Oromo,people,cush,no,horn+lakes,cushitic-peoples
-afar-people,Afar,people,cush,no,horn,cushitic-peoples
-ifat,Ifat,people,cush,yes,horn,cushitic-peoples
-adal,Adal Sultanate,people,cush,yes,horn,cushitic-peoples
-ajuran,Ajuran,people,cush,no,horn,cushitic-peoples
-sidama,Sidama and Hadiya,people,cush,no,horn,cushitic-peoples
-southern-cushites,Southern Cushites,people,cush,yes,lakes,cushitic-peoples
-dinka,Dinka,people,nilotic,no,nile,nilotic-peoples
-nuer,Nuer,people,nilotic,no,nile+horn,nilotic-peoples
-shilluk,Shilluk kingdom,people,nilotic,no,nile,nilotic-peoples
-luo-people,Luo,people,nilotic,no,lakes,nilotic-peoples
-kalenjin,Kalenjin,people,nilotic,no,lakes,nilotic-peoples
-maasai,Maasai,people,nilotic,no,lakes,nilotic-peoples
-turkana,Turkana,people,nilotic,no,lakes,nilotic-peoples
-middle-niger-towns,Middle Niger towns,people,mande,yes,sahelw,western-sudan
-ghana-wagadu,Ghana (Wagadu),people,mande,no,sahelw,western-sudan
-takrur,Takrur,people,atl,yes,sahelw,western-sudan
-gao-kingdom,Gao (Kawkaw),people,songhay,no,sahelw,western-sudan
-mali-empire,Mali,people,mande,no,sahelw+guinea,western-sudan
-songhai-empire,Songhai,people,songhay,no,sahelw+guinea,western-sudan
-mossi,Mossi kingdoms,people,gur,no,sahelw+guinea,western-sudan
-jolof,Jolof and the Wolof kingdoms,people,atl,no,sahelw,western-sudan
-kaabu,Kaabu,people,mande,no,sahelw,western-sudan
-segu,Bambara Segu,people,mande,no,sahelw,western-sudan
-wassoulou,Wassoulou (Samori),people,mande,no,sahelw+guinea,western-sudan
-sanhaja-south,Sanhaja,people,berb,no,sahelw,sahel-peoples
-bidan,Bidan (Moors),people,arab,no,sahelw,sahel-peoples
-tuareg-sahel,Tuareg,people,berb,no,sahelw,sahel-peoples
-fula-people,Fula,people,atl,no,sahelw+guinea+chad,sahel-peoples
-dogon,Dogon,people,gur,yes,sahelw,sahel-peoples
-sao-culture,Sao culture,people,hausa,yes,chad+guinea,central-sudan
-kanem,Kanem,people,saharan,no,chad+sahelw+guinea,central-sudan
-bornu,Bornu,people,saharan,no,guinea+chad+sahelw,central-sudan
-teda,Teda,people,saharan,no,chad+sahelw,central-sudan
-zaghawa,Zaghawa,people,saharan,no,chad+nile,central-sudan
-hausa-states,Hausa city states,people,hausa,no,guinea+sahelw,central-sudan
-hausa-people,Hausa,people,hausa,no,guinea+sahelw,central-sudan
-bagirmi,Bagirmi,people,nsother,no,chad,central-sudan
-wadai,Wadai,people,nsother,no,chad,central-sudan
-darfur-sultanate,Darfur,people,nsother,no,nile,central-sudan
-futa-toro,Futa Toro,people,atl,no,sahelw,jihad-states
-futa-jallon,Futa Jallon,people,atl,no,sahelw,jihad-states
-sokoto,Sokoto Caliphate,people,atl,no,guinea+sahelw+chad,jihad-states
-massina,Massina,people,atl,no,sahelw,jihad-states
-tukulor,Tukulor empire,people,atl,no,sahelw,jihad-states
-nok-culture,Nok culture,people,kwa,yes,guinea,lower-niger
-igbo-ukwu,Igbo-Ukwu culture,people,kwa,yes,guinea,lower-niger
-igbo,Igbo,people,kwa,no,guinea,lower-niger
-ife,Ife,people,kwa,no,guinea,lower-niger
-benin-kingdom,Benin,people,kwa,no,guinea,lower-niger
-oyo,Oyo,people,kwa,no,guinea,lower-niger
-yoruba,Yoruba,people,kwa,no,guinea,lower-niger
-nupe,Nupe,people,kwa,no,guinea,lower-niger
-tiv,Tiv,people,kwa,no,guinea,lower-niger
-bono,Bono,people,kwa,no,guinea,akan-gbe
-fante,Fante,people,kwa,no,guinea,akan-gbe
-asante,Asante,people,kwa,no,guinea,akan-gbe
-akan,Akan,people,kwa,no,guinea,akan-gbe
-dahomey,Dahomey,people,kwa,no,guinea,akan-gbe
-ewe,Ewe,people,kwa,no,guinea,akan-gbe
-temne,Temne,people,atl,no,guinea,upper-guinea
-mende,Mende,people,mande,no,guinea,upper-guinea
-kru,Kru,people,kwa,no,guinea,upper-guinea
-western-bantu-farmers,Western Bantu farmers,people,bantuw,yes,congo+chad,early-bantu-farmers
-urewe,Urewe tradition,people,bantue,yes,lakes+congo,early-bantu-farmers
-kwale,Kwale tradition,people,bantue,yes,lakes,early-bantu-farmers
-nkope,Nkope tradition,people,bantue,yes,zambezi,early-bantu-farmers
-kalundu,Kalundu tradition,people,bantue,yes,zambezi,early-bantu-farmers
-gokomere,Gokomere and Ziwa tradition,people,bantus,yes,zambezi,early-bantu-farmers
-matola,Matola tradition,people,bantus,yes,zambezi+southafrica,early-bantu-farmers
-kitara,Kitara (tradition),people,bantue,yes,lakes,great-lakes-kingdoms
-bunyoro,Bunyoro,people,bantue,no,lakes,great-lakes-kingdoms
-buganda,Buganda,people,bantue,no,lakes,great-lakes-kingdoms
-rwanda-kingdom,Rwanda,people,bantue,no,lakes,great-lakes-kingdoms
-burundi-kingdom,Burundi,people,bantue,no,lakes,great-lakes-kingdoms
-kongo,Kongo,people,bantuw,no,congo,kongo-neighbours
-loango,Loango,people,bantuw,no,congo,kongo-neighbours
-ndongo,Ndongo and Matamba,people,bantuw,no,congo,kongo-neighbours
-tio,Tio (Teke),people,bantuw,no,congo,kongo-neighbours
-ovimbundu,Ovimbundu kingdoms,people,bantuw,no,congo,kongo-neighbours
-kuba,Kuba,people,bantuw,no,congo,kongo-neighbours
-kisalian,Upemba culture,people,bantuw,yes,congo,savanna-kingdoms
-luba,Luba,people,bantuw,no,congo,savanna-kingdoms
-lunda,Lunda,people,bantuw,no,congo+zambezi,savanna-kingdoms
-kazembe,Kazembe,people,bantuw,no,zambezi+congo,savanna-kingdoms
-lozi,Lozi,people,bantuw,no,zambezi,savanna-kingdoms
-maravi,Maravi,people,bantue,no,zambezi,savanna-kingdoms
-bemba,Bemba,people,bantue,no,zambezi,savanna-kingdoms
-azania,Azania (Rhapta),people,bantue,yes,lakes,swahili-coast
-swahili,Swahili,people,bantue,no,lakes+zambezi,swahili-coast
-kilwa,Kilwa,people,bantue,no,lakes+zambezi,swahili-coast
-mombasa,Mombasa,people,bantue,no,lakes,swahili-coast
-sofala,Sofala,people,bantus,yes,zambezi,swahili-coast
-zanzibar,Zanzibar (Omani),people,arab,no,lakes,swahili-coast
-mapungubwe,Mapungubwe,people,bantus,yes,zambezi+southafrica,zimbabwe-plateau
-great-zimbabwe,Great Zimbabwe,people,bantus,yes,zambezi,zimbabwe-plateau
-mutapa,Mutapa,people,bantus,no,zambezi,zimbabwe-plateau
-butua,Butua (Torwa),people,bantus,no,zambezi,zimbabwe-plateau
-rozvi,Rozvi,people,bantus,no,zambezi,zimbabwe-plateau
-shona,Shona,people,bantus,no,zambezi,zimbabwe-plateau
-xhosa,Xhosa,people,bantus,no,southafrica,nguni-sotho
-northern-nguni,Northern Nguni,people,bantus,no,southafrica,nguni-sotho
-zulu,Zulu,people,bantus,no,southafrica,nguni-sotho
-swazi,Swazi,people,bantus,no,southafrica,nguni-sotho
-sotho,Sotho,people,bantus,no,southafrica,nguni-sotho
-tswana,Tswana,people,bantus,no,southafrica,nguni-sotho
-pedi,Pedi,people,bantus,no,southafrica,nguni-sotho
-ndebele,Ndebele,people,bantus,no,southafrica+zambezi,nguni-sotho
-gaza,Gaza kingdom,people,bantus,no,zambezi,nguni-sotho
-ngoni,Ngoni,people,bantus,no,zambezi+lakes,nguni-sotho
-ovambo,Ovambo,people,bantuw,no,southafrica+congo,southwest-bantu
-herero,Herero,people,bantuw,no,southafrica,southwest-bantu
-himba,Himba,people,bantuw,no,southafrica+congo,southwest-bantu
-kikuyu,Kikuyu,people,bantue,no,lakes,east-african-bantu
-kamba,Kamba,people,bantue,no,lakes,east-african-bantu
-nyamwezi,Nyamwezi,people,bantue,no,lakes,east-african-bantu
-hehe,Hehe,people,bantue,no,lakes,east-african-bantu
-yao-malawi,Yao,people,bantue,no,zambezi+lakes,east-african-bantu
-makua,Makua,people,bantue,no,zambezi,east-african-bantu
-mbuti,Mbuti and Efe,people,bantuw,yes,congo,forest-foragers
-baka-aka,Baka and Aka,people,bantuw,yes,congo+chad,forest-foragers
-twa,Twa,people,bantuw,yes,congo+lakes,forest-foragers
-khoekhoe,Khoekhoe,people,khoe,no,southafrica,khoekhoe-peoples
-nama,Nama,people,khoe,no,southafrica,khoekhoe-peoples
-korana,Korana,people,khoe,no,southafrica,khoekhoe-peoples
-griqua,Griqua,people,wgerm,no,southafrica,khoekhoe-peoples
-damara,Damara,people,khoe,no,southafrica,khoekhoe-peoples
-san,San,people,san,no,southafrica+zambezi,san-peoples
-xam,/Xam,people,san,no,southafrica,san-peoples
-juhoansi,Ju/'hoansi,people,san,no,southafrica,san-peoples
-gwi,G/ui and G//ana,people,khoe,no,southafrica,san-peoples
-hadza,Hadza,people,san,no,lakes,hadza-sandawe
-sandawe,Sandawe,people,san,no,lakes,hadza-sandawe
-cape-colony,Cape Colony,polity,,no,southafrica,
-transvaal-republic,South African Republic,polity,wgerm,no,southafrica,
-orange-free-state,Orange Free State,polity,wgerm,no,southafrica,
-liberia-state,Liberia,polity,eng,no,guinea,
-egyptian-sudan,Egyptian Sudan,polity,,no,nile,
-mahdist-state,Mahdist State,polity,arab,no,nile,
-anglo-egyptian-sudan,Anglo-Egyptian Sudan,polity,,no,nile,
-french-west-africa,French West Africa,polity,fr,no,sahelw+guinea,
-french-equatorial-africa,French Equatorial Africa,polity,fr,no,chad+congo,
-british-nigeria,Nigeria (British),polity,eng,no,guinea,
-congo-free-state,Congo Free State and Belgian Congo,polity,fr,no,congo,
-portuguese-angola,Angola (Portuguese),polity,ibrom,no,congo,
-portuguese-mozambique,Mozambique (Portuguese),polity,ibrom,no,zambezi,
-german-east-africa,German East Africa,polity,wgerm,no,lakes,
-british-east-africa,British East Africa,polity,eng,no,lakes,
-german-south-west-africa,German South West Africa,polity,wgerm,no,southafrica,
-rhodesia,Rhodesia (British),polity,eng,no,zambezi,
-union-south-africa,Union of South Africa,polity,,no,southafrica,
-ethiopia-state,Ethiopia,polity,ethsem,no,horn,
-nigeria-state,Nigeria,polity,,no,guinea,
-ghana-state,Ghana,polity,,no,guinea,
-mauritania-state,Mauritania,polity,arab,no,sahelw,
-mali-state,Mali,polity,,no,sahelw,
-niger-state,Niger,polity,,no,sahelw,
-chad-state,Chad,polity,,no,chad,
-sudan-state,Sudan,polity,arab,no,nile,
-south-sudan-state,South Sudan,polity,,no,nile,
-somalia-state,Somalia,polity,cush,no,horn,
-kenya-state,Kenya,polity,,no,lakes,
-tanzania-state,Tanzania,polity,,no,lakes,
-dr-congo-state,DR Congo,polity,,no,congo,
-angola-state,Angola,polity,,no,congo,
-zambia-state,Zambia,polity,,no,zambezi,
-mozambique-state,Mozambique,polity,,no,zambezi,
-namibia-state,Namibia,polity,,no,southafrica,
-south-africa-state,South Africa,polity,,no,southafrica,
 western-desert-languages,Western Desert languages,language,pama,no,australia,
 arandic-languages,Arandic languages,language,pama,no,australia,
 ngumpin-yapa-languages,Ngumpin-Yapa languages,language,pama,no,australia,
@@ -1789,6 +1558,37 @@ new-zealand,Aotearoa New Zealand,polity,eng,no,newzealand,
 madagascar-republic,Madagascar,polity,malagasy,no,madagascar,
 comoros,Comoros,polity,,no,madagascar,
 mauritius,Mauritius,polity,,no,madagascar,
+sami-far-north,Sami,language,finnic,no,north+east,
+vistula-germanic,East Germanic of the Vistula,language,egerm,yes,central,
+early-slavic-vistula,Early Slavic (Vistula and Oder),language,slavw,no,central,
+dacian-danube-plain,Dacian and Moesian,language,pbalk,yes,central+balkans,
+helvetian-gaulish,Gaulish (Helvetii and Raeti),language,gaul,no,central+gaul,
+alemannic-german,Alemannic German,language,wgerm,no,central,
+danube-provincial-latin,Latin of Raetia and Noricum,language,lat,no,central,
+kyiv-culture-slavic,Early Slavic (middle Dnieper),language,slave,yes,east,
+pontic-steppe-hunnic-age,Steppe languages of the Hunnic age,language,steppeunk,yes,east,
+dnieper-baltic,Dnieper Baltic,language,balt,no,east,
+lower-danube-slavic,Slavic of the lower Danube,language,slavs,no,balkans+east,
+gaelic-far-north,Gaelic (Sutherland and Caithness),language,goid,no,britain,
+english-and-scots-fill,English and Scots,language,eng,no,britain+ireland,
+south-west-brittonic,Cornish and Devon Brittonic,language,brit,no,britain,
+mozarabic-romance,Andalusi Romance,language,ibrom,no,iberia,
+sicilian-calabrian,Sicilian and Calabrian,language,itrom,no,italy,
+northern-isles-early,Language of the early Northern Isles,language,north,yes,britain,
+english-north-and-west-fill,English and Scots (north and west),language,eng,no,britain,
+ulster-irish,Ulster Irish,language,goid,no,ireland,
+manx-early-and-norse-age,Speech of Man,language,goid,yes,man,
+corsican,Corsican,language,itrom,no,gaul,
+provencal-alpine,Occitan and Franco-Provencal (Alps),language,oc,no,gaul,
+conii-algarve,Language of the Conii,language,iber,yes,iberia,
+valencian-romance,Andalusi Romance (Valencia),language,ibrom,no,iberia,
+sicilian-greek,Greek and Latin of Sicily,language,greek,no,italy,
+nervian-gaulish,Gaulish (Nervii),language,gaul,no,central,
+walloon-picard,Walloon and Picard,language,fr,no,central,
+frisian-early,Frisian,language,wgerm,no,central,
+croatian-coast,Croatian (coast and islands),language,slavs,no,balkans,
+carpathian-fill,Ruthenian and Ukrainian (Carpathians),language,slave,no,east,
+dacian-upper-tisza,Dacian (upper Tisza),language,pbalk,yes,east,
 unangan-speakers,Unangam Tunuu (Aleut),language,inuit,no,arcticam,
 yupik-alaska-speakers,Yupik and Alutiiq,language,inuit,no,arcticam,
 inuit-speakers,Inuit languages,language,inuit,no,arcticam+canada,
@@ -1844,199 +1644,98 @@ classic-maya,Classic Maya city states,people,maya,no,mexico+centralam,maya-peopl
 yucatan-maya,Maya of Yucatan,people,maya,no,mexico+centralam,maya-peoples
 itza,Itza,people,maya,no,centralam,maya-peoples
 kiche,K'iche',people,maya,no,centralam,maya-peoples
-kaqchikel,Kaqchikel,people,maya,no,centralam,maya-peoples
-huastec,Teenek (Huastec),people,maya,no,mexico,maya-peoples
 zapotec,Zapotec,people,otom,no,mexico,oaxaca-peoples
 mixtec,Ñuu Savi (Mixtec),people,otom,no,mexico,oaxaca-peoples
 teotihuacan,Teotihuacan,people,isolate,yes,mexico,central-mexico
-teuchitlan,Teuchitlan culture,people,isolate,yes,mexico,central-mexico
 toltec,Toltec (Tula),people,nahua,yes,mexico,central-mexico
-otomi,Hñähñu (Otomi),people,otom,no,mexico,central-mexico
 mexica,Mexica (Triple Alliance),people,nahua,no,mexico,central-mexico
-tlaxcala,Tlaxcala,people,nahua,no,mexico,central-mexico
 purepecha,Purépecha,people,mixezoq,no,mexico,central-mexico
-totonac,Totonac,people,mixezoq,no,mexico,central-mexico
 nahua,Nahua,people,nahua,no,mexico,central-mexico
-lenca,Lenca,people,camisc,no,centralam,isthmus-peoples
-pipil,Nahua Pipil,people,nahua,no,centralam,isthmus-peoples
 chorotega,Chorotega,people,otom,no,centralam,isthmus-peoples
 gran-cocle,Gran Coclé culture,people,chib,yes,centralam,isthmus-peoples
-diquis,Diquís culture,people,chib,yes,centralam,isthmus-peoples
-bribri,Bribri and Cabécar,people,chib,no,centralam,isthmus-peoples
 miskito,Miskito,people,camisc,no,centralam,isthmus-peoples
 guna,Guna,people,chib,no,centralam,isthmus-peoples
 moche,Moche,people,andisol,yes,andes,andes-coast
 nazca,Nazca,people,aymara,yes,andes,andes-coast
-sican,Sicán (Lambayeque),people,andisol,yes,andes,andes-coast
 chimu,Chimú (Chimor),people,andisol,yes,andes,andes-coast
-chincha,Chincha,people,quechua,yes,andes,andes-coast
 pukara,Pukara,people,andisol,yes,andes,andes-highland
-recuay,Recuay,people,quechua,yes,andes,andes-highland
 tiwanaku,Tiwanaku,people,andisol,yes,andes+cone,andes-highland
 wari,Wari,people,quechua,yes,andes,andes-highland
-chachapoya,Chachapoya,people,andisol,yes,andes,andes-highland
 aymara-kingdoms,Colla and Lupaqa,people,aymara,no,andes,andes-highland
 inca,Inca (Tawantinsuyu),people,quechua,no,andes+andesn+cone,andes-highland
 quechua-people,Quechua (Runa),people,quechua,no,andes+andesn,andes-highland
 aymara-people,Aymara,people,aymara,no,andes+cone,andes-highland
-uru,Uru,people,andisol,no,andes,andes-highland
 san-agustin,San Agustín culture,people,choco,yes,andesn,northern-andes
-quimbaya,Quimbaya,people,choco,yes,andesn,northern-andes
-zenu,Zenú,people,chib,yes,andesn,northern-andes
 tairona,Tairona,people,chib,no,andesn,northern-andes
-kogi,Kogi (Kággaba),people,chib,no,andesn,northern-andes
 muisca,Muisca,people,chib,no,andesn,northern-andes
 nasa,Nasa (Páez),people,choco,no,andesn,northern-andes
 manteno,Manteño,people,choco,yes,andesn,northern-andes
-canari,Cañari,people,andisol,yes,andesn,northern-andes
 wayuu,Wayuu,people,arawak,no,andesn,northern-andes
 hopewell,Hopewell culture,people,isolate,yes,usaeast,mound-builders
-weeden-island,Weeden Island culture,people,musk,yes,usaeast,mound-builders
-coles-creek,Coles Creek culture,people,naisol,yes,usaeast,mound-builders
 cahokia,Cahokia,people,sioux,yes,usaeast,mound-builders
 mississippian,Mississippian chiefdoms,people,musk,yes,usaeast,mound-builders
-fort-ancient,Fort Ancient culture,people,algon,yes,usaeast,mound-builders
-oneota,Oneota culture,people,sioux,yes,usaeast,mound-builders
 caddo,Caddo,people,caddo,no,usaeast,mound-builders
-natchez,Natchez,people,naisol,no,usaeast,mound-builders
-laurel,Laurel culture,people,algon,yes,canada+usaeast,northeast-peoples
-beothuk,Beothuk,people,algon,yes,canada,northeast-peoples
-st-lawrence-iroquoians,St Lawrence Iroquoians,people,iroq,no,canada,northeast-peoples
 wendat,Wendat (Huron),people,iroq,no,canada,northeast-peoples
 haudenosaunee,Haudenosaunee,people,iroq,no,canada+usaeast,northeast-peoples
 anishinaabe,Anishinaabe,people,algon,no,canada+usaeast,northeast-peoples
 cree,Cree,people,algon,no,canada,northeast-peoples
-innu,Innu,people,algon,no,canada,northeast-peoples
-mikmaq,Mi'kmaq,people,algon,no,canada,northeast-peoples
-wabanaki,Wabanaki,people,algon,no,canada+usaeast,northeast-peoples
-wampanoag,Wampanoag,people,algon,no,usaeast,northeast-peoples
-lenape,Lenape,people,algon,no,usaeast,northeast-peoples
 powhatan,Powhatan,people,algon,no,usaeast,northeast-peoples
-shawnee,Shawnee,people,algon,no,usaeast,northeast-peoples
-timucua,Timucua,people,naisol,no,usaeast,southeast-peoples
 calusa,Calusa,people,naisol,yes,usaeast,southeast-peoples
 cherokee,Cherokee,people,iroq,no,usaeast,southeast-peoples
 mvskoke,Mvskoke (Creek),people,musk,no,usaeast,southeast-peoples
-choctaw,Chahta (Choctaw),people,musk,no,usaeast,southeast-peoples
-chickasaw,Chickasaw,people,musk,no,usaeast,southeast-peoples
-seminole,Seminole,people,musk,no,usaeast,southeast-peoples
-catawba,Catawba,people,sioux,no,usaeast,southeast-peoples
-mandan-hidatsa,Mandan and Hidatsa,people,sioux,no,usaeast+usawest,plains-peoples
-pawnee,Pawnee,people,caddo,no,usaeast,plains-peoples
-wichita,Wichita,people,caddo,no,usaeast,plains-peoples
-osage,Osage (Wazhazhe),people,sioux,no,usaeast,plains-peoples
 niitsitapi,Niitsitapi (Blackfoot),people,algon,no,canada+usawest,plains-peoples
-apsaalooke,Apsáalooke (Crow),people,sioux,no,usawest,plains-peoples
-nakoda,Nakoda (Assiniboine),people,sioux,no,canada+usawest,plains-peoples
 oceti-sakowin,Očhéthi Šakówiŋ,people,sioux,no,usaeast+usawest,plains-peoples
-cheyenne,Cheyenne (Tsitsistas),people,algon,no,usaeast+usawest,plains-peoples
 comanche,Comanche,people,numic,no,usaeast+usawest,plains-peoples
-kiowa,Kiowa,people,pueblo,no,usaeast+usawest,plains-peoples
-metis,Métis,people,fr,no,canada,plains-peoples
 ancestral-pueblo,Ancestral Pueblo,people,pueblo,yes,usawest,pueblo-southwest
-mogollon,Mogollon culture,people,pueblo,yes,usawest+mexico,pueblo-southwest
 hohokam,Hohokam,people,nahua,yes,usawest,pueblo-southwest
-fremont,Fremont culture,people,isolate,yes,usawest,pueblo-southwest
-paquime,Paquimé (Casas Grandes),people,nahua,yes,mexico,pueblo-southwest
 pueblos,Pueblo peoples,people,pueblo,no,usawest,pueblo-southwest
-hopi,Hopi,people,numic,no,usawest,pueblo-southwest
-zuni,A:shiwi (Zuni),people,pueblo,no,usawest,pueblo-southwest
 dine,Diné (Navajo),people,athab,no,usawest,pueblo-southwest
-nde,Ndé (Apache),people,athab,no,usawest+usaeast+mexico,pueblo-southwest
-oodham,O'odham,people,nahua,no,usawest+mexico,pueblo-southwest
-yuman-peoples,Quechan and Mojave,people,pueblo,no,usawest+mexico,pueblo-southwest
-yoeme,Yoeme (Yaqui),people,nahua,no,mexico,pueblo-southwest
-raramuri,Rarámuri,people,nahua,no,mexico,pueblo-southwest
-wixarika,Wixárika,people,nahua,no,mexico,pueblo-southwest
 tlingit,Tlingit,people,athab,no,arcticam+canada,northwest-coast
-haida,Haida,people,salish,no,arcticam+canada,northwest-coast
-tsimshian,Tsimshian,people,salish,no,canada,northwest-coast
-kwakwakawakw,Kwakwaka'wakw,people,salish,no,canada,northwest-coast
-nuu-chah-nulth,Nuu-chah-nulth,people,salish,no,canada,northwest-coast
 coast-salish,Coast Salish,people,salish,no,canada+usawest,northwest-coast
-chinook,Chinook,people,calif,no,usawest,northwest-coast
-nimiipuu,Nimiipuu (Nez Perce),people,calif,no,usawest,california-plateau
 shoshone,Shoshone,people,numic,no,usawest,california-plateau
-ute,Nuche (Ute),people,numic,no,usawest,california-plateau
-paiute,Numu and Nuwuvi (Paiute),people,numic,no,usawest,california-plateau
 chumash,Chumash,people,calif,no,usawest,california-plateau
-yokuts,Yokuts,people,calif,no,usawest,california-plateau
-miwok-ohlone,Miwok and Ohlone,people,calif,no,usawest,california-plateau
 dorset-culture,Dorset culture (Tuniit),people,isolate,yes,arcticam+canada,arctic-early
 old-bering-sea,Old Bering Sea and Birnirk cultures,people,inuit,yes,arcticam,arctic-early
-ipiutak,Ipiutak culture,people,inuit,yes,arcticam,arctic-early
-norton-tradition,Norton tradition,people,inuit,yes,arcticam,arctic-early
-taltheilei,Taltheilei tradition,people,athab,yes,arcticam+canada,arctic-early
 thule-culture,Thule culture,people,inuit,no,arcticam+canada,arctic-early
 norse-greenlanders,Norse Greenlanders,people,norse,no,arcticam,arctic-early
 inuit-canada,Inuit,people,inuit,no,arcticam+canada,inuit-yupik
 kalaallit,Kalaallit,people,inuit,no,arcticam,inuit-yupik
-inupiat,Iñupiat,people,inuit,no,arcticam,inuit-yupik
 yupik-alaska,Yup'ik,people,inuit,no,arcticam,inuit-yupik
-sugpiaq,Sugpiaq (Alutiiq),people,inuit,no,arcticam,inuit-yupik
 unangan,Unangan,people,inuit,no,arcticam,inuit-yupik
-denaina,Dena'ina,people,athab,no,arcticam,dene-peoples
 gwichin,Gwich'in,people,athab,no,arcticam,dene-peoples
-tlicho,Tłı̨chǫ,people,athab,no,arcticam,dene-peoples
 denesuline,Denesuline,people,athab,no,arcticam+canada,dene-peoples
-dakelh,Dakelh,people,athab,no,canada,dene-peoples
 antillean-archaic,Archaic peoples of the Antilles,people,isolate,yes,caribbean,caribbean-peoples
 saladoid,Saladoid culture,people,arawak,yes,caribbean,caribbean-peoples
 taino,Taíno chiefdoms,people,arawak,no,caribbean,caribbean-peoples
-lucayan,Lucayans,people,arawak,no,caribbean,caribbean-peoples
 kalinago,Kalinago,people,arawak,no,caribbean,caribbean-peoples
-garifuna,Garifuna,people,arawak,no,caribbean+centralam,caribbean-peoples
 lokono,Lokono,people,arawak,no,guianas+andesn,caribbean-peoples
 kalina,Kalina,people,carib,no,guianas+andesn,caribbean-peoples
-warao,Warao,people,tucano,no,andesn+guianas,caribbean-peoples
-maroons,Maroons of Suriname,people,eng,no,guianas,caribbean-peoples
 upano,Upano valley culture,people,tucano,yes,andesn,amazon-peoples
 acre-geoglyphs,Acre geoglyph builders,people,arawak,yes,amazon+andes,amazon-peoples
 mojos,Mojos earthwork cultures,people,arawak,yes,andes,amazon-peoples
 marajoara,Marajoara culture,people,arawak,yes,amazon,amazon-peoples
 tapajo,Tapajó (Santarém culture),people,isolate,yes,amazon,amazon-peoples
 omagua,Omagua,people,tupi,no,amazon+andes,amazon-peoples
-manao,Manao,people,arawak,no,amazon,amazon-peoples
 xingu,Upper Xingu peoples,people,arawak,no,amazon,amazon-peoples
 shuar,Shuar,people,tucano,no,andesn+andes,amazon-peoples
 ashaninka,Asháninka,people,arawak,no,andes+amazon,amazon-peoples
-shipibo-konibo,Shipibo-Konibo,people,pano,no,andes,amazon-peoples
-tukano,Tukano and Vaupés peoples,people,tucano,no,amazon+andesn,amazon-peoples
 yanomami,Yanomami,people,tucano,no,amazon+andesn,amazon-peoples
 tikuna,Magüta (Tikuna),people,tucano,no,amazon+andes+andesn,amazon-peoples
-munduruku,Munduruku,people,tupi,no,amazon,amazon-peoples
 kayapo,Mẽbêngôkre (Kayapó),people,je,no,amazon,amazon-peoples
 sambaqui,Sambaqui shell-mound builders,people,isolate,yes,brazil,tupi-je-peoples
 kaingang,Kaingang,people,je,no,brazil,tupi-je-peoples
 aratu,Aratu tradition,people,je,yes,brazil,tupi-je-peoples
 tupinamba,Tupinambá,people,tupi,no,brazil+amazon,tupi-je-peoples
-potiguara,Potiguara,people,tupi,no,brazil,tupi-je-peoples
-krenak,Krenak (Botocudo),people,je,no,brazil,tupi-je-peoples
-kariri,Kariri,people,je,yes,brazil,tupi-je-peoples
-tenetehara,Tenetehara (Guajajara),people,tupi,no,brazil+amazon,tupi-je-peoples
 xavante,A'uwẽ (Xavante),people,je,no,brazil+amazon,tupi-je-peoples
-bororo,Bororo (Boe),people,je,no,brazil+amazon,tupi-je-peoples
-lickanantay,Lickanantay (Atacameño),people,andisol,no,cone,mapuche-neighbours
 diaguita,Diaguita,people,andisol,yes,cone,mapuche-neighbours
-huarpe,Huarpe,people,andisol,no,cone,mapuche-neighbours
-picunche,Picunche,people,mapuche,no,cone,mapuche-neighbours
 mapuche,Mapuche,people,mapuche,no,cone,mapuche-neighbours
-huilliche,Huilliche,people,mapuche,no,cone,mapuche-neighbours
 guarani,Guaraní,people,tupi,no,cone+brazil,guarani-chaco
-ava-guarani,Ava Guaraní,people,tupi,no,andes+cone,guarani-chaco
-comechingon,Comechingón,people,chaco,yes,cone,guarani-chaco
 qom,Qom,people,chaco,no,cone,guarani-chaco
-wichi,Wichí,people,chaco,no,cone+andes,guarani-chaco
-mbaya,Mbayá and Kadiwéu,people,chaco,no,cone+brazil,guarani-chaco
-ayoreo,Ayoreo,people,chaco,no,cone+andes,guarani-chaco
 charrua,Charrúa,people,chaco,no,cone+brazil,guarani-chaco
 querandi,Querandí,people,chon,yes,cone,patagonia-peoples
 gununa-kuna,Günün a küna,people,chon,yes,cone,patagonia-peoples
-ranquel,Rankülche,people,mapuche,no,cone,patagonia-peoples
 aonikenk,Aónikenk (Tehuelche),people,chon,no,cone,patagonia-peoples
 selknam,Selk'nam,people,chon,no,cone,patagonia-peoples
-yagan,Yagán,people,chon,no,cone,patagonia-peoples
-kawesqar,Kawésqar,people,chon,no,cone,patagonia-peoples
 new-spain,New Spain,polity,ibrom,no,mexico+centralam+usawest+usaeast+caribbean,
 viceroyalty-peru,Viceroyalty of Peru,polity,ibrom,no,andes+andesn+cone,
 new-granada,New Granada,polity,ibrom,no,andesn+centralam,
@@ -2049,13 +1748,8 @@ british-north-america,British North America,polity,eng,no,canada,
 russian-america,Russian America,polity,slave,no,arcticam,
 united-states,United States,polity,eng,no,usaeast+usawest+arcticam,
 canada-state,Canada,polity,eng,no,canada+arcticam,
-greenland-state,Greenland,polity,,no,arcticam,
 mexico-state,Mexico,polity,ibrom,no,mexico+usawest+usaeast+centralam,
-central-america-federation,Central America,polity,ibrom,no,centralam,
-guatemala-state,Guatemala,polity,ibrom,no,centralam,
-haiti-state,Haiti,polity,fr,no,caribbean,
 cuba-state,Cuba,polity,ibrom,no,caribbean,
-gran-colombia,Gran Colombia,polity,ibrom,no,andesn+centralam,
 colombia-state,Colombia,polity,ibrom,no,andesn+centralam,
 venezuela-state,Venezuela,polity,ibrom,no,andesn,
 ecuador-state,Ecuador,polity,ibrom,no,andesn,
@@ -2063,38 +1757,195 @@ peru-state,Peru,polity,ibrom,no,andes,
 bolivia-state,Bolivia,polity,ibrom,no,andes,
 chile-state,Chile,polity,ibrom,no,cone,
 argentina-state,Argentina,polity,ibrom,no,cone,
-paraguay-state,Paraguay,polity,ibrom,no,cone,
-uruguay-state,Uruguay,polity,ibrom,no,cone,
-empire-of-brazil,Empire of Brazil,polity,ibrom,no,brazil+amazon,
 brazil-state,Brazil,polity,ibrom,no,brazil+amazon,
-sami-far-north,Sami,language,finnic,no,north+east,
-vistula-germanic,East Germanic of the Vistula,language,egerm,yes,central,
-early-slavic-vistula,Early Slavic (Vistula and Oder),language,slavw,no,central,
-dacian-danube-plain,Dacian and Moesian,language,pbalk,yes,central+balkans,
-helvetian-gaulish,Gaulish (Helvetii and Raeti),language,gaul,no,central+gaul,
-alemannic-german,Alemannic German,language,wgerm,no,central,
-danube-provincial-latin,Latin of Raetia and Noricum,language,lat,no,central,
-kyiv-culture-slavic,Early Slavic (middle Dnieper),language,slave,yes,east,
-pontic-steppe-hunnic-age,Steppe languages of the Hunnic age,language,steppeunk,yes,east,
-dnieper-baltic,Dnieper Baltic,language,balt,no,east,
-lower-danube-slavic,Slavic of the lower Danube,language,slavs,no,balkans+east,
-gaelic-far-north,Gaelic (Sutherland and Caithness),language,goid,no,britain,
-english-and-scots-fill,English and Scots,language,eng,no,britain+ireland,
-south-west-brittonic,Cornish and Devon Brittonic,language,brit,no,britain,
-mozarabic-romance,Andalusi Romance,language,ibrom,no,iberia,
-sicilian-calabrian,Sicilian and Calabrian,language,itrom,no,italy,
-northern-isles-early,Language of the early Northern Isles,language,north,yes,britain,
-english-north-and-west-fill,English and Scots (north and west),language,eng,no,britain,
-ulster-irish,Ulster Irish,language,goid,no,ireland,
-manx-early-and-norse-age,Speech of Man,language,goid,yes,man,
-corsican,Corsican,language,itrom,no,gaul,
-provencal-alpine,Occitan and Franco-Provencal (Alps),language,oc,no,gaul,
-conii-algarve,Language of the Conii,language,iber,yes,iberia,
-valencian-romance,Andalusi Romance (Valencia),language,ibrom,no,iberia,
-sicilian-greek,Greek and Latin of Sicily,language,greek,no,italy,
-nervian-gaulish,Gaulish (Nervii),language,gaul,no,central,
-walloon-picard,Walloon and Picard,language,fr,no,central,
-frisian-early,Frisian,language,wgerm,no,central,
-croatian-coast,Croatian (coast and islands),language,slavs,no,balkans,
-carpathian-fill,Ruthenian and Ukrainian (Carpathians),language,slave,no,east,
-dacian-upper-tisza,Dacian (upper Tisza),language,pbalk,yes,east,
+berber-south-sahara,Tuareg and Zenaga Berber,language,berb,no,sahelw,
+hassaniya-arabic,Hassaniya Arabic,language,arab,no,sahelw,
+mande-speakers,Mande languages,language,mande,no,sahelw+guinea,
+atlantic-speakers,"Wolof, Serer and Atlantic languages",language,atl,no,sahelw+guinea,
+fula-speakers,Fula (Fulfulde),language,atl,no,sahelw+guinea+chad,
+songhay-speakers,Songhay,language,songhay,no,sahelw+guinea,
+gur-speakers,Gur and Senufo,language,gur,no,sahelw+guinea,
+kru-speakers,Kru languages,language,kwa,no,guinea,
+akan-speakers,Akan and its neighbours,language,kwa,no,guinea,
+gbe-speakers,Ewe and Fon (Gbe),language,kwa,no,guinea,
+yoruba-speakers,Yoruba,language,kwa,no,guinea,
+igbo-speakers,"Igbo, Edo and delta languages",language,kwa,no,guinea+chad,
+middle-belt-speakers,"Nupe, Tiv and Middle Belt languages",language,kwa,no,guinea+chad,
+hausa-speakers,Hausa and Chadic,language,hausa,no,guinea+sahelw+chad,
+saharan-speakers,"Kanuri, Teda and Zaghawa",language,saharan,no,sahelw+chad+guinea+nile,
+chadian-arabic,Chadian Arabic,language,arab,no,chad+guinea,
+fur-maba-speakers,"Fur, Maba and their neighbours",language,nsother,no,chad+nile,
+central-sudanic-speakers,Central Sudanic,language,nsother,no,chad+nile+congo+lakes,
+ubangi-speakers,Adamawa and Ubangi languages,language,ubangi,no,chad+congo+nile+guinea,
+meroitic-speakers,Meroitic,language,nsother,yes,nile,
+nubian-speakers,Nubian,language,nubian,no,nile,
+nuba-hills-speakers,Nuba Mountains languages,language,nsother,no,nile,
+beja-speakers,Beja,language,cush,no,nile+horn,
+sudanese-arabic,Sudanese Arabic,language,arab,no,nile,
+nilotic-speakers,Nilotic languages,language,nilotic,no,nile+lakes+horn+congo,
+border-sudanic-speakers,"Gumuz, Berta and Kunama",language,nsother,no,horn+nile,
+ethiosemitic-speakers,"Ge'ez, Tigrinya and Amharic",language,ethsem,no,horn,
+agaw-speakers,Agaw,language,cush,no,horn,
+oromo-speakers,Oromo,language,cush,no,horn+lakes,
+somali-speakers,Somali and its relatives,language,cush,no,horn+lakes,
+afar-speakers,Afar and Saho,language,cush,no,horn,
+sidamo-speakers,Sidamo and Hadiyya,language,cush,no,horn,
+omotic-speakers,Omotic languages,language,omot,no,horn,
+western-bantu-speakers,Western Bantu,language,bantuw,no,congo+chad+guinea+zambezi+southafrica,
+lakes-bantu-speakers,Eastern Bantu of the lakes and highlands,language,bantue,no,lakes+congo,
+swahili-speakers,Swahili,language,bantue,no,lakes+zambezi+horn,
+zambezi-bantu-speakers,"Chewa, Bemba, Makua and Zambezi Bantu",language,bantue,no,zambezi+congo+lakes,
+southern-bantu-speakers,Southern Bantu,language,bantus,no,zambezi+southafrica,
+khoe-speakers,Khoekhoe and Khoe languages,language,khoe,no,southafrica+zambezi+congo,
+san-speakers,San languages,language,san,no,southafrica+zambezi+congo,
+lost-forager-languages,Unrecorded forager languages,language,isolate,yes,congo+zambezi+lakes,
+hadza-sandawe-languages,"Hadza, Sandawe and earlier forager languages",language,san,yes,lakes,
+southern-cushitic-speakers,Southern Cushitic,language,cush,no,lakes,
+afrikaans-speakers,Afrikaans,language,wgerm,no,southafrica,
+english-south-africa,English in South Africa,language,eng,no,southafrica,
+portuguese-islands,Portuguese and its creoles,language,ibrom,no,sahelw+congo,
+meroe-kush,Kush (Meroe),people,nsother,yes,nile,nubia-nile
+noba,Noba,people,nubian,yes,nile,nubia-nile
+beja-people,Beja,people,cush,no,nile+horn,nubia-nile
+nobatia,Nobatia,people,nubian,no,nile,nubia-nile
+makuria,Makuria,people,nubian,no,nile,nubia-nile
+alwa,Alwa,people,nubian,no,nile,nubia-nile
+funj,Funj Sultanate,people,arab,yes,nile,nubia-nile
+nubians,Nubians,people,nubian,no,nile,nubia-nile
+aksum-kingdom,Aksum,people,ethsem,no,horn,ethiopian-highlands
+agaw,Agaw,people,cush,no,horn,ethiopian-highlands
+zagwe,Zagwe kingdom,people,cush,yes,horn,ethiopian-highlands
+ethiopia-solomonic,Ethiopia,people,ethsem,no,horn,ethiopian-highlands
+amhara,Amhara,people,ethsem,no,horn,ethiopian-highlands
+tigrayans,Tigrayans,people,ethsem,no,horn,ethiopian-highlands
+somali-people,Somali,people,cush,no,horn+lakes,cushitic-peoples
+oromo-people,Oromo,people,cush,no,horn+lakes,cushitic-peoples
+afar-people,Afar,people,cush,no,horn,cushitic-peoples
+ifat,Ifat,people,ethsem,yes,horn,cushitic-peoples
+adal,Adal Sultanate,people,cush,yes,horn,cushitic-peoples
+ajuran,Ajuran,people,cush,no,horn,cushitic-peoples
+southern-cushites,Southern Cushites,people,cush,yes,lakes,cushitic-peoples
+dinka,Dinka,people,nilotic,no,nile,nilotic-peoples
+luo-people,Luo,people,nilotic,no,lakes,nilotic-peoples
+maasai,Maasai,people,nilotic,no,lakes,nilotic-peoples
+middle-niger-towns,Middle Niger towns,people,mande,yes,sahelw,western-sudan
+ghana-wagadu,Ghana (Wagadu),people,mande,no,sahelw,western-sudan
+takrur,Takrur,people,atl,yes,sahelw,western-sudan
+gao-kingdom,Gao (Kawkaw),people,songhay,no,sahelw,western-sudan
+mali-empire,Mali,people,mande,no,sahelw+guinea,western-sudan
+songhai-empire,Songhai,people,songhay,no,sahelw+guinea,western-sudan
+mossi,Mossi kingdoms,people,gur,no,sahelw+guinea,western-sudan
+jolof,Jolof and the Wolof kingdoms,people,atl,no,sahelw,western-sudan
+segu,Bambara Segu,people,mande,no,sahelw,western-sudan
+sanhaja-south,Sanhaja,people,berb,no,sahelw,sahel-peoples
+bidan,Bidan (Moors),people,arab,no,sahelw,sahel-peoples
+tuareg-sahel,Tuareg,people,berb,no,sahelw,sahel-peoples
+fula-people,Fula,people,atl,no,sahelw+guinea+chad,sahel-peoples
+sao-culture,Sao culture,people,hausa,yes,chad+guinea,central-sudan
+kanem,Kanem,people,saharan,no,chad+sahelw+guinea,central-sudan
+bornu,Bornu,people,saharan,no,guinea+chad+sahelw,central-sudan
+teda,Teda,people,saharan,no,chad+sahelw,central-sudan
+hausa-states,Hausa city states,people,hausa,no,guinea+sahelw,central-sudan
+hausa-people,Hausa,people,hausa,no,guinea+sahelw,central-sudan
+wadai,Wadai,people,nsother,no,chad,central-sudan
+darfur-sultanate,Darfur,people,nsother,no,nile,central-sudan
+futa-jallon,Futa Jallon,people,atl,no,sahelw,jihad-states
+sokoto,Sokoto Caliphate,people,atl,no,guinea+sahelw+chad,jihad-states
+massina,Massina,people,atl,no,sahelw,jihad-states
+tukulor,Tukulor empire,people,atl,no,sahelw,jihad-states
+nok-culture,Nok culture,people,kwa,yes,guinea,lower-niger
+igbo-ukwu,Igbo-Ukwu culture,people,kwa,yes,guinea,lower-niger
+igbo,Igbo,people,kwa,no,guinea,lower-niger
+ife,Ife,people,kwa,no,guinea,lower-niger
+benin-kingdom,Benin,people,kwa,no,guinea,lower-niger
+oyo,Oyo,people,kwa,no,guinea,lower-niger
+yoruba,Yoruba,people,kwa,no,guinea,lower-niger
+bono,Bono,people,kwa,no,guinea,akan-gbe
+asante,Asante,people,kwa,no,guinea,akan-gbe
+akan,Akan,people,kwa,no,guinea,akan-gbe
+dahomey,Dahomey,people,kwa,no,guinea,akan-gbe
+temne,Temne,people,atl,no,guinea,upper-guinea
+mende,Mende,people,mande,no,guinea,upper-guinea
+western-bantu-farmers,Western Bantu farmers,people,bantuw,yes,congo+chad,early-bantu-farmers
+urewe,Urewe tradition,people,bantue,yes,lakes+congo,early-bantu-farmers
+kwale,Kwale tradition,people,bantue,yes,lakes,early-bantu-farmers
+nkope,Nkope tradition,people,bantue,yes,zambezi,early-bantu-farmers
+kalundu,Kalundu tradition,people,bantue,yes,zambezi,early-bantu-farmers
+gokomere,Gokomere and Ziwa tradition,people,bantus,yes,zambezi,early-bantu-farmers
+matola,Matola tradition,people,bantus,yes,zambezi+southafrica,early-bantu-farmers
+kitara,Kitara (tradition),people,bantue,yes,lakes,great-lakes-kingdoms
+bunyoro,Bunyoro,people,bantue,no,lakes,great-lakes-kingdoms
+buganda,Buganda,people,bantue,no,lakes,great-lakes-kingdoms
+rwanda-kingdom,Rwanda,people,bantue,no,lakes,great-lakes-kingdoms
+kongo,Kongo,people,bantuw,no,congo,kongo-neighbours
+ndongo,Ndongo and Matamba,people,bantuw,no,congo,kongo-neighbours
+kuba,Kuba,people,bantuw,no,congo,kongo-neighbours
+kisalian,Upemba culture,people,bantuw,yes,congo,savanna-kingdoms
+luba,Luba,people,bantuw,no,congo,savanna-kingdoms
+lunda,Lunda,people,bantuw,no,congo+zambezi,savanna-kingdoms
+maravi,Maravi,people,bantue,no,zambezi,savanna-kingdoms
+azania,Azania (Rhapta),people,bantue,yes,lakes,swahili-coast
+swahili,Swahili,people,bantue,no,lakes+zambezi,swahili-coast
+kilwa,Kilwa,people,bantue,no,lakes+zambezi,swahili-coast
+sofala,Sofala,people,bantus,yes,zambezi,swahili-coast
+zanzibar,Zanzibar (Omani),people,arab,no,lakes,swahili-coast
+mapungubwe,Mapungubwe,people,bantus,yes,zambezi+southafrica,zimbabwe-plateau
+great-zimbabwe,Great Zimbabwe,people,bantus,yes,zambezi,zimbabwe-plateau
+mutapa,Mutapa,people,bantus,no,zambezi,zimbabwe-plateau
+butua,Butua (Torwa),people,bantus,no,zambezi,zimbabwe-plateau
+rozvi,Rozvi,people,bantus,no,zambezi,zimbabwe-plateau
+shona,Shona,people,bantus,no,zambezi,zimbabwe-plateau
+xhosa,Xhosa,people,bantus,no,southafrica,nguni-sotho
+northern-nguni,Northern Nguni,people,bantus,no,southafrica,nguni-sotho
+zulu,Zulu,people,bantus,no,southafrica,nguni-sotho
+sotho,Sotho,people,bantus,no,southafrica,nguni-sotho
+tswana,Tswana,people,bantus,no,southafrica,nguni-sotho
+ndebele,Ndebele,people,bantus,no,southafrica+zambezi,nguni-sotho
+gaza,Gaza kingdom,people,bantus,no,zambezi,nguni-sotho
+ngoni,Ngoni,people,bantus,no,zambezi+lakes,nguni-sotho
+ovambo,Ovambo,people,bantuw,no,southafrica+congo,southwest-bantu
+herero,Herero,people,bantuw,no,southafrica,southwest-bantu
+kikuyu,Kikuyu,people,bantue,no,lakes,east-african-bantu
+makua,Makua,people,bantue,no,zambezi,east-african-bantu
+mbuti,Mbuti and Efe,people,bantuw,yes,congo,forest-foragers
+baka-aka,Baka and Aka,people,bantuw,yes,congo+chad,forest-foragers
+khoekhoe,Khoekhoe,people,khoe,no,southafrica,khoekhoe-peoples
+nama,Nama,people,khoe,no,southafrica,khoekhoe-peoples
+damara,Damara,people,khoe,no,southafrica,khoekhoe-peoples
+san,San,people,san,no,southafrica+zambezi,san-peoples
+juhoansi,Juǀʼhoansi,people,san,no,southafrica,san-peoples
+gwi,Gǀui and Gǁana,people,khoe,no,southafrica,san-peoples
+hadza,Hadza,people,san,no,lakes,hadza-sandawe
+sandawe,Sandawe,people,san,no,lakes,hadza-sandawe
+cape-colony,Cape Colony,polity,,no,southafrica,
+transvaal-republic,South African Republic,polity,wgerm,no,southafrica,
+orange-free-state,Orange Free State,polity,wgerm,no,southafrica,
+liberia-state,Liberia,polity,eng,no,guinea,
+egyptian-sudan,Egyptian Sudan,polity,,no,nile,
+mahdist-state,Mahdist State,polity,arab,no,nile,
+anglo-egyptian-sudan,Anglo-Egyptian Sudan,polity,,no,nile,
+french-west-africa,French West Africa,polity,fr,no,sahelw+guinea,
+french-equatorial-africa,French Equatorial Africa,polity,fr,no,chad+congo,
+british-nigeria,Nigeria (British),polity,eng,no,guinea,
+congo-free-state,Congo Free State and Belgian Congo,polity,fr,no,congo,
+portuguese-angola,Angola (Portuguese),polity,ibrom,no,congo,
+portuguese-mozambique,Mozambique (Portuguese),polity,ibrom,no,zambezi,
+german-east-africa,German East Africa,polity,wgerm,no,lakes,
+british-east-africa,British East Africa,polity,eng,no,lakes,
+german-south-west-africa,German South West Africa,polity,wgerm,no,southafrica,
+rhodesia,Rhodesia (British),polity,eng,no,zambezi,
+union-south-africa,Union of South Africa,polity,,no,southafrica,
+ethiopia-state,Ethiopia,polity,ethsem,no,horn,
+nigeria-state,Nigeria,polity,,no,guinea,
+mali-state,Mali,polity,,no,sahelw,
+niger-state,Niger,polity,,no,sahelw,
+chad-state,Chad,polity,,no,chad,
+sudan-state,Sudan,polity,arab,no,nile,
+south-sudan-state,South Sudan,polity,,no,nile,
+somalia-state,Somalia,polity,cush,no,horn,
+kenya-state,Kenya,polity,,no,lakes,
+tanzania-state,Tanzania,polity,,no,lakes,
+dr-congo-state,DR Congo,polity,,no,congo,
+angola-state,Angola,polity,,no,congo,
+mozambique-state,Mozambique,polity,,no,zambezi,
+south-africa-state,South Africa,polity,,no,southafrica,
