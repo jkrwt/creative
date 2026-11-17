@@ -17,22 +17,6 @@ kingdom-of-scotland,kingdom-of-great-britain,merged-into,1707,acts-treaties,,see
 kingdom-of-great-britain,united-kingdom,merged-into,1801,acts-treaties,,seed
 kingdom-of-ireland,united-kingdom,merged-into,1801,acts-treaties,,seed
 irish-free-state,ireland,continues,1937,acts-treaties,,seed
-saba,himyar,absorbed-by,275,south-arabian-inscriptions,Himyarite kings took the title king of Saba.,seed
-hadramawt,himyar,absorbed-by,300,south-arabian-inscriptions,,seed
-blemmyes,beja-egypt,continues,,linguistic-geography,The identification is usual but not proven.,seed
-alans-caucasus,ossetians,continues,1239,linguistic-geography,Ossetian descends from the language of the Alans.,seed
-kingdom-of-abkhazia,kingdom-of-georgia,merged-into,1008,georgian-chronicles,Bagrat III inherited both crowns.,seed
-tao-klarjeti,kingdom-of-georgia,merged-into,1008,georgian-chronicles,,seed
-iberia-kartli,kingdom-of-georgia,merged-into,1008,georgian-chronicles,,seed
-kingdom-of-georgia,kartli-kakheti,split-from,1490,georgian-chronicles,,seed
-kingdom-of-georgia,imereti,split-from,1490,georgian-chronicles,,seed
-kingdom-of-armenia,persian-armenia,continues,428,armenian-chronicles,,seed
-egyptians-roman,copts,continues,641,papyri,The same people. Copt is the Arabic form of the Greek word for Egyptian.,seed
-hammadids,zirids,split-from,1014,ibn-khaldun,,seed
-seljuks-of-rum,karamanids,continues,1308,arabic-histories-east,The beyliks divided the sultanate's lands.,seed
-saudi-emirates,saudi-arabia,continues,1902,acts-treaties,,seed
-alaouite-sultanate,morocco,continues,1956,acts-treaties,The same ruling house.,seed
-ayyubids,mamluks,continues,1250,arabic-histories-east,The Mamluks were the Ayyubid sultan's own slave regiment.,seed
 preclassic-maya,classic-maya,continues,250,maya-inscriptions,The same cities and dynasties.,seed
 classic-maya,yucatan-maya,continues,900,americas-archaeology,Power moved to the northern lowlands as the southern cities emptied.,seed
 mexica,nahua,continues,1521,florentine-codex,The Nahua towns lived on under Spanish rule.,seed
@@ -188,3 +172,19 @@ territory-of-papua,papua-and-new-guinea,merged-into,1949,acts-treaties,,seed
 territory-of-new-guinea,papua-and-new-guinea,merged-into,1949,acts-treaties,,seed
 papua-and-new-guinea,papua-new-guinea,continues,1975,acts-treaties,Independence.,seed
 dutch-new-guinea,indonesian-papua,absorbed-by,1963,acts-treaties,Transferred through a United Nations interim administration. The transfer is contested by an independence movement.,seed
+saba,himyar,absorbed-by,275,south-arabian-inscriptions,Himyarite kings took the title king of Saba.,seed
+hadramawt,himyar,absorbed-by,300,south-arabian-inscriptions,,seed
+blemmyes,beja-egypt,continues,,linguistic-geography,The identification is usual but not proven.,seed
+alans-caucasus,ossetians,continues,1239,linguistic-geography,Ossetian descends from the language of the Alans.,seed
+kingdom-of-abkhazia,kingdom-of-georgia,merged-into,1008,georgian-chronicles,Bagrat III inherited both crowns.,seed
+tao-klarjeti,kingdom-of-georgia,merged-into,1008,georgian-chronicles,,seed
+iberia-kartli,kingdom-of-georgia,merged-into,1008,georgian-chronicles,,seed
+kingdom-of-georgia,kartli-kakheti,split-from,1490,georgian-chronicles,,seed
+kingdom-of-georgia,imereti,split-from,1490,georgian-chronicles,,seed
+kingdom-of-armenia,persian-armenia,continues,428,armenian-chronicles,,seed
+egyptians-roman,copts,continues,641,papyri,The same people. Copt is the Arabic form of the Greek word for Egyptian.,seed
+hammadids,zirids,split-from,1014,ibn-khaldun,,seed
+seljuks-of-rum,karamanids,continues,1308,arabic-histories-east,The beyliks divided the sultanate's lands.,seed
+saudi-emirates,saudi-arabia,continues,1902,acts-treaties,,seed
+alaouite-sultanate,morocco,continues,1956,acts-treaties,The same ruling house.,seed
+ayyubids,mamluks,continues,1250,arabic-histories-east,The Mamluks were the Ayyubid sultan's own slave regiment.,seed

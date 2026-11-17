@@ -497,210 +497,6 @@ sarmatian-speakers,Sarmatian speakers,language,iran,no,east+central+balkans+step
 gothic-speakers,Gothic speakers,language,egerm,no,east+balkans,
 turkic-speakers,Turkic speakers,language,turk,no,east+balkans,
 celtic-speakers-of-the-alps-and-danube,Celtic speakers of the Alps and Danube,language,gaul,no,central+balkans,
-anatolian-speakers,Anatolian and Phrygian speakers,language,anat,no,anatolia,
-galatian-speakers,Galatian speakers,language,gaul,no,anatolia,
-armenian-speakers,Armenian speakers,language,armn,no,anatolia+caucasus,
-kurdish-speakers-west,Kurdish speakers,language,wiran,no,anatolia+mesopotamia+levant,
-turkish-speakers-anatolia,Turkish speakers,language,oghuz,no,anatolia,
-zan-speakers,Laz and Mingrelian speakers,language,kart,no,anatolia+caucasus,
-georgian-speakers,Georgian speakers,language,kart,no,caucasus,
-abkhaz-speakers,Abkhaz speakers,language,nwcauc,no,caucasus,
-caucasian-albanian-speakers,Caucasian Albanian and Lezgic speakers,language,necauc,no,caucasus,
-tat-speakers,Persian and Tat speakers,language,pers,no,caucasus,
-azeri-speakers-caucasus,Azeri speakers,language,oghuz,no,caucasus,
-circassian-speakers,Circassian speakers,language,nwcauc,no,east,
-alan-ossetian-speakers,Alan and Ossetian speakers,language,iran,no,east+caucasus,
-nakh-dagestanian-speakers,Chechen and Dagestanian speakers,language,necauc,no,east,
-north-caucasus-turkic,Turkic speakers of the North Caucasus,language,kipch,no,east,
-russian-speakers-caucasus,Russian speakers of the North Caucasus,language,slave,no,east,
-icelandic-speakers,Icelandic speakers,language,norse,no,north,
-aramaic-speakers,Aramaic and Syriac speakers,language,aram,no,levant+mesopotamia+anatolia,
-hebrew-speakers,Hebrew speakers,language,canaan,no,levant,
-phoenician-speakers,Phoenician and Punic speakers,language,canaan,no,levant+maghreb,
-arabic-arabia,Arabic speakers (Arabia),language,arab,no,arabia+levant+mesopotamia,
-arabic-levant,Arabic speakers (Levant and Iraq),language,arab,no,levant+mesopotamia,
-old-south-arabian-speakers,Old South Arabian speakers,language,sarab,no,arabia,
-modern-south-arabian-speakers,Mehri and Soqotri speakers,language,sarab,no,arabia,
-egyptian-speakers,Egyptian and Coptic speakers,language,egyp,no,egypt,
-greek-speakers-africa,Greek speakers (Alexandria and Cyrene),language,greek,no,egypt+maghreb,
-beja-speakers-egypt,Beja speakers,language,cush,yes,egypt,
-nubian-speakers-egypt,Nubian speakers (Egypt),language,nubian,yes,egypt,
-arabic-egypt,Arabic speakers (Egypt),language,arab,no,egypt,
-berber-speakers,Berber speakers,language,berb,no,maghreb+egypt,
-guanche-speakers,Guanche speakers,language,berb,yes,maghreb,
-spanish-canaries,Spanish speakers (Canary Islands),language,ibrom,no,maghreb,
-latin-speakers-africa,Latin speakers (Africa),language,lat,no,maghreb,
-arabic-maghreb,Arabic speakers (Maghreb),language,arab,no,maghreb,
-teda-libya,Teda speakers,language,saharan,no,maghreb,
-galatians,Galatians,people,gaul,no,anatolia,anatolian-peoples
-cappadocians,Cappadocians,people,anat,yes,anatolia,anatolian-peoples
-phrygians,Phrygians,people,anat,no,anatolia,anatolian-peoples
-isaurians,Isaurians,people,anat,yes,anatolia,anatolian-peoples
-pontus-kingdom,Kingdom of Pontus,people,greek,no,anatolia,anatolian-peoples
-commagene,Commagene,people,aram,yes,anatolia,anatolian-peoples
-empire-of-nicaea,Empire of Nicaea,people,greek,no,anatolia,
-empire-of-trebizond,Empire of Trebizond,people,greek,no,anatolia,
-seljuks-of-rum,Sultanate of Rum,people,oghuz,no,anatolia,anatolian-turks
-danishmends,Danishmends,people,oghuz,no,anatolia,anatolian-turks
-karamanids,Karamanids,people,oghuz,no,anatolia,anatolian-turks
-aegean-beyliks,Aegean beyliks,people,oghuz,no,anatolia,anatolian-turks
-white-sheep-turkmen,Aq Qoyunlu,people,oghuz,no,anatolia+mesopotamia+caucasus,anatolian-turks
-black-sheep-turkmen,Qara Qoyunlu,people,oghuz,no,anatolia+mesopotamia+caucasus,anatolian-turks
-anatolian-turks-people,Turks,people,oghuz,no,anatolia,anatolian-turks
-kurdistan-kurds,Kurds,people,wiran,no,anatolia+mesopotamia+levant,kurdish-peoples
-marwanids,Marwanids,people,wiran,no,anatolia+mesopotamia,kurdish-peoples
-shaddadids,Shaddadids,people,wiran,no,caucasus+anatolia,kurdish-peoples
-kurdish-emirates,Kurdish emirates,people,wiran,no,anatolia+mesopotamia,kurdish-peoples
-yazidis,Yazidis,people,wiran,no,mesopotamia,kurdish-peoples
-kingdom-of-armenia,Kingdom of Armenia,people,armn,no,anatolia+caucasus,armenians
-persian-armenia,Armenia under Persia,people,armn,no,anatolia+caucasus,armenians
-bagratid-armenia,Bagratid Armenia,people,armn,no,anatolia+caucasus,armenians
-vaspurakan,Vaspurakan,people,armn,no,anatolia,armenians
-cilician-armenia,Cilician Armenia,people,armn,no,anatolia,armenians
-armenians-later,Armenians,people,armn,no,anatolia+caucasus,armenians
-iberia-kartli,Iberia (Kartli),people,kart,no,caucasus,georgians
-lazica,Lazica,people,kart,no,caucasus+anatolia,georgians
-kingdom-of-abkhazia,Kingdom of Abkhazia,people,kart,no,caucasus,georgians
-tao-klarjeti,Tao-Klarjeti,people,kart,no,caucasus+anatolia,georgians
-kingdom-of-georgia,Kingdom of Georgia,people,kart,no,caucasus+anatolia,georgians
-kartli-kakheti,Kartli and Kakheti,people,kart,no,caucasus,georgians
-imereti,Imereti,people,kart,no,caucasus,georgians
-caucasian-albania,Caucasian Albania,people,necauc,no,caucasus,caucasus-peoples
-alans-caucasus,Alans,people,iran,no,east+caucasus,caucasus-peoples
-ossetians,Ossetians,people,iran,no,east+caucasus,caucasus-peoples
-circassians,Circassians,people,nwcauc,no,east,caucasus-peoples
-abkhaz,Abkhaz,people,nwcauc,no,caucasus,caucasus-peoples
-avars-of-dagestan,Avars of Dagestan,people,necauc,no,east,caucasus-peoples
-vainakh,Chechens and Ingush,people,necauc,no,east,caucasus-peoples
-caucasian-imamate,Caucasian Imamate,people,necauc,no,east,caucasus-peoples
-shirvan,Shirvan,people,pers,no,caucasus,caucasus-peoples
-caucasus-khanates,Khanates of the Caucasus,people,oghuz,no,caucasus,caucasus-peoples
-azerbaijanis-caucasus,Azerbaijanis,people,oghuz,no,caucasus,caucasus-peoples
-osroene,Osroene,people,aram,no,anatolia+levant+mesopotamia,aramaic-peoples
-adiabene,Adiabene,people,aram,no,mesopotamia,aramaic-peoples
-hatra,Hatra,people,aram,no,mesopotamia,aramaic-peoples
-characene,Characene,people,aram,no,mesopotamia,aramaic-peoples
-palmyra,Palmyra,people,aram,no,levant+egypt+anatolia,aramaic-peoples
-assyrians,Assyrians and Syriac Christians,people,aram,no,anatolia+mesopotamia+levant,aramaic-peoples
-mandaeans,Mandaeans,people,aram,no,mesopotamia,aramaic-peoples
-judaea,Judaea,people,canaan,no,levant,judaea-phoenicia
-galilee-jews,Jews of Galilee,people,aram,no,levant,judaea-phoenicia
-samaritans,Samaritans,people,aram,no,levant,judaea-phoenicia
-babylonian-jews,Jews of Babylonia,people,aram,no,mesopotamia,judaea-phoenicia
-tyre-and-sidon,Tyre and Sidon,people,canaan,no,levant,judaea-phoenicia
-israelis,Israelis,people,canaan,no,levant,judaea-phoenicia
-egyptians-roman,Egyptians,people,egyp,no,egypt,egyptians
-copts,Copts,people,egyp,no,egypt,egyptians
-alexandria,Alexandria,people,greek,no,egypt,egyptians
-blemmyes,Blemmyes,people,cush,yes,egypt,egyptians
-beja-egypt,Beja,people,cush,no,egypt,egyptians
-maronites,Maronites,people,arab,no,levant,mountain-communities
-druze,Druze,people,arab,no,levant,mountain-communities
-alawites,Alawites,people,arab,no,levant,mountain-communities
-nizaris-of-syria,Nizari Ismailis,people,arab,no,levant,mountain-communities
-nabataeans,Nabataeans,people,arab,no,levant+arabia+egypt,arabian-kingdoms
-thamud,Thamud,people,arab,no,arabia,arabian-kingdoms
-saba,Saba,people,sarab,no,arabia,arabian-kingdoms
-himyar,Himyar,people,sarab,no,arabia,arabian-kingdoms
-hadramawt,Hadramawt,people,sarab,no,arabia,arabian-kingdoms
-kinda,Kinda,people,arab,no,arabia,arabian-kingdoms
-lakhmids,Lakhmids,people,arab,no,mesopotamia+arabia,arabian-kingdoms
-ghassanids,Ghassanids,people,arab,no,levant,arabian-kingdoms
-quraysh,Quraysh,people,arab,no,arabia,arabian-kingdoms
-azd-oman,Azd of Oman,people,arab,no,arabia,arabian-kingdoms
-tulunids,Tulunids,people,arab,no,egypt+levant,arab-dynasties
-hamdanids,Hamdanids,people,arab,no,mesopotamia+levant+anatolia,arab-dynasties
-qarmatians,Qarmatians,people,arab,no,arabia,arab-dynasties
-aghlabids,Aghlabids,people,arab,no,maghreb,arab-dynasties
-idrisids,Idrisids,people,arab,no,maghreb,arab-dynasties
-fatimids,Fatimids,people,arab,no,maghreb+egypt+levant+arabia,arab-dynasties
-zaydi-imams,Zaydi imams of Yemen,people,arab,no,arabia,arab-dynasties
-rasulids,Rasulids,people,arab,no,arabia,arab-dynasties
-ayyubids,Ayyubids,people,arab,no,egypt+levant+mesopotamia+arabia,arab-dynasties
-sharifs-of-mecca,Sharifs of Mecca,people,arab,no,arabia,arab-dynasties
-oman-imamate,Imams of Oman,people,arab,no,arabia,arab-dynasties
-saadi-sultanate,Saadi sultanate,people,arab,no,maghreb,arab-dynasties
-alaouite-sultanate,Alaouite sultanate,people,arab,no,maghreb,arab-dynasties
-saudi-emirates,Saudi emirates,people,arab,no,arabia,arab-dynasties
-emirate-of-hail,Emirate of Hail,people,arab,no,arabia,arab-dynasties
-banu-hilal,Banu Hilal,people,arab,no,maghreb+egypt,bedouin
-banu-sulaym,Banu Sulaym,people,arab,no,maghreb,bedouin
-anaza,Anaza,people,arab,no,levant+mesopotamia+arabia,bedouin
-shammar,Shammar,people,arab,no,arabia+mesopotamia+levant,bedouin
-sahrawis,Sahrawis,people,arab,no,maghreb,bedouin
-palestinians,Palestinians,people,arab,no,levant,bedouin
-mauri,Mauri,people,berb,yes,maghreb,libyans-moors
-numidians,Numidians,people,berb,no,maghreb,libyans-moors
-musulamii,Musulamii,people,berb,yes,maghreb,libyans-moors
-gaetuli,Gaetuli,people,berb,yes,maghreb,libyans-moors
-garamantes,Garamantes,people,berb,yes,maghreb,libyans-moors
-nasamones,Nasamones,people,berb,yes,maghreb,libyans-moors
-laguatan,Laguatan,people,berb,yes,maghreb,libyans-moors
-moors-and-romans,Kingdom of Altava,people,berb,yes,maghreb,libyans-moors
-aures-kingdom,Kingdom of the Aures,people,berb,yes,maghreb,libyans-moors
-rustamids,Rustamids,people,berb,no,maghreb,berber-dynasties
-barghawata,Barghawata,people,berb,no,maghreb,berber-dynasties
-midrarids,Sijilmasa,people,berb,no,maghreb,berber-dynasties
-zirids,Zirids,people,berb,no,maghreb,berber-dynasties
-hammadids,Hammadids,people,berb,no,maghreb,berber-dynasties
-marinids,Marinids,people,berb,no,maghreb,berber-dynasties
-wattasids,Wattasids,people,berb,no,maghreb,berber-dynasties
-zayyanids,Zayyanids,people,berb,no,maghreb,berber-dynasties
-hafsids,Hafsids,people,berb,no,maghreb,berber-dynasties
-kutama,Kutama,people,berb,no,maghreb,amazigh-peoples
-zenata,Zenata,people,berb,no,maghreb,amazigh-peoples
-masmuda,Masmuda,people,berb,no,maghreb,amazigh-peoples
-sanhaja-north,Sanhaja,people,berb,no,maghreb,amazigh-peoples
-kel-ahaggar,Tuareg,people,berb,no,maghreb,amazigh-peoples
-mozabites,Mozabites,people,berb,no,maghreb,amazigh-peoples
-kabyles,Kabyles,people,berb,no,maghreb,amazigh-peoples
-riffians,Riffians,people,berb,no,maghreb,amazigh-peoples
-ishelhien,Ishelhien,people,berb,no,maghreb,amazigh-peoples
-guanches,Guanches,people,berb,yes,maghreb,amazigh-peoples
-mamluks,Mamluk Sultanate,people,kipch,no,egypt+levant+arabia,
-rashidun-caliphate,Rashidun Caliphate,polity,arab,no,neareast+maghreb,
-umayyad-caliphate,Umayyad Caliphate,polity,arab,no,neareast+maghreb,
-abbasid-caliphate,Abbasid Caliphate,polity,arab,no,neareast+maghreb,
-jalayirids,Jalayirids,polity,,no,mesopotamia,
-kingdom-of-jerusalem,Kingdom of Jerusalem,polity,fr,no,levant,
-county-of-edessa,County of Edessa,polity,fr,no,anatolia+levant,
-principality-of-antioch,Principality of Antioch,polity,fr,no,anatolia+levant,
-county-of-tripoli,County of Tripoli,polity,fr,no,levant,
-kingdom-of-cyprus,Kingdom of Cyprus,polity,fr,no,anatolia,
-regency-of-algiers,Regency of Algiers,polity,oghuz,no,maghreb,
-regency-of-tunis,Regency of Tunis,polity,oghuz,no,maghreb,
-regency-of-tripoli,Regency of Tripoli,polity,oghuz,no,maghreb,
-french-algeria,French Algeria,polity,fr,no,maghreb,
-french-tunisia,French protectorate of Tunisia,polity,fr,no,maghreb,
-french-morocco,French protectorate of Morocco,polity,fr,no,maghreb,
-spanish-sahara,Spanish Sahara,polity,ibrom,no,maghreb,
-italian-libya,Italian Libya,polity,itrom,no,maghreb,
-mandate-palestine,Mandate Palestine,polity,,no,levant,
-mandate-syria-lebanon,French mandate of Syria and Lebanon,polity,,no,levant,
-aden-protectorate,Aden and its protectorates,polity,,no,arabia,
-transcaucasia-russian,Russian and Soviet Transcaucasia,polity,,no,caucasus,
-egypt-state,Egypt,polity,,no,egypt,
-saudi-arabia,Saudi Arabia,polity,,no,arabia,
-yemen,Yemen,polity,,no,arabia,
-oman,Oman,polity,,no,arabia,
-united-arab-emirates,United Arab Emirates,polity,,no,arabia,
-qatar,Qatar,polity,,no,arabia,
-bahrain,Bahrain,polity,,no,arabia,
-kuwait,Kuwait,polity,,no,mesopotamia,
-iraq,Iraq,polity,,no,mesopotamia,
-syria,Syria,polity,,no,levant,
-lebanon,Lebanon,polity,,no,levant,
-jordan,Jordan,polity,,no,levant,
-israel,Israel,polity,,no,levant,
-palestine,Palestine,polity,,no,levant,
-cyprus,Cyprus,polity,,no,anatolia,
-georgia,Georgia,polity,,no,caucasus,
-armenia,Armenia,polity,,no,caucasus,
-azerbaijan,Azerbaijan,polity,,no,caucasus,
-libya,Libya,polity,,no,maghreb,
-tunisia,Tunisia,polity,,no,maghreb,
-algeria,Algeria,polity,,no,maghreb,
-morocco,Morocco,polity,,no,maghreb,
 sami-far-north,Sami,language,finnic,no,north+east,
 vistula-germanic,East Germanic of the Vistula,language,egerm,yes,central,
 early-slavic-vistula,Early Slavic (Vistula and Oder),language,slavw,no,central,
@@ -1916,3 +1712,205 @@ territory-of-new-guinea,Territory of New Guinea,polity,eng,no,papua,
 papua-and-new-guinea,Papua and New Guinea,polity,eng,no,papua,
 papua-new-guinea,Papua New Guinea,polity,eng,no,papua,
 indonesian-papua,Papua (Indonesia),polity,malayic,no,papua,
+anatolian-speakers,Anatolian and Phrygian speakers,language,anat,no,anatolia,
+galatian-speakers,Galatian speakers,language,gaul,no,anatolia,
+armenian-speakers,Armenian speakers,language,armn,no,anatolia+caucasus,
+kurdish-speakers-west,Kurdish speakers,language,wiran,no,anatolia+mesopotamia+levant,
+turkish-speakers-anatolia,Turkish speakers,language,oghuz,no,anatolia,
+zan-speakers,Laz and Mingrelian speakers,language,kart,no,anatolia+caucasus,
+georgian-speakers,Georgian speakers,language,kart,no,caucasus,
+abkhaz-speakers,Abkhaz speakers,language,nwcauc,no,caucasus,
+caucasian-albanian-speakers,Caucasian Albanian and Lezgic speakers,language,necauc,no,caucasus,
+tat-speakers,Persian and Tat speakers,language,pers,no,caucasus,
+azeri-speakers-caucasus,Azeri speakers,language,oghuz,no,caucasus,
+circassian-speakers,Circassian speakers,language,nwcauc,no,east,
+alan-ossetian-speakers,Alan and Ossetian speakers,language,iran,no,east+caucasus,
+nakh-dagestanian-speakers,Chechen and Dagestanian speakers,language,necauc,no,east,
+north-caucasus-turkic,Turkic speakers of the North Caucasus,language,kipch,no,east,
+russian-speakers-caucasus,Russian speakers of the North Caucasus,language,slave,no,east,
+icelandic-speakers,Icelandic speakers,language,norse,no,north,
+aramaic-speakers,Aramaic and Syriac speakers,language,aram,no,levant+mesopotamia+anatolia,
+hebrew-speakers,Hebrew speakers,language,canaan,no,levant,
+phoenician-speakers,Phoenician and Punic speakers,language,canaan,no,levant+maghreb,
+arabic-arabia,Arabic speakers (Arabia),language,arab,no,arabia+levant+mesopotamia,
+arabic-levant,Arabic speakers (Levant and Iraq),language,arab,no,levant+mesopotamia,
+old-south-arabian-speakers,Old South Arabian speakers,language,sarab,no,arabia,
+modern-south-arabian-speakers,Mehri and Soqotri speakers,language,sarab,no,arabia,
+egyptian-speakers,Egyptian and Coptic speakers,language,egyp,no,egypt,
+greek-speakers-africa,Greek speakers (Alexandria and Cyrene),language,greek,no,egypt+maghreb,
+beja-speakers-egypt,Beja speakers,language,cush,yes,egypt,
+nubian-speakers-egypt,Nubian speakers (Egypt),language,nubian,yes,egypt,
+arabic-egypt,Arabic speakers (Egypt),language,arab,no,egypt,
+berber-speakers,Berber speakers,language,berb,no,maghreb+egypt,
+guanche-speakers,Guanche speakers,language,berb,yes,maghreb,
+spanish-canaries,Spanish speakers (Canary Islands),language,ibrom,no,maghreb,
+latin-speakers-africa,Latin speakers (Africa),language,lat,no,maghreb,
+arabic-maghreb,Arabic speakers (Maghreb),language,arab,no,maghreb,
+teda-libya,Teda speakers,language,saharan,no,maghreb,
+galatians,Galatians,people,gaul,no,anatolia,anatolian-peoples
+cappadocians,Cappadocians,people,anat,yes,anatolia,anatolian-peoples
+phrygians,Phrygians,people,anat,no,anatolia,anatolian-peoples
+isaurians,Isaurians,people,anat,yes,anatolia,anatolian-peoples
+pontus-kingdom,Kingdom of Pontus,people,greek,no,anatolia,anatolian-peoples
+commagene,Commagene,people,aram,yes,anatolia,anatolian-peoples
+empire-of-nicaea,Empire of Nicaea,people,greek,no,anatolia,
+empire-of-trebizond,Empire of Trebizond,people,greek,no,anatolia,
+seljuks-of-rum,Sultanate of Rum,people,oghuz,no,anatolia,anatolian-turks
+danishmends,Danishmends,people,oghuz,no,anatolia,anatolian-turks
+karamanids,Karamanids,people,oghuz,no,anatolia,anatolian-turks
+aegean-beyliks,Aegean beyliks,people,oghuz,no,anatolia,anatolian-turks
+white-sheep-turkmen,Aq Qoyunlu,people,oghuz,no,anatolia+mesopotamia+caucasus,anatolian-turks
+black-sheep-turkmen,Qara Qoyunlu,people,oghuz,no,anatolia+mesopotamia+caucasus,anatolian-turks
+anatolian-turks-people,Turks,people,oghuz,no,anatolia,anatolian-turks
+kurdistan-kurds,Kurds,people,wiran,no,anatolia+mesopotamia+levant,kurdish-peoples
+marwanids,Marwanids,people,wiran,no,anatolia+mesopotamia,kurdish-peoples
+shaddadids,Shaddadids,people,wiran,no,caucasus+anatolia,kurdish-peoples
+kurdish-emirates,Kurdish emirates,people,wiran,no,anatolia+mesopotamia,kurdish-peoples
+yazidis,Yazidis,people,wiran,no,mesopotamia,kurdish-peoples
+kingdom-of-armenia,Kingdom of Armenia,people,armn,no,anatolia+caucasus,armenians
+persian-armenia,Armenia under Persia,people,armn,no,anatolia+caucasus,armenians
+bagratid-armenia,Bagratid Armenia,people,armn,no,anatolia+caucasus,armenians
+vaspurakan,Vaspurakan,people,armn,no,anatolia,armenians
+cilician-armenia,Cilician Armenia,people,armn,no,anatolia,armenians
+armenians-later,Armenians,people,armn,no,anatolia+caucasus,armenians
+iberia-kartli,Iberia (Kartli),people,kart,no,caucasus,georgians
+lazica,Lazica,people,kart,no,caucasus+anatolia,georgians
+kingdom-of-abkhazia,Kingdom of Abkhazia,people,kart,yes,caucasus,georgians
+tao-klarjeti,Tao-Klarjeti,people,kart,no,caucasus+anatolia,georgians
+kingdom-of-georgia,Kingdom of Georgia,people,kart,no,caucasus+anatolia,georgians
+kartli-kakheti,Kartli and Kakheti,people,kart,no,caucasus,georgians
+imereti,Imereti,people,kart,no,caucasus,georgians
+caucasian-albania,Caucasian Albania,people,necauc,no,caucasus,caucasus-peoples
+alans-caucasus,Alans,people,iran,no,east+caucasus,caucasus-peoples
+ossetians,Ossetians,people,iran,no,east+caucasus,caucasus-peoples
+circassians,Circassians,people,nwcauc,no,east,caucasus-peoples
+abkhaz,Abkhaz,people,nwcauc,no,caucasus,caucasus-peoples
+avars-of-dagestan,Avars of Dagestan,people,necauc,no,east,caucasus-peoples
+vainakh,Chechens and Ingush,people,necauc,no,east,caucasus-peoples
+caucasian-imamate,Caucasian Imamate,people,necauc,no,east,caucasus-peoples
+shirvan,Shirvan,people,pers,no,caucasus,caucasus-peoples
+caucasus-khanates,Khanates of the Caucasus,people,oghuz,no,caucasus,caucasus-peoples
+azerbaijanis-caucasus,Azerbaijanis,people,oghuz,no,caucasus,caucasus-peoples
+osroene,Osroene,people,aram,no,anatolia+levant+mesopotamia,aramaic-peoples
+adiabene,Adiabene,people,aram,no,mesopotamia,aramaic-peoples
+hatra,Hatra,people,aram,no,mesopotamia,aramaic-peoples
+characene,Characene,people,aram,no,mesopotamia,aramaic-peoples
+palmyra,Palmyra,people,aram,no,levant+egypt+anatolia,aramaic-peoples
+assyrians,Assyrians and Syriac Christians,people,aram,no,anatolia+mesopotamia+levant,aramaic-peoples
+mandaeans,Mandaeans,people,aram,no,mesopotamia,aramaic-peoples
+judaea,Judaea,people,canaan,no,levant,judaea-phoenicia
+galilee-jews,Jews of Galilee,people,aram,no,levant,judaea-phoenicia
+samaritans,Samaritans,people,aram,no,levant,judaea-phoenicia
+babylonian-jews,Jews of Babylonia,people,aram,no,mesopotamia,judaea-phoenicia
+tyre-and-sidon,Tyre and Sidon,people,canaan,no,levant,judaea-phoenicia
+israelis,Israelis,people,canaan,no,levant,judaea-phoenicia
+egyptians-roman,Egyptians,people,egyp,no,egypt,egyptians
+copts,Copts,people,egyp,no,egypt,egyptians
+alexandria,Alexandria,people,greek,no,egypt,egyptians
+blemmyes,Blemmyes,people,cush,yes,egypt,egyptians
+beja-egypt,Beja,people,cush,no,egypt,egyptians
+maronites,Maronites,people,arab,no,levant,mountain-communities
+druze,Druze,people,arab,no,levant,mountain-communities
+alawites,Alawites,people,arab,no,levant,mountain-communities
+nizaris-of-syria,Nizari Ismailis,people,arab,no,levant,mountain-communities
+nabataeans,Nabataeans,people,arab,no,levant+arabia+egypt,arabian-kingdoms
+thamud,Thamud,people,arab,no,arabia,arabian-kingdoms
+saba,Saba,people,sarab,no,arabia,arabian-kingdoms
+himyar,Himyar,people,sarab,no,arabia,arabian-kingdoms
+hadramawt,Hadramawt,people,sarab,no,arabia,arabian-kingdoms
+kinda,Kinda,people,arab,no,arabia,arabian-kingdoms
+lakhmids,Lakhmids,people,arab,no,mesopotamia+arabia,arabian-kingdoms
+ghassanids,Ghassanids,people,arab,no,levant,arabian-kingdoms
+quraysh,Quraysh,people,arab,no,arabia,arabian-kingdoms
+tulunids,Tulunids,people,arab,no,egypt+levant,arab-dynasties
+hamdanids,Hamdanids,people,arab,no,mesopotamia+levant+anatolia,arab-dynasties
+qarmatians,Qarmatians,people,arab,no,arabia,arab-dynasties
+aghlabids,Aghlabids,people,arab,no,maghreb,arab-dynasties
+idrisids,Idrisids,people,arab,no,maghreb,arab-dynasties
+fatimids,Fatimids,people,arab,no,maghreb+egypt+levant+arabia,arab-dynasties
+zaydi-imams,Zaydi imams of Yemen,people,arab,no,arabia,arab-dynasties
+rasulids,Rasulids,people,arab,no,arabia,arab-dynasties
+ayyubids,Ayyubids,people,arab,no,egypt+levant+mesopotamia+arabia,arab-dynasties
+sharifs-of-mecca,Sharifs of Mecca,people,arab,no,arabia,arab-dynasties
+oman-imamate,Imams of Oman,people,arab,no,arabia,arab-dynasties
+saadi-sultanate,Saadi sultanate,people,arab,no,maghreb,arab-dynasties
+alaouite-sultanate,Alaouite sultanate,people,arab,no,maghreb,arab-dynasties
+saudi-emirates,Saudi emirates,people,arab,no,arabia,arab-dynasties
+emirate-of-hail,Emirate of Hail,people,arab,no,arabia,arab-dynasties
+banu-hilal,Banu Hilal,people,arab,no,maghreb+egypt,bedouin
+banu-sulaym,Banu Sulaym,people,arab,no,maghreb,bedouin
+anaza,Anaza,people,arab,no,levant+mesopotamia+arabia,bedouin
+shammar,Shammar,people,arab,no,arabia+mesopotamia+levant,bedouin
+sahrawis,Sahrawis,people,arab,no,maghreb,bedouin
+palestinians,Palestinians,people,arab,no,levant,bedouin
+mauri,Mauri,people,berb,yes,maghreb,libyans-moors
+numidians,Numidians,people,berb,no,maghreb,libyans-moors
+musulamii,Musulamii,people,berb,yes,maghreb,libyans-moors
+garamantes,Garamantes,people,berb,yes,maghreb,libyans-moors
+nasamones,Nasamones,people,berb,yes,maghreb,libyans-moors
+laguatan,Laguatan,people,berb,yes,maghreb,libyans-moors
+moors-and-romans,Kingdom of Altava,people,berb,yes,maghreb,libyans-moors
+aures-kingdom,Kingdom of the Aures,people,berb,yes,maghreb,libyans-moors
+rustamids,Rustamids,people,berb,no,maghreb,berber-dynasties
+barghawata,Barghawata,people,berb,no,maghreb,berber-dynasties
+midrarids,Sijilmasa,people,berb,no,maghreb,berber-dynasties
+zirids,Zirids,people,berb,no,maghreb,berber-dynasties
+hammadids,Hammadids,people,berb,no,maghreb,berber-dynasties
+marinids,Marinids,people,berb,no,maghreb,berber-dynasties
+wattasids,Wattasids,people,berb,no,maghreb,berber-dynasties
+zayyanids,Zayyanids,people,berb,no,maghreb,berber-dynasties
+hafsids,Hafsids,people,berb,no,maghreb,berber-dynasties
+kutama,Kutama,people,berb,no,maghreb,amazigh-peoples
+zenata,Zenata,people,berb,no,maghreb,amazigh-peoples
+masmuda,Masmuda,people,berb,no,maghreb,amazigh-peoples
+sanhaja-north,Sanhaja,people,berb,no,maghreb,amazigh-peoples
+kel-ahaggar,Tuareg,people,berb,no,maghreb,amazigh-peoples
+mozabites,Mozabites,people,berb,no,maghreb,amazigh-peoples
+kabyles,Kabyles,people,berb,no,maghreb,amazigh-peoples
+riffians,Riffians,people,berb,no,maghreb,amazigh-peoples
+ishelhien,Ishelhien,people,berb,no,maghreb,amazigh-peoples
+guanches,Guanches,people,berb,yes,maghreb,amazigh-peoples
+mamluks,Mamluk Sultanate,people,kipch,no,egypt+levant+arabia,
+rashidun-caliphate,Rashidun Caliphate,polity,arab,no,neareast+maghreb,
+umayyad-caliphate,Umayyad Caliphate,polity,arab,no,neareast+maghreb,
+abbasid-caliphate,Abbasid Caliphate,polity,arab,no,neareast+maghreb,
+jalayirids,Jalayirids,polity,,no,mesopotamia,
+kingdom-of-jerusalem,Kingdom of Jerusalem,polity,fr,no,levant,
+county-of-edessa,County of Edessa,polity,fr,no,anatolia+levant,
+principality-of-antioch,Principality of Antioch,polity,fr,no,anatolia+levant,
+county-of-tripoli,County of Tripoli,polity,fr,no,levant,
+kingdom-of-cyprus,Kingdom of Cyprus,polity,fr,no,anatolia,
+regency-of-algiers,Regency of Algiers,polity,oghuz,no,maghreb,
+regency-of-tunis,Regency of Tunis,polity,oghuz,no,maghreb,
+regency-of-tripoli,Regency of Tripoli,polity,oghuz,no,maghreb,
+french-algeria,French Algeria,polity,fr,no,maghreb,
+french-tunisia,French protectorate of Tunisia,polity,fr,no,maghreb,
+french-morocco,French protectorate of Morocco,polity,fr,no,maghreb,
+spanish-sahara,Spanish Sahara,polity,ibrom,no,maghreb,
+italian-libya,Italian Libya,polity,itrom,no,maghreb,
+mandate-palestine,Mandate Palestine,polity,,no,levant,
+mandate-syria-lebanon,French mandate of Syria and Lebanon,polity,,no,levant,
+aden-protectorate,Aden and its protectorates,polity,,no,arabia,
+transcaucasia-russian,Russian and Soviet Transcaucasia,polity,,no,caucasus,
+egypt-state,Egypt,polity,,no,egypt,
+saudi-arabia,Saudi Arabia,polity,,no,arabia,
+yemen,Yemen,polity,,no,arabia,
+oman,Oman,polity,,no,arabia,
+united-arab-emirates,United Arab Emirates,polity,,no,arabia,
+qatar,Qatar,polity,,no,arabia,
+bahrain,Bahrain,polity,,no,arabia,
+kuwait,Kuwait,polity,,no,mesopotamia,
+iraq,Iraq,polity,,no,mesopotamia,
+syria,Syria,polity,,no,levant,
+lebanon,Lebanon,polity,,no,levant,
+jordan,Jordan,polity,,no,levant,
+israel,Israel,polity,,no,levant,
+palestine,Palestine,polity,,no,levant,
+cyprus,Cyprus,polity,,no,anatolia,
+georgia,Georgia,polity,,no,caucasus,
+armenia,Armenia,polity,,no,caucasus,
+azerbaijan,Azerbaijan,polity,,no,caucasus,
+libya,Libya,polity,,no,maghreb,
+tunisia,Tunisia,polity,,no,maghreb,
+algeria,Algeria,polity,,no,maghreb,
+morocco,Morocco,polity,,no,maghreb,

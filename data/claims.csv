@@ -596,335 +596,6 @@ s-0594,alamanni,range,9.0,48.1,90,260,746,no,reconstructed,gregory-tours,,,Swabi
 s-0595,latin-speakers,range,12.5,42.5,420,1,900,no,reconstructed,linguistic-geography,,,Latin in its homeland.,seed,sketch,2026-11-17
 s-0596,latin-speakers,range,20.0,45.0,380,100,600,no,reconstructed,linguistic-geography,,,"Latin along the Danube frontier, from Noricum to Dacia.",seed,sketch,2026-11-17
 s-0597,norse-speakers,range,13.0,59.5,520,1,1100,no,reconstructed,linguistic-geography,,,"Proto-Norse, then Old Norse.",seed,sketch,2026-11-17
-w1-0001,anatolian-speakers,range,32.5,38.8,330,1,450,no,reconstructed,strabo-geog;linguistic-geography,,,"Phrygian, Pisidian, Isaurian, Lycaonian and Cappadocian in the interior. Phrygian was written into the 3rd century and the others are last heard of between 400 and 600.",seed,sketch,2026-11-17
-w1-0002,galatian-speakers,range,32.6,39.8,110,1,400,no,reconstructed,linguistic-geography,,,A Celtic language around Ancyra. Jerome wrote about 390 that it was close to the speech of Trier.,seed,sketch,2026-11-17
-w1-0003,armenian-speakers,range,42.5,39.6,280,1,1915,no,reconstructed,armenian-chronicles;linguistic-geography,,,The Armenian highland around Lake Van and Mount Ararat. Written from about 405.,seed,sketch,2026-11-17
-w1-0004,armenian-speakers,range,38.6,39.6,150,1,1915,no,reconstructed,linguistic-geography,,,"Lesser Armenia, west of the Euphrates.",seed,sketch,2026-11-17
-w1-0005,armenian-speakers,range,35.8,37.3,130,1080,1915,no,reconstructed,linguistic-geography,,,"Cilicia, settled by Armenians in the 11th century.",seed,sketch,2026-11-17
-w1-0006,armenian-speakers,range,44.8,40.2,130,1,2026,yes,attested,armenian-chronicles;census-neareast,,,,seed,sketch,2026-11-17
-w1-0007,armenian-speakers,range,46.6,39.8,80,1,2023,no,reconstructed,census-neareast,,,Artsakh or Karabakh. Almost all its Armenians left in 2023 when Azerbaijan took the territory.,seed,sketch,2026-11-17
-w1-0008,kurdish-speakers-west,range,43.8,37.0,220,650,1100,no,indicative,baladhuri;linguistic-geography,,,Arab writers name Kurds in these mountains from the 7th century. What was spoken there earlier is not known.,seed,sketch,2026-11-17
-w1-0009,kurdish-speakers-west,range,42.0,38.0,300,1100,2026,yes,reconstructed,sharafnama;census-neareast,,,Kurmanji Kurdish. It spread north over the Armenian highland from the 16th century.,seed,sketch,2026-11-17
-w1-0010,kurdish-speakers-west,range,44.8,36.0,170,900,2026,yes,reconstructed,census-neareast,,,"Sorani Kurdish, east of the Tigris.",seed,sketch,2026-11-17
-w1-0011,kurdish-speakers-west,range,40.8,36.9,90,1700,2026,yes,reconstructed,census-neareast,,,The Jazira of north-east Syria.,seed,sketch,2026-11-17
-w1-0012,turkish-speakers-anatolia,range,33.0,39.0,300,1071,1300,no,reconstructed,linguistic-geography,,,Oghuz Turks settled the plateau after the battle of Manzikert in 1071. Greek and Armenian were spoken beside Turkish for centuries.,seed,sketch,2026-11-17
-w1-0013,turkish-speakers-anatolia,range,32.5,39.0,470,1300,2026,yes,reconstructed,ottoman-registers;census-neareast,,,,seed,sketch,2026-11-17
-w1-0014,turkish-speakers-anatolia,range,40.0,39.8,300,1200,2026,yes,reconstructed,ottoman-registers;census-neareast,,,"Eastern Anatolia, beside Armenian until 1915 and beside Kurdish today.",seed,sketch,2026-11-17
-w1-0015,turkish-speakers-anatolia,range,33.6,35.3,60,1571,2026,yes,attested,ottoman-registers;census-neareast,,,"Turkish Cypriots, settled after the Ottoman conquest of 1571 and in the north of the island since 1974.",seed,sketch,2026-11-17
-w1-0016,zan-speakers,range,41.9,42.4,130,1,2026,yes,reconstructed,procopius;linguistic-geography,,,"Colchis, with Svan in the mountains above it. Georgian has been the written language here since the 10th century.",seed,sketch,2026-11-17
-w1-0017,zan-speakers,range,40.9,41.1,80,1,2026,yes,reconstructed,procopius;linguistic-geography,,,The Laz of the coast east of Trebizond.,seed,sketch,2026-11-17
-w1-0018,georgian-speakers,range,44.2,41.9,170,1,2026,yes,reconstructed,georgian-chronicles;census-neareast,,,Kartli and Kakheti. Georgian has been written since the 5th century.,seed,sketch,2026-11-17
-w1-0019,georgian-speakers,range,42.6,42.2,170,800,2026,yes,reconstructed,georgian-chronicles;census-neareast,,,Georgian spread west as the language of church and kingdom.,seed,sketch,2026-11-17
-w1-0020,abkhaz-speakers,range,41.0,43.1,80,1,2026,yes,reconstructed,procopius;linguistic-geography,,,The Abasgoi and Apsilai of Greek writers.,seed,sketch,2026-11-17
-w1-0021,caucasian-albanian-speakers,range,47.5,40.6,200,1,1100,no,reconstructed,strabo-geog;linguistic-geography,,,The languages of Caucasian Albania. One was written from the 5th century and survives as Udi.,seed,sketch,2026-11-17
-w1-0022,caucasian-albanian-speakers,range,48.0,41.4,90,1100,2026,yes,reconstructed,census-neareast,,,Lezgian and its relatives in the north of Azerbaijan.,seed,sketch,2026-11-17
-w1-0023,tat-speakers,range,49.2,40.4,150,500,1900,no,reconstructed,linguistic-geography,,,Persian speakers settled in Shirvan and around Baku under the Sasanians. Tat is a small language today.,seed,sketch,2026-11-17
-w1-0024,azeri-speakers-caucasus,range,47.5,40.4,220,1050,2026,yes,reconstructed,linguistic-geography;census-neareast,,,Oghuz Turkic arrived with the Seljuks in the 11th century and was the main language by about 1500.,seed,sketch,2026-11-17
-w1-0025,circassian-speakers,range,40.0,44.3,200,1,1864,no,reconstructed,linguistic-geography,,,"Adyghe and Kabardian, from the Black Sea coast to the Kuban.",seed,sketch,2026-11-17
-w1-0026,circassian-speakers,range,40.2,44.4,80,1864,2026,yes,attested,census-neareast,,,Adygea. Most Circassians were driven out to the Ottoman Empire in 1864.,seed,sketch,2026-11-17
-w1-0027,circassian-speakers,range,43.5,43.6,80,1400,2026,yes,reconstructed,census-neareast,,,Kabardian.,seed,sketch,2026-11-17
-w1-0028,alan-ossetian-speakers,range,43.0,43.9,220,1,1240,no,reconstructed,ammianus;linguistic-geography,,,Sarmatian and then Alan speech on the plains north of the mountains.,seed,sketch,2026-11-17
-w1-0029,alan-ossetian-speakers,range,44.2,42.9,80,1240,2026,yes,reconstructed,census-neareast,,,"Ossetian, the descendant of Alan, in the central valleys.",seed,sketch,2026-11-17
-w1-0030,nakh-dagestanian-speakers,range,46.3,42.8,200,1,2026,yes,reconstructed,linguistic-geography;census-neareast,,,"Chechen, Ingush, Avar, Dargwa, Lak, Lezgian and some thirty more languages. Their long presence is inferred from the depth of the family.",seed,sketch,2026-11-17
-w1-0031,north-caucasus-turkic,range,44.5,44.4,250,1240,1800,no,reconstructed,linguistic-geography,,,"Kipchak Turkic on the steppe north of the mountains after the Mongol conquest: Nogai, Kumyk and Karachay-Balkar.",seed,sketch,2026-11-17
-w1-0032,north-caucasus-turkic,range,45.5,44.3,150,1800,2026,yes,reconstructed,census-neareast,,,Nogai and Kumyk today. Karachay and Balkar are spoken in the high valleys to the west.,seed,sketch,2026-11-17
-w1-0033,russian-speakers-caucasus,range,41.5,45.0,280,1800,2026,yes,attested,census-neareast,,,"Cossack and Russian settlement along the Kuban and the Terek, from the late 18th century.",seed,sketch,2026-11-17
-w1-0034,icelandic-speakers,range,-19.0,65.0,280,870,2026,yes,attested,islendingabok,,,"Settled from Norway and the Norse settlements in Britain and Ireland from about 870. The island had no people before, apart perhaps from a few Irish hermits.",seed,sketch,2026-11-17
-w1-0035,aramaic-speakers,range,37.0,34.5,330,1,900,no,reconstructed,josephus;syriac-chronicles;linguistic-geography,,,The speech of the villages of Syria and Palestine. Greek was the language of the cities and of government.,seed,sketch,2026-11-17
-w1-0036,aramaic-speakers,range,44.0,33.5,400,1,900,no,reconstructed,syriac-chronicles;linguistic-geography,,,"Aramaic in Mesopotamia, in the dialects of the Babylonian Talmud, the Mandaeans and the Church of the East.",seed,sketch,2026-11-17
-w1-0037,aramaic-speakers,range,40.0,37.3,220,1,1100,no,reconstructed,syriac-chronicles,,,"Edessa, Nisibis and Tur Abdin, the home of Syriac.",seed,sketch,2026-11-17
-w1-0038,aramaic-speakers,range,41.0,36.0,330,900,1100,no,reconstructed,syriac-chronicles;linguistic-geography,,,"Arabic replaced Aramaic between about 700 and 1100, last in the north and in the mountains.",seed,sketch,2026-11-17
-w1-0039,aramaic-speakers,range,36.0,34.2,60,900,1500,no,indicative,linguistic-geography,,,"Mount Lebanon and the Qalamun, where Aramaic lasted longest in Syria. Three villages near Maaloula still speak it.",seed,sketch,2026-11-17
-w1-0040,aramaic-speakers,range,42.8,37.0,150,1100,1915,no,reconstructed,syriac-chronicles;census-neareast,,,"Neo-Aramaic of the Christians and Jews of Tur Abdin, Hakkari and the Mosul plain.",seed,sketch,2026-11-17
-w1-0041,aramaic-speakers,range,43.2,36.6,80,1915,2026,yes,reconstructed,census-neareast,,,The Mosul plain and the valleys north of it. Many speakers have left Iraq since 2003.,seed,sketch,2026-11-17
-w1-0042,hebrew-speakers,range,35.1,31.7,60,1,200,no,reconstructed,josephus;linguistic-geography,,,Hebrew was still spoken in Judaea beside Aramaic. It went out of daily use after the revolt of 132 to 135.,seed,sketch,2026-11-17
-w1-0043,hebrew-speakers,range,34.85,32.2,50,1900,1948,no,attested,census-neareast,,,Hebrew was revived as an everyday language by Jewish settlers from the 1880s.,seed,sketch,2026-11-17
-w1-0044,hebrew-speakers,range,34.9,32.3,70,1948,2026,yes,attested,census-neareast,,,Israel. Arabic is spoken beside it.,seed,sketch,2026-11-17
-w1-0045,hebrew-speakers,range,34.9,30.8,90,1948,2026,yes,attested,census-neareast,,,The Negev.,seed,sketch,2026-11-17
-w1-0046,phoenician-speakers,range,35.5,33.8,60,1,200,no,reconstructed,linguistic-geography,,,"Phoenician on the coast of Tyre and Sidon, giving way to Aramaic and Greek.",seed,sketch,2026-11-17
-w1-0047,phoenician-speakers,range,10.0,35.6,220,1,450,no,reconstructed,african-inscriptions;augustine,,,"Punic, the Phoenician of Carthage, in Tunisia and eastern Algeria. Augustine heard it in the countryside about 400.",seed,sketch,2026-11-17
-w1-0048,phoenician-speakers,range,13.6,32.5,120,1,400,no,reconstructed,african-inscriptions,,,"Tripolitania, where Punic was written in Latin letters into the 4th century.",seed,sketch,2026-11-17
-w1-0049,arabic-arabia,range,42.0,25.0,600,1,2026,yes,reconstructed,north-arabian-inscriptions;linguistic-geography,,,"Arabic and the closely related Old North Arabian dialects of the Hejaz and Najd, known before Islam from thousands of rock inscriptions.",seed,sketch,2026-11-17
-w1-0050,arabic-arabia,range,36.5,30.0,220,1,700,no,reconstructed,north-arabian-inscriptions,,,Nabataea and the Negev. The Nabataeans wrote Aramaic and spoke Arabic.,seed,sketch,2026-11-17
-w1-0051,arabic-arabia,range,38.5,33.0,220,1,2026,yes,indicative,north-arabian-inscriptions;linguistic-geography,,,"Nomads of the Syrian desert, who left the Safaitic inscriptions in the first centuries CE. Thinly peopled.",seed,sketch,2026-11-17
-w1-0052,arabic-arabia,range,51.0,24.5,450,1,2026,yes,indicative,linguistic-geography;census-neareast,,,The Gulf coast and its hinterland. Thinly peopled away from the coast.,seed,sketch,2026-11-17
-w1-0053,arabic-arabia,range,50.0,20.0,400,1,2026,yes,indicative,linguistic-geography,,,"The Empty Quarter, crossed by a few nomads and otherwise without people.",seed,sketch,2026-11-17
-w1-0054,arabic-arabia,range,56.8,21.8,330,1,2026,yes,indicative,linguistic-geography;census-neareast,,,"Oman, where Arab tradition brings the Azd in the first centuries CE. What was spoken before is not known.",seed,sketch,2026-11-17
-w1-0055,arabic-arabia,range,45.5,15.8,400,550,2026,yes,reconstructed,linguistic-geography;census-neareast,,,Arabic replaced the Old South Arabian languages of Yemen about 600.,seed,sketch,2026-11-17
-w1-0056,arabic-arabia,range,50.5,16.5,250,600,2026,yes,reconstructed,linguistic-geography;census-neareast,,,Hadramawt.,seed,sketch,2026-11-17
-w1-0057,arabic-levant,range,37.0,33.5,330,700,2026,yes,reconstructed,baladhuri;linguistic-geography;census-neareast,,,Arabic spread from the garrison towns and the desert edge after the conquest of the 630s and was the common speech by about 1000.,seed,sketch,2026-11-17
-w1-0058,arabic-levant,range,44.5,33.0,400,700,2026,yes,reconstructed,baladhuri;linguistic-geography;census-neareast,,,"Iraq, from the garrison towns of Kufa and Basra.",seed,sketch,2026-11-17
-w1-0059,arabic-levant,range,36.5,30.5,220,700,2026,yes,reconstructed,linguistic-geography;census-neareast,,,Jordan and the Negev.,seed,sketch,2026-11-17
-w1-0060,old-south-arabian-speakers,range,45.0,15.3,330,1,650,no,attested,south-arabian-inscriptions,,,"Sabaic, Minaic and Qatabanic in the highlands of Yemen, written until the 6th century.",seed,sketch,2026-11-17
-w1-0061,old-south-arabian-speakers,range,49.5,16.0,300,1,650,no,reconstructed,south-arabian-inscriptions;periplus,,,Hadramitic in the Hadramawt.,seed,sketch,2026-11-17
-w1-0062,modern-south-arabian-speakers,range,52.5,17.2,220,1,1000,no,indicative,periplus;linguistic-geography,,,"The Modern South Arabian languages, a separate branch from the written languages of Yemen. Their early extent is inferred, and the land was thinly peopled.",seed,sketch,2026-11-17
-w1-0063,modern-south-arabian-speakers,range,52.8,17.2,130,1000,2026,yes,reconstructed,census-neareast,,,"Mehri, Jibbali and their relatives in Mahra and Dhofar.",seed,sketch,2026-11-17
-w1-0064,modern-south-arabian-speakers,range,53.9,12.5,90,1,2026,yes,reconstructed,periplus;census-neareast,,,Soqotra.,seed,sketch,2026-11-17
-w1-0065,egyptian-speakers,range,31.0,27.0,420,1,950,no,attested,papyri,,,"Egyptian, written in Demotic and from the 3rd century in the Coptic alphabet.",seed,sketch,2026-11-17
-w1-0066,egyptian-speakers,range,27.5,26.0,330,1,1000,no,indicative,papyri;linguistic-geography,,,The oases of the western desert. Empty of people between them.,seed,sketch,2026-11-17
-w1-0067,egyptian-speakers,range,31.5,27.0,300,950,1300,no,reconstructed,arabic-histories-east;linguistic-geography,,,"Arabic replaced Coptic between about 700 and 1300, first in the Delta and the towns.",seed,sketch,2026-11-17
-w1-0068,egyptian-speakers,range,32.0,26.3,200,1300,1450,no,indicative,linguistic-geography,,,"Upper Egypt, where Coptic was spoken longest. Reports of later speakers are doubtful.",seed,sketch,2026-11-17
-w1-0069,greek-speakers-africa,range,30.0,31.1,70,1,700,no,attested,strabo-geog;papyri,,,"Alexandria, the largest Greek-speaking city of its time.",seed,sketch,2026-11-17
-w1-0070,greek-speakers-africa,range,21.8,32.6,90,1,650,no,reconstructed,strabo-geog;linguistic-geography,,,"Cyrene and its four sister cities, Greek since the 7th century BCE.",seed,sketch,2026-11-17
-w1-0071,beja-speakers-egypt,range,34.8,24.0,230,1,1400,no,indicative,strabo-geog;procopius;linguistic-geography,,,"Nomads of the eastern desert, the Blemmyes of ancient writers, taken to have spoken an early form of Beja. Thinly peopled.",seed,sketch,2026-11-17
-w1-0072,beja-speakers-egypt,range,35.3,23.0,150,1400,2026,yes,reconstructed,census-neareast,,,The Bisharin Beja of the far south-east. The Ababda north of them now speak Arabic.,seed,sketch,2026-11-17
-w1-0073,nubian-speakers-egypt,range,31.5,22.8,170,1,1964,no,indicative,linguistic-geography;census-neareast,,,"Lower Nubia, south of Aswan, where Meroitic was written until the 4th century and Nubian after it. The desert on either side is empty.",seed,sketch,2026-11-17
-w1-0074,nubian-speakers-egypt,range,32.6,23.6,120,1964,2026,yes,reconstructed,census-neareast,,,Most Egyptian Nubians were moved north to Kom Ombo when the Aswan High Dam flooded their valley in 1964.,seed,sketch,2026-11-17
-w1-0075,arabic-egypt,range,33.8,29.5,150,1,700,no,indicative,strabo-geog;linguistic-geography,,,Arab nomads of Sinai and the desert east of the Delta. Thinly peopled.,seed,sketch,2026-11-17
-w1-0076,arabic-egypt,range,31.0,29.0,330,700,950,no,reconstructed,arabic-histories-east;linguistic-geography,,,"Fustat, the Delta and the towns, after the conquest of 641.",seed,sketch,2026-11-17
-w1-0077,arabic-egypt,range,30.5,26.5,560,950,2026,yes,reconstructed,arabic-histories-east;census-neareast,,,The language of nearly all Egyptians since about 1300. The deserts are thinly peopled.,seed,sketch,2026-11-17
-w1-0078,arabic-egypt,range,27.0,30.5,250,1050,2026,yes,reconstructed,census-neareast,,,Bedouin of the coast west of Alexandria.,seed,sketch,2026-11-17
-w1-0079,berber-speakers,range,-6.0,32.0,450,1,1150,no,reconstructed,pliny-nh;linguistic-geography,,,"Berber, called Tamazight by its speakers, in Morocco.",seed,sketch,2026-11-17
-w1-0080,berber-speakers,range,4.0,34.5,500,1,1100,no,reconstructed,african-inscriptions;linguistic-geography,,,Algeria and Tunisia. The Libyan inscriptions of Numidia are in an early form of the language.,seed,sketch,2026-11-17
-w1-0081,berber-speakers,range,15.0,29.5,600,1,1100,no,reconstructed,pliny-nh;linguistic-geography,,,Tripolitania and the Fezzan.,seed,sketch,2026-11-17
-w1-0082,berber-speakers,range,22.0,28.0,450,1,1100,no,indicative,linguistic-geography,,,Cyrenaica and the Libyan desert. Thinly peopled.,seed,sketch,2026-11-17
-w1-0083,berber-speakers,range,26.0,29.0,250,1,1100,no,indicative,linguistic-geography,,,The oases west of the Nile. Thinly peopled.,seed,sketch,2026-11-17
-w1-0084,berber-speakers,range,25.5,29.2,60,1100,2026,yes,attested,census-neareast,,,"Siwa, the one Berber-speaking oasis of Egypt.",seed,sketch,2026-11-17
-w1-0085,berber-speakers,range,-12.5,24.5,450,1,1400,no,indicative,bakri;linguistic-geography,,,"The western Sahara, home of the Sanhaja nomads. Thinly peopled.",seed,sketch,2026-11-17
-w1-0086,berber-speakers,range,-6.0,26.5,300,1,1400,no,indicative,linguistic-geography,,,The sand seas between the Draa and the Niger bend. Almost empty.,seed,sketch,2026-11-17
-w1-0087,berber-speakers,range,5.0,24.5,700,1,2026,yes,indicative,ibn-battuta;linguistic-geography,,,"The central Sahara, where Tuareg speak Tamasheq. Very thinly peopled.",seed,sketch,2026-11-17
-w1-0088,berber-speakers,range,-6.8,31.5,300,1150,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,"The Rif, the Atlas and the Sous, where Berber held while Arabic took the plains.",seed,sketch,2026-11-17
-w1-0089,berber-speakers,range,5.5,35.8,170,1100,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,Kabylia and the Aures.,seed,sketch,2026-11-17
-w1-0090,berber-speakers,range,11.5,31.6,200,1100,2026,yes,reconstructed,census-neareast,,,"The Nafusa hills, Zuwara, Ghadames and the island of Djerba.",seed,sketch,2026-11-17
-w1-0091,guanche-speakers,range,-16.8,28.3,120,1,1500,no,indicative,canarian-chronicles;linguistic-geography,,,"The languages of the Canary Islands, known from words and names and taken to be Berber. The date of first settlement is disputed.",seed,sketch,2026-11-17
-w1-0092,guanche-speakers,range,-14.2,28.6,80,1,1500,no,indicative,canarian-chronicles;linguistic-geography,,,Fuerteventura and Lanzarote.,seed,sketch,2026-11-17
-w1-0093,spanish-canaries,range,-16.8,28.3,120,1480,2026,yes,attested,canarian-chronicles;census-neareast,,,Castile conquered the islands between 1402 and 1496.,seed,sketch,2026-11-17
-w1-0094,spanish-canaries,range,-14.2,28.6,80,1420,2026,yes,attested,canarian-chronicles;census-neareast,,,The eastern islands were taken first.,seed,sketch,2026-11-17
-w1-0095,latin-speakers-africa,range,9.0,36.0,250,1,700,no,reconstructed,african-inscriptions;augustine,,,Latin in the towns and farms of Africa Proconsularis and Numidia.,seed,sketch,2026-11-17
-w1-0096,latin-speakers-africa,range,2.0,36.2,250,40,700,no,reconstructed,african-inscriptions,,,The coast of Mauretania.,seed,sketch,2026-11-17
-w1-0097,latin-speakers-africa,range,9.3,35.2,150,700,1100,no,indicative,linguistic-geography,,,A Romance speech lasted in a few towns of Tunisia. Arab geographers still mention it in the 12th century.,seed,sketch,2026-11-17
-w1-0098,arabic-maghreb,range,10.0,35.5,200,700,1050,no,reconstructed,linguistic-geography,,,"Kairouan, Tunis and the towns of Ifriqiya.",seed,sketch,2026-11-17
-w1-0099,arabic-maghreb,range,-5.0,34.0,120,800,1150,no,reconstructed,bakri;linguistic-geography,,,Fez and the towns of the north.,seed,sketch,2026-11-17
-w1-0100,arabic-maghreb,range,9.5,34.5,330,1050,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,Bedouin Arabic spread over the plains after the Banu Hilal arrived about 1050.,seed,sketch,2026-11-17
-w1-0101,arabic-maghreb,range,2.0,35.0,400,1050,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,The plains and plateaus of Algeria.,seed,sketch,2026-11-17
-w1-0102,arabic-maghreb,range,17.0,31.0,500,1050,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,"Tripolitania and Cyrenaica, settled by the Banu Sulaym.",seed,sketch,2026-11-17
-w1-0103,arabic-maghreb,range,22.0,27.0,500,1100,2026,yes,indicative,linguistic-geography,,,The Libyan desert. Very thinly peopled.,seed,sketch,2026-11-17
-w1-0104,arabic-maghreb,range,-6.5,33.5,280,1150,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,"The Atlantic plains of Morocco, settled by Arab nomads under the Almohads.",seed,sketch,2026-11-17
-w1-0105,arabic-maghreb,range,1.0,29.0,450,1150,2026,yes,indicative,linguistic-geography,,,The oases and nomads of the northern Sahara. Thinly peopled.,seed,sketch,2026-11-17
-w1-0106,arabic-maghreb,range,-12.5,24.5,450,1350,2026,yes,reconstructed,linguistic-geography;census-neareast,,,"Hassaniya Arabic, brought by the Banu Hassan and taken up by the Sanhaja. Thinly peopled.",seed,sketch,2026-11-17
-w1-0107,arabic-maghreb,range,-6.0,26.5,300,1350,2026,yes,indicative,linguistic-geography,,,"The sand seas south of the Draa, crossed by Arabic-speaking nomads. Almost empty.",seed,sketch,2026-11-17
-w1-0108,teda-libya,range,19.0,22.0,450,1,2026,yes,indicative,linguistic-geography,,,"The Teda or Tubu of the southern Libyan desert, on the edge of Tibesti. Very thinly peopled, and their early history is not recorded.",seed,sketch,2026-11-17
-w1-0109,galatians,range,32.6,39.8,120,1,400,no,attested,strabo-geog,,,Celts who crossed into Anatolia in 278 BCE. Their land became a Roman province in 25 BCE.,seed,sketch,2026-11-17
-w1-0110,cappadocians,range,35.0,38.6,170,1,450,no,attested,strabo-geog,,,A client kingdom until Rome annexed it in 17. A Cappadocian language is reported into the 4th century.,seed,sketch,2026-11-17
-w1-0111,phrygians,range,30.8,39.0,140,1,300,no,reconstructed,strabo-geog;linguistic-geography,,,Phrygian was still cut on gravestones in the 2nd and 3rd centuries.,seed,sketch,2026-11-17
-w1-0112,isaurians,range,32.6,37.1,110,1,500,no,attested,strabo-geog;ammianus,,,Mountain people of the Taurus who raided the lowlands. One of them became the emperor Zeno in 474.,seed,sketch,2026-11-17
-w1-0113,pontus-kingdom,range,37.5,40.8,150,1,64,no,attested,strabo-geog,,,"The remainder of the kingdom of Mithridates, ruled by the house of Polemon and annexed by Rome in 64.",seed,sketch,2026-11-17
-w1-0114,commagene,range,38.3,37.7,80,1,72,no,attested,josephus;strabo-geog,,,A small kingdom on the Euphrates whose kings claimed Greek and Persian descent. Rome annexed it in 72.,seed,sketch,2026-11-17
-w1-0115,empire-of-nicaea,range,29.5,39.6,220,1204,1261,no,attested,acts-treaties,,,The Byzantine state in exile after 1204. It retook Constantinople in 1261.,seed,sketch,2026-11-17
-w1-0116,empire-of-trebizond,range,39.3,40.9,150,1204,1461,no,attested,acts-treaties,,,"A Greek state on the Pontic coast under the Komnenos family, taken by the Ottomans in 1461.",seed,sketch,2026-11-17
-w1-0117,seljuks-of-rum,range,32.5,38.3,280,1077,1243,no,attested,arabic-histories-east,,,"The Seljuk sultanate of Anatolia, with its capital at Konya. Rum means Rome.",seed,sketch,2026-11-17
-w1-0118,seljuks-of-rum,range,33.0,38.6,300,1243,1308,no,attested,arabic-histories-east,,,Tributary to the Mongols after the battle of Kose Dag in 1243.,seed,sketch,2026-11-17
-w1-0119,danishmends,range,37.3,39.7,180,1085,1178,no,reconstructed,arabic-histories-east,,,"Turkmen rulers of Sivas and Malatya, absorbed by the sultans of Rum.",seed,sketch,2026-11-17
-w1-0120,karamanids,range,33.2,37.3,150,1250,1487,no,attested,ibn-battuta;ottoman-registers,,,The strongest of the beyliks and the last to fall to the Ottomans.,seed,sketch,2026-11-17
-w1-0121,aegean-beyliks,range,28.6,38.3,170,1300,1425,no,attested,ibn-battuta,,,"Aydin, Menteshe, Saruhan and Germiyan. Ibn Battuta visited their courts in the 1330s.",seed,sketch,2026-11-17
-w1-0122,white-sheep-turkmen,range,40.2,37.9,250,1378,1508,no,attested,arabic-histories-east,,,"The White Sheep Turkmen of Diyarbakir. After 1467 they ruled Iran as well, until the Safavids.",seed,sketch,2026-11-17
-w1-0123,black-sheep-turkmen,range,44.0,38.8,250,1375,1468,no,attested,arabic-histories-east,,,"The Black Sheep Turkmen of Lake Van and Azerbaijan, who also held Baghdad.",seed,sketch,2026-11-17
-w1-0124,anatolian-turks-people,range,33.0,39.0,450,1500,2026,yes,attested,ottoman-registers;census-neareast,,,"The Turkish-speaking Muslims of Anatolia, the core of the Ottoman Empire and of the republic.",seed,sketch,2026-11-17
-w1-0125,kurdistan-kurds,range,43.8,37.0,220,650,990,no,reconstructed,baladhuri;masudi,,,Arab writers name Kurds in the mountains north and east of Mosul from the time of the conquests.,seed,sketch,2026-11-17
-w1-0126,kurdistan-kurds,range,42.5,37.5,300,1850,2026,yes,attested,census-neareast,,,"Divided since the 1920s between Turkey, Iraq, Syria and Iran. The Kurdistan Region of Iraq has governed itself since 1991.",seed,sketch,2026-11-17
-w1-0127,marwanids,range,40.6,38.0,150,990,1085,no,attested,arabic-histories-east,,,"A Kurdish dynasty at Mayyafariqin and Amid, now Diyarbakir.",seed,sketch,2026-11-17
-w1-0128,shaddadids,range,46.0,40.5,140,951,1075,no,attested,armenian-chronicles;arabic-histories-east,,,A Kurdish dynasty at Ganja and Dvin. A branch held Ani until 1199.,seed,sketch,2026-11-17
-w1-0129,kurdish-emirates,range,43.0,37.4,230,1500,1850,no,attested,sharafnama;ottoman-registers,,,"Bitlis, Bohtan, Hakkari, Soran, Baban and others, hereditary emirs between the Ottomans and Persia. The Ottomans removed the last about 1850.",seed,sketch,2026-11-17
-w1-0130,yazidis,range,42.2,36.5,100,1200,2026,yes,reconstructed,census-neareast,,,"A Kurdish-speaking religious community of Sinjar and Sheikhan, formed around the tomb of Sheikh Adi, who died in 1162. Many were killed or driven out in 2014.",seed,sketch,2026-11-17
-w1-0131,kingdom-of-armenia,range,43.3,39.6,280,1,428,no,attested,tacitus;armenian-chronicles,,,"Contested between Rome and Parthia and ruled by a branch of the Parthian royal house from the 50s. It was Christian from the early 4th century, and the kingship ended in 428.",seed,sketch,2026-11-17
-w1-0132,persian-armenia,range,44.3,39.9,220,428,654,no,attested,armenian-chronicles;procopius,,,Governed by Persian marzbans while the nobles kept their lands. The alphabet was made about 405 and the revolt of 451 fills the chronicles.,seed,sketch,2026-11-17
-w1-0133,bagratid-armenia,range,43.8,40.4,200,885,1045,no,attested,armenian-chronicles,,,"The restored kingdom, with its capital at Ani. Byzantium annexed it in 1045.",seed,sketch,2026-11-17
-w1-0134,vaspurakan,range,43.2,38.4,110,908,1021,no,attested,armenian-chronicles,,,The Artsruni kingdom around Lake Van.,seed,sketch,2026-11-17
-w1-0135,cilician-armenia,range,35.6,37.2,150,1080,1375,no,attested,armenian-chronicles;william-tyre,,,A principality of Armenian settlers from about 1080 and a kingdom from 1198. The Mamluks took its capital Sis in 1375.,seed,sketch,2026-11-17
-w1-0136,armenians-later,range,42.0,39.5,330,1375,1915,no,attested,ottoman-registers;census-neareast,,,"Without a state, under Ottoman and Persian and from 1828 Russian rule. Most Armenians of Anatolia were deported and killed in 1915.",seed,sketch,2026-11-17
-w1-0137,armenians-later,range,44.8,40.2,120,1915,2026,yes,attested,census-neareast,,,"A republic in 1918, a Soviet republic from 1920 and independent since 1991.",seed,sketch,2026-11-17
-w1-0138,iberia-kartli,range,44.7,41.8,130,1,580,no,attested,strabo-geog;georgian-chronicles,,,"The east Georgian kingdom, with its capital at Mtskheta, Christian from about 330. Persia ended the kingship about 580.",seed,sketch,2026-11-17
-w1-0139,iberia-kartli,range,44.8,41.7,130,580,1008,no,reconstructed,georgian-chronicles,,,"Ruled by princes under Persian, Byzantine and then Arab overlords. Tbilisi was an Arab emirate from the 8th century.",seed,sketch,2026-11-17
-w1-0140,lazica,range,42.0,42.3,130,1,700,no,attested,procopius;strabo-geog,,,"Ancient Colchis, a client of Rome. Rome and Persia fought for it from 541 to 562.",seed,sketch,2026-11-17
-w1-0141,kingdom-of-abkhazia,range,41.9,42.7,150,780,1008,no,attested,georgian-chronicles,,,"Founded by Abkhaz princes, it covered western Georgia and used Georgian in church and court.",seed,sketch,2026-11-17
-w1-0142,tao-klarjeti,range,41.8,41.0,110,813,1008,no,attested,georgian-chronicles;dai,,,"The Bagrationi principality in the south-west, from which the kings of united Georgia came.",seed,sketch,2026-11-17
-w1-0143,kingdom-of-georgia,range,43.5,42.0,280,1008,1490,no,attested,georgian-chronicles,,,"United in 1008 and at its height under David IV and Tamar, about 1200. Mongols and Timur broke it and it divided by about 1490.",seed,sketch,2026-11-17
-w1-0144,kartli-kakheti,range,45.0,41.7,130,1490,1801,no,attested,georgian-chronicles;acts-treaties,,,"The eastern kingdoms, under Safavid Persia for most of the period. Russia annexed them in 1801.",seed,sketch,2026-11-17
-w1-0145,imereti,range,42.7,42.2,120,1490,1810,no,attested,georgian-chronicles;acts-treaties,,,"The western kingdom, under Ottoman influence. Russia annexed it in 1810.",seed,sketch,2026-11-17
-w1-0146,caucasian-albania,range,47.3,40.7,180,1,705,no,attested,strabo-geog;armenian-chronicles,,,"A kingdom between the Kura and the Caspian, unrelated to Albania in the Balkans. Strabo says its people spoke many languages.",seed,sketch,2026-11-17
-w1-0147,alans-caucasus,range,43.0,44.0,220,100,700,no,reconstructed,ammianus;procopius,,,Iranian-speaking horsemen north of the Caucasus passes.,seed,sketch,2026-11-17
-w1-0148,alans-caucasus,range,43.0,43.6,200,700,1239,no,attested,dai;masudi,,,"The kingdom of Alania, Christian from the early 10th century. The Mongols destroyed it in 1238 and 1239.",seed,sketch,2026-11-17
-w1-0149,ossetians,range,44.2,42.9,80,1300,2026,yes,attested,georgian-chronicles;census-neareast,,,Descendants of the Alans in the central valleys. South Ossetia broke from Georgia in the 1990s and its status is disputed.,seed,sketch,2026-11-17
-w1-0150,circassians,range,39.6,44.4,180,500,1864,no,attested,procopius;dai,,,"They call themselves Adyghe, and Greek writers call them Zichoi. Russia conquered them in 1864 and most were driven out.",seed,sketch,2026-11-17
-w1-0151,circassians,range,40.3,44.4,80,1864,2026,yes,attested,census-neareast,,,"Those who stayed, in Adygea and nearby.",seed,sketch,2026-11-17
-w1-0152,abkhaz,range,41.0,43.1,70,100,780,no,attested,procopius,,,"The Abasgoi, with princes of their own under Roman influence.",seed,sketch,2026-11-17
-w1-0153,abkhaz,range,41.1,43.1,70,1500,2026,yes,attested,census-neareast,,,Abkhazia broke from Georgia in 1993 and its status is disputed.,seed,sketch,2026-11-17
-w1-0154,avars-of-dagestan,range,46.7,42.5,90,700,1100,no,reconstructed,masudi,,,"The mountain kingdom Arab geographers call Sarir, the Throne.",seed,sketch,2026-11-17
-w1-0155,avars-of-dagestan,range,46.8,42.6,90,1200,1864,no,attested,census-neareast,,,The Avar khanate at Khunzakh. Unrelated to the Avars of the Danube.,seed,sketch,2026-11-17
-w1-0156,vainakh,range,45.3,42.9,90,1000,1700,no,reconstructed,georgian-chronicles,,,Called Durdzuks in the Georgian chronicles.,seed,sketch,2026-11-17
-w1-0157,vainakh,range,45.6,43.2,100,1700,2026,yes,attested,census-neareast,,,Deported to Central Asia in 1944 and allowed back in 1957.,seed,sketch,2026-11-17
-w1-0158,caucasian-imamate,range,46.3,42.8,110,1829,1859,no,attested,acts-treaties,,,The state of the imams of Dagestan and Chechnya. Shamil led its war against Russia until 1859.,seed,sketch,2026-11-17
-w1-0159,shirvan,range,48.6,40.6,130,861,1538,no,attested,masudi;arabic-histories-east,,,"The Shirvanshahs, an Arab house that became Persian in speech and ruled until the Safavids took their land in 1538.",seed,sketch,2026-11-17
-w1-0160,caucasus-khanates,range,47.0,40.3,220,1747,1828,no,attested,acts-treaties,,,"Karabakh, Ganja, Shirvan, Baku, Erivan and others, under Persian suzerainty until Russia took them between 1804 and 1828.",seed,sketch,2026-11-17
-w1-0161,azerbaijanis-caucasus,range,47.6,40.4,200,1828,2026,yes,attested,census-neareast,,,"Turkic-speaking Shia Muslims north of the Aras. More Azerbaijanis live south of it, in Iran.",seed,sketch,2026-11-17
-w1-0162,osroene,range,38.8,37.1,90,1,242,no,attested,syriac-chronicles;pliny-nh,,,"The kingdom of the Abgars at Edessa, where Syriac became a written language. Rome ended it about 242.",seed,sketch,2026-11-17
-w1-0163,adiabene,range,44.0,36.2,110,1,250,no,attested,josephus;pliny-nh,,,A kingdom around Arbela under Parthian overlords. Josephus tells how its royal house became Jewish about 30.,seed,sketch,2026-11-17
-w1-0164,hatra,range,42.7,35.6,90,50,241,no,attested,north-arabian-inscriptions;ammianus,,,A desert city whose rulers wrote Aramaic and called themselves kings of the Arabs. The Sasanians destroyed it in 241.,seed,sketch,2026-11-17
-w1-0165,characene,range,47.7,30.6,100,1,222,no,attested,pliny-nh;periplus,,,"A trading kingdom at the head of the Gulf, also called Mesene, under Parthian overlords.",seed,sketch,2026-11-17
-w1-0166,palmyra,range,38.3,34.6,150,1,260,no,attested,north-arabian-inscriptions;pliny-nh,,,A caravan city of Aramaic and Arab families inside the Roman province of Syria.,seed,sketch,2026-11-17
-w1-0167,palmyra,range,36.5,33.5,500,260,273,no,attested,north-arabian-inscriptions,,,"Under Odaenathus and Zenobia it held Syria, Egypt and part of Anatolia, until Aurelian took the city.",seed,sketch,2026-11-17
-w1-0168,assyrians,range,41.8,37.0,170,500,1915,no,attested,syriac-chronicles;ottoman-registers,,,"The Church of the East and the Syriac Orthodox, in Tur Abdin, Hakkari and the Mosul plain.",seed,sketch,2026-11-17
-w1-0169,assyrians,range,43.2,36.6,80,1915,2026,yes,attested,census-neareast,,,Driven from Hakkari and Tur Abdin in 1915. Many have left Iraq since 2003.,seed,sketch,2026-11-17
-w1-0170,mandaeans,range,47.0,31.2,100,200,2003,no,reconstructed,linguistic-geography,,,A baptising community of the southern marshes with its own Aramaic scriptures. Most have left Iraq since 2003.,seed,sketch,2026-11-17
-w1-0171,judaea,range,35.1,31.7,70,1,135,no,attested,josephus,,,The kingdom of the Herods and then a Roman province. The revolts of 66 to 73 and 132 to 135 destroyed Jerusalem and emptied much of Judaea.,seed,sketch,2026-11-17
-w1-0172,galilee-jews,range,35.4,32.8,50,135,640,no,reconstructed,linguistic-geography,,,"After 135 the centre of Jewish life in Palestine was Galilee, where the Mishnah and the Jerusalem Talmud were compiled. They spoke Aramaic and wrote Hebrew.",seed,sketch,2026-11-17
-w1-0173,samaritans,range,35.3,32.2,45,1,640,no,attested,josephus;procopius,,,"Around Mount Gerizim. Their revolts of 484 and 529 were put down, and a few hundred Samaritans remain today.",seed,sketch,2026-11-17
-w1-0174,babylonian-jews,range,44.3,32.6,120,1,1040,no,attested,josephus;linguistic-geography,,,A large community under its own exilarch. The academies of Sura and Pumbedita compiled the Babylonian Talmud by about 500.,seed,sketch,2026-11-17
-w1-0175,tyre-and-sidon,range,35.4,33.5,60,1,200,no,reconstructed,strabo-geog;josephus,,,The Phoenician cities under Rome. Phoenician was still written on their coins in the 1st century.,seed,sketch,2026-11-17
-w1-0176,israelis,range,34.85,32.2,50,1882,1948,no,attested,census-neareast,,,"Jewish settlers in Ottoman and then British Palestine, who made Hebrew a spoken language again.",seed,sketch,2026-11-17
-w1-0177,israelis,range,34.9,32.3,70,1948,2026,yes,attested,census-neareast,,,Hebrew speakers of the state founded in 1948. A fifth of its citizens are Arabs.,seed,sketch,2026-11-17
-w1-0178,israelis,range,34.9,30.9,80,1948,2026,yes,attested,census-neareast,,,The Negev.,seed,sketch,2026-11-17
-w1-0179,egyptians-roman,range,31.0,28.3,330,1,641,no,attested,papyri;strabo-geog,,,The people of the Nile valley under Roman and Byzantine governors. Papyri record their villages in more detail than any other people of the time.,seed,sketch,2026-11-17
-w1-0180,copts,range,31.3,27.6,250,641,1400,no,attested,arabic-histories-east;papyri,,,"Egyptian Christians under Muslim rule, a majority until about the 10th century. The Coptic church continues, with Arabic-speaking members.",seed,sketch,2026-11-17
-w1-0181,alexandria,range,29.9,31.2,50,1,641,no,attested,strabo-geog;josephus,,,A Greek city with a large Jewish community until the revolt of 115 to 117.,seed,sketch,2026-11-17
-w1-0182,blemmyes,range,34.0,24.2,180,1,600,no,attested,strabo-geog;procopius,,,Desert nomads who raided Upper Egypt from the 3rd century. They are usually taken to be ancestors of the Beja.,seed,sketch,2026-11-17
-w1-0183,beja-egypt,range,35.0,23.2,140,800,2026,yes,reconstructed,ibn-hawqal;census-neareast,,,"Arab geographers describe the Beja and the gold mines of their desert. Most Beja live further south, in Sudan.",seed,sketch,2026-11-17
-w1-0184,maronites,range,35.9,34.2,50,700,2026,yes,attested,william-tyre;census-neareast,,,"Christians of Mount Lebanon, in union with Rome since the Crusades. They spoke Aramaic at first and keep Syriac in church.",seed,sketch,2026-11-17
-w1-0185,druze,range,35.7,33.6,50,1020,2026,yes,attested,arabic-histories-east;census-neareast,,,"A community that grew from Fatimid Ismaili teaching about 1017, in the Shuf and on Mount Hermon.",seed,sketch,2026-11-17
-w1-0186,druze,range,36.7,32.7,50,1750,2026,yes,attested,census-neareast,,,"Jabal al-Druze, settled from Lebanon in the 18th century.",seed,sketch,2026-11-17
-w1-0187,alawites,range,36.2,35.3,60,1000,2026,yes,reconstructed,census-neareast,,,The coastal mountains of Syria. Older writers call them Nusayris.,seed,sketch,2026-11-17
-w1-0188,nizaris-of-syria,range,36.3,35.1,40,1132,1273,no,attested,william-tyre,,,"The castles around Masyaf, held by the sect the Crusaders called the Assassins until Baybars took them.",seed,sketch,2026-11-17
-w1-0189,nabataeans,range,35.8,30.0,220,1,106,no,attested,strabo-geog;josephus;north-arabian-inscriptions,,,"The Arab kingdom of Petra and Hegra, which wrote in Aramaic. Trajan made it the province of Arabia in 106.",seed,sketch,2026-11-17
-w1-0190,thamud,range,37.6,27.2,150,1,400,no,reconstructed,pliny-nh;north-arabian-inscriptions,,,A people of the northern Hejaz named by Pliny and Ptolemy and in a temple inscription of the 160s.,seed,sketch,2026-11-17
-w1-0191,saba,range,45.3,15.5,120,1,275,no,attested,south-arabian-inscriptions;pliny-nh,,,"The oldest of the South Arabian kingdoms, with its capital at Marib. Himyar absorbed it about 275.",seed,sketch,2026-11-17
-w1-0192,himyar,range,44.4,14.2,130,1,275,no,attested,south-arabian-inscriptions;periplus,,,"A highland kingdom with its capital at Zafar, named in the Periplus.",seed,sketch,2026-11-17
-w1-0193,himyar,range,46.0,15.6,400,275,525,no,attested,south-arabian-inscriptions;procopius,,,"Himyar united South Arabia by about 300. Its kings turned to Judaism about 380, and Aksum conquered it in 525.",seed,sketch,2026-11-17
-w1-0194,himyar,range,45.0,15.0,300,525,630,no,reconstructed,procopius;tabari,,,"Under Aksumite viceroys, among them Abraha, and from the 570s under Persian governors.",seed,sketch,2026-11-17
-w1-0195,hadramawt,range,48.5,15.6,200,1,300,no,attested,south-arabian-inscriptions;periplus,,,"The frankincense kingdom, with its capital at Shabwa. Himyar conquered it about 300.",seed,sketch,2026-11-17
-w1-0196,kinda,range,45.2,19.8,120,200,350,no,reconstructed,south-arabian-inscriptions,,,"At Qaryat al-Faw, on the road from Yemen to the Gulf.",seed,sketch,2026-11-17
-w1-0197,kinda,range,44.5,24.5,350,450,540,no,reconstructed,tabari,,,Kings of Kinda ruled the nomads of central Arabia on behalf of Himyar. The poet Imru al-Qays was of their house.,seed,sketch,2026-11-17
-w1-0198,lakhmids,range,44.4,31.8,160,300,602,no,attested,procopius;tabari,,,Arab kings at al-Hira who guarded the desert frontier for the Sasanians. Khusraw II ended the dynasty in 602.,seed,sketch,2026-11-17
-w1-0199,ghassanids,range,36.4,32.8,170,490,638,no,attested,procopius;syriac-chronicles,,,"Christian Arab allies of Constantinople on the Syrian desert edge, from 529 under one chief.",seed,sketch,2026-11-17
-w1-0200,quraysh,range,39.8,21.4,90,500,630,no,reconstructed,tabari,,,The people of Mecca and of Muhammad. Their early history was written down two centuries later.,seed,sketch,2026-11-17
-w1-0201,azd-oman,range,57.5,23.0,150,200,630,no,indicative,arabic-histories-east,,,Arab tradition brings the Azd from Yemen to Oman. The Sasanians held the coast.,seed,sketch,2026-11-17
-w1-0202,tulunids,range,32.0,29.8,350,868,905,no,attested,arabic-histories-east,,,"The first independent rulers of Muslim Egypt, founded by a Turkish governor of the Abbasids.",seed,sketch,2026-11-17
-w1-0203,hamdanids,range,40.0,36.0,220,905,1004,no,attested,arabic-histories-east;ibn-hawqal,,,An Arab house at Mosul and Aleppo. Sayf al-Dawla fought Byzantium and kept the poet al-Mutanabbi.,seed,sketch,2026-11-17
-w1-0204,qarmatians,range,49.8,25.8,250,899,1077,no,attested,ibn-hawqal;arabic-histories-east,,,An Ismaili state in eastern Arabia that carried off the Black Stone from Mecca in 930.,seed,sketch,2026-11-17
-w1-0205,aghlabids,range,10.0,35.6,250,800,909,no,attested,arabic-histories-east,,,Emirs of Ifriqiya at Kairouan for the Abbasids. They conquered Sicily.,seed,sketch,2026-11-17
-w1-0206,idrisids,range,-5.0,34.2,200,789,974,no,attested,bakri,,,A descendant of Ali founded a state among the Berbers of northern Morocco and his son founded Fez.,seed,sketch,2026-11-17
-w1-0207,fatimids,range,10.5,35.5,300,909,973,no,attested,ibn-hawqal;arabic-histories-east,,,Ismaili caliphs raised to power in Ifriqiya by the Kutama Berbers.,seed,sketch,2026-11-17
-w1-0208,fatimids,range,32.0,29.5,400,969,1171,no,attested,arabic-histories-east,,,They took Egypt in 969 and founded Cairo. Saladin ended the caliphate in 1171.,seed,sketch,2026-11-17
-w1-0209,zaydi-imams,range,44.0,15.9,130,897,1962,no,attested,arabic-histories-east,,,"Imams at Sada and Sanaa, ruling the northern highlands in most centuries. Their last kingdom ended in 1962.",seed,sketch,2026-11-17
-w1-0210,rasulids,range,44.0,13.8,200,1229,1454,no,attested,ibn-battuta;arabic-histories-east,,,"Sultans of Taizz and Zabid, of Turkmen origin, who grew rich on the Aden trade.",seed,sketch,2026-11-17
-w1-0211,ayyubids,range,31.3,29.0,330,1171,1250,no,attested,arabic-histories-east;william-tyre,,,"The house of Saladin, Kurdish by origin. He took Jerusalem from the Crusaders in 1187.",seed,sketch,2026-11-17
-w1-0212,ayyubids,range,37.0,34.5,280,1174,1260,no,attested,arabic-histories-east,,,"Syria, divided among princes of the family until the Mongols came.",seed,sketch,2026-11-17
-w1-0213,sharifs-of-mecca,range,39.8,21.6,200,968,1925,no,attested,ibn-battuta;arabic-histories-east,,,Descendants of the Prophet who governed the Hejaz under Egyptian and then Ottoman overlords. Ibn Saud took their kingdom in 1925.,seed,sketch,2026-11-17
-w1-0214,oman-imamate,range,57.5,23.0,180,793,893,no,attested,arabic-histories-east,,,Ibadi imams elected at Nizwa.,seed,sketch,2026-11-17
-w1-0215,oman-imamate,range,57.6,23.0,220,1624,1856,no,attested,acts-treaties,,,"The Yaruba imams drove the Portuguese from Muscat in 1650. The Al Bu Said, from 1749, ruled Zanzibar as well.",seed,sketch,2026-11-17
-w1-0216,saadi-sultanate,range,-7.0,32.0,350,1549,1659,no,attested,acts-treaties,,,Sharifs from the Draa who united Morocco and defeated Portugal in 1578 and Songhay in 1591.,seed,sketch,2026-11-17
-w1-0217,alaouite-sultanate,range,-6.0,32.6,380,1666,1912,no,attested,acts-treaties,,,"Sharifs from Tafilalt, the ruling house of Morocco to this day.",seed,sketch,2026-11-17
-w1-0218,saudi-emirates,range,46.5,24.7,450,1744,1818,no,attested,acts-treaties,,,The alliance of the house of Saud with the reformer Ibn Abd al-Wahhab. An Egyptian army destroyed Diriyah in 1818.,seed,sketch,2026-11-17
-w1-0219,saudi-emirates,range,46.7,24.6,250,1824,1891,no,attested,acts-treaties,,,"The second state, at Riyadh, lost to the Al Rashid of Hail in 1891.",seed,sketch,2026-11-17
-w1-0220,emirate-of-hail,range,41.7,27.5,250,1836,1921,no,attested,acts-treaties,,,"The Al Rashid, chiefs of the Shammar, who ruled northern Najd until Ibn Saud took Hail.",seed,sketch,2026-11-17
-w1-0221,banu-hilal,range,9.0,34.0,350,1050,1250,no,reconstructed,ibn-khaldun,,,"Bedouin sent west from Egypt about 1050. Ibn Khaldun blamed them for the ruin of Ifriqiya, and their dialects made the plains Arabic-speaking.",seed,sketch,2026-11-17
-w1-0222,banu-sulaym,range,19.0,31.3,300,1050,1400,no,reconstructed,ibn-khaldun,,,They moved west with the Banu Hilal and settled Cyrenaica and Tripolitania.,seed,sketch,2026-11-17
-w1-0223,anaza,range,39.0,33.0,250,1700,1920,no,reconstructed,census-neareast,,,Camel nomads who moved from Najd into the Syrian desert in the 18th century.,seed,sketch,2026-11-17
-w1-0224,shammar,range,42.0,28.5,250,1500,1921,no,reconstructed,census-neareast,,,Nomads of Jabal Shammar. A branch crossed into the Jazira of Iraq in the 17th century.,seed,sketch,2026-11-17
-w1-0225,sahrawis,range,-13.0,25.0,300,1700,2026,yes,reconstructed,census-neareast,,,Hassaniya-speaking nomads of Arab and Sanhaja descent. Sovereignty over Western Sahara is disputed between Morocco and the Polisario Front.,seed,sketch,2026-11-17
-w1-0226,palestinians,range,35.2,31.9,60,1920,2026,yes,attested,census-neareast,,,"The Arabic-speaking people of Palestine, many of them refugees since 1948. The status of the West Bank and Gaza is disputed.",seed,sketch,2026-11-17
-w1-0227,mauri,range,-4.0,34.4,300,1,429,no,attested,pliny-nh;strabo-geog,,,"The Moors. Their kingdom of Mauretania, under Juba II and his son, was annexed by Rome in 40.",seed,sketch,2026-11-17
-w1-0228,numidians,range,6.6,36.0,130,1,200,no,reconstructed,pliny-nh;african-inscriptions,,,The kingdom ended in 46 BCE. Its people left inscriptions in the Libyan script.,seed,sketch,2026-11-17
-w1-0229,musulamii,range,8.0,35.5,100,1,200,no,attested,tacitus,,,Tacfarinas led them against Rome from 17 to 24.,seed,sketch,2026-11-17
-w1-0230,gaetuli,range,2.0,32.8,400,1,300,no,reconstructed,pliny-nh;strabo-geog,,,A general Roman name for the herders of the steppe south of the provinces.,seed,sketch,2026-11-17
-w1-0231,garamantes,range,13.5,26.6,250,1,600,no,attested,pliny-nh;ptolemy-geog,,,"Farmers and traders of the Fezzan, who watered their oases by underground channels. Their capital was Garama.",seed,sketch,2026-11-17
-w1-0232,nasamones,range,18.5,30.0,200,1,300,no,attested,pliny-nh;ptolemy-geog,,,Nomads of the Gulf of Sirte and the oasis of Augila.,seed,sketch,2026-11-17
-w1-0233,laguatan,range,15.0,30.6,300,360,700,no,attested,ammianus;corippus;procopius,,,"Nomads of Tripolitania. Ammianus names Austuriani here in the 360s, who may be the same people, and Corippus describes the Laguatan wars of the 540s.",seed,sketch,2026-11-17
-w1-0234,moors-and-romans,range,-1.0,35.0,200,480,600,no,attested,african-inscriptions;procopius,,,"An inscription of 508 at Altava names Masuna, king of the Moors and the Romans.",seed,sketch,2026-11-17
-w1-0235,aures-kingdom,range,6.5,35.3,110,480,703,no,reconstructed,procopius;ibn-khaldun,,,"Iaudas fought the Byzantines here in the 530s. Arab tradition makes the queen called the Kahina its last ruler, about 700.",seed,sketch,2026-11-17
-w1-0236,rustamids,range,2.0,34.6,250,777,909,no,attested,bakri;ibn-khaldun,,,"Ibadi imams at Tahert, of Persian descent, chosen and followed by Berber peoples.",seed,sketch,2026-11-17
-w1-0237,barghawata,range,-7.2,33.2,130,744,1058,no,attested,bakri,,,"A Berber state on the Atlantic plain with a prophet and a scripture of its own, destroyed by the Almoravids.",seed,sketch,2026-11-17
-w1-0238,midrarids,range,-4.3,31.3,120,757,976,no,attested,bakri;ibn-hawqal,,,The Midrarid emirs of the caravan city at the head of the gold road to the Sudan.,seed,sketch,2026-11-17
-w1-0239,zirids,range,9.0,35.5,280,973,1148,no,attested,ibn-khaldun,,,Sanhaja Berbers left to govern Ifriqiya when the Fatimids moved to Cairo.,seed,sketch,2026-11-17
-w1-0240,hammadids,range,4.6,36.0,200,1014,1152,no,attested,ibn-khaldun,,,"A branch of the Zirids in the central Maghreb, first at the Qala and then at Bejaia.",seed,sketch,2026-11-17
-w1-0241,marinids,range,-5.2,33.6,330,1244,1465,no,attested,ibn-khaldun;ibn-battuta,,,Zenata Berbers who took Morocco from the Almohads and ruled from Fez.,seed,sketch,2026-11-17
-w1-0242,wattasids,range,-5.4,34.0,200,1472,1554,no,attested,acts-treaties,,,"Kinsmen of the Marinids, who held Fez while Portugal took the Atlantic ports.",seed,sketch,2026-11-17
-w1-0243,zayyanids,range,-1.0,34.8,230,1235,1556,no,attested,ibn-khaldun,,,"Zenata Berbers at Tlemcen, pressed between Fez and Tunis.",seed,sketch,2026-11-17
-w1-0244,hafsids,range,9.5,35.0,330,1229,1574,no,attested,ibn-khaldun,,,Almohad governors of Masmuda descent who made Tunis their capital. They ruled in Arabic.,seed,sketch,2026-11-17
-w1-0245,kutama,range,5.6,36.4,110,700,1000,no,attested,ibn-hawqal;ibn-khaldun,,,"Mountain people of Lesser Kabylia, the army that brought the Fatimids to power.",seed,sketch,2026-11-17
-w1-0246,zenata,range,0.0,34.0,400,700,1300,no,reconstructed,ibn-khaldun,,,"One of Ibn Khaldun's three great Berber groupings, herders of the high plains.",seed,sketch,2026-11-17
-w1-0247,masmuda,range,-8.0,31.2,180,700,1300,no,reconstructed,bakri;ibn-khaldun,,,"Farmers of the High Atlas, among whom the Almohad movement began.",seed,sketch,2026-11-17
-w1-0248,sanhaja-north,range,-10.0,23.5,500,800,1400,no,reconstructed,bakri;ibn-khaldun,,,"Veiled camel nomads of the western Sahara, among them the Lamtuna, who made the Almoravid empire.",seed,sketch,2026-11-17
-w1-0249,kel-ahaggar,range,6.0,24.0,500,1000,2026,yes,reconstructed,ibn-battuta;census-neareast,,,"They call themselves Kel Tamasheq. Ibn Battuta crossed the Ahaggar in 1353, and their confederations there and in the Ajjer held the Saharan roads.",seed,sketch,2026-11-17
-w1-0250,mozabites,range,3.7,32.5,60,1050,2026,yes,attested,census-neareast,,,Ibadi Berbers who founded the five towns of the Mzab in the 11th century.,seed,sketch,2026-11-17
-w1-0251,kabyles,range,4.5,36.5,90,1500,2026,yes,attested,census-neareast,,,"The largest Berber-speaking people of Algeria, in the mountains east of Algiers.",seed,sketch,2026-11-17
-w1-0252,riffians,range,-3.8,35.0,90,1500,2026,yes,attested,census-neareast,,,Berbers of the Rif mountains. Their republic fought Spain and France from 1921 to 1926.,seed,sketch,2026-11-17
-w1-0253,ishelhien,range,-8.5,30.6,180,1500,2026,yes,attested,census-neareast,,,"The Berbers of the High Atlas and the Sous, called Shilha or Chleuh by outsiders.",seed,sketch,2026-11-17
-w1-0254,guanches,range,-16.6,28.3,110,1,1496,no,reconstructed,pliny-nh;canarian-chronicles,,,"The first people of the Canary Islands, known from archaeology and from their conquerors. Castile took the last island, Tenerife, in 1496.",seed,sketch,2026-11-17
-w1-0255,mamluks,range,31.3,28.5,350,1250,1517,no,attested,arabic-histories-east;ibn-battuta,,,"Slave soldiers, first Kipchak Turks and later Circassians, who ruled Egypt over an Arabic-speaking people.",seed,sketch,2026-11-17
-w1-0256,mamluks,range,36.5,34.0,260,1260,1516,no,attested,arabic-histories-east,,,"Syria, held after the Mongols were beaten at Ayn Jalut in 1260. The Ottomans took it in 1516.",seed,sketch,2026-11-17
-w1-0257,rashidun-caliphate,range,41.0,28.0,1000,632,661,no,attested,baladhuri;tabari,,,"The first four caliphs, at Medina. Their armies took Syria, Iraq, Egypt and Persia between 634 and 651.",seed,sketch,2026-11-17
-w1-0258,umayyad-caliphate,range,36.3,33.5,1500,661,750,no,attested,baladhuri;tabari;theophanes,,,Ruled from Damascus. At its widest it reached from Spain to the Indus.,seed,sketch,2026-11-17
-w1-0259,abbasid-caliphate,range,44.4,33.3,1200,750,945,no,attested,tabari;masudi,,,Baghdad was founded in 762. The provinces went their own way in the 9th century and the Buyids of Iran took Baghdad in 945.,seed,sketch,2026-11-17
-w1-0260,abbasid-caliphate,range,44.4,33.2,250,945,1258,no,attested,arabic-histories-east,,,"Caliphs under Buyid and Seljuk guardians, ruling Iraq themselves again in the 12th century. The Mongols killed the last in 1258.",seed,sketch,2026-11-17
-w1-0261,jalayirids,range,44.4,33.3,300,1335,1432,no,attested,arabic-histories-east,,,A Mongol house that kept Iraq after the Ilkhanate of Persia broke up.,seed,sketch,2026-11-17
-w1-0262,kingdom-of-jerusalem,range,35.2,32.0,120,1099,1187,no,attested,william-tyre,,,Founded by the First Crusade. French-speaking lords ruled Arabic-speaking Muslims and Christians.,seed,sketch,2026-11-17
-w1-0263,kingdom-of-jerusalem,range,35.1,32.9,60,1191,1291,no,attested,acts-treaties,,,"After Saladin took Jerusalem the kingdom was a strip of coast governed from Acre, which fell in 1291.",seed,sketch,2026-11-17
-w1-0264,county-of-edessa,range,38.6,37.1,100,1098,1144,no,attested,william-tyre;syriac-chronicles,,,The first Crusader state and the first to fall.,seed,sketch,2026-11-17
-w1-0265,principality-of-antioch,range,36.2,36.1,90,1098,1268,no,attested,william-tyre,,,"A Norman principality, taken by the Mamluk sultan Baybars in 1268.",seed,sketch,2026-11-17
-w1-0266,county-of-tripoli,range,35.9,34.5,60,1109,1289,no,attested,william-tyre,,,,seed,sketch,2026-11-17
-w1-0267,kingdom-of-cyprus,range,33.2,35.0,100,1192,1489,no,attested,acts-treaties,,,The Lusignan kings ruled a Greek-speaking island. Venice held it from 1489 and the Ottomans took it in 1571.,seed,sketch,2026-11-17
-w1-0268,regency-of-algiers,range,3.0,35.5,350,1516,1830,no,attested,acts-treaties,,,An Ottoman province founded by the Barbarossa brothers and ruled in practice by its own deys.,seed,sketch,2026-11-17
-w1-0269,regency-of-tunis,range,9.8,35.0,200,1574,1881,no,attested,acts-treaties,,,Ottoman from 1574 and ruled by the Husainid beys from 1705.,seed,sketch,2026-11-17
-w1-0270,regency-of-tripoli,range,15.0,31.0,400,1551,1911,no,attested,acts-treaties,,,"Ottoman from 1551, under the Karamanli family from 1711 to 1835.",seed,sketch,2026-11-17
-w1-0271,french-algeria,range,3.0,33.0,600,1830,1962,no,attested,acts-treaties,,,France took Algiers in 1830 and settled the coast. Independence came in 1962 after eight years of war.,seed,sketch,2026-11-17
-w1-0272,french-tunisia,range,9.5,34.5,200,1881,1956,no,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0273,french-morocco,range,-6.5,32.5,300,1912,1956,no,attested,acts-treaties,,,Spain held a zone in the north and another in the far south.,seed,sketch,2026-11-17
-w1-0274,spanish-sahara,range,-13.5,24.5,300,1884,1975,no,attested,acts-treaties,,,Spain withdrew in 1975. Sovereignty over the territory has been disputed since.,seed,sketch,2026-11-17
-w1-0275,italian-libya,range,17.0,29.0,500,1911,1943,no,attested,acts-treaties,,,Italy took the coast from the Ottomans in 1911 and the interior by 1931.,seed,sketch,2026-11-17
-w1-0276,mandate-palestine,range,35.1,31.8,90,1920,1948,no,attested,acts-treaties,,,Under British administration by mandate of the League of Nations.,seed,sketch,2026-11-17
-w1-0277,mandate-syria-lebanon,range,37.5,34.8,250,1920,1946,no,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0278,aden-protectorate,range,47.0,14.5,300,1839,1967,no,attested,acts-treaties,,,Britain took the port of Aden in 1839 and made treaties with the sultans inland.,seed,sketch,2026-11-17
-w1-0279,transcaucasia-russian,range,45.0,41.0,300,1801,1917,no,attested,acts-treaties,,,Russia annexed eastern Georgia in 1801 and took the rest from Persia and the Ottomans by 1829 and 1878.,seed,sketch,2026-11-17
-w1-0280,transcaucasia-russian,range,45.0,41.0,300,1921,1991,no,attested,acts-treaties,,,"Georgia, Armenia and Azerbaijan were independent from 1918 to 1921 and then Soviet republics until 1991.",seed,sketch,2026-11-17
-w1-0281,egypt-state,range,31.0,28.0,400,1805,1882,no,attested,acts-treaties,,,Muhammad Ali and his heirs ruled as Ottoman viceroys in name.,seed,sketch,2026-11-17
-w1-0282,egypt-state,range,31.0,28.0,400,1882,1922,no,attested,acts-treaties,,,Under British occupation.,seed,sketch,2026-11-17
-w1-0283,egypt-state,range,31.0,28.0,400,1922,2026,yes,attested,acts-treaties,,,A kingdom from 1922 and a republic from 1953.,seed,sketch,2026-11-17
-w1-0284,saudi-arabia,range,45.0,24.0,700,1932,2026,yes,attested,acts-treaties,,,"Ibn Saud took Riyadh in 1902 and the Hejaz in 1925, and named the kingdom in 1932.",seed,sketch,2026-11-17
-w1-0285,yemen,range,47.5,15.5,330,1990,2026,yes,attested,acts-treaties,,,North and South Yemen united in 1990. The country has been divided by war since 2014.,seed,sketch,2026-11-17
-w1-0286,oman,range,56.5,21.0,300,1856,2026,yes,attested,acts-treaties,,,"The sultanate of Muscat and Oman, called Oman since 1970.",seed,sketch,2026-11-17
-w1-0287,united-arab-emirates,range,54.3,24.0,150,1971,2026,yes,attested,acts-treaties,,,"Seven sheikhdoms, the Trucial States under British protection from the 19th century.",seed,sketch,2026-11-17
-w1-0288,qatar,range,51.2,25.3,50,1971,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0289,bahrain,range,50.55,26.05,30,1971,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0290,kuwait,range,47.7,29.3,60,1961,2026,yes,attested,acts-treaties,,,"A sheikhdom of the Al Sabah from the 18th century, under British protection from 1899 to 1961.",seed,sketch,2026-11-17
-w1-0291,iraq,range,43.7,33.2,330,1921,2026,yes,attested,acts-treaties,,,"A kingdom under British mandate from 1921, independent in 1932 and a republic from 1958.",seed,sketch,2026-11-17
-w1-0292,syria,range,38.5,35.0,250,1946,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0293,lebanon,range,35.8,33.9,50,1943,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0294,jordan,range,36.5,31.0,170,1921,2026,yes,attested,acts-treaties,,,The emirate of Transjordan from 1921 and a kingdom from 1946.,seed,sketch,2026-11-17
-w1-0295,israel,range,34.9,31.5,120,1948,2026,yes,attested,acts-treaties,,,"Founded in 1948. It has occupied the West Bank since 1967, and the status of the Palestinian territories is disputed.",seed,sketch,2026-11-17
-w1-0296,palestine,range,35.25,31.95,40,1994,2026,yes,attested,acts-treaties,,,The Palestinian Authority has administered parts of the West Bank and Gaza since 1994. Statehood and borders are disputed.,seed,sketch,2026-11-17
-w1-0297,cyprus,range,33.2,35.0,80,1960,2026,yes,attested,acts-treaties,,,Independent from Britain in 1960 and divided since 1974. Only Turkey recognises the state declared in the north.,seed,sketch,2026-11-17
-w1-0298,georgia,range,43.5,42.2,180,1991,2026,yes,attested,acts-treaties,,,The status of Abkhazia and South Ossetia is disputed.,seed,sketch,2026-11-17
-w1-0299,armenia,range,44.9,40.2,90,1991,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0300,azerbaijan,range,47.7,40.3,180,1991,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0301,libya,range,17.5,27.0,600,1951,2026,yes,attested,acts-treaties,,,A kingdom from 1951 and a republic from 1969. Rival governments have divided it since 2014.,seed,sketch,2026-11-17
-w1-0302,tunisia,range,9.5,34.0,200,1956,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0303,algeria,range,2.5,28.5,800,1962,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
-w1-0304,morocco,range,-6.5,32.0,350,1956,2026,yes,attested,acts-treaties,,,Morocco has held most of Western Sahara since 1975. Sovereignty over it is disputed.,seed,sketch,2026-11-17
-w1-0305,greek-speakers,range,28.5,38.8,330,1,1100,no,reconstructed,strabo-geog;linguistic-geography,,,"Western Anatolia, Greek on the coast since before 1 CE and in the interior by about 500.",seed,sketch,2026-11-17
-w1-0306,greek-speakers,range,33.0,37.3,280,1,300,no,reconstructed,strabo-geog;linguistic-geography,,,The cities and coasts of Pamphylia and Cilicia.,seed,sketch,2026-11-17
-w1-0307,greek-speakers,range,33.5,39.0,420,300,1150,no,reconstructed,linguistic-geography,,,Greek replaced the old languages of the interior and was the speech of Byzantine Anatolia until the Turkish settlement.,seed,sketch,2026-11-17
-w1-0308,greek-speakers,range,38.5,40.9,200,1,1923,no,reconstructed,strabo-geog;census-neareast,,,"Pontus, Greek-speaking until the exchange of populations in 1923.",seed,sketch,2026-11-17
-w1-0309,greek-speakers,range,28.8,39.3,260,1100,1330,no,reconstructed,linguistic-geography,,,Western Anatolia under the last Byzantine emperors.,seed,sketch,2026-11-17
-w1-0310,greek-speakers,range,27.3,38.6,130,1330,1923,no,reconstructed,ottoman-registers;census-neareast,,,"Smyrna and the Aegean coast, until 1923.",seed,sketch,2026-11-17
-w1-0311,greek-speakers,range,34.8,38.5,90,1150,1923,no,reconstructed,linguistic-geography,,,Cappadocian Greek villages.,seed,sketch,2026-11-17
-w1-0312,greek-speakers,range,33.2,35.0,110,1,2026,yes,attested,strabo-geog;census-neareast,,,Cyprus.,seed,sketch,2026-11-17
-w1-0313,byzantine-empire,range,32.5,39.0,450,395,1071,no,attested,procopius;theophanes,,,"Anatolia, the heart of the empire until the Seljuks won at Manzikert in 1071.",seed,sketch,2026-11-17
-w1-0314,byzantine-empire,range,34.0,31.5,450,395,640,no,attested,procopius,,,"Syria, Palestine and Egypt, lost to the Arabs between 634 and 642.",seed,sketch,2026-11-17
-w1-0315,byzantine-empire,range,9.5,35.5,250,534,698,no,attested,procopius;corippus,,,"Africa, retaken from the Vandals in 533 and 534 and held until the Arabs took Carthage in 698.",seed,sketch,2026-11-17
-w1-0316,byzantine-empire,range,29.5,39.5,280,1097,1204,no,attested,acts-treaties,,,"The west and the coasts of Anatolia, recovered behind the First Crusade.",seed,sketch,2026-11-17
-w1-0317,ottoman-empire,range,29.8,40.1,110,1299,1354,no,attested,ibn-battuta,,,The beylik of Osman in Bithynia. Bursa was its capital from 1326.,seed,sketch,2026-11-17
-w1-0318,ottoman-empire,range,31.0,39.5,300,1354,1453,no,attested,acts-treaties,,,"Western and central Anatolia, lost to Timur in 1402 and regained.",seed,sketch,2026-11-17
-w1-0319,ottoman-empire,range,34.5,39.0,480,1453,1922,no,attested,ottoman-registers,,,All Anatolia after the conquests of 1461 to 1517. The sultanate was abolished in 1922.,seed,sketch,2026-11-17
-w1-0320,ottoman-empire,range,39.5,34.0,450,1517,1918,no,attested,ottoman-registers,,,"Syria from 1516 and Iraq from 1534, with a frontier against Safavid Persia fixed in 1639.",seed,sketch,2026-11-17
-w1-0321,ottoman-empire,range,31.0,28.0,350,1517,1805,no,attested,ottoman-registers,,,"Egypt, governed through its Mamluk households.",seed,sketch,2026-11-17
-w1-0322,ottoman-empire,range,40.5,21.0,300,1517,1916,no,attested,acts-treaties,,,The Hejaz and at times Yemen.,seed,sketch,2026-11-17
-w1-0323,roman-empire,range,33.0,36.5,600,1,395,no,attested,strabo-geog;pliny-nh,,,"The eastern provinces: Anatolia, Syria, and Egypt. The frontier with Parthia and then Sasanian Persia ran along the Euphrates.",seed,sketch,2026-11-17
-w1-0324,roman-empire,range,8.0,34.0,600,1,429,no,attested,pliny-nh;african-inscriptions,,,"The African provinces, from Cyrenaica to Mauretania.",seed,sketch,2026-11-17
-w1-0325,turkey,range,35.0,39.0,600,1923,2026,yes,attested,acts-treaties,,,"The republic founded in 1923, with its capital at Ankara.",seed,sketch,2026-11-17
-w1-0326,vandals,range,9.5,35.8,300,429,534,no,attested,procopius,,,The Vandal kingdom of Africa. Carthage fell to them in 439 and to Belisarius in 533.,seed,sketch,2026-11-17
-w1-0327,almoravids,range,-8.0,30.5,450,1056,1147,no,attested,bakri;ibn-khaldun,,,A reform movement among the Sanhaja of the Sahara. They founded Marrakesh about 1062.,seed,sketch,2026-11-17
-w1-0328,almohads,range,-7.0,31.8,350,1121,1269,no,attested,ibn-khaldun,,,"A movement of the Masmuda of the High Atlas, begun by Ibn Tumart. Marrakesh fell to the Marinids in 1269.",seed,sketch,2026-11-17
-w1-0329,almohads,range,5.0,35.5,450,1152,1235,no,attested,ibn-khaldun,,,The central and eastern Maghreb as far as Tripoli.,seed,sketch,2026-11-17
 w9-0001,sami-far-north,range,22.0,68.5,340,1,2026,yes,indicative,linguistic-geography,,,"Sami languages across the far north of Fennoscandia. Thinly peopled land. Norwegian, Swedish, Finnish and Russian are now the majority languages in most of it.",seed,sketch,2026-11-17
 w9-0002,sami-far-north,range,35.0,67.5,300,1,2026,yes,indicative,linguistic-geography,,,"Sami of the Kola peninsula, with Russian the majority language since the 19th century.",seed,sketch,2026-11-17
 w9-0003,vistula-germanic,range,20.0,52.0,300,1,450,no,reconstructed,tacitus-germania;linguistic-geography,,,"The Przeworsk and Wielbark cultures, usually linked with the Lugii, Vandals and Goths. The language is inferred from those names.",seed,sketch,2026-11-17
@@ -3515,3 +3186,352 @@ w8-0254,territory-of-new-guinea,range,148.0,-4.8,480,1914,1949,no,attested,acts-
 w8-0255,papua-and-new-guinea,range,147.0,-6.3,560,1949,1975,no,attested,acts-treaties;patrol-reports,,,The two Australian territories joined under one administration.,seed,sketch,2026-11-17
 w8-0256,papua-new-guinea,range,147.0,-6.3,560,1975,2026,yes,attested,acts-treaties,,,"Independent since 1975, with English, Tok Pisin and Hiri Motu as national languages. Bougainville voted for independence in 2019 and its status is still being negotiated.",seed,sketch,2026-11-17
 w8-0257,indonesian-papua,range,136.3,-4.0,520,1963,2026,yes,attested,acts-treaties,,,"Indonesia has governed western New Guinea since 1963, confirmed by the disputed Act of Free Choice of 1969. It is now several provinces. An independence movement contests this and the atlas does not settle it.",seed,sketch,2026-11-17
+w1-0001,anatolian-speakers,range,32.5,38.8,330,1,450,no,reconstructed,strabo-geog;linguistic-geography,,,"Phrygian, Pisidian, Isaurian, Lycaonian and Cappadocian in the interior. Phrygian was written into the 3rd century and the others are last heard of between 400 and 600.",seed,sketch,2026-11-17
+w1-0002,galatian-speakers,range,32.6,39.8,110,1,400,no,reconstructed,linguistic-geography,,,"A Celtic language around Ancyra. Jerome wrote about 390 that it was close to the speech of Trier. A saint's life of the 6th century suggests it was still spoken then, so the end date is loose.",seed,sketch,2026-11-17
+w1-0003,armenian-speakers,range,42.5,39.6,280,1,1915,no,reconstructed,armenian-chronicles;linguistic-geography,,,The Armenian highland around Lake Van and Mount Ararat. Written from about 405.,seed,sketch,2026-11-17
+w1-0004,armenian-speakers,range,38.6,39.6,150,1,1915,no,reconstructed,linguistic-geography,,,"Lesser Armenia, west of the Euphrates.",seed,sketch,2026-11-17
+w1-0005,armenian-speakers,range,35.8,37.3,130,1080,1915,no,reconstructed,linguistic-geography,,,"Cilicia, settled by Armenians in the 11th century.",seed,sketch,2026-11-17
+w1-0006,armenian-speakers,range,44.8,40.2,130,1,2026,yes,attested,armenian-chronicles;census-neareast,,,,seed,sketch,2026-11-17
+w1-0007,armenian-speakers,range,46.6,39.8,80,1,2023,no,reconstructed,census-neareast,,,Artsakh or Karabakh. Almost all its Armenians left in 2023 when Azerbaijan took the territory.,seed,sketch,2026-11-17
+w1-0008,kurdish-speakers-west,range,43.8,37.0,220,650,1100,no,indicative,baladhuri;linguistic-geography,,,Arab writers name Kurds in these mountains from the 7th century. What was spoken there earlier is not known.,seed,sketch,2026-11-17
+w1-0009,kurdish-speakers-west,range,42.0,38.0,300,1100,2026,yes,reconstructed,sharafnama;census-neareast,,,Kurmanji Kurdish. It spread north over the Armenian highland from the 16th century.,seed,sketch,2026-11-17
+w1-0010,kurdish-speakers-west,range,44.8,36.0,170,900,2026,yes,reconstructed,census-neareast,,,"Sorani Kurdish, east of the Tigris.",seed,sketch,2026-11-17
+w1-0011,kurdish-speakers-west,range,40.8,36.9,90,1700,2026,yes,reconstructed,census-neareast,,,The Jazira of north-east Syria.,seed,sketch,2026-11-17
+w1-0012,turkish-speakers-anatolia,range,33.0,39.0,300,1071,1300,no,reconstructed,linguistic-geography,,,Oghuz Turks settled the plateau after the battle of Manzikert in 1071. Greek and Armenian were spoken beside Turkish for centuries.,seed,sketch,2026-11-17
+w1-0013,turkish-speakers-anatolia,range,32.5,39.0,470,1300,2026,yes,reconstructed,ottoman-registers;census-neareast,,,,seed,sketch,2026-11-17
+w1-0014,turkish-speakers-anatolia,range,40.0,39.8,300,1200,2026,yes,reconstructed,ottoman-registers;census-neareast,,,"Eastern Anatolia, beside Armenian until 1915 and beside Kurdish today.",seed,sketch,2026-11-17
+w1-0015,turkish-speakers-anatolia,range,33.4,35.1,90,1571,1974,no,indicative,ottoman-registers;census-neareast,,,"Turkish Cypriots, settled after the Ottoman conquest of 1571 in towns and villages across the island, among a Greek-speaking majority.",seed,sketch,2026-11-17
+w1-0016,turkish-speakers-anatolia,range,33.15,35.3,45,1974,2026,yes,attested,census-neareast,,,"The north of Cyprus, where Turkish Cypriots gathered after the division of 1974. Only Turkey recognises the state declared there, and sovereignty is disputed.",seed,sketch,2026-11-17
+w1-0017,turkish-speakers-anatolia,range,33.9,35.35,60,1974,2026,yes,attested,census-neareast,,,"Famagusta and the Karpas peninsula, in the north of Cyprus since 1974.",seed,sketch,2026-11-17
+w1-0018,turkish-speakers-anatolia,range,27.4,39.0,200,1923,2026,yes,attested,census-neareast,,,"The Aegean coast and the Troad, Turkish-speaking throughout since the exchange of populations in 1923.",seed,sketch,2026-11-17
+w1-0019,zan-speakers,range,41.9,42.4,130,1,2026,yes,reconstructed,procopius;linguistic-geography,,,"Colchis, with Svan in the mountains above it. Georgian has been the written language here since the 10th century.",seed,sketch,2026-11-17
+w1-0020,zan-speakers,range,40.9,41.1,80,1,2026,yes,reconstructed,procopius;linguistic-geography,,,The Laz of the coast east of Trebizond.,seed,sketch,2026-11-17
+w1-0021,georgian-speakers,range,44.2,41.9,170,1,2026,yes,reconstructed,georgian-chronicles;census-neareast,,,Kartli and Kakheti. Georgian has been written since the 5th century.,seed,sketch,2026-11-17
+w1-0022,georgian-speakers,range,42.6,42.2,170,800,2026,yes,reconstructed,georgian-chronicles;census-neareast,,,Georgian spread west as the language of church and kingdom.,seed,sketch,2026-11-17
+w1-0023,abkhaz-speakers,range,41.0,43.1,80,1,2026,yes,reconstructed,procopius;linguistic-geography,,,The Abasgoi and Apsilai of Greek writers.,seed,sketch,2026-11-17
+w1-0024,caucasian-albanian-speakers,range,47.5,40.6,200,1,1100,no,reconstructed,strabo-geog;linguistic-geography,,,The languages of Caucasian Albania. One was written from the 5th century and survives as Udi.,seed,sketch,2026-11-17
+w1-0025,caucasian-albanian-speakers,range,48.0,41.4,90,1100,2026,yes,reconstructed,census-neareast,,,Lezgian and its relatives in the north of Azerbaijan.,seed,sketch,2026-11-17
+w1-0026,tat-speakers,range,49.2,40.4,150,500,1900,no,reconstructed,linguistic-geography,,,Persian speakers settled in Shirvan and around Baku under the Sasanians. Tat is a small language today.,seed,sketch,2026-11-17
+w1-0027,azeri-speakers-caucasus,range,47.5,40.4,220,1050,2026,yes,reconstructed,linguistic-geography;census-neareast,,,Oghuz Turkic arrived with the Seljuks in the 11th century and was the main language by about 1500.,seed,sketch,2026-11-17
+w1-0028,circassian-speakers,range,40.0,44.3,200,1,1864,no,reconstructed,linguistic-geography,,,"Adyghe and Kabardian, from the Black Sea coast to the Kuban.",seed,sketch,2026-11-17
+w1-0029,circassian-speakers,range,40.2,44.4,80,1864,2026,yes,attested,census-neareast,,,Adygea. Most Circassians were driven out to the Ottoman Empire in 1864.,seed,sketch,2026-11-17
+w1-0030,circassian-speakers,range,43.5,43.6,80,1400,2026,yes,reconstructed,census-neareast,,,Kabardian.,seed,sketch,2026-11-17
+w1-0031,alan-ossetian-speakers,range,43.0,43.9,220,1,1240,no,reconstructed,ammianus;linguistic-geography,,,Sarmatian and then Alan speech on the plains north of the mountains.,seed,sketch,2026-11-17
+w1-0032,alan-ossetian-speakers,range,44.2,42.9,80,1240,2026,yes,reconstructed,census-neareast,,,"Ossetian, the descendant of Alan, in the central valleys.",seed,sketch,2026-11-17
+w1-0033,nakh-dagestanian-speakers,range,46.3,42.8,200,1,2026,yes,reconstructed,linguistic-geography;census-neareast,,,"Chechen, Ingush, Avar, Dargwa, Lak, Lezgian and some thirty more languages. Their long presence is inferred from the depth of the family.",seed,sketch,2026-11-17
+w1-0034,north-caucasus-turkic,range,44.5,44.4,250,1240,1800,no,reconstructed,linguistic-geography,,,"Kipchak Turkic on the steppe north of the mountains after the Mongol conquest: Nogai, Kumyk and Karachay-Balkar.",seed,sketch,2026-11-17
+w1-0035,north-caucasus-turkic,range,45.5,44.3,150,1800,2026,yes,reconstructed,census-neareast,,,Nogai and Kumyk today. Karachay and Balkar are spoken in the high valleys to the west.,seed,sketch,2026-11-17
+w1-0036,russian-speakers-caucasus,range,41.5,45.0,280,1800,2026,yes,attested,census-neareast,,,"Cossack and Russian settlement along the Kuban and the Terek, from the late 18th century.",seed,sketch,2026-11-17
+w1-0037,icelandic-speakers,range,-19.0,65.0,280,870,2026,yes,attested,islendingabok,,,"Settled from Norway and the Norse settlements in Britain and Ireland from about 870. The island had no people before, apart perhaps from a few Irish hermits.",seed,sketch,2026-11-17
+w1-0038,aramaic-speakers,range,37.0,34.5,330,1,900,no,reconstructed,josephus;syriac-chronicles;linguistic-geography,,,The speech of the villages of Syria and Palestine. Greek was the language of the cities and of government.,seed,sketch,2026-11-17
+w1-0039,aramaic-speakers,range,44.0,33.5,400,1,900,no,reconstructed,syriac-chronicles;linguistic-geography,,,"Aramaic in Mesopotamia, in the dialects of the Babylonian Talmud, the Mandaeans and the Church of the East.",seed,sketch,2026-11-17
+w1-0040,aramaic-speakers,range,40.0,37.3,220,1,1100,no,reconstructed,syriac-chronicles,,,"Edessa, Nisibis and Tur Abdin, the home of Syriac.",seed,sketch,2026-11-17
+w1-0041,aramaic-speakers,range,41.0,36.0,330,900,1100,no,reconstructed,syriac-chronicles;linguistic-geography,,,"Arabic replaced Aramaic between about 700 and 1100, last in the north and in the mountains.",seed,sketch,2026-11-17
+w1-0042,aramaic-speakers,range,36.0,34.2,60,900,1500,no,indicative,linguistic-geography,,,"Mount Lebanon and the Qalamun, where Aramaic lasted longest in Syria. Three villages near Maaloula still speak it.",seed,sketch,2026-11-17
+w1-0043,aramaic-speakers,range,42.8,37.0,150,1100,1915,no,reconstructed,syriac-chronicles;census-neareast,,,"Neo-Aramaic of the Christians and Jews of Tur Abdin, Hakkari and the Mosul plain.",seed,sketch,2026-11-17
+w1-0044,aramaic-speakers,range,43.2,36.6,80,1915,2026,yes,reconstructed,census-neareast,,,The Mosul plain and the valleys north of it. Many speakers have left Iraq since 2003.,seed,sketch,2026-11-17
+w1-0045,hebrew-speakers,range,35.1,31.7,60,1,200,no,reconstructed,josephus;linguistic-geography,,,Hebrew was still spoken in Judaea beside Aramaic. It went out of daily use after the revolt of 132 to 135.,seed,sketch,2026-11-17
+w1-0046,hebrew-speakers,range,34.85,32.2,50,1900,1948,no,attested,census-neareast,,,Hebrew was revived as an everyday language by Jewish settlers from the 1880s.,seed,sketch,2026-11-17
+w1-0047,hebrew-speakers,range,34.9,32.3,70,1948,2026,yes,attested,census-neareast,,,Israel. Arabic is spoken beside it.,seed,sketch,2026-11-17
+w1-0048,hebrew-speakers,range,34.9,30.8,90,1948,2026,yes,attested,census-neareast,,,The Negev.,seed,sketch,2026-11-17
+w1-0049,phoenician-speakers,range,35.5,33.8,60,1,200,no,reconstructed,linguistic-geography,,,"Phoenician on the coast of Tyre and Sidon, giving way to Aramaic and Greek.",seed,sketch,2026-11-17
+w1-0050,phoenician-speakers,range,10.0,35.6,220,1,450,no,reconstructed,african-inscriptions;augustine,,,"Punic, the Phoenician of Carthage, in Tunisia and eastern Algeria. Augustine heard it in the countryside about 400. Some scholars think it lasted until the Arab conquest, so the end date is loose.",seed,sketch,2026-11-17
+w1-0051,phoenician-speakers,range,13.6,32.5,120,1,400,no,reconstructed,african-inscriptions,,,"Tripolitania, where Punic was written in Latin letters into the 4th century.",seed,sketch,2026-11-17
+w1-0052,arabic-arabia,range,42.0,25.0,600,1,2026,yes,reconstructed,north-arabian-inscriptions;linguistic-geography,,,"Arabic and the closely related Old North Arabian dialects of the Hejaz and Najd, known before Islam from thousands of rock inscriptions.",seed,sketch,2026-11-17
+w1-0053,arabic-arabia,range,36.5,30.0,220,1,700,no,reconstructed,north-arabian-inscriptions,,,Nabataea and the Negev. The Nabataeans wrote Aramaic and spoke Arabic.,seed,sketch,2026-11-17
+w1-0054,arabic-arabia,range,38.5,33.0,220,1,2026,yes,indicative,north-arabian-inscriptions;linguistic-geography,,,"Nomads of the Syrian desert, who left the Safaitic inscriptions in the first centuries CE. Thinly peopled.",seed,sketch,2026-11-17
+w1-0055,arabic-arabia,range,51.0,24.5,450,1,2026,yes,indicative,linguistic-geography;census-neareast,,,The Gulf coast and its hinterland. Thinly peopled away from the coast.,seed,sketch,2026-11-17
+w1-0056,arabic-arabia,range,50.0,20.0,400,1,2026,yes,indicative,linguistic-geography,,,"The Empty Quarter, crossed by a few nomads and otherwise without people.",seed,sketch,2026-11-17
+w1-0057,arabic-arabia,range,56.8,21.8,330,1,2026,yes,indicative,linguistic-geography;census-neareast,,,"Oman, where Arab tradition brings the Azd in the first centuries CE. What was spoken before is not known.",seed,sketch,2026-11-17
+w1-0058,arabic-arabia,range,45.5,15.8,400,550,2026,yes,reconstructed,linguistic-geography;census-neareast,,,Arabic replaced the Old South Arabian languages of Yemen about 600.,seed,sketch,2026-11-17
+w1-0059,arabic-arabia,range,50.5,16.5,250,600,2026,yes,reconstructed,linguistic-geography;census-neareast,,,Hadramawt.,seed,sketch,2026-11-17
+w1-0060,arabic-levant,range,37.0,33.5,330,700,2026,yes,reconstructed,baladhuri;linguistic-geography;census-neareast,,,Arabic spread from the garrison towns and the desert edge after the conquest of the 630s and was the common speech by about 1000.,seed,sketch,2026-11-17
+w1-0061,arabic-levant,range,44.5,33.0,400,700,2026,yes,reconstructed,baladhuri;linguistic-geography;census-neareast,,,"Iraq, from the garrison towns of Kufa and Basra.",seed,sketch,2026-11-17
+w1-0062,arabic-levant,range,36.5,30.5,220,700,2026,yes,reconstructed,linguistic-geography;census-neareast,,,Jordan and the Negev.,seed,sketch,2026-11-17
+w1-0063,old-south-arabian-speakers,range,45.0,15.3,330,1,650,no,attested,south-arabian-inscriptions,,,"Sabaic, Minaic and Qatabanic in the highlands of Yemen, written until the 6th century.",seed,sketch,2026-11-17
+w1-0064,old-south-arabian-speakers,range,49.5,16.0,300,1,650,no,reconstructed,south-arabian-inscriptions;periplus,,,Hadramitic in the Hadramawt.,seed,sketch,2026-11-17
+w1-0065,modern-south-arabian-speakers,range,52.5,17.2,220,1,1000,no,indicative,periplus;linguistic-geography,,,"The Modern South Arabian languages, a separate branch from the written languages of Yemen. Their early extent is inferred, and the land was thinly peopled.",seed,sketch,2026-11-17
+w1-0066,modern-south-arabian-speakers,range,52.8,17.2,130,1000,2026,yes,reconstructed,census-neareast,,,"Mehri, Jibbali and their relatives in Mahra and Dhofar.",seed,sketch,2026-11-17
+w1-0067,modern-south-arabian-speakers,range,53.9,12.5,90,1,2026,yes,reconstructed,periplus;census-neareast,,,Soqotra.,seed,sketch,2026-11-17
+w1-0068,egyptian-speakers,range,31.0,27.0,420,1,950,no,attested,papyri,,,"Egyptian, written in Demotic and from the 3rd century in the Coptic alphabet.",seed,sketch,2026-11-17
+w1-0069,egyptian-speakers,range,27.5,26.0,330,1,1000,no,indicative,papyri;linguistic-geography,,,The oases of the western desert. Empty of people between them.,seed,sketch,2026-11-17
+w1-0070,egyptian-speakers,range,31.5,27.0,300,950,1300,no,reconstructed,arabic-histories-east;linguistic-geography,,,"Arabic replaced Coptic between about 700 and 1300, first in the Delta and the towns.",seed,sketch,2026-11-17
+w1-0071,egyptian-speakers,range,32.0,26.3,200,1300,1450,no,indicative,linguistic-geography,,,"Upper Egypt, where Coptic was spoken longest. Scholars disagree on the end: some put it in the 11th century, most by about 1400, and reports of speakers in the 15th and 17th centuries are doubted.",seed,sketch,2026-11-17
+w1-0072,greek-speakers-africa,range,30.0,31.1,70,1,700,no,attested,strabo-geog;papyri,,,"Alexandria, the largest Greek-speaking city of its time.",seed,sketch,2026-11-17
+w1-0073,greek-speakers-africa,range,21.8,32.6,90,1,650,no,reconstructed,strabo-geog;linguistic-geography,,,"Cyrene and its four sister cities, Greek since the 7th century BCE.",seed,sketch,2026-11-17
+w1-0074,beja-speakers-egypt,range,34.8,24.0,230,1,1400,no,indicative,strabo-geog;procopius;linguistic-geography,,,"Nomads of the eastern desert, the Blemmyes of ancient writers, taken to have spoken an early form of Beja. Thinly peopled.",seed,sketch,2026-11-17
+w1-0075,beja-speakers-egypt,range,35.3,23.0,150,1400,2026,yes,reconstructed,census-neareast,,,The Bisharin Beja of the far south-east. The Ababda north of them now speak Arabic.,seed,sketch,2026-11-17
+w1-0076,nubian-speakers-egypt,range,31.5,22.8,170,1,1964,no,indicative,linguistic-geography;census-neareast,,,"Lower Nubia, south of Aswan, where Meroitic was written until the 4th century and Nubian after it. The desert on either side is empty.",seed,sketch,2026-11-17
+w1-0077,nubian-speakers-egypt,range,32.6,23.6,120,1964,2026,yes,reconstructed,census-neareast,,,Most Egyptian Nubians were moved north to Kom Ombo when the Aswan High Dam flooded their valley in 1964.,seed,sketch,2026-11-17
+w1-0078,arabic-egypt,range,33.8,29.5,150,1,700,no,indicative,strabo-geog;linguistic-geography,,,Arab nomads of Sinai and the desert east of the Delta. Thinly peopled.,seed,sketch,2026-11-17
+w1-0079,arabic-egypt,range,31.0,29.0,330,700,950,no,reconstructed,arabic-histories-east;linguistic-geography,,,"Fustat, the Delta and the towns, after the conquest of 641.",seed,sketch,2026-11-17
+w1-0080,arabic-egypt,range,30.5,26.5,560,950,2026,yes,reconstructed,arabic-histories-east;census-neareast,,,The language of nearly all Egyptians since about 1300. The deserts are thinly peopled.,seed,sketch,2026-11-17
+w1-0081,arabic-egypt,range,27.0,30.5,250,1050,2026,yes,reconstructed,census-neareast,,,Bedouin of the coast west of Alexandria.,seed,sketch,2026-11-17
+w1-0082,berber-speakers,range,-6.0,32.0,450,1,1150,no,reconstructed,pliny-nh;linguistic-geography,,,"Berber, called Tamazight by its speakers, in Morocco.",seed,sketch,2026-11-17
+w1-0083,berber-speakers,range,4.0,34.5,500,1,1100,no,reconstructed,african-inscriptions;linguistic-geography,,,Algeria and Tunisia. The Libyan inscriptions of Numidia are in an early form of the language.,seed,sketch,2026-11-17
+w1-0084,berber-speakers,range,15.0,29.5,600,1,1100,no,reconstructed,pliny-nh;linguistic-geography,,,Tripolitania and the Fezzan.,seed,sketch,2026-11-17
+w1-0085,berber-speakers,range,22.0,28.0,450,1,1100,no,indicative,linguistic-geography,,,Cyrenaica and the Libyan desert. Thinly peopled.,seed,sketch,2026-11-17
+w1-0086,berber-speakers,range,26.0,29.0,250,1,1100,no,indicative,linguistic-geography,,,The oases west of the Nile. Thinly peopled.,seed,sketch,2026-11-17
+w1-0087,berber-speakers,range,25.5,29.2,60,1100,2026,yes,attested,census-neareast,,,"Siwa, the one Berber-speaking oasis of Egypt.",seed,sketch,2026-11-17
+w1-0088,berber-speakers,range,-12.5,24.5,450,1,1400,no,indicative,bakri;linguistic-geography,,,"The western Sahara, home of the Sanhaja nomads. Thinly peopled.",seed,sketch,2026-11-17
+w1-0089,berber-speakers,range,-6.0,26.5,300,1,1400,no,indicative,linguistic-geography,,,The sand seas between the Draa and the Niger bend. Almost empty.,seed,sketch,2026-11-17
+w1-0090,berber-speakers,range,5.0,24.5,700,1,2026,yes,indicative,ibn-battuta;linguistic-geography,,,"The central Sahara, where Tuareg speak Tamasheq. Very thinly peopled.",seed,sketch,2026-11-17
+w1-0091,berber-speakers,range,-6.8,31.5,300,1150,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,"The Rif, the Atlas and the Sous, where Berber held while Arabic took the plains.",seed,sketch,2026-11-17
+w1-0092,berber-speakers,range,5.5,35.8,170,1100,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,Kabylia and the Aures.,seed,sketch,2026-11-17
+w1-0093,berber-speakers,range,11.5,31.6,200,1100,2026,yes,reconstructed,census-neareast,,,"The Nafusa hills, Zuwara, Ghadames and the island of Djerba.",seed,sketch,2026-11-17
+w1-0094,guanche-speakers,range,-16.8,28.3,120,1,1500,no,indicative,canarian-chronicles;linguistic-geography,,,"The languages of the Canary Islands, known from words and names and taken to be Berber. Recent radiocarbon work puts the first lasting settlement between the 1st and 4th centuries, so the first two centuries of this claim are doubtful.",seed,sketch,2026-11-17
+w1-0095,guanche-speakers,range,-14.2,28.6,80,1,1500,no,indicative,canarian-chronicles;linguistic-geography,,,Fuerteventura and Lanzarote.,seed,sketch,2026-11-17
+w1-0096,spanish-canaries,range,-16.8,28.3,120,1480,2026,yes,attested,canarian-chronicles;census-neareast,,,Castile conquered the islands between 1402 and 1496.,seed,sketch,2026-11-17
+w1-0097,spanish-canaries,range,-14.2,28.6,80,1420,2026,yes,attested,canarian-chronicles;census-neareast,,,The eastern islands were taken first.,seed,sketch,2026-11-17
+w1-0098,latin-speakers-africa,range,9.0,36.0,250,1,700,no,reconstructed,african-inscriptions;augustine,,,Latin in the towns and farms of Africa Proconsularis and Numidia.,seed,sketch,2026-11-17
+w1-0099,latin-speakers-africa,range,2.0,36.2,250,40,700,no,reconstructed,african-inscriptions,,,The coast of Mauretania.,seed,sketch,2026-11-17
+w1-0100,latin-speakers-africa,range,9.3,35.2,150,700,1200,no,indicative,linguistic-geography,,,"A Romance speech lasted in a few towns of Tunisia. Al-Idrisi still heard it at Gafsa in the 12th century, and it may have lasted in places into the 14th or 15th.",seed,sketch,2026-11-17
+w1-0101,arabic-maghreb,range,10.0,35.5,200,700,1050,no,reconstructed,linguistic-geography,,,"Kairouan, Tunis and the towns of Ifriqiya.",seed,sketch,2026-11-17
+w1-0102,arabic-maghreb,range,-5.0,34.0,120,800,1150,no,reconstructed,bakri;linguistic-geography,,,Fez and the towns of the north.,seed,sketch,2026-11-17
+w1-0103,arabic-maghreb,range,9.5,34.5,330,1050,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,Bedouin Arabic spread over the plains after the Banu Hilal arrived about 1050.,seed,sketch,2026-11-17
+w1-0104,arabic-maghreb,range,2.0,35.0,400,1050,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,The plains and plateaus of Algeria.,seed,sketch,2026-11-17
+w1-0105,arabic-maghreb,range,17.0,31.0,500,1050,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,"Tripolitania and Cyrenaica, settled by the Banu Sulaym.",seed,sketch,2026-11-17
+w1-0106,arabic-maghreb,range,22.0,27.0,500,1100,2026,yes,indicative,linguistic-geography,,,The Libyan desert. Very thinly peopled.,seed,sketch,2026-11-17
+w1-0107,arabic-maghreb,range,-6.5,33.5,280,1150,2026,yes,reconstructed,ibn-khaldun;census-neareast,,,"The Atlantic plains of Morocco, settled by Arab nomads under the Almohads.",seed,sketch,2026-11-17
+w1-0108,arabic-maghreb,range,1.0,29.0,450,1150,2026,yes,indicative,linguistic-geography,,,The oases and nomads of the northern Sahara. Thinly peopled.,seed,sketch,2026-11-17
+w1-0109,arabic-maghreb,range,-12.5,24.5,450,1350,2026,yes,reconstructed,linguistic-geography;census-neareast,,,"Hassaniya Arabic, brought by the Banu Hassan and taken up by the Sanhaja. Thinly peopled.",seed,sketch,2026-11-17
+w1-0110,arabic-maghreb,range,-6.0,26.5,300,1350,2026,yes,indicative,linguistic-geography,,,"The sand seas south of the Draa, crossed by Arabic-speaking nomads. Almost empty.",seed,sketch,2026-11-17
+w1-0111,teda-libya,range,19.0,22.0,450,1,2026,yes,indicative,linguistic-geography,,,"The Teda or Tubu of the southern Libyan desert, on the edge of Tibesti. Very thinly peopled, and their early history is not recorded.",seed,sketch,2026-11-17
+w1-0112,galatians,range,32.6,39.8,120,1,400,no,attested,strabo-geog,,,Celts who crossed into Anatolia in 278 BCE. Their land became a Roman province in 25 BCE.,seed,sketch,2026-11-17
+w1-0113,cappadocians,range,35.0,38.6,170,1,450,no,attested,strabo-geog,,,A client kingdom until Rome annexed it in 17. A Cappadocian language is reported into the 4th century.,seed,sketch,2026-11-17
+w1-0114,phrygians,range,30.8,39.0,140,1,300,no,reconstructed,strabo-geog;linguistic-geography,,,Phrygian was still cut on gravestones in the 2nd and 3rd centuries.,seed,sketch,2026-11-17
+w1-0115,isaurians,range,32.6,37.1,110,1,500,no,attested,strabo-geog;ammianus,,,Mountain people of the Taurus who raided the lowlands. One of them became the emperor Zeno in 474.,seed,sketch,2026-11-17
+w1-0116,pontus-kingdom,range,37.5,40.8,150,1,62,no,attested,strabo-geog,,,"The remainder of the kingdom of Mithridates, ruled by the house of Polemon. Nero annexed it in 62 or 64.",seed,sketch,2026-11-17
+w1-0117,commagene,range,38.3,37.7,80,1,17,no,attested,josephus;strabo-geog,,,A small kingdom on the Euphrates whose kings claimed Greek and Persian descent. Rome made it a province in 17.,seed,sketch,2026-11-17
+w1-0118,commagene,range,38.3,37.7,80,38,72,no,attested,josephus,,,Restored under Antiochus IV in 38 and annexed for good in 72.,seed,sketch,2026-11-17
+w1-0119,empire-of-nicaea,range,29.5,39.6,220,1204,1261,no,attested,acts-treaties,,,The Byzantine state in exile after 1204. It retook Constantinople in 1261.,seed,sketch,2026-11-17
+w1-0120,empire-of-trebizond,range,39.3,40.9,150,1204,1461,no,attested,acts-treaties,,,"A Greek state on the Pontic coast under the Komnenos family, taken by the Ottomans in 1461.",seed,sketch,2026-11-17
+w1-0121,seljuks-of-rum,range,32.5,38.3,280,1077,1243,no,attested,arabic-histories-east,,,"The Seljuk sultanate of Anatolia, with its capital at Nicaea until 1097 and then at Konya. Rum means Rome.",seed,sketch,2026-11-17
+w1-0122,seljuks-of-rum,range,33.0,38.6,300,1243,1308,no,attested,arabic-histories-east,,,Tributary to the Mongols after the battle of Kose Dag in 1243.,seed,sketch,2026-11-17
+w1-0123,danishmends,range,37.3,39.7,180,1071,1178,no,reconstructed,arabic-histories-east,,,"Turkmen rulers of Sivas and Malatya, absorbed by the sultans of Rum.",seed,sketch,2026-11-17
+w1-0124,karamanids,range,33.2,37.3,150,1250,1487,no,attested,ibn-battuta;ottoman-registers,,,The strongest of the beyliks and the last to fall to the Ottomans.,seed,sketch,2026-11-17
+w1-0125,aegean-beyliks,range,28.6,38.3,170,1300,1425,no,attested,ibn-battuta,,,"Aydin, Menteshe, Saruhan and Germiyan. Ibn Battuta visited their courts in the 1330s.",seed,sketch,2026-11-17
+w1-0126,white-sheep-turkmen,range,40.2,37.9,250,1378,1508,no,attested,arabic-histories-east,,,"The White Sheep Turkmen of Diyarbakir. After 1467 they ruled Iran as well, until the Safavids.",seed,sketch,2026-11-17
+w1-0127,black-sheep-turkmen,range,44.0,38.8,250,1375,1468,no,attested,arabic-histories-east,,,"The Black Sheep Turkmen of Lake Van and Azerbaijan, who also held Baghdad.",seed,sketch,2026-11-17
+w1-0128,anatolian-turks-people,range,33.0,39.0,450,1500,2026,yes,attested,ottoman-registers;census-neareast,,,"The Turkish-speaking Muslims of Anatolia, the core of the Ottoman Empire and of the republic.",seed,sketch,2026-11-17
+w1-0129,kurdistan-kurds,range,43.8,37.0,220,650,990,no,reconstructed,baladhuri;masudi,,,Arab writers name Kurds in the mountains north and east of Mosul from the time of the conquests.,seed,sketch,2026-11-17
+w1-0130,kurdistan-kurds,range,42.5,37.5,300,1850,2026,yes,attested,census-neareast,,,"Divided since the 1920s between Turkey, Iraq, Syria and Iran. The Kurdistan Region of Iraq has governed itself since 1991.",seed,sketch,2026-11-17
+w1-0131,marwanids,range,40.6,38.0,150,990,1085,no,attested,arabic-histories-east,,,"A Kurdish dynasty at Mayyafariqin and Amid, now Diyarbakir.",seed,sketch,2026-11-17
+w1-0132,shaddadids,range,46.0,40.5,140,951,1075,no,attested,armenian-chronicles;arabic-histories-east,,,A Kurdish dynasty at Ganja and Dvin. A branch held Ani until 1199.,seed,sketch,2026-11-17
+w1-0133,kurdish-emirates,range,43.0,37.4,230,1500,1850,no,attested,sharafnama;ottoman-registers,,,"Bitlis, Bohtan, Hakkari, Soran, Baban and others, hereditary emirs between the Ottomans and Persia. The Ottomans removed the last about 1850.",seed,sketch,2026-11-17
+w1-0134,yazidis,range,42.2,36.5,100,1200,2026,yes,reconstructed,census-neareast,,,"A Kurdish-speaking religious community of Sinjar and Sheikhan, formed around the tomb of Sheikh Adi, who died in 1162. Many were killed or driven out in 2014.",seed,sketch,2026-11-17
+w1-0135,kingdom-of-armenia,range,43.3,39.6,280,1,428,no,attested,tacitus;armenian-chronicles,,,"Contested between Rome and Parthia and ruled by a branch of the Parthian royal house from the 50s. It was Christian from the early 4th century, and the kingship ended in 428.",seed,sketch,2026-11-17
+w1-0136,persian-armenia,range,44.3,39.9,220,428,646,no,attested,armenian-chronicles;procopius,,,Governed by Persian marzbans while the nobles kept their lands. The alphabet was made about 405 and the revolt of 451 fills the chronicles. Arab armies took the country in the 640s.,seed,sketch,2026-11-17
+w1-0137,bagratid-armenia,range,43.8,40.4,200,885,1045,no,attested,armenian-chronicles,,,"The restored kingdom, with its capital at Ani. Byzantium annexed it in 1045.",seed,sketch,2026-11-17
+w1-0138,vaspurakan,range,43.2,38.4,110,908,1021,no,attested,armenian-chronicles,,,The Artsruni kingdom around Lake Van.,seed,sketch,2026-11-17
+w1-0139,cilician-armenia,range,35.6,37.2,150,1080,1375,no,attested,armenian-chronicles;william-tyre,,,A principality of Armenian settlers from about 1080 and a kingdom from 1198. The Mamluks took its capital Sis in 1375.,seed,sketch,2026-11-17
+w1-0140,armenians-later,range,42.0,39.5,330,1375,1915,no,attested,ottoman-registers;census-neareast,,,"Without a state, under Ottoman and Persian and from 1828 Russian rule. Most Armenians of Anatolia were deported and killed in 1915.",seed,sketch,2026-11-17
+w1-0141,armenians-later,range,44.8,40.2,120,1915,2026,yes,attested,census-neareast,,,"A republic in 1918, a Soviet republic from 1920 and independent since 1991.",seed,sketch,2026-11-17
+w1-0142,iberia-kartli,range,44.7,41.8,130,1,580,no,attested,strabo-geog;georgian-chronicles,,,"The east Georgian kingdom, with its capital at Mtskheta, Christian from about 330. Persia ended the kingship about 580.",seed,sketch,2026-11-17
+w1-0143,iberia-kartli,range,44.8,41.7,130,580,1008,no,reconstructed,georgian-chronicles,,,"Ruled by princes under Persian, Byzantine and then Arab overlords. Tbilisi was an Arab emirate from the 8th century.",seed,sketch,2026-11-17
+w1-0144,lazica,range,42.0,42.3,130,1,131,no,reconstructed,strabo-geog,,,"Ancient Colchis, under the kings of Pontus and then Rome. Strabo describes the country, and the Lazi are named later in the century.",seed,sketch,2026-11-17
+w1-0145,lazica,range,42.0,42.3,130,131,697,no,attested,procopius,,,"A kingdom of the Lazi, first recorded with its king by Arrian in 131 and a client of Rome. Rome and Persia fought for it from 541 to 562.",seed,sketch,2026-11-17
+w1-0146,kingdom-of-abkhazia,range,41.9,42.7,150,780,1008,no,attested,georgian-chronicles;dai,,,"Founded by Abkhaz princes in the 780s, it covered western Georgia. Georgian became the language of its church and court, and what the first kings spoke is not known.",seed,sketch,2026-11-17
+w1-0147,tao-klarjeti,range,41.8,41.0,110,813,1008,no,attested,georgian-chronicles;dai,,,"The Bagrationi principality in the south-west, from which the kings of united Georgia came.",seed,sketch,2026-11-17
+w1-0148,kingdom-of-georgia,range,43.5,42.0,280,1008,1490,no,attested,georgian-chronicles,,,"United in 1008 and at its height under David IV and Tamar, about 1200. Mongols and Timur broke it and it divided by about 1490.",seed,sketch,2026-11-17
+w1-0149,kartli-kakheti,range,45.0,41.7,130,1490,1801,no,attested,georgian-chronicles;acts-treaties,,,"The eastern kingdoms, under Safavid Persia for most of the period and united in 1762. Russia annexed them in 1801.",seed,sketch,2026-11-17
+w1-0150,imereti,range,42.7,42.2,120,1490,1810,no,attested,georgian-chronicles;acts-treaties,,,"The western kingdom, under Ottoman influence. Russia annexed it in 1810.",seed,sketch,2026-11-17
+w1-0151,caucasian-albania,range,47.3,40.7,180,1,705,no,attested,strabo-geog;armenian-chronicles,,,"A kingdom between the Kura and the Caspian, unrelated to Albania in the Balkans. Strabo says its people spoke many languages.",seed,sketch,2026-11-17
+w1-0152,alans-caucasus,range,43.0,44.0,220,100,900,no,reconstructed,ammianus;procopius,,,"Iranian-speaking horsemen north of the Caucasus passes, under the Khazars from the 7th century.",seed,sketch,2026-11-17
+w1-0153,alans-caucasus,range,43.0,43.6,200,900,1239,no,attested,dai;masudi,,,"The kingdom of Alania, free of the Khazars from the late 9th century and Christian from the early 10th. The Mongols took its capital in 1239 or 1240.",seed,sketch,2026-11-17
+w1-0154,ossetians,range,44.2,42.9,80,1300,1774,no,reconstructed,georgian-chronicles,,,"Descendants of the Alans, who withdrew into the central valleys after the Mongol and Timurid wars. Their placement in these centuries is by later scholarship.",seed,sketch,2026-11-17
+w1-0155,ossetians,range,44.2,42.9,80,1774,2026,yes,attested,census-neareast,,,Under Russia from the 1770s. South Ossetia broke from Georgia in the 1990s and its status is disputed.,seed,sketch,2026-11-17
+w1-0156,circassians,range,39.6,44.4,180,500,1864,no,attested,procopius;dai,,,"They call themselves Adyghe, and Greek writers call them Zichoi. Russia conquered them in 1864 and most were driven out.",seed,sketch,2026-11-17
+w1-0157,circassians,range,40.3,44.4,80,1864,2026,yes,attested,census-neareast,,,"Those who stayed, in Adygea and nearby.",seed,sketch,2026-11-17
+w1-0158,abkhaz,range,41.0,43.1,70,100,780,no,attested,procopius,,,"The Abasgoi, with princes of their own under Roman influence.",seed,sketch,2026-11-17
+w1-0159,abkhaz,range,41.1,43.1,70,1500,1810,no,reconstructed,georgian-chronicles,,,"A principality under the Shervashidze family, between Georgian and Ottoman overlords.",seed,sketch,2026-11-17
+w1-0160,abkhaz,range,41.1,43.1,70,1810,2026,yes,attested,census-neareast,,,Under Russian protection from 1810. Abkhazia broke from Georgia in 1993 and its status is disputed.,seed,sketch,2026-11-17
+w1-0161,avars-of-dagestan,range,46.7,42.5,90,700,1100,no,reconstructed,masudi,,,"The mountain kingdom Arab geographers call Sarir, the Throne.",seed,sketch,2026-11-17
+w1-0162,avars-of-dagestan,range,46.8,42.6,90,1200,1803,no,reconstructed,linguistic-geography,,,"The Avar khanate at Khunzakh, from the early 13th century. Unrelated to the Avars of the Danube.",seed,sketch,2026-11-17
+w1-0163,avars-of-dagestan,range,46.8,42.6,90,1803,1864,no,attested,acts-treaties,,,The khanate submitted to Russia about 1803 and was abolished in 1864.,seed,sketch,2026-11-17
+w1-0164,vainakh,range,45.3,42.9,90,1000,1700,no,reconstructed,georgian-chronicles,,,Called Durdzuks in the Georgian chronicles.,seed,sketch,2026-11-17
+w1-0165,vainakh,range,45.6,43.2,100,1700,1800,no,reconstructed,linguistic-geography,,,Moving down from the mountains to the plains of the Sunzha and the Terek.,seed,sketch,2026-11-17
+w1-0166,vainakh,range,45.6,43.2,100,1800,2026,yes,attested,census-neareast,,,Deported to Central Asia in 1944 and allowed back in 1957.,seed,sketch,2026-11-17
+w1-0167,caucasian-imamate,range,46.3,42.8,110,1828,1859,no,attested,acts-treaties,,,The state of the imams of Dagestan and Chechnya. Shamil led its war against Russia until 1859.,seed,sketch,2026-11-17
+w1-0168,shirvan,range,48.6,40.6,130,861,1538,no,attested,masudi;arabic-histories-east,,,"The Shirvanshahs, an Arab house that became Persian in speech and ruled until the Safavids took their land in 1538.",seed,sketch,2026-11-17
+w1-0169,caucasus-khanates,range,47.0,40.3,220,1747,1828,no,attested,acts-treaties,,,"Karabakh, Ganja, Shirvan, Baku, Erivan and others, under Persian suzerainty until Russia took them between 1804 and 1828.",seed,sketch,2026-11-17
+w1-0170,azerbaijanis-caucasus,range,47.6,40.4,200,1828,2026,yes,attested,census-neareast,,,"Turkic-speaking Shia Muslims north of the Aras. More Azerbaijanis live south of it, in Iran.",seed,sketch,2026-11-17
+w1-0171,osroene,range,38.8,37.1,90,1,242,no,attested,syriac-chronicles;pliny-nh,,,"The kingdom of the Abgars at Edessa, where Syriac became a written language. Rome made Edessa a colony about 214, and kings in name lasted until about 242.",seed,sketch,2026-11-17
+w1-0172,adiabene,range,44.0,36.2,110,1,116,no,attested,josephus;pliny-nh,,,A kingdom around Arbela under Parthian overlords. Josephus tells how its royal house became Jewish about 30. Trajan took it in 116.,seed,sketch,2026-11-17
+w1-0173,adiabene,range,44.0,36.2,110,116,379,no,reconstructed,syriac-chronicles,,,"Kings under Parthian and then Sasanian overlords, thinly recorded. The last known king reigned about 379.",seed,sketch,2026-11-17
+w1-0174,hatra,range,42.7,35.6,90,50,241,no,attested,north-arabian-inscriptions;ammianus,,,A desert city whose rulers wrote Aramaic and called themselves kings of the Arabs. The Sasanians destroyed it in 241.,seed,sketch,2026-11-17
+w1-0175,characene,range,47.7,30.6,100,1,222,no,attested,pliny-nh;periplus,,,"A trading kingdom at the head of the Gulf, also called Mesene, under Parthian overlords.",seed,sketch,2026-11-17
+w1-0176,palmyra,range,38.3,34.6,150,1,270,no,attested,north-arabian-inscriptions;pliny-nh,,,A caravan city of Aramaic and Arab families inside the Roman province of Syria. From 260 its lord Odaenathus defended the Roman east against Persia.,seed,sketch,2026-11-17
+w1-0177,palmyra,range,36.5,33.5,500,270,273,no,attested,north-arabian-inscriptions,,,Zenobia took Egypt in 270 and Anatolia as far as Ancyra in 271. Aurelian took Palmyra in 272 and sacked it in 273.,seed,sketch,2026-11-17
+w1-0178,assyrians,range,41.8,37.0,170,500,1915,no,attested,syriac-chronicles;ottoman-registers,,,"The Church of the East and the Syriac Orthodox, in Tur Abdin, Hakkari and the Mosul plain.",seed,sketch,2026-11-17
+w1-0179,assyrians,range,43.2,36.6,80,1915,2026,yes,attested,census-neareast,,,Driven from Hakkari and Tur Abdin in 1915. Many have left Iraq since 2003.,seed,sketch,2026-11-17
+w1-0180,mandaeans,range,47.0,31.2,100,200,2003,no,reconstructed,linguistic-geography,,,A baptising community of the southern marshes with its own Aramaic scriptures. Most have left Iraq since 2003.,seed,sketch,2026-11-17
+w1-0181,judaea,range,35.1,31.7,70,1,135,no,attested,josephus,,,The kingdom of the Herods and then a Roman province. The revolts of 66 to 73 and 132 to 135 destroyed Jerusalem and emptied much of Judaea.,seed,sketch,2026-11-17
+w1-0182,galilee-jews,range,35.4,32.8,50,135,640,no,reconstructed,linguistic-geography,,,"After 135 the centre of Jewish life in Palestine was Galilee, where the Mishnah and the Jerusalem Talmud were compiled. They spoke Aramaic and wrote Hebrew.",seed,sketch,2026-11-17
+w1-0183,samaritans,range,35.3,32.2,45,1,640,no,attested,josephus;procopius,,,"Around Mount Gerizim. Their revolts of 484 and 529 were put down, and a few hundred Samaritans remain today.",seed,sketch,2026-11-17
+w1-0184,babylonian-jews,range,44.3,32.6,120,1,1040,no,attested,josephus;linguistic-geography,,,A large community under its own exilarch. The academies of Sura and Pumbedita compiled the Babylonian Talmud by about 500.,seed,sketch,2026-11-17
+w1-0185,tyre-and-sidon,range,35.4,33.5,60,1,200,no,reconstructed,strabo-geog;josephus,,,The Phoenician cities under Rome. Phoenician was still written on their coins in the 1st century.,seed,sketch,2026-11-17
+w1-0186,israelis,range,34.85,32.2,50,1882,1948,no,attested,census-neareast,,,"Jewish settlers in Ottoman and then British Palestine, who made Hebrew a spoken language again.",seed,sketch,2026-11-17
+w1-0187,israelis,range,34.9,32.3,70,1948,2026,yes,attested,census-neareast,,,Hebrew speakers of the state founded in 1948. A fifth of its citizens are Arabs.,seed,sketch,2026-11-17
+w1-0188,israelis,range,34.9,30.9,80,1948,2026,yes,attested,census-neareast,,,The Negev.,seed,sketch,2026-11-17
+w1-0189,egyptians-roman,range,31.0,28.3,330,1,641,no,attested,papyri;strabo-geog,,,The people of the Nile valley under Roman and Byzantine governors. Papyri record their villages in more detail than any other people of the time.,seed,sketch,2026-11-17
+w1-0190,copts,range,31.3,27.6,250,641,1400,no,attested,arabic-histories-east;papyri,,,"Egyptian Christians under Muslim rule, a majority until about the 10th century. The Coptic church continues, with Arabic-speaking members.",seed,sketch,2026-11-17
+w1-0191,alexandria,range,29.9,31.2,50,1,641,no,attested,strabo-geog;josephus,,,A Greek city with a large Jewish community until the revolt of 115 to 117.,seed,sketch,2026-11-17
+w1-0192,blemmyes,range,34.0,24.2,180,1,600,no,attested,strabo-geog;procopius,,,Desert nomads who raided Upper Egypt from the 3rd century. They are usually taken to be ancestors of the Beja.,seed,sketch,2026-11-17
+w1-0193,beja-egypt,range,35.0,23.2,140,800,2026,yes,reconstructed,ibn-hawqal;census-neareast,,,"Arab geographers describe the Beja and the gold mines of their desert. Most Beja live further south, in Sudan.",seed,sketch,2026-11-17
+w1-0194,maronites,range,35.9,34.2,50,700,1099,no,reconstructed,syriac-chronicles,,,"Christians who moved from the Orontes valley to Mount Lebanon in the 7th and 8th centuries. They spoke Aramaic at first, and these centuries are known mostly from later tradition.",seed,sketch,2026-11-17
+w1-0195,maronites,range,35.9,34.2,50,1099,2026,yes,attested,william-tyre;census-neareast,,,Described on Mount Lebanon by William of Tyre and in union with Rome since the Crusades. They keep Syriac in church.,seed,sketch,2026-11-17
+w1-0196,druze,range,35.7,33.6,50,1020,2026,yes,attested,arabic-histories-east;census-neareast,,,"A community that grew from Fatimid Ismaili teaching about 1017, in the Shuf and on Mount Hermon.",seed,sketch,2026-11-17
+w1-0197,druze,range,36.7,32.7,50,1750,2026,yes,attested,census-neareast,,,"Jabal al-Druze, settled from Lebanon in the 18th century.",seed,sketch,2026-11-17
+w1-0198,alawites,range,36.2,35.3,60,1000,2026,yes,reconstructed,census-neareast,,,The coastal mountains of Syria. Older writers call them Nusayris.,seed,sketch,2026-11-17
+w1-0199,nizaris-of-syria,range,36.3,35.1,40,1132,1273,no,attested,william-tyre,,,"The castles around Masyaf, held by the sect the Crusaders called the Assassins until Baybars took them.",seed,sketch,2026-11-17
+w1-0200,nabataeans,range,35.8,30.0,220,1,106,no,attested,strabo-geog;josephus;north-arabian-inscriptions,,,"The Arab kingdom of Petra and Hegra, which wrote in Aramaic. Trajan made it the province of Arabia in 106.",seed,sketch,2026-11-17
+w1-0201,thamud,range,37.6,27.2,150,1,400,no,reconstructed,pliny-nh;north-arabian-inscriptions,,,A people of the northern Hejaz named by Pliny and Ptolemy and in a temple inscription of the 160s.,seed,sketch,2026-11-17
+w1-0202,saba,range,45.3,15.5,120,1,275,no,attested,south-arabian-inscriptions;pliny-nh,,,"The oldest of the South Arabian kingdoms, with its capital at Marib. Himyar absorbed it about 275.",seed,sketch,2026-11-17
+w1-0203,himyar,range,44.4,14.2,130,1,275,no,attested,south-arabian-inscriptions;periplus,,,"A highland kingdom with its capital at Zafar, named in the Periplus.",seed,sketch,2026-11-17
+w1-0204,himyar,range,46.0,15.6,400,275,525,no,attested,south-arabian-inscriptions;procopius,,,"Himyar united South Arabia by about 300. Its kings turned to Judaism about 380, and Aksum conquered it in 525.",seed,sketch,2026-11-17
+w1-0205,himyar,range,45.0,15.0,300,525,630,no,reconstructed,procopius;tabari,,,"Under Aksumite viceroys, among them Abraha, and from the 570s under Persian governors.",seed,sketch,2026-11-17
+w1-0206,hadramawt,range,48.0,15.6,200,1,300,no,attested,south-arabian-inscriptions;periplus,,,"The frankincense kingdom, with its capital at Shabwa. Himyar conquered it about 300.",seed,sketch,2026-11-17
+w1-0207,kinda,range,45.2,19.8,120,200,350,no,reconstructed,south-arabian-inscriptions,,,"At Qaryat al-Faw, on the road from Yemen to the Gulf.",seed,sketch,2026-11-17
+w1-0208,kinda,range,44.5,24.5,350,450,540,no,reconstructed,tabari,,,Kings of Kinda ruled the nomads of central Arabia on behalf of Himyar. The poet Imru al-Qays was of their house.,seed,sketch,2026-11-17
+w1-0209,lakhmids,range,44.4,31.8,160,300,602,no,attested,sasanian-inscriptions;procopius;tabari,,,Arab kings at al-Hira who guarded the desert frontier for the Sasanians. A Sasanian inscription of the 290s names their king. Khusraw II ended the dynasty in 602.,seed,sketch,2026-11-17
+w1-0210,ghassanids,range,36.4,32.8,170,490,529,no,reconstructed,theophanes,,,"Arab allies of Constantinople on the Syrian desert edge. Their treaty of 502 is known from a later chronicle, and Arab tradition gives them a much earlier start.",seed,sketch,2026-11-17
+w1-0211,ghassanids,range,36.4,32.8,170,529,638,no,attested,procopius;syriac-chronicles,,,"From 529 Justinian set one chief, al-Harith, over all the allied Arabs. The last of the house left Syria after the Muslim conquest.",seed,sketch,2026-11-17
+w1-0212,quraysh,range,39.8,21.4,90,500,630,no,reconstructed,tabari,,,The people of Mecca and of Muhammad. Their early history was written down two centuries later.,seed,sketch,2026-11-17
+w1-0213,tulunids,range,32.0,29.8,350,868,905,no,attested,arabic-histories-east,,,"The first independent rulers of Muslim Egypt, founded by a Turkish governor of the Abbasids.",seed,sketch,2026-11-17
+w1-0214,hamdanids,range,40.0,36.0,220,890,1004,no,attested,arabic-histories-east;ibn-hawqal,,,"An Arab house of the Jazira from 890, at Mosul from 905 and Aleppo from 944. Sayf al-Dawla fought Byzantium and kept the poet al-Mutanabbi.",seed,sketch,2026-11-17
+w1-0215,qarmatians,range,49.8,25.8,250,899,1077,no,attested,ibn-hawqal;arabic-histories-east,,,An Ismaili state in eastern Arabia that carried off the Black Stone from Mecca in 930.,seed,sketch,2026-11-17
+w1-0216,aghlabids,range,10.0,35.6,250,800,909,no,attested,arabic-histories-east,,,Emirs of Ifriqiya at Kairouan for the Abbasids. They conquered Sicily.,seed,sketch,2026-11-17
+w1-0217,idrisids,range,-5.0,34.2,200,789,974,no,attested,bakri,,,A descendant of Ali founded a state among the Berbers of northern Morocco and his son founded Fez.,seed,sketch,2026-11-17
+w1-0218,fatimids,range,10.5,35.5,300,909,973,no,attested,ibn-hawqal;arabic-histories-east,,,Ismaili caliphs raised to power in Ifriqiya by the Kutama Berbers.,seed,sketch,2026-11-17
+w1-0219,fatimids,range,32.0,29.5,400,969,1171,no,attested,arabic-histories-east,,,They took Egypt in 969 and founded Cairo. Saladin ended the caliphate in 1171.,seed,sketch,2026-11-17
+w1-0220,zaydi-imams,range,44.0,15.9,130,897,1962,no,attested,arabic-histories-east,,,"Imams at Sada and Sanaa, ruling the northern highlands in most centuries. Their last kingdom ended in 1962.",seed,sketch,2026-11-17
+w1-0221,rasulids,range,44.0,13.8,200,1229,1454,no,attested,ibn-battuta;arabic-histories-east,,,"Sultans of Taizz and Zabid, of Turkmen origin, who grew rich on the Aden trade.",seed,sketch,2026-11-17
+w1-0222,ayyubids,range,31.3,29.0,330,1171,1250,no,attested,arabic-histories-east;william-tyre,,,"The house of Saladin, Kurdish by origin. He took Jerusalem from the Crusaders in 1187.",seed,sketch,2026-11-17
+w1-0223,ayyubids,range,37.0,34.5,280,1174,1260,no,attested,arabic-histories-east,,,"Syria, divided among princes of the family until the Mongols came.",seed,sketch,2026-11-17
+w1-0224,sharifs-of-mecca,range,39.8,21.6,200,968,1925,no,attested,ibn-battuta;arabic-histories-east,,,Descendants of the Prophet who governed the Hejaz under Egyptian and then Ottoman overlords. Ibn Saud took their kingdom in 1925.,seed,sketch,2026-11-17
+w1-0225,oman-imamate,range,57.5,23.0,180,793,893,no,attested,arabic-histories-east,,,Ibadi imams elected at Nizwa.,seed,sketch,2026-11-17
+w1-0226,oman-imamate,range,57.6,23.0,220,1624,1856,no,attested,acts-treaties,,,"The Yaruba imams drove the Portuguese from Muscat in 1650. The Al Bu Said, from 1749, ruled Zanzibar as well.",seed,sketch,2026-11-17
+w1-0227,saadi-sultanate,range,-7.0,32.0,350,1549,1659,no,attested,acts-treaties,,,Sharifs from the Draa who united Morocco and defeated Portugal in 1578 and Songhay in 1591.,seed,sketch,2026-11-17
+w1-0228,alaouite-sultanate,range,-6.0,32.6,380,1666,1912,no,attested,acts-treaties,,,"Sharifs from Tafilalt, the ruling house of Morocco to this day.",seed,sketch,2026-11-17
+w1-0229,saudi-emirates,range,46.5,24.7,450,1744,1818,no,attested,acts-treaties,,,"The alliance of 1744 between the house of Saud, emirs of Diriyah since 1727, and the reformer Ibn Abd al-Wahhab. An Egyptian army destroyed Diriyah in 1818.",seed,sketch,2026-11-17
+w1-0230,saudi-emirates,range,46.7,24.6,250,1824,1891,no,attested,acts-treaties,,,"The second state, at Riyadh, lost to the Al Rashid of Hail in 1891.",seed,sketch,2026-11-17
+w1-0231,emirate-of-hail,range,41.7,27.5,250,1836,1921,no,attested,acts-treaties,,,"The Al Rashid, chiefs of the Shammar, who ruled northern Najd until Ibn Saud took Hail.",seed,sketch,2026-11-17
+w1-0232,banu-hilal,range,9.0,34.0,350,1050,1250,no,reconstructed,ibn-khaldun,,,"Bedouin sent west from Egypt about 1050. Ibn Khaldun blamed them for the ruin of Ifriqiya, and their dialects made the plains Arabic-speaking.",seed,sketch,2026-11-17
+w1-0233,banu-sulaym,range,19.0,31.3,300,1050,1400,no,reconstructed,ibn-khaldun,,,They moved west with the Banu Hilal and settled Cyrenaica and Tripolitania.,seed,sketch,2026-11-17
+w1-0234,anaza,range,39.0,33.0,250,1700,1920,no,reconstructed,census-neareast,,,Camel nomads who moved from Najd into the Syrian desert in the 18th century.,seed,sketch,2026-11-17
+w1-0235,shammar,range,42.0,28.5,250,1500,1921,no,reconstructed,census-neareast,,,Nomads of Jabal Shammar. A branch crossed into the Jazira of Iraq in the 17th century.,seed,sketch,2026-11-17
+w1-0236,sahrawis,range,-13.0,25.0,300,1700,2026,yes,reconstructed,census-neareast,,,Hassaniya-speaking nomads of Arab and Sanhaja descent. Sovereignty over Western Sahara is disputed between Morocco and the Polisario Front.,seed,sketch,2026-11-17
+w1-0237,palestinians,range,35.2,31.9,60,1920,2026,yes,attested,census-neareast,,,"The Arabic-speaking people of Palestine, many of them refugees since 1948. The status of the West Bank and Gaza is disputed.",seed,sketch,2026-11-17
+w1-0238,mauri,range,-4.0,34.4,300,1,429,no,attested,pliny-nh;strabo-geog,,,"The Moors. Their kingdom of Mauretania, under Juba II and his son, was annexed by Rome in 40.",seed,sketch,2026-11-17
+w1-0239,numidians,range,6.6,36.0,130,1,200,no,reconstructed,pliny-nh;african-inscriptions,,,The kingdom ended in 46 BCE. Its people left inscriptions in the Libyan script.,seed,sketch,2026-11-17
+w1-0240,musulamii,range,8.0,35.5,100,1,200,no,attested,tacitus,,,Tacfarinas led them against Rome from 17 to 24.,seed,sketch,2026-11-17
+w1-0241,garamantes,range,13.5,26.6,250,1,600,no,attested,pliny-nh;ptolemy-geog,,,"Farmers and traders of the Fezzan, who watered their oases by underground channels. Their capital was Garama.",seed,sketch,2026-11-17
+w1-0242,nasamones,range,18.5,30.0,200,1,150,no,attested,pliny-nh;ptolemy-geog,,,Nomads of the Gulf of Sirte and the oasis of Augila. They rose against Rome about 85 and were beaten.,seed,sketch,2026-11-17
+w1-0243,nasamones,range,18.5,30.0,200,150,300,no,reconstructed,linguistic-geography,,,Not named by writers of their own time after Ptolemy.,seed,sketch,2026-11-17
+w1-0244,laguatan,range,15.0,30.6,300,360,700,no,attested,ammianus;corippus;procopius,,,"Nomads of Tripolitania. Ammianus names Austuriani here in the 360s, who may be the same people, and Corippus describes the Laguatan wars of the 540s.",seed,sketch,2026-11-17
+w1-0245,moors-and-romans,range,-1.0,35.0,200,480,600,no,attested,african-inscriptions;procopius,,,"An inscription of 508 at Altava names Masuna, king of the Moors and the Romans.",seed,sketch,2026-11-17
+w1-0246,aures-kingdom,range,6.5,35.3,110,480,703,no,reconstructed,procopius;ibn-khaldun,,,"Iaudas fought the Byzantines here in the 530s. Arab tradition makes the queen called the Kahina its last ruler, about 700.",seed,sketch,2026-11-17
+w1-0247,rustamids,range,2.0,34.6,250,777,909,no,attested,bakri;ibn-khaldun,,,"Ibadi imams at Tahert, of Persian descent, chosen and followed by Berber peoples.",seed,sketch,2026-11-17
+w1-0248,barghawata,range,-7.2,33.2,130,744,950,no,reconstructed,bakri,,,A Berber state on the Atlantic plain with a prophet and a scripture of its own. Its first two centuries are known from what al-Bakri copied later.,seed,sketch,2026-11-17
+w1-0249,barghawata,range,-7.2,33.2,130,950,1058,no,attested,ibn-hawqal;bakri,,,Described by Ibn Hawqal in the 10th century and by al-Bakri from a Barghawata envoy's report. The Almoravids destroyed it.,seed,sketch,2026-11-17
+w1-0250,midrarids,range,-4.3,31.3,120,757,976,no,attested,bakri;ibn-hawqal,,,The Midrarid emirs of the caravan city at the head of the gold road to the Sudan.,seed,sketch,2026-11-17
+w1-0251,zirids,range,9.0,35.5,280,973,1148,no,attested,ibn-khaldun,,,Sanhaja Berbers left to govern Ifriqiya when the Fatimids moved to Cairo.,seed,sketch,2026-11-17
+w1-0252,hammadids,range,4.6,36.0,200,1014,1152,no,attested,ibn-khaldun,,,"A branch of the Zirids in the central Maghreb, first at the Qala and then at Bejaia.",seed,sketch,2026-11-17
+w1-0253,marinids,range,-5.2,33.6,330,1244,1465,no,attested,ibn-khaldun;ibn-battuta,,,Zenata Berbers who took Morocco from the Almohads and ruled from Fez.,seed,sketch,2026-11-17
+w1-0254,wattasids,range,-5.4,34.0,200,1472,1554,no,attested,acts-treaties,,,"Kinsmen of the Marinids, who held Fez while Portugal took the Atlantic ports.",seed,sketch,2026-11-17
+w1-0255,zayyanids,range,-1.0,34.8,230,1235,1556,no,attested,ibn-khaldun,,,"Zenata Berbers at Tlemcen, pressed between Fez and Tunis.",seed,sketch,2026-11-17
+w1-0256,hafsids,range,9.5,35.0,330,1229,1574,no,attested,ibn-khaldun,,,Almohad governors of Masmuda descent who made Tunis their capital. They ruled in Arabic.,seed,sketch,2026-11-17
+w1-0257,kutama,range,5.6,36.4,110,700,893,no,reconstructed,ibn-khaldun,,,Mountain people of Lesser Kabylia. Their earlier history comes from later writers.,seed,sketch,2026-11-17
+w1-0258,kutama,range,5.6,36.4,110,893,1000,no,attested,ibn-hawqal;arabic-histories-east,,,"A Fatimid missionary settled among them in 893, and they were the army that brought the Fatimids to power in 909.",seed,sketch,2026-11-17
+w1-0259,zenata,range,0.0,34.0,400,700,1300,no,reconstructed,ibn-khaldun,,,"One of Ibn Khaldun's three great Berber groupings, herders of the high plains.",seed,sketch,2026-11-17
+w1-0260,masmuda,range,-8.0,31.2,180,700,1300,no,reconstructed,bakri;ibn-khaldun,,,"Farmers of the High Atlas, among whom the Almohad movement began.",seed,sketch,2026-11-17
+w1-0261,sanhaja-north,range,-10.0,23.5,500,800,1400,no,reconstructed,bakri;ibn-khaldun,,,"Veiled camel nomads of the western Sahara, among them the Lamtuna, who made the Almoravid empire.",seed,sketch,2026-11-17
+w1-0262,kel-ahaggar,range,6.0,24.0,500,1000,2026,yes,reconstructed,ibn-battuta;census-neareast,,,"They call themselves Kel Tamasheq. Ibn Battuta crossed the Ahaggar in 1353, and their confederations there and in the Ajjer held the Saharan roads.",seed,sketch,2026-11-17
+w1-0263,mozabites,range,3.7,32.5,60,1012,1882,no,reconstructed,ibn-khaldun,,,"Ibadi Berbers who founded the five towns of the Mzab between the 11th and the 14th century, the first by tradition in 1012.",seed,sketch,2026-11-17
+w1-0264,mozabites,range,3.7,32.5,60,1882,2026,yes,attested,census-neareast,,,France annexed the Mzab in 1882.,seed,sketch,2026-11-17
+w1-0265,kabyles,range,4.5,36.5,90,1500,1830,no,reconstructed,linguistic-geography,,,"The mountains east of Algiers, never fully under the Regency. Earlier writers call these people Zwawa.",seed,sketch,2026-11-17
+w1-0266,kabyles,range,4.5,36.5,90,1830,2026,yes,attested,census-neareast,,,The largest Berber-speaking people of Algeria. France conquered Kabylia in 1857.,seed,sketch,2026-11-17
+w1-0267,riffians,range,-3.8,35.0,90,1500,1880,no,reconstructed,linguistic-geography,,,"Berbers of the Rif mountains, placed here before the first surveys by later scholarship.",seed,sketch,2026-11-17
+w1-0268,riffians,range,-3.8,35.0,90,1880,2026,yes,attested,census-neareast,,,Their republic fought Spain and France from 1921 to 1926.,seed,sketch,2026-11-17
+w1-0269,ishelhien,range,-8.5,30.6,180,1500,1880,no,reconstructed,linguistic-geography,,,"The Berbers of the High Atlas and the Sous, called Shilha or Chleuh by outsiders, the heirs of the Masmuda.",seed,sketch,2026-11-17
+w1-0270,ishelhien,range,-8.5,30.6,180,1880,2026,yes,attested,census-neareast,,,Recorded by travellers and surveys from the late 19th century.,seed,sketch,2026-11-17
+w1-0271,guanches,range,-16.6,28.3,110,150,1341,no,reconstructed,linguistic-geography,,,"The first lasting people of the Canary Islands, Berbers who came by sea. Radiocarbon dates put their arrival between the 1st and the 4th century, and the start date here is a round middle.",seed,sketch,2026-11-17
+w1-0272,guanches,range,-16.6,28.3,110,1341,1496,no,attested,canarian-chronicles,,,"Seen by a Portuguese and Italian voyage in 1341 and described by their conquerors from 1402. Castile took the last island, Tenerife, in 1496. Guanche was first the name of the people of Tenerife.",seed,sketch,2026-11-17
+w1-0273,mamluks,range,31.3,28.5,350,1250,1517,no,attested,arabic-histories-east;ibn-battuta,,,"Slave soldiers, first Kipchak Turks and later Circassians, who ruled Egypt over an Arabic-speaking people.",seed,sketch,2026-11-17
+w1-0274,mamluks,range,36.5,34.0,260,1260,1516,no,attested,arabic-histories-east,,,"Syria, held after the Mongols were beaten at Ayn Jalut in 1260. The Ottomans took it in 1516.",seed,sketch,2026-11-17
+w1-0275,rashidun-caliphate,range,41.0,28.0,1000,632,661,no,attested,baladhuri;tabari,,,"The first four caliphs, at Medina. Their armies took Syria, Iraq, Egypt and Persia between 634 and 651.",seed,sketch,2026-11-17
+w1-0276,umayyad-caliphate,range,36.3,33.5,1500,661,750,no,attested,baladhuri;tabari;theophanes,,,Ruled from Damascus. At its widest it reached from Spain to the Indus.,seed,sketch,2026-11-17
+w1-0277,abbasid-caliphate,range,44.4,33.3,1200,750,945,no,attested,tabari;masudi,,,Baghdad was founded in 762. The provinces went their own way in the 9th century and the Buyids of Iran took Baghdad in 945.,seed,sketch,2026-11-17
+w1-0278,abbasid-caliphate,range,44.4,33.2,250,945,1258,no,attested,arabic-histories-east,,,"Caliphs under Buyid and Seljuk guardians, ruling Iraq themselves again in the 12th century. The Mongols killed the last in 1258.",seed,sketch,2026-11-17
+w1-0279,jalayirids,range,44.4,33.3,300,1335,1432,no,attested,arabic-histories-east,,,A Mongol house that kept Iraq after the Ilkhanate of Persia broke up.,seed,sketch,2026-11-17
+w1-0280,kingdom-of-jerusalem,range,35.2,32.0,120,1099,1187,no,attested,william-tyre,,,Founded by the First Crusade. French-speaking lords ruled Arabic-speaking Muslims and Christians.,seed,sketch,2026-11-17
+w1-0281,kingdom-of-jerusalem,range,35.1,32.9,60,1191,1291,no,attested,acts-treaties,,,"After Saladin took Jerusalem the kingdom was a strip of coast governed from Acre, which fell in 1291.",seed,sketch,2026-11-17
+w1-0282,county-of-edessa,range,38.6,37.1,100,1098,1150,no,attested,william-tyre;syriac-chronicles,,,The first Crusader state and the first to fall. Zengi took Edessa in 1144 and the last castles went by 1150.,seed,sketch,2026-11-17
+w1-0283,principality-of-antioch,range,36.2,36.1,90,1098,1268,no,attested,william-tyre,,,"A Norman principality, taken by the Mamluk sultan Baybars in 1268.",seed,sketch,2026-11-17
+w1-0284,county-of-tripoli,range,35.9,34.5,60,1109,1289,no,attested,william-tyre,,,"Begun in 1102, with Tripoli itself taken in 1109. The Mamluks took the city in 1289.",seed,sketch,2026-11-17
+w1-0285,kingdom-of-cyprus,range,33.2,35.0,100,1192,1489,no,attested,acts-treaties,,,The Lusignan kings ruled a Greek-speaking island. Venice held it from 1489 and the Ottomans took it in 1571.,seed,sketch,2026-11-17
+w1-0286,regency-of-algiers,range,3.0,35.5,350,1516,1830,no,attested,acts-treaties,,,An Ottoman province founded by the Barbarossa brothers and ruled in practice by its own deys.,seed,sketch,2026-11-17
+w1-0287,regency-of-tunis,range,9.8,35.0,200,1574,1881,no,attested,acts-treaties,,,Ottoman from 1574 and ruled by the Husainid beys from 1705.,seed,sketch,2026-11-17
+w1-0288,regency-of-tripoli,range,15.0,31.0,400,1551,1911,no,attested,acts-treaties,,,"Ottoman from 1551, under the Karamanli family from 1711 to 1835.",seed,sketch,2026-11-17
+w1-0289,french-algeria,range,3.0,33.0,600,1830,1962,no,attested,acts-treaties,,,France took Algiers in 1830 and settled the coast. Independence came in 1962 after eight years of war.,seed,sketch,2026-11-17
+w1-0290,french-tunisia,range,9.5,34.5,200,1881,1956,no,attested,acts-treaties,,,,seed,sketch,2026-11-17
+w1-0291,french-morocco,range,-6.5,32.5,300,1912,1956,no,attested,acts-treaties,,,Spain held a zone in the north and another in the far south.,seed,sketch,2026-11-17
+w1-0292,spanish-sahara,range,-13.5,24.5,300,1884,1976,no,attested,acts-treaties,,,Spain agreed to leave in 1975 and withdrew in 1976. Sovereignty over the territory has been disputed since.,seed,sketch,2026-11-17
+w1-0293,italian-libya,range,17.0,29.0,500,1911,1943,no,attested,acts-treaties,,,Italy took the coast from the Ottomans in 1911 and the interior by 1931.,seed,sketch,2026-11-17
+w1-0294,mandate-palestine,range,35.1,31.8,90,1920,1948,no,attested,acts-treaties,,,Under British administration by mandate of the League of Nations.,seed,sketch,2026-11-17
+w1-0295,mandate-syria-lebanon,range,37.5,34.8,250,1920,1946,no,attested,acts-treaties,,,,seed,sketch,2026-11-17
+w1-0296,aden-protectorate,range,47.0,14.5,300,1839,1967,no,attested,acts-treaties,,,Britain took the port of Aden in 1839 and made treaties with the sultans inland.,seed,sketch,2026-11-17
+w1-0297,transcaucasia-russian,range,45.0,41.0,300,1801,1917,no,attested,acts-treaties,,,Russia annexed eastern Georgia in 1801 and took the rest from Persia and the Ottomans by 1829 and 1878.,seed,sketch,2026-11-17
+w1-0298,transcaucasia-russian,range,45.0,41.0,300,1921,1991,no,attested,acts-treaties,,,"Georgia, Armenia and Azerbaijan were independent from 1918 to 1921 and then Soviet republics until 1991.",seed,sketch,2026-11-17
+w1-0299,egypt-state,range,31.0,28.0,400,1805,1882,no,attested,acts-treaties,,,Muhammad Ali and his heirs ruled as Ottoman viceroys in name.,seed,sketch,2026-11-17
+w1-0300,egypt-state,range,31.0,28.0,400,1882,1922,no,attested,acts-treaties,,,Under British occupation.,seed,sketch,2026-11-17
+w1-0301,egypt-state,range,31.0,28.0,400,1922,2026,yes,attested,acts-treaties,,,A kingdom from 1922 and a republic from 1953.,seed,sketch,2026-11-17
+w1-0302,saudi-arabia,range,45.0,24.0,700,1932,2026,yes,attested,acts-treaties,,,"Ibn Saud took Riyadh in 1902 and the Hejaz in 1925, and named the kingdom in 1932.",seed,sketch,2026-11-17
+w1-0303,yemen,range,47.5,15.5,330,1990,2026,yes,attested,acts-treaties,,,North and South Yemen united in 1990. The country has been divided by war since 2014.,seed,sketch,2026-11-17
+w1-0304,oman,range,56.5,21.0,300,1856,2026,yes,attested,acts-treaties,,,"The sultanate of Muscat and Oman, called Oman since 1970.",seed,sketch,2026-11-17
+w1-0305,united-arab-emirates,range,54.3,24.0,150,1971,2026,yes,attested,acts-treaties,,,"Seven sheikhdoms, the Trucial States under British protection from the 19th century.",seed,sketch,2026-11-17
+w1-0306,qatar,range,51.2,25.3,50,1971,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
+w1-0307,bahrain,range,50.55,26.05,30,1971,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
+w1-0308,kuwait,range,47.7,29.3,60,1961,2026,yes,attested,acts-treaties,,,"A sheikhdom of the Al Sabah from the 18th century, under British protection from 1899 to 1961.",seed,sketch,2026-11-17
+w1-0309,iraq,range,43.7,33.2,330,1921,2026,yes,attested,acts-treaties,,,"A kingdom under British mandate from 1921, independent in 1932 and a republic from 1958.",seed,sketch,2026-11-17
+w1-0310,syria,range,38.5,35.0,250,1946,2026,yes,attested,acts-treaties,,,"Independent of France in 1946. Israel has held the Golan Heights since 1967, and sovereignty over them is disputed.",seed,sketch,2026-11-17
+w1-0311,lebanon,range,35.8,33.9,50,1943,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
+w1-0312,jordan,range,36.5,31.0,170,1921,2026,yes,attested,acts-treaties,,,The emirate of Transjordan from 1921 and a kingdom from 1946.,seed,sketch,2026-11-17
+w1-0313,israel,range,34.9,31.5,120,1948,2026,yes,attested,acts-treaties,,,Founded in 1948. It has occupied the West Bank and the Golan Heights since 1967. The status of the Palestinian territories and sovereignty over the Golan are disputed.,seed,sketch,2026-11-17
+w1-0314,palestine,range,35.25,31.95,40,1994,2026,yes,attested,acts-treaties,,,The Palestinian Authority has administered parts of the West Bank and Gaza since 1994. Statehood and borders are disputed.,seed,sketch,2026-11-17
+w1-0315,cyprus,range,33.2,35.0,80,1960,2026,yes,attested,acts-treaties,,,Independent from Britain in 1960 and divided since 1974. Only Turkey recognises the state declared in the north.,seed,sketch,2026-11-17
+w1-0316,georgia,range,43.5,42.2,180,1991,2026,yes,attested,acts-treaties,,,The status of Abkhazia and South Ossetia is disputed.,seed,sketch,2026-11-17
+w1-0317,armenia,range,44.9,40.2,90,1991,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
+w1-0318,azerbaijan,range,47.7,40.3,180,1991,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
+w1-0319,libya,range,17.5,27.0,600,1951,2026,yes,attested,acts-treaties,,,A kingdom from 1951 and a republic from 1969. Rival governments have divided it since 2014.,seed,sketch,2026-11-17
+w1-0320,tunisia,range,9.5,34.0,200,1956,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
+w1-0321,algeria,range,2.5,28.5,800,1962,2026,yes,attested,acts-treaties,,,,seed,sketch,2026-11-17
+w1-0322,morocco,range,-6.5,32.0,350,1956,2026,yes,attested,acts-treaties,,,Morocco has held most of Western Sahara since 1975. Sovereignty over it is disputed.,seed,sketch,2026-11-17
+w1-0323,greek-speakers,range,28.5,38.8,330,1,1100,no,reconstructed,strabo-geog;linguistic-geography,,,"Western Anatolia, Greek on the coast since before 1 CE and in the interior by about 500.",seed,sketch,2026-11-17
+w1-0324,greek-speakers,range,33.0,37.3,280,1,300,no,reconstructed,strabo-geog;linguistic-geography,,,The cities and coasts of Pamphylia and Cilicia.,seed,sketch,2026-11-17
+w1-0325,greek-speakers,range,33.5,39.0,420,300,1150,no,reconstructed,linguistic-geography,,,Greek replaced the old languages of the interior and was the speech of Byzantine Anatolia until the Turkish settlement.,seed,sketch,2026-11-17
+w1-0326,greek-speakers,range,38.5,40.9,200,1,1923,no,reconstructed,strabo-geog;census-neareast,,,"Pontus, Greek-speaking until the exchange of populations in 1923.",seed,sketch,2026-11-17
+w1-0327,greek-speakers,range,28.8,39.3,260,1100,1330,no,reconstructed,linguistic-geography,,,Western Anatolia under the last Byzantine emperors.,seed,sketch,2026-11-17
+w1-0328,greek-speakers,range,27.3,38.6,130,1330,1923,no,reconstructed,ottoman-registers;census-neareast,,,"Smyrna and the Aegean coast, until 1923.",seed,sketch,2026-11-17
+w1-0329,greek-speakers,range,34.8,38.5,90,1150,1923,no,reconstructed,linguistic-geography,,,Cappadocian Greek villages.,seed,sketch,2026-11-17
+w1-0330,greek-speakers,range,33.2,35.0,110,1,1974,no,attested,strabo-geog;census-neareast,,,Cyprus. Turkish Cypriots lived among the Greek-speaking majority from 1571.,seed,sketch,2026-11-17
+w1-0331,greek-speakers,range,34.0,35.4,70,1,1974,no,reconstructed,census-neareast,,,The east of Cyprus and the Karpas peninsula.,seed,sketch,2026-11-17
+w1-0332,greek-speakers,range,33.0,34.8,75,1974,2026,yes,attested,census-neareast,,,"The south of Cyprus. Greek Cypriots left the north when the island was divided in 1974, and sovereignty over the north is disputed.",seed,sketch,2026-11-17
+w1-0333,byzantine-empire,range,32.5,39.0,450,395,1071,no,attested,procopius;theophanes,,,"Anatolia, the heart of the empire until the Seljuks won at Manzikert in 1071.",seed,sketch,2026-11-17
+w1-0334,byzantine-empire,range,34.0,31.5,450,395,640,no,attested,procopius,,,"Syria, Palestine and Egypt, lost to the Arabs between 634 and 642.",seed,sketch,2026-11-17
+w1-0335,byzantine-empire,range,9.5,35.5,250,534,698,no,attested,procopius;corippus,,,"Africa, retaken from the Vandals in 533 and 534 and held until the Arabs took Carthage in 698.",seed,sketch,2026-11-17
+w1-0336,byzantine-empire,range,29.5,39.5,280,1097,1204,no,attested,acts-treaties,,,"The west and the coasts of Anatolia, recovered behind the First Crusade.",seed,sketch,2026-11-17
+w1-0337,ottoman-empire,range,29.8,40.1,110,1299,1354,no,attested,ibn-battuta,,,The beylik of Osman in Bithynia. Bursa was its capital from 1326.,seed,sketch,2026-11-17
+w1-0338,ottoman-empire,range,31.0,39.5,300,1354,1453,no,attested,acts-treaties,,,"Western and central Anatolia, lost to Timur in 1402 and regained.",seed,sketch,2026-11-17
+w1-0339,ottoman-empire,range,34.5,39.0,480,1453,1922,no,attested,ottoman-registers,,,All Anatolia after the conquests of 1461 to 1517. The sultanate was abolished in 1922.,seed,sketch,2026-11-17
+w1-0340,ottoman-empire,range,39.5,34.0,450,1517,1918,no,attested,ottoman-registers,,,"Syria from 1516 and Iraq from 1534, with a frontier against Safavid Persia fixed in 1639.",seed,sketch,2026-11-17
+w1-0341,ottoman-empire,range,31.0,28.0,350,1517,1805,no,attested,ottoman-registers,,,"Egypt, governed through its Mamluk households.",seed,sketch,2026-11-17
+w1-0342,ottoman-empire,range,40.5,21.0,300,1517,1916,no,attested,acts-treaties,,,The Hejaz and at times Yemen.,seed,sketch,2026-11-17
+w1-0343,roman-empire,range,33.0,36.5,600,1,395,no,attested,strabo-geog;pliny-nh,,,"The eastern provinces: Anatolia, Syria, and Egypt. The frontier with Parthia and then Sasanian Persia ran along the Euphrates.",seed,sketch,2026-11-17
+w1-0344,roman-empire,range,8.0,34.0,600,1,429,no,attested,pliny-nh;african-inscriptions,,,"The African provinces, from Cyrenaica to Mauretania.",seed,sketch,2026-11-17
+w1-0345,turkey,range,35.0,39.0,600,1923,2026,yes,attested,acts-treaties,,,"The republic founded in 1923, with its capital at Ankara.",seed,sketch,2026-11-17
+w1-0346,vandals,range,9.5,35.8,300,429,534,no,attested,procopius,,,The Vandal kingdom of Africa. Carthage fell to them in 439 and to Belisarius in 533.,seed,sketch,2026-11-17
+w1-0347,almoravids,range,-8.0,30.5,450,1056,1147,no,attested,bakri;ibn-khaldun,,,A reform movement among the Sanhaja of the Sahara. They took Sijilmasa in the 1050s and founded Marrakesh about 1070.,seed,sketch,2026-11-17
+w1-0348,almohads,range,-7.0,31.8,350,1121,1269,no,attested,ibn-khaldun,,,"A movement of the Masmuda of the High Atlas, begun by Ibn Tumart. Marrakesh fell to the Marinids in 1269.",seed,sketch,2026-11-17
+w1-0349,almohads,range,5.0,35.5,450,1152,1235,no,attested,ibn-khaldun,,,The central and eastern Maghreb as far as Tripoli.,seed,sketch,2026-11-17

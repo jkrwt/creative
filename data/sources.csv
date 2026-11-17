@@ -39,29 +39,6 @@ primary-chronicle,Primary Chronicle (Tale of Bygone Years),text,about 1113,no,,C
 dai,"Constantine Porphyrogenitus, De Administrando Imperio",text,about 950,no,,
 adam-bremen,"Adam of Bremen, Deeds of the Bishops of Hamburg",text,about 1075,no,,
 bavarian-geographer,Bavarian Geographer,record,9th century,no,,"A list of peoples east of the Frankish empire, with a count of their strongholds."
-josephus,"Josephus, Jewish War and Jewish Antiquities",text,about 75 to 94,no,,
-syriac-chronicles,"Syriac chronicles, from the Chronicle of Edessa to Michael the Syrian and Bar Hebraeus",text,6th to 13th century,yes,,Bucket. A checked claim cites the chronicle and year.
-baladhuri,"al-Baladhuri, Conquests of the Lands (Futuh al-Buldan)",text,9th century,no,,Written two centuries after the conquests it describes.
-masudi,"al-Masudi, Meadows of Gold",text,about 947,no,,
-ibn-hawqal,"Ibn Hawqal, Configuration of the Earth",text,about 977,no,,
-bakri,"al-Bakri, Book of Roads and Kingdoms",text,1068,no,,Written in al-Andalus from earlier reports. The fullest early account of the Maghreb and the Sahara.
-ibn-khaldun,"Ibn Khaldun, Book of Lessons (Kitab al-Ibar) and its Muqaddimah",text,about 1377 to 1406,no,,The main history of the Berber and Arab peoples of the Maghreb.
-arabic-histories-east,"Arabic chronicles and geographies of Egypt, Syria, Iraq and Arabia",text,9th to 15th century,yes,,Bucket. A checked claim cites the work and passage.
-armenian-chronicles,"Armenian histories, from Agathangelos and Movses Khorenatsi to Matthew of Edessa",text,5th to 13th century,yes,,Bucket. The dates of the earliest works are disputed.
-georgian-chronicles,Kartlis Tskhovreba (the Georgian Chronicles),text,compiled from the 9th to the 14th century,yes,,Bucket. Its account of the centuries before 500 is tradition.
-south-arabian-inscriptions,Inscriptions of ancient South Arabia,inscription,8th century BCE to 6th century CE,yes,,Bucket. A checked claim cites the inscription.
-north-arabian-inscriptions,"Nabataean, Palmyrene, Safaitic and other inscriptions of Syria and north Arabia",inscription,1st century BCE to 4th century CE,yes,,Bucket. A checked claim cites the inscription.
-papyri,"Greek, Demotic and Coptic papyri from Egypt",record,to the 8th century and later,yes,,Bucket. A checked claim cites the papyrus.
-african-inscriptions,"Latin, Punic and Libyan inscriptions of Roman Africa",inscription,1st to 6th century,yes,,Bucket. A checked claim cites the inscription.
-augustine,"Augustine of Hippo, letters and sermons",text,about 390 to 430,yes,,Bucket. Augustine mentions Punic spoken in the countryside of his diocese.
-corippus,"Corippus, Iohannis",text,about 550,no,,"A Latin epic on the Byzantine wars against the Moors, with many Berber names."
-theophanes,"Theophanes the Confessor, Chronicle",text,about 815,no,,
-william-tyre,"William of Tyre, History of Deeds Done Beyond the Sea",text,about 1184,no,,
-ottoman-registers,Ottoman tax registers (tahrir defters),record,15th to 17th century,yes,,Bucket. A checked claim cites the register and district.
-sharafnama,"Sharaf Khan Bidlisi, Sharafnama",text,1597,no,,"A history of the Kurdish ruling houses, written in Persian."
-census-neareast,"Modern censuses and language surveys of the Near East, the Caucasus and North Africa",census,1880s onward,yes,,Bucket. A checked claim cites the census year and table.
-islendingabok,"Ari Thorgilsson, Book of the Icelanders (Islendingabok)",text,about 1125,no,,Dates the settlement of Iceland to about 870.
-canarian-chronicles,Le Canarien and the Castilian chronicles of the conquest of the Canary Islands,text,15th century,yes,,Bucket. Written by the conquerors.
 americas-archaeology,Archaeology of the Americas,modern-study,various,yes,,"Bucket. Excavation and survey, dated by radiocarbon. It shows cultures and settlements, not languages. A checked claim cites the study."
 americas-oral-tradition,Oral tradition of the peoples of the Americas,text,recorded from the 16th century onward,yes,,"Bucket. Histories kept by the peoples themselves and written down later. Evidence of memory and identity, with dates that are hard to fix."
 iberian-chroniclers,Spanish and Portuguese chroniclers and colonial reports of the Americas,text,1493 onward,yes,,Bucket. A checked claim cites the work and chapter.
@@ -139,7 +116,6 @@ sogdian-documents,Sogdian Ancient Letters and the Mount Mugh documents,record,4t
 bactrian-documents,Bactrian inscriptions and legal documents,record,2nd to 8th century,yes,,Bucket. Includes the Rabatak inscription of Kanishka. A checked claim cites the document.
 menander,"Menander Protector, History (fragments)",text,about 580,no,,Reports the Roman embassy of Zemarchus to the Western Turks in 569.
 old-turkic-inscriptions,Old Turkic runiform inscriptions of the Yenisei and the Talas,inscription,8th to 10th century,yes,,Bucket. A checked claim cites the inscription.
-tabari,"al-Tabari, History of the Prophets and Kings",text,about 915,no,,Compiled in Baghdad from earlier reports. Its account of Arabia before Islam is tradition.
 arab-geographers,"Arab and Persian geographers (Ibn Khordadbeh, al-Masudi, Ibn Hawqal, al-Muqaddasi, Hudud al-Alam)",text,9th to 10th century,yes,,Bucket. A checked claim cites the author and passage.
 ibn-fadlan,"Ibn Fadlan, account of the embassy to the Volga Bulgars",text,922,no,,"An eyewitness to the Oghuz, Bashkirs, Bulgars and Khazars."
 biruni,"al-Biruni, Chronology of Ancient Nations",text,about 1000,no,,Written by a native of Khwarezm.
@@ -152,7 +128,6 @@ census-1897,Russian imperial census of 1897,census,1897,no,,The first count of t
 soviet-censuses,Soviet and later national censuses,census,1926 onward,yes,,Bucket. A checked claim cites the census year.
 modern-ethnography,"Modern language and ethnographic surveys of Iran, Afghanistan and Central Asia",modern-study,various,yes,,"Bucket. Iran and Afghanistan have never counted their people by language, so areas are estimates."
 steppe-archaeology,"Archaeology of the steppe, the Urals and Siberia",modern-study,various,yes,,"Bucket. Burial mounds, settlements and named cultures. A culture is not a people and its language is always inferred."
-periplus,Periplus of the Erythraean Sea,text,mid 1st century,no,,"A Greek merchant's guide to the ports of the Red Sea, Arabia and India."
 sangam-poetry,Sangam poetry (the early Tamil anthologies),text,"about 1st to 3rd century, dates disputed",yes,,Bucket. Dates of composition are disputed. A checked claim cites the anthology and poem.
 indian-inscriptions,Inscriptions of South Asia,inscription,3rd century BCE onward,yes,,Bucket. A checked claim cites the inscription.
 indian-coins,Coinages of South Asia,coin,2nd century BCE onward,yes,,Bucket. A checked claim cites the coin series and where it is found.
@@ -163,7 +138,6 @@ al-biruni,"al-Biruni, India",text,about 1030,no,,Written at the Ghaznavid court 
 arab-geographers-sindh,Arab historians and geographers on Sindh and the Indian coast,text,9th to 11th century,yes,,Bucket. A checked claim cites the author and passage.
 chachnama,Chachnama,text,Persian version of about 1216,no,,"A Persian version of a lost Arabic account of Sindh before and during the conquest of 712. Late, with legend mixed in."
 rajatarangini,"Kalhana, Rajatarangini",text,1148,no,,"A Sanskrit chronicle of the kings of Kashmir. Reliable for its last few centuries, legendary for the early ones."
-ibn-battuta,"Ibn Battuta, Travels",text,dictated about 1355,no,,"He visited Mogadishu, Mombasa and Kilwa about 1331 and Mali in 1352 and 1353."
 mahavamsa,Mahavamsa and its continuation the Culavamsa,text,"5th century, continued to the 18th",no,,"The Pali chronicle of Sri Lanka, written by monks. Its earliest centuries are tradition."
 persian-chronicles,Persian chronicles of the Sultanate and Mughal periods,text,13th to 18th century,yes,,Bucket. A checked claim cites the chronicle and passage.
 buranjis,Ahom and Assamese buranjis,text,"from the 13th century, surviving copies later",yes,,"Bucket. Court chronicles of the Ahom kingdom, first in Tai Ahom and later in Assamese."
@@ -221,3 +195,29 @@ miklouho-maclay,"Nikolai Miklouho-Maclay, New Guinea diaries",text,1871 to 1883,
 malinowski,"Bronisław Malinowski, Argonauts of the Western Pacific",text,1922,no,,Fieldwork in the Trobriand Islands from 1915 to 1918.
 native-title,Native title determinations and land rights claims,record,1976 onward,yes,,Bucket. A legal record of present-day recognition by Australian courts. It shows who is recognised today and is not a map of the past.
 australian-census,Census of Australia,census,1911 onward,no,,Aboriginal people were fully counted only from 1971.
+periplus,Periplus of the Erythraean Sea,text,mid 1st century,no,,"A Greek merchant's guide to the ports of the Red Sea, Arabia and India."
+josephus,"Josephus, Jewish War and Jewish Antiquities",text,about 75 to 94,no,,
+syriac-chronicles,"Syriac chronicles, from the Chronicle of Edessa to Michael the Syrian and Bar Hebraeus",text,6th to 13th century,yes,,Bucket. A checked claim cites the chronicle and year.
+baladhuri,"al-Baladhuri, Conquests of the Lands (Futuh al-Buldan)",text,9th century,no,,Written two centuries after the conquests it describes.
+tabari,"al-Tabari, History of the Prophets and Kings",text,about 915,no,,Compiled in Baghdad from earlier reports. Its account of Arabia before Islam is tradition.
+masudi,"al-Masudi, Meadows of Gold",text,about 947,no,,
+ibn-hawqal,"Ibn Hawqal, Configuration of the Earth",text,about 977,no,,
+bakri,"al-Bakri, Book of Roads and Kingdoms",text,1068,no,,Written in al-Andalus from earlier reports. The fullest early account of the Maghreb and the Sahara.
+ibn-battuta,"Ibn Battuta, Travels",text,dictated about 1355,no,,"He visited Mogadishu, Mombasa and Kilwa about 1331 and Mali in 1352 and 1353."
+ibn-khaldun,"Ibn Khaldun, Book of Lessons (Kitab al-Ibar) and its Muqaddimah",text,about 1377 to 1406,no,,The main history of the Berber and Arab peoples of the Maghreb.
+arabic-histories-east,"Arabic chronicles and geographies of Egypt, Syria, Iraq and Arabia",text,9th to 15th century,yes,,Bucket. A checked claim cites the work and passage.
+armenian-chronicles,"Armenian histories, from Agathangelos and Movses Khorenatsi to Matthew of Edessa",text,5th to 13th century,yes,,Bucket. The dates of the earliest works are disputed.
+georgian-chronicles,Kartlis Tskhovreba (the Georgian Chronicles),text,compiled from the 9th to the 14th century,yes,,Bucket. Its account of the centuries before 500 is tradition.
+south-arabian-inscriptions,Inscriptions of ancient South Arabia,inscription,8th century BCE to 6th century CE,yes,,Bucket. A checked claim cites the inscription.
+north-arabian-inscriptions,"Nabataean, Palmyrene, Safaitic and other inscriptions of Syria and north Arabia",inscription,1st century BCE to 4th century CE,yes,,Bucket. A checked claim cites the inscription.
+papyri,"Greek, Demotic and Coptic papyri from Egypt",record,to the 8th century and later,yes,,Bucket. A checked claim cites the papyrus.
+african-inscriptions,"Latin, Punic and Libyan inscriptions of Roman Africa",inscription,1st to 6th century,yes,,Bucket. A checked claim cites the inscription.
+augustine,"Augustine of Hippo, letters and sermons",text,about 390 to 430,yes,,Bucket. Augustine mentions Punic spoken in the countryside of his diocese.
+corippus,"Corippus, Iohannis",text,about 550,no,,"A Latin epic on the Byzantine wars against the Moors, with many Berber names."
+theophanes,"Theophanes the Confessor, Chronicle",text,about 815,no,,
+william-tyre,"William of Tyre, History of Deeds Done Beyond the Sea",text,about 1184,no,,
+ottoman-registers,Ottoman tax registers (tahrir defters),record,15th to 17th century,yes,,Bucket. A checked claim cites the register and district.
+sharafnama,"Sharaf Khan Bidlisi, Sharafnama",text,1597,no,,"A history of the Kurdish ruling houses, written in Persian."
+census-neareast,"Modern censuses and language surveys of the Near East, the Caucasus and North Africa",census,1880s onward,yes,,Bucket. A checked claim cites the census year and table.
+islendingabok,"Ari Thorgilsson, Book of the Icelanders (Islendingabok)",text,about 1125,no,,Dates the settlement of Iceland to about 870.
+canarian-chronicles,Le Canarien and the Castilian chronicles of the conquest of the Canary Islands,text,15th century,yes,,Bucket. Written by the conquerors.
