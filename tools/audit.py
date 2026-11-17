@@ -36,6 +36,11 @@ WRITTEN_FROM = {
     "caribbean": 1492, "andesn": 1499, "guianas": 1596, "andes": 1532, "amazon": 1542, "brazil": 1500,
     "cone": 1516,
     "australia": 1606, "papua": 1526,
+    # Southeast Asia and the Pacific: Chinese accounts and local inscriptions on the mainland and in the
+    # western islands from the dates below; the eastern islands and the Pacific from European contact.
+    "burma": 500, "indochina": 250, "malaya": 700, "sumatra": 683, "java": 450, "borneo": 1000,
+    "taiwan": 1603, "eindonesia": 1512, "philippines": 1521, "melanesia": 1568, "micronesia": 1521,
+    "polynesia": 1595, "newzealand": 1642, "madagascar": 1500,
 }
 
 
