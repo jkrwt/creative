@@ -162,14 +162,39 @@
     }
     else { c.arc(x, y, r, 0, 6.2832); }
   }
+  // The same outlines as text, for the legend and the lists. A list can hold hundreds of symbols, and a small
+  // canvas for each one made every frame of the page costly; a vector shape costs next to nothing.
+  function pathText() {
+    var d = '', has = false, f = function (v) { return Math.round(v * 100) / 100; };
+    return {
+      beginPath: function () { d = ''; has = false; },
+      moveTo: function (x, y) { d += 'M' + f(x) + ' ' + f(y); has = true; },
+      lineTo: function (x, y) { d += (has ? 'L' : 'M') + f(x) + ' ' + f(y); has = true; },
+      closePath: function () { d += 'Z'; },
+      bezierCurveTo: function (a, b, c, e, x, y) { d += 'C' + [f(a), f(b), f(c), f(e), f(x), f(y)].join(' '); },
+      rect: function (x, y, w, h) { d += 'M' + f(x) + ' ' + f(y) + 'h' + f(w) + 'v' + f(h) + 'h' + f(-w) + 'Z'; has = true; },
+      arc: function (x, y, r, a0, a1, anti) {
+        var two = 2 * Math.PI, turn = anti ? a0 - a1 : a1 - a0, whole = Math.abs(turn) >= two - 0.001;
+        turn = ((turn % two) + two) % two; if (whole) turn = two;
+        var sx = x + r * Math.cos(a0), sy = y + r * Math.sin(a0), sweep = anti ? 0 : 1;
+        this.lineTo(sx, sy);
+        if (whole) { d += 'A' + f(r) + ' ' + f(r) + ' 0 1 ' + sweep + ' ' + f(x - r * Math.cos(a0)) + ' ' + f(y - r * Math.sin(a0)) + 'A' + f(r) + ' ' + f(r) + ' 0 1 ' + sweep + ' ' + f(sx) + ' ' + f(sy); }
+        else d += 'A' + f(r) + ' ' + f(r) + ' 0 ' + (turn > Math.PI ? 1 : 0) + ' ' + sweep + ' ' + f(x + r * Math.cos(a1)) + ' ' + f(y + r * Math.sin(a1));
+      },
+      text: function () { return d; }
+    };
+  }
+  var glyphText = {}, SVG = 'http://www.w3.org/2000/svg';
   function glyph(branch, color, size) {
-    var sz = size || 12, d = Math.min(window.devicePixelRatio || 1, 2), cv = document.createElement('canvas');
-    cv.width = cv.height = Math.round(sz * d); cv.style.width = cv.style.height = sz + 'px';
-    cv.className = 'glyph'; cv.setAttribute('aria-hidden', 'true');
-    var c = cv.getContext('2d'), shape = SHAPE[branch] || 'circle'; c.scale(d, d);
-    glyphPath(c, shape, sz / 2, sz / 2, sz * 0.36);
-    if (shape === 'ring') { c.lineWidth = sz * 0.17; c.strokeStyle = color; c.stroke(); } else { c.fillStyle = color; c.fill(); }
-    return cv;
+    var sz = size || 12, shape = SHAPE[branch] || 'circle', key = shape + sz, d = glyphText[key];
+    if (!d) { var rec = pathText(); glyphPath(rec, shape, sz / 2, sz / 2, sz * 0.36); d = glyphText[key] = rec.text(); }
+    var sv = document.createElementNS(SVG, 'svg'), pa = document.createElementNS(SVG, 'path');
+    sv.setAttribute('width', sz); sv.setAttribute('height', sz); sv.setAttribute('viewBox', '0 0 ' + sz + ' ' + sz);
+    sv.setAttribute('class', 'glyph'); sv.setAttribute('aria-hidden', 'true'); sv.setAttribute('focusable', 'false');
+    pa.setAttribute('d', d);
+    if (shape === 'ring') { pa.setAttribute('fill', 'none'); pa.setAttribute('stroke', color); pa.setAttribute('stroke-width', sz * 0.17); } else pa.setAttribute('fill', color);
+    sv.appendChild(pa);
+    return sv;
   }
 
   window.PeoplesAtlas = function (data, coast, opts) {
@@ -234,7 +259,7 @@
       p.allow = new Float32Array(regionNames.length + 1);      // 1 in its own regions, four fifths across a soft border, 0 elsewhere
       (p.rs || []).forEach(function (ri) { (softOf[ri] || []).forEach(function (rj) { p.allow[rj + 1] = 0.8; }); });
       (p.rs || []).forEach(function (ri) { p.allow[ri + 1] = 1; });
-      p.ft = -1; p.inOpen = false; p.inView = true;
+      p.ft = -1; p.inOpen = false; p.inView = true; p.bl = [];
       if (p.type !== 'polity' && RANGE[p.family]) {
         var r = RANGE[p.family], tone = TONE[p.family];
         if (p.type === 'language') { p.hue = r[0] + (r[1] - r[0]) * (0.3 + 0.4 * hash(p.id, 1)); p.rgb = hsl(p.hue, tone[0] * 0.85, tone[1] - 0.01 + 0.03 * hash(p.id, 2)); }   // washes of one family sit close together, so a continent reads as a few flat fields
@@ -244,7 +269,7 @@
       p.claims.forEach(function (c) {
         claimCount++; if (c.status === 'seed') seedCount++;
         if (c.kind === 'movement') return;
-        blobs.push({ pi: pi, c: c, r: Math.max(c.r_km, 12) / 111 });
+        var nb0 = { pi: pi, c: c, r: Math.max(c.r_km, 12) / 111, x: 0, y: 0 }; blobs.push(nb0); p.bl.push(nb0);
       });
     });
 
@@ -287,7 +312,7 @@
 
     slider.min = 0; slider.max = END; slider.step = 1;
     var W = 0, H = 0, S = 1, dpr = 1, GW = 0, GH = 0;
-    var base, coastLayer, mask, grid, gctx, img, stage, sctx;
+    var base, cover, grid, gctx, img, holderW = 0;
     var landCell, pw1, pw2, pb1, pb2, lw1, lw2, lb1, lb2, offX, offY, LUT = new Float32Array(260);
     for (var k = 0; k < 260; k++) LUT[k] = Math.exp(-k / 56);
     var year = +slider.value || 150, selected = -1, focus = '', playing = false, lastKey = '', lastField = -1e9;
@@ -328,12 +353,16 @@
       var path = new Path2D();
       rings.forEach(function (r) {
         turnsFor(r).forEach(function (turn) {
-          var pts = r.pts, pcut = false, pen = false;
+          var pts = r.pts, pcut = false, pen = false, lx = 1e9, ly = 1e9, third = Math.max(1, Math.floor(pts.length / 3));
           for (var i = 0; i <= pts.length; i++) {
             var j = i % pts.length, q = pts[j];
             var u = unit(V, r.u[j] + turn, q[1]), x = (u[0] - V.x0) * V.s * scale, y = (V.y1 - u[1]) * V.s * scale;
             var isCut = open && (Math.abs(q[0]) > 179.99 || q[1] >= EDGE[3] - 0.01 || q[1] <= EDGE[1] + 0.01);
             if (i === pts.length && !open) break;
+            // A point that lands within a third of a pixel of the last one adds nothing to the picture and a
+            // great deal to the work. Three points of every ring are always kept, so the smallest island stays.
+            if (pen && !isCut && !pcut && i % third && i < pts.length && Math.abs(x - lx) < 0.34 && Math.abs(y - ly) < 0.34) continue;
+            lx = x; ly = y;
             if (!pen || (isCut && pcut)) path.moveTo(x, y); else path.lineTo(x, y);
             pen = true; pcut = isCut;
             if (ext) { if (x < ext[0]) ext[0] = x; if (y < ext[1]) ext[1] = y; if (x > ext[2]) ext[2] = x; if (y > ext[3]) ext[3] = y; }
@@ -344,6 +373,17 @@
       return path;
     }
     function layer(w, h) { var c = document.createElement('canvas'); c.width = w; c.height = h; return c; }
+    // The map is a stack of four pictures, and the browser lays one over the other: the still base, the small
+    // field picture stretched to fit, the sea and coastline with a hole where the land is, and the names on
+    // top in the canvas the page was given. A frame then changes only the small field picture, where it used
+    // to copy five full-size pictures.
+    var lays = {};
+    ['base', 'field', 'cover'].forEach(function (k) {
+      var c = document.createElement('canvas'); c.className = 'maplayer'; c.setAttribute('aria-hidden', 'true');
+      canvas.parentNode.insertBefore(c, canvas); lays[k] = c;
+    });
+    function sized(k, pw, ph, w, h) { var c = lays[k]; c.width = pw; c.height = ph; c.style.width = w + 'px'; c.style.height = h + 'px'; return c; }
+    function setTransform(v) { canvas.style.transform = v; lays.base.style.transform = v; lays.field.style.transform = v; lays.cover.style.transform = v; }
 
     function resize() {
       var holder = canvas.parentNode, w = (holder && holder.clientWidth) || canvas.clientWidth || 320;
@@ -379,7 +419,7 @@
       CELL = Math.max(1.5, Math.sqrt(W * H / MAX_CELLS));
 
       // Static base: sea, engraved waterlines, bare land.
-      base = layer(PW, PH);
+      base = sized('base', PW, PH, W, H);
       var b = base.getContext('2d'), SEA = '#05080e', wl0 = Math.min(1, Math.max(0.42, W / 1100));
       b.fillStyle = SEA; b.fillRect(0, 0, PW, PH);
       b.lineJoin = 'round';
@@ -392,54 +432,45 @@
         for (gi2 = -HALFLON; gi2 <= HALFLON; gi2 += 2) { gq = unit(V, gi2, gj); if (gi2 === -HALFLON) grat.moveTo((gq[0] - V.x0) * S * dpr, (V.y1 - gq[1]) * S * dpr); else grat.lineTo((gq[0] - V.x0) * S * dpr, (V.y1 - gq[1]) * S * dpr); }
       }
       b.lineWidth = dpr; b.strokeStyle = 'rgba(140,170,200,.075)'; b.stroke(grat);
+      // The glow along the coast is soft, so it is drawn at a quarter of the size and stretched: a sixteenth of the work.
+      var GQ = 4, glow = layer(Math.ceil(PW / GQ), Math.ceil(PH / GQ)), gc = glow.getContext('2d'), shoreQ = new Path2D();
+      shoreQ.addPath(shore, new DOMMatrix().scale(1 / GQ)); gc.lineJoin = 'round';
       [[9, 0.05], [4, 0.09]].forEach(function (wl) {
-        b.lineWidth = 2 * wl[0] * wl0 * dpr; b.strokeStyle = 'rgba(120,175,215,' + wl[1] + ')'; b.stroke(shore);
+        gc.lineWidth = 2 * wl[0] * wl0 * dpr / GQ; gc.strokeStyle = 'rgba(120,175,215,' + wl[1] + ')'; gc.stroke(shoreQ);
       });
-      b.fillStyle = '#0b0e14'; b.fill(full);                      // land outside the survey, hatched
-      var hp = layer(8, 8), hc = hp.getContext('2d');
-      hc.strokeStyle = 'rgba(150,170,190,.2)'; hc.lineWidth = 1; hc.beginPath();
-      hc.moveTo(-2, 10); hc.lineTo(10, -2); hc.moveTo(-2, 2); hc.lineTo(2, -2); hc.moveTo(6, 10); hc.lineTo(10, 6); hc.stroke();
-      b.fillStyle = b.createPattern(hp, 'repeat'); b.fill(full);
-      var cov = layer(PW, PH), cc = cov.getContext('2d');           // covered land: the surveyed regions, joined up, cut to the coast
-      cc.fillStyle = '#151922'; cc.strokeStyle = '#151922'; cc.lineWidth = Math.max(2, 0.09 * S) * dpr; cc.lineJoin = 'round';
-      regionNames.forEach(function (name) {
-        if (!coveredSet[name] || !regionRings[name]) return;
-        var rp = tracePath(regionRings[name], dpr); cc.fill(rp); cc.stroke(rp);
-      });
-      cc.globalCompositeOperation = 'destination-in'; cc.fillStyle = '#fff'; cc.fill(full);
-      b.drawImage(cov, 0, 0);
-      var v = b.createRadialGradient(PW * .5, PH * .48, PH * .3, PW * .5, PH * .5, Math.max(PH * .78, PW * .5));
-      v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,.28)');
-      b.fillStyle = v; b.fillRect(0, 0, PW, PH);
-
-      mask = layer(PW, PH); var m = mask.getContext('2d'); m.fillStyle = '#fff'; m.fill(full);
-      coastLayer = layer(PW, PH); var c = coastLayer.getContext('2d');
-      c.lineJoin = 'round'; c.lineWidth = 0.8 * dpr; c.strokeStyle = 'rgba(235,244,250,.5)'; c.stroke(shore);
-      stage = layer(PW, PH); sctx = stage.getContext('2d'); sctx.imageSmoothingQuality = 'high';
-
+      b.imageSmoothingQuality = 'high'; b.drawImage(glow, 0, 0, glow.width * GQ, glow.height * GQ);
       // Field grid. Each land cell of a surveyed region carries that region's number, counted from 1.
       GW = Math.ceil(W / CELL); GH = Math.ceil(H / CELL);
       var n = GW * GH, i;
-      grid = layer(GW, GH); gctx = grid.getContext('2d'); img = gctx.createImageData(GW, GH);
+      grid = sized('field', GW, GH, GW * CELL, GH * CELL); gctx = grid.getContext('2d'); img = gctx.createImageData(GW, GH);
       landCell = new Uint8Array(n);
-      var landGrid = layer(GW, GH).getContext('2d'); landGrid.fillStyle = '#fff'; landGrid.fill(tracePath(landRings, 1 / CELL));
+      var small = new Path2D(); small.addPath(full, new DOMMatrix().scale(1 / (CELL * dpr)));      // the land path again, at grid size, without tracing it twice
+      var landGrid = layer(GW, GH).getContext('2d', { willReadFrequently: true }); landGrid.fillStyle = '#fff'; landGrid.fill(small);
       var isLand = landGrid.getImageData(0, 0, GW, GH).data;
-      var scratch = layer(GW, GH).getContext('2d', { willReadFrequently: true });
-      scratch.fillStyle = '#fff'; scratch.strokeStyle = '#fff'; scratch.lineWidth = Math.max(1.6, 0.07 * S / CELL); scratch.lineJoin = 'round';
-      regionNames.forEach(function (name, ri) {
-        if (!coveredSet[name] || !regionRings[name]) return;
-        var ext = [1e9, 1e9, -1e9, -1e9], rp = tracePath(regionRings[name], 1 / CELL, false, ext);
-        var x0 = Math.max(0, Math.floor(ext[0]) - 3), y0 = Math.max(0, Math.floor(ext[1]) - 3);
-        var x1 = Math.min(GW, Math.ceil(ext[2]) + 3), y1 = Math.min(GH, Math.ceil(ext[3]) + 3);
-        if (x1 <= x0 || y1 <= y0) return;
-        scratch.clearRect(x0, y0, x1 - x0, y1 - y0); scratch.fill(rp); scratch.stroke(rp);
-        var d = scratch.getImageData(x0, y0, x1 - x0, y1 - y0).data, bw = x1 - x0, bh = y1 - y0;
-        for (var yy = 0; yy < bh; yy++) for (var xx = 0; xx < bw; xx++) {
-          if (d[(yy * bw + xx) * 4 + 3] > 20) { i = (y0 + yy) * GW + x0 + xx; if (isLand[i * 4 + 3] > 20 && !landCell[i]) landCell[i] = ri + 1; }
-        }
-        scratch.clearRect(x0, y0, x1 - x0, y1 - y0);
-      });
-      for (var pass = 0; pass < 2; pass++) {       // the land outline is finer than the region outlines: close the slivers between them
+      // All regions go into one small picture, each in a colour that spells its number, and the picture is read
+      // once. Reading one picture per region was the slowest step of a redraw. Earlier regions are painted last,
+      // so where two outlines overlap the earlier one wins, as before.
+      var rc = layer(GW, GH).getContext('2d', { willReadFrequently: true });
+      rc.lineJoin = 'round'; rc.lineWidth = Math.max(1.6, 0.07 * S / CELL);
+      for (var ri = regionNames.length - 1; ri >= 0; ri--) {
+        var rname = regionNames[ri];
+        if (!coveredSet[rname] || !regionRings[rname]) continue;
+        var rp = tracePath(regionRings[rname], 1 / CELL), code = (ri + 1) * 3;
+        rc.fillStyle = rc.strokeStyle = 'rgb(' + code + ',' + (255 - code) + ',77)'; rc.fill(rp); rc.stroke(rp);
+      }
+      var rd = rc.getImageData(0, 0, GW, GH).data, o4, rv;
+      for (i = 0; i < n; i++) {
+        o4 = i * 4;
+        if (isLand[o4 + 3] > 20 && rd[o4 + 3] === 255 && rd[o4 + 2] === 77) { rv = rd[o4]; if (rv % 3 === 0 && rd[o4 + 1] === 255 - rv) landCell[i] = rv / 3; }
+      }
+      var wrong = [];                  // where two regions meet, a blended cell can spell a third region's number: it sits alone between two others
+      for (i = 0; i < n; i++) {
+        var tg = landCell[i]; if (!tg) continue;
+        var cx0 = i % GW, lf = cx0 ? landCell[i - 1] : 0, rt = cx0 < GW - 1 ? landCell[i + 1] : 0, up = i >= GW ? landCell[i - GW] : 0, dn = i + GW < n ? landCell[i + GW] : 0;
+        if ((lf && rt && lf !== tg && rt !== tg) || (up && dn && up !== tg && dn !== tg)) wrong.push(i);
+      }
+      for (i = 0; i < wrong.length; i++) landCell[wrong[i]] = 0;
+      for (var pass = 0; pass < 2; pass++) {       // close what that leaves, and the slivers where the land outline is finer than the region outlines
         var grow = [];
         for (i = 0; i < n; i++) {
           if (landCell[i] || isLand[i * 4 + 3] <= 20) continue;
@@ -448,6 +479,38 @@
         }
         for (i = 0; i < grow.length; i += 2) landCell[grow[i]] = grow[i + 1];
       }
+
+      b.fillStyle = '#151922'; b.fill(full);                      // surveyed land
+      var um = layer(GW, GH), uc = um.getContext('2d'), ui = uc.createImageData(GW, GH), outside = false;
+      for (i = 0; i < n; i++) if (isLand[i * 4 + 3] > 20 && !landCell[i]) { ui.data[i * 4 + 3] = 255; outside = true; }
+      if (outside) {                   // land outside the survey, hatched: its shape comes from the grid, so no region is traced at full size
+        uc.putImageData(ui, 0, 0);
+        var hl = layer(PW, PH), hx = hl.getContext('2d');
+        hx.drawImage(um, 0, 0, GW, GH, 0, 0, GW * CELL * dpr, GH * CELL * dpr);
+        hx.globalCompositeOperation = 'source-in'; hx.fillStyle = '#0b0e14'; hx.fillRect(0, 0, PW, PH);
+        var hp = layer(8, 8), hc = hp.getContext('2d');
+        hc.strokeStyle = 'rgba(150,170,190,.2)'; hc.lineWidth = 1; hc.beginPath();
+        hc.moveTo(-2, 10); hc.lineTo(10, -2); hc.moveTo(-2, 2); hc.lineTo(2, -2); hc.moveTo(6, 10); hc.lineTo(10, 6); hc.stroke();
+        hx.globalCompositeOperation = 'source-atop'; hx.fillStyle = hx.createPattern(hp, 'repeat'); hx.fillRect(0, 0, PW, PH);
+        hx.globalCompositeOperation = 'destination-in'; hx.fillStyle = '#fff'; hx.fill(full);
+        b.drawImage(hl, 0, 0);
+      }
+      var v = b.createRadialGradient(PW * .5, PH * .48, PH * .3, PW * .5, PH * .5, Math.max(PH * .78, PW * .5));
+      v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,.28)');
+      b.fillStyle = v; b.fillRect(0, 0, PW, PH);
+
+      // Over the fields: the sea again, with the land cut out of it, then the coastline. This is what keeps colour off the water.
+      cover = sized('cover', PW, PH, W, H); var c = cover.getContext('2d');
+      c.drawImage(base, 0, 0); c.globalCompositeOperation = 'destination-out'; c.fillStyle = '#fff'; c.fill(full); c.globalCompositeOperation = 'source-over';
+      c.lineJoin = 'round'; c.lineWidth = 0.8 * dpr; c.strokeStyle = 'rgba(235,244,250,.5)'; c.stroke(shore);
+      if (RX0 > 24) {                  // the view was widened to fill the page: quieten what lies beside it
+        var fade = Math.min(90, RX0) * dpr, gl = c.createLinearGradient((RX0 - 8) * dpr - fade, 0, (RX0 - 8) * dpr, 0), gr = c.createLinearGradient((RX1 + 8) * dpr, 0, (RX1 + 8) * dpr + fade, 0);
+        gl.addColorStop(0, 'rgba(5,8,14,.72)'); gl.addColorStop(1, 'rgba(5,8,14,0)'); gr.addColorStop(0, 'rgba(5,8,14,0)'); gr.addColorStop(1, 'rgba(5,8,14,.72)');
+        c.fillStyle = gl; c.fillRect(0, 0, (RX0 - 8) * dpr, PH); c.fillStyle = gr; c.fillRect((RX1 + 8) * dpr, 0, PW, PH);
+      }
+      labelKey = ''; holderW = w;
+      for (i = 0; i < blobs.length; i++) { var bq = px(blobs[i].c.lon, blobs[i].c.lat); blobs[i].x = bq[0]; blobs[i].y = bq[1]; }   // every claim's place in this view, worked out once
+
       pw1 = new Float32Array(n); pw2 = new Float32Array(n); pb1 = new Int16Array(n); pb2 = new Int16Array(n);
       lw1 = new Float32Array(n); lw2 = new Float32Array(n); lb1 = new Int16Array(n); lb2 = new Int16Array(n);
       offX = new Float32Array(GH); offY = new Float32Array(GW);
@@ -490,8 +553,12 @@
     // both pictures are scaled about the place the closer view looks at and cross-faded, which works whether
     // or not the two views share a projection. The real drawing takes over at the end. With motion off the
     // change is a cut.
-    var glide = null, labelHits = [];
-    function snap() { var pic = layer(canvas.width, canvas.height); pic.getContext('2d').drawImage(canvas, 0, 0); return pic; }
+    var glide = null, labelHits = [], labelKey = '', fontsIn = 0, labelAt = -1e9, labelEvery = 160;
+    function snap() {              // the whole picture as one, for the glide
+      var pic = layer(canvas.width, canvas.height), c = pic.getContext('2d'); c.imageSmoothingQuality = 'high';
+      c.drawImage(base, 0, 0); c.drawImage(grid, 0, 0, GW, GH, 0, 0, GW * CELL * dpr, GH * CELL * dpr); c.drawImage(cover, 0, 0); c.drawImage(canvas, 0, 0);
+      return pic;
+    }
     function feathered(pic) {      // a copy whose edges fade out, so the picture on top never shows a hard rectangle
       var copy = layer(pic.width, pic.height), c = copy.getContext('2d'), w = pic.width, h = pic.height, m = Math.min(w, h) * 0.1;
       c.drawImage(pic, 0, 0); c.globalCompositeOperation = 'destination-in';
@@ -523,6 +590,7 @@
         from: closing ? project(A.v, B.clon, B.clat) : [A.w / 2, A.h / 2],      // the anchor, in the first picture
         to: closing ? [B.w / 2, B.h / 2] : project(B.v, A.clon, A.clat),         // the same place, in the second
         t0: performance.now(), dur: 620 };
+      drawGlide(glide.t0);         // the first picture goes back on top at once, so the new one is never seen before the glide
     }
     function drawGlide(now) {
       var g = glide, u = Math.min(1, (now - g.t0) / g.dur), e = u < 0.5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2;
@@ -541,7 +609,7 @@
         place(false, g.picB, 1); place(true, g.soft, 1 - smooth(0.2, 0.8, e)); place(true, g.picA, 1 - smooth(0, 0.2, e));
       }
       ctx.globalAlpha = 1;
-      if (u >= 1) { glide = null; lastField = -1e9; draw(now); }
+      if (u >= 1) { glide = null; lastField = -1e9; labelKey = ''; draw(now); }
     }
 
     function openGroup(g) {
@@ -579,10 +647,10 @@
     // The field is made in two steps. splat() works out which claim owns each cell, which is the costly part
     // and only changes with the year, the view or what is folded. paint() colours the cells and runs every
     // frame: it moves the contour lines and the stripes.
-    var splatKey = '', lastSplat = -1e9;
+    var splatKey = '', lastSplat = -1e9, fieldEvery = 33, onScreen = true, quietUntil = 0;
     function field(t, now) {
       var key = year + '|' + openG + '|' + GW + '|' + GH + '|' + baseDepth + '|' + V.x0 + '|' + V.s;
-      if (key !== splatKey && (!playing || now == null || now - lastSplat > 55)) { splatKey = key; lastSplat = now || 0; splat(); }
+      if (key !== splatKey && (!playing || now == null || now - lastSplat > Math.max(55, fieldEvery))) { splatKey = key; lastSplat = now || 0; splat(); }
       paint(t);
     }
     function splat() {
@@ -599,7 +667,7 @@
         var a = alphaAt(b.c, year); if (a < 0.02) continue;
         var lang = p.type === 'language';
         var W1 = lang ? lw1 : pw1, W2 = lang ? lw2 : pw2, B1 = lang ? lb1 : pb1, B2 = lang ? lb2 : pb2;
-        var cls = b.c['class'], c = px(b.c.lon, b.c.lat), cx = c[0] / CELL, cy = c[1] / CELL, allow = p.allow;
+        var cls = b.c['class'], cx = b.x / CELL, cy = b.y / CELL, allow = p.allow;
         var sig = b.r * S / CELL * SPREAD[cls] * (b.flat ? 1.7 : 1), inv = 1 / (2 * sig * sig), rad = sig * 3.05 + 4, amp = a * (b.flat ? 0.75 : STRENGTH[cls]);
         var x0 = Math.max(0, Math.floor(cx - rad)), x1 = Math.min(GW - 1, Math.ceil(cx + rad));
         var y0 = Math.max(0, Math.floor(cy - rad)), y1 = Math.min(GH - 1, Math.ceil(cy + rad));
@@ -682,23 +750,19 @@
         }
       }
       gctx.putImageData(img, 0, 0);
-      sctx.globalCompositeOperation = 'source-over';
-      sctx.clearRect(0, 0, stage.width, stage.height);
-      sctx.drawImage(grid, 0, 0, GW, GH, 0, 0, GW * CELL * dpr, GH * CELL * dpr);
-      sctx.globalCompositeOperation = 'destination-in';
-      sctx.drawImage(mask, 0, 0);
     }
 
     function draw(now) {
       var t = still ? 0 : now * 0.001;
-      if (now - lastField > 30) { field(t, now); lastField = now; }
-      ctx.setTransform(1, 0, 0, 1, 0, 0);
-      ctx.drawImage(base, 0, 0); ctx.drawImage(stage, 0, 0); ctx.drawImage(coastLayer, 0, 0);
-      if (RX0 > 24) {                  // the view was widened to fill the page: quieten what lies beside it
-        var fade = Math.min(90, RX0) * dpr, gl = ctx.createLinearGradient((RX0 - 8) * dpr - fade, 0, (RX0 - 8) * dpr, 0), gr = ctx.createLinearGradient((RX1 + 8) * dpr, 0, (RX1 + 8) * dpr + fade, 0);
-        gl.addColorStop(0, 'rgba(5,8,14,.72)'); gl.addColorStop(1, 'rgba(5,8,14,0)'); gr.addColorStop(0, 'rgba(5,8,14,0)'); gr.addColorStop(1, 'rgba(5,8,14,.72)');
-        ctx.fillStyle = gl; ctx.fillRect(0, 0, (RX0 - 8) * dpr, canvas.height); ctx.fillStyle = gr; ctx.fillRect((RX1 + 8) * dpr, 0, canvas.width, canvas.height);
+      if (now - lastField > fieldEvery) {
+        var f0 = performance.now(); field(t, now); lastField = now;
+        fieldEvery = Math.max(40, Math.min(500, (performance.now() - f0) * 4));      // painting takes at most a quarter of the time, so a touch is never kept waiting
       }
+      var lkey = year + '|' + openG + '|' + selected + '|' + focus + '|' + curView.id + '|' + W + '|' + H + '|' + V.x0 + '|' + V.y1 + '|' + V.s + '|' + fontsIn + '|' + baseDepth;
+      if (lkey === labelKey) return;                           // the names stay as they are until one of these changes
+      if (playing && now - labelAt < labelEvery) return;       // while the year runs they are placed a few times a second, which also stops them flickering
+      labelKey = lkey; labelAt = now; var l0 = performance.now();
+      ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
       // Labels. A folded group gets one lead label with a count. An open group and ungrouped entries get one each.
@@ -707,7 +771,7 @@
         var a = alphaAt(b.c, year); if (a < 0.02) return;
         var p = people[b.pi];
         if (folded(p)) {
-          var at = px(b.c.lon, b.c.lat);
+          var at = [b.x, b.y];
           if (at[0] < RX0 - 30 || at[0] > RX1 + 30 || at[1] < -40 || at[1] > H + 40) return;   // off this view: it must not drag the lead's place
           var wgt = a * b.r * b.r, G = lead[p.ft] || (lead[p.ft] = { g: p.ft, x: 0, y: 0, w: 0, a: 0, top: at, topw: 0, open: p.inOpen });
           G.x += at[0] * wgt; G.y += at[1] * wgt; G.w += wgt; if (a > G.a) G.a = a;
@@ -730,12 +794,12 @@
       }
       labels.sort(function (u, v) { return rank(v) - rank(u); });
       labelHits = [];
-      var boxes = [], lvl = viewLevel(curView), seenW = Math.min(W, (canvas.parentNode && canvas.parentNode.clientWidth) || W), room = Math.max(4, Math.floor(W * H / (seenW < 600 ? 30000 : 11000))),   // a phone sees part of a wide map at a time
+      var boxes = [], lvl = viewLevel(curView), seenW = Math.min(W, holderW || W), room = Math.max(4, Math.floor(W * H / (seenW < 600 ? 30000 : 11000))),   // a phone sees part of a wide map at a time
            caps = (openG < 0 ? CAPS[Math.min(lvl, CAPS.length - 1)] : [40, 40, 40]).concat([60]).map(function (c, i) { return Math.min(c, i ? Math.ceil(room / (seenW < 600 ? 3 : 2)) * (i === 3 ? 3 : 1) : room); }), used = [0, 0, 0, 0];
       ctx.lineJoin = 'round'; ctx.textBaseline = 'middle';
       labels.forEach(function (L) {
         var isLead = !!L.lead, p = isLead ? null : people[L.b.pi], sel = !isLead && L.b.pi === selected;
-        var c = isLead ? L.at : px(L.b.c.lon, L.b.c.lat);
+        var c = isLead ? L.at : [L.b.x, L.b.y];
         if (L.a < 0.3 && !sel) return;
         if (c[0] < Math.max(6, RX0 - 24) || c[0] > Math.min(W - 6, RX1 + 24) || c[1] < 6 || c[1] > H - 6) return;   // its place is off the map, or beside the part asked for
         var kindOf = isLead ? 0 : p.type === 'language' ? 1 : p.type === 'polity' ? 2 : 3;
@@ -785,6 +849,7 @@
         if (sel) { ctx.fillStyle = fill; ctx.fillRect(bx + gw, by + size * 0.62, tw - space, 1.5); }
       });
       try { ctx.letterSpacing = '0px'; } catch (e2) {}
+      labelEvery = Math.max(160, Math.min(600, (performance.now() - l0) * 6));
     }
 
     function fmt(y) { return (y < 1 ? 1 : Math.round(y)) + ' CE'; }
@@ -850,6 +915,7 @@
 
     yearLabel.textContent = '';
     var yearNum = el('span', 'num'), yearEra = el('span', 'ce', 'CE'); yearLabel.appendChild(yearNum); yearLabel.appendChild(yearEra);
+    var listAt = 0;
     var eraIdx = -1, legendKey = '', MARKS = [], marksEl = $('marks'), spanEl = $('lifespan'), markName = $('markname');
     function pct(y) { return (y - 1) / (END - 1) * 100; }
     function eventsFor(v) {
@@ -890,14 +956,11 @@
       for (var gi = 0; gi < gLive.length; gi++) gLive[gi] = 0;
       var act = [];
       people.forEach(function (p, pi) {
-        var top = 0, vis = false;
-        p.claims.forEach(function (c) {
-          var a = alphaAt(c, year); if (a > top) top = a;
-          if (a > 0.05 && !vis && c.kind !== 'movement') {
-            var q = px(c.lon, c.lat), r = Math.max(c.r_km, 12) / 111 * S;
-            vis = q[0] > RX0 - r && q[0] < RX1 + r && q[1] > -r && q[1] < H + r;
-          }
-        });
+        var top = 0, vis = false, bl = p.bl;
+        for (var bk = 0; bk < bl.length; bk++) {
+          var bb2 = bl[bk], a = alphaAt(bb2.c, year); if (a > top) top = a;
+          if (a > 0.05 && !vis) { var r = bb2.r * S; vis = bb2.x > RX0 - r && bb2.x < RX1 + r && bb2.y > -r && bb2.y < H + r; }
+        }
         p.inView = vis;
         if (top > 0.05) p.chain.forEach(function (g) { gLive[g]++; });
         if (top > 0.35 && vis) act.push(pi);
@@ -922,10 +985,11 @@
       });
       leads.sort(function (a, b) { return gLive[b] - gLive[a]; });
       var lk = BRANCH_ORDER.filter(function (b) { return present[b]; }).map(function (b) { return b + ':' + Object.keys(present[b]).join(','); }).join('|');
-      if (lk !== legendKey) { legendKey = lk; buildLegend(present); }
+      var busy = playing && performance.now() - listAt < 500;      // while the year is running, the lists below the map catch up twice a second
+      if (lk !== legendKey && !busy) { legendKey = lk; buildLegend(present); }
       var key = shown.join(',') + '|' + selected + '|' + openG + '|' + curView.id + '|' + leads.map(function (i) { return i + ':' + gLive[i]; }).join(',');
-      if (key !== lastKey) {
-        lastKey = key; listEl.textContent = '';
+      if (key !== lastKey && !busy) {
+        lastKey = key; listAt = performance.now(); listEl.textContent = '';
         if (openG >= 0) showCrumb();
         if (leads.length) {
           var gg = el('div', 'grp'), gh = el('h3', null, 'Groups · ' + leads.length), gb = el('div', 'names');
@@ -969,7 +1033,7 @@
       if (still) draw(performance.now());
     }
 
-    function stop() { playing = false; playBtn.textContent = '\u25b6 Play'; playBtn.setAttribute('aria-pressed', 'false'); }
+    function stop() { if (playing) { lastKey = ''; listAt = 0; } playing = false; playBtn.textContent = '\u25b6 Play'; playBtn.setAttribute('aria-pressed', 'false'); }
 
     slider.addEventListener('input', function () { year = +slider.value; stop(); update(true); });
     // Letting go near a dated event lands on it. The reach is what three pixels of the track is worth.
@@ -1026,10 +1090,10 @@
     // zooms with Ctrl or Cmd held, which is also what a trackpad pinch sends.
     var ptrs = {}, nPtr = 0, gest = null, dragged = false, wheelTimer = 0;
     function holderRect() { return (canvas.parentNode || canvas).getBoundingClientRect(); }
-    function showGest() { canvas.style.transform = gest ? 'translate(' + gest.tx + 'px,' + gest.ty + 'px) scale(' + gest.k + ')' : ''; }
+    function showGest() { setTransform(gest ? 'translate(' + gest.tx + 'px,' + gest.ty + 'px) scale(' + gest.k + ')' : ''); }
     function clampK(k) { return Math.max(sMin / S, Math.min(sMax / S, k)); }
     function commitGest() {
-      var g = gest; gest = null; canvas.style.transform = '';
+      var g = gest; gest = null; setTransform('');
       if (!g || (Math.abs(g.k - 1) < 0.01 && Math.abs(g.tx) < 2 && Math.abs(g.ty) < 2)) return;
       var s2 = S * g.k, x0 = V.x0 - g.tx / g.k / S, y1 = V.y1 + g.ty / g.k / S;
       cam = { cx: x0 + W / (2 * s2), cy: y1 - H / (2 * s2), hu: H / s2 };
@@ -1290,10 +1354,12 @@
 
     var prev = 0;
     function frame(now) {
-      var dt = Math.min(100, now - prev); prev = now;
+      var dt = Math.min(250, now - prev); prev = now;
       if (glide) { drawGlide(now); requestAnimationFrame(frame); return; }
       if (playing) { year += dt * 0.06; if (year >= END) { year = END; stop(); } update(false); }
-      if (!still || playing) draw(now);
+      // Draw when something changed. Otherwise, with motion on, repaint only as often as this device can afford,
+      // and not while fingers are on the map, while the page is scrolling, or while the map is off the screen.
+      if (lastField < 0 || playing || (!still && !gest && onScreen && now > quietUntil && now - lastField > fieldEvery)) draw(now);
       requestAnimationFrame(frame);
     }
     // The address follows the view, so any moment can be shared: #y=1350&v=westafrica&g=group&s=entry.
@@ -1327,17 +1393,23 @@
       still = keep;
       return true;
     }
+    window.addEventListener('scroll', function () { quietUntil = performance.now() + 180; }, { passive: true });
+    if (window.IntersectionObserver) new IntersectionObserver(function (es) { onScreen = es[es.length - 1].isIntersecting; }).observe(canvas);
     window.addEventListener('hashchange', readHash);
     window.addEventListener('resize', resize);
     showDetail(-1); resize(); update(false); readHash(); syncZoom();
-    window.__atlas = { state: function () { return { view: curView.id, year: year, open: openG >= 0 ? gkeys[openG] : '', W: W, H: H, cell: CELL, cells: GW * GH }; },
+    window.__atlas = { bench: function () {      // how long each kind of work takes here, in milliseconds
+        function time(fn, n) { var t0 = performance.now(); for (var i = 0; i < n; i++) fn(i); return Math.round((performance.now() - t0) / n * 10) / 10; }
+        return { resize: time(function () { resize(); }, 3), splat: time(function () { splat(); }, 5), paint: time(function (i) { paint(i * 0.04); }, 8),
+          draw: time(function (i) { lastField = 1e18; draw(i); }, 8), update: time(function (i) { lastKey = ''; update(false); }, 3), cells: GW * GH, canvas: canvas.width + 'x' + canvas.height };
+      }, state: function () { return { view: curView.id, year: year, open: openG >= 0 ? gkeys[openG] : '', W: W, H: H, cell: CELL, cells: GW * GH }; },
       setView: function (id) { if (viewById[id]) { var keep = still; still = true; setView(viewById[id]); viewButtons(); still = keep; } },
       setYear: function (y) { year = y; update(false); }, openGroup: function (id) { var keep = still; still = true; openGroup(gpos[id]); still = keep; },
       fieldMs: function (n) { var t0 = performance.now(); for (var i = 0; i < n; i++) paint(i * 0.04); var t1 = performance.now(); splat(); return [(t1 - t0) / n, performance.now() - t1]; },
       dark: function () { var d = 0, land = 0; splat(); for (var i = 0; i < landCell.length; i++) if (landCell[i]) { land++; if (lb1[i] < 0 || lw1[i] < 0.045) d++; } return [d, land]; } };
     if (document.fonts && document.fonts.load) {
       Promise.all([document.fonts.load('700 12px "Space Grotesk"'), document.fonts.load('600 12px "Space Grotesk"'), document.fonts.load('500 12px Inter')])
-        .then(function () { draw(performance.now()); }, function () {});
+        .then(function () { fontsIn = 1; lastField = -1e9; draw(performance.now()); }, function () {});
     }
     requestAnimationFrame(frame);
   };

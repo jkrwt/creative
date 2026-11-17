@@ -74,7 +74,8 @@
 .atlas .mapwrap { position: relative; }
 .atlas .mapscroll { position: relative; overflow: hidden; background: #04070c; }
 .atlas .mapscroll::-webkit-scrollbar { display: none; }
-.atlas #map { display: block; background: #04070c; cursor: grab; touch-action: pan-y; transform-origin: 0 0; will-change: transform; user-select: none; -webkit-user-select: none; }
+.atlas .maplayer { position: absolute; left: 0; top: 0; display: block; pointer-events: none; transform-origin: 0 0; will-change: transform; }
+.atlas #map { display: block; position: relative; cursor: grab; touch-action: pan-y; transform-origin: 0 0; will-change: transform; user-select: none; -webkit-user-select: none; }
 .atlas #map:active { cursor: grabbing; }
 /* zoom: three small buttons on the map, for those who do not pinch */
 .atlas .zoom { position: absolute; z-index: 2; right: 10px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 4px; }
